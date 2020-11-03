@@ -1,0 +1,431 @@
+#!/usr/bin/env racket
+#lang racket/base
+
+(require json
+         racket/date
+         racket/file
+         racket/list
+         racket/match
+         racket/port
+         racket/random
+         racket/string)
+
+(define executable-name "cpu-sim")
+(define git-path (find-executable-path "git"))
+
+(struct git-error exn:fail:user ())
+
+(define (get-hostname)
+  (string-trim
+   (with-handlers ([exn:fail:filesystem? (λ (e) "")])
+     (file->string "/etc/hostname"))))
+
+(define (run-git #:show [show #f] . args)
+  (define argv (list* "--no-pager" args))
+  (when show
+    (printf "\e[1;34m[INFO] Running \"git ~A\"...\e[0m~%"
+            (string-join argv " ")))
+  (define-values (proc proc-output proc-input proc-error)
+    (apply subprocess #f #f #f git-path argv))
+  (close-output-port proc-input)
+  (subprocess-wait proc)
+  (define output (port->bytes proc-output))
+  (close-input-port proc-output)
+  (define error-string (port->string proc-error))
+  (close-input-port proc-error)
+  (when (not (eqv? (subprocess-status proc) 0))
+    (raise (git-error error-string (current-continuation-marks))))
+  output)
+
+(define (get-git-dir)
+  (define git-dir-with-newline (run-git "rev-parse" "--git-dir"))
+  (bytes->string/utf-8
+   (subbytes git-dir-with-newline
+             0 (sub1 (bytes-length git-dir-with-newline)))))
+
+(define (get-git-base)
+  (define git-repo-with-newline (run-git "rev-parse" "--show-toplevel"))
+  (bytes->string/utf-8
+   (subbytes git-repo-with-newline
+             0 (sub1 (bytes-length git-repo-with-newline)))))
+
+(define (git-ls-files #:untracked [untracked #f])
+  (define args
+    `("-C" ,(get-git-base) "ls-files" "-z" "--exclude-standard"
+           ,@(if untracked '("-o") '())))
+  (string-split (bytes->string/utf-8 (apply run-git args)) "\0"))
+
+(define (call-with-temporary-directory proc)
+  (define dirname
+    (build-path
+     (find-system-path 'temp-dir)
+     (list->string (for/list ([b (in-bytes (crypto-random-bytes 14))])
+                     (integer->char
+                      (+ (char->integer #\A)
+                         (floor (* 26 (/ b 256)))))))))
+  (make-directory* dirname)
+  (file-or-directory-permissions dirname #o700)
+  (proc dirname)
+  (delete-directory/files dirname))
+
+(define (call-with-temporary-clone proc)
+  (call-with-temporary-directory
+   (λ (dir)
+     (run-git "clone" (get-git-dir) (path->string dir))
+     (parameterize ([current-directory dir])
+       (proc)))))
+
+(struct presubmit-check
+  (name func [has-been-run #:auto #:mutable]))
+
+(struct presubmit-fatal exn:fail:user ())
+
+(define presubmit-accumulated-warnings (make-parameter '()))
+
+(define (presubmit-warning msg)
+  (display
+   (format "~%\e[1;31;7mWARNING:\e[0m ~A~%~%\e[34mDo you wish to continue anyway [y/N]?\e[0m "
+            msg))
+  (define input (read-line))
+  (match input
+    [(? eof-object?) (raise (presubmit-fatal "EOF encountered during prompt."
+                                             (current-continuation-marks)))]
+    [(or "y" "Y" "yes" "Yes" "YES") (presubmit-accumulated-warnings
+                                     (append (presubmit-accumulated-warnings)
+                                             (list msg)))]
+    [_ (raise (presubmit-fatal "Operation aborted by user."
+                                (current-continuation-marks)))]))
+
+(define in-git-repo-check
+  (presubmit-check
+   "InGitRepo"
+   (λ ()
+     (define in-git-repo
+       (with-handlers ([git-error? (λ (e) #f)])
+         (define output (run-git "rev-parse" "--is-inside-work-tree"))
+         (bytes=? output #"true\n")))
+     (when (not in-git-repo)
+       (raise (presubmit-fatal "You aren't in a git repository!"
+                               (current-continuation-marks)))))))
+
+(define is-isengard-check
+  (presubmit-check
+   "RunningOnIsengard"
+   (λ ()
+     (unless (string-prefix? (get-hostname) "isengard.mines.edu")
+       (presubmit-warning "You are not running this script on the Isengard server.
+
+Please be sure that your code compiles and runs properly on Isengard.")))))
+
+(define untracked-files-check
+  (presubmit-check
+   "UntrackedFiles"
+   (λ ()
+     (define files (git-ls-files #:untracked #t))
+     (unless (empty? files)
+       (presubmit-warning (format "You have untracked files:~%~%~A
+
+These files will not be included in your submission unless you commit them."
+                                  (string-join files "\n")))))))
+
+(define uncommitted-files-check
+  (presubmit-check
+   "UncommittedFiles"
+   (λ ()
+     (define files
+       (string-split (bytes->string/utf-8
+                      (run-git "diff" "-z" "--name-only" "HEAD"))
+                     "\0"))
+     (unless (empty? files)
+       (presubmit-warning (format "You have uncommitted changes:~%~%~A
+
+These changes to tracked files will not be included in your submission unless
+you commit them."
+                                  (string-join files "\n")))))))
+
+(define code-compiles-check
+  (presubmit-check
+   "CodeCompiles"
+   (λ ()
+     (call-with-temporary-clone
+      (λ ()
+        (call-with-output-file "/dev/null"
+          (λ (output-file)
+            (define-values (proc proc-output proc-input proc-error)
+              (subprocess output-file #f output-file
+                          (find-executable-path "make")))
+            (close-output-port proc-input)
+            (subprocess-wait proc)
+            (unless (eqv? (subprocess-status proc) 0)
+              (presubmit-warning "Your code does not compile successfully.")))
+          #:exists 'truncate)
+        ;; Should produce a binary under the correct name
+        (unless (file-exists? executable-name)
+          (presubmit-warning
+           (format "Running \"make\" should produce a file named ~S, but it didn't."
+                   executable-name)))
+        (unless (memq 'execute (file-or-directory-permissions "cpu-sim"))
+          (presubmit-warning (format  "The file ~S is not executable."
+                                      executable-name)))
+        (unless (equal? #"\x7fELF" (subbytes (file->bytes executable-name) 0 4))
+          (presubmit-warning
+           (format "The file ~S does not appear to be in ELF format."
+                   executable-name))))))))
+
+(define checkpatch-check
+  (presubmit-check
+   "LinuxKernelStyle"
+   (λ ()
+     (call-with-temporary-clone
+      (λ ()
+        (define c-source-files
+          (filter (λ (name)
+                    (ormap (λ (suffix)
+                             (string-suffix? name suffix))
+                           '(".c" ".cc" ".cxx" ".cpp" ".h" ".hxx" ".hpp")))
+                  (git-ls-files)))
+        (define checkpatch-output-file (make-temporary-file))
+        (define checkpatch-success
+          (call-with-output-file checkpatch-output-file
+            #:exists 'truncate
+            (λ (output-file)
+              (define-values (proc proc-output proc-input proc-error)
+                (apply subprocess
+                       output-file #f output-file "util/checkpatch.pl"
+                       "--no-tree"
+                       "--no-signoff"
+                       "--ignore=SPLIT_STRING"
+                       "--ignore=C99_COMMENT_TOLERANCE"
+                       "--ignore=SPDX_LICENSE_TAG"
+                       "--ignore=EMBEDDED_FUNCTION_NAME"
+                       "--ignore=CONST_STRUCT"
+                       "--ignore=FILE_PATH_CHANGES"
+                       "-f" c-source-files))
+              (close-output-port proc-input)
+              (subprocess-wait proc)
+              (eqv? (subprocess-status proc) 0))))
+        (define checkpatch-output
+          (string-join
+           (for/list ([line
+                       (string-split
+                        (string-replace
+                         (file->string checkpatch-output-file)
+                         "
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+"
+                         "")
+                        "\n")])
+             (format "> ~A" line)) "\n"))
+        (delete-file checkpatch-output-file)
+        (unless checkpatch-success
+          (presubmit-warning
+           (format "You have style errors.  Points may be deducted for poor style.
+
+See the Linux Kernel Style Guide for reference, the required style
+guide for this course:
+https://www.kernel.org/doc/html/v5.8/process/coding-style.html
+
+Checkpatch output:
+~A
+
+Note: you may be able to correct trivial indentation errors using
+clang-format.  Example:
+
+$ clang-format -i ~A
+$ git commit -am \"Ran clang-format\""
+                   checkpatch-output
+                   (string-join c-source-files " ")))))))))
+
+(define base-checks (list in-git-repo-check
+                          is-isengard-check
+                          untracked-files-check
+                          uncommitted-files-check
+                          code-compiles-check
+                          checkpatch-check))
+
+(define (run-presubmit-checks checks)
+  (let* ([checks (filter-not presubmit-check-has-been-run checks)]
+         [total-checks (length checks)])
+    (for/list ([check (in-list checks)]
+               [checknum (in-naturals 1)])
+      (printf "[~A/~A] Running ~A check...~%"
+              checknum total-checks (presubmit-check-name check))
+      (parameterize ([presubmit-accumulated-warnings '()])
+        (with-handlers
+          ([presubmit-fatal?
+            (λ (e)
+              (printf "\e[1;31m[ERROR] ~A check failed: ~A\e[0m~%"
+                      (presubmit-check-name check) (exn-message e))
+              (exit 1))])
+          ((presubmit-check-func check)))
+        (hasheq 'name (presubmit-check-name check)
+                'warnings (presubmit-accumulated-warnings))))))
+
+(struct deliverable (name git-tag presubmit-checks due-date))
+
+(define project-deliverables
+  (vector (deliverable "Final Submission" "project-submission" '() 1606201199)))
+
+(define (prompt-deliverable deliverables)
+  (define current-tags
+    (string-split (bytes->string/utf-8 (run-git "tag" "--list")) "\n"))
+  (display
+   (format "Choose the deliverable you are submitting:~%~%~A~%Input a number [1-~A]: "
+           (string-join
+            (for/list ([deliv (in-vector deliverables)]
+                       [i (in-naturals 1)])
+              (format "  ~A. ~A (due ~A)~A~%"
+                      i (deliverable-name deliv)
+                      (date->string
+                       (seconds->date (deliverable-due-date deliv))
+                       #t)
+                      (if (member (deliverable-git-tag deliv) current-tags)
+                          " (already submitted)"
+                          "")))
+            "")
+           (vector-length deliverables)))
+  (define choice (read-line))
+
+  (when (eof-object? choice)
+    (displayln "\e[1;31m[ERROR] EOF encountered when prompting deliverable.\e[0m")
+    (exit 1))
+
+  (match (string->number choice)
+    [(and (? exact-positive-integer? n)
+          (? (λ (n) (<= n (vector-length deliverables)))))
+     (let ([deliv (vector-ref deliverables (sub1 n))])
+       (values deliv (member (deliverable-git-tag deliv) current-tags)))]
+    [_ (displayln "\e[1;31m[ERROR] Input not valid.\e[0m")
+       (prompt-deliverable deliverables)]))
+
+(define (prompt-slip-days calc-slip-days)
+  (printf "By my calculations, you need to spend ~A slip days to submit this deliverable.
+
+Please check your tallies to make sure you have enough slip days to submit,
+and note down this submission.  It's *your* responsibility to track your
+balance.  Please don't email us to enquire on your balance.
+
+To accept the default calculation (~A slip days), simply press Enter.
+
+If you've received an extension, for example, due to school excused absense,
+please adjust this number for me.  Type the new number in, then press Enter.
+
+Enter a correction, or simply press \"Enter\" for default calculation: "
+          calc-slip-days calc-slip-days)
+  (define input (string-trim (read-line)))
+  (define (ensure-less-than-5 val)
+    (if (<= val 5)
+        val
+        (begin
+          (display "
+Submitting with more than 5 slip days on a single deliverable requires
+instructor permission.  Have you gotten this permission [y/N]? ")
+          (match (read-line)
+            [(or "Y" "y" "Yes" "yes" "YES") val]
+            [_ (display "Aborting.  Please get instructor permission first.")
+               (exit 1)]))))
+  (ensure-less-than-5
+   (match input
+     ["" calc-slip-days]
+     [_ (match (string->number input)
+          [(? exact-nonnegative-integer? i) i]
+          [_ (display "Aborting.  I don't understand your input.")
+             (exit 1)])])))
+
+(define (prompt-author-info)
+  (for/hasheq ([(id prompt)
+                (in-hash '#hasheq((full-name . "Full Name")
+                                  (username . "Mines username")
+                                  (cwid . "CWID")))])
+    (values id (begin
+                 (printf "Please enter your ~A: " prompt)
+                 (read-line)))))
+
+(define (submit-my-work)
+  (define deliv-metadata (make-hasheq))
+  (hash-set! deliv-metadata 'hostname (get-hostname))
+  (hash-set! deliv-metadata 'base-checks (run-presubmit-checks base-checks))
+  (define-values (deliv resubmission)
+    (prompt-deliverable project-deliverables))
+  (hash-set! deliv-metadata 'deliverable-specific-checks
+             (run-presubmit-checks (deliverable-presubmit-checks deliv)))
+  (hash-set! deliv-metadata 'local-due-date (deliverable-due-date deliv))
+  (define current-timestamp (current-seconds))
+  (hash-set! deliv-metadata 'local-timestamp current-timestamp)
+  (hash-set! deliv-metadata 'resubmission-detected resubmission)
+  (define metadata-path
+    (build-path (get-git-base) "submission_metadata.json"))
+  (define prev-metadata
+    (with-handlers ([exn:fail:filesystem? (λ (e) '#hasheq((deliverables . #hasheq())))])
+      (with-input-from-file metadata-path read-json)))
+  (define carried-slip-days
+    (for/sum ([(dtag dmeta) (in-hash (hash-ref prev-metadata 'deliverables))])
+      (if (or (equal? (symbol->string dtag) (deliverable-git-tag deliv))
+              (< (hash-ref dmeta 'slip-days-spent) 0))
+          0
+          (hash-ref dmeta 'slip-days-spent))))
+  (hash-set! deliv-metadata 'carried-slip-days carried-slip-days)
+  (when (> carried-slip-days 0)
+    (printf "\e[1;34m[INFO] You are carrying ~A slip days from previous deliverables.\e[0m~%"
+            carried-slip-days))
+  (define calc-slip-days
+    (max 0 (- (ceiling (/ (- current-timestamp
+                             (deliverable-due-date deliv))
+                          86400))
+              carried-slip-days)))
+  (hash-set! deliv-metadata 'calc-slip-days calc-slip-days)
+  (define slip-days-spent
+    (if (> calc-slip-days 0)
+        (prompt-slip-days calc-slip-days)
+        0))
+  (when (= slip-days-spent 0)
+    (displayln "\e[1;34m[INFO] Congratulations!  You're submitting without using slip days!
+Give yourself a pat on the back, and keep up the great work.\e[0m"))
+  (hash-set! deliv-metadata 'slip-days-spent slip-days-spent)
+
+  (define author-info (or (hash-ref prev-metadata 'author-info #f)
+                          (prompt-author-info)))
+
+  (define new-metadata
+    (hasheq
+     'author-info author-info
+     'deliverables (hash-set* (hash-ref prev-metadata 'deliverables)
+                              (string->symbol (deliverable-git-tag deliv)) deliv-metadata)))
+
+  ;; Use jq to get pretty formatting
+  (call-with-output-file metadata-path
+    #:exists 'truncate
+    (λ (output-file)
+      (define-values (proc proc-output proc-input proc-error)
+        (subprocess output-file #f (current-error-port)
+                    (find-executable-path "jq") "."))
+      (write-json new-metadata proc-input)
+      (close-output-port proc-input)
+      (subprocess-wait proc)
+      (when (not (eqv? (subprocess-status proc) 0))
+        (displayln "\e[1;33m[WARNING] Pretty-printing JSON with \"jq\" failed.  Using not-so-pretty JSON.\e[0m")
+        (write-json new-metadata output-file))))
+
+  (run-git "add" (path->string metadata-path))
+  (run-git "commit" "--no-gpg-sign" "--no-edit"
+           "-m" "Updated project submission metadata"
+           "--" (path->string metadata-path))
+
+  (when resubmission
+    (displayln "\e[1;34m[INFO] This is a resubmission and will require a force push.
+The grader has no obligation to use your new submission if
+they have already cloned your repo, so please try and submit
+only once next time ;)\e[0m")
+    (run-git "tag" "-d" (deliverable-git-tag deliv) #:show #t))
+  (run-git "tag" (deliverable-git-tag deliv) #:show #t)
+  (define push-args
+    (if resubmission
+        '("--tags" "--force")
+        '("--tags")))
+  (apply run-git "push" push-args #:show #t)
+  (printf "\e[1;34m[INFO] Your work for \"~A\" has been submitted!\e[0m~%"
+          (deliverable-name deliv)))
+
+(module+ main
+  (void (submit-my-work)))
