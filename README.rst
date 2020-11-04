@@ -129,9 +129,9 @@ Submit this item through Canvas
 ^^^^^^^^^^^^^^^^^^^
 Please **MAKE SURE** you do all the following, prior to submission:
 
-1. Your code compiles on Isengard: To compile your code, the grader should be to cd into the root directory of your repository and simply type make using the provided makefile.
+1. Your code compiles on Isengard: To compile your code, the grader should be to cd into the root directory of your repository and simply type make using the provided Makefile.
 2. Your simulation should be able to be executed by typing ./cpu-sim in the root directory of your repository.
-3. You keep the makefile, the test-my-work.sh, and submit-my-work files, as well as the src/, submission-details/, and tests/ folders from the starter code, in the root directory of your repository.
+3. You keep the Makefile, the test-my-work.sh, and submit-my-work files, as well as the src/, submission-details/, and tests/ folders from the starter code, in the root directory of your repository.
 4. Your program parses input flags correctly, and outputs the correct information in response. See Sections 8 and 9.
 5. Your program determines the file to parse from the command line.
 6. You have the full simulation logic implemented.
@@ -170,7 +170,7 @@ Included with the starter code is a string formatting library, fmtlib [#]_ . To 
 You are free to use the starter code and the libraries if you find them beneficial for implementing your project. You are not required to use any of the provided starter code, and as long as your program is implemented in
 C++, runs on Isengard, does not crash, meets all specified requirements, and produces the correct output, you are free to design your program as you see fit.
 
-The starter code includes a ``makefile`` that builds everything under the ``src/`` directory, placing temporary files in a ``bin/`` directory and the program itself, named ``cpu-sim``, in the root of the repository. Do not make changes to the ``makefile`` without prior approval by the instructors.
+The starter code includes a ``Makefile`` that builds everything under the ``src/`` directory, placing temporary files in a ``bin/`` directory and the program itself, named ``cpu-sim``, in the root of the repository. Do not make changes to the ``Makefile`` without prior approval by the instructors.
 
 Chapter 9 in your textbook describes uniprocessor scheduling, and provides good background information on what you are trying to implement. It also provides a number of diagrams that you may find helpful for understanding how threads should be between states (for example, Figure 9.1).
 
