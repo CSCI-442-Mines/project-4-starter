@@ -172,77 +172,11 @@ you commit them."
            (format "The file ~S does not appear to be in ELF format."
                    executable-name))))))))
 
-(define checkpatch-check
-  (presubmit-check
-   "LinuxKernelStyle"
-   (λ ()
-     (call-with-temporary-clone
-      (λ ()
-        (define c-source-files
-          (filter (λ (name)
-                    (ormap (λ (suffix)
-                             (string-suffix? name suffix))
-                           '(".c" ".cc" ".cxx" ".cpp" ".h" ".hxx" ".hpp")))
-                  (git-ls-files)))
-        (define checkpatch-output-file (make-temporary-file))
-        (define checkpatch-success
-          (call-with-output-file checkpatch-output-file
-            #:exists 'truncate
-            (λ (output-file)
-              (define-values (proc proc-output proc-input proc-error)
-                (apply subprocess
-                       output-file #f output-file "util/checkpatch.pl"
-                       "--no-tree"
-                       "--no-signoff"
-                       "--ignore=SPLIT_STRING"
-                       "--ignore=C99_COMMENT_TOLERANCE"
-                       "--ignore=SPDX_LICENSE_TAG"
-                       "--ignore=EMBEDDED_FUNCTION_NAME"
-                       "--ignore=CONST_STRUCT"
-                       "--ignore=FILE_PATH_CHANGES"
-                       "-f" c-source-files))
-              (close-output-port proc-input)
-              (subprocess-wait proc)
-              (eqv? (subprocess-status proc) 0))))
-        (define checkpatch-output
-          (string-join
-           (for/list ([line
-                       (string-split
-                        (string-replace
-                         (file->string checkpatch-output-file)
-                         "
-NOTE: For some of the reported defects, checkpatch may be able to
-      mechanically convert to the typical style using --fix or --fix-inplace.
-"
-                         "")
-                        "\n")])
-             (format "> ~A" line)) "\n"))
-        (delete-file checkpatch-output-file)
-        (unless checkpatch-success
-          (presubmit-warning
-           (format "You have style errors.  Points may be deducted for poor style.
-
-See the Linux Kernel Style Guide for reference, the required style
-guide for this course:
-https://www.kernel.org/doc/html/v5.8/process/coding-style.html
-
-Checkpatch output:
-~A
-
-Note: you may be able to correct trivial indentation errors using
-clang-format.  Example:
-
-$ clang-format -i ~A
-$ git commit -am \"Ran clang-format\""
-                   checkpatch-output
-                   (string-join c-source-files " ")))))))))
-
 (define base-checks (list in-git-repo-check
                           is-isengard-check
                           untracked-files-check
                           uncommitted-files-check
-                          code-compiles-check
-                          checkpatch-check))
+                          code-compiles-check))
 
 (define (run-presubmit-checks checks)
   (let* ([checks (filter-not presubmit-check-has-been-run checks)]
