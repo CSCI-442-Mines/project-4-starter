@@ -160,17 +160,18 @@ you commit them."
               (presubmit-warning "Your code does not compile successfully.")))
           #:exists 'truncate)
         ;; Should produce a binary under the correct name
-        (unless (file-exists? executable-name)
-          (presubmit-warning
-           (format "Running \"make\" should produce a file named ~S, but it didn't."
-                   executable-name)))
-        (unless (memq 'execute (file-or-directory-permissions "cpu-sim"))
-          (presubmit-warning (format  "The file ~S is not executable."
-                                      executable-name)))
-        (unless (equal? #"\x7fELF" (subbytes (file->bytes executable-name) 0 4))
-          (presubmit-warning
-           (format "The file ~S does not appear to be in ELF format."
-                   executable-name))))))))
+        (if (not (file-exists? executable-name))
+            (presubmit-warning
+             (format "Running \"make\" should produce a file named ~S, but it didn't."
+                     executable-name))
+            (begin
+              (unless (memq 'execute (file-or-directory-permissions executable-name))
+                (presubmit-warning (format  "The file ~S is not executable."
+                                            executable-name)))
+              (unless (equal? #"\x7fELF" (subbytes (file->bytes executable-name) 0 4))
+                (presubmit-warning
+                 (format "The file ~S does not appear to be in ELF format."
+                         executable-name))))))))))
 
 (define base-checks (list in-git-repo-check
                           is-isengard-check
