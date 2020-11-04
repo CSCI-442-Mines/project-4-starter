@@ -1,0 +1,35 @@
+bin/
+mem-sim
+cpu-sim
+cpu-sim-tests
+.vscode
+*.dSYM
+
+.DS_Store
+.AppleDouble
+.LSOverride
+
+Desktop.ini
+
+._*
+
+*.o
+*.d
+
+Thumbs.db
+
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+__MACOSX/
