@@ -2,7 +2,7 @@ CSCI-442 - Fall'20: Project 4 - CPU Scheduling Simulator
 ==============================================
 
 :Assigned: November 2, 2020
-:Due: November 23, 2020, at 11:59 PM
+:Due: November 24, 2020, at 11:59 PM
 
 Introduction
 ------------
@@ -104,29 +104,16 @@ To determine the next event to handle, a priority queue is used to sort the even
 - The time the event occurs. The earliest time comes first (time 3 comes before time 12).
 - If two events have the time, then the tie breaker should be the events’ number: as each new event is created, it should be assigned a number representing how many events have been created. For example, the first event in the simulation should be given the number 0, the second the number 1, and so on. The earliest number should come first (event number 6 comes before event number 7).
 
-4 Deliverable
+4 The submission
 --------------------
-You are required to submit each deliverable by 23:59 on the due date, however you may take advantage of your slip days to turn the deliverable in late.
+You are required to submit the project by 23:59 on the due date, however you may take advantage of your slip days to turn the submission in late. The project must be submitted using your GitHub repository, created from the GitHub classroom link that will be provided on Canvas.
 
-The first deliverable should be submitted through Canvas, while the second deliverable must be submitted using your GitHub repository, created from the GitHub classroom link that will be provided on Canvas.
-
-4.1 Deliverable 1 Due: 
+4.1 Submission Objective
 ~~~~~~~~~~~~~~~~~~~
-This deliverable is designed to help you understand the simulation framework and does not involve any
-coding.
+Implement the entire process simulation. Using starter code is optional as long as your code passes the items in the checklist and tests given in Section 5.
 
-[**D.1**] Using the simulation provided in Appendix A and both the FCFS and RR algorithms:
-- Create a trace of events and transitions, by hand (i.e., not programmatically).
-- In addition, calculate all the required statistics and metrics for the simulation, by hand (i.e., not programmatically)—see Section 9 for the simulation output requirements, and Appendix B for an example of what you would need to turn in.
-
-Submit this item through Canvas
-
-4.2 Deliverable 2 Due: 
+4.2 Submission Checklist
 ~~~~~~~~~~~~~~~~~~~
-[**D.2**] Implement the entire process simulation. Using starter code is optional as long as your code passes the items in the checklist and tests given in Section 5.
-
-4.2.1 D2 CHECKLIST
-^^^^^^^^^^^^^^^^^^^
 Please **MAKE SURE** you do all the following, prior to submission:
 
 1. Your code compiles on Isengard: To compile your code, the grader should be to cd into the root directory of your repository and simply type make using the provided Makefile.
@@ -138,14 +125,9 @@ Please **MAKE SURE** you do all the following, prior to submission:
 7. The FCFS and RR algorithms are implemented.
 8. All required metrics are displayed on program completion and match the user input flag choices.
 9. Any improper command line input should cause your program to print the help message and then immediately exit.
-10. Your code passes all the tests given in Section 5 on Isengard.
-11. Make sure the submission-details/ folder contains:
-
-    - An author file that contains your name: from the root of your repository, type echo YOUR NAME > submission-details/author
-    - A time-spent file that contains the time you have spent on this project, in minutes: Please keep entering echo MINUTES >> submission-details/time-spent as you progress through the project.
-   
-12. You commited and pushed your code.
-13. The submission script, submit-my-work, successfully runs.
+10. Your code passes all the tests given in Section 5 on Isengard.   
+11. You commited and pushed your code.
+12. The submission script, submit-my-work, successfully runs.
 
     - This script has been provided with the starter code so that your code compiles and it is properly committed at the time of submission.
     - To use it, make sure that it has execution permissions (chmod +x submit-my-work) and type ./submit-my-work from the root of your repository.
@@ -155,15 +137,15 @@ Please **MAKE SURE** you do all the following, prior to submission:
 Grading for this project is dependent on your program’s ability to produce the correct output given a
 simulation input file, so it is vital that you follow all output formatting requirements.
 
-- The tests/ folder in the starter code contains a number of input and output pairs that your simulation will be tested against. 80% of your D2 grade will be based on the successful execution of the script below. The scripts runs your simulation for every input file in the tests/input/ folder, and runs diff between the output of your simulation against the reference outputs under tests/output/ folder. If there is no difference (i.e., no output), your simulation ran as expected.
-- The remaining 20% of your D2 grade will be based on the input files we will generate during grading. This is to make sure that you haven’t hard-coded the outputs in your simulation.
+- The tests/ folder in the starter code contains a number of input and output pairs that your simulation will be tested against. 80% of your grade will be based on the successful execution of the script below. The scripts runs your simulation for every input file in the tests/input/ folder, and runs diff between the output of your simulation against the reference outputs under tests/output/ folder. If there is no difference (i.e., no output), your simulation ran as expected.
+- The remaining 20% of your grade will be based on the input files we will generate during grading. This is to make sure that you haven’t hard-coded the outputs in your simulation.
 - You should expect your code to be evaluated based on how similar it is to the expected output by using a function such as diff. Make sure that all debugging and other non-required print statements have been commented out before submitting your code. Both stdout and stderr will be captured, so ensure that nothing unexpected is going to be printed to either of these output streams. Logger functionality is provided with the starter code to help ensure that your program will output as expected by the grading scripts.
 
 In order for you to easily test your simulation against the inputs and outputs under the tests/ folder, we have provided a bash script named test-my-work.sh in the root directory of your repository. You can run it by typing ./test-my-work.sh (ensure it has execution permissions). For a specific, input/output/parameter combination, if the output of your simulation does not match the expected output, the testing will stop and give you more details. Otherwise, it will print a Test passed! message. We will use a similar script in our grading.
 
 6 Getting Started
 --------------------
-Starter code has been provided for you to help you get started. The starter code contains complete code that implements logger functionality, a class called ``Logger``, so that you can easily print output in the correct format. The ``Simulation`` class has its functionality for reading and parsing the simulation file implemented for you, but you will need to implement the rest of the functionality for the next-event simulation. A number of other classes have also been provided, however you will need to implement many of them. The starter code contains documentation to help you understand how these classes and their functionality should be implemented, so it is recommended that you read through the starter code carefully before starting to program.
+Starter code has been provided for you to help you get started. The starter code contains complete code that implements logger functionality, a class called ``Logger``, so that you can easily print output in the correct format. The ``Simulation`` class has its functionality for reading and parsing the simulation file implemented for you, but you will need to implement the rest of the functionality for the next-event simulation. A number of other classes have also been provided, however you will need to implement many of them. The starter code contains documentation to help you understand how these classes and their functionality should be implemented, so it is recommended that you read through the starter code carefully before starting to program. Flow charts have been provided in the Appendix under Section C. These should help in understanding how the project starter code could be implemented.
 
 Included with the starter code is a string formatting library, fmtlib [#]_ . To use the string formatting library, you will need to ``#include "utilities/fmt/format.h"`` in your file. You can see an example of how to use the library within ``src/utilities/logger.cpp``. 
 
@@ -399,27 +381,42 @@ If multiple flags are input, all should be printed, in this order:
 ~~~~~~~~~~~~~~~~~~~
 Again, it is highly recommended that you take advantage of the existing logger functionality!
 
+10 Collaboration Policy
+--------------------
+
+This is an **individual project**.  All code you submit should be
+written by yourself.  You should not share your code with others.
+
+Please see the syllabus for the full collaboration policy.
+
+.. warning::
+
+   **Plagarism will be punished harshly!**
+
+11 Access to Isengard
+------------------
+
+We have changed the standard grading environment from the ALAMODE lab
+to Isengard with this project, as the functionality of the ALAMODE
+machines has been deteriorating this semester [#]_.
+
+Remote access to Isengard is quite similar to ALAMODE, but the
+hostname is ``isengard.mines.edu``.
+
+For example, to ``ssh`` into the machine with your campus MultiPass
+login, use this command::
+
+  $ ssh username@isengard.mines.edu
+
+Note: you need to be on the campus network or VPN for this to work.
+If you are working from home, use either the VPN or hop thru
+``imagine.mines.edu`` first.
 
 Appendices
 ==============================================
 
-A Deliverable 1 Simulation
+A Example Simulation Input
 --------------------
-
-.. code-block::
-
-   1 4 9
-
-   4 1 1
-   3 4
-   2 9
-   5 3
-   8 2
-   9
-
-B Example Simulation Output
---------------------
-For the following simulation:
 
 .. code-block::
 
@@ -431,7 +428,9 @@ For the following simulation:
    3 6
    1
 
-this was output:
+B Example Simulation Output
+--------------------
+For the input above, this was the output:
 
 .. code-block::
 
@@ -530,9 +529,9 @@ this was output:
    CPU utilization:          65.62%
    CPU efficiency:           25.00%
    
-C Function Diagrams
+C Flow Charts
 --------------------
-This section contains a couple function diagrams. These diagram reference functions that are present, but may need to be implemented, in the starter code. For example, ``handle_thread_arrived(event)`` is a function within the ``Simulation`` class.
+This section contains a couple flow charts. These diagram reference functions that are present, but may need to be implemented, in the starter code. For example, ``handle_thread_arrived(event)`` is a function within the ``Simulation`` class.
 
 .. figure:: images/handle_thread_arrived.jpg
    :width: 100 %
@@ -544,4 +543,12 @@ This section contains a couple function diagrams. These diagram reference functi
    
    Figure 3: An example implementation of the handle dispatcher invoked(event) function.
    
+   
+**Additional charts for other events**: While we don't oficially provide more flow charts for other events, we uploaded several sample diagrams drawn by previous top-performing students of the class to the files section of Canvas. While we cannot guarantee the accuracy of those diagrams they may still give you ideas about how to establish your code logic. Please use those diagrams with caution since we won't be able to help you with undestanding a specific student's logic when they did the project. 
+   
+   
 .. [#] https://github.com/fmtlib/fmt
+.. [#] Standard editors like Emacs and Vim have stopped functioning,
+   and we've even noticed compiler issues on some machines.  We
+   presume CCIT is struggling to maintain these machines with limited
+   lab access due to COVID.
