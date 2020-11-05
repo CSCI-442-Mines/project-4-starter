@@ -1,4 +1,4 @@
-CSCI-442 - Fall'20: Project 3 - CPU Scheduling Simulator
+CSCI-442 - Fall'20: Project 4 - CPU Scheduling Simulator
 ==============================================
 
 :Assigned: November 2, 2020
