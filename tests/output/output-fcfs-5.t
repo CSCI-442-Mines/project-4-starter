@@ -1,7 +1,8 @@
 SIMULATION COMPLETED!
 
 Process 35 [INTERACTIVE]:
-    Thread  0:    ARR: 80     CPU: 109    I/O: 151    TRT: 617    END: 697   
+    Thread  0:    ARR: 80     CPU: 5      I/O: 0      TRT: 71     END: 151   
 
 Process 140 [NORMAL]:
-    Thread  0:    ARR: 62     CPU: 61     I/O: 34     TRT: 355    END: 417   
+    Thread  0:    ARR: 62     CPU: 12     I/O: 0      TRT: 48     END: 110   
+
