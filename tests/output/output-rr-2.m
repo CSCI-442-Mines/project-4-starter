@@ -3,7 +3,7 @@ SIMULATION COMPLETED!
 SYSTEM THREADS:
     Total Count:                  2
     Avg. response time:       91.50
-    Avg. turnaround time:    682.50
+    Avg. turnaround time:   2128.00
 
 INTERACTIVE THREADS:
     Total Count:                  0
@@ -13,19 +13,18 @@ INTERACTIVE THREADS:
 NORMAL THREADS:
     Total Count:                  1
     Avg. response time:       47.00
-    Avg. turnaround time:    613.00
+    Avg. turnaround time:   1847.00
 
 BATCH THREADS:
     Total Count:                  0
     Avg. response time:        0.00
     Avg. turnaround time:      0.00
 
-Total elapsed time:            733
-Total service time:             60
-Total I/O time:                  0
-Total dispatch time:           654
-Total idle time:                19
+Total elapsed time:           2351
+Total service time:            223
+Total I/O time:                191
+Total dispatch time:          2048
+Total idle time:                80
 
-CPU utilization:            97.41%
-CPU efficiency:              8.19%
-
+CPU utilization:            96.60%
+CPU efficiency:              9.49%

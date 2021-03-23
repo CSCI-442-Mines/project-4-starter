@@ -152,8 +152,7 @@ public:
 
     void handle_cpu_burst_completed(const std::shared_ptr<Event> event);
 
-    //you do not have to implement io_burst
-    //void handle_io_burst_completed(const std::shared_ptr<Event> event);
+    void handle_io_burst_completed(const std::shared_ptr<Event> event);
 
     void handle_thread_completed(const std::shared_ptr<Event> event);
 

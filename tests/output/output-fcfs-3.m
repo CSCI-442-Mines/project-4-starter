@@ -1,25 +1,30 @@
-Usage: cpu-sim [options] filename
+SIMULATION COMPLETED!
 
-Options
-   -h, --help:
-       Print this help message and exit.
+SYSTEM THREADS:
+    Total Count:                  0
+    Avg. response time:        0.00
+    Avg. turnaround time:      0.00
 
-   -m, --metrics:
-       If set, outputs general metrics for the simulation.
+INTERACTIVE THREADS:
+    Total Count:                  1
+    Avg. response time:      625.00
+    Avg. turnaround time:   3853.00
 
-   -s, --time_slice <value>:
-       Set the default time slice for a pre-emptive algorithms. Must be greater than zero.
+NORMAL THREADS:
+    Total Count:                  8
+    Avg. response time:      372.25
+    Avg. turnaround time:   2644.62
 
-   -t, --per_thread:
-       If set, outputs per-thread metrics at the end of the simulation.
+BATCH THREADS:
+    Total Count:                  4
+    Avg. response time:      277.25
+    Avg. turnaround time:   2770.00
 
-   -v, --verbose:
-       If set, outputs all state transitions and scheduling choices.
+Total elapsed time:           4261
+Total service time:           1127
+Total I/O time:                891
+Total dispatch time:          3109
+Total idle time:                25
 
-   -a, --algorithm <algorithm>:
-       The scheduling algorithm to use. Valid values are:
-           FCFS: first-come, first-served (default)
-           RR: round-robin scheduling
-           PRIORITY: priority scheduling
-           MLFQ: multilevel feedback queue
-           CUSTOM: A custom algorithm
+CPU utilization:            99.41%
+CPU efficiency:             26.45%

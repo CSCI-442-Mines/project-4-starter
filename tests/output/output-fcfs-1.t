@@ -1,13 +1,12 @@
 SIMULATION COMPLETED!
 
 Process 642 [INTERACTIVE]:
-    Thread  0:    ARR: 50     CPU: 28     I/O: 0      TRT: 152    END: 202   
-    Thread  1:    ARR: 42     CPU: 22     I/O: 0      TRT: 57     END: 99    
-    Thread  2:    ARR: 57     CPU: 19     I/O: 0      TRT: 167    END: 224   
+    Thread  0:    ARR: 50     CPU: 104    I/O: 86     TRT: 1073   END: 1123  
+    Thread  1:    ARR: 42     CPU: 200    I/O: 148    TRT: 1405   END: 1447  
+    Thread  2:    ARR: 57     CPU: 99     I/O: 82     TRT: 959    END: 1016  
 
 Process 740 [NORMAL]:
-    Thread  0:    ARR: 100    CPU: 8      I/O: 0      TRT: 200    END: 300   
-    Thread  1:    ARR: 60     CPU: 21     I/O: 0      TRT: 220    END: 280   
-    Thread  2:    ARR: 73     CPU: 6      I/O: 0      TRT: 216    END: 289   
-    Thread  3:    ARR: 50     CPU: 5      I/O: 0      TRT: 89     END: 139   
-
+    Thread  0:    ARR: 100    CPU: 126    I/O: 119    TRT: 1290   END: 1390  
+    Thread  1:    ARR: 60     CPU: 25     I/O: 15     TRT: 481    END: 541   
+    Thread  2:    ARR: 73     CPU: 48     I/O: 48     TRT: 667    END: 740   
+    Thread  3:    ARR: 50     CPU: 26     I/O: 19     TRT: 361    END: 411   

@@ -52,6 +52,9 @@ void Simulation::run()
             this->handle_cpu_burst_completed(event);
             break;
 
+        case IO_BURST_COMPLETED:
+            this->handle_io_burst_completed(event);
+            break;
         case THREAD_COMPLETED:
             this->handle_thread_completed(event);
             break;
@@ -105,6 +108,12 @@ void Simulation::handle_cpu_burst_completed(const std::shared_ptr<Event> event)
 {
     // TODO: Handle this event properly
     std::cout << "TODO: Handle cpu burst completed event properly\n\n";
+}
+
+void Simulation::handle_io_burst_completed(const std::shared_ptr<Event> event)
+{
+    // TODO: Handle this event properly
+    std::cout << "TODO: Handle io burst completed event properly\n\n";
 }
 
 void Simulation::handle_thread_completed(const std::shared_ptr<Event> event)
