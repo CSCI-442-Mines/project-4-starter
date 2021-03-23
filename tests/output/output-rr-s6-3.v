@@ -1,3616 +1,3617 @@
 At time 0:
     THREAD_ARRIVED
-    Thread 0 in process 404 [BATCH]
+    Thread 0 in process 10 [BATCH]
     Transitioned from NEW to READY
 
 At time 0:
     DISPATCHER_INVOKED
-    Thread 0 in process 404 [BATCH]
+    Thread 0 in process 10 [BATCH]
     Selected from 1 threads. Will run for at most 6 ticks.
 
 At time 10:
     THREAD_ARRIVED
-    Thread 0 in process 297 [BATCH]
+    Thread 0 in process 3 [BATCH]
     Transitioned from NEW to READY
 
 At time 28:
     THREAD_ARRIVED
-    Thread 1 in process 395 [NORMAL]
+    Thread 0 in process 1 [NORMAL]
     Transitioned from NEW to READY
 
 At time 33:
     THREAD_ARRIVED
-    Thread 2 in process 395 [NORMAL]
+    Thread 0 in process 2 [NORMAL]
     Transitioned from NEW to READY
 
 At time 39:
     THREAD_ARRIVED
-    Thread 2 in process 613 [NORMAL]
+    Thread 0 in process 8 [NORMAL]
     Transitioned from NEW to READY
 
 At time 47:
     THREAD_ARRIVED
-    Thread 1 in process 613 [NORMAL]
+    Thread 0 in process 7 [NORMAL]
     Transitioned from NEW to READY
 
 At time 48:
     THREAD_ARRIVED
-    Thread 0 in process 203 [NORMAL]
+    Thread 0 in process 4 [NORMAL]
     Transitioned from NEW to READY
 
 At time 48:
     PROCESS_DISPATCH_COMPLETED
-    Thread 0 in process 404 [BATCH]
+    Thread 0 in process 10 [BATCH]
     Transitioned from READY to RUNNING
 
 At time 53:
     THREAD_ARRIVED
-    Thread 1 in process 404 [BATCH]
+    Thread 0 in process 11 [BATCH]
     Transitioned from NEW to READY
 
 At time 54:
     THREAD_PREEMPTED
-    Thread 0 in process 404 [BATCH]
+    Thread 0 in process 10 [BATCH]
     Transitioned from RUNNING to READY
 
 At time 54:
     DISPATCHER_INVOKED
-    Thread 0 in process 297 [BATCH]
+    Thread 0 in process 3 [BATCH]
     Selected from 8 threads. Will run for at most 6 ticks.
 
 At time 58:
     THREAD_ARRIVED
-    Thread 0 in process 395 [NORMAL]
+    Thread 0 in process 0 [NORMAL]
     Transitioned from NEW to READY
 
 At time 58:
     THREAD_ARRIVED
-    Thread 2 in process 404 [BATCH]
+    Thread 0 in process 12 [BATCH]
     Transitioned from NEW to READY
 
 At time 70:
     THREAD_ARRIVED
-    Thread 0 in process 613 [NORMAL]
+    Thread 0 in process 6 [NORMAL]
     Transitioned from NEW to READY
 
 At time 82:
     THREAD_ARRIVED
-    Thread 0 in process 341 [INTERACTIVE]
+    Thread 0 in process 5 [INTERACTIVE]
     Transitioned from NEW to READY
 
 At time 87:
     THREAD_ARRIVED
-    Thread 3 in process 613 [NORMAL]
+    Thread 0 in process 9 [NORMAL]
     Transitioned from NEW to READY
 
 At time 102:
     PROCESS_DISPATCH_COMPLETED
-    Thread 0 in process 297 [BATCH]
+    Thread 0 in process 3 [BATCH]
     Transitioned from READY to RUNNING
 
 At time 108:
     THREAD_PREEMPTED
-    Thread 0 in process 297 [BATCH]
+    Thread 0 in process 3 [BATCH]
     Transitioned from RUNNING to READY
 
 At time 108:
     DISPATCHER_INVOKED
-    Thread 1 in process 395 [NORMAL]
+    Thread 0 in process 1 [NORMAL]
     Selected from 13 threads. Will run for at most 6 ticks.
 
 At time 156:
     PROCESS_DISPATCH_COMPLETED
-    Thread 1 in process 395 [NORMAL]
+    Thread 0 in process 1 [NORMAL]
     Transitioned from READY to RUNNING
 
 At time 162:
     CPU_BURST_COMPLETED
-    Thread 1 in process 395 [NORMAL]
+    Thread 0 in process 1 [NORMAL]
     Transitioned from RUNNING to BLOCKED
 
 At time 162:
     DISPATCHER_INVOKED
-    Thread 2 in process 395 [NORMAL]
+    Thread 0 in process 2 [NORMAL]
     Selected from 12 threads. Will run for at most 6 ticks.
-
-At time 181:
-    THREAD_DISPATCH_COMPLETED
-    Thread 2 in process 395 [NORMAL]
-    Transitioned from READY to RUNNING
 
 At time 185:
     IO_BURST_COMPLETED
-    Thread 1 in process 395 [NORMAL]
+    Thread 0 in process 1 [NORMAL]
     Transitioned from BLOCKED to READY
 
-At time 187:
-    THREAD_PREEMPTED
-    Thread 2 in process 395 [NORMAL]
-    Transitioned from RUNNING to READY
-
-At time 187:
-    DISPATCHER_INVOKED
-    Thread 2 in process 613 [NORMAL]
-    Selected from 13 threads. Will run for at most 6 ticks.
-
-At time 235:
+At time 210:
     PROCESS_DISPATCH_COMPLETED
-    Thread 2 in process 613 [NORMAL]
+    Thread 0 in process 2 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 241:
+At time 216:
     THREAD_PREEMPTED
-    Thread 2 in process 613 [NORMAL]
+    Thread 0 in process 2 [NORMAL]
     Transitioned from RUNNING to READY
 
-At time 241:
+At time 216:
     DISPATCHER_INVOKED
-    Thread 1 in process 613 [NORMAL]
+    Thread 0 in process 8 [NORMAL]
     Selected from 13 threads. Will run for at most 6 ticks.
 
-At time 260:
-    THREAD_DISPATCH_COMPLETED
-    Thread 1 in process 613 [NORMAL]
-    Transitioned from READY to RUNNING
-
-At time 266:
-    THREAD_PREEMPTED
-    Thread 1 in process 613 [NORMAL]
-    Transitioned from RUNNING to READY
-
-At time 266:
-    DISPATCHER_INVOKED
-    Thread 0 in process 203 [NORMAL]
-    Selected from 13 threads. Will run for at most 6 ticks.
-
-At time 314:
+At time 264:
     PROCESS_DISPATCH_COMPLETED
-    Thread 0 in process 203 [NORMAL]
+    Thread 0 in process 8 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 320:
+At time 270:
     THREAD_PREEMPTED
-    Thread 0 in process 203 [NORMAL]
+    Thread 0 in process 8 [NORMAL]
     Transitioned from RUNNING to READY
 
-At time 320:
+At time 270:
     DISPATCHER_INVOKED
-    Thread 1 in process 404 [BATCH]
+    Thread 0 in process 7 [NORMAL]
     Selected from 13 threads. Will run for at most 6 ticks.
 
-At time 368:
+At time 318:
     PROCESS_DISPATCH_COMPLETED
-    Thread 1 in process 404 [BATCH]
+    Thread 0 in process 7 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 374:
+At time 324:
     THREAD_PREEMPTED
-    Thread 1 in process 404 [BATCH]
+    Thread 0 in process 7 [NORMAL]
     Transitioned from RUNNING to READY
 
-At time 374:
+At time 324:
     DISPATCHER_INVOKED
-    Thread 0 in process 404 [BATCH]
+    Thread 0 in process 4 [NORMAL]
     Selected from 13 threads. Will run for at most 6 ticks.
 
-At time 393:
-    THREAD_DISPATCH_COMPLETED
-    Thread 0 in process 404 [BATCH]
-    Transitioned from READY to RUNNING
-
-At time 399:
-    THREAD_PREEMPTED
-    Thread 0 in process 404 [BATCH]
-    Transitioned from RUNNING to READY
-
-At time 399:
-    DISPATCHER_INVOKED
-    Thread 0 in process 395 [NORMAL]
-    Selected from 13 threads. Will run for at most 6 ticks.
-
-At time 447:
+At time 372:
     PROCESS_DISPATCH_COMPLETED
-    Thread 0 in process 395 [NORMAL]
+    Thread 0 in process 4 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 449:
+At time 378:
+    THREAD_PREEMPTED
+    Thread 0 in process 4 [NORMAL]
+    Transitioned from RUNNING to READY
+
+At time 378:
+    DISPATCHER_INVOKED
+    Thread 0 in process 11 [BATCH]
+    Selected from 13 threads. Will run for at most 6 ticks.
+
+At time 426:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 11 [BATCH]
+    Transitioned from READY to RUNNING
+
+At time 432:
+    THREAD_PREEMPTED
+    Thread 0 in process 11 [BATCH]
+    Transitioned from RUNNING to READY
+
+At time 432:
+    DISPATCHER_INVOKED
+    Thread 0 in process 10 [BATCH]
+    Selected from 13 threads. Will run for at most 6 ticks.
+
+At time 480:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 10 [BATCH]
+    Transitioned from READY to RUNNING
+
+At time 486:
+    THREAD_PREEMPTED
+    Thread 0 in process 10 [BATCH]
+    Transitioned from RUNNING to READY
+
+At time 486:
+    DISPATCHER_INVOKED
+    Thread 0 in process 0 [NORMAL]
+    Selected from 13 threads. Will run for at most 6 ticks.
+
+At time 534:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 0 [NORMAL]
+    Transitioned from READY to RUNNING
+
+At time 536:
     THREAD_COMPLETED
-    Thread 0 in process 395 [NORMAL]
+    Thread 0 in process 0 [NORMAL]
     Transitioned from RUNNING to EXIT
 
-At time 449:
+At time 536:
     DISPATCHER_INVOKED
-    Thread 2 in process 404 [BATCH]
+    Thread 0 in process 12 [BATCH]
     Selected from 12 threads. Will run for at most 6 ticks.
 
-At time 497:
+At time 584:
     PROCESS_DISPATCH_COMPLETED
-    Thread 2 in process 404 [BATCH]
+    Thread 0 in process 12 [BATCH]
     Transitioned from READY to RUNNING
 
-At time 503:
+At time 590:
     THREAD_PREEMPTED
-    Thread 2 in process 404 [BATCH]
+    Thread 0 in process 12 [BATCH]
     Transitioned from RUNNING to READY
 
-At time 503:
+At time 590:
     DISPATCHER_INVOKED
-    Thread 0 in process 613 [NORMAL]
+    Thread 0 in process 6 [NORMAL]
     Selected from 12 threads. Will run for at most 6 ticks.
 
-At time 551:
+At time 638:
     PROCESS_DISPATCH_COMPLETED
-    Thread 0 in process 613 [NORMAL]
+    Thread 0 in process 6 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 557:
+At time 644:
     THREAD_PREEMPTED
-    Thread 0 in process 613 [NORMAL]
+    Thread 0 in process 6 [NORMAL]
     Transitioned from RUNNING to READY
 
-At time 557:
+At time 644:
     DISPATCHER_INVOKED
-    Thread 0 in process 341 [INTERACTIVE]
+    Thread 0 in process 5 [INTERACTIVE]
     Selected from 12 threads. Will run for at most 6 ticks.
 
-At time 605:
+At time 692:
     PROCESS_DISPATCH_COMPLETED
-    Thread 0 in process 341 [INTERACTIVE]
+    Thread 0 in process 5 [INTERACTIVE]
     Transitioned from READY to RUNNING
 
-At time 611:
+At time 698:
     THREAD_PREEMPTED
-    Thread 0 in process 341 [INTERACTIVE]
+    Thread 0 in process 5 [INTERACTIVE]
     Transitioned from RUNNING to READY
 
-At time 611:
+At time 698:
     DISPATCHER_INVOKED
-    Thread 3 in process 613 [NORMAL]
+    Thread 0 in process 9 [NORMAL]
     Selected from 12 threads. Will run for at most 6 ticks.
 
-At time 659:
+At time 746:
     PROCESS_DISPATCH_COMPLETED
-    Thread 3 in process 613 [NORMAL]
+    Thread 0 in process 9 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 665:
+At time 752:
     THREAD_PREEMPTED
-    Thread 3 in process 613 [NORMAL]
+    Thread 0 in process 9 [NORMAL]
     Transitioned from RUNNING to READY
 
-At time 665:
+At time 752:
     DISPATCHER_INVOKED
-    Thread 0 in process 297 [BATCH]
+    Thread 0 in process 3 [BATCH]
     Selected from 12 threads. Will run for at most 6 ticks.
 
-At time 713:
+At time 800:
     PROCESS_DISPATCH_COMPLETED
-    Thread 0 in process 297 [BATCH]
+    Thread 0 in process 3 [BATCH]
     Transitioned from READY to RUNNING
 
-At time 719:
+At time 806:
     THREAD_PREEMPTED
-    Thread 0 in process 297 [BATCH]
+    Thread 0 in process 3 [BATCH]
     Transitioned from RUNNING to READY
 
-At time 719:
+At time 806:
     DISPATCHER_INVOKED
-    Thread 1 in process 395 [NORMAL]
+    Thread 0 in process 1 [NORMAL]
     Selected from 12 threads. Will run for at most 6 ticks.
 
-At time 767:
+At time 854:
     PROCESS_DISPATCH_COMPLETED
-    Thread 1 in process 395 [NORMAL]
+    Thread 0 in process 1 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 773:
+At time 860:
     THREAD_PREEMPTED
-    Thread 1 in process 395 [NORMAL]
+    Thread 0 in process 1 [NORMAL]
     Transitioned from RUNNING to READY
 
-At time 773:
+At time 860:
     DISPATCHER_INVOKED
-    Thread 2 in process 395 [NORMAL]
+    Thread 0 in process 2 [NORMAL]
     Selected from 12 threads. Will run for at most 6 ticks.
 
-At time 792:
-    THREAD_DISPATCH_COMPLETED
-    Thread 2 in process 395 [NORMAL]
-    Transitioned from READY to RUNNING
-
-At time 798:
-    THREAD_PREEMPTED
-    Thread 2 in process 395 [NORMAL]
-    Transitioned from RUNNING to READY
-
-At time 798:
-    DISPATCHER_INVOKED
-    Thread 2 in process 613 [NORMAL]
-    Selected from 12 threads. Will run for at most 6 ticks.
-
-At time 846:
+At time 908:
     PROCESS_DISPATCH_COMPLETED
-    Thread 2 in process 613 [NORMAL]
+    Thread 0 in process 2 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 852:
+At time 914:
     THREAD_PREEMPTED
-    Thread 2 in process 613 [NORMAL]
+    Thread 0 in process 2 [NORMAL]
     Transitioned from RUNNING to READY
 
-At time 852:
+At time 914:
     DISPATCHER_INVOKED
-    Thread 1 in process 613 [NORMAL]
+    Thread 0 in process 8 [NORMAL]
     Selected from 12 threads. Will run for at most 6 ticks.
 
-At time 871:
-    THREAD_DISPATCH_COMPLETED
-    Thread 1 in process 613 [NORMAL]
-    Transitioned from READY to RUNNING
-
-At time 877:
-    THREAD_PREEMPTED
-    Thread 1 in process 613 [NORMAL]
-    Transitioned from RUNNING to READY
-
-At time 877:
-    DISPATCHER_INVOKED
-    Thread 0 in process 203 [NORMAL]
-    Selected from 12 threads. Will run for at most 6 ticks.
-
-At time 925:
+At time 962:
     PROCESS_DISPATCH_COMPLETED
-    Thread 0 in process 203 [NORMAL]
+    Thread 0 in process 8 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 931:
+At time 968:
     THREAD_PREEMPTED
-    Thread 0 in process 203 [NORMAL]
+    Thread 0 in process 8 [NORMAL]
     Transitioned from RUNNING to READY
 
-At time 931:
+At time 968:
     DISPATCHER_INVOKED
-    Thread 1 in process 404 [BATCH]
+    Thread 0 in process 7 [NORMAL]
     Selected from 12 threads. Will run for at most 6 ticks.
 
-At time 979:
+At time 1016:
     PROCESS_DISPATCH_COMPLETED
-    Thread 1 in process 404 [BATCH]
+    Thread 0 in process 7 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 984:
+At time 1022:
+    THREAD_PREEMPTED
+    Thread 0 in process 7 [NORMAL]
+    Transitioned from RUNNING to READY
+
+At time 1022:
+    DISPATCHER_INVOKED
+    Thread 0 in process 4 [NORMAL]
+    Selected from 12 threads. Will run for at most 6 ticks.
+
+At time 1070:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 4 [NORMAL]
+    Transitioned from READY to RUNNING
+
+At time 1076:
+    THREAD_PREEMPTED
+    Thread 0 in process 4 [NORMAL]
+    Transitioned from RUNNING to READY
+
+At time 1076:
+    DISPATCHER_INVOKED
+    Thread 0 in process 11 [BATCH]
+    Selected from 12 threads. Will run for at most 6 ticks.
+
+At time 1124:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 11 [BATCH]
+    Transitioned from READY to RUNNING
+
+At time 1129:
     CPU_BURST_COMPLETED
-    Thread 1 in process 404 [BATCH]
+    Thread 0 in process 11 [BATCH]
     Transitioned from RUNNING to BLOCKED
 
-At time 984:
+At time 1129:
     DISPATCHER_INVOKED
-    Thread 0 in process 404 [BATCH]
+    Thread 0 in process 10 [BATCH]
     Selected from 11 threads. Will run for at most 6 ticks.
 
-At time 997:
+At time 1142:
     IO_BURST_COMPLETED
-    Thread 1 in process 404 [BATCH]
+    Thread 0 in process 11 [BATCH]
     Transitioned from BLOCKED to READY
 
-At time 1003:
-    THREAD_DISPATCH_COMPLETED
-    Thread 0 in process 404 [BATCH]
+At time 1177:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 10 [BATCH]
     Transitioned from READY to RUNNING
 
-At time 1009:
+At time 1183:
     THREAD_PREEMPTED
-    Thread 0 in process 404 [BATCH]
+    Thread 0 in process 10 [BATCH]
     Transitioned from RUNNING to READY
 
-At time 1009:
+At time 1183:
     DISPATCHER_INVOKED
-    Thread 2 in process 404 [BATCH]
+    Thread 0 in process 12 [BATCH]
     Selected from 12 threads. Will run for at most 6 ticks.
 
-At time 1028:
-    THREAD_DISPATCH_COMPLETED
-    Thread 2 in process 404 [BATCH]
+At time 1231:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 12 [BATCH]
     Transitioned from READY to RUNNING
 
-At time 1034:
+At time 1237:
     CPU_BURST_COMPLETED
-    Thread 2 in process 404 [BATCH]
+    Thread 0 in process 12 [BATCH]
     Transitioned from RUNNING to BLOCKED
 
-At time 1034:
+At time 1237:
     DISPATCHER_INVOKED
-    Thread 0 in process 613 [NORMAL]
+    Thread 0 in process 6 [NORMAL]
     Selected from 11 threads. Will run for at most 6 ticks.
 
-At time 1047:
+At time 1250:
     IO_BURST_COMPLETED
-    Thread 2 in process 404 [BATCH]
+    Thread 0 in process 12 [BATCH]
     Transitioned from BLOCKED to READY
 
-At time 1082:
+At time 1285:
     PROCESS_DISPATCH_COMPLETED
-    Thread 0 in process 613 [NORMAL]
+    Thread 0 in process 6 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 1087:
+At time 1290:
     CPU_BURST_COMPLETED
-    Thread 0 in process 613 [NORMAL]
+    Thread 0 in process 6 [NORMAL]
     Transitioned from RUNNING to BLOCKED
 
-At time 1087:
+At time 1290:
     DISPATCHER_INVOKED
-    Thread 0 in process 341 [INTERACTIVE]
+    Thread 0 in process 5 [INTERACTIVE]
     Selected from 11 threads. Will run for at most 6 ticks.
 
-At time 1095:
+At time 1298:
     IO_BURST_COMPLETED
-    Thread 0 in process 613 [NORMAL]
+    Thread 0 in process 6 [NORMAL]
     Transitioned from BLOCKED to READY
 
-At time 1135:
+At time 1338:
     PROCESS_DISPATCH_COMPLETED
-    Thread 0 in process 341 [INTERACTIVE]
+    Thread 0 in process 5 [INTERACTIVE]
     Transitioned from READY to RUNNING
 
-At time 1141:
+At time 1344:
     THREAD_PREEMPTED
-    Thread 0 in process 341 [INTERACTIVE]
+    Thread 0 in process 5 [INTERACTIVE]
     Transitioned from RUNNING to READY
 
-At time 1141:
+At time 1344:
     DISPATCHER_INVOKED
-    Thread 3 in process 613 [NORMAL]
+    Thread 0 in process 9 [NORMAL]
     Selected from 12 threads. Will run for at most 6 ticks.
 
-At time 1189:
+At time 1392:
     PROCESS_DISPATCH_COMPLETED
-    Thread 3 in process 613 [NORMAL]
+    Thread 0 in process 9 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 1195:
+At time 1398:
     THREAD_PREEMPTED
-    Thread 3 in process 613 [NORMAL]
+    Thread 0 in process 9 [NORMAL]
     Transitioned from RUNNING to READY
 
-At time 1195:
+At time 1398:
     DISPATCHER_INVOKED
-    Thread 0 in process 297 [BATCH]
+    Thread 0 in process 3 [BATCH]
     Selected from 12 threads. Will run for at most 6 ticks.
 
-At time 1243:
+At time 1446:
     PROCESS_DISPATCH_COMPLETED
-    Thread 0 in process 297 [BATCH]
+    Thread 0 in process 3 [BATCH]
     Transitioned from READY to RUNNING
 
-At time 1249:
+At time 1452:
     THREAD_PREEMPTED
-    Thread 0 in process 297 [BATCH]
+    Thread 0 in process 3 [BATCH]
     Transitioned from RUNNING to READY
 
-At time 1249:
+At time 1452:
     DISPATCHER_INVOKED
-    Thread 1 in process 395 [NORMAL]
+    Thread 0 in process 1 [NORMAL]
     Selected from 12 threads. Will run for at most 6 ticks.
 
-At time 1297:
+At time 1500:
     PROCESS_DISPATCH_COMPLETED
-    Thread 1 in process 395 [NORMAL]
+    Thread 0 in process 1 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 1300:
+At time 1503:
     CPU_BURST_COMPLETED
-    Thread 1 in process 395 [NORMAL]
+    Thread 0 in process 1 [NORMAL]
     Transitioned from RUNNING to BLOCKED
 
-At time 1300:
+At time 1503:
     DISPATCHER_INVOKED
-    Thread 2 in process 395 [NORMAL]
+    Thread 0 in process 2 [NORMAL]
     Selected from 11 threads. Will run for at most 6 ticks.
 
-At time 1317:
+At time 1520:
     IO_BURST_COMPLETED
-    Thread 1 in process 395 [NORMAL]
-    Transitioned from BLOCKED to READY
-
-At time 1319:
-    THREAD_DISPATCH_COMPLETED
-    Thread 2 in process 395 [NORMAL]
-    Transitioned from READY to RUNNING
-
-At time 1325:
-    THREAD_PREEMPTED
-    Thread 2 in process 395 [NORMAL]
-    Transitioned from RUNNING to READY
-
-At time 1325:
-    DISPATCHER_INVOKED
-    Thread 2 in process 613 [NORMAL]
-    Selected from 12 threads. Will run for at most 6 ticks.
-
-At time 1373:
-    PROCESS_DISPATCH_COMPLETED
-    Thread 2 in process 613 [NORMAL]
-    Transitioned from READY to RUNNING
-
-At time 1375:
-    THREAD_COMPLETED
-    Thread 2 in process 613 [NORMAL]
-    Transitioned from RUNNING to EXIT
-
-At time 1375:
-    DISPATCHER_INVOKED
-    Thread 1 in process 613 [NORMAL]
-    Selected from 11 threads. Will run for at most 6 ticks.
-
-At time 1394:
-    THREAD_DISPATCH_COMPLETED
-    Thread 1 in process 613 [NORMAL]
-    Transitioned from READY to RUNNING
-
-At time 1400:
-    THREAD_PREEMPTED
-    Thread 1 in process 613 [NORMAL]
-    Transitioned from RUNNING to READY
-
-At time 1400:
-    DISPATCHER_INVOKED
-    Thread 0 in process 203 [NORMAL]
-    Selected from 11 threads. Will run for at most 6 ticks.
-
-At time 1448:
-    PROCESS_DISPATCH_COMPLETED
-    Thread 0 in process 203 [NORMAL]
-    Transitioned from READY to RUNNING
-
-At time 1454:
-    THREAD_PREEMPTED
-    Thread 0 in process 203 [NORMAL]
-    Transitioned from RUNNING to READY
-
-At time 1454:
-    DISPATCHER_INVOKED
-    Thread 1 in process 404 [BATCH]
-    Selected from 11 threads. Will run for at most 6 ticks.
-
-At time 1502:
-    PROCESS_DISPATCH_COMPLETED
-    Thread 1 in process 404 [BATCH]
-    Transitioned from READY to RUNNING
-
-At time 1508:
-    THREAD_PREEMPTED
-    Thread 1 in process 404 [BATCH]
-    Transitioned from RUNNING to READY
-
-At time 1508:
-    DISPATCHER_INVOKED
-    Thread 0 in process 404 [BATCH]
-    Selected from 11 threads. Will run for at most 6 ticks.
-
-At time 1527:
-    THREAD_DISPATCH_COMPLETED
-    Thread 0 in process 404 [BATCH]
-    Transitioned from READY to RUNNING
-
-At time 1528:
-    CPU_BURST_COMPLETED
-    Thread 0 in process 404 [BATCH]
-    Transitioned from RUNNING to BLOCKED
-
-At time 1528:
-    DISPATCHER_INVOKED
-    Thread 2 in process 404 [BATCH]
-    Selected from 10 threads. Will run for at most 6 ticks.
-
-At time 1547:
-    THREAD_DISPATCH_COMPLETED
-    Thread 2 in process 404 [BATCH]
-    Transitioned from READY to RUNNING
-
-At time 1550:
-    IO_BURST_COMPLETED
-    Thread 0 in process 404 [BATCH]
+    Thread 0 in process 1 [NORMAL]
     Transitioned from BLOCKED to READY
 
 At time 1551:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 2 [NORMAL]
+    Transitioned from READY to RUNNING
+
+At time 1557:
+    THREAD_PREEMPTED
+    Thread 0 in process 2 [NORMAL]
+    Transitioned from RUNNING to READY
+
+At time 1557:
+    DISPATCHER_INVOKED
+    Thread 0 in process 8 [NORMAL]
+    Selected from 12 threads. Will run for at most 6 ticks.
+
+At time 1605:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 8 [NORMAL]
+    Transitioned from READY to RUNNING
+
+At time 1607:
+    THREAD_COMPLETED
+    Thread 0 in process 8 [NORMAL]
+    Transitioned from RUNNING to EXIT
+
+At time 1607:
+    DISPATCHER_INVOKED
+    Thread 0 in process 7 [NORMAL]
+    Selected from 11 threads. Will run for at most 6 ticks.
+
+At time 1655:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 7 [NORMAL]
+    Transitioned from READY to RUNNING
+
+At time 1661:
+    THREAD_PREEMPTED
+    Thread 0 in process 7 [NORMAL]
+    Transitioned from RUNNING to READY
+
+At time 1661:
+    DISPATCHER_INVOKED
+    Thread 0 in process 4 [NORMAL]
+    Selected from 11 threads. Will run for at most 6 ticks.
+
+At time 1709:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 4 [NORMAL]
+    Transitioned from READY to RUNNING
+
+At time 1715:
+    THREAD_PREEMPTED
+    Thread 0 in process 4 [NORMAL]
+    Transitioned from RUNNING to READY
+
+At time 1715:
+    DISPATCHER_INVOKED
+    Thread 0 in process 11 [BATCH]
+    Selected from 11 threads. Will run for at most 6 ticks.
+
+At time 1763:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 11 [BATCH]
+    Transitioned from READY to RUNNING
+
+At time 1769:
+    THREAD_PREEMPTED
+    Thread 0 in process 11 [BATCH]
+    Transitioned from RUNNING to READY
+
+At time 1769:
+    DISPATCHER_INVOKED
+    Thread 0 in process 10 [BATCH]
+    Selected from 11 threads. Will run for at most 6 ticks.
+
+At time 1817:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 10 [BATCH]
+    Transitioned from READY to RUNNING
+
+At time 1818:
     CPU_BURST_COMPLETED
-    Thread 2 in process 404 [BATCH]
+    Thread 0 in process 10 [BATCH]
     Transitioned from RUNNING to BLOCKED
 
-At time 1551:
+At time 1818:
     DISPATCHER_INVOKED
-    Thread 0 in process 613 [NORMAL]
+    Thread 0 in process 12 [BATCH]
     Selected from 10 threads. Will run for at most 6 ticks.
-
-At time 1577:
-    IO_BURST_COMPLETED
-    Thread 2 in process 404 [BATCH]
-    Transitioned from BLOCKED to READY
-
-At time 1599:
-    PROCESS_DISPATCH_COMPLETED
-    Thread 0 in process 613 [NORMAL]
-    Transitioned from READY to RUNNING
-
-At time 1605:
-    THREAD_PREEMPTED
-    Thread 0 in process 613 [NORMAL]
-    Transitioned from RUNNING to READY
-
-At time 1605:
-    DISPATCHER_INVOKED
-    Thread 0 in process 341 [INTERACTIVE]
-    Selected from 11 threads. Will run for at most 6 ticks.
-
-At time 1653:
-    PROCESS_DISPATCH_COMPLETED
-    Thread 0 in process 341 [INTERACTIVE]
-    Transitioned from READY to RUNNING
-
-At time 1659:
-    THREAD_PREEMPTED
-    Thread 0 in process 341 [INTERACTIVE]
-    Transitioned from RUNNING to READY
-
-At time 1659:
-    DISPATCHER_INVOKED
-    Thread 3 in process 613 [NORMAL]
-    Selected from 11 threads. Will run for at most 6 ticks.
-
-At time 1707:
-    PROCESS_DISPATCH_COMPLETED
-    Thread 3 in process 613 [NORMAL]
-    Transitioned from READY to RUNNING
-
-At time 1713:
-    THREAD_PREEMPTED
-    Thread 3 in process 613 [NORMAL]
-    Transitioned from RUNNING to READY
-
-At time 1713:
-    DISPATCHER_INVOKED
-    Thread 0 in process 297 [BATCH]
-    Selected from 11 threads. Will run for at most 6 ticks.
-
-At time 1761:
-    PROCESS_DISPATCH_COMPLETED
-    Thread 0 in process 297 [BATCH]
-    Transitioned from READY to RUNNING
-
-At time 1767:
-    THREAD_PREEMPTED
-    Thread 0 in process 297 [BATCH]
-    Transitioned from RUNNING to READY
-
-At time 1767:
-    DISPATCHER_INVOKED
-    Thread 1 in process 395 [NORMAL]
-    Selected from 11 threads. Will run for at most 6 ticks.
-
-At time 1815:
-    PROCESS_DISPATCH_COMPLETED
-    Thread 1 in process 395 [NORMAL]
-    Transitioned from READY to RUNNING
-
-At time 1821:
-    THREAD_PREEMPTED
-    Thread 1 in process 395 [NORMAL]
-    Transitioned from RUNNING to READY
-
-At time 1821:
-    DISPATCHER_INVOKED
-    Thread 2 in process 395 [NORMAL]
-    Selected from 11 threads. Will run for at most 6 ticks.
 
 At time 1840:
-    THREAD_DISPATCH_COMPLETED
-    Thread 2 in process 395 [NORMAL]
-    Transitioned from READY to RUNNING
-
-At time 1846:
-    THREAD_PREEMPTED
-    Thread 2 in process 395 [NORMAL]
-    Transitioned from RUNNING to READY
-
-At time 1846:
-    DISPATCHER_INVOKED
-    Thread 1 in process 613 [NORMAL]
-    Selected from 11 threads. Will run for at most 6 ticks.
-
-At time 1894:
-    PROCESS_DISPATCH_COMPLETED
-    Thread 1 in process 613 [NORMAL]
-    Transitioned from READY to RUNNING
-
-At time 1900:
-    THREAD_PREEMPTED
-    Thread 1 in process 613 [NORMAL]
-    Transitioned from RUNNING to READY
-
-At time 1900:
-    DISPATCHER_INVOKED
-    Thread 0 in process 203 [NORMAL]
-    Selected from 11 threads. Will run for at most 6 ticks.
-
-At time 1948:
-    PROCESS_DISPATCH_COMPLETED
-    Thread 0 in process 203 [NORMAL]
-    Transitioned from READY to RUNNING
-
-At time 1954:
-    THREAD_PREEMPTED
-    Thread 0 in process 203 [NORMAL]
-    Transitioned from RUNNING to READY
-
-At time 1954:
-    DISPATCHER_INVOKED
-    Thread 1 in process 404 [BATCH]
-    Selected from 11 threads. Will run for at most 6 ticks.
-
-At time 2002:
-    PROCESS_DISPATCH_COMPLETED
-    Thread 1 in process 404 [BATCH]
-    Transitioned from READY to RUNNING
-
-At time 2008:
-    THREAD_PREEMPTED
-    Thread 1 in process 404 [BATCH]
-    Transitioned from RUNNING to READY
-
-At time 2008:
-    DISPATCHER_INVOKED
-    Thread 0 in process 404 [BATCH]
-    Selected from 11 threads. Will run for at most 6 ticks.
-
-At time 2027:
-    THREAD_DISPATCH_COMPLETED
-    Thread 0 in process 404 [BATCH]
-    Transitioned from READY to RUNNING
-
-At time 2033:
-    THREAD_PREEMPTED
-    Thread 0 in process 404 [BATCH]
-    Transitioned from RUNNING to READY
-
-At time 2033:
-    DISPATCHER_INVOKED
-    Thread 2 in process 404 [BATCH]
-    Selected from 11 threads. Will run for at most 6 ticks.
-
-At time 2052:
-    THREAD_DISPATCH_COMPLETED
-    Thread 2 in process 404 [BATCH]
-    Transitioned from READY to RUNNING
-
-At time 2058:
-    THREAD_PREEMPTED
-    Thread 2 in process 404 [BATCH]
-    Transitioned from RUNNING to READY
-
-At time 2058:
-    DISPATCHER_INVOKED
-    Thread 0 in process 613 [NORMAL]
-    Selected from 11 threads. Will run for at most 6 ticks.
-
-At time 2106:
-    PROCESS_DISPATCH_COMPLETED
-    Thread 0 in process 613 [NORMAL]
-    Transitioned from READY to RUNNING
-
-At time 2112:
-    THREAD_PREEMPTED
-    Thread 0 in process 613 [NORMAL]
-    Transitioned from RUNNING to READY
-
-At time 2112:
-    DISPATCHER_INVOKED
-    Thread 0 in process 341 [INTERACTIVE]
-    Selected from 11 threads. Will run for at most 6 ticks.
-
-At time 2160:
-    PROCESS_DISPATCH_COMPLETED
-    Thread 0 in process 341 [INTERACTIVE]
-    Transitioned from READY to RUNNING
-
-At time 2163:
-    CPU_BURST_COMPLETED
-    Thread 0 in process 341 [INTERACTIVE]
-    Transitioned from RUNNING to BLOCKED
-
-At time 2163:
-    DISPATCHER_INVOKED
-    Thread 3 in process 613 [NORMAL]
-    Selected from 10 threads. Will run for at most 6 ticks.
-
-At time 2166:
     IO_BURST_COMPLETED
-    Thread 0 in process 341 [INTERACTIVE]
+    Thread 0 in process 10 [BATCH]
     Transitioned from BLOCKED to READY
 
-At time 2211:
+At time 1866:
     PROCESS_DISPATCH_COMPLETED
-    Thread 3 in process 613 [NORMAL]
+    Thread 0 in process 12 [BATCH]
     Transitioned from READY to RUNNING
 
-At time 2217:
-    THREAD_PREEMPTED
-    Thread 3 in process 613 [NORMAL]
-    Transitioned from RUNNING to READY
-
-At time 2217:
-    DISPATCHER_INVOKED
-    Thread 0 in process 297 [BATCH]
-    Selected from 11 threads. Will run for at most 6 ticks.
-
-At time 2265:
-    PROCESS_DISPATCH_COMPLETED
-    Thread 0 in process 297 [BATCH]
-    Transitioned from READY to RUNNING
-
-At time 2268:
+At time 1870:
     CPU_BURST_COMPLETED
-    Thread 0 in process 297 [BATCH]
+    Thread 0 in process 12 [BATCH]
     Transitioned from RUNNING to BLOCKED
 
-At time 2268:
+At time 1870:
     DISPATCHER_INVOKED
-    Thread 1 in process 395 [NORMAL]
+    Thread 0 in process 6 [NORMAL]
     Selected from 10 threads. Will run for at most 6 ticks.
 
-At time 2284:
+At time 1896:
     IO_BURST_COMPLETED
-    Thread 0 in process 297 [BATCH]
+    Thread 0 in process 12 [BATCH]
     Transitioned from BLOCKED to READY
 
-At time 2316:
+At time 1918:
     PROCESS_DISPATCH_COMPLETED
-    Thread 1 in process 395 [NORMAL]
+    Thread 0 in process 6 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 2322:
+At time 1924:
     THREAD_PREEMPTED
-    Thread 1 in process 395 [NORMAL]
+    Thread 0 in process 6 [NORMAL]
     Transitioned from RUNNING to READY
 
-At time 2322:
+At time 1924:
     DISPATCHER_INVOKED
-    Thread 2 in process 395 [NORMAL]
+    Thread 0 in process 5 [INTERACTIVE]
     Selected from 11 threads. Will run for at most 6 ticks.
 
-At time 2341:
-    THREAD_DISPATCH_COMPLETED
-    Thread 2 in process 395 [NORMAL]
-    Transitioned from READY to RUNNING
-
-At time 2347:
-    CPU_BURST_COMPLETED
-    Thread 2 in process 395 [NORMAL]
-    Transitioned from RUNNING to BLOCKED
-
-At time 2347:
-    DISPATCHER_INVOKED
-    Thread 1 in process 613 [NORMAL]
-    Selected from 10 threads. Will run for at most 6 ticks.
-
-At time 2367:
-    IO_BURST_COMPLETED
-    Thread 2 in process 395 [NORMAL]
-    Transitioned from BLOCKED to READY
-
-At time 2395:
+At time 1972:
     PROCESS_DISPATCH_COMPLETED
-    Thread 1 in process 613 [NORMAL]
+    Thread 0 in process 5 [INTERACTIVE]
     Transitioned from READY to RUNNING
 
-At time 2399:
-    CPU_BURST_COMPLETED
-    Thread 1 in process 613 [NORMAL]
-    Transitioned from RUNNING to BLOCKED
-
-At time 2399:
-    DISPATCHER_INVOKED
-    Thread 0 in process 203 [NORMAL]
-    Selected from 10 threads. Will run for at most 6 ticks.
-
-At time 2417:
-    IO_BURST_COMPLETED
-    Thread 1 in process 613 [NORMAL]
-    Transitioned from BLOCKED to READY
-
-At time 2447:
-    PROCESS_DISPATCH_COMPLETED
-    Thread 0 in process 203 [NORMAL]
-    Transitioned from READY to RUNNING
-
-At time 2452:
-    CPU_BURST_COMPLETED
-    Thread 0 in process 203 [NORMAL]
-    Transitioned from RUNNING to BLOCKED
-
-At time 2452:
-    DISPATCHER_INVOKED
-    Thread 1 in process 404 [BATCH]
-    Selected from 10 threads. Will run for at most 6 ticks.
-
-At time 2482:
-    IO_BURST_COMPLETED
-    Thread 0 in process 203 [NORMAL]
-    Transitioned from BLOCKED to READY
-
-At time 2500:
-    PROCESS_DISPATCH_COMPLETED
-    Thread 1 in process 404 [BATCH]
-    Transitioned from READY to RUNNING
-
-At time 2506:
+At time 1978:
     THREAD_PREEMPTED
-    Thread 1 in process 404 [BATCH]
+    Thread 0 in process 5 [INTERACTIVE]
     Transitioned from RUNNING to READY
 
-At time 2506:
+At time 1978:
     DISPATCHER_INVOKED
-    Thread 0 in process 404 [BATCH]
+    Thread 0 in process 9 [NORMAL]
     Selected from 11 threads. Will run for at most 6 ticks.
 
-At time 2525:
-    THREAD_DISPATCH_COMPLETED
-    Thread 0 in process 404 [BATCH]
+At time 2026:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 9 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 2531:
+At time 2032:
     THREAD_PREEMPTED
-    Thread 0 in process 404 [BATCH]
+    Thread 0 in process 9 [NORMAL]
     Transitioned from RUNNING to READY
 
-At time 2531:
+At time 2032:
     DISPATCHER_INVOKED
-    Thread 2 in process 404 [BATCH]
+    Thread 0 in process 3 [BATCH]
     Selected from 11 threads. Will run for at most 6 ticks.
 
-At time 2550:
-    THREAD_DISPATCH_COMPLETED
-    Thread 2 in process 404 [BATCH]
+At time 2080:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 3 [BATCH]
     Transitioned from READY to RUNNING
 
-At time 2554:
+At time 2086:
+    THREAD_PREEMPTED
+    Thread 0 in process 3 [BATCH]
+    Transitioned from RUNNING to READY
+
+At time 2086:
+    DISPATCHER_INVOKED
+    Thread 0 in process 1 [NORMAL]
+    Selected from 11 threads. Will run for at most 6 ticks.
+
+At time 2134:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 1 [NORMAL]
+    Transitioned from READY to RUNNING
+
+At time 2140:
+    THREAD_PREEMPTED
+    Thread 0 in process 1 [NORMAL]
+    Transitioned from RUNNING to READY
+
+At time 2140:
+    DISPATCHER_INVOKED
+    Thread 0 in process 2 [NORMAL]
+    Selected from 11 threads. Will run for at most 6 ticks.
+
+At time 2188:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 2 [NORMAL]
+    Transitioned from READY to RUNNING
+
+At time 2194:
+    THREAD_PREEMPTED
+    Thread 0 in process 2 [NORMAL]
+    Transitioned from RUNNING to READY
+
+At time 2194:
+    DISPATCHER_INVOKED
+    Thread 0 in process 7 [NORMAL]
+    Selected from 11 threads. Will run for at most 6 ticks.
+
+At time 2242:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 7 [NORMAL]
+    Transitioned from READY to RUNNING
+
+At time 2248:
+    THREAD_PREEMPTED
+    Thread 0 in process 7 [NORMAL]
+    Transitioned from RUNNING to READY
+
+At time 2248:
+    DISPATCHER_INVOKED
+    Thread 0 in process 4 [NORMAL]
+    Selected from 11 threads. Will run for at most 6 ticks.
+
+At time 2296:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 4 [NORMAL]
+    Transitioned from READY to RUNNING
+
+At time 2302:
+    THREAD_PREEMPTED
+    Thread 0 in process 4 [NORMAL]
+    Transitioned from RUNNING to READY
+
+At time 2302:
+    DISPATCHER_INVOKED
+    Thread 0 in process 11 [BATCH]
+    Selected from 11 threads. Will run for at most 6 ticks.
+
+At time 2350:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 11 [BATCH]
+    Transitioned from READY to RUNNING
+
+At time 2356:
+    THREAD_PREEMPTED
+    Thread 0 in process 11 [BATCH]
+    Transitioned from RUNNING to READY
+
+At time 2356:
+    DISPATCHER_INVOKED
+    Thread 0 in process 10 [BATCH]
+    Selected from 11 threads. Will run for at most 6 ticks.
+
+At time 2404:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 10 [BATCH]
+    Transitioned from READY to RUNNING
+
+At time 2410:
+    THREAD_PREEMPTED
+    Thread 0 in process 10 [BATCH]
+    Transitioned from RUNNING to READY
+
+At time 2410:
+    DISPATCHER_INVOKED
+    Thread 0 in process 12 [BATCH]
+    Selected from 11 threads. Will run for at most 6 ticks.
+
+At time 2458:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 12 [BATCH]
+    Transitioned from READY to RUNNING
+
+At time 2464:
+    THREAD_PREEMPTED
+    Thread 0 in process 12 [BATCH]
+    Transitioned from RUNNING to READY
+
+At time 2464:
+    DISPATCHER_INVOKED
+    Thread 0 in process 6 [NORMAL]
+    Selected from 11 threads. Will run for at most 6 ticks.
+
+At time 2512:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 6 [NORMAL]
+    Transitioned from READY to RUNNING
+
+At time 2518:
+    THREAD_PREEMPTED
+    Thread 0 in process 6 [NORMAL]
+    Transitioned from RUNNING to READY
+
+At time 2518:
+    DISPATCHER_INVOKED
+    Thread 0 in process 5 [INTERACTIVE]
+    Selected from 11 threads. Will run for at most 6 ticks.
+
+At time 2566:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 5 [INTERACTIVE]
+    Transitioned from READY to RUNNING
+
+At time 2569:
+    CPU_BURST_COMPLETED
+    Thread 0 in process 5 [INTERACTIVE]
+    Transitioned from RUNNING to BLOCKED
+
+At time 2569:
+    DISPATCHER_INVOKED
+    Thread 0 in process 9 [NORMAL]
+    Selected from 10 threads. Will run for at most 6 ticks.
+
+At time 2572:
+    IO_BURST_COMPLETED
+    Thread 0 in process 5 [INTERACTIVE]
+    Transitioned from BLOCKED to READY
+
+At time 2617:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 9 [NORMAL]
+    Transitioned from READY to RUNNING
+
+At time 2623:
+    THREAD_PREEMPTED
+    Thread 0 in process 9 [NORMAL]
+    Transitioned from RUNNING to READY
+
+At time 2623:
+    DISPATCHER_INVOKED
+    Thread 0 in process 3 [BATCH]
+    Selected from 11 threads. Will run for at most 6 ticks.
+
+At time 2671:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 3 [BATCH]
+    Transitioned from READY to RUNNING
+
+At time 2674:
+    CPU_BURST_COMPLETED
+    Thread 0 in process 3 [BATCH]
+    Transitioned from RUNNING to BLOCKED
+
+At time 2674:
+    DISPATCHER_INVOKED
+    Thread 0 in process 1 [NORMAL]
+    Selected from 10 threads. Will run for at most 6 ticks.
+
+At time 2690:
+    IO_BURST_COMPLETED
+    Thread 0 in process 3 [BATCH]
+    Transitioned from BLOCKED to READY
+
+At time 2722:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 1 [NORMAL]
+    Transitioned from READY to RUNNING
+
+At time 2728:
+    THREAD_PREEMPTED
+    Thread 0 in process 1 [NORMAL]
+    Transitioned from RUNNING to READY
+
+At time 2728:
+    DISPATCHER_INVOKED
+    Thread 0 in process 2 [NORMAL]
+    Selected from 11 threads. Will run for at most 6 ticks.
+
+At time 2776:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 2 [NORMAL]
+    Transitioned from READY to RUNNING
+
+At time 2782:
+    CPU_BURST_COMPLETED
+    Thread 0 in process 2 [NORMAL]
+    Transitioned from RUNNING to BLOCKED
+
+At time 2782:
+    DISPATCHER_INVOKED
+    Thread 0 in process 7 [NORMAL]
+    Selected from 10 threads. Will run for at most 6 ticks.
+
+At time 2802:
+    IO_BURST_COMPLETED
+    Thread 0 in process 2 [NORMAL]
+    Transitioned from BLOCKED to READY
+
+At time 2830:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 7 [NORMAL]
+    Transitioned from READY to RUNNING
+
+At time 2834:
+    CPU_BURST_COMPLETED
+    Thread 0 in process 7 [NORMAL]
+    Transitioned from RUNNING to BLOCKED
+
+At time 2834:
+    DISPATCHER_INVOKED
+    Thread 0 in process 4 [NORMAL]
+    Selected from 10 threads. Will run for at most 6 ticks.
+
+At time 2852:
+    IO_BURST_COMPLETED
+    Thread 0 in process 7 [NORMAL]
+    Transitioned from BLOCKED to READY
+
+At time 2882:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 4 [NORMAL]
+    Transitioned from READY to RUNNING
+
+At time 2887:
+    CPU_BURST_COMPLETED
+    Thread 0 in process 4 [NORMAL]
+    Transitioned from RUNNING to BLOCKED
+
+At time 2887:
+    DISPATCHER_INVOKED
+    Thread 0 in process 11 [BATCH]
+    Selected from 10 threads. Will run for at most 6 ticks.
+
+At time 2917:
+    IO_BURST_COMPLETED
+    Thread 0 in process 4 [NORMAL]
+    Transitioned from BLOCKED to READY
+
+At time 2935:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 11 [BATCH]
+    Transitioned from READY to RUNNING
+
+At time 2941:
+    THREAD_PREEMPTED
+    Thread 0 in process 11 [BATCH]
+    Transitioned from RUNNING to READY
+
+At time 2941:
+    DISPATCHER_INVOKED
+    Thread 0 in process 10 [BATCH]
+    Selected from 11 threads. Will run for at most 6 ticks.
+
+At time 2989:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 10 [BATCH]
+    Transitioned from READY to RUNNING
+
+At time 2995:
+    THREAD_PREEMPTED
+    Thread 0 in process 10 [BATCH]
+    Transitioned from RUNNING to READY
+
+At time 2995:
+    DISPATCHER_INVOKED
+    Thread 0 in process 12 [BATCH]
+    Selected from 11 threads. Will run for at most 6 ticks.
+
+At time 3043:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 12 [BATCH]
+    Transitioned from READY to RUNNING
+
+At time 3047:
     THREAD_COMPLETED
-    Thread 2 in process 404 [BATCH]
+    Thread 0 in process 12 [BATCH]
     Transitioned from RUNNING to EXIT
 
-At time 2554:
+At time 3047:
     DISPATCHER_INVOKED
-    Thread 0 in process 613 [NORMAL]
+    Thread 0 in process 6 [NORMAL]
     Selected from 10 threads. Will run for at most 6 ticks.
 
-At time 2602:
+At time 3095:
     PROCESS_DISPATCH_COMPLETED
-    Thread 0 in process 613 [NORMAL]
+    Thread 0 in process 6 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 2608:
+At time 3101:
     THREAD_PREEMPTED
-    Thread 0 in process 613 [NORMAL]
+    Thread 0 in process 6 [NORMAL]
     Transitioned from RUNNING to READY
 
-At time 2608:
+At time 3101:
     DISPATCHER_INVOKED
-    Thread 0 in process 341 [INTERACTIVE]
+    Thread 0 in process 5 [INTERACTIVE]
     Selected from 10 threads. Will run for at most 6 ticks.
 
-At time 2656:
+At time 3149:
     PROCESS_DISPATCH_COMPLETED
-    Thread 0 in process 341 [INTERACTIVE]
+    Thread 0 in process 5 [INTERACTIVE]
     Transitioned from READY to RUNNING
 
-At time 2662:
+At time 3155:
     THREAD_PREEMPTED
-    Thread 0 in process 341 [INTERACTIVE]
+    Thread 0 in process 5 [INTERACTIVE]
     Transitioned from RUNNING to READY
 
-At time 2662:
+At time 3155:
     DISPATCHER_INVOKED
-    Thread 3 in process 613 [NORMAL]
+    Thread 0 in process 9 [NORMAL]
     Selected from 10 threads. Will run for at most 6 ticks.
 
-At time 2710:
+At time 3203:
     PROCESS_DISPATCH_COMPLETED
-    Thread 3 in process 613 [NORMAL]
+    Thread 0 in process 9 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 2716:
+At time 3209:
     CPU_BURST_COMPLETED
-    Thread 3 in process 613 [NORMAL]
+    Thread 0 in process 9 [NORMAL]
     Transitioned from RUNNING to BLOCKED
 
-At time 2716:
+At time 3209:
     DISPATCHER_INVOKED
-    Thread 0 in process 297 [BATCH]
+    Thread 0 in process 3 [BATCH]
     Selected from 9 threads. Will run for at most 6 ticks.
 
-At time 2719:
+At time 3212:
     IO_BURST_COMPLETED
-    Thread 3 in process 613 [NORMAL]
+    Thread 0 in process 9 [NORMAL]
     Transitioned from BLOCKED to READY
 
-At time 2764:
+At time 3257:
     PROCESS_DISPATCH_COMPLETED
-    Thread 0 in process 297 [BATCH]
+    Thread 0 in process 3 [BATCH]
     Transitioned from READY to RUNNING
 
-At time 2770:
+At time 3263:
     THREAD_PREEMPTED
-    Thread 0 in process 297 [BATCH]
+    Thread 0 in process 3 [BATCH]
     Transitioned from RUNNING to READY
 
-At time 2770:
+At time 3263:
     DISPATCHER_INVOKED
-    Thread 1 in process 395 [NORMAL]
+    Thread 0 in process 1 [NORMAL]
     Selected from 10 threads. Will run for at most 6 ticks.
 
-At time 2818:
+At time 3311:
     PROCESS_DISPATCH_COMPLETED
-    Thread 1 in process 395 [NORMAL]
+    Thread 0 in process 1 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 2824:
+At time 3317:
     THREAD_PREEMPTED
-    Thread 1 in process 395 [NORMAL]
+    Thread 0 in process 1 [NORMAL]
     Transitioned from RUNNING to READY
 
-At time 2824:
+At time 3317:
     DISPATCHER_INVOKED
-    Thread 2 in process 395 [NORMAL]
+    Thread 0 in process 2 [NORMAL]
     Selected from 10 threads. Will run for at most 6 ticks.
 
-At time 2843:
-    THREAD_DISPATCH_COMPLETED
-    Thread 2 in process 395 [NORMAL]
+At time 3365:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 2 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 2849:
+At time 3371:
     THREAD_PREEMPTED
-    Thread 2 in process 395 [NORMAL]
+    Thread 0 in process 2 [NORMAL]
     Transitioned from RUNNING to READY
 
-At time 2849:
+At time 3371:
     DISPATCHER_INVOKED
-    Thread 1 in process 613 [NORMAL]
+    Thread 0 in process 7 [NORMAL]
     Selected from 10 threads. Will run for at most 6 ticks.
 
-At time 2897:
+At time 3419:
     PROCESS_DISPATCH_COMPLETED
-    Thread 1 in process 613 [NORMAL]
+    Thread 0 in process 7 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 2903:
+At time 3425:
     THREAD_PREEMPTED
-    Thread 1 in process 613 [NORMAL]
+    Thread 0 in process 7 [NORMAL]
     Transitioned from RUNNING to READY
 
-At time 2903:
+At time 3425:
     DISPATCHER_INVOKED
-    Thread 0 in process 203 [NORMAL]
+    Thread 0 in process 4 [NORMAL]
     Selected from 10 threads. Will run for at most 6 ticks.
 
-At time 2951:
+At time 3473:
     PROCESS_DISPATCH_COMPLETED
-    Thread 0 in process 203 [NORMAL]
+    Thread 0 in process 4 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 2955:
+At time 3477:
     CPU_BURST_COMPLETED
-    Thread 0 in process 203 [NORMAL]
+    Thread 0 in process 4 [NORMAL]
     Transitioned from RUNNING to BLOCKED
 
-At time 2955:
+At time 3477:
     DISPATCHER_INVOKED
-    Thread 1 in process 404 [BATCH]
+    Thread 0 in process 11 [BATCH]
     Selected from 9 threads. Will run for at most 6 ticks.
 
-At time 2984:
+At time 3506:
     IO_BURST_COMPLETED
-    Thread 0 in process 203 [NORMAL]
+    Thread 0 in process 4 [NORMAL]
     Transitioned from BLOCKED to READY
 
-At time 3003:
+At time 3525:
     PROCESS_DISPATCH_COMPLETED
-    Thread 1 in process 404 [BATCH]
+    Thread 0 in process 11 [BATCH]
     Transitioned from READY to RUNNING
 
-At time 3007:
+At time 3529:
     CPU_BURST_COMPLETED
-    Thread 1 in process 404 [BATCH]
+    Thread 0 in process 11 [BATCH]
     Transitioned from RUNNING to BLOCKED
 
-At time 3007:
+At time 3529:
     DISPATCHER_INVOKED
-    Thread 0 in process 404 [BATCH]
+    Thread 0 in process 10 [BATCH]
     Selected from 9 threads. Will run for at most 6 ticks.
 
-At time 3020:
+At time 3542:
     IO_BURST_COMPLETED
-    Thread 1 in process 404 [BATCH]
+    Thread 0 in process 11 [BATCH]
     Transitioned from BLOCKED to READY
 
-At time 3026:
-    THREAD_DISPATCH_COMPLETED
-    Thread 0 in process 404 [BATCH]
-    Transitioned from READY to RUNNING
-
-At time 3032:
-    THREAD_PREEMPTED
-    Thread 0 in process 404 [BATCH]
-    Transitioned from RUNNING to READY
-
-At time 3032:
-    DISPATCHER_INVOKED
-    Thread 0 in process 613 [NORMAL]
-    Selected from 10 threads. Will run for at most 6 ticks.
-
-At time 3080:
+At time 3577:
     PROCESS_DISPATCH_COMPLETED
-    Thread 0 in process 613 [NORMAL]
+    Thread 0 in process 10 [BATCH]
     Transitioned from READY to RUNNING
 
-At time 3086:
+At time 3583:
     THREAD_PREEMPTED
-    Thread 0 in process 613 [NORMAL]
+    Thread 0 in process 10 [BATCH]
     Transitioned from RUNNING to READY
 
-At time 3086:
+At time 3583:
     DISPATCHER_INVOKED
-    Thread 0 in process 341 [INTERACTIVE]
+    Thread 0 in process 6 [NORMAL]
     Selected from 10 threads. Will run for at most 6 ticks.
 
-At time 3134:
+At time 3631:
     PROCESS_DISPATCH_COMPLETED
-    Thread 0 in process 341 [INTERACTIVE]
+    Thread 0 in process 6 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 3140:
+At time 3637:
     THREAD_PREEMPTED
-    Thread 0 in process 341 [INTERACTIVE]
+    Thread 0 in process 6 [NORMAL]
     Transitioned from RUNNING to READY
 
-At time 3140:
+At time 3637:
     DISPATCHER_INVOKED
-    Thread 3 in process 613 [NORMAL]
+    Thread 0 in process 5 [INTERACTIVE]
     Selected from 10 threads. Will run for at most 6 ticks.
 
-At time 3188:
+At time 3685:
     PROCESS_DISPATCH_COMPLETED
-    Thread 3 in process 613 [NORMAL]
+    Thread 0 in process 5 [INTERACTIVE]
     Transitioned from READY to RUNNING
 
-At time 3194:
+At time 3691:
     THREAD_PREEMPTED
-    Thread 3 in process 613 [NORMAL]
+    Thread 0 in process 5 [INTERACTIVE]
     Transitioned from RUNNING to READY
 
-At time 3194:
+At time 3691:
     DISPATCHER_INVOKED
-    Thread 0 in process 297 [BATCH]
+    Thread 0 in process 9 [NORMAL]
     Selected from 10 threads. Will run for at most 6 ticks.
 
-At time 3242:
+At time 3739:
     PROCESS_DISPATCH_COMPLETED
-    Thread 0 in process 297 [BATCH]
+    Thread 0 in process 9 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 3248:
+At time 3745:
     THREAD_PREEMPTED
-    Thread 0 in process 297 [BATCH]
+    Thread 0 in process 9 [NORMAL]
     Transitioned from RUNNING to READY
 
-At time 3248:
+At time 3745:
     DISPATCHER_INVOKED
-    Thread 1 in process 395 [NORMAL]
+    Thread 0 in process 3 [BATCH]
     Selected from 10 threads. Will run for at most 6 ticks.
 
-At time 3296:
+At time 3793:
     PROCESS_DISPATCH_COMPLETED
-    Thread 1 in process 395 [NORMAL]
+    Thread 0 in process 3 [BATCH]
     Transitioned from READY to RUNNING
 
-At time 3302:
+At time 3799:
     THREAD_PREEMPTED
-    Thread 1 in process 395 [NORMAL]
+    Thread 0 in process 3 [BATCH]
     Transitioned from RUNNING to READY
 
-At time 3302:
+At time 3799:
     DISPATCHER_INVOKED
-    Thread 2 in process 395 [NORMAL]
+    Thread 0 in process 1 [NORMAL]
     Selected from 10 threads. Will run for at most 6 ticks.
 
-At time 3321:
-    THREAD_DISPATCH_COMPLETED
-    Thread 2 in process 395 [NORMAL]
-    Transitioned from READY to RUNNING
-
-At time 3327:
-    THREAD_PREEMPTED
-    Thread 2 in process 395 [NORMAL]
-    Transitioned from RUNNING to READY
-
-At time 3327:
-    DISPATCHER_INVOKED
-    Thread 1 in process 613 [NORMAL]
-    Selected from 10 threads. Will run for at most 6 ticks.
-
-At time 3375:
+At time 3847:
     PROCESS_DISPATCH_COMPLETED
-    Thread 1 in process 613 [NORMAL]
+    Thread 0 in process 1 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 3381:
+At time 3853:
     THREAD_PREEMPTED
-    Thread 1 in process 613 [NORMAL]
+    Thread 0 in process 1 [NORMAL]
     Transitioned from RUNNING to READY
 
-At time 3381:
+At time 3853:
     DISPATCHER_INVOKED
-    Thread 0 in process 203 [NORMAL]
+    Thread 0 in process 2 [NORMAL]
     Selected from 10 threads. Will run for at most 6 ticks.
 
-At time 3429:
+At time 3901:
     PROCESS_DISPATCH_COMPLETED
-    Thread 0 in process 203 [NORMAL]
+    Thread 0 in process 2 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 3435:
+At time 3907:
     THREAD_PREEMPTED
-    Thread 0 in process 203 [NORMAL]
+    Thread 0 in process 2 [NORMAL]
     Transitioned from RUNNING to READY
 
-At time 3435:
+At time 3907:
     DISPATCHER_INVOKED
-    Thread 1 in process 404 [BATCH]
+    Thread 0 in process 7 [NORMAL]
     Selected from 10 threads. Will run for at most 6 ticks.
 
-At time 3483:
+At time 3955:
     PROCESS_DISPATCH_COMPLETED
-    Thread 1 in process 404 [BATCH]
+    Thread 0 in process 7 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 3488:
+At time 3961:
+    THREAD_PREEMPTED
+    Thread 0 in process 7 [NORMAL]
+    Transitioned from RUNNING to READY
+
+At time 3961:
+    DISPATCHER_INVOKED
+    Thread 0 in process 4 [NORMAL]
+    Selected from 10 threads. Will run for at most 6 ticks.
+
+At time 4009:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 4 [NORMAL]
+    Transitioned from READY to RUNNING
+
+At time 4015:
+    THREAD_PREEMPTED
+    Thread 0 in process 4 [NORMAL]
+    Transitioned from RUNNING to READY
+
+At time 4015:
+    DISPATCHER_INVOKED
+    Thread 0 in process 11 [BATCH]
+    Selected from 10 threads. Will run for at most 6 ticks.
+
+At time 4063:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 11 [BATCH]
+    Transitioned from READY to RUNNING
+
+At time 4068:
     CPU_BURST_COMPLETED
-    Thread 1 in process 404 [BATCH]
+    Thread 0 in process 11 [BATCH]
     Transitioned from RUNNING to BLOCKED
 
-At time 3488:
+At time 4068:
     DISPATCHER_INVOKED
-    Thread 0 in process 404 [BATCH]
+    Thread 0 in process 10 [BATCH]
     Selected from 9 threads. Will run for at most 6 ticks.
 
-At time 3507:
-    THREAD_DISPATCH_COMPLETED
-    Thread 0 in process 404 [BATCH]
-    Transitioned from READY to RUNNING
-
-At time 3510:
+At time 4090:
     IO_BURST_COMPLETED
-    Thread 1 in process 404 [BATCH]
+    Thread 0 in process 11 [BATCH]
     Transitioned from BLOCKED to READY
 
-At time 3513:
-    THREAD_PREEMPTED
-    Thread 0 in process 404 [BATCH]
-    Transitioned from RUNNING to READY
-
-At time 3513:
-    DISPATCHER_INVOKED
-    Thread 0 in process 613 [NORMAL]
-    Selected from 10 threads. Will run for at most 6 ticks.
-
-At time 3561:
+At time 4116:
     PROCESS_DISPATCH_COMPLETED
-    Thread 0 in process 613 [NORMAL]
+    Thread 0 in process 10 [BATCH]
     Transitioned from READY to RUNNING
 
-At time 3565:
+At time 4122:
+    THREAD_PREEMPTED
+    Thread 0 in process 10 [BATCH]
+    Transitioned from RUNNING to READY
+
+At time 4122:
+    DISPATCHER_INVOKED
+    Thread 0 in process 6 [NORMAL]
+    Selected from 10 threads. Will run for at most 6 ticks.
+
+At time 4170:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 6 [NORMAL]
+    Transitioned from READY to RUNNING
+
+At time 4174:
     CPU_BURST_COMPLETED
-    Thread 0 in process 613 [NORMAL]
+    Thread 0 in process 6 [NORMAL]
     Transitioned from RUNNING to BLOCKED
 
-At time 3565:
+At time 4174:
     DISPATCHER_INVOKED
-    Thread 0 in process 341 [INTERACTIVE]
+    Thread 0 in process 5 [INTERACTIVE]
     Selected from 9 threads. Will run for at most 6 ticks.
 
-At time 3586:
+At time 4195:
     IO_BURST_COMPLETED
-    Thread 0 in process 613 [NORMAL]
+    Thread 0 in process 6 [NORMAL]
     Transitioned from BLOCKED to READY
 
-At time 3613:
+At time 4222:
     PROCESS_DISPATCH_COMPLETED
-    Thread 0 in process 341 [INTERACTIVE]
+    Thread 0 in process 5 [INTERACTIVE]
     Transitioned from READY to RUNNING
 
-At time 3614:
+At time 4223:
     CPU_BURST_COMPLETED
-    Thread 0 in process 341 [INTERACTIVE]
+    Thread 0 in process 5 [INTERACTIVE]
     Transitioned from RUNNING to BLOCKED
 
-At time 3614:
+At time 4223:
     DISPATCHER_INVOKED
-    Thread 3 in process 613 [NORMAL]
+    Thread 0 in process 9 [NORMAL]
     Selected from 9 threads. Will run for at most 6 ticks.
 
-At time 3621:
+At time 4230:
     IO_BURST_COMPLETED
-    Thread 0 in process 341 [INTERACTIVE]
+    Thread 0 in process 5 [INTERACTIVE]
     Transitioned from BLOCKED to READY
 
-At time 3662:
+At time 4271:
     PROCESS_DISPATCH_COMPLETED
-    Thread 3 in process 613 [NORMAL]
+    Thread 0 in process 9 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 3668:
+At time 4277:
     THREAD_PREEMPTED
-    Thread 3 in process 613 [NORMAL]
+    Thread 0 in process 9 [NORMAL]
     Transitioned from RUNNING to READY
 
-At time 3668:
+At time 4277:
     DISPATCHER_INVOKED
-    Thread 0 in process 297 [BATCH]
+    Thread 0 in process 3 [BATCH]
     Selected from 10 threads. Will run for at most 6 ticks.
 
-At time 3716:
+At time 4325:
     PROCESS_DISPATCH_COMPLETED
-    Thread 0 in process 297 [BATCH]
+    Thread 0 in process 3 [BATCH]
     Transitioned from READY to RUNNING
 
-At time 3722:
+At time 4331:
     THREAD_PREEMPTED
-    Thread 0 in process 297 [BATCH]
+    Thread 0 in process 3 [BATCH]
     Transitioned from RUNNING to READY
 
-At time 3722:
+At time 4331:
     DISPATCHER_INVOKED
-    Thread 1 in process 395 [NORMAL]
+    Thread 0 in process 1 [NORMAL]
     Selected from 10 threads. Will run for at most 6 ticks.
 
-At time 3770:
+At time 4379:
     PROCESS_DISPATCH_COMPLETED
-    Thread 1 in process 395 [NORMAL]
+    Thread 0 in process 1 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 3771:
+At time 4380:
     CPU_BURST_COMPLETED
-    Thread 1 in process 395 [NORMAL]
+    Thread 0 in process 1 [NORMAL]
     Transitioned from RUNNING to BLOCKED
 
-At time 3771:
+At time 4380:
     DISPATCHER_INVOKED
-    Thread 2 in process 395 [NORMAL]
+    Thread 0 in process 2 [NORMAL]
     Selected from 9 threads. Will run for at most 6 ticks.
 
-At time 3787:
+At time 4396:
     IO_BURST_COMPLETED
-    Thread 1 in process 395 [NORMAL]
+    Thread 0 in process 1 [NORMAL]
     Transitioned from BLOCKED to READY
 
-At time 3790:
-    THREAD_DISPATCH_COMPLETED
-    Thread 2 in process 395 [NORMAL]
-    Transitioned from READY to RUNNING
-
-At time 3796:
-    THREAD_PREEMPTED
-    Thread 2 in process 395 [NORMAL]
-    Transitioned from RUNNING to READY
-
-At time 3796:
-    DISPATCHER_INVOKED
-    Thread 1 in process 613 [NORMAL]
-    Selected from 10 threads. Will run for at most 6 ticks.
-
-At time 3844:
+At time 4428:
     PROCESS_DISPATCH_COMPLETED
-    Thread 1 in process 613 [NORMAL]
+    Thread 0 in process 2 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 3850:
+At time 4434:
     THREAD_PREEMPTED
-    Thread 1 in process 613 [NORMAL]
+    Thread 0 in process 2 [NORMAL]
     Transitioned from RUNNING to READY
 
-At time 3850:
+At time 4434:
     DISPATCHER_INVOKED
-    Thread 0 in process 203 [NORMAL]
+    Thread 0 in process 7 [NORMAL]
     Selected from 10 threads. Will run for at most 6 ticks.
 
-At time 3898:
+At time 4482:
     PROCESS_DISPATCH_COMPLETED
-    Thread 0 in process 203 [NORMAL]
+    Thread 0 in process 7 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 3904:
+At time 4488:
     THREAD_PREEMPTED
-    Thread 0 in process 203 [NORMAL]
+    Thread 0 in process 7 [NORMAL]
     Transitioned from RUNNING to READY
 
-At time 3904:
+At time 4488:
     DISPATCHER_INVOKED
-    Thread 1 in process 404 [BATCH]
+    Thread 0 in process 4 [NORMAL]
     Selected from 10 threads. Will run for at most 6 ticks.
 
-At time 3952:
+At time 4536:
     PROCESS_DISPATCH_COMPLETED
-    Thread 1 in process 404 [BATCH]
+    Thread 0 in process 4 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 3958:
+At time 4542:
     THREAD_PREEMPTED
-    Thread 1 in process 404 [BATCH]
+    Thread 0 in process 4 [NORMAL]
     Transitioned from RUNNING to READY
 
-At time 3958:
+At time 4542:
     DISPATCHER_INVOKED
-    Thread 0 in process 404 [BATCH]
+    Thread 0 in process 11 [BATCH]
     Selected from 10 threads. Will run for at most 6 ticks.
 
-At time 3977:
-    THREAD_DISPATCH_COMPLETED
-    Thread 0 in process 404 [BATCH]
+At time 4590:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 11 [BATCH]
     Transitioned from READY to RUNNING
 
-At time 3981:
+At time 4596:
+    THREAD_PREEMPTED
+    Thread 0 in process 11 [BATCH]
+    Transitioned from RUNNING to READY
+
+At time 4596:
+    DISPATCHER_INVOKED
+    Thread 0 in process 10 [BATCH]
+    Selected from 10 threads. Will run for at most 6 ticks.
+
+At time 4644:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 10 [BATCH]
+    Transitioned from READY to RUNNING
+
+At time 4648:
     CPU_BURST_COMPLETED
-    Thread 0 in process 404 [BATCH]
+    Thread 0 in process 10 [BATCH]
     Transitioned from RUNNING to BLOCKED
 
-At time 3981:
+At time 4648:
     DISPATCHER_INVOKED
-    Thread 0 in process 613 [NORMAL]
+    Thread 0 in process 6 [NORMAL]
     Selected from 9 threads. Will run for at most 6 ticks.
 
-At time 4001:
+At time 4668:
     IO_BURST_COMPLETED
-    Thread 0 in process 404 [BATCH]
+    Thread 0 in process 10 [BATCH]
     Transitioned from BLOCKED to READY
 
-At time 4029:
+At time 4696:
     PROCESS_DISPATCH_COMPLETED
-    Thread 0 in process 613 [NORMAL]
+    Thread 0 in process 6 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 4030:
+At time 4697:
     CPU_BURST_COMPLETED
-    Thread 0 in process 613 [NORMAL]
+    Thread 0 in process 6 [NORMAL]
     Transitioned from RUNNING to BLOCKED
 
-At time 4030:
+At time 4697:
     DISPATCHER_INVOKED
-    Thread 0 in process 341 [INTERACTIVE]
+    Thread 0 in process 5 [INTERACTIVE]
     Selected from 9 threads. Will run for at most 6 ticks.
 
-At time 4040:
+At time 4707:
     IO_BURST_COMPLETED
-    Thread 0 in process 613 [NORMAL]
+    Thread 0 in process 6 [NORMAL]
     Transitioned from BLOCKED to READY
-
-At time 4078:
-    PROCESS_DISPATCH_COMPLETED
-    Thread 0 in process 341 [INTERACTIVE]
-    Transitioned from READY to RUNNING
-
-At time 4084:
-    THREAD_PREEMPTED
-    Thread 0 in process 341 [INTERACTIVE]
-    Transitioned from RUNNING to READY
-
-At time 4084:
-    DISPATCHER_INVOKED
-    Thread 3 in process 613 [NORMAL]
-    Selected from 10 threads. Will run for at most 6 ticks.
-
-At time 4132:
-    PROCESS_DISPATCH_COMPLETED
-    Thread 3 in process 613 [NORMAL]
-    Transitioned from READY to RUNNING
-
-At time 4138:
-    THREAD_PREEMPTED
-    Thread 3 in process 613 [NORMAL]
-    Transitioned from RUNNING to READY
-
-At time 4138:
-    DISPATCHER_INVOKED
-    Thread 0 in process 297 [BATCH]
-    Selected from 10 threads. Will run for at most 6 ticks.
-
-At time 4186:
-    PROCESS_DISPATCH_COMPLETED
-    Thread 0 in process 297 [BATCH]
-    Transitioned from READY to RUNNING
-
-At time 4192:
-    THREAD_PREEMPTED
-    Thread 0 in process 297 [BATCH]
-    Transitioned from RUNNING to READY
-
-At time 4192:
-    DISPATCHER_INVOKED
-    Thread 1 in process 395 [NORMAL]
-    Selected from 10 threads. Will run for at most 6 ticks.
-
-At time 4240:
-    PROCESS_DISPATCH_COMPLETED
-    Thread 1 in process 395 [NORMAL]
-    Transitioned from READY to RUNNING
-
-At time 4241:
-    CPU_BURST_COMPLETED
-    Thread 1 in process 395 [NORMAL]
-    Transitioned from RUNNING to BLOCKED
-
-At time 4241:
-    DISPATCHER_INVOKED
-    Thread 2 in process 395 [NORMAL]
-    Selected from 9 threads. Will run for at most 6 ticks.
-
-At time 4260:
-    THREAD_DISPATCH_COMPLETED
-    Thread 2 in process 395 [NORMAL]
-    Transitioned from READY to RUNNING
-
-At time 4265:
-    IO_BURST_COMPLETED
-    Thread 1 in process 395 [NORMAL]
-    Transitioned from BLOCKED to READY
-
-At time 4266:
-    THREAD_PREEMPTED
-    Thread 2 in process 395 [NORMAL]
-    Transitioned from RUNNING to READY
-
-At time 4266:
-    DISPATCHER_INVOKED
-    Thread 1 in process 613 [NORMAL]
-    Selected from 10 threads. Will run for at most 6 ticks.
-
-At time 4314:
-    PROCESS_DISPATCH_COMPLETED
-    Thread 1 in process 613 [NORMAL]
-    Transitioned from READY to RUNNING
-
-At time 4315:
-    CPU_BURST_COMPLETED
-    Thread 1 in process 613 [NORMAL]
-    Transitioned from RUNNING to BLOCKED
-
-At time 4315:
-    DISPATCHER_INVOKED
-    Thread 0 in process 203 [NORMAL]
-    Selected from 9 threads. Will run for at most 6 ticks.
-
-At time 4323:
-    IO_BURST_COMPLETED
-    Thread 1 in process 613 [NORMAL]
-    Transitioned from BLOCKED to READY
-
-At time 4363:
-    PROCESS_DISPATCH_COMPLETED
-    Thread 0 in process 203 [NORMAL]
-    Transitioned from READY to RUNNING
-
-At time 4369:
-    THREAD_PREEMPTED
-    Thread 0 in process 203 [NORMAL]
-    Transitioned from RUNNING to READY
-
-At time 4369:
-    DISPATCHER_INVOKED
-    Thread 1 in process 404 [BATCH]
-    Selected from 10 threads. Will run for at most 6 ticks.
-
-At time 4417:
-    PROCESS_DISPATCH_COMPLETED
-    Thread 1 in process 404 [BATCH]
-    Transitioned from READY to RUNNING
-
-At time 4423:
-    THREAD_PREEMPTED
-    Thread 1 in process 404 [BATCH]
-    Transitioned from RUNNING to READY
-
-At time 4423:
-    DISPATCHER_INVOKED
-    Thread 0 in process 404 [BATCH]
-    Selected from 10 threads. Will run for at most 6 ticks.
-
-At time 4442:
-    THREAD_DISPATCH_COMPLETED
-    Thread 0 in process 404 [BATCH]
-    Transitioned from READY to RUNNING
-
-At time 4448:
-    THREAD_PREEMPTED
-    Thread 0 in process 404 [BATCH]
-    Transitioned from RUNNING to READY
-
-At time 4448:
-    DISPATCHER_INVOKED
-    Thread 0 in process 613 [NORMAL]
-    Selected from 10 threads. Will run for at most 6 ticks.
-
-At time 4496:
-    PROCESS_DISPATCH_COMPLETED
-    Thread 0 in process 613 [NORMAL]
-    Transitioned from READY to RUNNING
-
-At time 4502:
-    THREAD_PREEMPTED
-    Thread 0 in process 613 [NORMAL]
-    Transitioned from RUNNING to READY
-
-At time 4502:
-    DISPATCHER_INVOKED
-    Thread 0 in process 341 [INTERACTIVE]
-    Selected from 10 threads. Will run for at most 6 ticks.
-
-At time 4550:
-    PROCESS_DISPATCH_COMPLETED
-    Thread 0 in process 341 [INTERACTIVE]
-    Transitioned from READY to RUNNING
-
-At time 4556:
-    THREAD_PREEMPTED
-    Thread 0 in process 341 [INTERACTIVE]
-    Transitioned from RUNNING to READY
-
-At time 4556:
-    DISPATCHER_INVOKED
-    Thread 3 in process 613 [NORMAL]
-    Selected from 10 threads. Will run for at most 6 ticks.
-
-At time 4604:
-    PROCESS_DISPATCH_COMPLETED
-    Thread 3 in process 613 [NORMAL]
-    Transitioned from READY to RUNNING
-
-At time 4610:
-    THREAD_PREEMPTED
-    Thread 3 in process 613 [NORMAL]
-    Transitioned from RUNNING to READY
-
-At time 4610:
-    DISPATCHER_INVOKED
-    Thread 0 in process 297 [BATCH]
-    Selected from 10 threads. Will run for at most 6 ticks.
-
-At time 4658:
-    PROCESS_DISPATCH_COMPLETED
-    Thread 0 in process 297 [BATCH]
-    Transitioned from READY to RUNNING
-
-At time 4662:
-    CPU_BURST_COMPLETED
-    Thread 0 in process 297 [BATCH]
-    Transitioned from RUNNING to BLOCKED
-
-At time 4662:
-    DISPATCHER_INVOKED
-    Thread 1 in process 395 [NORMAL]
-    Selected from 9 threads. Will run for at most 6 ticks.
-
-At time 4690:
-    IO_BURST_COMPLETED
-    Thread 0 in process 297 [BATCH]
-    Transitioned from BLOCKED to READY
-
-At time 4710:
-    PROCESS_DISPATCH_COMPLETED
-    Thread 1 in process 395 [NORMAL]
-    Transitioned from READY to RUNNING
-
-At time 4716:
-    THREAD_PREEMPTED
-    Thread 1 in process 395 [NORMAL]
-    Transitioned from RUNNING to READY
-
-At time 4716:
-    DISPATCHER_INVOKED
-    Thread 2 in process 395 [NORMAL]
-    Selected from 10 threads. Will run for at most 6 ticks.
-
-At time 4735:
-    THREAD_DISPATCH_COMPLETED
-    Thread 2 in process 395 [NORMAL]
-    Transitioned from READY to RUNNING
-
-At time 4737:
-    CPU_BURST_COMPLETED
-    Thread 2 in process 395 [NORMAL]
-    Transitioned from RUNNING to BLOCKED
-
-At time 4737:
-    DISPATCHER_INVOKED
-    Thread 1 in process 613 [NORMAL]
-    Selected from 9 threads. Will run for at most 6 ticks.
 
 At time 4745:
-    IO_BURST_COMPLETED
-    Thread 2 in process 395 [NORMAL]
-    Transitioned from BLOCKED to READY
-
-At time 4785:
     PROCESS_DISPATCH_COMPLETED
-    Thread 1 in process 613 [NORMAL]
+    Thread 0 in process 5 [INTERACTIVE]
     Transitioned from READY to RUNNING
 
-At time 4791:
+At time 4751:
     THREAD_PREEMPTED
-    Thread 1 in process 613 [NORMAL]
+    Thread 0 in process 5 [INTERACTIVE]
     Transitioned from RUNNING to READY
 
-At time 4791:
+At time 4751:
     DISPATCHER_INVOKED
-    Thread 0 in process 203 [NORMAL]
+    Thread 0 in process 9 [NORMAL]
     Selected from 10 threads. Will run for at most 6 ticks.
 
-At time 4839:
+At time 4799:
     PROCESS_DISPATCH_COMPLETED
-    Thread 0 in process 203 [NORMAL]
+    Thread 0 in process 9 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 4845:
+At time 4805:
+    THREAD_PREEMPTED
+    Thread 0 in process 9 [NORMAL]
+    Transitioned from RUNNING to READY
+
+At time 4805:
+    DISPATCHER_INVOKED
+    Thread 0 in process 3 [BATCH]
+    Selected from 10 threads. Will run for at most 6 ticks.
+
+At time 4853:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 3 [BATCH]
+    Transitioned from READY to RUNNING
+
+At time 4859:
+    THREAD_PREEMPTED
+    Thread 0 in process 3 [BATCH]
+    Transitioned from RUNNING to READY
+
+At time 4859:
+    DISPATCHER_INVOKED
+    Thread 0 in process 1 [NORMAL]
+    Selected from 10 threads. Will run for at most 6 ticks.
+
+At time 4907:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 1 [NORMAL]
+    Transitioned from READY to RUNNING
+
+At time 4908:
     CPU_BURST_COMPLETED
-    Thread 0 in process 203 [NORMAL]
+    Thread 0 in process 1 [NORMAL]
     Transitioned from RUNNING to BLOCKED
 
-At time 4845:
+At time 4908:
     DISPATCHER_INVOKED
-    Thread 1 in process 404 [BATCH]
+    Thread 0 in process 2 [NORMAL]
     Selected from 9 threads. Will run for at most 6 ticks.
 
-At time 4846:
+At time 4932:
     IO_BURST_COMPLETED
-    Thread 0 in process 203 [NORMAL]
+    Thread 0 in process 1 [NORMAL]
     Transitioned from BLOCKED to READY
 
-At time 4893:
+At time 4956:
     PROCESS_DISPATCH_COMPLETED
-    Thread 1 in process 404 [BATCH]
+    Thread 0 in process 2 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 4899:
+At time 4962:
     THREAD_PREEMPTED
-    Thread 1 in process 404 [BATCH]
+    Thread 0 in process 2 [NORMAL]
     Transitioned from RUNNING to READY
 
-At time 4899:
+At time 4962:
     DISPATCHER_INVOKED
-    Thread 0 in process 404 [BATCH]
+    Thread 0 in process 7 [NORMAL]
     Selected from 10 threads. Will run for at most 6 ticks.
 
-At time 4918:
-    THREAD_DISPATCH_COMPLETED
-    Thread 0 in process 404 [BATCH]
-    Transitioned from READY to RUNNING
-
-At time 4924:
-    THREAD_PREEMPTED
-    Thread 0 in process 404 [BATCH]
-    Transitioned from RUNNING to READY
-
-At time 4924:
-    DISPATCHER_INVOKED
-    Thread 0 in process 613 [NORMAL]
-    Selected from 10 threads. Will run for at most 6 ticks.
-
-At time 4972:
+At time 5010:
     PROCESS_DISPATCH_COMPLETED
-    Thread 0 in process 613 [NORMAL]
+    Thread 0 in process 7 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 4978:
-    THREAD_PREEMPTED
-    Thread 0 in process 613 [NORMAL]
-    Transitioned from RUNNING to READY
-
-At time 4978:
-    DISPATCHER_INVOKED
-    Thread 0 in process 341 [INTERACTIVE]
-    Selected from 10 threads. Will run for at most 6 ticks.
-
-At time 5026:
-    PROCESS_DISPATCH_COMPLETED
-    Thread 0 in process 341 [INTERACTIVE]
-    Transitioned from READY to RUNNING
-
-At time 5032:
-    THREAD_PREEMPTED
-    Thread 0 in process 341 [INTERACTIVE]
-    Transitioned from RUNNING to READY
-
-At time 5032:
-    DISPATCHER_INVOKED
-    Thread 3 in process 613 [NORMAL]
-    Selected from 10 threads. Will run for at most 6 ticks.
-
-At time 5080:
-    PROCESS_DISPATCH_COMPLETED
-    Thread 3 in process 613 [NORMAL]
-    Transitioned from READY to RUNNING
-
-At time 5081:
+At time 5011:
     CPU_BURST_COMPLETED
-    Thread 3 in process 613 [NORMAL]
+    Thread 0 in process 7 [NORMAL]
     Transitioned from RUNNING to BLOCKED
 
-At time 5081:
+At time 5011:
     DISPATCHER_INVOKED
-    Thread 0 in process 297 [BATCH]
+    Thread 0 in process 4 [NORMAL]
     Selected from 9 threads. Will run for at most 6 ticks.
 
-At time 5109:
+At time 5019:
     IO_BURST_COMPLETED
-    Thread 3 in process 613 [NORMAL]
+    Thread 0 in process 7 [NORMAL]
     Transitioned from BLOCKED to READY
 
-At time 5129:
+At time 5059:
     PROCESS_DISPATCH_COMPLETED
-    Thread 0 in process 297 [BATCH]
+    Thread 0 in process 4 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 5135:
+At time 5065:
     THREAD_PREEMPTED
-    Thread 0 in process 297 [BATCH]
+    Thread 0 in process 4 [NORMAL]
     Transitioned from RUNNING to READY
 
-At time 5135:
+At time 5065:
     DISPATCHER_INVOKED
-    Thread 1 in process 395 [NORMAL]
+    Thread 0 in process 11 [BATCH]
     Selected from 10 threads. Will run for at most 6 ticks.
 
-At time 5183:
+At time 5113:
     PROCESS_DISPATCH_COMPLETED
-    Thread 1 in process 395 [NORMAL]
+    Thread 0 in process 11 [BATCH]
     Transitioned from READY to RUNNING
 
-At time 5189:
+At time 5119:
+    THREAD_PREEMPTED
+    Thread 0 in process 11 [BATCH]
+    Transitioned from RUNNING to READY
+
+At time 5119:
+    DISPATCHER_INVOKED
+    Thread 0 in process 10 [BATCH]
+    Selected from 10 threads. Will run for at most 6 ticks.
+
+At time 5167:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 10 [BATCH]
+    Transitioned from READY to RUNNING
+
+At time 5173:
+    THREAD_PREEMPTED
+    Thread 0 in process 10 [BATCH]
+    Transitioned from RUNNING to READY
+
+At time 5173:
+    DISPATCHER_INVOKED
+    Thread 0 in process 6 [NORMAL]
+    Selected from 10 threads. Will run for at most 6 ticks.
+
+At time 5221:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 6 [NORMAL]
+    Transitioned from READY to RUNNING
+
+At time 5227:
+    THREAD_PREEMPTED
+    Thread 0 in process 6 [NORMAL]
+    Transitioned from RUNNING to READY
+
+At time 5227:
+    DISPATCHER_INVOKED
+    Thread 0 in process 5 [INTERACTIVE]
+    Selected from 10 threads. Will run for at most 6 ticks.
+
+At time 5275:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 5 [INTERACTIVE]
+    Transitioned from READY to RUNNING
+
+At time 5281:
+    THREAD_PREEMPTED
+    Thread 0 in process 5 [INTERACTIVE]
+    Transitioned from RUNNING to READY
+
+At time 5281:
+    DISPATCHER_INVOKED
+    Thread 0 in process 9 [NORMAL]
+    Selected from 10 threads. Will run for at most 6 ticks.
+
+At time 5329:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 9 [NORMAL]
+    Transitioned from READY to RUNNING
+
+At time 5335:
+    THREAD_PREEMPTED
+    Thread 0 in process 9 [NORMAL]
+    Transitioned from RUNNING to READY
+
+At time 5335:
+    DISPATCHER_INVOKED
+    Thread 0 in process 3 [BATCH]
+    Selected from 10 threads. Will run for at most 6 ticks.
+
+At time 5383:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 3 [BATCH]
+    Transitioned from READY to RUNNING
+
+At time 5387:
     CPU_BURST_COMPLETED
-    Thread 1 in process 395 [NORMAL]
+    Thread 0 in process 3 [BATCH]
     Transitioned from RUNNING to BLOCKED
 
-At time 5189:
+At time 5387:
     DISPATCHER_INVOKED
-    Thread 2 in process 395 [NORMAL]
+    Thread 0 in process 1 [NORMAL]
     Selected from 9 threads. Will run for at most 6 ticks.
 
-At time 5208:
-    THREAD_DISPATCH_COMPLETED
-    Thread 2 in process 395 [NORMAL]
-    Transitioned from READY to RUNNING
-
-At time 5214:
-    THREAD_PREEMPTED
-    Thread 2 in process 395 [NORMAL]
-    Transitioned from RUNNING to READY
-
-At time 5214:
-    DISPATCHER_INVOKED
-    Thread 1 in process 613 [NORMAL]
-    Selected from 9 threads. Will run for at most 6 ticks.
-
-At time 5218:
+At time 5415:
     IO_BURST_COMPLETED
-    Thread 1 in process 395 [NORMAL]
+    Thread 0 in process 3 [BATCH]
     Transitioned from BLOCKED to READY
 
-At time 5262:
+At time 5435:
     PROCESS_DISPATCH_COMPLETED
-    Thread 1 in process 613 [NORMAL]
+    Thread 0 in process 1 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 5268:
+At time 5441:
     THREAD_PREEMPTED
-    Thread 1 in process 613 [NORMAL]
+    Thread 0 in process 1 [NORMAL]
     Transitioned from RUNNING to READY
 
-At time 5268:
+At time 5441:
     DISPATCHER_INVOKED
-    Thread 0 in process 203 [NORMAL]
+    Thread 0 in process 2 [NORMAL]
     Selected from 10 threads. Will run for at most 6 ticks.
 
-At time 5316:
+At time 5489:
     PROCESS_DISPATCH_COMPLETED
-    Thread 0 in process 203 [NORMAL]
+    Thread 0 in process 2 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 5322:
-    THREAD_PREEMPTED
-    Thread 0 in process 203 [NORMAL]
-    Transitioned from RUNNING to READY
-
-At time 5322:
-    DISPATCHER_INVOKED
-    Thread 1 in process 404 [BATCH]
-    Selected from 10 threads. Will run for at most 6 ticks.
-
-At time 5370:
-    PROCESS_DISPATCH_COMPLETED
-    Thread 1 in process 404 [BATCH]
-    Transitioned from READY to RUNNING
-
-At time 5376:
-    THREAD_PREEMPTED
-    Thread 1 in process 404 [BATCH]
-    Transitioned from RUNNING to READY
-
-At time 5376:
-    DISPATCHER_INVOKED
-    Thread 0 in process 404 [BATCH]
-    Selected from 10 threads. Will run for at most 6 ticks.
-
-At time 5395:
-    THREAD_DISPATCH_COMPLETED
-    Thread 0 in process 404 [BATCH]
-    Transitioned from READY to RUNNING
-
-At time 5401:
-    THREAD_PREEMPTED
-    Thread 0 in process 404 [BATCH]
-    Transitioned from RUNNING to READY
-
-At time 5401:
-    DISPATCHER_INVOKED
-    Thread 0 in process 613 [NORMAL]
-    Selected from 10 threads. Will run for at most 6 ticks.
-
-At time 5449:
-    PROCESS_DISPATCH_COMPLETED
-    Thread 0 in process 613 [NORMAL]
-    Transitioned from READY to RUNNING
-
-At time 5451:
+At time 5491:
     CPU_BURST_COMPLETED
-    Thread 0 in process 613 [NORMAL]
+    Thread 0 in process 2 [NORMAL]
     Transitioned from RUNNING to BLOCKED
 
-At time 5451:
+At time 5491:
     DISPATCHER_INVOKED
-    Thread 0 in process 341 [INTERACTIVE]
+    Thread 0 in process 7 [NORMAL]
     Selected from 9 threads. Will run for at most 6 ticks.
-
-At time 5475:
-    IO_BURST_COMPLETED
-    Thread 0 in process 613 [NORMAL]
-    Transitioned from BLOCKED to READY
 
 At time 5499:
+    IO_BURST_COMPLETED
+    Thread 0 in process 2 [NORMAL]
+    Transitioned from BLOCKED to READY
+
+At time 5539:
     PROCESS_DISPATCH_COMPLETED
-    Thread 0 in process 341 [INTERACTIVE]
+    Thread 0 in process 7 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 5505:
+At time 5545:
     THREAD_PREEMPTED
-    Thread 0 in process 341 [INTERACTIVE]
+    Thread 0 in process 7 [NORMAL]
     Transitioned from RUNNING to READY
 
-At time 5505:
+At time 5545:
     DISPATCHER_INVOKED
-    Thread 3 in process 613 [NORMAL]
+    Thread 0 in process 4 [NORMAL]
     Selected from 10 threads. Will run for at most 6 ticks.
 
-At time 5553:
+At time 5593:
     PROCESS_DISPATCH_COMPLETED
-    Thread 3 in process 613 [NORMAL]
+    Thread 0 in process 4 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 5559:
-    THREAD_PREEMPTED
-    Thread 3 in process 613 [NORMAL]
-    Transitioned from RUNNING to READY
-
-At time 5559:
-    DISPATCHER_INVOKED
-    Thread 0 in process 297 [BATCH]
-    Selected from 10 threads. Will run for at most 6 ticks.
-
-At time 5607:
-    PROCESS_DISPATCH_COMPLETED
-    Thread 0 in process 297 [BATCH]
-    Transitioned from READY to RUNNING
-
-At time 5613:
-    THREAD_PREEMPTED
-    Thread 0 in process 297 [BATCH]
-    Transitioned from RUNNING to READY
-
-At time 5613:
-    DISPATCHER_INVOKED
-    Thread 2 in process 395 [NORMAL]
-    Selected from 10 threads. Will run for at most 6 ticks.
-
-At time 5661:
-    PROCESS_DISPATCH_COMPLETED
-    Thread 2 in process 395 [NORMAL]
-    Transitioned from READY to RUNNING
-
-At time 5667:
-    THREAD_PREEMPTED
-    Thread 2 in process 395 [NORMAL]
-    Transitioned from RUNNING to READY
-
-At time 5667:
-    DISPATCHER_INVOKED
-    Thread 1 in process 395 [NORMAL]
-    Selected from 10 threads. Will run for at most 6 ticks.
-
-At time 5686:
-    THREAD_DISPATCH_COMPLETED
-    Thread 1 in process 395 [NORMAL]
-    Transitioned from READY to RUNNING
-
-At time 5687:
+At time 5599:
     CPU_BURST_COMPLETED
-    Thread 1 in process 395 [NORMAL]
+    Thread 0 in process 4 [NORMAL]
     Transitioned from RUNNING to BLOCKED
 
-At time 5687:
+At time 5599:
     DISPATCHER_INVOKED
-    Thread 1 in process 613 [NORMAL]
+    Thread 0 in process 11 [BATCH]
     Selected from 9 threads. Will run for at most 6 ticks.
 
-At time 5693:
+At time 5600:
     IO_BURST_COMPLETED
-    Thread 1 in process 395 [NORMAL]
+    Thread 0 in process 4 [NORMAL]
     Transitioned from BLOCKED to READY
 
-At time 5735:
+At time 5647:
     PROCESS_DISPATCH_COMPLETED
-    Thread 1 in process 613 [NORMAL]
+    Thread 0 in process 11 [BATCH]
     Transitioned from READY to RUNNING
 
-At time 5738:
-    CPU_BURST_COMPLETED
-    Thread 1 in process 613 [NORMAL]
-    Transitioned from RUNNING to BLOCKED
-
-At time 5738:
-    DISPATCHER_INVOKED
-    Thread 0 in process 203 [NORMAL]
-    Selected from 9 threads. Will run for at most 6 ticks.
-
-At time 5753:
-    IO_BURST_COMPLETED
-    Thread 1 in process 613 [NORMAL]
-    Transitioned from BLOCKED to READY
-
-At time 5786:
-    PROCESS_DISPATCH_COMPLETED
-    Thread 0 in process 203 [NORMAL]
-    Transitioned from READY to RUNNING
-
-At time 5792:
+At time 5653:
     THREAD_PREEMPTED
-    Thread 0 in process 203 [NORMAL]
+    Thread 0 in process 11 [BATCH]
     Transitioned from RUNNING to READY
 
-At time 5792:
+At time 5653:
     DISPATCHER_INVOKED
-    Thread 1 in process 404 [BATCH]
+    Thread 0 in process 10 [BATCH]
     Selected from 10 threads. Will run for at most 6 ticks.
 
-At time 5840:
+At time 5701:
     PROCESS_DISPATCH_COMPLETED
-    Thread 1 in process 404 [BATCH]
+    Thread 0 in process 10 [BATCH]
     Transitioned from READY to RUNNING
 
-At time 5846:
-    CPU_BURST_COMPLETED
-    Thread 1 in process 404 [BATCH]
-    Transitioned from RUNNING to BLOCKED
-
-At time 5846:
-    DISPATCHER_INVOKED
-    Thread 0 in process 404 [BATCH]
-    Selected from 9 threads. Will run for at most 6 ticks.
-
-At time 5865:
-    THREAD_DISPATCH_COMPLETED
-    Thread 0 in process 404 [BATCH]
-    Transitioned from READY to RUNNING
-
-At time 5867:
-    CPU_BURST_COMPLETED
-    Thread 0 in process 404 [BATCH]
-    Transitioned from RUNNING to BLOCKED
-
-At time 5867:
-    DISPATCHER_INVOKED
-    Thread 0 in process 613 [NORMAL]
-    Selected from 8 threads. Will run for at most 6 ticks.
-
-At time 5876:
-    IO_BURST_COMPLETED
-    Thread 1 in process 404 [BATCH]
-    Transitioned from BLOCKED to READY
-
-At time 5880:
-    IO_BURST_COMPLETED
-    Thread 0 in process 404 [BATCH]
-    Transitioned from BLOCKED to READY
-
-At time 5915:
-    PROCESS_DISPATCH_COMPLETED
-    Thread 0 in process 613 [NORMAL]
-    Transitioned from READY to RUNNING
-
-At time 5921:
+At time 5707:
     THREAD_PREEMPTED
-    Thread 0 in process 613 [NORMAL]
+    Thread 0 in process 10 [BATCH]
     Transitioned from RUNNING to READY
 
-At time 5921:
+At time 5707:
     DISPATCHER_INVOKED
-    Thread 0 in process 341 [INTERACTIVE]
+    Thread 0 in process 6 [NORMAL]
     Selected from 10 threads. Will run for at most 6 ticks.
 
-At time 5969:
+At time 5755:
     PROCESS_DISPATCH_COMPLETED
-    Thread 0 in process 341 [INTERACTIVE]
+    Thread 0 in process 6 [NORMAL]
+    Transitioned from READY to RUNNING
+
+At time 5761:
+    THREAD_PREEMPTED
+    Thread 0 in process 6 [NORMAL]
+    Transitioned from RUNNING to READY
+
+At time 5761:
+    DISPATCHER_INVOKED
+    Thread 0 in process 5 [INTERACTIVE]
+    Selected from 10 threads. Will run for at most 6 ticks.
+
+At time 5809:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 5 [INTERACTIVE]
+    Transitioned from READY to RUNNING
+
+At time 5815:
+    THREAD_PREEMPTED
+    Thread 0 in process 5 [INTERACTIVE]
+    Transitioned from RUNNING to READY
+
+At time 5815:
+    DISPATCHER_INVOKED
+    Thread 0 in process 9 [NORMAL]
+    Selected from 10 threads. Will run for at most 6 ticks.
+
+At time 5863:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 9 [NORMAL]
+    Transitioned from READY to RUNNING
+
+At time 5864:
+    CPU_BURST_COMPLETED
+    Thread 0 in process 9 [NORMAL]
+    Transitioned from RUNNING to BLOCKED
+
+At time 5864:
+    DISPATCHER_INVOKED
+    Thread 0 in process 3 [BATCH]
+    Selected from 9 threads. Will run for at most 6 ticks.
+
+At time 5892:
+    IO_BURST_COMPLETED
+    Thread 0 in process 9 [NORMAL]
+    Transitioned from BLOCKED to READY
+
+At time 5912:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 3 [BATCH]
+    Transitioned from READY to RUNNING
+
+At time 5918:
+    THREAD_PREEMPTED
+    Thread 0 in process 3 [BATCH]
+    Transitioned from RUNNING to READY
+
+At time 5918:
+    DISPATCHER_INVOKED
+    Thread 0 in process 1 [NORMAL]
+    Selected from 10 threads. Will run for at most 6 ticks.
+
+At time 5966:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 1 [NORMAL]
     Transitioned from READY to RUNNING
 
 At time 5972:
     CPU_BURST_COMPLETED
-    Thread 0 in process 341 [INTERACTIVE]
+    Thread 0 in process 1 [NORMAL]
     Transitioned from RUNNING to BLOCKED
 
 At time 5972:
     DISPATCHER_INVOKED
-    Thread 3 in process 613 [NORMAL]
+    Thread 0 in process 2 [NORMAL]
     Selected from 9 threads. Will run for at most 6 ticks.
 
-At time 5975:
+At time 6001:
     IO_BURST_COMPLETED
-    Thread 0 in process 341 [INTERACTIVE]
+    Thread 0 in process 1 [NORMAL]
     Transitioned from BLOCKED to READY
 
 At time 6020:
     PROCESS_DISPATCH_COMPLETED
-    Thread 3 in process 613 [NORMAL]
+    Thread 0 in process 2 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 6022:
-    CPU_BURST_COMPLETED
-    Thread 3 in process 613 [NORMAL]
-    Transitioned from RUNNING to BLOCKED
+At time 6026:
+    THREAD_PREEMPTED
+    Thread 0 in process 2 [NORMAL]
+    Transitioned from RUNNING to READY
 
-At time 6022:
+At time 6026:
     DISPATCHER_INVOKED
-    Thread 0 in process 297 [BATCH]
-    Selected from 9 threads. Will run for at most 6 ticks.
-
-At time 6048:
-    IO_BURST_COMPLETED
-    Thread 3 in process 613 [NORMAL]
-    Transitioned from BLOCKED to READY
-
-At time 6070:
-    PROCESS_DISPATCH_COMPLETED
-    Thread 0 in process 297 [BATCH]
-    Transitioned from READY to RUNNING
+    Thread 0 in process 7 [NORMAL]
+    Selected from 10 threads. Will run for at most 6 ticks.
 
 At time 6074:
-    THREAD_COMPLETED
-    Thread 0 in process 297 [BATCH]
-    Transitioned from RUNNING to EXIT
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 7 [NORMAL]
+    Transitioned from READY to RUNNING
 
-At time 6074:
+At time 6080:
+    THREAD_PREEMPTED
+    Thread 0 in process 7 [NORMAL]
+    Transitioned from RUNNING to READY
+
+At time 6080:
     DISPATCHER_INVOKED
-    Thread 2 in process 395 [NORMAL]
+    Thread 0 in process 4 [NORMAL]
+    Selected from 10 threads. Will run for at most 6 ticks.
+
+At time 6128:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 4 [NORMAL]
+    Transitioned from READY to RUNNING
+
+At time 6134:
+    THREAD_PREEMPTED
+    Thread 0 in process 4 [NORMAL]
+    Transitioned from RUNNING to READY
+
+At time 6134:
+    DISPATCHER_INVOKED
+    Thread 0 in process 11 [BATCH]
+    Selected from 10 threads. Will run for at most 6 ticks.
+
+At time 6182:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 11 [BATCH]
+    Transitioned from READY to RUNNING
+
+At time 6188:
+    THREAD_PREEMPTED
+    Thread 0 in process 11 [BATCH]
+    Transitioned from RUNNING to READY
+
+At time 6188:
+    DISPATCHER_INVOKED
+    Thread 0 in process 10 [BATCH]
+    Selected from 10 threads. Will run for at most 6 ticks.
+
+At time 6236:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 10 [BATCH]
+    Transitioned from READY to RUNNING
+
+At time 6242:
+    THREAD_PREEMPTED
+    Thread 0 in process 10 [BATCH]
+    Transitioned from RUNNING to READY
+
+At time 6242:
+    DISPATCHER_INVOKED
+    Thread 0 in process 6 [NORMAL]
+    Selected from 10 threads. Will run for at most 6 ticks.
+
+At time 6290:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 6 [NORMAL]
+    Transitioned from READY to RUNNING
+
+At time 6292:
+    CPU_BURST_COMPLETED
+    Thread 0 in process 6 [NORMAL]
+    Transitioned from RUNNING to BLOCKED
+
+At time 6292:
+    DISPATCHER_INVOKED
+    Thread 0 in process 5 [INTERACTIVE]
     Selected from 9 threads. Will run for at most 6 ticks.
 
-At time 6122:
+At time 6316:
+    IO_BURST_COMPLETED
+    Thread 0 in process 6 [NORMAL]
+    Transitioned from BLOCKED to READY
+
+At time 6340:
     PROCESS_DISPATCH_COMPLETED
-    Thread 2 in process 395 [NORMAL]
+    Thread 0 in process 5 [INTERACTIVE]
     Transitioned from READY to RUNNING
 
-At time 6124:
+At time 6346:
+    THREAD_PREEMPTED
+    Thread 0 in process 5 [INTERACTIVE]
+    Transitioned from RUNNING to READY
+
+At time 6346:
+    DISPATCHER_INVOKED
+    Thread 0 in process 9 [NORMAL]
+    Selected from 10 threads. Will run for at most 6 ticks.
+
+At time 6394:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 9 [NORMAL]
+    Transitioned from READY to RUNNING
+
+At time 6400:
+    THREAD_PREEMPTED
+    Thread 0 in process 9 [NORMAL]
+    Transitioned from RUNNING to READY
+
+At time 6400:
+    DISPATCHER_INVOKED
+    Thread 0 in process 3 [BATCH]
+    Selected from 10 threads. Will run for at most 6 ticks.
+
+At time 6448:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 3 [BATCH]
+    Transitioned from READY to RUNNING
+
+At time 6454:
+    THREAD_PREEMPTED
+    Thread 0 in process 3 [BATCH]
+    Transitioned from RUNNING to READY
+
+At time 6454:
+    DISPATCHER_INVOKED
+    Thread 0 in process 1 [NORMAL]
+    Selected from 10 threads. Will run for at most 6 ticks.
+
+At time 6502:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 1 [NORMAL]
+    Transitioned from READY to RUNNING
+
+At time 6503:
+    CPU_BURST_COMPLETED
+    Thread 0 in process 1 [NORMAL]
+    Transitioned from RUNNING to BLOCKED
+
+At time 6503:
+    DISPATCHER_INVOKED
+    Thread 0 in process 2 [NORMAL]
+    Selected from 9 threads. Will run for at most 6 ticks.
+
+At time 6509:
+    IO_BURST_COMPLETED
+    Thread 0 in process 1 [NORMAL]
+    Transitioned from BLOCKED to READY
+
+At time 6551:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 2 [NORMAL]
+    Transitioned from READY to RUNNING
+
+At time 6557:
+    THREAD_PREEMPTED
+    Thread 0 in process 2 [NORMAL]
+    Transitioned from RUNNING to READY
+
+At time 6557:
+    DISPATCHER_INVOKED
+    Thread 0 in process 7 [NORMAL]
+    Selected from 10 threads. Will run for at most 6 ticks.
+
+At time 6605:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 7 [NORMAL]
+    Transitioned from READY to RUNNING
+
+At time 6608:
+    CPU_BURST_COMPLETED
+    Thread 0 in process 7 [NORMAL]
+    Transitioned from RUNNING to BLOCKED
+
+At time 6608:
+    DISPATCHER_INVOKED
+    Thread 0 in process 4 [NORMAL]
+    Selected from 9 threads. Will run for at most 6 ticks.
+
+At time 6623:
+    IO_BURST_COMPLETED
+    Thread 0 in process 7 [NORMAL]
+    Transitioned from BLOCKED to READY
+
+At time 6656:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 4 [NORMAL]
+    Transitioned from READY to RUNNING
+
+At time 6662:
+    THREAD_PREEMPTED
+    Thread 0 in process 4 [NORMAL]
+    Transitioned from RUNNING to READY
+
+At time 6662:
+    DISPATCHER_INVOKED
+    Thread 0 in process 11 [BATCH]
+    Selected from 10 threads. Will run for at most 6 ticks.
+
+At time 6710:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 11 [BATCH]
+    Transitioned from READY to RUNNING
+
+At time 6716:
+    CPU_BURST_COMPLETED
+    Thread 0 in process 11 [BATCH]
+    Transitioned from RUNNING to BLOCKED
+
+At time 6716:
+    DISPATCHER_INVOKED
+    Thread 0 in process 10 [BATCH]
+    Selected from 9 threads. Will run for at most 6 ticks.
+
+At time 6746:
+    IO_BURST_COMPLETED
+    Thread 0 in process 11 [BATCH]
+    Transitioned from BLOCKED to READY
+
+At time 6764:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 10 [BATCH]
+    Transitioned from READY to RUNNING
+
+At time 6766:
+    CPU_BURST_COMPLETED
+    Thread 0 in process 10 [BATCH]
+    Transitioned from RUNNING to BLOCKED
+
+At time 6766:
+    DISPATCHER_INVOKED
+    Thread 0 in process 6 [NORMAL]
+    Selected from 9 threads. Will run for at most 6 ticks.
+
+At time 6779:
+    IO_BURST_COMPLETED
+    Thread 0 in process 10 [BATCH]
+    Transitioned from BLOCKED to READY
+
+At time 6814:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 6 [NORMAL]
+    Transitioned from READY to RUNNING
+
+At time 6820:
+    THREAD_PREEMPTED
+    Thread 0 in process 6 [NORMAL]
+    Transitioned from RUNNING to READY
+
+At time 6820:
+    DISPATCHER_INVOKED
+    Thread 0 in process 5 [INTERACTIVE]
+    Selected from 10 threads. Will run for at most 6 ticks.
+
+At time 6868:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 5 [INTERACTIVE]
+    Transitioned from READY to RUNNING
+
+At time 6871:
+    CPU_BURST_COMPLETED
+    Thread 0 in process 5 [INTERACTIVE]
+    Transitioned from RUNNING to BLOCKED
+
+At time 6871:
+    DISPATCHER_INVOKED
+    Thread 0 in process 9 [NORMAL]
+    Selected from 9 threads. Will run for at most 6 ticks.
+
+At time 6874:
+    IO_BURST_COMPLETED
+    Thread 0 in process 5 [INTERACTIVE]
+    Transitioned from BLOCKED to READY
+
+At time 6919:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 9 [NORMAL]
+    Transitioned from READY to RUNNING
+
+At time 6921:
+    CPU_BURST_COMPLETED
+    Thread 0 in process 9 [NORMAL]
+    Transitioned from RUNNING to BLOCKED
+
+At time 6921:
+    DISPATCHER_INVOKED
+    Thread 0 in process 3 [BATCH]
+    Selected from 9 threads. Will run for at most 6 ticks.
+
+At time 6947:
+    IO_BURST_COMPLETED
+    Thread 0 in process 9 [NORMAL]
+    Transitioned from BLOCKED to READY
+
+At time 6969:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 3 [BATCH]
+    Transitioned from READY to RUNNING
+
+At time 6973:
     THREAD_COMPLETED
-    Thread 2 in process 395 [NORMAL]
+    Thread 0 in process 3 [BATCH]
     Transitioned from RUNNING to EXIT
 
-At time 6124:
+At time 6973:
     DISPATCHER_INVOKED
-    Thread 1 in process 395 [NORMAL]
-    Selected from 8 threads. Will run for at most 6 ticks.
+    Thread 0 in process 1 [NORMAL]
+    Selected from 9 threads. Will run for at most 6 ticks.
 
-At time 6143:
-    THREAD_DISPATCH_COMPLETED
-    Thread 1 in process 395 [NORMAL]
+At time 7021:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 1 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 6149:
+At time 7027:
     THREAD_PREEMPTED
-    Thread 1 in process 395 [NORMAL]
+    Thread 0 in process 1 [NORMAL]
     Transitioned from RUNNING to READY
 
-At time 6149:
+At time 7027:
     DISPATCHER_INVOKED
-    Thread 1 in process 613 [NORMAL]
-    Selected from 8 threads. Will run for at most 6 ticks.
+    Thread 0 in process 2 [NORMAL]
+    Selected from 9 threads. Will run for at most 6 ticks.
 
-At time 6197:
+At time 7075:
     PROCESS_DISPATCH_COMPLETED
-    Thread 1 in process 613 [NORMAL]
+    Thread 0 in process 2 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 6203:
-    CPU_BURST_COMPLETED
-    Thread 1 in process 613 [NORMAL]
-    Transitioned from RUNNING to BLOCKED
-
-At time 6203:
-    DISPATCHER_INVOKED
-    Thread 0 in process 203 [NORMAL]
-    Selected from 7 threads. Will run for at most 6 ticks.
-
-At time 6212:
-    IO_BURST_COMPLETED
-    Thread 1 in process 613 [NORMAL]
-    Transitioned from BLOCKED to READY
-
-At time 6251:
-    PROCESS_DISPATCH_COMPLETED
-    Thread 0 in process 203 [NORMAL]
-    Transitioned from READY to RUNNING
-
-At time 6253:
-    CPU_BURST_COMPLETED
-    Thread 0 in process 203 [NORMAL]
-    Transitioned from RUNNING to BLOCKED
-
-At time 6253:
-    DISPATCHER_INVOKED
-    Thread 1 in process 404 [BATCH]
-    Selected from 7 threads. Will run for at most 6 ticks.
-
-At time 6282:
-    IO_BURST_COMPLETED
-    Thread 0 in process 203 [NORMAL]
-    Transitioned from BLOCKED to READY
-
-At time 6301:
-    PROCESS_DISPATCH_COMPLETED
-    Thread 1 in process 404 [BATCH]
-    Transitioned from READY to RUNNING
-
-At time 6307:
-    THREAD_PREEMPTED
-    Thread 1 in process 404 [BATCH]
-    Transitioned from RUNNING to READY
-
-At time 6307:
-    DISPATCHER_INVOKED
-    Thread 0 in process 404 [BATCH]
-    Selected from 8 threads. Will run for at most 6 ticks.
-
-At time 6326:
-    THREAD_DISPATCH_COMPLETED
-    Thread 0 in process 404 [BATCH]
-    Transitioned from READY to RUNNING
-
-At time 6332:
-    THREAD_PREEMPTED
-    Thread 0 in process 404 [BATCH]
-    Transitioned from RUNNING to READY
-
-At time 6332:
-    DISPATCHER_INVOKED
-    Thread 0 in process 613 [NORMAL]
-    Selected from 8 threads. Will run for at most 6 ticks.
-
-At time 6380:
-    PROCESS_DISPATCH_COMPLETED
-    Thread 0 in process 613 [NORMAL]
-    Transitioned from READY to RUNNING
-
-At time 6386:
-    THREAD_PREEMPTED
-    Thread 0 in process 613 [NORMAL]
-    Transitioned from RUNNING to READY
-
-At time 6386:
-    DISPATCHER_INVOKED
-    Thread 0 in process 341 [INTERACTIVE]
-    Selected from 8 threads. Will run for at most 6 ticks.
-
-At time 6434:
-    PROCESS_DISPATCH_COMPLETED
-    Thread 0 in process 341 [INTERACTIVE]
-    Transitioned from READY to RUNNING
-
-At time 6436:
-    CPU_BURST_COMPLETED
-    Thread 0 in process 341 [INTERACTIVE]
-    Transitioned from RUNNING to BLOCKED
-
-At time 6436:
-    DISPATCHER_INVOKED
-    Thread 3 in process 613 [NORMAL]
-    Selected from 7 threads. Will run for at most 6 ticks.
-
-At time 6460:
-    IO_BURST_COMPLETED
-    Thread 0 in process 341 [INTERACTIVE]
-    Transitioned from BLOCKED to READY
-
-At time 6484:
-    PROCESS_DISPATCH_COMPLETED
-    Thread 3 in process 613 [NORMAL]
-    Transitioned from READY to RUNNING
-
-At time 6490:
-    THREAD_PREEMPTED
-    Thread 3 in process 613 [NORMAL]
-    Transitioned from RUNNING to READY
-
-At time 6490:
-    DISPATCHER_INVOKED
-    Thread 1 in process 395 [NORMAL]
-    Selected from 8 threads. Will run for at most 6 ticks.
-
-At time 6538:
-    PROCESS_DISPATCH_COMPLETED
-    Thread 1 in process 395 [NORMAL]
-    Transitioned from READY to RUNNING
-
-At time 6544:
-    THREAD_PREEMPTED
-    Thread 1 in process 395 [NORMAL]
-    Transitioned from RUNNING to READY
-
-At time 6544:
-    DISPATCHER_INVOKED
-    Thread 1 in process 613 [NORMAL]
-    Selected from 8 threads. Will run for at most 6 ticks.
-
-At time 6592:
-    PROCESS_DISPATCH_COMPLETED
-    Thread 1 in process 613 [NORMAL]
-    Transitioned from READY to RUNNING
-
-At time 6595:
-    CPU_BURST_COMPLETED
-    Thread 1 in process 613 [NORMAL]
-    Transitioned from RUNNING to BLOCKED
-
-At time 6595:
-    DISPATCHER_INVOKED
-    Thread 0 in process 203 [NORMAL]
-    Selected from 7 threads. Will run for at most 6 ticks.
-
-At time 6619:
-    IO_BURST_COMPLETED
-    Thread 1 in process 613 [NORMAL]
-    Transitioned from BLOCKED to READY
-
-At time 6643:
-    PROCESS_DISPATCH_COMPLETED
-    Thread 0 in process 203 [NORMAL]
-    Transitioned from READY to RUNNING
-
-At time 6649:
-    CPU_BURST_COMPLETED
-    Thread 0 in process 203 [NORMAL]
-    Transitioned from RUNNING to BLOCKED
-
-At time 6649:
-    DISPATCHER_INVOKED
-    Thread 1 in process 404 [BATCH]
-    Selected from 7 threads. Will run for at most 6 ticks.
-
-At time 6650:
-    IO_BURST_COMPLETED
-    Thread 0 in process 203 [NORMAL]
-    Transitioned from BLOCKED to READY
-
-At time 6697:
-    PROCESS_DISPATCH_COMPLETED
-    Thread 1 in process 404 [BATCH]
-    Transitioned from READY to RUNNING
-
-At time 6703:
-    THREAD_PREEMPTED
-    Thread 1 in process 404 [BATCH]
-    Transitioned from RUNNING to READY
-
-At time 6703:
-    DISPATCHER_INVOKED
-    Thread 0 in process 404 [BATCH]
-    Selected from 8 threads. Will run for at most 6 ticks.
-
-At time 6722:
-    THREAD_DISPATCH_COMPLETED
-    Thread 0 in process 404 [BATCH]
-    Transitioned from READY to RUNNING
-
-At time 6725:
-    CPU_BURST_COMPLETED
-    Thread 0 in process 404 [BATCH]
-    Transitioned from RUNNING to BLOCKED
-
-At time 6725:
-    DISPATCHER_INVOKED
-    Thread 0 in process 613 [NORMAL]
-    Selected from 7 threads. Will run for at most 6 ticks.
-
-At time 6733:
-    IO_BURST_COMPLETED
-    Thread 0 in process 404 [BATCH]
-    Transitioned from BLOCKED to READY
-
-At time 6773:
-    PROCESS_DISPATCH_COMPLETED
-    Thread 0 in process 613 [NORMAL]
-    Transitioned from READY to RUNNING
-
-At time 6775:
-    CPU_BURST_COMPLETED
-    Thread 0 in process 613 [NORMAL]
-    Transitioned from RUNNING to BLOCKED
-
-At time 6775:
-    DISPATCHER_INVOKED
-    Thread 0 in process 341 [INTERACTIVE]
-    Selected from 7 threads. Will run for at most 6 ticks.
-
-At time 6796:
-    IO_BURST_COMPLETED
-    Thread 0 in process 613 [NORMAL]
-    Transitioned from BLOCKED to READY
-
-At time 6823:
-    PROCESS_DISPATCH_COMPLETED
-    Thread 0 in process 341 [INTERACTIVE]
-    Transitioned from READY to RUNNING
-
-At time 6829:
-    THREAD_PREEMPTED
-    Thread 0 in process 341 [INTERACTIVE]
-    Transitioned from RUNNING to READY
-
-At time 6829:
-    DISPATCHER_INVOKED
-    Thread 3 in process 613 [NORMAL]
-    Selected from 8 threads. Will run for at most 6 ticks.
-
-At time 6877:
-    PROCESS_DISPATCH_COMPLETED
-    Thread 3 in process 613 [NORMAL]
-    Transitioned from READY to RUNNING
-
-At time 6880:
-    CPU_BURST_COMPLETED
-    Thread 3 in process 613 [NORMAL]
-    Transitioned from RUNNING to BLOCKED
-
-At time 6880:
-    DISPATCHER_INVOKED
-    Thread 1 in process 395 [NORMAL]
-    Selected from 7 threads. Will run for at most 6 ticks.
-
-At time 6889:
-    IO_BURST_COMPLETED
-    Thread 3 in process 613 [NORMAL]
-    Transitioned from BLOCKED to READY
-
-At time 6928:
-    PROCESS_DISPATCH_COMPLETED
-    Thread 1 in process 395 [NORMAL]
-    Transitioned from READY to RUNNING
-
-At time 6934:
-    THREAD_PREEMPTED
-    Thread 1 in process 395 [NORMAL]
-    Transitioned from RUNNING to READY
-
-At time 6934:
-    DISPATCHER_INVOKED
-    Thread 1 in process 613 [NORMAL]
-    Selected from 8 threads. Will run for at most 6 ticks.
-
-At time 6982:
-    PROCESS_DISPATCH_COMPLETED
-    Thread 1 in process 613 [NORMAL]
-    Transitioned from READY to RUNNING
-
-At time 6988:
-    THREAD_PREEMPTED
-    Thread 1 in process 613 [NORMAL]
-    Transitioned from RUNNING to READY
-
-At time 6988:
-    DISPATCHER_INVOKED
-    Thread 0 in process 203 [NORMAL]
-    Selected from 8 threads. Will run for at most 6 ticks.
-
-At time 7036:
-    PROCESS_DISPATCH_COMPLETED
-    Thread 0 in process 203 [NORMAL]
-    Transitioned from READY to RUNNING
-
-At time 7042:
-    THREAD_PREEMPTED
-    Thread 0 in process 203 [NORMAL]
-    Transitioned from RUNNING to READY
-
-At time 7042:
-    DISPATCHER_INVOKED
-    Thread 1 in process 404 [BATCH]
-    Selected from 8 threads. Will run for at most 6 ticks.
-
-At time 7090:
-    PROCESS_DISPATCH_COMPLETED
-    Thread 1 in process 404 [BATCH]
-    Transitioned from READY to RUNNING
-
-At time 7092:
-    CPU_BURST_COMPLETED
-    Thread 1 in process 404 [BATCH]
-    Transitioned from RUNNING to BLOCKED
-
-At time 7092:
-    DISPATCHER_INVOKED
-    Thread 0 in process 404 [BATCH]
-    Selected from 7 threads. Will run for at most 6 ticks.
-
-At time 7095:
-    IO_BURST_COMPLETED
-    Thread 1 in process 404 [BATCH]
-    Transitioned from BLOCKED to READY
-
-At time 7111:
-    THREAD_DISPATCH_COMPLETED
-    Thread 0 in process 404 [BATCH]
-    Transitioned from READY to RUNNING
-
-At time 7117:
-    THREAD_PREEMPTED
-    Thread 0 in process 404 [BATCH]
-    Transitioned from RUNNING to READY
-
-At time 7117:
-    DISPATCHER_INVOKED
-    Thread 0 in process 613 [NORMAL]
-    Selected from 8 threads. Will run for at most 6 ticks.
-
-At time 7165:
-    PROCESS_DISPATCH_COMPLETED
-    Thread 0 in process 613 [NORMAL]
-    Transitioned from READY to RUNNING
-
-At time 7171:
+At time 7077:
     THREAD_COMPLETED
-    Thread 0 in process 613 [NORMAL]
+    Thread 0 in process 2 [NORMAL]
     Transitioned from RUNNING to EXIT
 
-At time 7171:
+At time 7077:
     DISPATCHER_INVOKED
-    Thread 0 in process 341 [INTERACTIVE]
-    Selected from 7 threads. Will run for at most 6 ticks.
+    Thread 0 in process 7 [NORMAL]
+    Selected from 8 threads. Will run for at most 6 ticks.
 
-At time 7219:
+At time 7125:
     PROCESS_DISPATCH_COMPLETED
-    Thread 0 in process 341 [INTERACTIVE]
+    Thread 0 in process 7 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 7225:
-    THREAD_PREEMPTED
-    Thread 0 in process 341 [INTERACTIVE]
-    Transitioned from RUNNING to READY
-
-At time 7225:
-    DISPATCHER_INVOKED
-    Thread 3 in process 613 [NORMAL]
-    Selected from 7 threads. Will run for at most 6 ticks.
-
-At time 7273:
-    PROCESS_DISPATCH_COMPLETED
-    Thread 3 in process 613 [NORMAL]
-    Transitioned from READY to RUNNING
-
-At time 7279:
-    THREAD_PREEMPTED
-    Thread 3 in process 613 [NORMAL]
-    Transitioned from RUNNING to READY
-
-At time 7279:
-    DISPATCHER_INVOKED
-    Thread 1 in process 395 [NORMAL]
-    Selected from 7 threads. Will run for at most 6 ticks.
-
-At time 7327:
-    PROCESS_DISPATCH_COMPLETED
-    Thread 1 in process 395 [NORMAL]
-    Transitioned from READY to RUNNING
-
-At time 7333:
-    THREAD_PREEMPTED
-    Thread 1 in process 395 [NORMAL]
-    Transitioned from RUNNING to READY
-
-At time 7333:
-    DISPATCHER_INVOKED
-    Thread 1 in process 613 [NORMAL]
-    Selected from 7 threads. Will run for at most 6 ticks.
-
-At time 7381:
-    PROCESS_DISPATCH_COMPLETED
-    Thread 1 in process 613 [NORMAL]
-    Transitioned from READY to RUNNING
-
-At time 7387:
-    THREAD_PREEMPTED
-    Thread 1 in process 613 [NORMAL]
-    Transitioned from RUNNING to READY
-
-At time 7387:
-    DISPATCHER_INVOKED
-    Thread 0 in process 203 [NORMAL]
-    Selected from 7 threads. Will run for at most 6 ticks.
-
-At time 7435:
-    PROCESS_DISPATCH_COMPLETED
-    Thread 0 in process 203 [NORMAL]
-    Transitioned from READY to RUNNING
-
-At time 7439:
+At time 7131:
     CPU_BURST_COMPLETED
-    Thread 0 in process 203 [NORMAL]
+    Thread 0 in process 7 [NORMAL]
     Transitioned from RUNNING to BLOCKED
 
-At time 7439:
+At time 7131:
     DISPATCHER_INVOKED
-    Thread 1 in process 404 [BATCH]
-    Selected from 6 threads. Will run for at most 6 ticks.
+    Thread 0 in process 4 [NORMAL]
+    Selected from 7 threads. Will run for at most 6 ticks.
 
-At time 7445:
+At time 7140:
     IO_BURST_COMPLETED
-    Thread 0 in process 203 [NORMAL]
+    Thread 0 in process 7 [NORMAL]
     Transitioned from BLOCKED to READY
 
-At time 7487:
+At time 7179:
     PROCESS_DISPATCH_COMPLETED
-    Thread 1 in process 404 [BATCH]
+    Thread 0 in process 4 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 7493:
-    THREAD_PREEMPTED
-    Thread 1 in process 404 [BATCH]
-    Transitioned from RUNNING to READY
-
-At time 7493:
-    DISPATCHER_INVOKED
-    Thread 0 in process 404 [BATCH]
-    Selected from 7 threads. Will run for at most 6 ticks.
-
-At time 7512:
-    THREAD_DISPATCH_COMPLETED
-    Thread 0 in process 404 [BATCH]
-    Transitioned from READY to RUNNING
-
-At time 7518:
-    THREAD_PREEMPTED
-    Thread 0 in process 404 [BATCH]
-    Transitioned from RUNNING to READY
-
-At time 7518:
-    DISPATCHER_INVOKED
-    Thread 0 in process 341 [INTERACTIVE]
-    Selected from 7 threads. Will run for at most 6 ticks.
-
-At time 7566:
-    PROCESS_DISPATCH_COMPLETED
-    Thread 0 in process 341 [INTERACTIVE]
-    Transitioned from READY to RUNNING
-
-At time 7572:
-    THREAD_PREEMPTED
-    Thread 0 in process 341 [INTERACTIVE]
-    Transitioned from RUNNING to READY
-
-At time 7572:
-    DISPATCHER_INVOKED
-    Thread 3 in process 613 [NORMAL]
-    Selected from 7 threads. Will run for at most 6 ticks.
-
-At time 7620:
-    PROCESS_DISPATCH_COMPLETED
-    Thread 3 in process 613 [NORMAL]
-    Transitioned from READY to RUNNING
-
-At time 7626:
-    THREAD_PREEMPTED
-    Thread 3 in process 613 [NORMAL]
-    Transitioned from RUNNING to READY
-
-At time 7626:
-    DISPATCHER_INVOKED
-    Thread 1 in process 395 [NORMAL]
-    Selected from 7 threads. Will run for at most 6 ticks.
-
-At time 7674:
-    PROCESS_DISPATCH_COMPLETED
-    Thread 1 in process 395 [NORMAL]
-    Transitioned from READY to RUNNING
-
-At time 7680:
+At time 7181:
     CPU_BURST_COMPLETED
-    Thread 1 in process 395 [NORMAL]
+    Thread 0 in process 4 [NORMAL]
     Transitioned from RUNNING to BLOCKED
 
-At time 7680:
+At time 7181:
     DISPATCHER_INVOKED
-    Thread 1 in process 613 [NORMAL]
-    Selected from 6 threads. Will run for at most 6 ticks.
+    Thread 0 in process 11 [BATCH]
+    Selected from 7 threads. Will run for at most 6 ticks.
 
-At time 7684:
+At time 7210:
     IO_BURST_COMPLETED
-    Thread 1 in process 395 [NORMAL]
+    Thread 0 in process 4 [NORMAL]
     Transitioned from BLOCKED to READY
 
-At time 7728:
+At time 7229:
     PROCESS_DISPATCH_COMPLETED
-    Thread 1 in process 613 [NORMAL]
+    Thread 0 in process 11 [BATCH]
     Transitioned from READY to RUNNING
 
-At time 7734:
+At time 7235:
     THREAD_PREEMPTED
-    Thread 1 in process 613 [NORMAL]
+    Thread 0 in process 11 [BATCH]
     Transitioned from RUNNING to READY
 
-At time 7734:
+At time 7235:
     DISPATCHER_INVOKED
-    Thread 0 in process 203 [NORMAL]
+    Thread 0 in process 10 [BATCH]
+    Selected from 8 threads. Will run for at most 6 ticks.
+
+At time 7283:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 10 [BATCH]
+    Transitioned from READY to RUNNING
+
+At time 7289:
+    THREAD_PREEMPTED
+    Thread 0 in process 10 [BATCH]
+    Transitioned from RUNNING to READY
+
+At time 7289:
+    DISPATCHER_INVOKED
+    Thread 0 in process 6 [NORMAL]
+    Selected from 8 threads. Will run for at most 6 ticks.
+
+At time 7337:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 6 [NORMAL]
+    Transitioned from READY to RUNNING
+
+At time 7343:
+    THREAD_PREEMPTED
+    Thread 0 in process 6 [NORMAL]
+    Transitioned from RUNNING to READY
+
+At time 7343:
+    DISPATCHER_INVOKED
+    Thread 0 in process 5 [INTERACTIVE]
+    Selected from 8 threads. Will run for at most 6 ticks.
+
+At time 7391:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 5 [INTERACTIVE]
+    Transitioned from READY to RUNNING
+
+At time 7393:
+    CPU_BURST_COMPLETED
+    Thread 0 in process 5 [INTERACTIVE]
+    Transitioned from RUNNING to BLOCKED
+
+At time 7393:
+    DISPATCHER_INVOKED
+    Thread 0 in process 9 [NORMAL]
+    Selected from 7 threads. Will run for at most 6 ticks.
+
+At time 7417:
+    IO_BURST_COMPLETED
+    Thread 0 in process 5 [INTERACTIVE]
+    Transitioned from BLOCKED to READY
+
+At time 7441:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 9 [NORMAL]
+    Transitioned from READY to RUNNING
+
+At time 7447:
+    THREAD_PREEMPTED
+    Thread 0 in process 9 [NORMAL]
+    Transitioned from RUNNING to READY
+
+At time 7447:
+    DISPATCHER_INVOKED
+    Thread 0 in process 1 [NORMAL]
+    Selected from 8 threads. Will run for at most 6 ticks.
+
+At time 7495:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 1 [NORMAL]
+    Transitioned from READY to RUNNING
+
+At time 7501:
+    THREAD_PREEMPTED
+    Thread 0 in process 1 [NORMAL]
+    Transitioned from RUNNING to READY
+
+At time 7501:
+    DISPATCHER_INVOKED
+    Thread 0 in process 7 [NORMAL]
+    Selected from 8 threads. Will run for at most 6 ticks.
+
+At time 7549:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 7 [NORMAL]
+    Transitioned from READY to RUNNING
+
+At time 7552:
+    CPU_BURST_COMPLETED
+    Thread 0 in process 7 [NORMAL]
+    Transitioned from RUNNING to BLOCKED
+
+At time 7552:
+    DISPATCHER_INVOKED
+    Thread 0 in process 4 [NORMAL]
+    Selected from 7 threads. Will run for at most 6 ticks.
+
+At time 7576:
+    IO_BURST_COMPLETED
+    Thread 0 in process 7 [NORMAL]
+    Transitioned from BLOCKED to READY
+
+At time 7600:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 4 [NORMAL]
+    Transitioned from READY to RUNNING
+
+At time 7606:
+    CPU_BURST_COMPLETED
+    Thread 0 in process 4 [NORMAL]
+    Transitioned from RUNNING to BLOCKED
+
+At time 7606:
+    DISPATCHER_INVOKED
+    Thread 0 in process 11 [BATCH]
+    Selected from 7 threads. Will run for at most 6 ticks.
+
+At time 7607:
+    IO_BURST_COMPLETED
+    Thread 0 in process 4 [NORMAL]
+    Transitioned from BLOCKED to READY
+
+At time 7654:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 11 [BATCH]
+    Transitioned from READY to RUNNING
+
+At time 7660:
+    THREAD_PREEMPTED
+    Thread 0 in process 11 [BATCH]
+    Transitioned from RUNNING to READY
+
+At time 7660:
+    DISPATCHER_INVOKED
+    Thread 0 in process 10 [BATCH]
+    Selected from 8 threads. Will run for at most 6 ticks.
+
+At time 7708:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 10 [BATCH]
+    Transitioned from READY to RUNNING
+
+At time 7711:
+    CPU_BURST_COMPLETED
+    Thread 0 in process 10 [BATCH]
+    Transitioned from RUNNING to BLOCKED
+
+At time 7711:
+    DISPATCHER_INVOKED
+    Thread 0 in process 6 [NORMAL]
+    Selected from 7 threads. Will run for at most 6 ticks.
+
+At time 7719:
+    IO_BURST_COMPLETED
+    Thread 0 in process 10 [BATCH]
+    Transitioned from BLOCKED to READY
+
+At time 7759:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 6 [NORMAL]
+    Transitioned from READY to RUNNING
+
+At time 7761:
+    CPU_BURST_COMPLETED
+    Thread 0 in process 6 [NORMAL]
+    Transitioned from RUNNING to BLOCKED
+
+At time 7761:
+    DISPATCHER_INVOKED
+    Thread 0 in process 5 [INTERACTIVE]
     Selected from 7 threads. Will run for at most 6 ticks.
 
 At time 7782:
+    IO_BURST_COMPLETED
+    Thread 0 in process 6 [NORMAL]
+    Transitioned from BLOCKED to READY
+
+At time 7809:
     PROCESS_DISPATCH_COMPLETED
-    Thread 0 in process 203 [NORMAL]
+    Thread 0 in process 5 [INTERACTIVE]
     Transitioned from READY to RUNNING
 
-At time 7788:
+At time 7815:
     THREAD_PREEMPTED
-    Thread 0 in process 203 [NORMAL]
+    Thread 0 in process 5 [INTERACTIVE]
     Transitioned from RUNNING to READY
 
-At time 7788:
+At time 7815:
     DISPATCHER_INVOKED
-    Thread 1 in process 404 [BATCH]
-    Selected from 7 threads. Will run for at most 6 ticks.
+    Thread 0 in process 9 [NORMAL]
+    Selected from 8 threads. Will run for at most 6 ticks.
 
-At time 7836:
+At time 7863:
     PROCESS_DISPATCH_COMPLETED
-    Thread 1 in process 404 [BATCH]
+    Thread 0 in process 9 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 7842:
-    THREAD_PREEMPTED
-    Thread 1 in process 404 [BATCH]
-    Transitioned from RUNNING to READY
-
-At time 7842:
-    DISPATCHER_INVOKED
-    Thread 0 in process 404 [BATCH]
-    Selected from 7 threads. Will run for at most 6 ticks.
-
-At time 7861:
-    THREAD_DISPATCH_COMPLETED
-    Thread 0 in process 404 [BATCH]
-    Transitioned from READY to RUNNING
-
-At time 7867:
-    THREAD_PREEMPTED
-    Thread 0 in process 404 [BATCH]
-    Transitioned from RUNNING to READY
-
-At time 7867:
-    DISPATCHER_INVOKED
-    Thread 0 in process 341 [INTERACTIVE]
-    Selected from 7 threads. Will run for at most 6 ticks.
-
-At time 7915:
-    PROCESS_DISPATCH_COMPLETED
-    Thread 0 in process 341 [INTERACTIVE]
-    Transitioned from READY to RUNNING
-
-At time 7921:
-    THREAD_PREEMPTED
-    Thread 0 in process 341 [INTERACTIVE]
-    Transitioned from RUNNING to READY
-
-At time 7921:
-    DISPATCHER_INVOKED
-    Thread 3 in process 613 [NORMAL]
-    Selected from 7 threads. Will run for at most 6 ticks.
-
-At time 7969:
-    PROCESS_DISPATCH_COMPLETED
-    Thread 3 in process 613 [NORMAL]
-    Transitioned from READY to RUNNING
-
-At time 7975:
-    THREAD_PREEMPTED
-    Thread 3 in process 613 [NORMAL]
-    Transitioned from RUNNING to READY
-
-At time 7975:
-    DISPATCHER_INVOKED
-    Thread 1 in process 395 [NORMAL]
-    Selected from 7 threads. Will run for at most 6 ticks.
-
-At time 8023:
-    PROCESS_DISPATCH_COMPLETED
-    Thread 1 in process 395 [NORMAL]
-    Transitioned from READY to RUNNING
-
-At time 8029:
-    THREAD_PREEMPTED
-    Thread 1 in process 395 [NORMAL]
-    Transitioned from RUNNING to READY
-
-At time 8029:
-    DISPATCHER_INVOKED
-    Thread 1 in process 613 [NORMAL]
-    Selected from 7 threads. Will run for at most 6 ticks.
-
-At time 8077:
-    PROCESS_DISPATCH_COMPLETED
-    Thread 1 in process 613 [NORMAL]
-    Transitioned from READY to RUNNING
-
-At time 8083:
-    THREAD_PREEMPTED
-    Thread 1 in process 613 [NORMAL]
-    Transitioned from RUNNING to READY
-
-At time 8083:
-    DISPATCHER_INVOKED
-    Thread 0 in process 203 [NORMAL]
-    Selected from 7 threads. Will run for at most 6 ticks.
-
-At time 8131:
-    PROCESS_DISPATCH_COMPLETED
-    Thread 0 in process 203 [NORMAL]
-    Transitioned from READY to RUNNING
-
-At time 8137:
-    THREAD_PREEMPTED
-    Thread 0 in process 203 [NORMAL]
-    Transitioned from RUNNING to READY
-
-At time 8137:
-    DISPATCHER_INVOKED
-    Thread 1 in process 404 [BATCH]
-    Selected from 7 threads. Will run for at most 6 ticks.
-
-At time 8185:
-    PROCESS_DISPATCH_COMPLETED
-    Thread 1 in process 404 [BATCH]
-    Transitioned from READY to RUNNING
-
-At time 8187:
-    THREAD_COMPLETED
-    Thread 1 in process 404 [BATCH]
-    Transitioned from RUNNING to EXIT
-
-At time 8187:
-    DISPATCHER_INVOKED
-    Thread 0 in process 404 [BATCH]
-    Selected from 6 threads. Will run for at most 6 ticks.
-
-At time 8206:
-    THREAD_DISPATCH_COMPLETED
-    Thread 0 in process 404 [BATCH]
-    Transitioned from READY to RUNNING
-
-At time 8210:
+At time 7866:
     CPU_BURST_COMPLETED
-    Thread 0 in process 404 [BATCH]
+    Thread 0 in process 9 [NORMAL]
     Transitioned from RUNNING to BLOCKED
 
-At time 8210:
+At time 7866:
     DISPATCHER_INVOKED
-    Thread 0 in process 341 [INTERACTIVE]
-    Selected from 5 threads. Will run for at most 6 ticks.
+    Thread 0 in process 1 [NORMAL]
+    Selected from 7 threads. Will run for at most 6 ticks.
+
+At time 7875:
+    IO_BURST_COMPLETED
+    Thread 0 in process 9 [NORMAL]
+    Transitioned from BLOCKED to READY
+
+At time 7914:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 1 [NORMAL]
+    Transitioned from READY to RUNNING
+
+At time 7920:
+    THREAD_PREEMPTED
+    Thread 0 in process 1 [NORMAL]
+    Transitioned from RUNNING to READY
+
+At time 7920:
+    DISPATCHER_INVOKED
+    Thread 0 in process 7 [NORMAL]
+    Selected from 8 threads. Will run for at most 6 ticks.
+
+At time 7968:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 7 [NORMAL]
+    Transitioned from READY to RUNNING
+
+At time 7974:
+    THREAD_PREEMPTED
+    Thread 0 in process 7 [NORMAL]
+    Transitioned from RUNNING to READY
+
+At time 7974:
+    DISPATCHER_INVOKED
+    Thread 0 in process 4 [NORMAL]
+    Selected from 8 threads. Will run for at most 6 ticks.
+
+At time 8022:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 4 [NORMAL]
+    Transitioned from READY to RUNNING
+
+At time 8028:
+    THREAD_PREEMPTED
+    Thread 0 in process 4 [NORMAL]
+    Transitioned from RUNNING to READY
+
+At time 8028:
+    DISPATCHER_INVOKED
+    Thread 0 in process 11 [BATCH]
+    Selected from 8 threads. Will run for at most 6 ticks.
+
+At time 8076:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 11 [BATCH]
+    Transitioned from READY to RUNNING
+
+At time 8078:
+    CPU_BURST_COMPLETED
+    Thread 0 in process 11 [BATCH]
+    Transitioned from RUNNING to BLOCKED
+
+At time 8078:
+    DISPATCHER_INVOKED
+    Thread 0 in process 10 [BATCH]
+    Selected from 7 threads. Will run for at most 6 ticks.
+
+At time 8081:
+    IO_BURST_COMPLETED
+    Thread 0 in process 11 [BATCH]
+    Transitioned from BLOCKED to READY
+
+At time 8126:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 10 [BATCH]
+    Transitioned from READY to RUNNING
+
+At time 8132:
+    THREAD_PREEMPTED
+    Thread 0 in process 10 [BATCH]
+    Transitioned from RUNNING to READY
+
+At time 8132:
+    DISPATCHER_INVOKED
+    Thread 0 in process 6 [NORMAL]
+    Selected from 8 threads. Will run for at most 6 ticks.
+
+At time 8180:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 6 [NORMAL]
+    Transitioned from READY to RUNNING
+
+At time 8186:
+    THREAD_COMPLETED
+    Thread 0 in process 6 [NORMAL]
+    Transitioned from RUNNING to EXIT
+
+At time 8186:
+    DISPATCHER_INVOKED
+    Thread 0 in process 5 [INTERACTIVE]
+    Selected from 7 threads. Will run for at most 6 ticks.
 
 At time 8234:
-    IO_BURST_COMPLETED
-    Thread 0 in process 404 [BATCH]
-    Transitioned from BLOCKED to READY
-
-At time 8258:
     PROCESS_DISPATCH_COMPLETED
-    Thread 0 in process 341 [INTERACTIVE]
+    Thread 0 in process 5 [INTERACTIVE]
     Transitioned from READY to RUNNING
 
-At time 8264:
+At time 8240:
+    THREAD_PREEMPTED
+    Thread 0 in process 5 [INTERACTIVE]
+    Transitioned from RUNNING to READY
+
+At time 8240:
+    DISPATCHER_INVOKED
+    Thread 0 in process 9 [NORMAL]
+    Selected from 7 threads. Will run for at most 6 ticks.
+
+At time 8288:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 9 [NORMAL]
+    Transitioned from READY to RUNNING
+
+At time 8294:
+    THREAD_PREEMPTED
+    Thread 0 in process 9 [NORMAL]
+    Transitioned from RUNNING to READY
+
+At time 8294:
+    DISPATCHER_INVOKED
+    Thread 0 in process 1 [NORMAL]
+    Selected from 7 threads. Will run for at most 6 ticks.
+
+At time 8342:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 1 [NORMAL]
+    Transitioned from READY to RUNNING
+
+At time 8348:
+    THREAD_PREEMPTED
+    Thread 0 in process 1 [NORMAL]
+    Transitioned from RUNNING to READY
+
+At time 8348:
+    DISPATCHER_INVOKED
+    Thread 0 in process 7 [NORMAL]
+    Selected from 7 threads. Will run for at most 6 ticks.
+
+At time 8396:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 7 [NORMAL]
+    Transitioned from READY to RUNNING
+
+At time 8402:
+    THREAD_PREEMPTED
+    Thread 0 in process 7 [NORMAL]
+    Transitioned from RUNNING to READY
+
+At time 8402:
+    DISPATCHER_INVOKED
+    Thread 0 in process 4 [NORMAL]
+    Selected from 7 threads. Will run for at most 6 ticks.
+
+At time 8450:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 4 [NORMAL]
+    Transitioned from READY to RUNNING
+
+At time 8454:
     CPU_BURST_COMPLETED
-    Thread 0 in process 341 [INTERACTIVE]
+    Thread 0 in process 4 [NORMAL]
     Transitioned from RUNNING to BLOCKED
 
-At time 8264:
+At time 8454:
     DISPATCHER_INVOKED
-    Thread 3 in process 613 [NORMAL]
-    Selected from 5 threads. Will run for at most 6 ticks.
+    Thread 0 in process 11 [BATCH]
+    Selected from 6 threads. Will run for at most 6 ticks.
 
-At time 8270:
+At time 8460:
     IO_BURST_COMPLETED
-    Thread 0 in process 341 [INTERACTIVE]
+    Thread 0 in process 4 [NORMAL]
     Transitioned from BLOCKED to READY
 
-At time 8312:
+At time 8502:
     PROCESS_DISPATCH_COMPLETED
-    Thread 3 in process 613 [NORMAL]
+    Thread 0 in process 11 [BATCH]
     Transitioned from READY to RUNNING
 
-At time 8313:
+At time 8508:
+    THREAD_PREEMPTED
+    Thread 0 in process 11 [BATCH]
+    Transitioned from RUNNING to READY
+
+At time 8508:
+    DISPATCHER_INVOKED
+    Thread 0 in process 10 [BATCH]
+    Selected from 7 threads. Will run for at most 6 ticks.
+
+At time 8556:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 10 [BATCH]
+    Transitioned from READY to RUNNING
+
+At time 8562:
+    THREAD_PREEMPTED
+    Thread 0 in process 10 [BATCH]
+    Transitioned from RUNNING to READY
+
+At time 8562:
+    DISPATCHER_INVOKED
+    Thread 0 in process 5 [INTERACTIVE]
+    Selected from 7 threads. Will run for at most 6 ticks.
+
+At time 8610:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 5 [INTERACTIVE]
+    Transitioned from READY to RUNNING
+
+At time 8616:
+    THREAD_PREEMPTED
+    Thread 0 in process 5 [INTERACTIVE]
+    Transitioned from RUNNING to READY
+
+At time 8616:
+    DISPATCHER_INVOKED
+    Thread 0 in process 9 [NORMAL]
+    Selected from 7 threads. Will run for at most 6 ticks.
+
+At time 8664:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 9 [NORMAL]
+    Transitioned from READY to RUNNING
+
+At time 8670:
+    THREAD_PREEMPTED
+    Thread 0 in process 9 [NORMAL]
+    Transitioned from RUNNING to READY
+
+At time 8670:
+    DISPATCHER_INVOKED
+    Thread 0 in process 1 [NORMAL]
+    Selected from 7 threads. Will run for at most 6 ticks.
+
+At time 8718:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 1 [NORMAL]
+    Transitioned from READY to RUNNING
+
+At time 8724:
     CPU_BURST_COMPLETED
-    Thread 3 in process 613 [NORMAL]
+    Thread 0 in process 1 [NORMAL]
     Transitioned from RUNNING to BLOCKED
 
-At time 8313:
+At time 8724:
     DISPATCHER_INVOKED
-    Thread 1 in process 395 [NORMAL]
-    Selected from 5 threads. Will run for at most 6 ticks.
+    Thread 0 in process 7 [NORMAL]
+    Selected from 6 threads. Will run for at most 6 ticks.
 
-At time 8315:
+At time 8728:
     IO_BURST_COMPLETED
-    Thread 3 in process 613 [NORMAL]
+    Thread 0 in process 1 [NORMAL]
     Transitioned from BLOCKED to READY
 
-At time 8361:
+At time 8772:
     PROCESS_DISPATCH_COMPLETED
-    Thread 1 in process 395 [NORMAL]
+    Thread 0 in process 7 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 8367:
+At time 8778:
     THREAD_PREEMPTED
-    Thread 1 in process 395 [NORMAL]
+    Thread 0 in process 7 [NORMAL]
     Transitioned from RUNNING to READY
 
-At time 8367:
+At time 8778:
     DISPATCHER_INVOKED
-    Thread 1 in process 613 [NORMAL]
-    Selected from 6 threads. Will run for at most 6 ticks.
+    Thread 0 in process 4 [NORMAL]
+    Selected from 7 threads. Will run for at most 6 ticks.
 
-At time 8415:
+At time 8826:
     PROCESS_DISPATCH_COMPLETED
-    Thread 1 in process 613 [NORMAL]
+    Thread 0 in process 4 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 8417:
-    CPU_BURST_COMPLETED
-    Thread 1 in process 613 [NORMAL]
-    Transitioned from RUNNING to BLOCKED
-
-At time 8417:
-    DISPATCHER_INVOKED
-    Thread 0 in process 203 [NORMAL]
-    Selected from 5 threads. Will run for at most 6 ticks.
-
-At time 8445:
-    IO_BURST_COMPLETED
-    Thread 1 in process 613 [NORMAL]
-    Transitioned from BLOCKED to READY
-
-At time 8465:
-    PROCESS_DISPATCH_COMPLETED
-    Thread 0 in process 203 [NORMAL]
-    Transitioned from READY to RUNNING
-
-At time 8471:
+At time 8832:
     THREAD_PREEMPTED
-    Thread 0 in process 203 [NORMAL]
+    Thread 0 in process 4 [NORMAL]
     Transitioned from RUNNING to READY
 
-At time 8471:
+At time 8832:
     DISPATCHER_INVOKED
-    Thread 0 in process 404 [BATCH]
-    Selected from 6 threads. Will run for at most 6 ticks.
+    Thread 0 in process 11 [BATCH]
+    Selected from 7 threads. Will run for at most 6 ticks.
 
-At time 8519:
+At time 8880:
     PROCESS_DISPATCH_COMPLETED
-    Thread 0 in process 404 [BATCH]
+    Thread 0 in process 11 [BATCH]
     Transitioned from READY to RUNNING
 
-At time 8525:
+At time 8886:
     THREAD_PREEMPTED
-    Thread 0 in process 404 [BATCH]
+    Thread 0 in process 11 [BATCH]
     Transitioned from RUNNING to READY
 
-At time 8525:
+At time 8886:
     DISPATCHER_INVOKED
-    Thread 0 in process 341 [INTERACTIVE]
-    Selected from 6 threads. Will run for at most 6 ticks.
+    Thread 0 in process 10 [BATCH]
+    Selected from 7 threads. Will run for at most 6 ticks.
 
-At time 8573:
+At time 8934:
     PROCESS_DISPATCH_COMPLETED
-    Thread 0 in process 341 [INTERACTIVE]
+    Thread 0 in process 10 [BATCH]
     Transitioned from READY to RUNNING
 
-At time 8576:
-    CPU_BURST_COMPLETED
-    Thread 0 in process 341 [INTERACTIVE]
-    Transitioned from RUNNING to BLOCKED
-
-At time 8576:
-    DISPATCHER_INVOKED
-    Thread 3 in process 613 [NORMAL]
-    Selected from 5 threads. Will run for at most 6 ticks.
-
-At time 8591:
-    IO_BURST_COMPLETED
-    Thread 0 in process 341 [INTERACTIVE]
-    Transitioned from BLOCKED to READY
-
-At time 8624:
-    PROCESS_DISPATCH_COMPLETED
-    Thread 3 in process 613 [NORMAL]
-    Transitioned from READY to RUNNING
-
-At time 8630:
+At time 8940:
     THREAD_PREEMPTED
-    Thread 3 in process 613 [NORMAL]
+    Thread 0 in process 10 [BATCH]
     Transitioned from RUNNING to READY
 
-At time 8630:
+At time 8940:
     DISPATCHER_INVOKED
-    Thread 1 in process 395 [NORMAL]
-    Selected from 6 threads. Will run for at most 6 ticks.
+    Thread 0 in process 5 [INTERACTIVE]
+    Selected from 7 threads. Will run for at most 6 ticks.
 
-At time 8678:
+At time 8988:
     PROCESS_DISPATCH_COMPLETED
-    Thread 1 in process 395 [NORMAL]
+    Thread 0 in process 5 [INTERACTIVE]
     Transitioned from READY to RUNNING
 
-At time 8684:
+At time 8994:
     THREAD_PREEMPTED
-    Thread 1 in process 395 [NORMAL]
+    Thread 0 in process 5 [INTERACTIVE]
     Transitioned from RUNNING to READY
 
-At time 8684:
+At time 8994:
     DISPATCHER_INVOKED
-    Thread 1 in process 613 [NORMAL]
-    Selected from 6 threads. Will run for at most 6 ticks.
+    Thread 0 in process 9 [NORMAL]
+    Selected from 7 threads. Will run for at most 6 ticks.
 
-At time 8732:
+At time 9042:
     PROCESS_DISPATCH_COMPLETED
-    Thread 1 in process 613 [NORMAL]
+    Thread 0 in process 9 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 8738:
+At time 9048:
     THREAD_PREEMPTED
-    Thread 1 in process 613 [NORMAL]
+    Thread 0 in process 9 [NORMAL]
     Transitioned from RUNNING to READY
 
-At time 8738:
+At time 9048:
     DISPATCHER_INVOKED
-    Thread 0 in process 203 [NORMAL]
-    Selected from 6 threads. Will run for at most 6 ticks.
+    Thread 0 in process 1 [NORMAL]
+    Selected from 7 threads. Will run for at most 6 ticks.
 
-At time 8786:
+At time 9096:
     PROCESS_DISPATCH_COMPLETED
-    Thread 0 in process 203 [NORMAL]
+    Thread 0 in process 1 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 8792:
+At time 9102:
     THREAD_PREEMPTED
-    Thread 0 in process 203 [NORMAL]
+    Thread 0 in process 1 [NORMAL]
     Transitioned from RUNNING to READY
 
-At time 8792:
+At time 9102:
     DISPATCHER_INVOKED
-    Thread 0 in process 404 [BATCH]
-    Selected from 6 threads. Will run for at most 6 ticks.
+    Thread 0 in process 7 [NORMAL]
+    Selected from 7 threads. Will run for at most 6 ticks.
 
-At time 8840:
+At time 9150:
     PROCESS_DISPATCH_COMPLETED
-    Thread 0 in process 404 [BATCH]
+    Thread 0 in process 7 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 8842:
-    CPU_BURST_COMPLETED
-    Thread 0 in process 404 [BATCH]
-    Transitioned from RUNNING to BLOCKED
-
-At time 8842:
-    DISPATCHER_INVOKED
-    Thread 0 in process 341 [INTERACTIVE]
-    Selected from 5 threads. Will run for at most 6 ticks.
-
-At time 8849:
-    IO_BURST_COMPLETED
-    Thread 0 in process 404 [BATCH]
-    Transitioned from BLOCKED to READY
-
-At time 8890:
-    PROCESS_DISPATCH_COMPLETED
-    Thread 0 in process 341 [INTERACTIVE]
-    Transitioned from READY to RUNNING
-
-At time 8896:
+At time 9156:
     THREAD_PREEMPTED
-    Thread 0 in process 341 [INTERACTIVE]
+    Thread 0 in process 7 [NORMAL]
     Transitioned from RUNNING to READY
 
-At time 8896:
+At time 9156:
     DISPATCHER_INVOKED
-    Thread 3 in process 613 [NORMAL]
-    Selected from 6 threads. Will run for at most 6 ticks.
+    Thread 0 in process 4 [NORMAL]
+    Selected from 7 threads. Will run for at most 6 ticks.
 
-At time 8944:
+At time 9204:
     PROCESS_DISPATCH_COMPLETED
-    Thread 3 in process 613 [NORMAL]
+    Thread 0 in process 4 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 8950:
+At time 9210:
     THREAD_PREEMPTED
-    Thread 3 in process 613 [NORMAL]
+    Thread 0 in process 4 [NORMAL]
     Transitioned from RUNNING to READY
 
-At time 8950:
+At time 9210:
     DISPATCHER_INVOKED
-    Thread 1 in process 395 [NORMAL]
-    Selected from 6 threads. Will run for at most 6 ticks.
+    Thread 0 in process 11 [BATCH]
+    Selected from 7 threads. Will run for at most 6 ticks.
 
-At time 8998:
+At time 9258:
     PROCESS_DISPATCH_COMPLETED
-    Thread 1 in process 395 [NORMAL]
+    Thread 0 in process 11 [BATCH]
     Transitioned from READY to RUNNING
 
-At time 9001:
+At time 9260:
     THREAD_COMPLETED
-    Thread 1 in process 395 [NORMAL]
+    Thread 0 in process 11 [BATCH]
     Transitioned from RUNNING to EXIT
 
-At time 9001:
+At time 9260:
     DISPATCHER_INVOKED
-    Thread 1 in process 613 [NORMAL]
-    Selected from 5 threads. Will run for at most 6 ticks.
+    Thread 0 in process 10 [BATCH]
+    Selected from 6 threads. Will run for at most 6 ticks.
 
-At time 9049:
+At time 9308:
     PROCESS_DISPATCH_COMPLETED
-    Thread 1 in process 613 [NORMAL]
+    Thread 0 in process 10 [BATCH]
     Transitioned from READY to RUNNING
 
-At time 9055:
-    THREAD_PREEMPTED
-    Thread 1 in process 613 [NORMAL]
-    Transitioned from RUNNING to READY
-
-At time 9055:
-    DISPATCHER_INVOKED
-    Thread 0 in process 203 [NORMAL]
-    Selected from 5 threads. Will run for at most 6 ticks.
-
-At time 9103:
-    PROCESS_DISPATCH_COMPLETED
-    Thread 0 in process 203 [NORMAL]
-    Transitioned from READY to RUNNING
-
-At time 9106:
+At time 9312:
     CPU_BURST_COMPLETED
-    Thread 0 in process 203 [NORMAL]
+    Thread 0 in process 10 [BATCH]
     Transitioned from RUNNING to BLOCKED
 
-At time 9106:
+At time 9312:
     DISPATCHER_INVOKED
-    Thread 0 in process 404 [BATCH]
-    Selected from 4 threads. Will run for at most 6 ticks.
+    Thread 0 in process 5 [INTERACTIVE]
+    Selected from 5 threads. Will run for at most 6 ticks.
 
-At time 9125:
+At time 9336:
     IO_BURST_COMPLETED
-    Thread 0 in process 203 [NORMAL]
+    Thread 0 in process 10 [BATCH]
     Transitioned from BLOCKED to READY
 
-At time 9154:
+At time 9360:
     PROCESS_DISPATCH_COMPLETED
-    Thread 0 in process 404 [BATCH]
+    Thread 0 in process 5 [INTERACTIVE]
     Transitioned from READY to RUNNING
 
-At time 9160:
-    THREAD_PREEMPTED
-    Thread 0 in process 404 [BATCH]
-    Transitioned from RUNNING to READY
+At time 9366:
+    CPU_BURST_COMPLETED
+    Thread 0 in process 5 [INTERACTIVE]
+    Transitioned from RUNNING to BLOCKED
 
-At time 9160:
+At time 9366:
     DISPATCHER_INVOKED
-    Thread 0 in process 341 [INTERACTIVE]
+    Thread 0 in process 9 [NORMAL]
     Selected from 5 threads. Will run for at most 6 ticks.
 
-At time 9208:
+At time 9372:
+    IO_BURST_COMPLETED
+    Thread 0 in process 5 [INTERACTIVE]
+    Transitioned from BLOCKED to READY
+
+At time 9414:
     PROCESS_DISPATCH_COMPLETED
-    Thread 0 in process 341 [INTERACTIVE]
+    Thread 0 in process 9 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 9214:
-    THREAD_PREEMPTED
-    Thread 0 in process 341 [INTERACTIVE]
-    Transitioned from RUNNING to READY
+At time 9415:
+    CPU_BURST_COMPLETED
+    Thread 0 in process 9 [NORMAL]
+    Transitioned from RUNNING to BLOCKED
 
-At time 9214:
+At time 9415:
     DISPATCHER_INVOKED
-    Thread 3 in process 613 [NORMAL]
+    Thread 0 in process 1 [NORMAL]
     Selected from 5 threads. Will run for at most 6 ticks.
 
-At time 9262:
+At time 9417:
+    IO_BURST_COMPLETED
+    Thread 0 in process 9 [NORMAL]
+    Transitioned from BLOCKED to READY
+
+At time 9463:
     PROCESS_DISPATCH_COMPLETED
-    Thread 3 in process 613 [NORMAL]
+    Thread 0 in process 1 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 9268:
+At time 9469:
     THREAD_PREEMPTED
-    Thread 3 in process 613 [NORMAL]
+    Thread 0 in process 1 [NORMAL]
     Transitioned from RUNNING to READY
 
-At time 9268:
+At time 9469:
     DISPATCHER_INVOKED
-    Thread 1 in process 613 [NORMAL]
+    Thread 0 in process 7 [NORMAL]
+    Selected from 6 threads. Will run for at most 6 ticks.
+
+At time 9517:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 7 [NORMAL]
+    Transitioned from READY to RUNNING
+
+At time 9519:
+    CPU_BURST_COMPLETED
+    Thread 0 in process 7 [NORMAL]
+    Transitioned from RUNNING to BLOCKED
+
+At time 9519:
+    DISPATCHER_INVOKED
+    Thread 0 in process 4 [NORMAL]
     Selected from 5 threads. Will run for at most 6 ticks.
 
-At time 9287:
-    THREAD_DISPATCH_COMPLETED
-    Thread 1 in process 613 [NORMAL]
+At time 9547:
+    IO_BURST_COMPLETED
+    Thread 0 in process 7 [NORMAL]
+    Transitioned from BLOCKED to READY
+
+At time 9567:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 4 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 9293:
+At time 9573:
     THREAD_PREEMPTED
-    Thread 1 in process 613 [NORMAL]
+    Thread 0 in process 4 [NORMAL]
     Transitioned from RUNNING to READY
 
-At time 9293:
+At time 9573:
     DISPATCHER_INVOKED
-    Thread 0 in process 203 [NORMAL]
+    Thread 0 in process 10 [BATCH]
+    Selected from 6 threads. Will run for at most 6 ticks.
+
+At time 9621:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 10 [BATCH]
+    Transitioned from READY to RUNNING
+
+At time 9627:
+    THREAD_PREEMPTED
+    Thread 0 in process 10 [BATCH]
+    Transitioned from RUNNING to READY
+
+At time 9627:
+    DISPATCHER_INVOKED
+    Thread 0 in process 5 [INTERACTIVE]
+    Selected from 6 threads. Will run for at most 6 ticks.
+
+At time 9675:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 5 [INTERACTIVE]
+    Transitioned from READY to RUNNING
+
+At time 9678:
+    CPU_BURST_COMPLETED
+    Thread 0 in process 5 [INTERACTIVE]
+    Transitioned from RUNNING to BLOCKED
+
+At time 9678:
+    DISPATCHER_INVOKED
+    Thread 0 in process 9 [NORMAL]
     Selected from 5 threads. Will run for at most 6 ticks.
 
-At time 9341:
+At time 9693:
+    IO_BURST_COMPLETED
+    Thread 0 in process 5 [INTERACTIVE]
+    Transitioned from BLOCKED to READY
+
+At time 9726:
     PROCESS_DISPATCH_COMPLETED
-    Thread 0 in process 203 [NORMAL]
+    Thread 0 in process 9 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 9347:
+At time 9732:
     THREAD_PREEMPTED
-    Thread 0 in process 203 [NORMAL]
+    Thread 0 in process 9 [NORMAL]
     Transitioned from RUNNING to READY
 
-At time 9347:
+At time 9732:
     DISPATCHER_INVOKED
-    Thread 0 in process 404 [BATCH]
+    Thread 0 in process 1 [NORMAL]
+    Selected from 6 threads. Will run for at most 6 ticks.
+
+At time 9780:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 1 [NORMAL]
+    Transitioned from READY to RUNNING
+
+At time 9786:
+    THREAD_PREEMPTED
+    Thread 0 in process 1 [NORMAL]
+    Transitioned from RUNNING to READY
+
+At time 9786:
+    DISPATCHER_INVOKED
+    Thread 0 in process 7 [NORMAL]
+    Selected from 6 threads. Will run for at most 6 ticks.
+
+At time 9834:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 7 [NORMAL]
+    Transitioned from READY to RUNNING
+
+At time 9840:
+    THREAD_PREEMPTED
+    Thread 0 in process 7 [NORMAL]
+    Transitioned from RUNNING to READY
+
+At time 9840:
+    DISPATCHER_INVOKED
+    Thread 0 in process 4 [NORMAL]
+    Selected from 6 threads. Will run for at most 6 ticks.
+
+At time 9888:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 4 [NORMAL]
+    Transitioned from READY to RUNNING
+
+At time 9894:
+    THREAD_PREEMPTED
+    Thread 0 in process 4 [NORMAL]
+    Transitioned from RUNNING to READY
+
+At time 9894:
+    DISPATCHER_INVOKED
+    Thread 0 in process 10 [BATCH]
+    Selected from 6 threads. Will run for at most 6 ticks.
+
+At time 9942:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 10 [BATCH]
+    Transitioned from READY to RUNNING
+
+At time 9944:
+    CPU_BURST_COMPLETED
+    Thread 0 in process 10 [BATCH]
+    Transitioned from RUNNING to BLOCKED
+
+At time 9944:
+    DISPATCHER_INVOKED
+    Thread 0 in process 5 [INTERACTIVE]
     Selected from 5 threads. Will run for at most 6 ticks.
-
-At time 9395:
-    PROCESS_DISPATCH_COMPLETED
-    Thread 0 in process 404 [BATCH]
-    Transitioned from READY to RUNNING
-
-At time 9401:
-    THREAD_PREEMPTED
-    Thread 0 in process 404 [BATCH]
-    Transitioned from RUNNING to READY
-
-At time 9401:
-    DISPATCHER_INVOKED
-    Thread 0 in process 341 [INTERACTIVE]
-    Selected from 5 threads. Will run for at most 6 ticks.
-
-At time 9449:
-    PROCESS_DISPATCH_COMPLETED
-    Thread 0 in process 341 [INTERACTIVE]
-    Transitioned from READY to RUNNING
-
-At time 9455:
-    THREAD_PREEMPTED
-    Thread 0 in process 341 [INTERACTIVE]
-    Transitioned from RUNNING to READY
-
-At time 9455:
-    DISPATCHER_INVOKED
-    Thread 3 in process 613 [NORMAL]
-    Selected from 5 threads. Will run for at most 6 ticks.
-
-At time 9503:
-    PROCESS_DISPATCH_COMPLETED
-    Thread 3 in process 613 [NORMAL]
-    Transitioned from READY to RUNNING
-
-At time 9506:
-    THREAD_COMPLETED
-    Thread 3 in process 613 [NORMAL]
-    Transitioned from RUNNING to EXIT
-
-At time 9506:
-    DISPATCHER_INVOKED
-    Thread 1 in process 613 [NORMAL]
-    Selected from 4 threads. Will run for at most 6 ticks.
-
-At time 9525:
-    THREAD_DISPATCH_COMPLETED
-    Thread 1 in process 613 [NORMAL]
-    Transitioned from READY to RUNNING
-
-At time 9529:
-    THREAD_COMPLETED
-    Thread 1 in process 613 [NORMAL]
-    Transitioned from RUNNING to EXIT
-
-At time 9529:
-    DISPATCHER_INVOKED
-    Thread 0 in process 203 [NORMAL]
-    Selected from 3 threads. Will run for at most 6 ticks.
-
-At time 9577:
-    PROCESS_DISPATCH_COMPLETED
-    Thread 0 in process 203 [NORMAL]
-    Transitioned from READY to RUNNING
-
-At time 9583:
-    THREAD_PREEMPTED
-    Thread 0 in process 203 [NORMAL]
-    Transitioned from RUNNING to READY
-
-At time 9583:
-    DISPATCHER_INVOKED
-    Thread 0 in process 404 [BATCH]
-    Selected from 3 threads. Will run for at most 6 ticks.
-
-At time 9631:
-    PROCESS_DISPATCH_COMPLETED
-    Thread 0 in process 404 [BATCH]
-    Transitioned from READY to RUNNING
-
-At time 9637:
-    THREAD_PREEMPTED
-    Thread 0 in process 404 [BATCH]
-    Transitioned from RUNNING to READY
-
-At time 9637:
-    DISPATCHER_INVOKED
-    Thread 0 in process 341 [INTERACTIVE]
-    Selected from 3 threads. Will run for at most 6 ticks.
-
-At time 9685:
-    PROCESS_DISPATCH_COMPLETED
-    Thread 0 in process 341 [INTERACTIVE]
-    Transitioned from READY to RUNNING
-
-At time 9691:
-    THREAD_PREEMPTED
-    Thread 0 in process 341 [INTERACTIVE]
-    Transitioned from RUNNING to READY
-
-At time 9691:
-    DISPATCHER_INVOKED
-    Thread 0 in process 203 [NORMAL]
-    Selected from 3 threads. Will run for at most 6 ticks.
-
-At time 9739:
-    PROCESS_DISPATCH_COMPLETED
-    Thread 0 in process 203 [NORMAL]
-    Transitioned from READY to RUNNING
-
-At time 9745:
-    THREAD_PREEMPTED
-    Thread 0 in process 203 [NORMAL]
-    Transitioned from RUNNING to READY
-
-At time 9745:
-    DISPATCHER_INVOKED
-    Thread 0 in process 404 [BATCH]
-    Selected from 3 threads. Will run for at most 6 ticks.
-
-At time 9793:
-    PROCESS_DISPATCH_COMPLETED
-    Thread 0 in process 404 [BATCH]
-    Transitioned from READY to RUNNING
-
-At time 9799:
-    THREAD_PREEMPTED
-    Thread 0 in process 404 [BATCH]
-    Transitioned from RUNNING to READY
-
-At time 9799:
-    DISPATCHER_INVOKED
-    Thread 0 in process 341 [INTERACTIVE]
-    Selected from 3 threads. Will run for at most 6 ticks.
-
-At time 9847:
-    PROCESS_DISPATCH_COMPLETED
-    Thread 0 in process 341 [INTERACTIVE]
-    Transitioned from READY to RUNNING
-
-At time 9848:
-    THREAD_COMPLETED
-    Thread 0 in process 341 [INTERACTIVE]
-    Transitioned from RUNNING to EXIT
-
-At time 9848:
-    DISPATCHER_INVOKED
-    Thread 0 in process 203 [NORMAL]
-    Selected from 2 threads. Will run for at most 6 ticks.
-
-At time 9896:
-    PROCESS_DISPATCH_COMPLETED
-    Thread 0 in process 203 [NORMAL]
-    Transitioned from READY to RUNNING
-
-At time 9899:
-    THREAD_COMPLETED
-    Thread 0 in process 203 [NORMAL]
-    Transitioned from RUNNING to EXIT
-
-At time 9899:
-    DISPATCHER_INVOKED
-    Thread 0 in process 404 [BATCH]
-    Selected from 1 threads. Will run for at most 6 ticks.
-
-At time 9947:
-    PROCESS_DISPATCH_COMPLETED
-    Thread 0 in process 404 [BATCH]
-    Transitioned from READY to RUNNING
 
 At time 9951:
-    CPU_BURST_COMPLETED
-    Thread 0 in process 404 [BATCH]
-    Transitioned from RUNNING to BLOCKED
-
-At time 9975:
     IO_BURST_COMPLETED
-    Thread 0 in process 404 [BATCH]
+    Thread 0 in process 10 [BATCH]
     Transitioned from BLOCKED to READY
 
-At time 9975:
-    DISPATCHER_INVOKED
-    Thread 0 in process 404 [BATCH]
-    Selected from 1 threads. Will run for at most 6 ticks.
-
-At time 9994:
-    THREAD_DISPATCH_COMPLETED
-    Thread 0 in process 404 [BATCH]
+At time 9992:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 5 [INTERACTIVE]
     Transitioned from READY to RUNNING
 
-At time 10000:
+At time 9998:
     THREAD_PREEMPTED
-    Thread 0 in process 404 [BATCH]
+    Thread 0 in process 5 [INTERACTIVE]
     Transitioned from RUNNING to READY
 
-At time 10000:
+At time 9998:
     DISPATCHER_INVOKED
-    Thread 0 in process 404 [BATCH]
-    Selected from 1 threads. Will run for at most 6 ticks.
+    Thread 0 in process 9 [NORMAL]
+    Selected from 6 threads. Will run for at most 6 ticks.
 
-At time 10019:
-    THREAD_DISPATCH_COMPLETED
-    Thread 0 in process 404 [BATCH]
+At time 10046:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 9 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 10025:
+At time 10052:
     THREAD_PREEMPTED
-    Thread 0 in process 404 [BATCH]
+    Thread 0 in process 9 [NORMAL]
     Transitioned from RUNNING to READY
 
-At time 10025:
+At time 10052:
     DISPATCHER_INVOKED
-    Thread 0 in process 404 [BATCH]
-    Selected from 1 threads. Will run for at most 6 ticks.
+    Thread 0 in process 1 [NORMAL]
+    Selected from 6 threads. Will run for at most 6 ticks.
 
-At time 10044:
-    THREAD_DISPATCH_COMPLETED
-    Thread 0 in process 404 [BATCH]
+At time 10100:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 1 [NORMAL]
     Transitioned from READY to RUNNING
-
-At time 10049:
-    CPU_BURST_COMPLETED
-    Thread 0 in process 404 [BATCH]
-    Transitioned from RUNNING to BLOCKED
-
-At time 10059:
-    IO_BURST_COMPLETED
-    Thread 0 in process 404 [BATCH]
-    Transitioned from BLOCKED to READY
-
-At time 10059:
-    DISPATCHER_INVOKED
-    Thread 0 in process 404 [BATCH]
-    Selected from 1 threads. Will run for at most 6 ticks.
-
-At time 10078:
-    THREAD_DISPATCH_COMPLETED
-    Thread 0 in process 404 [BATCH]
-    Transitioned from READY to RUNNING
-
-At time 10084:
-    THREAD_PREEMPTED
-    Thread 0 in process 404 [BATCH]
-    Transitioned from RUNNING to READY
-
-At time 10084:
-    DISPATCHER_INVOKED
-    Thread 0 in process 404 [BATCH]
-    Selected from 1 threads. Will run for at most 6 ticks.
 
 At time 10103:
-    THREAD_DISPATCH_COMPLETED
-    Thread 0 in process 404 [BATCH]
+    THREAD_COMPLETED
+    Thread 0 in process 1 [NORMAL]
+    Transitioned from RUNNING to EXIT
+
+At time 10103:
+    DISPATCHER_INVOKED
+    Thread 0 in process 7 [NORMAL]
+    Selected from 5 threads. Will run for at most 6 ticks.
+
+At time 10151:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 7 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 10109:
+At time 10157:
     THREAD_PREEMPTED
-    Thread 0 in process 404 [BATCH]
+    Thread 0 in process 7 [NORMAL]
     Transitioned from RUNNING to READY
 
-At time 10109:
+At time 10157:
     DISPATCHER_INVOKED
-    Thread 0 in process 404 [BATCH]
-    Selected from 1 threads. Will run for at most 6 ticks.
+    Thread 0 in process 4 [NORMAL]
+    Selected from 5 threads. Will run for at most 6 ticks.
 
-At time 10128:
-    THREAD_DISPATCH_COMPLETED
-    Thread 0 in process 404 [BATCH]
+At time 10205:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 4 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 10134:
-    THREAD_PREEMPTED
-    Thread 0 in process 404 [BATCH]
-    Transitioned from RUNNING to READY
-
-At time 10134:
-    DISPATCHER_INVOKED
-    Thread 0 in process 404 [BATCH]
-    Selected from 1 threads. Will run for at most 6 ticks.
-
-At time 10153:
-    THREAD_DISPATCH_COMPLETED
-    Thread 0 in process 404 [BATCH]
-    Transitioned from READY to RUNNING
-
-At time 10159:
-    THREAD_PREEMPTED
-    Thread 0 in process 404 [BATCH]
-    Transitioned from RUNNING to READY
-
-At time 10159:
-    DISPATCHER_INVOKED
-    Thread 0 in process 404 [BATCH]
-    Selected from 1 threads. Will run for at most 6 ticks.
-
-At time 10178:
-    THREAD_DISPATCH_COMPLETED
-    Thread 0 in process 404 [BATCH]
-    Transitioned from READY to RUNNING
-
-At time 10184:
+At time 10208:
     CPU_BURST_COMPLETED
-    Thread 0 in process 404 [BATCH]
+    Thread 0 in process 4 [NORMAL]
     Transitioned from RUNNING to BLOCKED
 
-At time 10209:
+At time 10208:
+    DISPATCHER_INVOKED
+    Thread 0 in process 10 [BATCH]
+    Selected from 4 threads. Will run for at most 6 ticks.
+
+At time 10227:
     IO_BURST_COMPLETED
-    Thread 0 in process 404 [BATCH]
+    Thread 0 in process 4 [NORMAL]
     Transitioned from BLOCKED to READY
 
-At time 10209:
-    DISPATCHER_INVOKED
-    Thread 0 in process 404 [BATCH]
-    Selected from 1 threads. Will run for at most 6 ticks.
-
-At time 10228:
-    THREAD_DISPATCH_COMPLETED
-    Thread 0 in process 404 [BATCH]
+At time 10256:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 10 [BATCH]
     Transitioned from READY to RUNNING
 
-At time 10229:
+At time 10262:
+    THREAD_PREEMPTED
+    Thread 0 in process 10 [BATCH]
+    Transitioned from RUNNING to READY
+
+At time 10262:
+    DISPATCHER_INVOKED
+    Thread 0 in process 5 [INTERACTIVE]
+    Selected from 5 threads. Will run for at most 6 ticks.
+
+At time 10310:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 5 [INTERACTIVE]
+    Transitioned from READY to RUNNING
+
+At time 10316:
+    THREAD_PREEMPTED
+    Thread 0 in process 5 [INTERACTIVE]
+    Transitioned from RUNNING to READY
+
+At time 10316:
+    DISPATCHER_INVOKED
+    Thread 0 in process 9 [NORMAL]
+    Selected from 5 threads. Will run for at most 6 ticks.
+
+At time 10364:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 9 [NORMAL]
+    Transitioned from READY to RUNNING
+
+At time 10370:
+    THREAD_PREEMPTED
+    Thread 0 in process 9 [NORMAL]
+    Transitioned from RUNNING to READY
+
+At time 10370:
+    DISPATCHER_INVOKED
+    Thread 0 in process 7 [NORMAL]
+    Selected from 5 threads. Will run for at most 6 ticks.
+
+At time 10418:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 7 [NORMAL]
+    Transitioned from READY to RUNNING
+
+At time 10424:
+    THREAD_PREEMPTED
+    Thread 0 in process 7 [NORMAL]
+    Transitioned from RUNNING to READY
+
+At time 10424:
+    DISPATCHER_INVOKED
+    Thread 0 in process 4 [NORMAL]
+    Selected from 5 threads. Will run for at most 6 ticks.
+
+At time 10472:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 4 [NORMAL]
+    Transitioned from READY to RUNNING
+
+At time 10478:
+    THREAD_PREEMPTED
+    Thread 0 in process 4 [NORMAL]
+    Transitioned from RUNNING to READY
+
+At time 10478:
+    DISPATCHER_INVOKED
+    Thread 0 in process 10 [BATCH]
+    Selected from 5 threads. Will run for at most 6 ticks.
+
+At time 10526:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 10 [BATCH]
+    Transitioned from READY to RUNNING
+
+At time 10532:
+    THREAD_PREEMPTED
+    Thread 0 in process 10 [BATCH]
+    Transitioned from RUNNING to READY
+
+At time 10532:
+    DISPATCHER_INVOKED
+    Thread 0 in process 5 [INTERACTIVE]
+    Selected from 5 threads. Will run for at most 6 ticks.
+
+At time 10580:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 5 [INTERACTIVE]
+    Transitioned from READY to RUNNING
+
+At time 10586:
+    THREAD_PREEMPTED
+    Thread 0 in process 5 [INTERACTIVE]
+    Transitioned from RUNNING to READY
+
+At time 10586:
+    DISPATCHER_INVOKED
+    Thread 0 in process 9 [NORMAL]
+    Selected from 5 threads. Will run for at most 6 ticks.
+
+At time 10634:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 9 [NORMAL]
+    Transitioned from READY to RUNNING
+
+At time 10637:
     THREAD_COMPLETED
-    Thread 0 in process 404 [BATCH]
+    Thread 0 in process 9 [NORMAL]
+    Transitioned from RUNNING to EXIT
+
+At time 10637:
+    DISPATCHER_INVOKED
+    Thread 0 in process 7 [NORMAL]
+    Selected from 4 threads. Will run for at most 6 ticks.
+
+At time 10685:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 7 [NORMAL]
+    Transitioned from READY to RUNNING
+
+At time 10689:
+    THREAD_COMPLETED
+    Thread 0 in process 7 [NORMAL]
+    Transitioned from RUNNING to EXIT
+
+At time 10689:
+    DISPATCHER_INVOKED
+    Thread 0 in process 4 [NORMAL]
+    Selected from 3 threads. Will run for at most 6 ticks.
+
+At time 10737:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 4 [NORMAL]
+    Transitioned from READY to RUNNING
+
+At time 10743:
+    THREAD_PREEMPTED
+    Thread 0 in process 4 [NORMAL]
+    Transitioned from RUNNING to READY
+
+At time 10743:
+    DISPATCHER_INVOKED
+    Thread 0 in process 10 [BATCH]
+    Selected from 3 threads. Will run for at most 6 ticks.
+
+At time 10791:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 10 [BATCH]
+    Transitioned from READY to RUNNING
+
+At time 10797:
+    THREAD_PREEMPTED
+    Thread 0 in process 10 [BATCH]
+    Transitioned from RUNNING to READY
+
+At time 10797:
+    DISPATCHER_INVOKED
+    Thread 0 in process 5 [INTERACTIVE]
+    Selected from 3 threads. Will run for at most 6 ticks.
+
+At time 10845:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 5 [INTERACTIVE]
+    Transitioned from READY to RUNNING
+
+At time 10851:
+    THREAD_PREEMPTED
+    Thread 0 in process 5 [INTERACTIVE]
+    Transitioned from RUNNING to READY
+
+At time 10851:
+    DISPATCHER_INVOKED
+    Thread 0 in process 4 [NORMAL]
+    Selected from 3 threads. Will run for at most 6 ticks.
+
+At time 10899:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 4 [NORMAL]
+    Transitioned from READY to RUNNING
+
+At time 10905:
+    THREAD_PREEMPTED
+    Thread 0 in process 4 [NORMAL]
+    Transitioned from RUNNING to READY
+
+At time 10905:
+    DISPATCHER_INVOKED
+    Thread 0 in process 10 [BATCH]
+    Selected from 3 threads. Will run for at most 6 ticks.
+
+At time 10953:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 10 [BATCH]
+    Transitioned from READY to RUNNING
+
+At time 10959:
+    THREAD_PREEMPTED
+    Thread 0 in process 10 [BATCH]
+    Transitioned from RUNNING to READY
+
+At time 10959:
+    DISPATCHER_INVOKED
+    Thread 0 in process 5 [INTERACTIVE]
+    Selected from 3 threads. Will run for at most 6 ticks.
+
+At time 11007:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 5 [INTERACTIVE]
+    Transitioned from READY to RUNNING
+
+At time 11008:
+    THREAD_COMPLETED
+    Thread 0 in process 5 [INTERACTIVE]
+    Transitioned from RUNNING to EXIT
+
+At time 11008:
+    DISPATCHER_INVOKED
+    Thread 0 in process 4 [NORMAL]
+    Selected from 2 threads. Will run for at most 6 ticks.
+
+At time 11056:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 4 [NORMAL]
+    Transitioned from READY to RUNNING
+
+At time 11059:
+    THREAD_COMPLETED
+    Thread 0 in process 4 [NORMAL]
+    Transitioned from RUNNING to EXIT
+
+At time 11059:
+    DISPATCHER_INVOKED
+    Thread 0 in process 10 [BATCH]
+    Selected from 1 threads. Will run for at most 6 ticks.
+
+At time 11107:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 10 [BATCH]
+    Transitioned from READY to RUNNING
+
+At time 11111:
+    CPU_BURST_COMPLETED
+    Thread 0 in process 10 [BATCH]
+    Transitioned from RUNNING to BLOCKED
+
+At time 11135:
+    IO_BURST_COMPLETED
+    Thread 0 in process 10 [BATCH]
+    Transitioned from BLOCKED to READY
+
+At time 11135:
+    DISPATCHER_INVOKED
+    Thread 0 in process 10 [BATCH]
+    Selected from 1 threads. Will run for at most 6 ticks.
+
+At time 11154:
+    THREAD_DISPATCH_COMPLETED
+    Thread 0 in process 10 [BATCH]
+    Transitioned from READY to RUNNING
+
+At time 11160:
+    THREAD_PREEMPTED
+    Thread 0 in process 10 [BATCH]
+    Transitioned from RUNNING to READY
+
+At time 11160:
+    DISPATCHER_INVOKED
+    Thread 0 in process 10 [BATCH]
+    Selected from 1 threads. Will run for at most 6 ticks.
+
+At time 11179:
+    THREAD_DISPATCH_COMPLETED
+    Thread 0 in process 10 [BATCH]
+    Transitioned from READY to RUNNING
+
+At time 11185:
+    THREAD_PREEMPTED
+    Thread 0 in process 10 [BATCH]
+    Transitioned from RUNNING to READY
+
+At time 11185:
+    DISPATCHER_INVOKED
+    Thread 0 in process 10 [BATCH]
+    Selected from 1 threads. Will run for at most 6 ticks.
+
+At time 11204:
+    THREAD_DISPATCH_COMPLETED
+    Thread 0 in process 10 [BATCH]
+    Transitioned from READY to RUNNING
+
+At time 11209:
+    CPU_BURST_COMPLETED
+    Thread 0 in process 10 [BATCH]
+    Transitioned from RUNNING to BLOCKED
+
+At time 11219:
+    IO_BURST_COMPLETED
+    Thread 0 in process 10 [BATCH]
+    Transitioned from BLOCKED to READY
+
+At time 11219:
+    DISPATCHER_INVOKED
+    Thread 0 in process 10 [BATCH]
+    Selected from 1 threads. Will run for at most 6 ticks.
+
+At time 11238:
+    THREAD_DISPATCH_COMPLETED
+    Thread 0 in process 10 [BATCH]
+    Transitioned from READY to RUNNING
+
+At time 11244:
+    THREAD_PREEMPTED
+    Thread 0 in process 10 [BATCH]
+    Transitioned from RUNNING to READY
+
+At time 11244:
+    DISPATCHER_INVOKED
+    Thread 0 in process 10 [BATCH]
+    Selected from 1 threads. Will run for at most 6 ticks.
+
+At time 11263:
+    THREAD_DISPATCH_COMPLETED
+    Thread 0 in process 10 [BATCH]
+    Transitioned from READY to RUNNING
+
+At time 11269:
+    THREAD_PREEMPTED
+    Thread 0 in process 10 [BATCH]
+    Transitioned from RUNNING to READY
+
+At time 11269:
+    DISPATCHER_INVOKED
+    Thread 0 in process 10 [BATCH]
+    Selected from 1 threads. Will run for at most 6 ticks.
+
+At time 11288:
+    THREAD_DISPATCH_COMPLETED
+    Thread 0 in process 10 [BATCH]
+    Transitioned from READY to RUNNING
+
+At time 11294:
+    THREAD_PREEMPTED
+    Thread 0 in process 10 [BATCH]
+    Transitioned from RUNNING to READY
+
+At time 11294:
+    DISPATCHER_INVOKED
+    Thread 0 in process 10 [BATCH]
+    Selected from 1 threads. Will run for at most 6 ticks.
+
+At time 11313:
+    THREAD_DISPATCH_COMPLETED
+    Thread 0 in process 10 [BATCH]
+    Transitioned from READY to RUNNING
+
+At time 11319:
+    THREAD_PREEMPTED
+    Thread 0 in process 10 [BATCH]
+    Transitioned from RUNNING to READY
+
+At time 11319:
+    DISPATCHER_INVOKED
+    Thread 0 in process 10 [BATCH]
+    Selected from 1 threads. Will run for at most 6 ticks.
+
+At time 11338:
+    THREAD_DISPATCH_COMPLETED
+    Thread 0 in process 10 [BATCH]
+    Transitioned from READY to RUNNING
+
+At time 11344:
+    CPU_BURST_COMPLETED
+    Thread 0 in process 10 [BATCH]
+    Transitioned from RUNNING to BLOCKED
+
+At time 11369:
+    IO_BURST_COMPLETED
+    Thread 0 in process 10 [BATCH]
+    Transitioned from BLOCKED to READY
+
+At time 11369:
+    DISPATCHER_INVOKED
+    Thread 0 in process 10 [BATCH]
+    Selected from 1 threads. Will run for at most 6 ticks.
+
+At time 11388:
+    THREAD_DISPATCH_COMPLETED
+    Thread 0 in process 10 [BATCH]
+    Transitioned from READY to RUNNING
+
+At time 11389:
+    THREAD_COMPLETED
+    Thread 0 in process 10 [BATCH]
     Transitioned from RUNNING to EXIT
 
 SIMULATION COMPLETED!
+

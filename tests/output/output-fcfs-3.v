@@ -1,1381 +1,1382 @@
 At time 0:
     THREAD_ARRIVED
-    Thread 0 in process 404 [BATCH]
+    Thread 0 in process 10 [BATCH]
     Transitioned from NEW to READY
 
 At time 0:
     DISPATCHER_INVOKED
-    Thread 0 in process 404 [BATCH]
+    Thread 0 in process 10 [BATCH]
     Selected from 1 threads. Will run to completion of burst.
 
 At time 10:
     THREAD_ARRIVED
-    Thread 0 in process 297 [BATCH]
+    Thread 0 in process 3 [BATCH]
     Transitioned from NEW to READY
 
 At time 28:
     THREAD_ARRIVED
-    Thread 1 in process 395 [NORMAL]
+    Thread 0 in process 1 [NORMAL]
     Transitioned from NEW to READY
 
 At time 33:
     THREAD_ARRIVED
-    Thread 2 in process 395 [NORMAL]
+    Thread 0 in process 2 [NORMAL]
     Transitioned from NEW to READY
 
 At time 39:
     THREAD_ARRIVED
-    Thread 2 in process 613 [NORMAL]
+    Thread 0 in process 8 [NORMAL]
     Transitioned from NEW to READY
 
 At time 47:
     THREAD_ARRIVED
-    Thread 1 in process 613 [NORMAL]
+    Thread 0 in process 7 [NORMAL]
     Transitioned from NEW to READY
 
 At time 48:
     THREAD_ARRIVED
-    Thread 0 in process 203 [NORMAL]
+    Thread 0 in process 4 [NORMAL]
     Transitioned from NEW to READY
 
 At time 48:
     PROCESS_DISPATCH_COMPLETED
-    Thread 0 in process 404 [BATCH]
+    Thread 0 in process 10 [BATCH]
     Transitioned from READY to RUNNING
 
 At time 53:
     THREAD_ARRIVED
-    Thread 1 in process 404 [BATCH]
+    Thread 0 in process 11 [BATCH]
     Transitioned from NEW to READY
 
 At time 58:
     THREAD_ARRIVED
-    Thread 0 in process 395 [NORMAL]
+    Thread 0 in process 0 [NORMAL]
     Transitioned from NEW to READY
 
 At time 58:
     THREAD_ARRIVED
-    Thread 2 in process 404 [BATCH]
+    Thread 0 in process 12 [BATCH]
     Transitioned from NEW to READY
 
 At time 67:
     CPU_BURST_COMPLETED
-    Thread 0 in process 404 [BATCH]
+    Thread 0 in process 10 [BATCH]
     Transitioned from RUNNING to BLOCKED
 
 At time 67:
     DISPATCHER_INVOKED
-    Thread 0 in process 297 [BATCH]
+    Thread 0 in process 3 [BATCH]
     Selected from 9 threads. Will run to completion of burst.
 
 At time 70:
     THREAD_ARRIVED
-    Thread 0 in process 613 [NORMAL]
+    Thread 0 in process 6 [NORMAL]
     Transitioned from NEW to READY
 
 At time 82:
     THREAD_ARRIVED
-    Thread 0 in process 341 [INTERACTIVE]
+    Thread 0 in process 5 [INTERACTIVE]
     Transitioned from NEW to READY
 
 At time 87:
     THREAD_ARRIVED
-    Thread 3 in process 613 [NORMAL]
+    Thread 0 in process 9 [NORMAL]
     Transitioned from NEW to READY
 
 At time 89:
     IO_BURST_COMPLETED
-    Thread 0 in process 404 [BATCH]
+    Thread 0 in process 10 [BATCH]
     Transitioned from BLOCKED to READY
 
 At time 115:
     PROCESS_DISPATCH_COMPLETED
-    Thread 0 in process 297 [BATCH]
+    Thread 0 in process 3 [BATCH]
     Transitioned from READY to RUNNING
 
 At time 142:
     CPU_BURST_COMPLETED
-    Thread 0 in process 297 [BATCH]
+    Thread 0 in process 3 [BATCH]
     Transitioned from RUNNING to BLOCKED
 
 At time 142:
     DISPATCHER_INVOKED
-    Thread 1 in process 395 [NORMAL]
+    Thread 0 in process 1 [NORMAL]
     Selected from 12 threads. Will run to completion of burst.
 
 At time 158:
     IO_BURST_COMPLETED
-    Thread 0 in process 297 [BATCH]
+    Thread 0 in process 3 [BATCH]
     Transitioned from BLOCKED to READY
 
 At time 190:
     PROCESS_DISPATCH_COMPLETED
-    Thread 1 in process 395 [NORMAL]
+    Thread 0 in process 1 [NORMAL]
     Transitioned from READY to RUNNING
 
 At time 196:
     CPU_BURST_COMPLETED
-    Thread 1 in process 395 [NORMAL]
+    Thread 0 in process 1 [NORMAL]
     Transitioned from RUNNING to BLOCKED
 
 At time 196:
     DISPATCHER_INVOKED
-    Thread 2 in process 395 [NORMAL]
+    Thread 0 in process 2 [NORMAL]
     Selected from 12 threads. Will run to completion of burst.
-
-At time 215:
-    THREAD_DISPATCH_COMPLETED
-    Thread 2 in process 395 [NORMAL]
-    Transitioned from READY to RUNNING
 
 At time 219:
     IO_BURST_COMPLETED
-    Thread 1 in process 395 [NORMAL]
+    Thread 0 in process 1 [NORMAL]
     Transitioned from BLOCKED to READY
 
-At time 245:
+At time 244:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 2 [NORMAL]
+    Transitioned from READY to RUNNING
+
+At time 274:
     CPU_BURST_COMPLETED
-    Thread 2 in process 395 [NORMAL]
+    Thread 0 in process 2 [NORMAL]
     Transitioned from RUNNING to BLOCKED
 
-At time 245:
+At time 274:
     DISPATCHER_INVOKED
-    Thread 2 in process 613 [NORMAL]
+    Thread 0 in process 8 [NORMAL]
     Selected from 12 threads. Will run to completion of burst.
 
-At time 265:
+At time 294:
     IO_BURST_COMPLETED
-    Thread 2 in process 395 [NORMAL]
+    Thread 0 in process 2 [NORMAL]
     Transitioned from BLOCKED to READY
 
-At time 293:
+At time 322:
     PROCESS_DISPATCH_COMPLETED
-    Thread 2 in process 613 [NORMAL]
+    Thread 0 in process 8 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 307:
+At time 336:
     THREAD_COMPLETED
-    Thread 2 in process 613 [NORMAL]
+    Thread 0 in process 8 [NORMAL]
     Transitioned from RUNNING to EXIT
 
-At time 307:
+At time 336:
     DISPATCHER_INVOKED
-    Thread 1 in process 613 [NORMAL]
+    Thread 0 in process 7 [NORMAL]
     Selected from 12 threads. Will run to completion of burst.
 
-At time 326:
-    THREAD_DISPATCH_COMPLETED
-    Thread 1 in process 613 [NORMAL]
+At time 384:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 7 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 354:
+At time 412:
     CPU_BURST_COMPLETED
-    Thread 1 in process 613 [NORMAL]
+    Thread 0 in process 7 [NORMAL]
     Transitioned from RUNNING to BLOCKED
 
-At time 354:
+At time 412:
     DISPATCHER_INVOKED
-    Thread 0 in process 203 [NORMAL]
+    Thread 0 in process 4 [NORMAL]
     Selected from 11 threads. Will run to completion of burst.
 
-At time 372:
+At time 430:
     IO_BURST_COMPLETED
-    Thread 1 in process 613 [NORMAL]
+    Thread 0 in process 7 [NORMAL]
     Transitioned from BLOCKED to READY
 
-At time 402:
+At time 460:
     PROCESS_DISPATCH_COMPLETED
-    Thread 0 in process 203 [NORMAL]
+    Thread 0 in process 4 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 431:
+At time 489:
     CPU_BURST_COMPLETED
-    Thread 0 in process 203 [NORMAL]
+    Thread 0 in process 4 [NORMAL]
     Transitioned from RUNNING to BLOCKED
 
-At time 431:
+At time 489:
     DISPATCHER_INVOKED
-    Thread 1 in process 404 [BATCH]
+    Thread 0 in process 11 [BATCH]
     Selected from 11 threads. Will run to completion of burst.
 
-At time 461:
+At time 519:
     IO_BURST_COMPLETED
-    Thread 0 in process 203 [NORMAL]
+    Thread 0 in process 4 [NORMAL]
     Transitioned from BLOCKED to READY
 
-At time 479:
+At time 537:
     PROCESS_DISPATCH_COMPLETED
-    Thread 1 in process 404 [BATCH]
+    Thread 0 in process 11 [BATCH]
     Transitioned from READY to RUNNING
 
-At time 490:
+At time 548:
     CPU_BURST_COMPLETED
-    Thread 1 in process 404 [BATCH]
+    Thread 0 in process 11 [BATCH]
     Transitioned from RUNNING to BLOCKED
 
-At time 490:
+At time 548:
     DISPATCHER_INVOKED
-    Thread 0 in process 395 [NORMAL]
+    Thread 0 in process 0 [NORMAL]
     Selected from 11 threads. Will run to completion of burst.
 
-At time 503:
+At time 561:
     IO_BURST_COMPLETED
-    Thread 1 in process 404 [BATCH]
+    Thread 0 in process 11 [BATCH]
     Transitioned from BLOCKED to READY
 
-At time 538:
+At time 596:
     PROCESS_DISPATCH_COMPLETED
-    Thread 0 in process 395 [NORMAL]
+    Thread 0 in process 0 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 540:
+At time 598:
     THREAD_COMPLETED
-    Thread 0 in process 395 [NORMAL]
+    Thread 0 in process 0 [NORMAL]
     Transitioned from RUNNING to EXIT
 
-At time 540:
+At time 598:
     DISPATCHER_INVOKED
-    Thread 2 in process 404 [BATCH]
+    Thread 0 in process 12 [BATCH]
     Selected from 11 threads. Will run to completion of burst.
 
-At time 588:
+At time 646:
     PROCESS_DISPATCH_COMPLETED
-    Thread 2 in process 404 [BATCH]
+    Thread 0 in process 12 [BATCH]
     Transitioned from READY to RUNNING
 
-At time 600:
+At time 658:
     CPU_BURST_COMPLETED
-    Thread 2 in process 404 [BATCH]
+    Thread 0 in process 12 [BATCH]
     Transitioned from RUNNING to BLOCKED
 
-At time 600:
+At time 658:
     DISPATCHER_INVOKED
-    Thread 0 in process 613 [NORMAL]
+    Thread 0 in process 6 [NORMAL]
     Selected from 10 threads. Will run to completion of burst.
 
-At time 613:
+At time 671:
     IO_BURST_COMPLETED
-    Thread 2 in process 404 [BATCH]
+    Thread 0 in process 12 [BATCH]
     Transitioned from BLOCKED to READY
 
-At time 648:
+At time 706:
     PROCESS_DISPATCH_COMPLETED
-    Thread 0 in process 613 [NORMAL]
+    Thread 0 in process 6 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 659:
+At time 717:
     CPU_BURST_COMPLETED
-    Thread 0 in process 613 [NORMAL]
+    Thread 0 in process 6 [NORMAL]
     Transitioned from RUNNING to BLOCKED
 
-At time 659:
+At time 717:
     DISPATCHER_INVOKED
-    Thread 0 in process 341 [INTERACTIVE]
+    Thread 0 in process 5 [INTERACTIVE]
     Selected from 10 threads. Will run to completion of burst.
 
-At time 667:
+At time 725:
     IO_BURST_COMPLETED
-    Thread 0 in process 613 [NORMAL]
+    Thread 0 in process 6 [NORMAL]
     Transitioned from BLOCKED to READY
 
-At time 707:
+At time 765:
     PROCESS_DISPATCH_COMPLETED
-    Thread 0 in process 341 [INTERACTIVE]
+    Thread 0 in process 5 [INTERACTIVE]
     Transitioned from READY to RUNNING
 
-At time 728:
+At time 786:
     CPU_BURST_COMPLETED
-    Thread 0 in process 341 [INTERACTIVE]
+    Thread 0 in process 5 [INTERACTIVE]
     Transitioned from RUNNING to BLOCKED
 
-At time 728:
+At time 786:
     DISPATCHER_INVOKED
-    Thread 3 in process 613 [NORMAL]
+    Thread 0 in process 9 [NORMAL]
     Selected from 10 threads. Will run to completion of burst.
 
-At time 731:
+At time 789:
     IO_BURST_COMPLETED
-    Thread 0 in process 341 [INTERACTIVE]
+    Thread 0 in process 5 [INTERACTIVE]
     Transitioned from BLOCKED to READY
 
-At time 776:
+At time 834:
     PROCESS_DISPATCH_COMPLETED
-    Thread 3 in process 613 [NORMAL]
+    Thread 0 in process 9 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 806:
+At time 864:
     CPU_BURST_COMPLETED
-    Thread 3 in process 613 [NORMAL]
+    Thread 0 in process 9 [NORMAL]
     Transitioned from RUNNING to BLOCKED
 
-At time 806:
+At time 864:
     DISPATCHER_INVOKED
-    Thread 0 in process 404 [BATCH]
+    Thread 0 in process 10 [BATCH]
     Selected from 10 threads. Will run to completion of burst.
 
-At time 809:
+At time 867:
     IO_BURST_COMPLETED
-    Thread 3 in process 613 [NORMAL]
+    Thread 0 in process 9 [NORMAL]
     Transitioned from BLOCKED to READY
 
-At time 854:
+At time 912:
     PROCESS_DISPATCH_COMPLETED
-    Thread 0 in process 404 [BATCH]
+    Thread 0 in process 10 [BATCH]
     Transitioned from READY to RUNNING
 
-At time 882:
+At time 940:
     CPU_BURST_COMPLETED
-    Thread 0 in process 404 [BATCH]
+    Thread 0 in process 10 [BATCH]
     Transitioned from RUNNING to BLOCKED
 
-At time 882:
+At time 940:
     DISPATCHER_INVOKED
-    Thread 0 in process 297 [BATCH]
+    Thread 0 in process 3 [BATCH]
     Selected from 10 threads. Will run to completion of burst.
 
-At time 902:
+At time 960:
     IO_BURST_COMPLETED
-    Thread 0 in process 404 [BATCH]
+    Thread 0 in process 10 [BATCH]
     Transitioned from BLOCKED to READY
 
-At time 930:
+At time 988:
     PROCESS_DISPATCH_COMPLETED
-    Thread 0 in process 297 [BATCH]
+    Thread 0 in process 3 [BATCH]
     Transitioned from READY to RUNNING
 
-At time 958:
+At time 1016:
     CPU_BURST_COMPLETED
-    Thread 0 in process 297 [BATCH]
+    Thread 0 in process 3 [BATCH]
     Transitioned from RUNNING to BLOCKED
 
-At time 958:
+At time 1016:
     DISPATCHER_INVOKED
-    Thread 1 in process 395 [NORMAL]
+    Thread 0 in process 1 [NORMAL]
     Selected from 10 threads. Will run to completion of burst.
 
-At time 986:
+At time 1044:
     IO_BURST_COMPLETED
-    Thread 0 in process 297 [BATCH]
+    Thread 0 in process 3 [BATCH]
     Transitioned from BLOCKED to READY
 
-At time 1006:
+At time 1064:
     PROCESS_DISPATCH_COMPLETED
-    Thread 1 in process 395 [NORMAL]
+    Thread 0 in process 1 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 1015:
+At time 1073:
     CPU_BURST_COMPLETED
-    Thread 1 in process 395 [NORMAL]
+    Thread 0 in process 1 [NORMAL]
     Transitioned from RUNNING to BLOCKED
 
-At time 1015:
+At time 1073:
     DISPATCHER_INVOKED
-    Thread 2 in process 395 [NORMAL]
+    Thread 0 in process 2 [NORMAL]
     Selected from 10 threads. Will run to completion of burst.
 
-At time 1032:
+At time 1090:
     IO_BURST_COMPLETED
-    Thread 1 in process 395 [NORMAL]
+    Thread 0 in process 1 [NORMAL]
     Transitioned from BLOCKED to READY
 
-At time 1034:
-    THREAD_DISPATCH_COMPLETED
-    Thread 2 in process 395 [NORMAL]
+At time 1121:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 2 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 1060:
+At time 1147:
     CPU_BURST_COMPLETED
-    Thread 2 in process 395 [NORMAL]
+    Thread 0 in process 2 [NORMAL]
     Transitioned from RUNNING to BLOCKED
 
-At time 1060:
+At time 1147:
     DISPATCHER_INVOKED
-    Thread 1 in process 613 [NORMAL]
+    Thread 0 in process 7 [NORMAL]
     Selected from 10 threads. Will run to completion of burst.
 
-At time 1068:
+At time 1155:
     IO_BURST_COMPLETED
-    Thread 2 in process 395 [NORMAL]
+    Thread 0 in process 2 [NORMAL]
     Transitioned from BLOCKED to READY
 
-At time 1108:
+At time 1195:
     PROCESS_DISPATCH_COMPLETED
-    Thread 1 in process 613 [NORMAL]
+    Thread 0 in process 7 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 1127:
+At time 1214:
     CPU_BURST_COMPLETED
-    Thread 1 in process 613 [NORMAL]
+    Thread 0 in process 7 [NORMAL]
     Transitioned from RUNNING to BLOCKED
 
-At time 1127:
+At time 1214:
     DISPATCHER_INVOKED
-    Thread 0 in process 203 [NORMAL]
+    Thread 0 in process 4 [NORMAL]
     Selected from 10 threads. Will run to completion of burst.
 
-At time 1135:
+At time 1222:
     IO_BURST_COMPLETED
-    Thread 1 in process 613 [NORMAL]
+    Thread 0 in process 7 [NORMAL]
     Transitioned from BLOCKED to READY
-
-At time 1175:
-    PROCESS_DISPATCH_COMPLETED
-    Thread 0 in process 203 [NORMAL]
-    Transitioned from READY to RUNNING
-
-At time 1179:
-    CPU_BURST_COMPLETED
-    Thread 0 in process 203 [NORMAL]
-    Transitioned from RUNNING to BLOCKED
-
-At time 1179:
-    DISPATCHER_INVOKED
-    Thread 1 in process 404 [BATCH]
-    Selected from 10 threads. Will run to completion of burst.
-
-At time 1208:
-    IO_BURST_COMPLETED
-    Thread 0 in process 203 [NORMAL]
-    Transitioned from BLOCKED to READY
-
-At time 1227:
-    PROCESS_DISPATCH_COMPLETED
-    Thread 1 in process 404 [BATCH]
-    Transitioned from READY to RUNNING
-
-At time 1249:
-    CPU_BURST_COMPLETED
-    Thread 1 in process 404 [BATCH]
-    Transitioned from RUNNING to BLOCKED
-
-At time 1249:
-    DISPATCHER_INVOKED
-    Thread 2 in process 404 [BATCH]
-    Selected from 10 threads. Will run to completion of burst.
 
 At time 1262:
-    IO_BURST_COMPLETED
-    Thread 1 in process 404 [BATCH]
-    Transitioned from BLOCKED to READY
-
-At time 1268:
-    THREAD_DISPATCH_COMPLETED
-    Thread 2 in process 404 [BATCH]
-    Transitioned from READY to RUNNING
-
-At time 1272:
-    CPU_BURST_COMPLETED
-    Thread 2 in process 404 [BATCH]
-    Transitioned from RUNNING to BLOCKED
-
-At time 1272:
-    DISPATCHER_INVOKED
-    Thread 0 in process 613 [NORMAL]
-    Selected from 10 threads. Will run to completion of burst.
-
-At time 1298:
-    IO_BURST_COMPLETED
-    Thread 2 in process 404 [BATCH]
-    Transitioned from BLOCKED to READY
-
-At time 1320:
     PROCESS_DISPATCH_COMPLETED
-    Thread 0 in process 613 [NORMAL]
+    Thread 0 in process 4 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 1348:
+At time 1266:
     CPU_BURST_COMPLETED
-    Thread 0 in process 613 [NORMAL]
+    Thread 0 in process 4 [NORMAL]
     Transitioned from RUNNING to BLOCKED
 
-At time 1348:
+At time 1266:
     DISPATCHER_INVOKED
-    Thread 0 in process 341 [INTERACTIVE]
+    Thread 0 in process 11 [BATCH]
     Selected from 10 threads. Will run to completion of burst.
 
-At time 1369:
+At time 1295:
     IO_BURST_COMPLETED
-    Thread 0 in process 613 [NORMAL]
+    Thread 0 in process 4 [NORMAL]
     Transitioned from BLOCKED to READY
 
-At time 1396:
+At time 1314:
     PROCESS_DISPATCH_COMPLETED
-    Thread 0 in process 341 [INTERACTIVE]
+    Thread 0 in process 11 [BATCH]
     Transitioned from READY to RUNNING
 
-At time 1409:
+At time 1336:
     CPU_BURST_COMPLETED
-    Thread 0 in process 341 [INTERACTIVE]
+    Thread 0 in process 11 [BATCH]
     Transitioned from RUNNING to BLOCKED
 
-At time 1409:
+At time 1336:
     DISPATCHER_INVOKED
-    Thread 3 in process 613 [NORMAL]
+    Thread 0 in process 12 [BATCH]
     Selected from 10 threads. Will run to completion of burst.
 
-At time 1416:
+At time 1349:
     IO_BURST_COMPLETED
-    Thread 0 in process 341 [INTERACTIVE]
+    Thread 0 in process 11 [BATCH]
     Transitioned from BLOCKED to READY
 
-At time 1457:
+At time 1384:
     PROCESS_DISPATCH_COMPLETED
-    Thread 3 in process 613 [NORMAL]
+    Thread 0 in process 12 [BATCH]
     Transitioned from READY to RUNNING
 
-At time 1482:
+At time 1388:
     CPU_BURST_COMPLETED
-    Thread 3 in process 613 [NORMAL]
+    Thread 0 in process 12 [BATCH]
     Transitioned from RUNNING to BLOCKED
 
-At time 1482:
+At time 1388:
     DISPATCHER_INVOKED
-    Thread 0 in process 404 [BATCH]
+    Thread 0 in process 6 [NORMAL]
     Selected from 10 threads. Will run to completion of burst.
 
-At time 1510:
+At time 1414:
     IO_BURST_COMPLETED
-    Thread 3 in process 613 [NORMAL]
+    Thread 0 in process 12 [BATCH]
     Transitioned from BLOCKED to READY
 
-At time 1530:
+At time 1436:
     PROCESS_DISPATCH_COMPLETED
-    Thread 0 in process 404 [BATCH]
+    Thread 0 in process 6 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 1550:
+At time 1464:
     CPU_BURST_COMPLETED
-    Thread 0 in process 404 [BATCH]
+    Thread 0 in process 6 [NORMAL]
     Transitioned from RUNNING to BLOCKED
 
-At time 1550:
+At time 1464:
     DISPATCHER_INVOKED
-    Thread 0 in process 297 [BATCH]
+    Thread 0 in process 5 [INTERACTIVE]
     Selected from 10 threads. Will run to completion of burst.
 
-At time 1563:
+At time 1485:
     IO_BURST_COMPLETED
-    Thread 0 in process 404 [BATCH]
+    Thread 0 in process 6 [NORMAL]
     Transitioned from BLOCKED to READY
+
+At time 1512:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 5 [INTERACTIVE]
+    Transitioned from READY to RUNNING
+
+At time 1525:
+    CPU_BURST_COMPLETED
+    Thread 0 in process 5 [INTERACTIVE]
+    Transitioned from RUNNING to BLOCKED
+
+At time 1525:
+    DISPATCHER_INVOKED
+    Thread 0 in process 9 [NORMAL]
+    Selected from 10 threads. Will run to completion of burst.
+
+At time 1532:
+    IO_BURST_COMPLETED
+    Thread 0 in process 5 [INTERACTIVE]
+    Transitioned from BLOCKED to READY
+
+At time 1573:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 9 [NORMAL]
+    Transitioned from READY to RUNNING
 
 At time 1598:
-    PROCESS_DISPATCH_COMPLETED
-    Thread 0 in process 297 [BATCH]
-    Transitioned from READY to RUNNING
+    CPU_BURST_COMPLETED
+    Thread 0 in process 9 [NORMAL]
+    Transitioned from RUNNING to BLOCKED
 
-At time 1614:
-    THREAD_COMPLETED
-    Thread 0 in process 297 [BATCH]
-    Transitioned from RUNNING to EXIT
-
-At time 1614:
+At time 1598:
     DISPATCHER_INVOKED
-    Thread 1 in process 395 [NORMAL]
+    Thread 0 in process 10 [BATCH]
     Selected from 10 threads. Will run to completion of burst.
 
-At time 1662:
-    PROCESS_DISPATCH_COMPLETED
-    Thread 1 in process 395 [NORMAL]
-    Transitioned from READY to RUNNING
-
-At time 1687:
-    CPU_BURST_COMPLETED
-    Thread 1 in process 395 [NORMAL]
-    Transitioned from RUNNING to BLOCKED
-
-At time 1687:
-    DISPATCHER_INVOKED
-    Thread 2 in process 395 [NORMAL]
-    Selected from 9 threads. Will run to completion of burst.
-
-At time 1703:
+At time 1626:
     IO_BURST_COMPLETED
-    Thread 1 in process 395 [NORMAL]
+    Thread 0 in process 9 [NORMAL]
     Transitioned from BLOCKED to READY
 
-At time 1706:
-    THREAD_DISPATCH_COMPLETED
-    Thread 2 in process 395 [NORMAL]
+At time 1646:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 10 [BATCH]
     Transitioned from READY to RUNNING
 
-At time 1720:
+At time 1666:
+    CPU_BURST_COMPLETED
+    Thread 0 in process 10 [BATCH]
+    Transitioned from RUNNING to BLOCKED
+
+At time 1666:
+    DISPATCHER_INVOKED
+    Thread 0 in process 3 [BATCH]
+    Selected from 10 threads. Will run to completion of burst.
+
+At time 1679:
+    IO_BURST_COMPLETED
+    Thread 0 in process 10 [BATCH]
+    Transitioned from BLOCKED to READY
+
+At time 1714:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 3 [BATCH]
+    Transitioned from READY to RUNNING
+
+At time 1730:
     THREAD_COMPLETED
-    Thread 2 in process 395 [NORMAL]
+    Thread 0 in process 3 [BATCH]
     Transitioned from RUNNING to EXIT
 
-At time 1720:
+At time 1730:
     DISPATCHER_INVOKED
-    Thread 1 in process 613 [NORMAL]
+    Thread 0 in process 1 [NORMAL]
+    Selected from 10 threads. Will run to completion of burst.
+
+At time 1778:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 1 [NORMAL]
+    Transitioned from READY to RUNNING
+
+At time 1803:
+    CPU_BURST_COMPLETED
+    Thread 0 in process 1 [NORMAL]
+    Transitioned from RUNNING to BLOCKED
+
+At time 1803:
+    DISPATCHER_INVOKED
+    Thread 0 in process 2 [NORMAL]
     Selected from 9 threads. Will run to completion of burst.
 
-At time 1768:
-    PROCESS_DISPATCH_COMPLETED
-    Thread 1 in process 613 [NORMAL]
-    Transitioned from READY to RUNNING
-
-At time 1783:
-    CPU_BURST_COMPLETED
-    Thread 1 in process 613 [NORMAL]
-    Transitioned from RUNNING to BLOCKED
-
-At time 1783:
-    DISPATCHER_INVOKED
-    Thread 0 in process 203 [NORMAL]
-    Selected from 8 threads. Will run to completion of burst.
-
-At time 1798:
+At time 1819:
     IO_BURST_COMPLETED
-    Thread 1 in process 613 [NORMAL]
+    Thread 0 in process 1 [NORMAL]
     Transitioned from BLOCKED to READY
 
-At time 1831:
+At time 1851:
     PROCESS_DISPATCH_COMPLETED
-    Thread 0 in process 203 [NORMAL]
+    Thread 0 in process 2 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 1855:
-    CPU_BURST_COMPLETED
-    Thread 0 in process 203 [NORMAL]
-    Transitioned from RUNNING to BLOCKED
-
-At time 1855:
-    DISPATCHER_INVOKED
-    Thread 1 in process 404 [BATCH]
-    Selected from 8 threads. Will run to completion of burst.
-
-At time 1856:
-    IO_BURST_COMPLETED
-    Thread 0 in process 203 [NORMAL]
-    Transitioned from BLOCKED to READY
-
-At time 1903:
-    PROCESS_DISPATCH_COMPLETED
-    Thread 1 in process 404 [BATCH]
-    Transitioned from READY to RUNNING
-
-At time 1908:
-    CPU_BURST_COMPLETED
-    Thread 1 in process 404 [BATCH]
-    Transitioned from RUNNING to BLOCKED
-
-At time 1908:
-    DISPATCHER_INVOKED
-    Thread 2 in process 404 [BATCH]
-    Selected from 8 threads. Will run to completion of burst.
-
-At time 1927:
-    THREAD_DISPATCH_COMPLETED
-    Thread 2 in process 404 [BATCH]
-    Transitioned from READY to RUNNING
-
-At time 1930:
-    IO_BURST_COMPLETED
-    Thread 1 in process 404 [BATCH]
-    Transitioned from BLOCKED to READY
-
-At time 1937:
+At time 1865:
     THREAD_COMPLETED
-    Thread 2 in process 404 [BATCH]
+    Thread 0 in process 2 [NORMAL]
     Transitioned from RUNNING to EXIT
 
-At time 1937:
+At time 1865:
     DISPATCHER_INVOKED
-    Thread 0 in process 613 [NORMAL]
+    Thread 0 in process 7 [NORMAL]
+    Selected from 9 threads. Will run to completion of burst.
+
+At time 1913:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 7 [NORMAL]
+    Transitioned from READY to RUNNING
+
+At time 1928:
+    CPU_BURST_COMPLETED
+    Thread 0 in process 7 [NORMAL]
+    Transitioned from RUNNING to BLOCKED
+
+At time 1928:
+    DISPATCHER_INVOKED
+    Thread 0 in process 4 [NORMAL]
     Selected from 8 threads. Will run to completion of burst.
 
-At time 1985:
-    PROCESS_DISPATCH_COMPLETED
-    Thread 0 in process 613 [NORMAL]
-    Transitioned from READY to RUNNING
-
-At time 1986:
-    CPU_BURST_COMPLETED
-    Thread 0 in process 613 [NORMAL]
-    Transitioned from RUNNING to BLOCKED
-
-At time 1986:
-    DISPATCHER_INVOKED
-    Thread 0 in process 341 [INTERACTIVE]
-    Selected from 7 threads. Will run to completion of burst.
-
-At time 1996:
+At time 1943:
     IO_BURST_COMPLETED
-    Thread 0 in process 613 [NORMAL]
+    Thread 0 in process 7 [NORMAL]
     Transitioned from BLOCKED to READY
 
-At time 2034:
+At time 1976:
     PROCESS_DISPATCH_COMPLETED
-    Thread 0 in process 341 [INTERACTIVE]
+    Thread 0 in process 4 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 2061:
+At time 2000:
     CPU_BURST_COMPLETED
-    Thread 0 in process 341 [INTERACTIVE]
+    Thread 0 in process 4 [NORMAL]
     Transitioned from RUNNING to BLOCKED
 
-At time 2061:
+At time 2000:
     DISPATCHER_INVOKED
-    Thread 3 in process 613 [NORMAL]
-    Selected from 7 threads. Will run to completion of burst.
+    Thread 0 in process 11 [BATCH]
+    Selected from 8 threads. Will run to completion of burst.
 
-At time 2064:
+At time 2001:
     IO_BURST_COMPLETED
-    Thread 0 in process 341 [INTERACTIVE]
+    Thread 0 in process 4 [NORMAL]
     Transitioned from BLOCKED to READY
 
-At time 2109:
+At time 2048:
     PROCESS_DISPATCH_COMPLETED
-    Thread 3 in process 613 [NORMAL]
+    Thread 0 in process 11 [BATCH]
     Transitioned from READY to RUNNING
 
-At time 2117:
+At time 2053:
     CPU_BURST_COMPLETED
-    Thread 3 in process 613 [NORMAL]
+    Thread 0 in process 11 [BATCH]
     Transitioned from RUNNING to BLOCKED
 
-At time 2117:
+At time 2053:
     DISPATCHER_INVOKED
-    Thread 0 in process 404 [BATCH]
-    Selected from 7 threads. Will run to completion of burst.
+    Thread 0 in process 12 [BATCH]
+    Selected from 8 threads. Will run to completion of burst.
 
-At time 2143:
+At time 2075:
     IO_BURST_COMPLETED
-    Thread 3 in process 613 [NORMAL]
+    Thread 0 in process 11 [BATCH]
     Transitioned from BLOCKED to READY
 
-At time 2165:
+At time 2101:
     PROCESS_DISPATCH_COMPLETED
-    Thread 0 in process 404 [BATCH]
+    Thread 0 in process 12 [BATCH]
     Transitioned from READY to RUNNING
 
-At time 2174:
+At time 2111:
+    THREAD_COMPLETED
+    Thread 0 in process 12 [BATCH]
+    Transitioned from RUNNING to EXIT
+
+At time 2111:
+    DISPATCHER_INVOKED
+    Thread 0 in process 6 [NORMAL]
+    Selected from 8 threads. Will run to completion of burst.
+
+At time 2159:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 6 [NORMAL]
+    Transitioned from READY to RUNNING
+
+At time 2160:
     CPU_BURST_COMPLETED
-    Thread 0 in process 404 [BATCH]
+    Thread 0 in process 6 [NORMAL]
     Transitioned from RUNNING to BLOCKED
 
-At time 2174:
+At time 2160:
     DISPATCHER_INVOKED
-    Thread 1 in process 395 [NORMAL]
+    Thread 0 in process 5 [INTERACTIVE]
     Selected from 7 threads. Will run to completion of burst.
 
-At time 2182:
+At time 2170:
     IO_BURST_COMPLETED
-    Thread 0 in process 404 [BATCH]
+    Thread 0 in process 6 [NORMAL]
     Transitioned from BLOCKED to READY
 
-At time 2222:
+At time 2208:
     PROCESS_DISPATCH_COMPLETED
-    Thread 1 in process 395 [NORMAL]
+    Thread 0 in process 5 [INTERACTIVE]
     Transitioned from READY to RUNNING
 
-At time 2223:
+At time 2235:
     CPU_BURST_COMPLETED
-    Thread 1 in process 395 [NORMAL]
+    Thread 0 in process 5 [INTERACTIVE]
     Transitioned from RUNNING to BLOCKED
 
-At time 2223:
+At time 2235:
     DISPATCHER_INVOKED
-    Thread 1 in process 613 [NORMAL]
+    Thread 0 in process 9 [NORMAL]
     Selected from 7 threads. Will run to completion of burst.
 
-At time 2247:
+At time 2238:
     IO_BURST_COMPLETED
-    Thread 1 in process 395 [NORMAL]
+    Thread 0 in process 5 [INTERACTIVE]
     Transitioned from BLOCKED to READY
 
-At time 2271:
+At time 2283:
     PROCESS_DISPATCH_COMPLETED
-    Thread 1 in process 613 [NORMAL]
+    Thread 0 in process 9 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 2277:
+At time 2291:
     CPU_BURST_COMPLETED
-    Thread 1 in process 613 [NORMAL]
+    Thread 0 in process 9 [NORMAL]
     Transitioned from RUNNING to BLOCKED
 
-At time 2277:
+At time 2291:
     DISPATCHER_INVOKED
-    Thread 0 in process 203 [NORMAL]
+    Thread 0 in process 10 [BATCH]
     Selected from 7 threads. Will run to completion of burst.
 
-At time 2286:
+At time 2317:
     IO_BURST_COMPLETED
-    Thread 1 in process 613 [NORMAL]
+    Thread 0 in process 9 [NORMAL]
     Transitioned from BLOCKED to READY
-
-At time 2325:
-    PROCESS_DISPATCH_COMPLETED
-    Thread 0 in process 203 [NORMAL]
-    Transitioned from READY to RUNNING
 
 At time 2339:
-    CPU_BURST_COMPLETED
-    Thread 0 in process 203 [NORMAL]
-    Transitioned from RUNNING to BLOCKED
-
-At time 2339:
-    DISPATCHER_INVOKED
-    Thread 1 in process 404 [BATCH]
-    Selected from 7 threads. Will run to completion of burst.
-
-At time 2368:
-    IO_BURST_COMPLETED
-    Thread 0 in process 203 [NORMAL]
-    Transitioned from BLOCKED to READY
-
-At time 2387:
     PROCESS_DISPATCH_COMPLETED
-    Thread 1 in process 404 [BATCH]
+    Thread 0 in process 10 [BATCH]
     Transitioned from READY to RUNNING
 
-At time 2417:
+At time 2348:
     CPU_BURST_COMPLETED
-    Thread 1 in process 404 [BATCH]
+    Thread 0 in process 10 [BATCH]
     Transitioned from RUNNING to BLOCKED
 
-At time 2417:
+At time 2348:
     DISPATCHER_INVOKED
-    Thread 0 in process 613 [NORMAL]
+    Thread 0 in process 1 [NORMAL]
     Selected from 7 threads. Will run to completion of burst.
 
-At time 2447:
+At time 2356:
     IO_BURST_COMPLETED
-    Thread 1 in process 404 [BATCH]
+    Thread 0 in process 10 [BATCH]
     Transitioned from BLOCKED to READY
 
-At time 2465:
+At time 2396:
     PROCESS_DISPATCH_COMPLETED
-    Thread 0 in process 613 [NORMAL]
+    Thread 0 in process 1 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 2479:
+At time 2397:
     CPU_BURST_COMPLETED
-    Thread 0 in process 613 [NORMAL]
+    Thread 0 in process 1 [NORMAL]
     Transitioned from RUNNING to BLOCKED
 
-At time 2479:
+At time 2397:
     DISPATCHER_INVOKED
-    Thread 0 in process 341 [INTERACTIVE]
+    Thread 0 in process 7 [NORMAL]
     Selected from 7 threads. Will run to completion of burst.
 
-At time 2503:
+At time 2421:
     IO_BURST_COMPLETED
-    Thread 0 in process 613 [NORMAL]
+    Thread 0 in process 1 [NORMAL]
     Transitioned from BLOCKED to READY
 
-At time 2527:
+At time 2445:
     PROCESS_DISPATCH_COMPLETED
-    Thread 0 in process 341 [INTERACTIVE]
+    Thread 0 in process 7 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 2529:
+At time 2451:
     CPU_BURST_COMPLETED
-    Thread 0 in process 341 [INTERACTIVE]
+    Thread 0 in process 7 [NORMAL]
     Transitioned from RUNNING to BLOCKED
 
-At time 2529:
+At time 2451:
     DISPATCHER_INVOKED
-    Thread 3 in process 613 [NORMAL]
+    Thread 0 in process 4 [NORMAL]
     Selected from 7 threads. Will run to completion of burst.
 
-At time 2553:
+At time 2460:
     IO_BURST_COMPLETED
-    Thread 0 in process 341 [INTERACTIVE]
+    Thread 0 in process 7 [NORMAL]
     Transitioned from BLOCKED to READY
 
-At time 2577:
+At time 2499:
     PROCESS_DISPATCH_COMPLETED
-    Thread 3 in process 613 [NORMAL]
+    Thread 0 in process 4 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 2586:
+At time 2513:
     CPU_BURST_COMPLETED
-    Thread 3 in process 613 [NORMAL]
+    Thread 0 in process 4 [NORMAL]
     Transitioned from RUNNING to BLOCKED
 
-At time 2586:
+At time 2513:
     DISPATCHER_INVOKED
-    Thread 0 in process 404 [BATCH]
+    Thread 0 in process 11 [BATCH]
     Selected from 7 threads. Will run to completion of burst.
 
-At time 2595:
+At time 2542:
     IO_BURST_COMPLETED
-    Thread 3 in process 613 [NORMAL]
+    Thread 0 in process 4 [NORMAL]
     Transitioned from BLOCKED to READY
 
-At time 2634:
+At time 2561:
     PROCESS_DISPATCH_COMPLETED
-    Thread 0 in process 404 [BATCH]
+    Thread 0 in process 11 [BATCH]
     Transitioned from READY to RUNNING
 
-At time 2656:
+At time 2591:
     CPU_BURST_COMPLETED
-    Thread 0 in process 404 [BATCH]
+    Thread 0 in process 11 [BATCH]
     Transitioned from RUNNING to BLOCKED
 
-At time 2656:
+At time 2591:
     DISPATCHER_INVOKED
-    Thread 1 in process 395 [NORMAL]
+    Thread 0 in process 6 [NORMAL]
     Selected from 7 threads. Will run to completion of burst.
 
-At time 2680:
+At time 2621:
     IO_BURST_COMPLETED
-    Thread 0 in process 404 [BATCH]
+    Thread 0 in process 11 [BATCH]
     Transitioned from BLOCKED to READY
 
-At time 2704:
+At time 2639:
     PROCESS_DISPATCH_COMPLETED
-    Thread 1 in process 395 [NORMAL]
+    Thread 0 in process 6 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 2716:
+At time 2653:
     CPU_BURST_COMPLETED
-    Thread 1 in process 395 [NORMAL]
+    Thread 0 in process 6 [NORMAL]
     Transitioned from RUNNING to BLOCKED
 
-At time 2716:
+At time 2653:
     DISPATCHER_INVOKED
-    Thread 1 in process 613 [NORMAL]
+    Thread 0 in process 5 [INTERACTIVE]
     Selected from 7 threads. Will run to completion of burst.
 
-At time 2745:
+At time 2677:
     IO_BURST_COMPLETED
-    Thread 1 in process 395 [NORMAL]
+    Thread 0 in process 6 [NORMAL]
     Transitioned from BLOCKED to READY
 
-At time 2764:
+At time 2701:
     PROCESS_DISPATCH_COMPLETED
-    Thread 1 in process 613 [NORMAL]
+    Thread 0 in process 5 [INTERACTIVE]
     Transitioned from READY to RUNNING
 
-At time 2767:
+At time 2703:
     CPU_BURST_COMPLETED
-    Thread 1 in process 613 [NORMAL]
+    Thread 0 in process 5 [INTERACTIVE]
     Transitioned from RUNNING to BLOCKED
 
-At time 2767:
+At time 2703:
     DISPATCHER_INVOKED
-    Thread 0 in process 203 [NORMAL]
+    Thread 0 in process 9 [NORMAL]
     Selected from 7 threads. Will run to completion of burst.
 
-At time 2791:
+At time 2727:
     IO_BURST_COMPLETED
-    Thread 1 in process 613 [NORMAL]
+    Thread 0 in process 5 [INTERACTIVE]
     Transitioned from BLOCKED to READY
 
-At time 2815:
+At time 2751:
     PROCESS_DISPATCH_COMPLETED
-    Thread 0 in process 203 [NORMAL]
+    Thread 0 in process 9 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 2821:
+At time 2760:
     CPU_BURST_COMPLETED
-    Thread 0 in process 203 [NORMAL]
+    Thread 0 in process 9 [NORMAL]
     Transitioned from RUNNING to BLOCKED
 
-At time 2821:
+At time 2760:
     DISPATCHER_INVOKED
-    Thread 1 in process 404 [BATCH]
+    Thread 0 in process 10 [BATCH]
     Selected from 7 threads. Will run to completion of burst.
 
-At time 2822:
+At time 2769:
     IO_BURST_COMPLETED
-    Thread 0 in process 203 [NORMAL]
+    Thread 0 in process 9 [NORMAL]
     Transitioned from BLOCKED to READY
 
-At time 2869:
+At time 2808:
     PROCESS_DISPATCH_COMPLETED
-    Thread 1 in process 404 [BATCH]
+    Thread 0 in process 10 [BATCH]
     Transitioned from READY to RUNNING
 
-At time 2883:
+At time 2830:
     CPU_BURST_COMPLETED
-    Thread 1 in process 404 [BATCH]
+    Thread 0 in process 10 [BATCH]
     Transitioned from RUNNING to BLOCKED
 
-At time 2883:
+At time 2830:
     DISPATCHER_INVOKED
-    Thread 0 in process 613 [NORMAL]
+    Thread 0 in process 1 [NORMAL]
     Selected from 7 threads. Will run to completion of burst.
 
-At time 2886:
+At time 2854:
     IO_BURST_COMPLETED
-    Thread 1 in process 404 [BATCH]
+    Thread 0 in process 10 [BATCH]
     Transitioned from BLOCKED to READY
 
-At time 2931:
+At time 2878:
     PROCESS_DISPATCH_COMPLETED
-    Thread 0 in process 613 [NORMAL]
+    Thread 0 in process 1 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 2945:
+At time 2890:
     CPU_BURST_COMPLETED
-    Thread 0 in process 613 [NORMAL]
+    Thread 0 in process 1 [NORMAL]
     Transitioned from RUNNING to BLOCKED
 
-At time 2945:
+At time 2890:
     DISPATCHER_INVOKED
-    Thread 0 in process 341 [INTERACTIVE]
+    Thread 0 in process 7 [NORMAL]
     Selected from 7 threads. Will run to completion of burst.
 
-At time 2966:
+At time 2919:
     IO_BURST_COMPLETED
-    Thread 0 in process 613 [NORMAL]
+    Thread 0 in process 1 [NORMAL]
     Transitioned from BLOCKED to READY
 
-At time 2993:
+At time 2938:
     PROCESS_DISPATCH_COMPLETED
-    Thread 0 in process 341 [INTERACTIVE]
+    Thread 0 in process 7 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 3023:
+At time 2941:
     CPU_BURST_COMPLETED
-    Thread 0 in process 341 [INTERACTIVE]
+    Thread 0 in process 7 [NORMAL]
     Transitioned from RUNNING to BLOCKED
 
-At time 3023:
+At time 2941:
     DISPATCHER_INVOKED
-    Thread 3 in process 613 [NORMAL]
+    Thread 0 in process 4 [NORMAL]
     Selected from 7 threads. Will run to completion of burst.
 
-At time 3029:
+At time 2965:
     IO_BURST_COMPLETED
-    Thread 0 in process 341 [INTERACTIVE]
+    Thread 0 in process 7 [NORMAL]
     Transitioned from BLOCKED to READY
 
-At time 3071:
+At time 2989:
     PROCESS_DISPATCH_COMPLETED
-    Thread 3 in process 613 [NORMAL]
+    Thread 0 in process 4 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 3090:
+At time 2995:
     CPU_BURST_COMPLETED
-    Thread 3 in process 613 [NORMAL]
+    Thread 0 in process 4 [NORMAL]
     Transitioned from RUNNING to BLOCKED
 
-At time 3090:
+At time 2995:
     DISPATCHER_INVOKED
-    Thread 0 in process 404 [BATCH]
+    Thread 0 in process 11 [BATCH]
     Selected from 7 threads. Will run to completion of burst.
 
-At time 3092:
+At time 2996:
     IO_BURST_COMPLETED
-    Thread 3 in process 613 [NORMAL]
+    Thread 0 in process 4 [NORMAL]
     Transitioned from BLOCKED to READY
 
-At time 3138:
+At time 3043:
     PROCESS_DISPATCH_COMPLETED
-    Thread 0 in process 404 [BATCH]
+    Thread 0 in process 11 [BATCH]
     Transitioned from READY to RUNNING
 
-At time 3146:
+At time 3057:
     CPU_BURST_COMPLETED
-    Thread 0 in process 404 [BATCH]
+    Thread 0 in process 11 [BATCH]
     Transitioned from RUNNING to BLOCKED
 
-At time 3146:
+At time 3057:
     DISPATCHER_INVOKED
-    Thread 1 in process 395 [NORMAL]
+    Thread 0 in process 6 [NORMAL]
     Selected from 7 threads. Will run to completion of burst.
 
-At time 3153:
+At time 3060:
     IO_BURST_COMPLETED
-    Thread 0 in process 404 [BATCH]
+    Thread 0 in process 11 [BATCH]
     Transitioned from BLOCKED to READY
 
-At time 3194:
+At time 3105:
     PROCESS_DISPATCH_COMPLETED
-    Thread 1 in process 395 [NORMAL]
+    Thread 0 in process 6 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 3195:
+At time 3119:
     CPU_BURST_COMPLETED
-    Thread 1 in process 395 [NORMAL]
+    Thread 0 in process 6 [NORMAL]
     Transitioned from RUNNING to BLOCKED
 
-At time 3195:
+At time 3119:
     DISPATCHER_INVOKED
-    Thread 1 in process 613 [NORMAL]
+    Thread 0 in process 5 [INTERACTIVE]
     Selected from 7 threads. Will run to completion of burst.
 
-At time 3201:
+At time 3140:
     IO_BURST_COMPLETED
-    Thread 1 in process 395 [NORMAL]
+    Thread 0 in process 6 [NORMAL]
     Transitioned from BLOCKED to READY
 
-At time 3243:
+At time 3167:
     PROCESS_DISPATCH_COMPLETED
-    Thread 1 in process 613 [NORMAL]
+    Thread 0 in process 5 [INTERACTIVE]
     Transitioned from READY to RUNNING
 
-At time 3269:
+At time 3197:
     CPU_BURST_COMPLETED
-    Thread 1 in process 613 [NORMAL]
+    Thread 0 in process 5 [INTERACTIVE]
     Transitioned from RUNNING to BLOCKED
 
-At time 3269:
+At time 3197:
     DISPATCHER_INVOKED
-    Thread 0 in process 203 [NORMAL]
+    Thread 0 in process 9 [NORMAL]
     Selected from 7 threads. Will run to completion of burst.
 
-At time 3297:
+At time 3203:
     IO_BURST_COMPLETED
-    Thread 1 in process 613 [NORMAL]
+    Thread 0 in process 5 [INTERACTIVE]
     Transitioned from BLOCKED to READY
 
-At time 3317:
+At time 3245:
     PROCESS_DISPATCH_COMPLETED
-    Thread 0 in process 203 [NORMAL]
+    Thread 0 in process 9 [NORMAL]
     Transitioned from READY to RUNNING
+
+At time 3264:
+    CPU_BURST_COMPLETED
+    Thread 0 in process 9 [NORMAL]
+    Transitioned from RUNNING to BLOCKED
+
+At time 3264:
+    DISPATCHER_INVOKED
+    Thread 0 in process 10 [BATCH]
+    Selected from 7 threads. Will run to completion of burst.
+
+At time 3266:
+    IO_BURST_COMPLETED
+    Thread 0 in process 9 [NORMAL]
+    Transitioned from BLOCKED to READY
+
+At time 3312:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 10 [BATCH]
+    Transitioned from READY to RUNNING
+
+At time 3320:
+    CPU_BURST_COMPLETED
+    Thread 0 in process 10 [BATCH]
+    Transitioned from RUNNING to BLOCKED
+
+At time 3320:
+    DISPATCHER_INVOKED
+    Thread 0 in process 1 [NORMAL]
+    Selected from 7 threads. Will run to completion of burst.
 
 At time 3327:
+    IO_BURST_COMPLETED
+    Thread 0 in process 10 [BATCH]
+    Transitioned from BLOCKED to READY
+
+At time 3368:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 1 [NORMAL]
+    Transitioned from READY to RUNNING
+
+At time 3369:
     CPU_BURST_COMPLETED
-    Thread 0 in process 203 [NORMAL]
+    Thread 0 in process 1 [NORMAL]
     Transitioned from RUNNING to BLOCKED
 
-At time 3327:
+At time 3369:
     DISPATCHER_INVOKED
-    Thread 1 in process 404 [BATCH]
+    Thread 0 in process 7 [NORMAL]
     Selected from 7 threads. Will run to completion of burst.
-
-At time 3333:
-    IO_BURST_COMPLETED
-    Thread 0 in process 203 [NORMAL]
-    Transitioned from BLOCKED to READY
 
 At time 3375:
+    IO_BURST_COMPLETED
+    Thread 0 in process 1 [NORMAL]
+    Transitioned from BLOCKED to READY
+
+At time 3417:
     PROCESS_DISPATCH_COMPLETED
-    Thread 1 in process 404 [BATCH]
+    Thread 0 in process 7 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 3389:
-    THREAD_COMPLETED
-    Thread 1 in process 404 [BATCH]
-    Transitioned from RUNNING to EXIT
+At time 3443:
+    CPU_BURST_COMPLETED
+    Thread 0 in process 7 [NORMAL]
+    Transitioned from RUNNING to BLOCKED
 
-At time 3389:
+At time 3443:
     DISPATCHER_INVOKED
-    Thread 0 in process 613 [NORMAL]
+    Thread 0 in process 4 [NORMAL]
     Selected from 7 threads. Will run to completion of burst.
 
-At time 3437:
-    PROCESS_DISPATCH_COMPLETED
-    Thread 0 in process 613 [NORMAL]
-    Transitioned from READY to RUNNING
-
-At time 3443:
-    THREAD_COMPLETED
-    Thread 0 in process 613 [NORMAL]
-    Transitioned from RUNNING to EXIT
-
-At time 3443:
-    DISPATCHER_INVOKED
-    Thread 0 in process 341 [INTERACTIVE]
-    Selected from 6 threads. Will run to completion of burst.
+At time 3471:
+    IO_BURST_COMPLETED
+    Thread 0 in process 7 [NORMAL]
+    Transitioned from BLOCKED to READY
 
 At time 3491:
     PROCESS_DISPATCH_COMPLETED
-    Thread 0 in process 341 [INTERACTIVE]
+    Thread 0 in process 4 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 3494:
+At time 3501:
     CPU_BURST_COMPLETED
-    Thread 0 in process 341 [INTERACTIVE]
+    Thread 0 in process 4 [NORMAL]
     Transitioned from RUNNING to BLOCKED
 
-At time 3494:
+At time 3501:
     DISPATCHER_INVOKED
-    Thread 3 in process 613 [NORMAL]
-    Selected from 5 threads. Will run to completion of burst.
+    Thread 0 in process 11 [BATCH]
+    Selected from 7 threads. Will run to completion of burst.
 
-At time 3509:
+At time 3507:
     IO_BURST_COMPLETED
-    Thread 0 in process 341 [INTERACTIVE]
+    Thread 0 in process 4 [NORMAL]
     Transitioned from BLOCKED to READY
 
-At time 3542:
+At time 3549:
     PROCESS_DISPATCH_COMPLETED
-    Thread 3 in process 613 [NORMAL]
+    Thread 0 in process 11 [BATCH]
     Transitioned from READY to RUNNING
 
 At time 3563:
     THREAD_COMPLETED
-    Thread 3 in process 613 [NORMAL]
+    Thread 0 in process 11 [BATCH]
     Transitioned from RUNNING to EXIT
 
 At time 3563:
     DISPATCHER_INVOKED
-    Thread 0 in process 404 [BATCH]
-    Selected from 5 threads. Will run to completion of burst.
+    Thread 0 in process 6 [NORMAL]
+    Selected from 7 threads. Will run to completion of burst.
 
 At time 3611:
     PROCESS_DISPATCH_COMPLETED
-    Thread 0 in process 404 [BATCH]
+    Thread 0 in process 6 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 3639:
-    CPU_BURST_COMPLETED
-    Thread 0 in process 404 [BATCH]
-    Transitioned from RUNNING to BLOCKED
-
-At time 3639:
-    DISPATCHER_INVOKED
-    Thread 1 in process 395 [NORMAL]
-    Selected from 4 threads. Will run to completion of burst.
-
-At time 3663:
-    IO_BURST_COMPLETED
-    Thread 0 in process 404 [BATCH]
-    Transitioned from BLOCKED to READY
-
-At time 3687:
-    PROCESS_DISPATCH_COMPLETED
-    Thread 1 in process 395 [NORMAL]
-    Transitioned from READY to RUNNING
-
-At time 3717:
-    CPU_BURST_COMPLETED
-    Thread 1 in process 395 [NORMAL]
-    Transitioned from RUNNING to BLOCKED
-
-At time 3717:
-    DISPATCHER_INVOKED
-    Thread 1 in process 613 [NORMAL]
-    Selected from 4 threads. Will run to completion of burst.
-
-At time 3721:
-    IO_BURST_COMPLETED
-    Thread 1 in process 395 [NORMAL]
-    Transitioned from BLOCKED to READY
-
-At time 3765:
-    PROCESS_DISPATCH_COMPLETED
-    Thread 1 in process 613 [NORMAL]
-    Transitioned from READY to RUNNING
-
-At time 3787:
+At time 3617:
     THREAD_COMPLETED
-    Thread 1 in process 613 [NORMAL]
+    Thread 0 in process 6 [NORMAL]
     Transitioned from RUNNING to EXIT
 
-At time 3787:
+At time 3617:
     DISPATCHER_INVOKED
-    Thread 0 in process 203 [NORMAL]
-    Selected from 4 threads. Will run to completion of burst.
+    Thread 0 in process 5 [INTERACTIVE]
+    Selected from 6 threads. Will run to completion of burst.
 
-At time 3835:
+At time 3665:
     PROCESS_DISPATCH_COMPLETED
-    Thread 0 in process 203 [NORMAL]
+    Thread 0 in process 5 [INTERACTIVE]
     Transitioned from READY to RUNNING
 
-At time 3862:
+At time 3668:
     CPU_BURST_COMPLETED
-    Thread 0 in process 203 [NORMAL]
+    Thread 0 in process 5 [INTERACTIVE]
     Transitioned from RUNNING to BLOCKED
 
-At time 3862:
+At time 3668:
     DISPATCHER_INVOKED
-    Thread 0 in process 341 [INTERACTIVE]
+    Thread 0 in process 9 [NORMAL]
+    Selected from 5 threads. Will run to completion of burst.
+
+At time 3683:
+    IO_BURST_COMPLETED
+    Thread 0 in process 5 [INTERACTIVE]
+    Transitioned from BLOCKED to READY
+
+At time 3716:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 9 [NORMAL]
+    Transitioned from READY to RUNNING
+
+At time 3737:
+    THREAD_COMPLETED
+    Thread 0 in process 9 [NORMAL]
+    Transitioned from RUNNING to EXIT
+
+At time 3737:
+    DISPATCHER_INVOKED
+    Thread 0 in process 10 [BATCH]
+    Selected from 5 threads. Will run to completion of burst.
+
+At time 3785:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 10 [BATCH]
+    Transitioned from READY to RUNNING
+
+At time 3813:
+    CPU_BURST_COMPLETED
+    Thread 0 in process 10 [BATCH]
+    Transitioned from RUNNING to BLOCKED
+
+At time 3813:
+    DISPATCHER_INVOKED
+    Thread 0 in process 1 [NORMAL]
+    Selected from 4 threads. Will run to completion of burst.
+
+At time 3837:
+    IO_BURST_COMPLETED
+    Thread 0 in process 10 [BATCH]
+    Transitioned from BLOCKED to READY
+
+At time 3861:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 1 [NORMAL]
+    Transitioned from READY to RUNNING
+
+At time 3891:
+    CPU_BURST_COMPLETED
+    Thread 0 in process 1 [NORMAL]
+    Transitioned from RUNNING to BLOCKED
+
+At time 3891:
+    DISPATCHER_INVOKED
+    Thread 0 in process 7 [NORMAL]
+    Selected from 4 threads. Will run to completion of burst.
+
+At time 3895:
+    IO_BURST_COMPLETED
+    Thread 0 in process 1 [NORMAL]
+    Transitioned from BLOCKED to READY
+
+At time 3939:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 7 [NORMAL]
+    Transitioned from READY to RUNNING
+
+At time 3961:
+    THREAD_COMPLETED
+    Thread 0 in process 7 [NORMAL]
+    Transitioned from RUNNING to EXIT
+
+At time 3961:
+    DISPATCHER_INVOKED
+    Thread 0 in process 4 [NORMAL]
+    Selected from 4 threads. Will run to completion of burst.
+
+At time 4009:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 4 [NORMAL]
+    Transitioned from READY to RUNNING
+
+At time 4036:
+    CPU_BURST_COMPLETED
+    Thread 0 in process 4 [NORMAL]
+    Transitioned from RUNNING to BLOCKED
+
+At time 4036:
+    DISPATCHER_INVOKED
+    Thread 0 in process 5 [INTERACTIVE]
     Selected from 3 threads. Will run to completion of burst.
 
-At time 3881:
+At time 4055:
     IO_BURST_COMPLETED
-    Thread 0 in process 203 [NORMAL]
+    Thread 0 in process 4 [NORMAL]
     Transitioned from BLOCKED to READY
 
-At time 3910:
+At time 4084:
     PROCESS_DISPATCH_COMPLETED
-    Thread 0 in process 341 [INTERACTIVE]
+    Thread 0 in process 5 [INTERACTIVE]
     Transitioned from READY to RUNNING
 
-At time 3935:
+At time 4109:
     THREAD_COMPLETED
-    Thread 0 in process 341 [INTERACTIVE]
+    Thread 0 in process 5 [INTERACTIVE]
     Transitioned from RUNNING to EXIT
 
-At time 3935:
+At time 4109:
     DISPATCHER_INVOKED
-    Thread 0 in process 404 [BATCH]
+    Thread 0 in process 10 [BATCH]
     Selected from 3 threads. Will run to completion of burst.
 
-At time 3983:
+At time 4157:
     PROCESS_DISPATCH_COMPLETED
-    Thread 0 in process 404 [BATCH]
+    Thread 0 in process 10 [BATCH]
     Transitioned from READY to RUNNING
 
-At time 4000:
+At time 4174:
     CPU_BURST_COMPLETED
-    Thread 0 in process 404 [BATCH]
+    Thread 0 in process 10 [BATCH]
     Transitioned from RUNNING to BLOCKED
 
-At time 4000:
+At time 4174:
     DISPATCHER_INVOKED
-    Thread 1 in process 395 [NORMAL]
+    Thread 0 in process 1 [NORMAL]
     Selected from 2 threads. Will run to completion of burst.
 
-At time 4010:
+At time 4184:
     IO_BURST_COMPLETED
-    Thread 0 in process 404 [BATCH]
+    Thread 0 in process 10 [BATCH]
     Transitioned from BLOCKED to READY
 
-At time 4048:
+At time 4222:
     PROCESS_DISPATCH_COMPLETED
-    Thread 1 in process 395 [NORMAL]
+    Thread 0 in process 1 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 4069:
+At time 4243:
     THREAD_COMPLETED
-    Thread 1 in process 395 [NORMAL]
+    Thread 0 in process 1 [NORMAL]
     Transitioned from RUNNING to EXIT
 
-At time 4069:
+At time 4243:
     DISPATCHER_INVOKED
-    Thread 0 in process 203 [NORMAL]
+    Thread 0 in process 4 [NORMAL]
     Selected from 2 threads. Will run to completion of burst.
 
-At time 4117:
+At time 4291:
     PROCESS_DISPATCH_COMPLETED
-    Thread 0 in process 203 [NORMAL]
+    Thread 0 in process 4 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 4138:
+At time 4312:
     THREAD_COMPLETED
-    Thread 0 in process 203 [NORMAL]
+    Thread 0 in process 4 [NORMAL]
     Transitioned from RUNNING to EXIT
 
-At time 4138:
+At time 4312:
     DISPATCHER_INVOKED
-    Thread 0 in process 404 [BATCH]
+    Thread 0 in process 10 [BATCH]
     Selected from 1 threads. Will run to completion of burst.
 
-At time 4186:
+At time 4360:
     PROCESS_DISPATCH_COMPLETED
-    Thread 0 in process 404 [BATCH]
+    Thread 0 in process 10 [BATCH]
     Transitioned from READY to RUNNING
 
-At time 4216:
+At time 4390:
     CPU_BURST_COMPLETED
-    Thread 0 in process 404 [BATCH]
+    Thread 0 in process 10 [BATCH]
     Transitioned from RUNNING to BLOCKED
 
-At time 4241:
+At time 4415:
     IO_BURST_COMPLETED
-    Thread 0 in process 404 [BATCH]
+    Thread 0 in process 10 [BATCH]
     Transitioned from BLOCKED to READY
 
-At time 4241:
+At time 4415:
     DISPATCHER_INVOKED
-    Thread 0 in process 404 [BATCH]
+    Thread 0 in process 10 [BATCH]
     Selected from 1 threads. Will run to completion of burst.
 
-At time 4260:
+At time 4434:
     THREAD_DISPATCH_COMPLETED
-    Thread 0 in process 404 [BATCH]
+    Thread 0 in process 10 [BATCH]
     Transitioned from READY to RUNNING
 
-At time 4261:
+At time 4435:
     THREAD_COMPLETED
-    Thread 0 in process 404 [BATCH]
+    Thread 0 in process 10 [BATCH]
     Transitioned from RUNNING to EXIT
 
 SIMULATION COMPLETED!
+
