@@ -189,7 +189,7 @@ endobj
 endobj
 25 0 obj
 <<
-/Author () /CreationDate (D:20210324104252+07'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20210324104252+07'00') /Producer (ReportLab PDF Library - www.reportlab.com) 
+/Author () /CreationDate (D:20210324122352+07'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20210324122352+07'00') /Producer (ReportLab PDF Library - www.reportlab.com) 
   /Subject (\(unspecified\)) /Title () /Trapped /False
 >>
 endobj
@@ -222,29 +222,29 @@ endobj
 endobj
 31 0 obj
 <<
-/Count 2 /Dest [ 7 0 R /XYZ 62.69291 597.0236 0 ] /First 32 0 R /Last 33 0 R /Next 34 0 R /Parent 27 0 R 
+/Count 2 /Dest [ 7 0 R /XYZ 62.69291 579.0236 0 ] /First 32 0 R /Last 33 0 R /Next 34 0 R /Parent 27 0 R 
   /Prev 30 0 R /Title (2 Scheduling Algorithms)
 >>
 endobj
 32 0 obj
 <<
-/Dest [ 7 0 R /XYZ 62.69291 501.0236 0 ] /Next 33 0 R /Parent 31 0 R /Title (2.1 First Come, First Served \(FCFS\))
+/Dest [ 7 0 R /XYZ 62.69291 483.0236 0 ] /Next 33 0 R /Parent 31 0 R /Title (2.1 First Come, First Served \(FCFS\))
 >>
 endobj
 33 0 obj
 <<
-/Dest [ 7 0 R /XYZ 62.69291 432.0236 0 ] /Parent 31 0 R /Prev 32 0 R /Title (2.2 Round Robin \(RR\))
+/Dest [ 7 0 R /XYZ 62.69291 414.0236 0 ] /Parent 31 0 R /Prev 32 0 R /Title (2.2 Round Robin \(RR\))
 >>
 endobj
 34 0 obj
 <<
-/Count 1 /Dest [ 7 0 R /XYZ 62.69291 297.0236 0 ] /First 35 0 R /Last 35 0 R /Next 36 0 R /Parent 27 0 R 
+/Count 1 /Dest [ 7 0 R /XYZ 62.69291 279.0236 0 ] /First 35 0 R /Last 35 0 R /Next 36 0 R /Parent 27 0 R 
   /Prev 31 0 R /Title (3 Next-Event Simulation)
 >>
 endobj
 35 0 obj
 <<
-/Dest [ 10 0 R /XYZ 62.69291 280.5549 0 ] /Parent 34 0 R /Title (3.1 Event Queue)
+/Dest [ 10 0 R /XYZ 62.69291 262.5549 0 ] /Parent 34 0 R /Title (3.1 Event Queue)
 >>
 endobj
 36 0 obj
@@ -353,7 +353,7 @@ endobj
 endobj
 56 0 obj
 <<
-/Length 9183
+/Length 9082
 >>
 stream
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
@@ -568,21 +568,46 @@ q
 1 0 0 1 62.69291 393.0236 cm
 Q
 q
-1 0 0 1 62.69291 369.0236 cm
+1 0 0 1 62.69291 363.0236 cm
 q
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
-1 0 0 1 6 9 cm
+1 0 0 1 6 15 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 5.66 0 Td (2.) Tj T* -5.66 0 Td ET
 Q
 Q
 q
+1 0 0 1 23 15 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (Processes consist of ) Tj /F4 10 Tf (exactly one) Tj /F1 10 Tf ( kernel-level thread) Tj T* ET
+Q
+Q
+q
+1 0 0 1 23 9 cm
+Q
+q
+1 0 0 1 23 9 cm
+Q
+q
 1 0 0 1 23 -3 cm
 q
-BT 1 0 0 1 0 14 Tm 1.27528 Tw 12 TL /F1 10 Tf 0 0 0 rg (Processes consist of ) Tj /F4 10 Tf (exactly one) Tj /F1 10 Tf ( KLT \(i.e., the concept of a thread can be ignored since we only) Tj T* 0 Tw (support single-threaded processes\)) Tj T* ET
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (I.e., each process is composed of a single thread of execution) Tj T* ET
 Q
 Q
 q
@@ -590,10 +615,17 @@ Q
 Q
 Q
 q
-1 0 0 1 62.69291 363.0236 cm
+1 0 0 1 23 -3 cm
 Q
 q
-1 0 0 1 62.69291 261.0236 cm
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 357.0236 cm
+Q
+q
+1 0 0 1 62.69291 255.0236 cm
 q
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
@@ -752,10 +784,10 @@ Q
 Q
 Q
 q
-1 0 0 1 62.69291 255.0236 cm
+1 0 0 1 62.69291 249.0236 cm
 Q
 q
-1 0 0 1 62.69291 219.0236 cm
+1 0 0 1 62.69291 213.0236 cm
 q
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
@@ -826,16 +858,16 @@ Q
 Q
 Q
 q
-1 0 0 1 62.69291 219.0236 cm
-Q
-q
 1 0 0 1 62.69291 213.0236 cm
 Q
 q
-1 0 0 1 62.69291 213.0236 cm
+1 0 0 1 62.69291 207.0236 cm
 Q
 q
-1 0 0 1 62.69291 189.0236 cm
+1 0 0 1 62.69291 207.0236 cm
+Q
+q
+1 0 0 1 62.69291 183.0236 cm
 q
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
@@ -858,10 +890,10 @@ Q
 Q
 Q
 q
-1 0 0 1 62.69291 183.0236 cm
+1 0 0 1 62.69291 177.0236 cm
 Q
 q
-1 0 0 1 62.69291 105.0236 cm
+1 0 0 1 62.69291 99.02362 cm
 q
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
@@ -958,52 +990,42 @@ Q
 Q
 Q
 q
-1 0 0 1 62.69291 99.02362 cm
-Q
-q
-1 0 0 1 62.69291 81.02362 cm
-q
-0 0 0 rg
-BT /F1 10 Tf 12 TL ET
-q
-1 0 0 1 6 3 cm
-q
-0 0 0 rg
-BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 5.66 0 Td (8.) Tj T* -5.66 0 Td ET
-Q
-Q
-q
-1 0 0 1 23 3 cm
-q
-0 0 0 rg
-BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Processes have an associated priority, specified as part of the file.) Tj T* ET
-Q
-Q
-q
-1 0 0 1 23 -3 cm
-Q
-q
-1 0 0 1 23 -3 cm
-Q
-q
-Q
-Q
+1 0 0 1 62.69291 93.02362 cm
 Q
  
 endstream
 endobj
 57 0 obj
 <<
-/Length 8189
+/Length 8094
 >>
 stream
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
 q
-1 0 0 1 62.69291 699.0236 cm
+1 0 0 1 62.69291 681.0236 cm
 q
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
-BT 1 0 0 1 6 53 Tm  T* ET
+q
+1 0 0 1 6 69 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 5.66 0 Td (8.) Tj T* -5.66 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 69 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Processes have an associated priority, specified as part of the file.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 23 63 cm
+Q
+q
+1 0 0 1 23 63 cm
+Q
 q
 1 0 0 1 23 51 cm
 q
@@ -1113,10 +1135,10 @@ Q
 Q
 Q
 q
-1 0 0 1 62.69291 693.0236 cm
+1 0 0 1 62.69291 675.0236 cm
 Q
 q
-1 0 0 1 62.69291 681.0236 cm
+1 0 0 1 62.69291 663.0236 cm
 q
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
@@ -1139,10 +1161,10 @@ Q
 Q
 Q
 q
-1 0 0 1 62.69291 675.0236 cm
+1 0 0 1 62.69291 657.0236 cm
 Q
 q
-1 0 0 1 62.69291 639.0236 cm
+1 0 0 1 62.69291 621.0236 cm
 q
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
@@ -1165,10 +1187,10 @@ Q
 Q
 Q
 q
-1 0 0 1 62.69291 633.0236 cm
+1 0 0 1 62.69291 615.0236 cm
 Q
 q
-1 0 0 1 62.69291 609.0236 cm
+1 0 0 1 62.69291 591.0236 cm
 q
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
@@ -1191,29 +1213,29 @@ Q
 Q
 Q
 q
-1 0 0 1 62.69291 609.0236 cm
+1 0 0 1 62.69291 591.0236 cm
 Q
 q
-1 0 0 1 62.69291 579.0236 cm
+1 0 0 1 62.69291 561.0236 cm
 q
 BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (2 Scheduling Algorithms) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 549.0236 cm
+1 0 0 1 62.69291 531.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .256412 Tw (You scheduling simulator must support two different scheduling algorithms. These are as follows, with the) Tj T* 0 Tw (corresponding flag value indicated in parenthesis:) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 543.0236 cm
+1 0 0 1 62.69291 525.0236 cm
 Q
 q
-1 0 0 1 62.69291 543.0236 cm
+1 0 0 1 62.69291 525.0236 cm
 Q
 q
-1 0 0 1 62.69291 531.0236 cm
+1 0 0 1 62.69291 513.0236 cm
 q
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
@@ -1236,10 +1258,10 @@ Q
 Q
 Q
 q
-1 0 0 1 62.69291 525.0236 cm
+1 0 0 1 62.69291 507.0236 cm
 Q
 q
-1 0 0 1 62.69291 513.0236 cm
+1 0 0 1 62.69291 495.0236 cm
 q
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
@@ -1262,69 +1284,69 @@ Q
 Q
 Q
 q
-1 0 0 1 62.69291 513.0236 cm
+1 0 0 1 62.69291 495.0236 cm
 Q
 q
-1 0 0 1 62.69291 486.0236 cm
+1 0 0 1 62.69291 468.0236 cm
 q
 BT 1 0 0 1 0 2.5 Tm 15 TL /F3 12.5 Tf 0 0 0 rg (2.1 First Come, First Served \(FCFS\)) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 444.0236 cm
+1 0 0 1 62.69291 426.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL .849985 Tw (First come, first served should be implemented as described in your textbook. That is to say, processes) Tj T* 0 Tw .749989 Tw (are scheduled in the order that they are added to the queue, and they run in the CPU until their burst is) Tj T* 0 Tw (complete. There is not preemption in this algorithm, and all the process priorities are treated as equal.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 417.0236 cm
+1 0 0 1 62.69291 399.0236 cm
 q
 BT 1 0 0 1 0 2.5 Tm 15 TL /F3 12.5 Tf 0 0 0 rg (2.2 Round Robin \(RR\)) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 339.0236 cm
+1 0 0 1 62.69291 321.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 62 Tm /F1 10 Tf 12 TL 2.868651 Tw (Round robin should be implemented as described in your textbook. That is to say, processes are) Tj T* 0 Tw 1.958735 Tw (scheduled in the order that they are added to the queue. However, unlike FCFS, processes may be) Tj T* 0 Tw -0.046855 Tw (preempted if their CPU burst length is greater than the round robin time slice. In the event of a preemption,) Tj T* 0 Tw .094488 Tw (the process is removed from the CPU and placed at the back of the ready queue. The CPU burst length is) Tj T* 0 Tw .649988 Tw (updated to reflect the time that it was able to spend on the CPU. All the process priorities are treated as) Tj T* 0 Tw (equal.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 309.0236 cm
+1 0 0 1 62.69291 291.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .832093 Tw (The default time slice for the algorithm shall be 3, however, the user may input via command line flag a) Tj T* 0 Tw (custom time slice.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 279.0236 cm
+1 0 0 1 62.69291 261.0236 cm
 q
 BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (3 Next-Event Simulation) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 237.0236 cm
+1 0 0 1 62.69291 219.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL -0.050602 Tw (Your simulation structure must follow the next-event pattern. At any given time, the simulation is in a single) Tj T* 0 Tw .797045 Tw (state. The simulation state can only change at event times, where an event is defined as an occurrence) Tj T* 0 Tw (that may change the state of the system.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 183.0236 cm
+1 0 0 1 62.69291 165.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 38 Tm /F1 10 Tf 12 TL .795868 Tw (Since the simulation state only changes at an event, the \224clock\224 can be advanced to the next scheduled) Tj T* 0 Tw -0.100012 Tw (event\226regardless of whether the next event is 1 or 1,000,000 time units in the future. This is why it is called) Tj T* 0 Tw 1.464651 Tw (a \224next-event\224 simulation model. In our case, time is measured in simple \224units\224. Your simulation must) Tj T* 0 Tw (support the following event types:) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 177.0236 cm
+1 0 0 1 62.69291 159.0236 cm
 Q
 q
-1 0 0 1 62.69291 177.0236 cm
+1 0 0 1 62.69291 159.0236 cm
 Q
 q
-1 0 0 1 62.69291 165.0236 cm
+1 0 0 1 62.69291 147.0236 cm
 q
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
@@ -1346,10 +1368,10 @@ Q
 Q
 Q
 q
-1 0 0 1 62.69291 159.0236 cm
+1 0 0 1 62.69291 141.0236 cm
 Q
 q
-1 0 0 1 62.69291 135.0236 cm
+1 0 0 1 62.69291 117.0236 cm
 q
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
@@ -1371,10 +1393,10 @@ Q
 Q
 Q
 q
-1 0 0 1 62.69291 129.0236 cm
+1 0 0 1 62.69291 111.0236 cm
 Q
 q
-1 0 0 1 62.69291 105.0236 cm
+1 0 0 1 62.69291 87.02362 cm
 q
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
@@ -1396,31 +1418,6 @@ Q
 Q
 Q
 q
-1 0 0 1 62.69291 99.02362 cm
-Q
-q
-1 0 0 1 62.69291 87.02362 cm
-q
-0 0 0 rg
-BT /F1 10 Tf 12 TL ET
-q
-1 0 0 1 6 -3 cm
-q
-0 0 0 rg
-BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
-Q
-Q
-q
-1 0 0 1 23 -3 cm
-q
-BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 0 rg (IO BURST COMPLETED) Tj /F1 10 Tf (: A process' I/O request has completed.) Tj T* ET
-Q
-Q
-q
-Q
-Q
-Q
-q
 1 0 0 1 62.69291 81.02362 cm
 Q
  
@@ -1428,7 +1425,7 @@ endstream
 endobj
 58 0 obj
 <<
-/Length 4717
+/Length 5079
 >>
 stream
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
@@ -1447,7 +1444,7 @@ Q
 q
 1 0 0 1 23 -3 cm
 q
-BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 0 rg (PROCESS COMPLETED) Tj /F1 10 Tf (: A process has finished the last of its CPU bursts.) Tj T* ET
+BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 0 rg (IO BURST COMPLETED) Tj /F1 10 Tf (: A process' I/O request has completed.) Tj T* ET
 Q
 Q
 q
@@ -1472,7 +1469,7 @@ Q
 q
 1 0 0 1 23 -3 cm
 q
-BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 0 rg (PROCESS PREEMPTED) Tj /F1 10 Tf (: A process has been preempted during execution of one of its CPU bursts.) Tj T* ET
+BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 0 rg (PROCESS COMPLETED) Tj /F1 10 Tf (: A process has finished the last of its CPU bursts.) Tj T* ET
 Q
 Q
 q
@@ -1483,7 +1480,32 @@ q
 1 0 0 1 62.69291 729.0236 cm
 Q
 q
-1 0 0 1 62.69291 705.0236 cm
+1 0 0 1 62.69291 717.0236 cm
+q
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 0 rg (PROCESS PREEMPTED) Tj /F1 10 Tf (: A process has been preempted during execution of one of its CPU bursts.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 711.0236 cm
+Q
+q
+1 0 0 1 62.69291 687.0236 cm
 q
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
@@ -1505,20 +1527,20 @@ Q
 Q
 Q
 q
-1 0 0 1 62.69291 705.0236 cm
+1 0 0 1 62.69291 687.0236 cm
 Q
 q
-1 0 0 1 62.69291 639.0236 cm
+1 0 0 1 62.69291 621.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 50 Tm /F1 10 Tf 12 TL .53436 Tw (The main loop of the simulation should consist of processing the next event, perhaps adding more future) Tj T* 0 Tw .36104 Tw (events in the queue as a result, advancing the clock \(by taking the next scheduled event from the front of) Tj T* 0 Tw 1.215542 Tw (the event queue\), and so on until all processes have terminated. See Figure 1 for an illustration of the) Tj T* 0 Tw 1.563555 Tw (event simulation. Rounded rectangles indicate functions that you will need to implement to handle the) Tj T* 0 Tw (associated event types.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 633.0236 cm
+1 0 0 1 62.69291 615.0236 cm
 Q
 q
-1 0 0 1 62.69291 292.5549 cm
+1 0 0 1 62.69291 274.5549 cm
 q
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
@@ -1541,36 +1563,36 @@ Q
 Q
 Q
 q
-1 0 0 1 62.69291 292.5549 cm
+1 0 0 1 62.69291 274.5549 cm
 Q
 q
-1 0 0 1 62.69291 265.5549 cm
+1 0 0 1 62.69291 247.5549 cm
 q
 BT 1 0 0 1 0 2.5 Tm 15 TL /F3 12.5 Tf 0 0 0 rg (3.1 Event Queue) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 223.5549 cm
+1 0 0 1 62.69291 205.5549 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL .075868 Tw (Events are scheduled via an event queue. The event queue is a priority queue that contains future events;) Tj T* 0 Tw .41332 Tw (the priority of each item in the queue corresponds to its scheduled time, where the event with the highest) Tj T* 0 Tw (\224priority\224 \(at the front of the queue\) is the one that will happen next.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 193.5549 cm
+1 0 0 1 62.69291 175.5549 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 1.151567 Tw (To determine the next event to handle, a priority queue is used to sort the events. For this project, the) Tj T* 0 Tw (event queue should sort based on these criteria:) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 187.5549 cm
+1 0 0 1 62.69291 169.5549 cm
 Q
 q
-1 0 0 1 62.69291 187.5549 cm
+1 0 0 1 62.69291 169.5549 cm
 Q
 q
-1 0 0 1 62.69291 175.5549 cm
+1 0 0 1 62.69291 157.5549 cm
 q
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
@@ -1593,10 +1615,10 @@ Q
 Q
 Q
 q
-1 0 0 1 62.69291 169.5549 cm
+1 0 0 1 62.69291 151.5549 cm
 Q
 q
-1 0 0 1 62.69291 121.5549 cm
+1 0 0 1 62.69291 103.5549 cm
 q
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
@@ -1619,7 +1641,7 @@ Q
 Q
 Q
 q
-1 0 0 1 62.69291 121.5549 cm
+1 0 0 1 62.69291 103.5549 cm
 Q
  
 endstream
@@ -3323,32 +3345,32 @@ xref
 0000068080 00000 n 
 0000068209 00000 n 
 0000068342 00000 n 
-0000077577 00000 n 
-0000085818 00000 n 
-0000090587 00000 n 
-0000098732 00000 n 
-0000107196 00000 n 
-0000110319 00000 n 
-0000115880 00000 n 
-0000119185 00000 n 
-0000124144 00000 n 
-0000126182 00000 n 
-0000128035 00000 n 
-0000128173 00000 n 
-0000128207 00000 n 
-0000128241 00000 n 
-0000128275 00000 n 
-0000128309 00000 n 
-0000128343 00000 n 
-0000128377 00000 n 
-0000128411 00000 n 
-0000128445 00000 n 
-0000128479 00000 n 
-0000128514 00000 n 
+0000077476 00000 n 
+0000085622 00000 n 
+0000090753 00000 n 
+0000098898 00000 n 
+0000107362 00000 n 
+0000110485 00000 n 
+0000116046 00000 n 
+0000119351 00000 n 
+0000124310 00000 n 
+0000126348 00000 n 
+0000128201 00000 n 
+0000128339 00000 n 
+0000128373 00000 n 
+0000128407 00000 n 
+0000128441 00000 n 
+0000128475 00000 n 
+0000128509 00000 n 
+0000128543 00000 n 
+0000128577 00000 n 
+0000128611 00000 n 
+0000128645 00000 n 
+0000128680 00000 n 
 trailer
 <<
 /ID 
-[<1385b11caf3f1f3709ee9e253f1ba890><1385b11caf3f1f3709ee9e253f1ba890>]
+[<489344f609e202a7744134c2d5bde711><489344f609e202a7744134c2d5bde711>]
 % ReportLab generated PDF document -- digest (http://www.reportlab.com)
 
 /Info 25 0 R
@@ -3356,5 +3378,5 @@ trailer
 /Size 79
 >>
 startxref
-128549
+128715
 %%EOF

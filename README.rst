@@ -25,7 +25,10 @@ This project must be implemented in C++, and it must execute correctly on Isenga
 The program will simulate process scheduling on a hypothetical computer system with the following attributes:
 
 1. There is a single CPU, so only one process can be running at a time.
-2. Processes consist of *exactly one* KLT (i.e., the concept of a thread can be ignored since we only support single-threaded processes)
+2. Processes consist of *exactly one* kernel-level thread 
+
+   - I.e., each process is composed of a single thread of execution
+
 3. Processes can exist in one of five states:
 
    - NEW

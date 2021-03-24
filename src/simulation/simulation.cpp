@@ -94,7 +94,7 @@ void Simulation::run()
 void Simulation::handle_process_arrived(const std::shared_ptr<Event> event)
 {
     // TODO: Handle this event properly
-    std::cout << "TODO: Handle thread arrived event properly\n\n";
+    std::cout << "TODO: Handle process arrived event properly\n\n";
 }
 
 void Simulation::handle_dispatch_completed(const std::shared_ptr<Event> event)
@@ -118,13 +118,13 @@ void Simulation::handle_io_burst_completed(const std::shared_ptr<Event> event)
 void Simulation::handle_process_completed(const std::shared_ptr<Event> event)
 {
     // TODO: Handle this event properly
-    std::cout << "TODO: Handle thread completed event properly\n\n";
+    std::cout << "TODO: Handle process completed event properly\n\n";
 }
 
 void Simulation::handle_process_preempted(const std::shared_ptr<Event> event)
 {
     // TODO: Handle this event properly
-    std::cout << "TODO: Handle thread preempted event properly\n\n";
+    std::cout << "TODO: Handle process preempted event properly\n\n";
 }
 
 void Simulation::handle_dispatcher_invoked(const std::shared_ptr<Event> event)
