@@ -1,7 +1,7 @@
 CSCI-442 - Fall'20: Project 4 - CPU Scheduling Simulator
 ========================================================
 
-:Assigned: March 31, 2021
+:Assigned: March 24, 2021
 :Due: April 20, 2021, at 11:59 PM
 
 Introduction
@@ -34,12 +34,17 @@ The program will simulate process scheduling on a hypothetical computer system w
    - BLOCKED
    - EXIT
 
-4. Dispatching processes requires a non-zero amount of OS overhead:
+4. Dispatching processes requires a non-zero amount of OS overhead
+
+        * I.e., the time a context switch takes is required to be taken into account
         
-   - A full process switch is required if the running process changes
-   
 6. Processes and dispatch overhead are specified via a file whose format is specified in the next section.
-7. Each process requires a sequence of CPU bursts of varying lengths as specified by an input file.
+7. Each process requires a sequence of CPU and IO bursts of varying lengths as specified by an input file.
+        
+        * These bursts can be thought of as a process requiring a known amount of CPU time, followed by an I/O request that takes a known amount of time to complete
+
+        * A process can have multiple CPU and I/O bursts as specified via the input file
+
 8. Processes have an associated priority, specified as part of the file.
 
    - 0: SYSTEM (highest priority)
@@ -63,7 +68,7 @@ You scheduling simulator must support two different scheduling algorithms. These
 First come, first served should be implemented as described in your textbook. That is to say, processes are scheduled in the order that they are added to the queue, and they run in the CPU until their burst is complete. There is not preemption in this algorithm, and all the process priorities are treated as equal.
 
 2.2 Round Robin (RR)
-~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~
 Round robin should be implemented as described in your textbook. That is to say, processes are scheduled in the order that they are added to the queue. However, unlike FCFS, processes may be preempted if their CPU burst length is greater than the round robin time slice. In the event of a preemption, the process is removed from the CPU and placed at the back of the ready queue. The CPU burst length is updated to reflect the time that it was able to spend on the CPU. All the process priorities are treated as equal.
 
 The default time slice for the algorithm shall be 3, however, the user may input via command line flag a
@@ -78,6 +83,7 @@ Since the simulation state only changes at an event, the ”clock” can be adva
 - **PROCESS ARRIVED**: A process has been created in the system. 
 - **PROCESS DISPATCH COMPLETED**: A process switch has completed, allowing a new process to start executing on the CPU. 
 - **CPU BURST COMPLETED**: A process has finished one of its CPU bursts and has initiated an I/O request.
+- **IO BURST COMPLETED**: A process' I/O request has completed.
 - **PROCESS COMPLETED**: A process has finished the last of its CPU bursts.
 - **PROCESS PREEMPTED**: A process has been preempted during execution of one of its CPU bursts.
 - **DISPATCHER INVOKED**: The OS dispatcher routine has been invoked to determine the next process to be run on the CPU
@@ -100,7 +106,14 @@ To determine the next event to handle, a priority queue is used to sort the even
 
 4 The Submission
 ----------------
-You are required to submit the project by 23:59 on the due date, however you may take advantage of your slip days to turn the submission in late. The project must be submitted using your GitHub repository, created from the GitHub classroom link that will be provided on Canvas.
+You are required to submit the project by 23:59 on the due date, however you may take advantage of your slip days to turn the submission in late.
+
+The project **must be submitted to Gradescope**. You will only have 3 submissions, and submission errors (e.g. compile error) *DO* count against that total. Thus it is **required** for you use our ``make_submission.sh`` script to create the ZIP file.
+
+
+.. warning::
+
+        Loss of any submissions due to failure to use the ``make_submission.sh`` script will **NOT** be given back.
 
 4.1 Submission Objective
 ~~~~~~~~~~~~~~~~~~~~~~~~
@@ -111,8 +124,8 @@ Implement the entire process simulation. Using starter code is optional as long 
 Please **MAKE SURE** you do all the following, prior to submission:
 
 1. Your code compiles on Isengard: To compile your code, the grader should be to cd into the root directory of your repository and simply type make using the provided Makefile.
-2. Your simulation should be able to be executed by typing ./cpu-sim in the root directory of your repository.
-3. You keep the Makefile, the test-my-work.sh, and submit-my-work files, as well as the src/, submission-details/, and tests/ folders from the starter code, in the root directory of your repository.
+2. Your simulation should be able to be executed by typing ``./cpu-sim`` in the root directory of your repository.
+3. You keep the ``Makefile``, the ``test-my-work.sh``, *and* ``make_submission.sh`` files, as well as the ``src/``, ``submission-details/``, and ``tests/`` folders from the starter code, in the root directory of your repository.
 4. Your program parses input flags correctly, and outputs the correct information in response. See Sections 8 and 9.
 5. Your program determines the file to parse from the command line.
 6. You have the full simulation logic implemented.
@@ -126,17 +139,29 @@ Please **MAKE SURE** you do all the following, prior to submission:
 Grading for this project is dependent on your program’s ability to produce the correct output given a
 simulation input file, so **it is vital that you follow all output formatting requirements**.
 
-- The tests/ folder in the starter code contains a number of input and output pairs that your simulation will be tested against. A large piece of your grade will be based on the successful execution of the script below. The scripts runs your simulation for every input file in the tests/input/ folder, and runs diff between the output of your simulation against the reference outputs under tests/output/ folder. If there is no difference (i.e., no output), your simulation ran as expected.
+- The ``tests/`` folder in the starter code contains a number of input and output pairs that your simulation will be tested against. A piece of your grade will be based on the successful execution of the script below. The scripts runs your simulation for every input file in the ``tests/input/`` folder, and runs ``diff`` between the output of your simulation against the reference outputs under ``tests/output/`` folder.
+
+        * If there is no difference (i.e., no output), your simulation ran as expected.
+
 - The remaining piece of your grade will be based on the input files we will generate during grading. This is to make sure that you haven’t hard-coded the outputs in your simulation.
+
 - You should expect your code to be evaluated based on how similar it is to the expected output by using a function such as diff. **Make sure that all debugging and other non-required print statements have been commented out before submitting your code.**
   
-        - Both stdout and stderr will be captured, so ensure that nothing unexpected is going to be printed to either of these output streams. Logger functionality is provided with the starter code to help ensure that your program will output as expected by the grading scripts.
+        - Both ``stdout`` and ``stderr`` will be captured, so ensure that nothing unexpected is going to be printed to either of these output streams. Logger functionality is provided with the starter code to help ensure that your program will output as expected by the grading scripts.
 
 In order for you to easily test your simulation against the inputs and outputs under the tests/ folder, we have provided a bash script named ``test-my-work.sh`` in the root directory of your repository. You can run it by typing ``./test-my-work.sh`` (ensure it has execution permissions). For a specific, input/output/parameter combination, if the output of your simulation does not match the expected output, the testing will stop and give you more details. Otherwise, it will print a Test passed! message. We will use a similar script in our grading.
 
 6 Getting Started
---------------------
-Starter code has been provided for you to help you get started. The starter code contains complete code that implements logger functionality, a class called ``Logger``, so that you can easily print output in the correct format. The ``Simulation`` class has its functionality for reading and parsing the simulation file implemented for you, but you will need to implement the rest of the functionality for the next-event simulation. A number of other classes have also been provided, however you will need to implement many of them. The starter code contains documentation to help you understand how these classes and their functionality should be implemented, so it is recommended that you read through the starter code carefully before starting to program. Flow charts have been provided in the Appendix under Section C. These should help in understanding how the project starter code could be implemented.
+-----------------
+Starter code has been provided for you to help you get started.
+
+* The starter code contains complete code that implements logger functionality, a class called ``Logger``, so that you can easily print output in the correct format.
+  
+* The ``Simulation`` class has its functionality for reading and parsing the simulation file implemented for you, but you will need to implement the rest of the functionality for the next-event simulation.
+  
+* A number of other classes have also been provided, however you will need to implement many of them.
+
+The starter code contains documentation to help you understand how these classes and their functionality should be implemented, so it is recommended that you read through the starter code carefully before starting to program. Follow the flow chart given above for guidance.
 
 Included with the starter code is a string formatting library, fmtlib [#]_ . To use the string formatting library, you will need to ``#include "utilities/fmt/format.h"`` in your file. You can see an example of how to use the library within ``src/utilities/logger.cpp``. 
 
@@ -145,24 +170,31 @@ C++, runs on Isengard, does not crash, meets all specified requirements, and pro
 
 The starter code includes a ``Makefile`` that builds everything under the ``src/`` directory, placing temporary files in a ``bin/`` directory and the program itself, named ``cpu-sim``, in the root of the repository. Do not make changes to the ``Makefile`` without prior approval by the instructors.
 
-Chapter 9 in your textbook describes uniprocessor scheduling, and provides good background information on what you are trying to implement. It also provides a number of diagrams that you may find helpful for understanding how threads should be between states (for example, Figure 9.1).
+Chapter 9 in your textbook describes uniprocessor scheduling, and provides good background information on what you are trying to implement. It also provides a number of diagrams that you may find helpful for understanding how processes should be between states (for example, Figure 9.1).
 
 
 7 Simulation File Format
---------------------
+------------------------
 The simulation file specifies a complete specification of scheduling scenario. It’s format is as follows:
 
 .. code-block::
 
-   num_processes process_switch_overhead
+   num_processes 0 process_switch_overhead
    
-   process_id process_type 1                // Process IDs are unique
-   arrival_time 1
+   process_id process_type 1              // Process IDs are unique
+   process_arrival_time num_cpu_bursts
+   cpu_time io_time
+   cpu_time io_time
+   ...                                    // Repeat for num_cpu_bursts
    cpu_time
 
-   process_id process_type 1               // We are now reading in the next process
-   arrival_time 1
-   cpu_time  
+   process_id process_type 1              // We are now reading in the next process
+   process_arrival_time num_cpu_bursts
+   cpu_time io_time
+   
+   cpu_time io_time
+   ...                                    // Repeat for num_cpu_bursts
+   cpu_time
    
    ...                                    // Keep reading until EOF is reached
    
@@ -170,16 +202,23 @@ Here is a commented example. The comments will not be in an actual simulation fi
 
 .. code-block:: 
 
-   2 7      // 2 processes, process overhead is 7
+   2 0 7    // 2 processes, process overhead is 7
    
    0 1 1    // Process 0, Priority is INTERACTIVE
-   8        // CPU burst of 8
+   0 3      // The process arrives at time 0 and has 3 bursts
+   4 5      // The first pair of bursts : CPU is 4, IO is 5
+   3 6      // The second pair of bursts : CPU is 3, IO is 6
+   1        // The last CPU burst has a length of 1
 
    1 0 1    // Process 1, priority is SYSTEM
-   13       // CPU burst of 13
+   5 3      // The process arrives at time 5 and has 3 bursts
+   4 1      // The first pair of bursts : CPU is 4, IO is 1
+   2 2      // The second pair of bursts : CPU is 2, IO is 2
+   2        // The last CPU burst has a length of 2
    
 8 Command Line Parsing
---------------------
+----------------------
+
 Your simulation must support invocation in the format specified below, including the following command line flags:
 
 .. code-block:: 
@@ -341,7 +380,7 @@ Please see the syllabus for the full collaboration policy.
    **Plagarism will be punished harshly!**
 
 11 Access to Isengard
-------------------
+---------------------
 
 Remote access to Isengard is quite similar to ALAMODE, but the
 hostname is ``isengard.mines.edu``.

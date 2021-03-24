@@ -62,12 +62,6 @@ public:
     std::shared_ptr<Thread> prev_thread = nullptr;
 
     /*
-        thread_switch_overhead:
-            An integer for the thread switch overhead, as specified in the simulation file.
-    */
-    int thread_switch_overhead;
-
-    /*
         process_switch_overhead:
             An integer for the process switch overhead, as specified in the simulation file.
     */
