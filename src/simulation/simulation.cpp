@@ -163,8 +163,9 @@ void Simulation::read_file(const std::string filename)
     }
 
     int num_processes;
+    int thread_switch_overhead; // This is discarded for this semester
 
-    input_file >> num_processes >> this->thread_switch_overhead >> this->process_switch_overhead;
+    input_file >> num_processes >> thread_switch_overhead >> this->process_switch_overhead;
 
     for (int proc = 0; proc < num_processes; ++proc)
     {
