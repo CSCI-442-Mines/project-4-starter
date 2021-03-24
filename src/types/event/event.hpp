@@ -23,7 +23,7 @@ public:
 
     /*
         type:
-            The type of event this is, i.e., THREAD_ARRIVED, DISPATCHER_INVOKED, etc. Should be
+            The type of event this is, i.e., PROCESS_ARRIVED, DISPATCHER_INVOKED, etc. Should be
             an EventType, an enum defined in "types/enums.hpp".
     */
 

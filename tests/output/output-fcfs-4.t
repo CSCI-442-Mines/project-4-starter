@@ -1,40 +1,71 @@
 SIMULATION COMPLETED!
 
-Process 71 [SYSTEM]:
-    Thread  0:    ARR: 59     CPU: 99     I/O: 89     TRT: 7324   END: 7383  
+Process 0 [SYSTEM]:
+    Process  0:    ARR: 17     CPU: 37     I/O: 10     TRT: 1472   END: 1489  
 
-Process 104 [SYSTEM]:
-    Thread  0:    ARR: 79     CPU: 57     I/O: 74     TRT: 5940   END: 6019  
-    Thread  1:    ARR: 50     CPU: 239    I/O: 142    TRT: 8160   END: 8210  
-    Thread  2:    ARR: 22     CPU: 64     I/O: 12     TRT: 4127   END: 4149  
-    Thread  3:    ARR: 50     CPU: 89     I/O: 97     TRT: 6626   END: 6676  
+Process 1 [SYSTEM]:
+    Process  0:    ARR: 49     CPU: 87     I/O: 45     TRT: 6618   END: 6667  
 
-Process 242 [NORMAL]:
-    Thread  0:    ARR: 59     CPU: 89     I/O: 84     TRT: 6681   END: 6740  
-    Thread  1:    ARR: 71     CPU: 132    I/O: 126    TRT: 7773   END: 7844  
-    Thread  2:    ARR: 39     CPU: 87     I/O: 88     TRT: 7146   END: 7185  
+Process 2 [SYSTEM]:
+    Process  0:    ARR: 55     CPU: 76     I/O: 62     TRT: 4687   END: 4742  
 
-Process 320 [NORMAL]:
-    Thread  0:    ARR: 23     CPU: 73     I/O: 56     TRT: 6233   END: 6256  
-    Thread  1:    ARR: 92     CPU: 124    I/O: 91     TRT: 7485   END: 7577  
-    Thread  2:    ARR: 71     CPU: 79     I/O: 40     TRT: 4796   END: 4867  
+Process 3 [SYSTEM]:
+    Process  0:    ARR: 79     CPU: 57     I/O: 74     TRT: 6045   END: 6124  
 
-Process 428 [SYSTEM]:
-    Thread  0:    ARR: 25     CPU: 63     I/O: 120    TRT: 7644   END: 7669  
-    Thread  1:    ARR: 95     CPU: 149    I/O: 104    TRT: 7855   END: 7950  
+Process 4 [SYSTEM]:
+    Process  0:    ARR: 50     CPU: 239    I/O: 142    TRT: 8349   END: 8399  
 
-Process 461 [SYSTEM]:
-    Thread  0:    ARR: 44     CPU: 126    I/O: 119    TRT: 7954   END: 7998  
-    Thread  1:    ARR: 67     CPU: 63     I/O: 81     TRT: 4742   END: 4809  
-    Thread  2:    ARR: 47     CPU: 43     I/O: 54     TRT: 3180   END: 3227  
+Process 5 [SYSTEM]:
+    Process  0:    ARR: 22     CPU: 64     I/O: 12     TRT: 4190   END: 4212  
 
-Process 687 [NORMAL]:
-    Thread  0:    ARR: 45     CPU: 80     I/O: 76     TRT: 6467   END: 6512  
-    Thread  1:    ARR: 59     CPU: 57     I/O: 53     TRT: 3472   END: 3531  
-    Thread  2:    ARR: 76     CPU: 74     I/O: 100    TRT: 6838   END: 6914  
-    Thread  3:    ARR: 10     CPU: 147    I/O: 112    TRT: 8126   END: 8136  
+Process 6 [SYSTEM]:
+    Process  0:    ARR: 50     CPU: 89     I/O: 97     TRT: 6752   END: 6802  
 
-Process 729 [SYSTEM]:
-    Thread  0:    ARR: 17     CPU: 37     I/O: 10     TRT: 1451   END: 1468  
-    Thread  1:    ARR: 49     CPU: 87     I/O: 45     TRT: 6513   END: 6562  
-    Thread  2:    ARR: 55     CPU: 76     I/O: 62     TRT: 4603   END: 4658  
+Process 7 [SYSTEM]:
+    Process  0:    ARR: 25     CPU: 63     I/O: 120    TRT: 7833   END: 7858  
+
+Process 8 [SYSTEM]:
+    Process  0:    ARR: 95     CPU: 149    I/O: 104    TRT: 8044   END: 8139  
+
+Process 9 [NORMAL]:
+    Process  0:    ARR: 45     CPU: 80     I/O: 76     TRT: 6572   END: 6617  
+
+Process 10 [NORMAL]:
+    Process  0:    ARR: 59     CPU: 57     I/O: 53     TRT: 3535   END: 3594  
+
+Process 11 [NORMAL]:
+    Process  0:    ARR: 76     CPU: 74     I/O: 100    TRT: 6964   END: 7040  
+
+Process 12 [NORMAL]:
+    Process  0:    ARR: 10     CPU: 147    I/O: 112    TRT: 8315   END: 8325  
+
+Process 13 [NORMAL]:
+    Process  0:    ARR: 23     CPU: 73     I/O: 56     TRT: 6338   END: 6361  
+
+Process 14 [NORMAL]:
+    Process  0:    ARR: 92     CPU: 124    I/O: 91     TRT: 7653   END: 7745  
+
+Process 15 [NORMAL]:
+    Process  0:    ARR: 71     CPU: 79     I/O: 40     TRT: 4880   END: 4951  
+
+Process 16 [SYSTEM]:
+    Process  0:    ARR: 44     CPU: 126    I/O: 119    TRT: 8143   END: 8187  
+
+Process 17 [SYSTEM]:
+    Process  0:    ARR: 67     CPU: 63     I/O: 81     TRT: 4826   END: 4893  
+
+Process 18 [SYSTEM]:
+    Process  0:    ARR: 47     CPU: 43     I/O: 54     TRT: 3222   END: 3269  
+
+Process 19 [NORMAL]:
+    Process  0:    ARR: 59     CPU: 89     I/O: 84     TRT: 6807   END: 6866  
+
+Process 20 [NORMAL]:
+    Process  0:    ARR: 71     CPU: 132    I/O: 126    TRT: 7962   END: 8033  
+
+Process 21 [NORMAL]:
+    Process  0:    ARR: 39     CPU: 87     I/O: 88     TRT: 7314   END: 7353  
+
+Process 22 [SYSTEM]:
+    Process  0:    ARR: 59     CPU: 99     I/O: 89     TRT: 7492   END: 7551  
+

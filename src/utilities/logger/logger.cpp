@@ -30,13 +30,13 @@ inline const char* PROCESS_PRIORITY_MAP[4] = {
 
 
 inline const char* EVENT_MAP[8] = {
-    "THREAD_ARRIVED",
-    "THREAD_DISPATCH_COMPLETED",
+    "PROCESS_ARRIVED",
+    "PROCESS_DISPATCH_COMPLETED",
     "PROCESS_DISPATCH_COMPLETED",
     "CPU_BURST_COMPLETED",
     "IO_BURST_COMPLETED",
-    "THREAD_COMPLETED",
-    "THREAD_PREEMPTED",
+    "PROCESS_COMPLETED",
+    "PROCESS_PREEMPTED",
     "DISPATCHER_INVOKED"
 };
 
@@ -45,7 +45,7 @@ void Logger::print_state_transition(const std::shared_ptr<Event> event, ThreadSt
     This (along with print_verbose) prints something like this:
 
     At time 0:
-        THREAD_ARRIVED
+        PROCESS_ARRIVED
         Thread 0 in process 0 [INTERACTIVE]
         Transitioned from NEW to READY
     */
@@ -92,7 +92,7 @@ void Logger::print_per_thread_metrics(std::shared_ptr<Process> process) const {
 
         std::string thread_message;
 
-        thread_message = fmt::format("    Thread {:>2}:    ", thread->thread_id);
+        thread_message = fmt::format("    Process {:>2}:    ", thread->thread_id);
         thread_message += fmt::format("ARR: {:<6} ", thread->arrival_time);
         thread_message += fmt::format("CPU: {:<6} ", thread->service_time);
         thread_message += fmt::format("I/O: {:<6} ", thread->io_time);
@@ -108,22 +108,22 @@ void Logger::print_simulation_metrics(SystemStats stats) const {
     /*
     This prints something like this:
 
-        SYSTEM THREADS:
+        SYSTEM PROCESSES:
             Total Count:                  3
             Avg. response time:       23.33
             Avg. turnaround time:     94.67
 
-        INTERACTIVE THREADS:
+        INTERACTIVE PROCESSES:
             Total Count:                  2
             Avg. response time:       10.00
             Avg. turnaround time:     73.50
 
-        NORMAL THREADS:
+        NORMAL PROCESSES:
             Total Count:                  0
             Avg. response time:        0.00
             Avg. turnaround time:      0.00
 
-        BATCH THREADS:
+        BATCH PROCESSES:
             Total Count:                  0
             Avg. response time:        0.00
             Avg. turnaround time:      0.00
@@ -145,7 +145,7 @@ void Logger::print_simulation_metrics(SystemStats stats) const {
     for (int i = SYSTEM; i <= BATCH; ++i) {
         std::string process_type_message;
 
-        process_type_message = fmt::format("{} THREADS:\n", PROCESS_PRIORITY_MAP[i]);
+        process_type_message = fmt::format("{} PROCESSES:\n", PROCESS_PRIORITY_MAP[i]);
         process_type_message += fmt::format("    {:<22} {:>8}\n", "Total Count:", stats.thread_counts[i]);
         process_type_message += fmt::format("    {:<22} {:>8.{}f}\n", "Avg. response time:", stats.avg_thread_response_times[i], 2);
         process_type_message += fmt::format("    {:<22} {:>8.{}f}\n\n", "Avg. turnaround time:", stats.avg_thread_turnaround_times[i], 2);

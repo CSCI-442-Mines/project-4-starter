@@ -39,11 +39,10 @@ void Simulation::run()
 
         switch (event->type)
         {
-        case THREAD_ARRIVED:
-            this->handle_thread_arrived(event);
+        case PROCESS_ARRIVED:
+            this->handle_process_arrived(event);
             break;
 
-        case THREAD_DISPATCH_COMPLETED:
         case PROCESS_DISPATCH_COMPLETED:
             this->handle_dispatch_completed(event);
             break;
@@ -55,12 +54,12 @@ void Simulation::run()
         case IO_BURST_COMPLETED:
             this->handle_io_burst_completed(event);
             break;
-        case THREAD_COMPLETED:
-            this->handle_thread_completed(event);
+        case PROCESS_COMPLETED:
+            this->handle_process_completed(event);
             break;
 
-        case THREAD_PREEMPTED:
-            this->handle_thread_preempted(event);
+        case PROCESS_PREEMPTED:
+            this->handle_process_preempted(event);
             break;
 
         case DISPATCHER_INVOKED:
@@ -92,7 +91,7 @@ void Simulation::run()
 // Event-handling methods
 //==============================================================================
 
-void Simulation::handle_thread_arrived(const std::shared_ptr<Event> event)
+void Simulation::handle_process_arrived(const std::shared_ptr<Event> event)
 {
     // TODO: Handle this event properly
     std::cout << "TODO: Handle thread arrived event properly\n\n";
@@ -116,13 +115,13 @@ void Simulation::handle_io_burst_completed(const std::shared_ptr<Event> event)
     std::cout << "TODO: Handle io burst completed event properly\n\n";
 }
 
-void Simulation::handle_thread_completed(const std::shared_ptr<Event> event)
+void Simulation::handle_process_completed(const std::shared_ptr<Event> event)
 {
     // TODO: Handle this event properly
     std::cout << "TODO: Handle thread completed event properly\n\n";
 }
 
-void Simulation::handle_thread_preempted(const std::shared_ptr<Event> event)
+void Simulation::handle_process_preempted(const std::shared_ptr<Event> event)
 {
     // TODO: Handle this event properly
     std::cout << "TODO: Handle thread preempted event properly\n\n";
@@ -211,7 +210,7 @@ std::shared_ptr<Thread> Simulation::read_thread(std::istream &input, int thread_
         thread->bursts.push(std::make_shared<Burst>(burst_type, burst_length));
     }
 
-    this->events.push(std::make_shared<Event>(EventType::THREAD_ARRIVED, thread->arrival_time, this->event_num, thread, nullptr));
+    this->events.push(std::make_shared<Event>(EventType::PROCESS_ARRIVED, thread->arrival_time, this->event_num, thread, nullptr));
     this->event_num++;
 
     return thread;
