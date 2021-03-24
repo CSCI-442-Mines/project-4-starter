@@ -92,7 +92,7 @@ void Logger::print_per_thread_metrics(std::shared_ptr<Process> process) const {
 
         std::string thread_message;
 
-        thread_message = fmt::format("    Process {:>2}:    ", thread->thread_id);
+        thread_message = fmt::format("    Process {:>2}:    ", thread->process_id);
         thread_message += fmt::format("ARR: {:<6} ", thread->arrival_time);
         thread_message += fmt::format("CPU: {:<6} ", thread->service_time);
         thread_message += fmt::format("I/O: {:<6} ", thread->io_time);
