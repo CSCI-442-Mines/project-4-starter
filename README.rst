@@ -179,15 +179,22 @@ The simulation file specifies a complete specification of scheduling scenario. I
 
 .. code-block::
 
-   num_processes process_switch_overhead
+   num_processes 0 process_switch_overhead
    
-   process_id process_type 1                // Process IDs are unique
-   arrival_time 1
+   process_id process_type 1              // Process IDs are unique
+   process_arrival_time num_cpu_bursts
+   cpu_time io_time
+   cpu_time io_time
+   ...                                    // Repeat for num_cpu_bursts
    cpu_time
 
-   process_id process_type 1               // We are now reading in the next process
-   arrival_time 1
-   cpu_time  
+   process_id process_type 1              // We are now reading in the next process
+   process_arrival_time num_cpu_bursts
+   cpu_time io_time
+   
+   cpu_time io_time
+   ...                                    // Repeat for num_cpu_bursts
+   cpu_time
    
    ...                                    // Keep reading until EOF is reached
    
@@ -195,16 +202,23 @@ Here is a commented example. The comments will not be in an actual simulation fi
 
 .. code-block:: 
 
-   2 7      // 2 processes, process overhead is 7
+   2 0 7    // 2 processes, process overhead is 7
    
    0 1 1    // Process 0, Priority is INTERACTIVE
-   8        // CPU burst of 8
+   0 3      // The process arrives at time 0 and has 3 bursts
+   4 5      // The first pair of bursts : CPU is 4, IO is 5
+   3 6      // The second pair of bursts : CPU is 3, IO is 6
+   1        // The last CPU burst has a length of 1
 
    1 0 1    // Process 1, priority is SYSTEM
-   13       // CPU burst of 13
+   5 3      // The process arrives at time 5 and has 3 bursts
+   4 1      // The first pair of bursts : CPU is 4, IO is 1
+   2 2      // The second pair of bursts : CPU is 2, IO is 2
+   2        // The last CPU burst has a length of 2
    
 8 Command Line Parsing
---------------------
+----------------------
+
 Your simulation must support invocation in the format specified below, including the following command line flags:
 
 .. code-block:: 
@@ -366,7 +380,7 @@ Please see the syllabus for the full collaboration policy.
    **Plagarism will be punished harshly!**
 
 11 Access to Isengard
-------------------
+---------------------
 
 Remote access to Isengard is quite similar to ALAMODE, but the
 hostname is ``isengard.mines.edu``.

@@ -90,7 +90,7 @@ endobj
 endobj
 13 0 obj
 <<
-/Border [ 0 0 0 ] /Contents () /Dest [ 23 0 R /XYZ 68.69291 360.7843 0 ] /Rect [ 348.3529 362.4236 351.6672 372.0236 ] /Subtype /Link /Type /Annot
+/Border [ 0 0 0 ] /Contents () /Dest [ 23 0 R /XYZ 68.69291 204.7843 0 ] /Rect [ 348.3529 362.4236 351.6672 372.0236 ] /Subtype /Link /Type /Annot
 >>
 endobj
 14 0 obj
@@ -117,7 +117,7 @@ endobj
 <<
 /A <<
 /S /URI /Type /Action /URI (http://man7.org/linux/man-pages/man3/getopt.3.html)
->> /Border [ 0 0 0 ] /Rect [ 246.1429 711.0236 477.9229 723.0236 ] /Subtype /Link /Type /Annot
+>> /Border [ 0 0 0 ] /Rect [ 246.1429 545.8236 477.9229 557.8236 ] /Subtype /Link /Type /Annot
 >>
 endobj
 17 0 obj
@@ -162,14 +162,14 @@ endobj
 endobj
 21 0 obj
 <<
-/Border [ 0 0 0 ] /Contents () /Dest [ 14 0 R /XYZ 348.3529 371.0236 0 ] /Rect [ 68.69291 346.7843 74.25291 358.7843 ] /Subtype /Link /Type /Annot
+/Border [ 0 0 0 ] /Contents () /Dest [ 14 0 R /XYZ 348.3529 371.0236 0 ] /Rect [ 68.69291 190.7843 74.25291 202.7843 ] /Subtype /Link /Type /Annot
 >>
 endobj
 22 0 obj
 <<
 /A <<
 /S /URI /Type /Action /URI (https://github.com/fmtlib/fmt)
->> /Border [ 0 0 0 ] /Rect [ 153.7323 347.5343 276.0023 359.5343 ] /Subtype /Link /Type /Annot
+>> /Border [ 0 0 0 ] /Rect [ 153.7323 191.5343 276.0023 203.5343 ] /Subtype /Link /Type /Annot
 >>
 endobj
 23 0 obj
@@ -189,7 +189,7 @@ endobj
 endobj
 25 0 obj
 <<
-/Author () /CreationDate (D:20210324103440+07'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20210324103440+07'00') /Producer (ReportLab PDF Library - www.reportlab.com) 
+/Author () /CreationDate (D:20210324104252+07'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20210324104252+07'00') /Producer (ReportLab PDF Library - www.reportlab.com) 
   /Subject (\(unspecified\)) /Title () /Trapped /False
 >>
 endobj
@@ -280,69 +280,69 @@ endobj
 endobj
 42 0 obj
 <<
-/Dest [ 15 0 R /XYZ 62.69291 536.3307 0 ] /Next 43 0 R /Parent 27 0 R /Prev 41 0 R /Title (8 Command Line Parsing)
+/Dest [ 15 0 R /XYZ 62.69291 383.1877 0 ] /Next 43 0 R /Parent 27 0 R /Prev 41 0 R /Title (8 Command Line Parsing)
 >>
 endobj
 43 0 obj
 <<
-/Count 6 /Dest [ 17 0 R /XYZ 62.69291 699.0236 0 ] /First 44 0 R /Last 49 0 R /Next 50 0 R /Parent 27 0 R 
+/Count 6 /Dest [ 17 0 R /XYZ 62.69291 533.8236 0 ] /First 44 0 R /Last 49 0 R /Next 50 0 R /Parent 27 0 R 
   /Prev 42 0 R /Title (9 Output Formatting)
 >>
 endobj
 44 0 obj
 <<
-/Dest [ 17 0 R /XYZ 62.69291 615.0236 0 ] /Next 45 0 R /Parent 43 0 R /Title (9.1 No flags input)
+/Dest [ 17 0 R /XYZ 62.69291 449.8236 0 ] /Next 45 0 R /Parent 43 0 R /Title (9.1 No flags input)
 >>
 endobj
 45 0 obj
 <<
-/Dest [ 17 0 R /XYZ 62.69291 552.0236 0 ] /Next 46 0 R /Parent 43 0 R /Prev 44 0 R /Title (9.2 --metrics)
+/Dest [ 17 0 R /XYZ 62.69291 386.8236 0 ] /Next 46 0 R /Parent 43 0 R /Prev 44 0 R /Title (9.2 --metrics)
 >>
 endobj
 46 0 obj
 <<
-/Dest [ 17 0 R /XYZ 62.69291 125.8236 0 ] /Next 47 0 R /Parent 43 0 R /Prev 45 0 R /Title (9.3 --per thread)
+/Dest [ 18 0 R /XYZ 62.69291 631.8236 0 ] /Next 47 0 R /Parent 43 0 R /Prev 45 0 R /Title (9.3 --per thread)
 >>
 endobj
 47 0 obj
 <<
-/Dest [ 18 0 R /XYZ 62.69291 622.9544 0 ] /Next 48 0 R /Parent 43 0 R /Prev 46 0 R /Title (9.4 --verbose)
+/Dest [ 18 0 R /XYZ 62.69291 436.7544 0 ] /Next 48 0 R /Parent 43 0 R /Prev 46 0 R /Title (9.4 --verbose)
 >>
 endobj
 48 0 obj
 <<
-/Dest [ 18 0 R /XYZ 62.69291 263.5544 0 ] /Next 49 0 R /Parent 43 0 R /Prev 47 0 R /Title (9.5 Multiple Flags)
+/Dest [ 19 0 R /XYZ 62.69291 765.0236 0 ] /Next 49 0 R /Parent 43 0 R /Prev 47 0 R /Title (9.5 Multiple Flags)
 >>
 endobj
 49 0 obj
 <<
-/Dest [ 18 0 R /XYZ 62.69291 146.5544 0 ] /Parent 43 0 R /Prev 48 0 R /Title (9.6 Recommendations)
+/Dest [ 19 0 R /XYZ 62.69291 648.0236 0 ] /Parent 43 0 R /Prev 48 0 R /Title (9.6 Recommendations)
 >>
 endobj
 50 0 obj
 <<
-/Dest [ 19 0 R /XYZ 62.69291 765.0236 0 ] /Next 51 0 R /Parent 27 0 R /Prev 43 0 R /Title (10 Collaboration Policy)
+/Dest [ 19 0 R /XYZ 62.69291 603.0236 0 ] /Next 51 0 R /Parent 27 0 R /Prev 43 0 R /Title (10 Collaboration Policy)
 >>
 endobj
 51 0 obj
 <<
-/Dest [ 19 0 R /XYZ 62.69291 598.0236 0 ] /Parent 27 0 R /Prev 50 0 R /Title (11 Access to Isengard)
+/Dest [ 19 0 R /XYZ 62.69291 436.0236 0 ] /Parent 27 0 R /Prev 50 0 R /Title (11 Access to Isengard)
 >>
 endobj
 52 0 obj
 <<
-/Count 2 /Dest [ 19 0 R /XYZ 62.69291 466.8236 0 ] /First 53 0 R /Last 54 0 R /Parent 26 0 R /Prev 27 0 R 
+/Count 2 /Dest [ 19 0 R /XYZ 62.69291 304.8236 0 ] /First 53 0 R /Last 54 0 R /Parent 26 0 R /Prev 27 0 R 
   /Title (Appendices)
 >>
 endobj
 53 0 obj
 <<
-/Dest [ 19 0 R /XYZ 62.69291 433.8236 0 ] /Next 54 0 R /Parent 52 0 R /Title (A Example Simulation Input)
+/Dest [ 19 0 R /XYZ 62.69291 271.8236 0 ] /Next 54 0 R /Parent 52 0 R /Title (A Example Simulation Input)
 >>
 endobj
 54 0 obj
 <<
-/Dest [ 19 0 R /XYZ 62.69291 298.6236 0 ] /Parent 52 0 R /Prev 53 0 R /Title (B Example Simulation Output)
+/Dest [ 19 0 R /XYZ 62.69291 136.6236 0 ] /Parent 52 0 R /Prev 53 0 R /Title (B Example Simulation Output)
 >>
 endobj
 55 0 obj
@@ -2025,7 +2025,7 @@ endstream
 endobj
 60 0 obj
 <<
-/Length 8391
+/Length 8412
 >>
 stream
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
@@ -2347,7 +2347,7 @@ n -6 -6 468.6898 60 re B*
 Q
 q
 0 0 0 rg
-BT 1 0 0 1 0 38 Tm /F5 10 Tf 12 TL (num_processes process_switch_overhead) Tj T*  T* (process_id process_type 1                // Process IDs are unique) Tj T* (arrival_time 1) Tj T* ET
+BT 1 0 0 1 0 38 Tm /F5 10 Tf 12 TL (num_processes 0 process_switch_overhead) Tj T*  T* (process_id process_type 1              // Process IDs are unique) Tj T* (process_arrival_time num_cpu_bursts) Tj T* ET
 Q
 Q
 Q
@@ -2358,40 +2358,40 @@ endstream
 endobj
 61 0 obj
 <<
-/Length 4783
+/Length 3071
 >>
 stream
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
 q
-1 0 0 1 62.69291 673.5307 cm
+1 0 0 1 62.69291 592.3877 cm
 q
 q
-.941286 0 0 .941286 0 0 cm
+.952737 0 0 .952737 0 0 cm
 q
-1 0 0 1 6.6 7.011687 cm
+1 0 0 1 6.6 6.927412 cm
 q
 .662745 .662745 .662745 RG
 .5 w
 .960784 .960784 .862745 rg
-n -6 -6 498 96 re B*
+n -6 -6 492 180 re B*
 Q
 q
 0 0 0 rg
-BT 1 0 0 1 0 74 Tm /F5 10 Tf 12 TL (cpu_time) Tj T*  T* (process_id process_type 1               // We are now reading in the next process) Tj T* (arrival_time 1) Tj T* (cpu_time) Tj T*  T* (...                                    // Keep reading until EOF is reached) Tj T* ET
+BT 1 0 0 1 0 158 Tm /F5 10 Tf 12 TL (cpu_time io_time) Tj T* (cpu_time io_time) Tj T* (...                                    // Repeat for num_cpu_bursts) Tj T* (cpu_time) Tj T*  T* (process_id process_type 1              // We are now reading in the next process) Tj T* (process_arrival_time num_cpu_bursts) Tj T* (cpu_time io_time) Tj T*  T* (cpu_time io_time) Tj T* (...                                    // Repeat for num_cpu_bursts) Tj T* (cpu_time) Tj T*  T* (...                                    // Keep reading until EOF is reached) Tj T* ET
 Q
 Q
 Q
 Q
 Q
 q
-1 0 0 1 62.69291 653.5307 cm
+1 0 0 1 62.69291 572.3877 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Here is a commented example. The comments will not be in an actual simulation file.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 548.3307 cm
+1 0 0 1 62.69291 395.1877 cm
 q
 q
 1 0 0 1 0 0 cm
@@ -2401,31 +2401,31 @@ q
 .662745 .662745 .662745 RG
 .5 w
 .960784 .960784 .862745 rg
-n -6 -6 468.6898 96 re B*
+n -6 -6 468.6898 168 re B*
 Q
 q
 0 0 0 rg
-BT 1 0 0 1 0 74 Tm /F5 10 Tf 12 TL (2 7      // 2 processes, process overhead is 7) Tj T*  T* (0 1 1    // Process 0, Priority is INTERACTIVE) Tj T* (8        // CPU burst of 8) Tj T*  T* (1 0 1    // Process 1, priority is SYSTEM) Tj T* (13       // CPU burst of 13) Tj T* ET
+BT 1 0 0 1 0 146 Tm /F5 10 Tf 12 TL (2 0 7    // 2 processes, process overhead is 7) Tj T*  T* (0 1 1    // Process 0, Priority is INTERACTIVE) Tj T* (0 3      // The process arrives at time 0 and has 3 bursts) Tj T* (4 5      // The first pair of bursts : CPU is 4, IO is 5) Tj T* (3 6      // The second pair of bursts : CPU is 3, IO is 6) Tj T* (1        // The last CPU burst has a length of 1) Tj T*  T* (1 0 1    // Process 1, priority is SYSTEM) Tj T* (5 3      // The process arrives at time 5 and has 3 bursts) Tj T* (4 1      // The first pair of bursts : CPU is 4, IO is 1) Tj T* (2 2      // The second pair of bursts : CPU is 2, IO is 2) Tj T* (2        // The last CPU burst has a length of 2) Tj T* ET
 Q
 Q
 Q
 Q
 Q
 q
-1 0 0 1 62.69291 518.3307 cm
+1 0 0 1 62.69291 365.1877 cm
 q
 BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (8 Command Line Parsing) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 488.3307 cm
+1 0 0 1 62.69291 335.1877 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 1.003059 Tw (Your simulation must support invocation in the format specified below, including the following command) Tj T* 0 Tw (line flags:) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 215.1307 cm
+1 0 0 1 62.69291 85.98772 cm
 q
 q
 1 0 0 1 0 0 cm
@@ -2435,30 +2435,59 @@ q
 .662745 .662745 .662745 RG
 .5 w
 .960784 .960784 .862745 rg
-n -6 -6 468.6898 264 re B*
+n -6 -6 468.6898 240 re B*
 Q
 q
-BT 1 0 0 1 0 242 Tm 12 TL /F5 10 Tf 0 0 0 rg (./cpu-sim [flags] [simulation_file]) Tj T*  T* (-h, --help) Tj T* (   Print a help message on how to use the program.) Tj T*  T* (-m, --metrics) Tj T* (   If set, output general metrics for the simulation.) Tj T*  T* (-s, --time_slice [positive integer]) Tj T* (   The time slice for preemptive algorithms.) Tj T*  T* (-t, --per_thread) Tj T* (   If set, outputs per-thread metrics at the end of the simulation.) Tj T*  T* (-v, --verbose) Tj T* (   If set, outputs all state transitions and scheduling choices.) Tj T*  T* (-a, --algorithm ) Tj (<) Tj (algorithm) Tj (>) Tj  T* (   The scheduling algorithm to use. Valid values are:) Tj T* (      FCFS: first come, first served \(default\)) Tj T* (      RR: round robin scheduling) Tj T* ET
+BT 1 0 0 1 0 218 Tm 12 TL /F5 10 Tf 0 0 0 rg (./cpu-sim [flags] [simulation_file]) Tj T*  T* (-h, --help) Tj T* (   Print a help message on how to use the program.) Tj T*  T* (-m, --metrics) Tj T* (   If set, output general metrics for the simulation.) Tj T*  T* (-s, --time_slice [positive integer]) Tj T* (   The time slice for preemptive algorithms.) Tj T*  T* (-t, --per_thread) Tj T* (   If set, outputs per-thread metrics at the end of the simulation.) Tj T*  T* (-v, --verbose) Tj T* (   If set, outputs all state transitions and scheduling choices.) Tj T*  T* (-a, --algorithm ) Tj (<) Tj (algorithm) Tj (>) Tj  T* (   The scheduling algorithm to use. Valid values are:) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+ 
+endstream
+endobj
+62 0 obj
+<<
+/Length 5509
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 727.8236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 36 re B*
+Q
+q
+BT 1 0 0 1 0 14 Tm 12 TL /F5 10 Tf 0 0 0 rg (      FCFS: first come, first served \(default\)) Tj T* (      RR: round robin scheduling) Tj T* ET
 Q
 Q
 Q
 Q
 Q
 q
-1 0 0 1 62.69291 195.1307 cm
+1 0 0 1 62.69291 707.8236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Users should be able to pass any flags together, in any order, provided that:) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 189.1307 cm
+1 0 0 1 62.69291 701.8236 cm
 Q
 q
-1 0 0 1 62.69291 189.1307 cm
+1 0 0 1 62.69291 701.8236 cm
 Q
 q
-1 0 0 1 62.69291 177.1307 cm
+1 0 0 1 62.69291 689.8236 cm
 q
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
@@ -2480,10 +2509,10 @@ Q
 Q
 Q
 q
-1 0 0 1 62.69291 171.1307 cm
+1 0 0 1 62.69291 683.8236 cm
 Q
 q
-1 0 0 1 62.69291 159.1307 cm
+1 0 0 1 62.69291 671.8236 cm
 q
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
@@ -2505,10 +2534,10 @@ Q
 Q
 Q
 q
-1 0 0 1 62.69291 153.1307 cm
+1 0 0 1 62.69291 665.8236 cm
 Q
 q
-1 0 0 1 62.69291 141.1307 cm
+1 0 0 1 62.69291 653.8236 cm
 q
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
@@ -2530,10 +2559,10 @@ Q
 Q
 Q
 q
-1 0 0 1 62.69291 135.1307 cm
+1 0 0 1 62.69291 647.8236 cm
 Q
 q
-1 0 0 1 62.69291 111.1307 cm
+1 0 0 1 62.69291 623.8236 cm
 q
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
@@ -2555,10 +2584,10 @@ Q
 Q
 Q
 q
-1 0 0 1 62.69291 105.1307 cm
+1 0 0 1 62.69291 617.8236 cm
 Q
 q
-1 0 0 1 62.69291 93.13066 cm
+1 0 0 1 62.69291 605.8236 cm
 q
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
@@ -2580,77 +2609,68 @@ Q
 Q
 Q
 q
-1 0 0 1 62.69291 93.13066 cm
+1 0 0 1 62.69291 605.8236 cm
 Q
- 
-endstream
-endobj
-62 0 obj
-<<
-/Length 3431
->>
-stream
-1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
 q
-1 0 0 1 62.69291 741.0236 cm
+1 0 0 1 62.69291 575.8236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 2.683318 Tw (Any improper command line input should cause your program to print the help message and then) Tj T* 0 Tw (immediately exit. Information on proper output formatting can be found in Section 9.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 711.0236 cm
+1 0 0 1 62.69291 545.8236 cm
 q
 BT 1 0 0 1 0 14 Tm .812485 Tw 12 TL /F1 10 Tf 0 0 0 rg (You are strongly encouraged to use the getopt family of functions to perform the command line parsing.) Tj T* 0 Tw (Information on getopt can be found here: ) Tj 0 0 .501961 rg (http://man7.org/linux/man-pages/man3/getopt.3.html) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 681.0236 cm
+1 0 0 1 62.69291 515.8236 cm
 q
 BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (9 Output Formatting) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 627.0236 cm
+1 0 0 1 62.69291 461.8236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 38 Tm /F1 10 Tf 12 TL .50528 Tw (For efficient and fair grading, it is vital that your simulation outputs information in a well-defined way. The) Tj T* 0 Tw 1.163984 Tw (starter code provides functionality for printing information, and it is strongly encouraged that you use it.) Tj T* 0 Tw .998876 Tw (The information that your simulation prints is dependent on the flags that the user has input, and in the) Tj T* 0 Tw (following sections we describe what should be printed for each flag.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 600.0236 cm
+1 0 0 1 62.69291 434.8236 cm
 q
 BT 1 0 0 1 0 2.5 Tm 15 TL /F3 12.5 Tf 0 0 0 rg (9.1 No flags input) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 582.0236 cm
+1 0 0 1 62.69291 416.8236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (If the user has not input any flags to your program, you should only output the following:) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 564.0236 cm
+1 0 0 1 62.69291 398.8236 cm
 q
 BT 1 0 0 1 0 2 Tm 12 TL /F5 10 Tf 0 0 0 rg (SIMULATION) Tj ( ) Tj (COMPLETED!) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 537.0236 cm
+1 0 0 1 62.69291 371.8236 cm
 q
 BT 1 0 0 1 0 2.5 Tm 15 TL /F3 12.5 Tf 0 0 0 rg (9.2 --metrics) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 519.0236 cm
+1 0 0 1 62.69291 353.8236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (When the metrics flag has been passed to your simulation, it should output the following information:) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 137.8236 cm
+1 0 0 1 62.69291 80.62362 cm
 q
 q
 1 0 0 1 0 0 cm
@@ -2660,27 +2680,14 @@ q
 .662745 .662745 .662745 RG
 .5 w
 .960784 .960784 .862745 rg
-n -6 -6 468.6898 372 re B*
+n -6 -6 468.6898 264 re B*
 Q
 q
 0 0 0 rg
-BT 1 0 0 1 0 350 Tm /F5 10 Tf 12 TL (SIMULATION COMPLETED !) Tj T*  T* (SYSTEM THREADS :) Tj T* (   Total Count : 3) Tj T* (   Avg . response time : 23.33) Tj T* (   Avg . turnaround time : 94.67) Tj T*  T* (INTERACTIVE THREADS :) Tj T* (   Total Count : 2) Tj T* (   Avg . response time : 10.00) Tj T* (   Avg . turnaround time : 73.50) Tj T*  T* (NORMAL THREADS :) Tj T* (   Total Count : 0) Tj T* (   Avg . response time : 0.00) Tj T* (   Avg . turnaround time : 0.00) Tj T*  T* (BATCH THREADS :) Tj T* (   Total Count : 0) Tj T* (   Avg . response time : 0.00) Tj T* (   Avg . turnaround time : 0.00) Tj T*  T* (Total elapsed time : 130) Tj T* (Total service time : 53) Tj T* (Total I/O time : 34) Tj T* (Total dispatch time : 69) Tj T* (Total idle time : 8) Tj T*  T* (CPU utilization : 93.85%) Tj T* (CPU efficiency : 40.77%) Tj T* ET
+BT 1 0 0 1 0 242 Tm /F5 10 Tf 12 TL (SIMULATION COMPLETED !) Tj T*  T* (SYSTEM THREADS :) Tj T* (   Total Count : 3) Tj T* (   Avg . response time : 23.33) Tj T* (   Avg . turnaround time : 94.67) Tj T*  T* (INTERACTIVE THREADS :) Tj T* (   Total Count : 2) Tj T* (   Avg . response time : 10.00) Tj T* (   Avg . turnaround time : 73.50) Tj T*  T* (NORMAL THREADS :) Tj T* (   Total Count : 0) Tj T* (   Avg . response time : 0.00) Tj T* (   Avg . turnaround time : 0.00) Tj T*  T* (BATCH THREADS :) Tj T* (   Total Count : 0) Tj T* (   Avg . response time : 0.00) Tj T* (   Avg . turnaround time : 0.00) Tj T* ET
 Q
 Q
 Q
-Q
-Q
-q
-1 0 0 1 62.69291 110.8236 cm
-q
-BT 1 0 0 1 0 2.5 Tm 15 TL /F3 12.5 Tf 0 0 0 rg (9.3 --per thread) Tj T* ET
-Q
-Q
-q
-1 0 0 1 62.69291 80.82362 cm
-q
-0 0 0 rg
-BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .632339 Tw (When the per thread flag has been passed to your simulation, it should output information about each of) Tj T* 0 Tw (the threads.) Tj T* ET
 Q
 Q
  
@@ -2688,12 +2695,46 @@ endstream
 endobj
 63 0 obj
 <<
-/Length 4350
+/Length 3253
 >>
 stream
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
 q
-1 0 0 1 62.69291 634.9544 cm
+1 0 0 1 62.69291 643.8236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 120 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 98 Tm /F5 10 Tf 12 TL  T* (Total elapsed time : 130) Tj T* (Total service time : 53) Tj T* (Total I/O time : 34) Tj T* (Total dispatch time : 69) Tj T* (Total idle time : 8) Tj T*  T* (CPU utilization : 93.85%) Tj T* (CPU efficiency : 40.77%) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 616.8236 cm
+q
+BT 1 0 0 1 0 2.5 Tm 15 TL /F3 12.5 Tf 0 0 0 rg (9.3 --per thread) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 586.8236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .632339 Tw (When the per thread flag has been passed to your simulation, it should output information about each of) Tj T* 0 Tw (the threads.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 448.7544 cm
 q
 q
 .976496 0 0 .976496 0 0 cm
@@ -2714,20 +2755,20 @@ Q
 Q
 Q
 q
-1 0 0 1 62.69291 607.9544 cm
+1 0 0 1 62.69291 421.7544 cm
 q
 BT 1 0 0 1 0 2.5 Tm 15 TL /F3 12.5 Tf 0 0 0 rg (9.4 --verbose) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 577.9544 cm
+1 0 0 1 62.69291 391.7544 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 1.71436 Tw (When the verbose flag has been passed to your simulation, it should output, at each state transition,) Tj T* 0 Tw (information about the state transition that is occurring. It should be outputting this information \224on the fly\224.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 448.7544 cm
+1 0 0 1 62.69291 262.5544 cm
 q
 q
 1 0 0 1 0 0 cm
@@ -2748,14 +2789,14 @@ Q
 Q
 Q
 q
-1 0 0 1 62.69291 428.7544 cm
+1 0 0 1 62.69291 242.5544 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (This continues until the end of the simulation:) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 275.5544 cm
+1 0 0 1 62.69291 89.35439 cm
 q
 q
 1 0 0 1 0 0 cm
@@ -2775,27 +2816,36 @@ Q
 Q
 Q
 Q
+ 
+endstream
+endobj
+64 0 obj
+<<
+/Length 4907
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
 q
-1 0 0 1 62.69291 248.5544 cm
+1 0 0 1 62.69291 750.0236 cm
 q
 BT 1 0 0 1 0 2.5 Tm 15 TL /F3 12.5 Tf 0 0 0 rg (9.5 Multiple Flags) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 230.5544 cm
+1 0 0 1 62.69291 732.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (If multiple flags are input, all should be printed, in this order:) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 224.5544 cm
+1 0 0 1 62.69291 726.0236 cm
 Q
 q
-1 0 0 1 62.69291 224.5544 cm
+1 0 0 1 62.69291 726.0236 cm
 Q
 q
-1 0 0 1 62.69291 212.5544 cm
+1 0 0 1 62.69291 714.0236 cm
 q
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
@@ -2818,10 +2868,10 @@ Q
 Q
 Q
 q
-1 0 0 1 62.69291 206.5544 cm
+1 0 0 1 62.69291 708.0236 cm
 Q
 q
-1 0 0 1 62.69291 194.5544 cm
+1 0 0 1 62.69291 696.0236 cm
 q
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
@@ -2843,10 +2893,10 @@ Q
 Q
 Q
 q
-1 0 0 1 62.69291 188.5544 cm
+1 0 0 1 62.69291 690.0236 cm
 Q
 q
-1 0 0 1 62.69291 176.5544 cm
+1 0 0 1 62.69291 678.0236 cm
 q
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
@@ -2869,10 +2919,10 @@ Q
 Q
 Q
 q
-1 0 0 1 62.69291 170.5544 cm
+1 0 0 1 62.69291 672.0236 cm
 Q
 q
-1 0 0 1 62.69291 158.5544 cm
+1 0 0 1 62.69291 660.0236 cm
 q
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
@@ -2895,54 +2945,45 @@ Q
 Q
 Q
 q
-1 0 0 1 62.69291 158.5544 cm
+1 0 0 1 62.69291 660.0236 cm
 Q
 q
-1 0 0 1 62.69291 131.5544 cm
+1 0 0 1 62.69291 633.0236 cm
 q
 BT 1 0 0 1 0 2.5 Tm 15 TL /F3 12.5 Tf 0 0 0 rg (9.6 Recommendations) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 113.5544 cm
+1 0 0 1 62.69291 615.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Again, it is highly recommended that you take advantage of the existing logger functionality!) Tj T* ET
 Q
 Q
- 
-endstream
-endobj
-64 0 obj
-<<
-/Length 3650
->>
-stream
-1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
 q
-1 0 0 1 62.69291 747.0236 cm
+1 0 0 1 62.69291 585.0236 cm
 q
 BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (10 Collaboration Policy) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 717.0236 cm
+1 0 0 1 62.69291 555.0236 cm
 q
 BT 1 0 0 1 0 14 Tm 1.15881 Tw 12 TL /F1 10 Tf 0 0 0 rg (This is an ) Tj /F2 10 Tf (individual project) Tj /F1 10 Tf (. All code you submit should be written by yourself. You should not share) Tj T* 0 Tw (your code with others.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 699.0236 cm
+1 0 0 1 62.69291 537.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Please see the syllabus for the full collaboration policy.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 687.0236 cm
+1 0 0 1 62.69291 525.0236 cm
 Q
 q
-1 0 0 1 62.69291 616.0236 cm
+1 0 0 1 62.69291 454.0236 cm
 q
 .960784 .960784 .862745 rg
 n 0 71 469.8898 -71 re f*
@@ -2976,28 +3017,28 @@ Q
 Q
 Q
 q
-1 0 0 1 62.69291 610.0236 cm
+1 0 0 1 62.69291 448.0236 cm
 Q
 q
-1 0 0 1 62.69291 580.0236 cm
+1 0 0 1 62.69291 418.0236 cm
 q
 BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (11 Access to Isengard) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 562.0236 cm
+1 0 0 1 62.69291 400.0236 cm
 q
 BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (Remote access to Isengard is quite similar to ALAMODE, but the hostname is ) Tj /F5 10 Tf (isengard.mines.edu) Tj /F1 10 Tf (.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 544.0236 cm
+1 0 0 1 62.69291 382.0236 cm
 q
 BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (For example, to ) Tj /F5 10 Tf (ssh) Tj /F1 10 Tf ( into the machine with your campus MultiPass login, use this command:) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 510.8236 cm
+1 0 0 1 62.69291 348.8236 cm
 q
 q
 1 0 0 1 0 0 cm
@@ -3018,25 +3059,25 @@ Q
 Q
 Q
 q
-1 0 0 1 62.69291 478.8236 cm
+1 0 0 1 62.69291 316.8236 cm
 q
 BT 1 0 0 1 0 14 Tm .540465 Tw 12 TL /F1 10 Tf 0 0 0 rg (Note: you need to be on the campus network or VPN for this to work. If you are working from home, use) Tj T* 0 Tw (either the VPN or hop thru ) Tj /F5 10 Tf (imagine.mines.edu) Tj /F1 10 Tf ( first.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 445.8236 cm
+1 0 0 1 62.69291 283.8236 cm
 q
 BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Appendices) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 415.8236 cm
+1 0 0 1 62.69291 253.8236 cm
 q
 BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (A Example Simulation Input) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 310.6236 cm
+1 0 0 1 62.69291 148.6236 cm
 q
 q
 1 0 0 1 0 0 cm
@@ -3057,37 +3098,16 @@ Q
 Q
 Q
 q
-1 0 0 1 62.69291 280.6236 cm
+1 0 0 1 62.69291 118.6236 cm
 q
 BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (B Example Simulation Output) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 262.6236 cm
+1 0 0 1 62.69291 100.6236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (For the input above, this was the output:) Tj T* ET
-Q
-Q
-q
-1 0 0 1 62.69291 85.42362 cm
-q
-q
-1 0 0 1 0 0 cm
-q
-1 0 0 1 6.6 6.6 cm
-q
-.662745 .662745 .662745 RG
-.5 w
-.960784 .960784 .862745 rg
-n -6 -6 468.6898 168 re B*
-Q
-q
-0 0 0 rg
-BT 1 0 0 1 0 146 Tm /F5 10 Tf 12 TL (At time 0:) Tj T* (   THREAD_ARRIVED) Tj T* (   Thread 0 in process 0 [INTERACTIVE]) Tj T* (   Transitioned from NEW to READY) Tj T*  T* (At time 0:) Tj T* (   DISPATCHER_INVOKED) Tj T* (   Thread 0 in process 0 [INTERACTIVE]) Tj T* (   Selected from 1 threads. Will run to completion of burst.) Tj T*  T* (At time 7:) Tj T* (   PROCESS_DISPATCH_COMPLETED) Tj T* (   Thread 0 in process 0 [INTERACTIVE]) Tj T* ET
-Q
-Q
-Q
 Q
 Q
  
@@ -3095,7 +3115,7 @@ endstream
 endobj
 65 0 obj
 <<
-/Length 1992
+/Length 1986
 >>
 stream
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
@@ -3114,7 +3134,7 @@ n -6 -6 468.6898 684 re B*
 Q
 q
 0 0 0 rg
-BT 1 0 0 1 0 662 Tm /F5 10 Tf 12 TL (   Transitioned from READY to RUNNING) Tj T*  T* (At time 11:) Tj T* (   CPU_BURST_COMPLETED) Tj T* (   Thread 0 in process 0 [INTERACTIVE]) Tj T* (   Transitioned from RUNNING to BLOCKED) Tj T*  T* (At time 16:) Tj T* (   IO_BURST_COMPLETED) Tj T* (   Thread 0 in process 0 [INTERACTIVE]) Tj T* (   Transitioned from BLOCKED to READY) Tj T*  T* (At time 16:) Tj T* (   DISPATCHER_INVOKED) Tj T* (   Thread 0 in process 0 [INTERACTIVE]) Tj T* (   Selected from 1 threads. Will run to completion of burst.) Tj T*  T* (At time 19:) Tj T* (   THREAD_DISPATCH_COMPLETED) Tj T* (   Thread 0 in process 0 [INTERACTIVE]) Tj T* (   Transitioned from READY to RUNNING) Tj T*  T* (At time 22:) Tj T* (   CPU_BURST_COMPLETED) Tj T* (   Thread 0 in process 0 [INTERACTIVE]) Tj T* (   Transitioned from RUNNING to BLOCKED) Tj T*  T* (At time 28:) Tj T* (   IO_BURST_COMPLETED) Tj T* (   Thread 0 in process 0 [INTERACTIVE]) Tj T* (   Transitioned from BLOCKED to READY) Tj T*  T* (At time 28:) Tj T* (   DISPATCHER_INVOKED) Tj T* (   Thread 0 in process 0 [INTERACTIVE]) Tj T* (   Selected from 1 threads. Will run to completion of burst.) Tj T*  T* (At time 31:) Tj T* (   THREAD_DISPATCH_COMPLETED) Tj T* (   Thread 0 in process 0 [INTERACTIVE]) Tj T* (   Transitioned from READY to RUNNING) Tj T*  T* (At time 32:) Tj T* (   THREAD_COMPLETED) Tj T* (   Thread 0 in process 0 [INTERACTIVE]) Tj T* (   Transitioned from RUNNING to EXIT) Tj T*  T* (SIMULATION COMPLETED !) Tj T*  T* (Process 0 [INTERACTIVE]:) Tj T* (   Thread 0:   ARR : 0  CPU : 8   I/O: 11    TRT : 32    END : 32) Tj T*  T* (SYSTEM THREADS:) Tj T* (   Total Count:                0) Tj T* (   Avg. response time:      0.00) Tj T* (   Avg. turnaround time:    0.00) Tj T* ET
+BT 1 0 0 1 0 662 Tm /F5 10 Tf 12 TL (At time 0:) Tj T* (   THREAD_ARRIVED) Tj T* (   Thread 0 in process 0 [INTERACTIVE]) Tj T* (   Transitioned from NEW to READY) Tj T*  T* (At time 0:) Tj T* (   DISPATCHER_INVOKED) Tj T* (   Thread 0 in process 0 [INTERACTIVE]) Tj T* (   Selected from 1 threads. Will run to completion of burst.) Tj T*  T* (At time 7:) Tj T* (   PROCESS_DISPATCH_COMPLETED) Tj T* (   Thread 0 in process 0 [INTERACTIVE]) Tj T* (   Transitioned from READY to RUNNING) Tj T*  T* (At time 11:) Tj T* (   CPU_BURST_COMPLETED) Tj T* (   Thread 0 in process 0 [INTERACTIVE]) Tj T* (   Transitioned from RUNNING to BLOCKED) Tj T*  T* (At time 16:) Tj T* (   IO_BURST_COMPLETED) Tj T* (   Thread 0 in process 0 [INTERACTIVE]) Tj T* (   Transitioned from BLOCKED to READY) Tj T*  T* (At time 16:) Tj T* (   DISPATCHER_INVOKED) Tj T* (   Thread 0 in process 0 [INTERACTIVE]) Tj T* (   Selected from 1 threads. Will run to completion of burst.) Tj T*  T* (At time 19:) Tj T* (   THREAD_DISPATCH_COMPLETED) Tj T* (   Thread 0 in process 0 [INTERACTIVE]) Tj T* (   Transitioned from READY to RUNNING) Tj T*  T* (At time 22:) Tj T* (   CPU_BURST_COMPLETED) Tj T* (   Thread 0 in process 0 [INTERACTIVE]) Tj T* (   Transitioned from RUNNING to BLOCKED) Tj T*  T* (At time 28:) Tj T* (   IO_BURST_COMPLETED) Tj T* (   Thread 0 in process 0 [INTERACTIVE]) Tj T* (   Transitioned from BLOCKED to READY) Tj T*  T* (At time 28:) Tj T* (   DISPATCHER_INVOKED) Tj T* (   Thread 0 in process 0 [INTERACTIVE]) Tj T* (   Selected from 1 threads. Will run to completion of burst.) Tj T*  T* (At time 31:) Tj T* (   THREAD_DISPATCH_COMPLETED) Tj T* (   Thread 0 in process 0 [INTERACTIVE]) Tj T* (   Transitioned from READY to RUNNING) Tj T*  T* (At time 32:) Tj T* ET
 Q
 Q
 Q
@@ -3125,12 +3145,12 @@ endstream
 endobj
 66 0 obj
 <<
-/Length 1384
+/Length 1801
 >>
 stream
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
 q
-1 0 0 1 62.69291 451.8236 cm
+1 0 0 1 62.69291 295.8236 cm
 q
 q
 1 0 0 1 0 0 cm
@@ -3140,25 +3160,25 @@ q
 .662745 .662745 .662745 RG
 .5 w
 .960784 .960784 .862745 rg
-n -6 -6 468.6898 312 re B*
+n -6 -6 468.6898 468 re B*
 Q
 q
 0 0 0 rg
-BT 1 0 0 1 0 290 Tm /F5 10 Tf 12 TL  T* (INTERACTIVE THREADS:) Tj T* (   Total Count: 1) Tj T* (   Avg. response time:      7.00) Tj T* (   Avg. turnaround time:   32.00) Tj T*  T* (NORMAL THREADS:) Tj T* (   Total Count :               0) Tj T* (   Avg. response time:      0.00) Tj T* (   Avg. turnaround time:    0.00) Tj T*  T* (BATCH THREADS:) Tj T* (   Total Count:                0) Tj T* (   Avg. response time:      0.00) Tj T* (   Avg. turnaround time:    0.00) Tj T*  T* (Total elapsed time:           32) Tj T* (Total service time:            8) Tj T* (Total I/O time:               11) Tj T* (Total dispatch time:          13) Tj T*  T* (Total idle time:              11) Tj T*  T* (CPU utilization:          65.62%) Tj T* (CPU efficiency:           25.00%) Tj T* ET
+BT 1 0 0 1 0 446 Tm /F5 10 Tf 12 TL (   THREAD_COMPLETED) Tj T* (   Thread 0 in process 0 [INTERACTIVE]) Tj T* (   Transitioned from RUNNING to EXIT) Tj T*  T* (SIMULATION COMPLETED !) Tj T*  T* (Process 0 [INTERACTIVE]:) Tj T* (   Thread 0:   ARR : 0  CPU : 8   I/O: 11    TRT : 32    END : 32) Tj T*  T* (SYSTEM THREADS:) Tj T* (   Total Count:                0) Tj T* (   Avg. response time:      0.00) Tj T* (   Avg. turnaround time:    0.00) Tj T*  T* (INTERACTIVE THREADS:) Tj T* (   Total Count: 1) Tj T* (   Avg. response time:      7.00) Tj T* (   Avg. turnaround time:   32.00) Tj T*  T* (NORMAL THREADS:) Tj T* (   Total Count :               0) Tj T* (   Avg. response time:      0.00) Tj T* (   Avg. turnaround time:    0.00) Tj T*  T* (BATCH THREADS:) Tj T* (   Total Count:                0) Tj T* (   Avg. response time:      0.00) Tj T* (   Avg. turnaround time:    0.00) Tj T*  T* (Total elapsed time:           32) Tj T* (Total service time:            8) Tj T* (Total I/O time:               11) Tj T* (Total dispatch time:          13) Tj T*  T* (Total idle time:              11) Tj T*  T* (CPU utilization:          65.62%) Tj T* (CPU efficiency:           25.00%) Tj T* ET
 Q
 Q
 Q
 Q
 Q
 q
-1 0 0 1 62.69291 387.1307 cm
+1 0 0 1 62.69291 231.1307 cm
 Q
 q
-1 0 0 1 62.69291 358.7843 cm
+1 0 0 1 62.69291 202.7843 cm
 n 0 14.17323 m 469.8898 14.17323 l S
 Q
 q
-1 0 0 1 62.69291 346.7843 cm
+1 0 0 1 62.69291 190.7843 cm
 q
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
@@ -3307,28 +3327,28 @@ xref
 0000085818 00000 n 
 0000090587 00000 n 
 0000098732 00000 n 
-0000107175 00000 n 
-0000112010 00000 n 
-0000115493 00000 n 
-0000119895 00000 n 
-0000123597 00000 n 
-0000125641 00000 n 
-0000127077 00000 n 
-0000127215 00000 n 
-0000127249 00000 n 
-0000127283 00000 n 
-0000127317 00000 n 
-0000127351 00000 n 
-0000127385 00000 n 
-0000127419 00000 n 
-0000127453 00000 n 
-0000127487 00000 n 
-0000127521 00000 n 
-0000127556 00000 n 
+0000107196 00000 n 
+0000110319 00000 n 
+0000115880 00000 n 
+0000119185 00000 n 
+0000124144 00000 n 
+0000126182 00000 n 
+0000128035 00000 n 
+0000128173 00000 n 
+0000128207 00000 n 
+0000128241 00000 n 
+0000128275 00000 n 
+0000128309 00000 n 
+0000128343 00000 n 
+0000128377 00000 n 
+0000128411 00000 n 
+0000128445 00000 n 
+0000128479 00000 n 
+0000128514 00000 n 
 trailer
 <<
 /ID 
-[<0d8ed08820f824bedea91678392d8338><0d8ed08820f824bedea91678392d8338>]
+[<1385b11caf3f1f3709ee9e253f1ba890><1385b11caf3f1f3709ee9e253f1ba890>]
 % ReportLab generated PDF document -- digest (http://www.reportlab.com)
 
 /Info 25 0 R
@@ -3336,5 +3356,5 @@ trailer
 /Size 79
 >>
 startxref
-127591
+128549
 %%EOF
