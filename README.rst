@@ -1,7 +1,7 @@
 CSCI-442 - Fall'20: Project 4 - CPU Scheduling Simulator
 ========================================================
 
-:Assigned: March 24, 2021
+:Assigned: March 25, 2021
 :Due: April 20, 2021, at 11:59 PM
 
 Introduction
