@@ -6,7 +6,7 @@ At time 0:
 At time 0:
     DISPATCHER_INVOKED
     Process 10 [BATCH]
-    Selected from 1 threads. Will run to completion of burst.
+    Selected from 1 processes. Will run to completion of burst.
 
 At time 10:
     PROCESS_ARRIVED
@@ -66,7 +66,7 @@ At time 67:
 At time 67:
     DISPATCHER_INVOKED
     Process 3 [BATCH]
-    Selected from 9 threads. Will run to completion of burst.
+    Selected from 9 processes. Will run to completion of burst.
 
 At time 70:
     PROCESS_ARRIVED
@@ -101,7 +101,7 @@ At time 142:
 At time 142:
     DISPATCHER_INVOKED
     Process 1 [NORMAL]
-    Selected from 12 threads. Will run to completion of burst.
+    Selected from 12 processes. Will run to completion of burst.
 
 At time 158:
     IO_BURST_COMPLETED
@@ -121,7 +121,7 @@ At time 196:
 At time 196:
     DISPATCHER_INVOKED
     Process 2 [NORMAL]
-    Selected from 12 threads. Will run to completion of burst.
+    Selected from 12 processes. Will run to completion of burst.
 
 At time 219:
     IO_BURST_COMPLETED
@@ -141,7 +141,7 @@ At time 274:
 At time 274:
     DISPATCHER_INVOKED
     Process 8 [NORMAL]
-    Selected from 12 threads. Will run to completion of burst.
+    Selected from 12 processes. Will run to completion of burst.
 
 At time 294:
     IO_BURST_COMPLETED
@@ -161,7 +161,7 @@ At time 336:
 At time 336:
     DISPATCHER_INVOKED
     Process 7 [NORMAL]
-    Selected from 12 threads. Will run to completion of burst.
+    Selected from 12 processes. Will run to completion of burst.
 
 At time 384:
     PROCESS_DISPATCH_COMPLETED
@@ -176,7 +176,7 @@ At time 412:
 At time 412:
     DISPATCHER_INVOKED
     Process 4 [NORMAL]
-    Selected from 11 threads. Will run to completion of burst.
+    Selected from 11 processes. Will run to completion of burst.
 
 At time 430:
     IO_BURST_COMPLETED
@@ -196,7 +196,7 @@ At time 489:
 At time 489:
     DISPATCHER_INVOKED
     Process 11 [BATCH]
-    Selected from 11 threads. Will run to completion of burst.
+    Selected from 11 processes. Will run to completion of burst.
 
 At time 519:
     IO_BURST_COMPLETED
@@ -216,7 +216,7 @@ At time 548:
 At time 548:
     DISPATCHER_INVOKED
     Process 0 [NORMAL]
-    Selected from 11 threads. Will run to completion of burst.
+    Selected from 11 processes. Will run to completion of burst.
 
 At time 561:
     IO_BURST_COMPLETED
@@ -236,7 +236,7 @@ At time 598:
 At time 598:
     DISPATCHER_INVOKED
     Process 12 [BATCH]
-    Selected from 11 threads. Will run to completion of burst.
+    Selected from 11 processes. Will run to completion of burst.
 
 At time 646:
     PROCESS_DISPATCH_COMPLETED
@@ -251,7 +251,7 @@ At time 658:
 At time 658:
     DISPATCHER_INVOKED
     Process 6 [NORMAL]
-    Selected from 10 threads. Will run to completion of burst.
+    Selected from 10 processes. Will run to completion of burst.
 
 At time 671:
     IO_BURST_COMPLETED
@@ -271,7 +271,7 @@ At time 717:
 At time 717:
     DISPATCHER_INVOKED
     Process 5 [INTERACTIVE]
-    Selected from 10 threads. Will run to completion of burst.
+    Selected from 10 processes. Will run to completion of burst.
 
 At time 725:
     IO_BURST_COMPLETED
@@ -291,7 +291,7 @@ At time 786:
 At time 786:
     DISPATCHER_INVOKED
     Process 9 [NORMAL]
-    Selected from 10 threads. Will run to completion of burst.
+    Selected from 10 processes. Will run to completion of burst.
 
 At time 789:
     IO_BURST_COMPLETED
@@ -311,7 +311,7 @@ At time 864:
 At time 864:
     DISPATCHER_INVOKED
     Process 10 [BATCH]
-    Selected from 10 threads. Will run to completion of burst.
+    Selected from 10 processes. Will run to completion of burst.
 
 At time 867:
     IO_BURST_COMPLETED
@@ -331,7 +331,7 @@ At time 940:
 At time 940:
     DISPATCHER_INVOKED
     Process 3 [BATCH]
-    Selected from 10 threads. Will run to completion of burst.
+    Selected from 10 processes. Will run to completion of burst.
 
 At time 960:
     IO_BURST_COMPLETED
@@ -351,7 +351,7 @@ At time 1016:
 At time 1016:
     DISPATCHER_INVOKED
     Process 1 [NORMAL]
-    Selected from 10 threads. Will run to completion of burst.
+    Selected from 10 processes. Will run to completion of burst.
 
 At time 1044:
     IO_BURST_COMPLETED
@@ -371,7 +371,7 @@ At time 1073:
 At time 1073:
     DISPATCHER_INVOKED
     Process 2 [NORMAL]
-    Selected from 10 threads. Will run to completion of burst.
+    Selected from 10 processes. Will run to completion of burst.
 
 At time 1090:
     IO_BURST_COMPLETED
@@ -391,7 +391,7 @@ At time 1147:
 At time 1147:
     DISPATCHER_INVOKED
     Process 7 [NORMAL]
-    Selected from 10 threads. Will run to completion of burst.
+    Selected from 10 processes. Will run to completion of burst.
 
 At time 1155:
     IO_BURST_COMPLETED
@@ -411,7 +411,7 @@ At time 1214:
 At time 1214:
     DISPATCHER_INVOKED
     Process 4 [NORMAL]
-    Selected from 10 threads. Will run to completion of burst.
+    Selected from 10 processes. Will run to completion of burst.
 
 At time 1222:
     IO_BURST_COMPLETED
@@ -431,7 +431,7 @@ At time 1266:
 At time 1266:
     DISPATCHER_INVOKED
     Process 11 [BATCH]
-    Selected from 10 threads. Will run to completion of burst.
+    Selected from 10 processes. Will run to completion of burst.
 
 At time 1295:
     IO_BURST_COMPLETED
@@ -451,7 +451,7 @@ At time 1336:
 At time 1336:
     DISPATCHER_INVOKED
     Process 12 [BATCH]
-    Selected from 10 threads. Will run to completion of burst.
+    Selected from 10 processes. Will run to completion of burst.
 
 At time 1349:
     IO_BURST_COMPLETED
@@ -471,7 +471,7 @@ At time 1388:
 At time 1388:
     DISPATCHER_INVOKED
     Process 6 [NORMAL]
-    Selected from 10 threads. Will run to completion of burst.
+    Selected from 10 processes. Will run to completion of burst.
 
 At time 1414:
     IO_BURST_COMPLETED
@@ -491,7 +491,7 @@ At time 1464:
 At time 1464:
     DISPATCHER_INVOKED
     Process 5 [INTERACTIVE]
-    Selected from 10 threads. Will run to completion of burst.
+    Selected from 10 processes. Will run to completion of burst.
 
 At time 1485:
     IO_BURST_COMPLETED
@@ -511,7 +511,7 @@ At time 1525:
 At time 1525:
     DISPATCHER_INVOKED
     Process 9 [NORMAL]
-    Selected from 10 threads. Will run to completion of burst.
+    Selected from 10 processes. Will run to completion of burst.
 
 At time 1532:
     IO_BURST_COMPLETED
@@ -531,7 +531,7 @@ At time 1598:
 At time 1598:
     DISPATCHER_INVOKED
     Process 10 [BATCH]
-    Selected from 10 threads. Will run to completion of burst.
+    Selected from 10 processes. Will run to completion of burst.
 
 At time 1626:
     IO_BURST_COMPLETED
@@ -551,7 +551,7 @@ At time 1666:
 At time 1666:
     DISPATCHER_INVOKED
     Process 3 [BATCH]
-    Selected from 10 threads. Will run to completion of burst.
+    Selected from 10 processes. Will run to completion of burst.
 
 At time 1679:
     IO_BURST_COMPLETED
@@ -571,7 +571,7 @@ At time 1730:
 At time 1730:
     DISPATCHER_INVOKED
     Process 1 [NORMAL]
-    Selected from 10 threads. Will run to completion of burst.
+    Selected from 10 processes. Will run to completion of burst.
 
 At time 1778:
     PROCESS_DISPATCH_COMPLETED
@@ -586,7 +586,7 @@ At time 1803:
 At time 1803:
     DISPATCHER_INVOKED
     Process 2 [NORMAL]
-    Selected from 9 threads. Will run to completion of burst.
+    Selected from 9 processes. Will run to completion of burst.
 
 At time 1819:
     IO_BURST_COMPLETED
@@ -606,7 +606,7 @@ At time 1865:
 At time 1865:
     DISPATCHER_INVOKED
     Process 7 [NORMAL]
-    Selected from 9 threads. Will run to completion of burst.
+    Selected from 9 processes. Will run to completion of burst.
 
 At time 1913:
     PROCESS_DISPATCH_COMPLETED
@@ -621,7 +621,7 @@ At time 1928:
 At time 1928:
     DISPATCHER_INVOKED
     Process 4 [NORMAL]
-    Selected from 8 threads. Will run to completion of burst.
+    Selected from 8 processes. Will run to completion of burst.
 
 At time 1943:
     IO_BURST_COMPLETED
@@ -641,7 +641,7 @@ At time 2000:
 At time 2000:
     DISPATCHER_INVOKED
     Process 11 [BATCH]
-    Selected from 8 threads. Will run to completion of burst.
+    Selected from 8 processes. Will run to completion of burst.
 
 At time 2001:
     IO_BURST_COMPLETED
@@ -661,7 +661,7 @@ At time 2053:
 At time 2053:
     DISPATCHER_INVOKED
     Process 12 [BATCH]
-    Selected from 8 threads. Will run to completion of burst.
+    Selected from 8 processes. Will run to completion of burst.
 
 At time 2075:
     IO_BURST_COMPLETED
@@ -681,7 +681,7 @@ At time 2111:
 At time 2111:
     DISPATCHER_INVOKED
     Process 6 [NORMAL]
-    Selected from 8 threads. Will run to completion of burst.
+    Selected from 8 processes. Will run to completion of burst.
 
 At time 2159:
     PROCESS_DISPATCH_COMPLETED
@@ -696,7 +696,7 @@ At time 2160:
 At time 2160:
     DISPATCHER_INVOKED
     Process 5 [INTERACTIVE]
-    Selected from 7 threads. Will run to completion of burst.
+    Selected from 7 processes. Will run to completion of burst.
 
 At time 2170:
     IO_BURST_COMPLETED
@@ -716,7 +716,7 @@ At time 2235:
 At time 2235:
     DISPATCHER_INVOKED
     Process 9 [NORMAL]
-    Selected from 7 threads. Will run to completion of burst.
+    Selected from 7 processes. Will run to completion of burst.
 
 At time 2238:
     IO_BURST_COMPLETED
@@ -736,7 +736,7 @@ At time 2291:
 At time 2291:
     DISPATCHER_INVOKED
     Process 10 [BATCH]
-    Selected from 7 threads. Will run to completion of burst.
+    Selected from 7 processes. Will run to completion of burst.
 
 At time 2317:
     IO_BURST_COMPLETED
@@ -756,7 +756,7 @@ At time 2348:
 At time 2348:
     DISPATCHER_INVOKED
     Process 1 [NORMAL]
-    Selected from 7 threads. Will run to completion of burst.
+    Selected from 7 processes. Will run to completion of burst.
 
 At time 2356:
     IO_BURST_COMPLETED
@@ -776,7 +776,7 @@ At time 2397:
 At time 2397:
     DISPATCHER_INVOKED
     Process 7 [NORMAL]
-    Selected from 7 threads. Will run to completion of burst.
+    Selected from 7 processes. Will run to completion of burst.
 
 At time 2421:
     IO_BURST_COMPLETED
@@ -796,7 +796,7 @@ At time 2451:
 At time 2451:
     DISPATCHER_INVOKED
     Process 4 [NORMAL]
-    Selected from 7 threads. Will run to completion of burst.
+    Selected from 7 processes. Will run to completion of burst.
 
 At time 2460:
     IO_BURST_COMPLETED
@@ -816,7 +816,7 @@ At time 2513:
 At time 2513:
     DISPATCHER_INVOKED
     Process 11 [BATCH]
-    Selected from 7 threads. Will run to completion of burst.
+    Selected from 7 processes. Will run to completion of burst.
 
 At time 2542:
     IO_BURST_COMPLETED
@@ -836,7 +836,7 @@ At time 2591:
 At time 2591:
     DISPATCHER_INVOKED
     Process 6 [NORMAL]
-    Selected from 7 threads. Will run to completion of burst.
+    Selected from 7 processes. Will run to completion of burst.
 
 At time 2621:
     IO_BURST_COMPLETED
@@ -856,7 +856,7 @@ At time 2653:
 At time 2653:
     DISPATCHER_INVOKED
     Process 5 [INTERACTIVE]
-    Selected from 7 threads. Will run to completion of burst.
+    Selected from 7 processes. Will run to completion of burst.
 
 At time 2677:
     IO_BURST_COMPLETED
@@ -876,7 +876,7 @@ At time 2703:
 At time 2703:
     DISPATCHER_INVOKED
     Process 9 [NORMAL]
-    Selected from 7 threads. Will run to completion of burst.
+    Selected from 7 processes. Will run to completion of burst.
 
 At time 2727:
     IO_BURST_COMPLETED
@@ -896,7 +896,7 @@ At time 2760:
 At time 2760:
     DISPATCHER_INVOKED
     Process 10 [BATCH]
-    Selected from 7 threads. Will run to completion of burst.
+    Selected from 7 processes. Will run to completion of burst.
 
 At time 2769:
     IO_BURST_COMPLETED
@@ -916,7 +916,7 @@ At time 2830:
 At time 2830:
     DISPATCHER_INVOKED
     Process 1 [NORMAL]
-    Selected from 7 threads. Will run to completion of burst.
+    Selected from 7 processes. Will run to completion of burst.
 
 At time 2854:
     IO_BURST_COMPLETED
@@ -936,7 +936,7 @@ At time 2890:
 At time 2890:
     DISPATCHER_INVOKED
     Process 7 [NORMAL]
-    Selected from 7 threads. Will run to completion of burst.
+    Selected from 7 processes. Will run to completion of burst.
 
 At time 2919:
     IO_BURST_COMPLETED
@@ -956,7 +956,7 @@ At time 2941:
 At time 2941:
     DISPATCHER_INVOKED
     Process 4 [NORMAL]
-    Selected from 7 threads. Will run to completion of burst.
+    Selected from 7 processes. Will run to completion of burst.
 
 At time 2965:
     IO_BURST_COMPLETED
@@ -976,7 +976,7 @@ At time 2995:
 At time 2995:
     DISPATCHER_INVOKED
     Process 11 [BATCH]
-    Selected from 7 threads. Will run to completion of burst.
+    Selected from 7 processes. Will run to completion of burst.
 
 At time 2996:
     IO_BURST_COMPLETED
@@ -996,7 +996,7 @@ At time 3057:
 At time 3057:
     DISPATCHER_INVOKED
     Process 6 [NORMAL]
-    Selected from 7 threads. Will run to completion of burst.
+    Selected from 7 processes. Will run to completion of burst.
 
 At time 3060:
     IO_BURST_COMPLETED
@@ -1016,7 +1016,7 @@ At time 3119:
 At time 3119:
     DISPATCHER_INVOKED
     Process 5 [INTERACTIVE]
-    Selected from 7 threads. Will run to completion of burst.
+    Selected from 7 processes. Will run to completion of burst.
 
 At time 3140:
     IO_BURST_COMPLETED
@@ -1036,7 +1036,7 @@ At time 3197:
 At time 3197:
     DISPATCHER_INVOKED
     Process 9 [NORMAL]
-    Selected from 7 threads. Will run to completion of burst.
+    Selected from 7 processes. Will run to completion of burst.
 
 At time 3203:
     IO_BURST_COMPLETED
@@ -1056,7 +1056,7 @@ At time 3264:
 At time 3264:
     DISPATCHER_INVOKED
     Process 10 [BATCH]
-    Selected from 7 threads. Will run to completion of burst.
+    Selected from 7 processes. Will run to completion of burst.
 
 At time 3266:
     IO_BURST_COMPLETED
@@ -1076,7 +1076,7 @@ At time 3320:
 At time 3320:
     DISPATCHER_INVOKED
     Process 1 [NORMAL]
-    Selected from 7 threads. Will run to completion of burst.
+    Selected from 7 processes. Will run to completion of burst.
 
 At time 3327:
     IO_BURST_COMPLETED
@@ -1096,7 +1096,7 @@ At time 3369:
 At time 3369:
     DISPATCHER_INVOKED
     Process 7 [NORMAL]
-    Selected from 7 threads. Will run to completion of burst.
+    Selected from 7 processes. Will run to completion of burst.
 
 At time 3375:
     IO_BURST_COMPLETED
@@ -1116,7 +1116,7 @@ At time 3443:
 At time 3443:
     DISPATCHER_INVOKED
     Process 4 [NORMAL]
-    Selected from 7 threads. Will run to completion of burst.
+    Selected from 7 processes. Will run to completion of burst.
 
 At time 3471:
     IO_BURST_COMPLETED
@@ -1136,7 +1136,7 @@ At time 3501:
 At time 3501:
     DISPATCHER_INVOKED
     Process 11 [BATCH]
-    Selected from 7 threads. Will run to completion of burst.
+    Selected from 7 processes. Will run to completion of burst.
 
 At time 3507:
     IO_BURST_COMPLETED
@@ -1156,7 +1156,7 @@ At time 3563:
 At time 3563:
     DISPATCHER_INVOKED
     Process 6 [NORMAL]
-    Selected from 7 threads. Will run to completion of burst.
+    Selected from 7 processes. Will run to completion of burst.
 
 At time 3611:
     PROCESS_DISPATCH_COMPLETED
@@ -1171,7 +1171,7 @@ At time 3617:
 At time 3617:
     DISPATCHER_INVOKED
     Process 5 [INTERACTIVE]
-    Selected from 6 threads. Will run to completion of burst.
+    Selected from 6 processes. Will run to completion of burst.
 
 At time 3665:
     PROCESS_DISPATCH_COMPLETED
@@ -1186,7 +1186,7 @@ At time 3668:
 At time 3668:
     DISPATCHER_INVOKED
     Process 9 [NORMAL]
-    Selected from 5 threads. Will run to completion of burst.
+    Selected from 5 processes. Will run to completion of burst.
 
 At time 3683:
     IO_BURST_COMPLETED
@@ -1206,7 +1206,7 @@ At time 3737:
 At time 3737:
     DISPATCHER_INVOKED
     Process 10 [BATCH]
-    Selected from 5 threads. Will run to completion of burst.
+    Selected from 5 processes. Will run to completion of burst.
 
 At time 3785:
     PROCESS_DISPATCH_COMPLETED
@@ -1221,7 +1221,7 @@ At time 3813:
 At time 3813:
     DISPATCHER_INVOKED
     Process 1 [NORMAL]
-    Selected from 4 threads. Will run to completion of burst.
+    Selected from 4 processes. Will run to completion of burst.
 
 At time 3837:
     IO_BURST_COMPLETED
@@ -1241,7 +1241,7 @@ At time 3891:
 At time 3891:
     DISPATCHER_INVOKED
     Process 7 [NORMAL]
-    Selected from 4 threads. Will run to completion of burst.
+    Selected from 4 processes. Will run to completion of burst.
 
 At time 3895:
     IO_BURST_COMPLETED
@@ -1261,7 +1261,7 @@ At time 3961:
 At time 3961:
     DISPATCHER_INVOKED
     Process 4 [NORMAL]
-    Selected from 4 threads. Will run to completion of burst.
+    Selected from 4 processes. Will run to completion of burst.
 
 At time 4009:
     PROCESS_DISPATCH_COMPLETED
@@ -1276,7 +1276,7 @@ At time 4036:
 At time 4036:
     DISPATCHER_INVOKED
     Process 5 [INTERACTIVE]
-    Selected from 3 threads. Will run to completion of burst.
+    Selected from 3 processes. Will run to completion of burst.
 
 At time 4055:
     IO_BURST_COMPLETED
@@ -1296,7 +1296,7 @@ At time 4109:
 At time 4109:
     DISPATCHER_INVOKED
     Process 10 [BATCH]
-    Selected from 3 threads. Will run to completion of burst.
+    Selected from 3 processes. Will run to completion of burst.
 
 At time 4157:
     PROCESS_DISPATCH_COMPLETED
@@ -1311,7 +1311,7 @@ At time 4174:
 At time 4174:
     DISPATCHER_INVOKED
     Process 1 [NORMAL]
-    Selected from 2 threads. Will run to completion of burst.
+    Selected from 2 processes. Will run to completion of burst.
 
 At time 4184:
     IO_BURST_COMPLETED
@@ -1331,7 +1331,7 @@ At time 4243:
 At time 4243:
     DISPATCHER_INVOKED
     Process 4 [NORMAL]
-    Selected from 2 threads. Will run to completion of burst.
+    Selected from 2 processes. Will run to completion of burst.
 
 At time 4291:
     PROCESS_DISPATCH_COMPLETED
@@ -1346,7 +1346,7 @@ At time 4312:
 At time 4312:
     DISPATCHER_INVOKED
     Process 10 [BATCH]
-    Selected from 1 threads. Will run to completion of burst.
+    Selected from 1 processes. Will run to completion of burst.
 
 At time 4360:
     PROCESS_DISPATCH_COMPLETED
@@ -1366,7 +1366,7 @@ At time 4415:
 At time 4415:
     DISPATCHER_INVOKED
     Process 10 [BATCH]
-    Selected from 1 threads. Will run to completion of burst.
+    Selected from 1 processes. Will run to completion of burst.
 
 At time 4434:
     PROCESS_DISPATCH_COMPLETED

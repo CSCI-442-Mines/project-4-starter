@@ -6,7 +6,7 @@ At time 62:
 At time 62:
     DISPATCHER_INVOKED
     Process 1 [NORMAL]
-    Selected from 1 threads. Will run for at most 3 ticks.
+    Selected from 1 processes. Will run for at most 3 ticks.
 
 At time 80:
     PROCESS_ARRIVED
@@ -26,7 +26,7 @@ At time 101:
 At time 101:
     DISPATCHER_INVOKED
     Process 0 [INTERACTIVE]
-    Selected from 2 threads. Will run for at most 3 ticks.
+    Selected from 2 processes. Will run for at most 3 ticks.
 
 At time 137:
     PROCESS_DISPATCH_COMPLETED
@@ -41,7 +41,7 @@ At time 140:
 At time 140:
     DISPATCHER_INVOKED
     Process 1 [NORMAL]
-    Selected from 2 threads. Will run for at most 3 ticks.
+    Selected from 2 processes. Will run for at most 3 ticks.
 
 At time 176:
     PROCESS_DISPATCH_COMPLETED
@@ -56,7 +56,7 @@ At time 178:
 At time 178:
     DISPATCHER_INVOKED
     Process 0 [INTERACTIVE]
-    Selected from 1 threads. Will run for at most 3 ticks.
+    Selected from 1 processes. Will run for at most 3 ticks.
 
 At time 185:
     IO_BURST_COMPLETED
@@ -76,7 +76,7 @@ At time 217:
 At time 217:
     DISPATCHER_INVOKED
     Process 1 [NORMAL]
-    Selected from 1 threads. Will run for at most 3 ticks.
+    Selected from 1 processes. Will run for at most 3 ticks.
 
 At time 245:
     IO_BURST_COMPLETED
@@ -96,7 +96,7 @@ At time 256:
 At time 256:
     DISPATCHER_INVOKED
     Process 0 [INTERACTIVE]
-    Selected from 2 threads. Will run for at most 3 ticks.
+    Selected from 2 processes. Will run for at most 3 ticks.
 
 At time 292:
     PROCESS_DISPATCH_COMPLETED
@@ -111,7 +111,7 @@ At time 295:
 At time 295:
     DISPATCHER_INVOKED
     Process 1 [NORMAL]
-    Selected from 2 threads. Will run for at most 3 ticks.
+    Selected from 2 processes. Will run for at most 3 ticks.
 
 At time 331:
     PROCESS_DISPATCH_COMPLETED
@@ -126,7 +126,7 @@ At time 334:
 At time 334:
     DISPATCHER_INVOKED
     Process 0 [INTERACTIVE]
-    Selected from 2 threads. Will run for at most 3 ticks.
+    Selected from 2 processes. Will run for at most 3 ticks.
 
 At time 370:
     PROCESS_DISPATCH_COMPLETED
@@ -141,7 +141,7 @@ At time 373:
 At time 373:
     DISPATCHER_INVOKED
     Process 1 [NORMAL]
-    Selected from 2 threads. Will run for at most 3 ticks.
+    Selected from 2 processes. Will run for at most 3 ticks.
 
 At time 409:
     PROCESS_DISPATCH_COMPLETED
@@ -156,7 +156,7 @@ At time 412:
 At time 412:
     DISPATCHER_INVOKED
     Process 0 [INTERACTIVE]
-    Selected from 2 threads. Will run for at most 3 ticks.
+    Selected from 2 processes. Will run for at most 3 ticks.
 
 At time 448:
     PROCESS_DISPATCH_COMPLETED
@@ -171,7 +171,7 @@ At time 451:
 At time 451:
     DISPATCHER_INVOKED
     Process 1 [NORMAL]
-    Selected from 2 threads. Will run for at most 3 ticks.
+    Selected from 2 processes. Will run for at most 3 ticks.
 
 At time 487:
     PROCESS_DISPATCH_COMPLETED
@@ -186,7 +186,7 @@ At time 490:
 At time 490:
     DISPATCHER_INVOKED
     Process 0 [INTERACTIVE]
-    Selected from 2 threads. Will run for at most 3 ticks.
+    Selected from 2 processes. Will run for at most 3 ticks.
 
 At time 526:
     PROCESS_DISPATCH_COMPLETED
@@ -201,7 +201,7 @@ At time 529:
 At time 529:
     DISPATCHER_INVOKED
     Process 1 [NORMAL]
-    Selected from 2 threads. Will run for at most 3 ticks.
+    Selected from 2 processes. Will run for at most 3 ticks.
 
 At time 565:
     PROCESS_DISPATCH_COMPLETED
@@ -216,7 +216,7 @@ At time 568:
 At time 568:
     DISPATCHER_INVOKED
     Process 0 [INTERACTIVE]
-    Selected from 2 threads. Will run for at most 3 ticks.
+    Selected from 2 processes. Will run for at most 3 ticks.
 
 At time 604:
     PROCESS_DISPATCH_COMPLETED
@@ -231,7 +231,7 @@ At time 607:
 At time 607:
     DISPATCHER_INVOKED
     Process 1 [NORMAL]
-    Selected from 2 threads. Will run for at most 3 ticks.
+    Selected from 2 processes. Will run for at most 3 ticks.
 
 At time 643:
     PROCESS_DISPATCH_COMPLETED
@@ -246,7 +246,7 @@ At time 646:
 At time 646:
     DISPATCHER_INVOKED
     Process 0 [INTERACTIVE]
-    Selected from 2 threads. Will run for at most 3 ticks.
+    Selected from 2 processes. Will run for at most 3 ticks.
 
 At time 682:
     PROCESS_DISPATCH_COMPLETED
@@ -261,7 +261,7 @@ At time 685:
 At time 685:
     DISPATCHER_INVOKED
     Process 1 [NORMAL]
-    Selected from 2 threads. Will run for at most 3 ticks.
+    Selected from 2 processes. Will run for at most 3 ticks.
 
 At time 721:
     PROCESS_DISPATCH_COMPLETED
@@ -276,7 +276,7 @@ At time 724:
 At time 724:
     DISPATCHER_INVOKED
     Process 0 [INTERACTIVE]
-    Selected from 1 threads. Will run for at most 3 ticks.
+    Selected from 1 processes. Will run for at most 3 ticks.
 
 At time 740:
     IO_BURST_COMPLETED
@@ -296,7 +296,7 @@ At time 763:
 At time 763:
     DISPATCHER_INVOKED
     Process 1 [NORMAL]
-    Selected from 2 threads. Will run for at most 3 ticks.
+    Selected from 2 processes. Will run for at most 3 ticks.
 
 At time 799:
     PROCESS_DISPATCH_COMPLETED
@@ -311,7 +311,7 @@ At time 802:
 At time 802:
     DISPATCHER_INVOKED
     Process 0 [INTERACTIVE]
-    Selected from 2 threads. Will run for at most 3 ticks.
+    Selected from 2 processes. Will run for at most 3 ticks.
 
 At time 838:
     PROCESS_DISPATCH_COMPLETED
@@ -326,7 +326,7 @@ At time 841:
 At time 841:
     DISPATCHER_INVOKED
     Process 1 [NORMAL]
-    Selected from 2 threads. Will run for at most 3 ticks.
+    Selected from 2 processes. Will run for at most 3 ticks.
 
 At time 877:
     PROCESS_DISPATCH_COMPLETED
@@ -341,7 +341,7 @@ At time 880:
 At time 880:
     DISPATCHER_INVOKED
     Process 0 [INTERACTIVE]
-    Selected from 2 threads. Will run for at most 3 ticks.
+    Selected from 2 processes. Will run for at most 3 ticks.
 
 At time 916:
     PROCESS_DISPATCH_COMPLETED
@@ -356,7 +356,7 @@ At time 919:
 At time 919:
     DISPATCHER_INVOKED
     Process 1 [NORMAL]
-    Selected from 2 threads. Will run for at most 3 ticks.
+    Selected from 2 processes. Will run for at most 3 ticks.
 
 At time 955:
     PROCESS_DISPATCH_COMPLETED
@@ -371,7 +371,7 @@ At time 958:
 At time 958:
     DISPATCHER_INVOKED
     Process 0 [INTERACTIVE]
-    Selected from 2 threads. Will run for at most 3 ticks.
+    Selected from 2 processes. Will run for at most 3 ticks.
 
 At time 994:
     PROCESS_DISPATCH_COMPLETED
@@ -386,7 +386,7 @@ At time 996:
 At time 996:
     DISPATCHER_INVOKED
     Process 1 [NORMAL]
-    Selected from 1 threads. Will run for at most 3 ticks.
+    Selected from 1 processes. Will run for at most 3 ticks.
 
 At time 1005:
     IO_BURST_COMPLETED
@@ -406,7 +406,7 @@ At time 1035:
 At time 1035:
     DISPATCHER_INVOKED
     Process 0 [INTERACTIVE]
-    Selected from 2 threads. Will run for at most 3 ticks.
+    Selected from 2 processes. Will run for at most 3 ticks.
 
 At time 1071:
     PROCESS_DISPATCH_COMPLETED
@@ -421,7 +421,7 @@ At time 1074:
 At time 1074:
     DISPATCHER_INVOKED
     Process 1 [NORMAL]
-    Selected from 2 threads. Will run for at most 3 ticks.
+    Selected from 2 processes. Will run for at most 3 ticks.
 
 At time 1110:
     PROCESS_DISPATCH_COMPLETED
@@ -436,7 +436,7 @@ At time 1113:
 At time 1113:
     DISPATCHER_INVOKED
     Process 0 [INTERACTIVE]
-    Selected from 2 threads. Will run for at most 3 ticks.
+    Selected from 2 processes. Will run for at most 3 ticks.
 
 At time 1149:
     PROCESS_DISPATCH_COMPLETED
@@ -451,7 +451,7 @@ At time 1152:
 At time 1152:
     DISPATCHER_INVOKED
     Process 1 [NORMAL]
-    Selected from 2 threads. Will run for at most 3 ticks.
+    Selected from 2 processes. Will run for at most 3 ticks.
 
 At time 1188:
     PROCESS_DISPATCH_COMPLETED
@@ -466,7 +466,7 @@ At time 1191:
 At time 1191:
     DISPATCHER_INVOKED
     Process 0 [INTERACTIVE]
-    Selected from 2 threads. Will run for at most 3 ticks.
+    Selected from 2 processes. Will run for at most 3 ticks.
 
 At time 1227:
     PROCESS_DISPATCH_COMPLETED
@@ -481,7 +481,7 @@ At time 1228:
 At time 1228:
     DISPATCHER_INVOKED
     Process 1 [NORMAL]
-    Selected from 1 threads. Will run for at most 3 ticks.
+    Selected from 1 processes. Will run for at most 3 ticks.
 
 At time 1249:
     IO_BURST_COMPLETED
@@ -501,7 +501,7 @@ At time 1267:
 At time 1267:
     DISPATCHER_INVOKED
     Process 0 [INTERACTIVE]
-    Selected from 2 threads. Will run for at most 3 ticks.
+    Selected from 2 processes. Will run for at most 3 ticks.
 
 At time 1303:
     PROCESS_DISPATCH_COMPLETED
@@ -516,7 +516,7 @@ At time 1306:
 At time 1306:
     DISPATCHER_INVOKED
     Process 1 [NORMAL]
-    Selected from 2 threads. Will run for at most 3 ticks.
+    Selected from 2 processes. Will run for at most 3 ticks.
 
 At time 1342:
     PROCESS_DISPATCH_COMPLETED
@@ -531,7 +531,7 @@ At time 1344:
 At time 1344:
     DISPATCHER_INVOKED
     Process 0 [INTERACTIVE]
-    Selected from 1 threads. Will run for at most 3 ticks.
+    Selected from 1 processes. Will run for at most 3 ticks.
 
 At time 1355:
     IO_BURST_COMPLETED
@@ -551,7 +551,7 @@ At time 1383:
 At time 1383:
     DISPATCHER_INVOKED
     Process 1 [NORMAL]
-    Selected from 2 threads. Will run for at most 3 ticks.
+    Selected from 2 processes. Will run for at most 3 ticks.
 
 At time 1419:
     PROCESS_DISPATCH_COMPLETED
@@ -566,7 +566,7 @@ At time 1422:
 At time 1422:
     DISPATCHER_INVOKED
     Process 0 [INTERACTIVE]
-    Selected from 2 threads. Will run for at most 3 ticks.
+    Selected from 2 processes. Will run for at most 3 ticks.
 
 At time 1458:
     PROCESS_DISPATCH_COMPLETED
@@ -581,7 +581,7 @@ At time 1461:
 At time 1461:
     DISPATCHER_INVOKED
     Process 1 [NORMAL]
-    Selected from 2 threads. Will run for at most 3 ticks.
+    Selected from 2 processes. Will run for at most 3 ticks.
 
 At time 1497:
     PROCESS_DISPATCH_COMPLETED
@@ -596,7 +596,7 @@ At time 1500:
 At time 1500:
     DISPATCHER_INVOKED
     Process 0 [INTERACTIVE]
-    Selected from 2 threads. Will run for at most 3 ticks.
+    Selected from 2 processes. Will run for at most 3 ticks.
 
 At time 1536:
     PROCESS_DISPATCH_COMPLETED
@@ -611,7 +611,7 @@ At time 1539:
 At time 1539:
     DISPATCHER_INVOKED
     Process 1 [NORMAL]
-    Selected from 2 threads. Will run for at most 3 ticks.
+    Selected from 2 processes. Will run for at most 3 ticks.
 
 At time 1575:
     PROCESS_DISPATCH_COMPLETED
@@ -626,7 +626,7 @@ At time 1578:
 At time 1578:
     DISPATCHER_INVOKED
     Process 0 [INTERACTIVE]
-    Selected from 2 threads. Will run for at most 3 ticks.
+    Selected from 2 processes. Will run for at most 3 ticks.
 
 At time 1614:
     PROCESS_DISPATCH_COMPLETED
@@ -641,7 +641,7 @@ At time 1617:
 At time 1617:
     DISPATCHER_INVOKED
     Process 1 [NORMAL]
-    Selected from 2 threads. Will run for at most 3 ticks.
+    Selected from 2 processes. Will run for at most 3 ticks.
 
 At time 1653:
     PROCESS_DISPATCH_COMPLETED
@@ -656,7 +656,7 @@ At time 1656:
 At time 1656:
     DISPATCHER_INVOKED
     Process 0 [INTERACTIVE]
-    Selected from 1 threads. Will run for at most 3 ticks.
+    Selected from 1 processes. Will run for at most 3 ticks.
 
 At time 1692:
     PROCESS_DISPATCH_COMPLETED
@@ -676,7 +676,7 @@ At time 1704:
 At time 1704:
     DISPATCHER_INVOKED
     Process 0 [INTERACTIVE]
-    Selected from 1 threads. Will run for at most 3 ticks.
+    Selected from 1 processes. Will run for at most 3 ticks.
 
 At time 1718:
     PROCESS_DISPATCH_COMPLETED
@@ -691,7 +691,7 @@ At time 1721:
 At time 1721:
     DISPATCHER_INVOKED
     Process 0 [INTERACTIVE]
-    Selected from 1 threads. Will run for at most 3 ticks.
+    Selected from 1 processes. Will run for at most 3 ticks.
 
 At time 1735:
     PROCESS_DISPATCH_COMPLETED
@@ -706,7 +706,7 @@ At time 1738:
 At time 1738:
     DISPATCHER_INVOKED
     Process 0 [INTERACTIVE]
-    Selected from 1 threads. Will run for at most 3 ticks.
+    Selected from 1 processes. Will run for at most 3 ticks.
 
 At time 1752:
     PROCESS_DISPATCH_COMPLETED
@@ -721,7 +721,7 @@ At time 1755:
 At time 1755:
     DISPATCHER_INVOKED
     Process 0 [INTERACTIVE]
-    Selected from 1 threads. Will run for at most 3 ticks.
+    Selected from 1 processes. Will run for at most 3 ticks.
 
 At time 1769:
     PROCESS_DISPATCH_COMPLETED
@@ -736,7 +736,7 @@ At time 1772:
 At time 1772:
     DISPATCHER_INVOKED
     Process 0 [INTERACTIVE]
-    Selected from 1 threads. Will run for at most 3 ticks.
+    Selected from 1 processes. Will run for at most 3 ticks.
 
 At time 1786:
     PROCESS_DISPATCH_COMPLETED
@@ -751,7 +751,7 @@ At time 1789:
 At time 1789:
     DISPATCHER_INVOKED
     Process 0 [INTERACTIVE]
-    Selected from 1 threads. Will run for at most 3 ticks.
+    Selected from 1 processes. Will run for at most 3 ticks.
 
 At time 1803:
     PROCESS_DISPATCH_COMPLETED
@@ -766,7 +766,7 @@ At time 1806:
 At time 1806:
     DISPATCHER_INVOKED
     Process 0 [INTERACTIVE]
-    Selected from 1 threads. Will run for at most 3 ticks.
+    Selected from 1 processes. Will run for at most 3 ticks.
 
 At time 1820:
     PROCESS_DISPATCH_COMPLETED
@@ -786,7 +786,7 @@ At time 1827:
 At time 1827:
     DISPATCHER_INVOKED
     Process 0 [INTERACTIVE]
-    Selected from 1 threads. Will run for at most 3 ticks.
+    Selected from 1 processes. Will run for at most 3 ticks.
 
 At time 1841:
     PROCESS_DISPATCH_COMPLETED
@@ -806,7 +806,7 @@ At time 1851:
 At time 1851:
     DISPATCHER_INVOKED
     Process 0 [INTERACTIVE]
-    Selected from 1 threads. Will run for at most 3 ticks.
+    Selected from 1 processes. Will run for at most 3 ticks.
 
 At time 1865:
     PROCESS_DISPATCH_COMPLETED
@@ -821,7 +821,7 @@ At time 1868:
 At time 1868:
     DISPATCHER_INVOKED
     Process 0 [INTERACTIVE]
-    Selected from 1 threads. Will run for at most 3 ticks.
+    Selected from 1 processes. Will run for at most 3 ticks.
 
 At time 1882:
     PROCESS_DISPATCH_COMPLETED
@@ -841,7 +841,7 @@ At time 1907:
 At time 1907:
     DISPATCHER_INVOKED
     Process 0 [INTERACTIVE]
-    Selected from 1 threads. Will run for at most 3 ticks.
+    Selected from 1 processes. Will run for at most 3 ticks.
 
 At time 1921:
     PROCESS_DISPATCH_COMPLETED
@@ -861,7 +861,7 @@ At time 1945:
 At time 1945:
     DISPATCHER_INVOKED
     Process 0 [INTERACTIVE]
-    Selected from 1 threads. Will run for at most 3 ticks.
+    Selected from 1 processes. Will run for at most 3 ticks.
 
 At time 1959:
     PROCESS_DISPATCH_COMPLETED
@@ -876,7 +876,7 @@ At time 1962:
 At time 1962:
     DISPATCHER_INVOKED
     Process 0 [INTERACTIVE]
-    Selected from 1 threads. Will run for at most 3 ticks.
+    Selected from 1 processes. Will run for at most 3 ticks.
 
 At time 1976:
     PROCESS_DISPATCH_COMPLETED
@@ -891,7 +891,7 @@ At time 1979:
 At time 1979:
     DISPATCHER_INVOKED
     Process 0 [INTERACTIVE]
-    Selected from 1 threads. Will run for at most 3 ticks.
+    Selected from 1 processes. Will run for at most 3 ticks.
 
 At time 1993:
     PROCESS_DISPATCH_COMPLETED
@@ -906,7 +906,7 @@ At time 1996:
 At time 1996:
     DISPATCHER_INVOKED
     Process 0 [INTERACTIVE]
-    Selected from 1 threads. Will run for at most 3 ticks.
+    Selected from 1 processes. Will run for at most 3 ticks.
 
 At time 2010:
     PROCESS_DISPATCH_COMPLETED
@@ -921,7 +921,7 @@ At time 2013:
 At time 2013:
     DISPATCHER_INVOKED
     Process 0 [INTERACTIVE]
-    Selected from 1 threads. Will run for at most 3 ticks.
+    Selected from 1 processes. Will run for at most 3 ticks.
 
 At time 2027:
     PROCESS_DISPATCH_COMPLETED
@@ -936,7 +936,7 @@ At time 2030:
 At time 2030:
     DISPATCHER_INVOKED
     Process 0 [INTERACTIVE]
-    Selected from 1 threads. Will run for at most 3 ticks.
+    Selected from 1 processes. Will run for at most 3 ticks.
 
 At time 2044:
     PROCESS_DISPATCH_COMPLETED
@@ -956,7 +956,7 @@ At time 2070:
 At time 2070:
     DISPATCHER_INVOKED
     Process 0 [INTERACTIVE]
-    Selected from 1 threads. Will run for at most 3 ticks.
+    Selected from 1 processes. Will run for at most 3 ticks.
 
 At time 2084:
     PROCESS_DISPATCH_COMPLETED
@@ -971,7 +971,7 @@ At time 2087:
 At time 2087:
     DISPATCHER_INVOKED
     Process 0 [INTERACTIVE]
-    Selected from 1 threads. Will run for at most 3 ticks.
+    Selected from 1 processes. Will run for at most 3 ticks.
 
 At time 2101:
     PROCESS_DISPATCH_COMPLETED

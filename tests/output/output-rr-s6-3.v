@@ -6,7 +6,7 @@ At time 0:
 At time 0:
     DISPATCHER_INVOKED
     Process 10 [BATCH]
-    Selected from 1 threads. Will run for at most 6 ticks.
+    Selected from 1 processes. Will run for at most 6 ticks.
 
 At time 10:
     PROCESS_ARRIVED
@@ -56,7 +56,7 @@ At time 54:
 At time 54:
     DISPATCHER_INVOKED
     Process 3 [BATCH]
-    Selected from 8 threads. Will run for at most 6 ticks.
+    Selected from 8 processes. Will run for at most 6 ticks.
 
 At time 58:
     PROCESS_ARRIVED
@@ -96,7 +96,7 @@ At time 108:
 At time 108:
     DISPATCHER_INVOKED
     Process 1 [NORMAL]
-    Selected from 13 threads. Will run for at most 6 ticks.
+    Selected from 13 processes. Will run for at most 6 ticks.
 
 At time 156:
     PROCESS_DISPATCH_COMPLETED
@@ -111,7 +111,7 @@ At time 162:
 At time 162:
     DISPATCHER_INVOKED
     Process 2 [NORMAL]
-    Selected from 12 threads. Will run for at most 6 ticks.
+    Selected from 12 processes. Will run for at most 6 ticks.
 
 At time 185:
     IO_BURST_COMPLETED
@@ -131,7 +131,7 @@ At time 216:
 At time 216:
     DISPATCHER_INVOKED
     Process 8 [NORMAL]
-    Selected from 13 threads. Will run for at most 6 ticks.
+    Selected from 13 processes. Will run for at most 6 ticks.
 
 At time 264:
     PROCESS_DISPATCH_COMPLETED
@@ -146,7 +146,7 @@ At time 270:
 At time 270:
     DISPATCHER_INVOKED
     Process 7 [NORMAL]
-    Selected from 13 threads. Will run for at most 6 ticks.
+    Selected from 13 processes. Will run for at most 6 ticks.
 
 At time 318:
     PROCESS_DISPATCH_COMPLETED
@@ -161,7 +161,7 @@ At time 324:
 At time 324:
     DISPATCHER_INVOKED
     Process 4 [NORMAL]
-    Selected from 13 threads. Will run for at most 6 ticks.
+    Selected from 13 processes. Will run for at most 6 ticks.
 
 At time 372:
     PROCESS_DISPATCH_COMPLETED
@@ -176,7 +176,7 @@ At time 378:
 At time 378:
     DISPATCHER_INVOKED
     Process 11 [BATCH]
-    Selected from 13 threads. Will run for at most 6 ticks.
+    Selected from 13 processes. Will run for at most 6 ticks.
 
 At time 426:
     PROCESS_DISPATCH_COMPLETED
@@ -191,7 +191,7 @@ At time 432:
 At time 432:
     DISPATCHER_INVOKED
     Process 10 [BATCH]
-    Selected from 13 threads. Will run for at most 6 ticks.
+    Selected from 13 processes. Will run for at most 6 ticks.
 
 At time 480:
     PROCESS_DISPATCH_COMPLETED
@@ -206,7 +206,7 @@ At time 486:
 At time 486:
     DISPATCHER_INVOKED
     Process 0 [NORMAL]
-    Selected from 13 threads. Will run for at most 6 ticks.
+    Selected from 13 processes. Will run for at most 6 ticks.
 
 At time 534:
     PROCESS_DISPATCH_COMPLETED
@@ -221,7 +221,7 @@ At time 536:
 At time 536:
     DISPATCHER_INVOKED
     Process 12 [BATCH]
-    Selected from 12 threads. Will run for at most 6 ticks.
+    Selected from 12 processes. Will run for at most 6 ticks.
 
 At time 584:
     PROCESS_DISPATCH_COMPLETED
@@ -236,7 +236,7 @@ At time 590:
 At time 590:
     DISPATCHER_INVOKED
     Process 6 [NORMAL]
-    Selected from 12 threads. Will run for at most 6 ticks.
+    Selected from 12 processes. Will run for at most 6 ticks.
 
 At time 638:
     PROCESS_DISPATCH_COMPLETED
@@ -251,7 +251,7 @@ At time 644:
 At time 644:
     DISPATCHER_INVOKED
     Process 5 [INTERACTIVE]
-    Selected from 12 threads. Will run for at most 6 ticks.
+    Selected from 12 processes. Will run for at most 6 ticks.
 
 At time 692:
     PROCESS_DISPATCH_COMPLETED
@@ -266,7 +266,7 @@ At time 698:
 At time 698:
     DISPATCHER_INVOKED
     Process 9 [NORMAL]
-    Selected from 12 threads. Will run for at most 6 ticks.
+    Selected from 12 processes. Will run for at most 6 ticks.
 
 At time 746:
     PROCESS_DISPATCH_COMPLETED
@@ -281,7 +281,7 @@ At time 752:
 At time 752:
     DISPATCHER_INVOKED
     Process 3 [BATCH]
-    Selected from 12 threads. Will run for at most 6 ticks.
+    Selected from 12 processes. Will run for at most 6 ticks.
 
 At time 800:
     PROCESS_DISPATCH_COMPLETED
@@ -296,7 +296,7 @@ At time 806:
 At time 806:
     DISPATCHER_INVOKED
     Process 1 [NORMAL]
-    Selected from 12 threads. Will run for at most 6 ticks.
+    Selected from 12 processes. Will run for at most 6 ticks.
 
 At time 854:
     PROCESS_DISPATCH_COMPLETED
@@ -311,7 +311,7 @@ At time 860:
 At time 860:
     DISPATCHER_INVOKED
     Process 2 [NORMAL]
-    Selected from 12 threads. Will run for at most 6 ticks.
+    Selected from 12 processes. Will run for at most 6 ticks.
 
 At time 908:
     PROCESS_DISPATCH_COMPLETED
@@ -326,7 +326,7 @@ At time 914:
 At time 914:
     DISPATCHER_INVOKED
     Process 8 [NORMAL]
-    Selected from 12 threads. Will run for at most 6 ticks.
+    Selected from 12 processes. Will run for at most 6 ticks.
 
 At time 962:
     PROCESS_DISPATCH_COMPLETED
@@ -341,7 +341,7 @@ At time 968:
 At time 968:
     DISPATCHER_INVOKED
     Process 7 [NORMAL]
-    Selected from 12 threads. Will run for at most 6 ticks.
+    Selected from 12 processes. Will run for at most 6 ticks.
 
 At time 1016:
     PROCESS_DISPATCH_COMPLETED
@@ -356,7 +356,7 @@ At time 1022:
 At time 1022:
     DISPATCHER_INVOKED
     Process 4 [NORMAL]
-    Selected from 12 threads. Will run for at most 6 ticks.
+    Selected from 12 processes. Will run for at most 6 ticks.
 
 At time 1070:
     PROCESS_DISPATCH_COMPLETED
@@ -371,7 +371,7 @@ At time 1076:
 At time 1076:
     DISPATCHER_INVOKED
     Process 11 [BATCH]
-    Selected from 12 threads. Will run for at most 6 ticks.
+    Selected from 12 processes. Will run for at most 6 ticks.
 
 At time 1124:
     PROCESS_DISPATCH_COMPLETED
@@ -386,7 +386,7 @@ At time 1129:
 At time 1129:
     DISPATCHER_INVOKED
     Process 10 [BATCH]
-    Selected from 11 threads. Will run for at most 6 ticks.
+    Selected from 11 processes. Will run for at most 6 ticks.
 
 At time 1142:
     IO_BURST_COMPLETED
@@ -406,7 +406,7 @@ At time 1183:
 At time 1183:
     DISPATCHER_INVOKED
     Process 12 [BATCH]
-    Selected from 12 threads. Will run for at most 6 ticks.
+    Selected from 12 processes. Will run for at most 6 ticks.
 
 At time 1231:
     PROCESS_DISPATCH_COMPLETED
@@ -421,7 +421,7 @@ At time 1237:
 At time 1237:
     DISPATCHER_INVOKED
     Process 6 [NORMAL]
-    Selected from 11 threads. Will run for at most 6 ticks.
+    Selected from 11 processes. Will run for at most 6 ticks.
 
 At time 1250:
     IO_BURST_COMPLETED
@@ -441,7 +441,7 @@ At time 1290:
 At time 1290:
     DISPATCHER_INVOKED
     Process 5 [INTERACTIVE]
-    Selected from 11 threads. Will run for at most 6 ticks.
+    Selected from 11 processes. Will run for at most 6 ticks.
 
 At time 1298:
     IO_BURST_COMPLETED
@@ -461,7 +461,7 @@ At time 1344:
 At time 1344:
     DISPATCHER_INVOKED
     Process 9 [NORMAL]
-    Selected from 12 threads. Will run for at most 6 ticks.
+    Selected from 12 processes. Will run for at most 6 ticks.
 
 At time 1392:
     PROCESS_DISPATCH_COMPLETED
@@ -476,7 +476,7 @@ At time 1398:
 At time 1398:
     DISPATCHER_INVOKED
     Process 3 [BATCH]
-    Selected from 12 threads. Will run for at most 6 ticks.
+    Selected from 12 processes. Will run for at most 6 ticks.
 
 At time 1446:
     PROCESS_DISPATCH_COMPLETED
@@ -491,7 +491,7 @@ At time 1452:
 At time 1452:
     DISPATCHER_INVOKED
     Process 1 [NORMAL]
-    Selected from 12 threads. Will run for at most 6 ticks.
+    Selected from 12 processes. Will run for at most 6 ticks.
 
 At time 1500:
     PROCESS_DISPATCH_COMPLETED
@@ -506,7 +506,7 @@ At time 1503:
 At time 1503:
     DISPATCHER_INVOKED
     Process 2 [NORMAL]
-    Selected from 11 threads. Will run for at most 6 ticks.
+    Selected from 11 processes. Will run for at most 6 ticks.
 
 At time 1520:
     IO_BURST_COMPLETED
@@ -526,7 +526,7 @@ At time 1557:
 At time 1557:
     DISPATCHER_INVOKED
     Process 8 [NORMAL]
-    Selected from 12 threads. Will run for at most 6 ticks.
+    Selected from 12 processes. Will run for at most 6 ticks.
 
 At time 1605:
     PROCESS_DISPATCH_COMPLETED
@@ -541,7 +541,7 @@ At time 1607:
 At time 1607:
     DISPATCHER_INVOKED
     Process 7 [NORMAL]
-    Selected from 11 threads. Will run for at most 6 ticks.
+    Selected from 11 processes. Will run for at most 6 ticks.
 
 At time 1655:
     PROCESS_DISPATCH_COMPLETED
@@ -556,7 +556,7 @@ At time 1661:
 At time 1661:
     DISPATCHER_INVOKED
     Process 4 [NORMAL]
-    Selected from 11 threads. Will run for at most 6 ticks.
+    Selected from 11 processes. Will run for at most 6 ticks.
 
 At time 1709:
     PROCESS_DISPATCH_COMPLETED
@@ -571,7 +571,7 @@ At time 1715:
 At time 1715:
     DISPATCHER_INVOKED
     Process 11 [BATCH]
-    Selected from 11 threads. Will run for at most 6 ticks.
+    Selected from 11 processes. Will run for at most 6 ticks.
 
 At time 1763:
     PROCESS_DISPATCH_COMPLETED
@@ -586,7 +586,7 @@ At time 1769:
 At time 1769:
     DISPATCHER_INVOKED
     Process 10 [BATCH]
-    Selected from 11 threads. Will run for at most 6 ticks.
+    Selected from 11 processes. Will run for at most 6 ticks.
 
 At time 1817:
     PROCESS_DISPATCH_COMPLETED
@@ -601,7 +601,7 @@ At time 1818:
 At time 1818:
     DISPATCHER_INVOKED
     Process 12 [BATCH]
-    Selected from 10 threads. Will run for at most 6 ticks.
+    Selected from 10 processes. Will run for at most 6 ticks.
 
 At time 1840:
     IO_BURST_COMPLETED
@@ -621,7 +621,7 @@ At time 1870:
 At time 1870:
     DISPATCHER_INVOKED
     Process 6 [NORMAL]
-    Selected from 10 threads. Will run for at most 6 ticks.
+    Selected from 10 processes. Will run for at most 6 ticks.
 
 At time 1896:
     IO_BURST_COMPLETED
@@ -641,7 +641,7 @@ At time 1924:
 At time 1924:
     DISPATCHER_INVOKED
     Process 5 [INTERACTIVE]
-    Selected from 11 threads. Will run for at most 6 ticks.
+    Selected from 11 processes. Will run for at most 6 ticks.
 
 At time 1972:
     PROCESS_DISPATCH_COMPLETED
@@ -656,7 +656,7 @@ At time 1978:
 At time 1978:
     DISPATCHER_INVOKED
     Process 9 [NORMAL]
-    Selected from 11 threads. Will run for at most 6 ticks.
+    Selected from 11 processes. Will run for at most 6 ticks.
 
 At time 2026:
     PROCESS_DISPATCH_COMPLETED
@@ -671,7 +671,7 @@ At time 2032:
 At time 2032:
     DISPATCHER_INVOKED
     Process 3 [BATCH]
-    Selected from 11 threads. Will run for at most 6 ticks.
+    Selected from 11 processes. Will run for at most 6 ticks.
 
 At time 2080:
     PROCESS_DISPATCH_COMPLETED
@@ -686,7 +686,7 @@ At time 2086:
 At time 2086:
     DISPATCHER_INVOKED
     Process 1 [NORMAL]
-    Selected from 11 threads. Will run for at most 6 ticks.
+    Selected from 11 processes. Will run for at most 6 ticks.
 
 At time 2134:
     PROCESS_DISPATCH_COMPLETED
@@ -701,7 +701,7 @@ At time 2140:
 At time 2140:
     DISPATCHER_INVOKED
     Process 2 [NORMAL]
-    Selected from 11 threads. Will run for at most 6 ticks.
+    Selected from 11 processes. Will run for at most 6 ticks.
 
 At time 2188:
     PROCESS_DISPATCH_COMPLETED
@@ -716,7 +716,7 @@ At time 2194:
 At time 2194:
     DISPATCHER_INVOKED
     Process 7 [NORMAL]
-    Selected from 11 threads. Will run for at most 6 ticks.
+    Selected from 11 processes. Will run for at most 6 ticks.
 
 At time 2242:
     PROCESS_DISPATCH_COMPLETED
@@ -731,7 +731,7 @@ At time 2248:
 At time 2248:
     DISPATCHER_INVOKED
     Process 4 [NORMAL]
-    Selected from 11 threads. Will run for at most 6 ticks.
+    Selected from 11 processes. Will run for at most 6 ticks.
 
 At time 2296:
     PROCESS_DISPATCH_COMPLETED
@@ -746,7 +746,7 @@ At time 2302:
 At time 2302:
     DISPATCHER_INVOKED
     Process 11 [BATCH]
-    Selected from 11 threads. Will run for at most 6 ticks.
+    Selected from 11 processes. Will run for at most 6 ticks.
 
 At time 2350:
     PROCESS_DISPATCH_COMPLETED
@@ -761,7 +761,7 @@ At time 2356:
 At time 2356:
     DISPATCHER_INVOKED
     Process 10 [BATCH]
-    Selected from 11 threads. Will run for at most 6 ticks.
+    Selected from 11 processes. Will run for at most 6 ticks.
 
 At time 2404:
     PROCESS_DISPATCH_COMPLETED
@@ -776,7 +776,7 @@ At time 2410:
 At time 2410:
     DISPATCHER_INVOKED
     Process 12 [BATCH]
-    Selected from 11 threads. Will run for at most 6 ticks.
+    Selected from 11 processes. Will run for at most 6 ticks.
 
 At time 2458:
     PROCESS_DISPATCH_COMPLETED
@@ -791,7 +791,7 @@ At time 2464:
 At time 2464:
     DISPATCHER_INVOKED
     Process 6 [NORMAL]
-    Selected from 11 threads. Will run for at most 6 ticks.
+    Selected from 11 processes. Will run for at most 6 ticks.
 
 At time 2512:
     PROCESS_DISPATCH_COMPLETED
@@ -806,7 +806,7 @@ At time 2518:
 At time 2518:
     DISPATCHER_INVOKED
     Process 5 [INTERACTIVE]
-    Selected from 11 threads. Will run for at most 6 ticks.
+    Selected from 11 processes. Will run for at most 6 ticks.
 
 At time 2566:
     PROCESS_DISPATCH_COMPLETED
@@ -821,7 +821,7 @@ At time 2569:
 At time 2569:
     DISPATCHER_INVOKED
     Process 9 [NORMAL]
-    Selected from 10 threads. Will run for at most 6 ticks.
+    Selected from 10 processes. Will run for at most 6 ticks.
 
 At time 2572:
     IO_BURST_COMPLETED
@@ -841,7 +841,7 @@ At time 2623:
 At time 2623:
     DISPATCHER_INVOKED
     Process 3 [BATCH]
-    Selected from 11 threads. Will run for at most 6 ticks.
+    Selected from 11 processes. Will run for at most 6 ticks.
 
 At time 2671:
     PROCESS_DISPATCH_COMPLETED
@@ -856,7 +856,7 @@ At time 2674:
 At time 2674:
     DISPATCHER_INVOKED
     Process 1 [NORMAL]
-    Selected from 10 threads. Will run for at most 6 ticks.
+    Selected from 10 processes. Will run for at most 6 ticks.
 
 At time 2690:
     IO_BURST_COMPLETED
@@ -876,7 +876,7 @@ At time 2728:
 At time 2728:
     DISPATCHER_INVOKED
     Process 2 [NORMAL]
-    Selected from 11 threads. Will run for at most 6 ticks.
+    Selected from 11 processes. Will run for at most 6 ticks.
 
 At time 2776:
     PROCESS_DISPATCH_COMPLETED
@@ -891,7 +891,7 @@ At time 2782:
 At time 2782:
     DISPATCHER_INVOKED
     Process 7 [NORMAL]
-    Selected from 10 threads. Will run for at most 6 ticks.
+    Selected from 10 processes. Will run for at most 6 ticks.
 
 At time 2802:
     IO_BURST_COMPLETED
@@ -911,7 +911,7 @@ At time 2834:
 At time 2834:
     DISPATCHER_INVOKED
     Process 4 [NORMAL]
-    Selected from 10 threads. Will run for at most 6 ticks.
+    Selected from 10 processes. Will run for at most 6 ticks.
 
 At time 2852:
     IO_BURST_COMPLETED
@@ -931,7 +931,7 @@ At time 2887:
 At time 2887:
     DISPATCHER_INVOKED
     Process 11 [BATCH]
-    Selected from 10 threads. Will run for at most 6 ticks.
+    Selected from 10 processes. Will run for at most 6 ticks.
 
 At time 2917:
     IO_BURST_COMPLETED
@@ -951,7 +951,7 @@ At time 2941:
 At time 2941:
     DISPATCHER_INVOKED
     Process 10 [BATCH]
-    Selected from 11 threads. Will run for at most 6 ticks.
+    Selected from 11 processes. Will run for at most 6 ticks.
 
 At time 2989:
     PROCESS_DISPATCH_COMPLETED
@@ -966,7 +966,7 @@ At time 2995:
 At time 2995:
     DISPATCHER_INVOKED
     Process 12 [BATCH]
-    Selected from 11 threads. Will run for at most 6 ticks.
+    Selected from 11 processes. Will run for at most 6 ticks.
 
 At time 3043:
     PROCESS_DISPATCH_COMPLETED
@@ -981,7 +981,7 @@ At time 3047:
 At time 3047:
     DISPATCHER_INVOKED
     Process 6 [NORMAL]
-    Selected from 10 threads. Will run for at most 6 ticks.
+    Selected from 10 processes. Will run for at most 6 ticks.
 
 At time 3095:
     PROCESS_DISPATCH_COMPLETED
@@ -996,7 +996,7 @@ At time 3101:
 At time 3101:
     DISPATCHER_INVOKED
     Process 5 [INTERACTIVE]
-    Selected from 10 threads. Will run for at most 6 ticks.
+    Selected from 10 processes. Will run for at most 6 ticks.
 
 At time 3149:
     PROCESS_DISPATCH_COMPLETED
@@ -1011,7 +1011,7 @@ At time 3155:
 At time 3155:
     DISPATCHER_INVOKED
     Process 9 [NORMAL]
-    Selected from 10 threads. Will run for at most 6 ticks.
+    Selected from 10 processes. Will run for at most 6 ticks.
 
 At time 3203:
     PROCESS_DISPATCH_COMPLETED
@@ -1026,7 +1026,7 @@ At time 3209:
 At time 3209:
     DISPATCHER_INVOKED
     Process 3 [BATCH]
-    Selected from 9 threads. Will run for at most 6 ticks.
+    Selected from 9 processes. Will run for at most 6 ticks.
 
 At time 3212:
     IO_BURST_COMPLETED
@@ -1046,7 +1046,7 @@ At time 3263:
 At time 3263:
     DISPATCHER_INVOKED
     Process 1 [NORMAL]
-    Selected from 10 threads. Will run for at most 6 ticks.
+    Selected from 10 processes. Will run for at most 6 ticks.
 
 At time 3311:
     PROCESS_DISPATCH_COMPLETED
@@ -1061,7 +1061,7 @@ At time 3317:
 At time 3317:
     DISPATCHER_INVOKED
     Process 2 [NORMAL]
-    Selected from 10 threads. Will run for at most 6 ticks.
+    Selected from 10 processes. Will run for at most 6 ticks.
 
 At time 3365:
     PROCESS_DISPATCH_COMPLETED
@@ -1076,7 +1076,7 @@ At time 3371:
 At time 3371:
     DISPATCHER_INVOKED
     Process 7 [NORMAL]
-    Selected from 10 threads. Will run for at most 6 ticks.
+    Selected from 10 processes. Will run for at most 6 ticks.
 
 At time 3419:
     PROCESS_DISPATCH_COMPLETED
@@ -1091,7 +1091,7 @@ At time 3425:
 At time 3425:
     DISPATCHER_INVOKED
     Process 4 [NORMAL]
-    Selected from 10 threads. Will run for at most 6 ticks.
+    Selected from 10 processes. Will run for at most 6 ticks.
 
 At time 3473:
     PROCESS_DISPATCH_COMPLETED
@@ -1106,7 +1106,7 @@ At time 3477:
 At time 3477:
     DISPATCHER_INVOKED
     Process 11 [BATCH]
-    Selected from 9 threads. Will run for at most 6 ticks.
+    Selected from 9 processes. Will run for at most 6 ticks.
 
 At time 3506:
     IO_BURST_COMPLETED
@@ -1126,7 +1126,7 @@ At time 3529:
 At time 3529:
     DISPATCHER_INVOKED
     Process 10 [BATCH]
-    Selected from 9 threads. Will run for at most 6 ticks.
+    Selected from 9 processes. Will run for at most 6 ticks.
 
 At time 3542:
     IO_BURST_COMPLETED
@@ -1146,7 +1146,7 @@ At time 3583:
 At time 3583:
     DISPATCHER_INVOKED
     Process 6 [NORMAL]
-    Selected from 10 threads. Will run for at most 6 ticks.
+    Selected from 10 processes. Will run for at most 6 ticks.
 
 At time 3631:
     PROCESS_DISPATCH_COMPLETED
@@ -1161,7 +1161,7 @@ At time 3637:
 At time 3637:
     DISPATCHER_INVOKED
     Process 5 [INTERACTIVE]
-    Selected from 10 threads. Will run for at most 6 ticks.
+    Selected from 10 processes. Will run for at most 6 ticks.
 
 At time 3685:
     PROCESS_DISPATCH_COMPLETED
@@ -1176,7 +1176,7 @@ At time 3691:
 At time 3691:
     DISPATCHER_INVOKED
     Process 9 [NORMAL]
-    Selected from 10 threads. Will run for at most 6 ticks.
+    Selected from 10 processes. Will run for at most 6 ticks.
 
 At time 3739:
     PROCESS_DISPATCH_COMPLETED
@@ -1191,7 +1191,7 @@ At time 3745:
 At time 3745:
     DISPATCHER_INVOKED
     Process 3 [BATCH]
-    Selected from 10 threads. Will run for at most 6 ticks.
+    Selected from 10 processes. Will run for at most 6 ticks.
 
 At time 3793:
     PROCESS_DISPATCH_COMPLETED
@@ -1206,7 +1206,7 @@ At time 3799:
 At time 3799:
     DISPATCHER_INVOKED
     Process 1 [NORMAL]
-    Selected from 10 threads. Will run for at most 6 ticks.
+    Selected from 10 processes. Will run for at most 6 ticks.
 
 At time 3847:
     PROCESS_DISPATCH_COMPLETED
@@ -1221,7 +1221,7 @@ At time 3853:
 At time 3853:
     DISPATCHER_INVOKED
     Process 2 [NORMAL]
-    Selected from 10 threads. Will run for at most 6 ticks.
+    Selected from 10 processes. Will run for at most 6 ticks.
 
 At time 3901:
     PROCESS_DISPATCH_COMPLETED
@@ -1236,7 +1236,7 @@ At time 3907:
 At time 3907:
     DISPATCHER_INVOKED
     Process 7 [NORMAL]
-    Selected from 10 threads. Will run for at most 6 ticks.
+    Selected from 10 processes. Will run for at most 6 ticks.
 
 At time 3955:
     PROCESS_DISPATCH_COMPLETED
@@ -1251,7 +1251,7 @@ At time 3961:
 At time 3961:
     DISPATCHER_INVOKED
     Process 4 [NORMAL]
-    Selected from 10 threads. Will run for at most 6 ticks.
+    Selected from 10 processes. Will run for at most 6 ticks.
 
 At time 4009:
     PROCESS_DISPATCH_COMPLETED
@@ -1266,7 +1266,7 @@ At time 4015:
 At time 4015:
     DISPATCHER_INVOKED
     Process 11 [BATCH]
-    Selected from 10 threads. Will run for at most 6 ticks.
+    Selected from 10 processes. Will run for at most 6 ticks.
 
 At time 4063:
     PROCESS_DISPATCH_COMPLETED
@@ -1281,7 +1281,7 @@ At time 4068:
 At time 4068:
     DISPATCHER_INVOKED
     Process 10 [BATCH]
-    Selected from 9 threads. Will run for at most 6 ticks.
+    Selected from 9 processes. Will run for at most 6 ticks.
 
 At time 4090:
     IO_BURST_COMPLETED
@@ -1301,7 +1301,7 @@ At time 4122:
 At time 4122:
     DISPATCHER_INVOKED
     Process 6 [NORMAL]
-    Selected from 10 threads. Will run for at most 6 ticks.
+    Selected from 10 processes. Will run for at most 6 ticks.
 
 At time 4170:
     PROCESS_DISPATCH_COMPLETED
@@ -1316,7 +1316,7 @@ At time 4174:
 At time 4174:
     DISPATCHER_INVOKED
     Process 5 [INTERACTIVE]
-    Selected from 9 threads. Will run for at most 6 ticks.
+    Selected from 9 processes. Will run for at most 6 ticks.
 
 At time 4195:
     IO_BURST_COMPLETED
@@ -1336,7 +1336,7 @@ At time 4223:
 At time 4223:
     DISPATCHER_INVOKED
     Process 9 [NORMAL]
-    Selected from 9 threads. Will run for at most 6 ticks.
+    Selected from 9 processes. Will run for at most 6 ticks.
 
 At time 4230:
     IO_BURST_COMPLETED
@@ -1356,7 +1356,7 @@ At time 4277:
 At time 4277:
     DISPATCHER_INVOKED
     Process 3 [BATCH]
-    Selected from 10 threads. Will run for at most 6 ticks.
+    Selected from 10 processes. Will run for at most 6 ticks.
 
 At time 4325:
     PROCESS_DISPATCH_COMPLETED
@@ -1371,7 +1371,7 @@ At time 4331:
 At time 4331:
     DISPATCHER_INVOKED
     Process 1 [NORMAL]
-    Selected from 10 threads. Will run for at most 6 ticks.
+    Selected from 10 processes. Will run for at most 6 ticks.
 
 At time 4379:
     PROCESS_DISPATCH_COMPLETED
@@ -1386,7 +1386,7 @@ At time 4380:
 At time 4380:
     DISPATCHER_INVOKED
     Process 2 [NORMAL]
-    Selected from 9 threads. Will run for at most 6 ticks.
+    Selected from 9 processes. Will run for at most 6 ticks.
 
 At time 4396:
     IO_BURST_COMPLETED
@@ -1406,7 +1406,7 @@ At time 4434:
 At time 4434:
     DISPATCHER_INVOKED
     Process 7 [NORMAL]
-    Selected from 10 threads. Will run for at most 6 ticks.
+    Selected from 10 processes. Will run for at most 6 ticks.
 
 At time 4482:
     PROCESS_DISPATCH_COMPLETED
@@ -1421,7 +1421,7 @@ At time 4488:
 At time 4488:
     DISPATCHER_INVOKED
     Process 4 [NORMAL]
-    Selected from 10 threads. Will run for at most 6 ticks.
+    Selected from 10 processes. Will run for at most 6 ticks.
 
 At time 4536:
     PROCESS_DISPATCH_COMPLETED
@@ -1436,7 +1436,7 @@ At time 4542:
 At time 4542:
     DISPATCHER_INVOKED
     Process 11 [BATCH]
-    Selected from 10 threads. Will run for at most 6 ticks.
+    Selected from 10 processes. Will run for at most 6 ticks.
 
 At time 4590:
     PROCESS_DISPATCH_COMPLETED
@@ -1451,7 +1451,7 @@ At time 4596:
 At time 4596:
     DISPATCHER_INVOKED
     Process 10 [BATCH]
-    Selected from 10 threads. Will run for at most 6 ticks.
+    Selected from 10 processes. Will run for at most 6 ticks.
 
 At time 4644:
     PROCESS_DISPATCH_COMPLETED
@@ -1466,7 +1466,7 @@ At time 4648:
 At time 4648:
     DISPATCHER_INVOKED
     Process 6 [NORMAL]
-    Selected from 9 threads. Will run for at most 6 ticks.
+    Selected from 9 processes. Will run for at most 6 ticks.
 
 At time 4668:
     IO_BURST_COMPLETED
@@ -1486,7 +1486,7 @@ At time 4697:
 At time 4697:
     DISPATCHER_INVOKED
     Process 5 [INTERACTIVE]
-    Selected from 9 threads. Will run for at most 6 ticks.
+    Selected from 9 processes. Will run for at most 6 ticks.
 
 At time 4707:
     IO_BURST_COMPLETED
@@ -1506,7 +1506,7 @@ At time 4751:
 At time 4751:
     DISPATCHER_INVOKED
     Process 9 [NORMAL]
-    Selected from 10 threads. Will run for at most 6 ticks.
+    Selected from 10 processes. Will run for at most 6 ticks.
 
 At time 4799:
     PROCESS_DISPATCH_COMPLETED
@@ -1521,7 +1521,7 @@ At time 4805:
 At time 4805:
     DISPATCHER_INVOKED
     Process 3 [BATCH]
-    Selected from 10 threads. Will run for at most 6 ticks.
+    Selected from 10 processes. Will run for at most 6 ticks.
 
 At time 4853:
     PROCESS_DISPATCH_COMPLETED
@@ -1536,7 +1536,7 @@ At time 4859:
 At time 4859:
     DISPATCHER_INVOKED
     Process 1 [NORMAL]
-    Selected from 10 threads. Will run for at most 6 ticks.
+    Selected from 10 processes. Will run for at most 6 ticks.
 
 At time 4907:
     PROCESS_DISPATCH_COMPLETED
@@ -1551,7 +1551,7 @@ At time 4908:
 At time 4908:
     DISPATCHER_INVOKED
     Process 2 [NORMAL]
-    Selected from 9 threads. Will run for at most 6 ticks.
+    Selected from 9 processes. Will run for at most 6 ticks.
 
 At time 4932:
     IO_BURST_COMPLETED
@@ -1571,7 +1571,7 @@ At time 4962:
 At time 4962:
     DISPATCHER_INVOKED
     Process 7 [NORMAL]
-    Selected from 10 threads. Will run for at most 6 ticks.
+    Selected from 10 processes. Will run for at most 6 ticks.
 
 At time 5010:
     PROCESS_DISPATCH_COMPLETED
@@ -1586,7 +1586,7 @@ At time 5011:
 At time 5011:
     DISPATCHER_INVOKED
     Process 4 [NORMAL]
-    Selected from 9 threads. Will run for at most 6 ticks.
+    Selected from 9 processes. Will run for at most 6 ticks.
 
 At time 5019:
     IO_BURST_COMPLETED
@@ -1606,7 +1606,7 @@ At time 5065:
 At time 5065:
     DISPATCHER_INVOKED
     Process 11 [BATCH]
-    Selected from 10 threads. Will run for at most 6 ticks.
+    Selected from 10 processes. Will run for at most 6 ticks.
 
 At time 5113:
     PROCESS_DISPATCH_COMPLETED
@@ -1621,7 +1621,7 @@ At time 5119:
 At time 5119:
     DISPATCHER_INVOKED
     Process 10 [BATCH]
-    Selected from 10 threads. Will run for at most 6 ticks.
+    Selected from 10 processes. Will run for at most 6 ticks.
 
 At time 5167:
     PROCESS_DISPATCH_COMPLETED
@@ -1636,7 +1636,7 @@ At time 5173:
 At time 5173:
     DISPATCHER_INVOKED
     Process 6 [NORMAL]
-    Selected from 10 threads. Will run for at most 6 ticks.
+    Selected from 10 processes. Will run for at most 6 ticks.
 
 At time 5221:
     PROCESS_DISPATCH_COMPLETED
@@ -1651,7 +1651,7 @@ At time 5227:
 At time 5227:
     DISPATCHER_INVOKED
     Process 5 [INTERACTIVE]
-    Selected from 10 threads. Will run for at most 6 ticks.
+    Selected from 10 processes. Will run for at most 6 ticks.
 
 At time 5275:
     PROCESS_DISPATCH_COMPLETED
@@ -1666,7 +1666,7 @@ At time 5281:
 At time 5281:
     DISPATCHER_INVOKED
     Process 9 [NORMAL]
-    Selected from 10 threads. Will run for at most 6 ticks.
+    Selected from 10 processes. Will run for at most 6 ticks.
 
 At time 5329:
     PROCESS_DISPATCH_COMPLETED
@@ -1681,7 +1681,7 @@ At time 5335:
 At time 5335:
     DISPATCHER_INVOKED
     Process 3 [BATCH]
-    Selected from 10 threads. Will run for at most 6 ticks.
+    Selected from 10 processes. Will run for at most 6 ticks.
 
 At time 5383:
     PROCESS_DISPATCH_COMPLETED
@@ -1696,7 +1696,7 @@ At time 5387:
 At time 5387:
     DISPATCHER_INVOKED
     Process 1 [NORMAL]
-    Selected from 9 threads. Will run for at most 6 ticks.
+    Selected from 9 processes. Will run for at most 6 ticks.
 
 At time 5415:
     IO_BURST_COMPLETED
@@ -1716,7 +1716,7 @@ At time 5441:
 At time 5441:
     DISPATCHER_INVOKED
     Process 2 [NORMAL]
-    Selected from 10 threads. Will run for at most 6 ticks.
+    Selected from 10 processes. Will run for at most 6 ticks.
 
 At time 5489:
     PROCESS_DISPATCH_COMPLETED
@@ -1731,7 +1731,7 @@ At time 5491:
 At time 5491:
     DISPATCHER_INVOKED
     Process 7 [NORMAL]
-    Selected from 9 threads. Will run for at most 6 ticks.
+    Selected from 9 processes. Will run for at most 6 ticks.
 
 At time 5499:
     IO_BURST_COMPLETED
@@ -1751,7 +1751,7 @@ At time 5545:
 At time 5545:
     DISPATCHER_INVOKED
     Process 4 [NORMAL]
-    Selected from 10 threads. Will run for at most 6 ticks.
+    Selected from 10 processes. Will run for at most 6 ticks.
 
 At time 5593:
     PROCESS_DISPATCH_COMPLETED
@@ -1766,7 +1766,7 @@ At time 5599:
 At time 5599:
     DISPATCHER_INVOKED
     Process 11 [BATCH]
-    Selected from 9 threads. Will run for at most 6 ticks.
+    Selected from 9 processes. Will run for at most 6 ticks.
 
 At time 5600:
     IO_BURST_COMPLETED
@@ -1786,7 +1786,7 @@ At time 5653:
 At time 5653:
     DISPATCHER_INVOKED
     Process 10 [BATCH]
-    Selected from 10 threads. Will run for at most 6 ticks.
+    Selected from 10 processes. Will run for at most 6 ticks.
 
 At time 5701:
     PROCESS_DISPATCH_COMPLETED
@@ -1801,7 +1801,7 @@ At time 5707:
 At time 5707:
     DISPATCHER_INVOKED
     Process 6 [NORMAL]
-    Selected from 10 threads. Will run for at most 6 ticks.
+    Selected from 10 processes. Will run for at most 6 ticks.
 
 At time 5755:
     PROCESS_DISPATCH_COMPLETED
@@ -1816,7 +1816,7 @@ At time 5761:
 At time 5761:
     DISPATCHER_INVOKED
     Process 5 [INTERACTIVE]
-    Selected from 10 threads. Will run for at most 6 ticks.
+    Selected from 10 processes. Will run for at most 6 ticks.
 
 At time 5809:
     PROCESS_DISPATCH_COMPLETED
@@ -1831,7 +1831,7 @@ At time 5815:
 At time 5815:
     DISPATCHER_INVOKED
     Process 9 [NORMAL]
-    Selected from 10 threads. Will run for at most 6 ticks.
+    Selected from 10 processes. Will run for at most 6 ticks.
 
 At time 5863:
     PROCESS_DISPATCH_COMPLETED
@@ -1846,7 +1846,7 @@ At time 5864:
 At time 5864:
     DISPATCHER_INVOKED
     Process 3 [BATCH]
-    Selected from 9 threads. Will run for at most 6 ticks.
+    Selected from 9 processes. Will run for at most 6 ticks.
 
 At time 5892:
     IO_BURST_COMPLETED
@@ -1866,7 +1866,7 @@ At time 5918:
 At time 5918:
     DISPATCHER_INVOKED
     Process 1 [NORMAL]
-    Selected from 10 threads. Will run for at most 6 ticks.
+    Selected from 10 processes. Will run for at most 6 ticks.
 
 At time 5966:
     PROCESS_DISPATCH_COMPLETED
@@ -1881,7 +1881,7 @@ At time 5972:
 At time 5972:
     DISPATCHER_INVOKED
     Process 2 [NORMAL]
-    Selected from 9 threads. Will run for at most 6 ticks.
+    Selected from 9 processes. Will run for at most 6 ticks.
 
 At time 6001:
     IO_BURST_COMPLETED
@@ -1901,7 +1901,7 @@ At time 6026:
 At time 6026:
     DISPATCHER_INVOKED
     Process 7 [NORMAL]
-    Selected from 10 threads. Will run for at most 6 ticks.
+    Selected from 10 processes. Will run for at most 6 ticks.
 
 At time 6074:
     PROCESS_DISPATCH_COMPLETED
@@ -1916,7 +1916,7 @@ At time 6080:
 At time 6080:
     DISPATCHER_INVOKED
     Process 4 [NORMAL]
-    Selected from 10 threads. Will run for at most 6 ticks.
+    Selected from 10 processes. Will run for at most 6 ticks.
 
 At time 6128:
     PROCESS_DISPATCH_COMPLETED
@@ -1931,7 +1931,7 @@ At time 6134:
 At time 6134:
     DISPATCHER_INVOKED
     Process 11 [BATCH]
-    Selected from 10 threads. Will run for at most 6 ticks.
+    Selected from 10 processes. Will run for at most 6 ticks.
 
 At time 6182:
     PROCESS_DISPATCH_COMPLETED
@@ -1946,7 +1946,7 @@ At time 6188:
 At time 6188:
     DISPATCHER_INVOKED
     Process 10 [BATCH]
-    Selected from 10 threads. Will run for at most 6 ticks.
+    Selected from 10 processes. Will run for at most 6 ticks.
 
 At time 6236:
     PROCESS_DISPATCH_COMPLETED
@@ -1961,7 +1961,7 @@ At time 6242:
 At time 6242:
     DISPATCHER_INVOKED
     Process 6 [NORMAL]
-    Selected from 10 threads. Will run for at most 6 ticks.
+    Selected from 10 processes. Will run for at most 6 ticks.
 
 At time 6290:
     PROCESS_DISPATCH_COMPLETED
@@ -1976,7 +1976,7 @@ At time 6292:
 At time 6292:
     DISPATCHER_INVOKED
     Process 5 [INTERACTIVE]
-    Selected from 9 threads. Will run for at most 6 ticks.
+    Selected from 9 processes. Will run for at most 6 ticks.
 
 At time 6316:
     IO_BURST_COMPLETED
@@ -1996,7 +1996,7 @@ At time 6346:
 At time 6346:
     DISPATCHER_INVOKED
     Process 9 [NORMAL]
-    Selected from 10 threads. Will run for at most 6 ticks.
+    Selected from 10 processes. Will run for at most 6 ticks.
 
 At time 6394:
     PROCESS_DISPATCH_COMPLETED
@@ -2011,7 +2011,7 @@ At time 6400:
 At time 6400:
     DISPATCHER_INVOKED
     Process 3 [BATCH]
-    Selected from 10 threads. Will run for at most 6 ticks.
+    Selected from 10 processes. Will run for at most 6 ticks.
 
 At time 6448:
     PROCESS_DISPATCH_COMPLETED
@@ -2026,7 +2026,7 @@ At time 6454:
 At time 6454:
     DISPATCHER_INVOKED
     Process 1 [NORMAL]
-    Selected from 10 threads. Will run for at most 6 ticks.
+    Selected from 10 processes. Will run for at most 6 ticks.
 
 At time 6502:
     PROCESS_DISPATCH_COMPLETED
@@ -2041,7 +2041,7 @@ At time 6503:
 At time 6503:
     DISPATCHER_INVOKED
     Process 2 [NORMAL]
-    Selected from 9 threads. Will run for at most 6 ticks.
+    Selected from 9 processes. Will run for at most 6 ticks.
 
 At time 6509:
     IO_BURST_COMPLETED
@@ -2061,7 +2061,7 @@ At time 6557:
 At time 6557:
     DISPATCHER_INVOKED
     Process 7 [NORMAL]
-    Selected from 10 threads. Will run for at most 6 ticks.
+    Selected from 10 processes. Will run for at most 6 ticks.
 
 At time 6605:
     PROCESS_DISPATCH_COMPLETED
@@ -2076,7 +2076,7 @@ At time 6608:
 At time 6608:
     DISPATCHER_INVOKED
     Process 4 [NORMAL]
-    Selected from 9 threads. Will run for at most 6 ticks.
+    Selected from 9 processes. Will run for at most 6 ticks.
 
 At time 6623:
     IO_BURST_COMPLETED
@@ -2096,7 +2096,7 @@ At time 6662:
 At time 6662:
     DISPATCHER_INVOKED
     Process 11 [BATCH]
-    Selected from 10 threads. Will run for at most 6 ticks.
+    Selected from 10 processes. Will run for at most 6 ticks.
 
 At time 6710:
     PROCESS_DISPATCH_COMPLETED
@@ -2111,7 +2111,7 @@ At time 6716:
 At time 6716:
     DISPATCHER_INVOKED
     Process 10 [BATCH]
-    Selected from 9 threads. Will run for at most 6 ticks.
+    Selected from 9 processes. Will run for at most 6 ticks.
 
 At time 6746:
     IO_BURST_COMPLETED
@@ -2131,7 +2131,7 @@ At time 6766:
 At time 6766:
     DISPATCHER_INVOKED
     Process 6 [NORMAL]
-    Selected from 9 threads. Will run for at most 6 ticks.
+    Selected from 9 processes. Will run for at most 6 ticks.
 
 At time 6779:
     IO_BURST_COMPLETED
@@ -2151,7 +2151,7 @@ At time 6820:
 At time 6820:
     DISPATCHER_INVOKED
     Process 5 [INTERACTIVE]
-    Selected from 10 threads. Will run for at most 6 ticks.
+    Selected from 10 processes. Will run for at most 6 ticks.
 
 At time 6868:
     PROCESS_DISPATCH_COMPLETED
@@ -2166,7 +2166,7 @@ At time 6871:
 At time 6871:
     DISPATCHER_INVOKED
     Process 9 [NORMAL]
-    Selected from 9 threads. Will run for at most 6 ticks.
+    Selected from 9 processes. Will run for at most 6 ticks.
 
 At time 6874:
     IO_BURST_COMPLETED
@@ -2186,7 +2186,7 @@ At time 6921:
 At time 6921:
     DISPATCHER_INVOKED
     Process 3 [BATCH]
-    Selected from 9 threads. Will run for at most 6 ticks.
+    Selected from 9 processes. Will run for at most 6 ticks.
 
 At time 6947:
     IO_BURST_COMPLETED
@@ -2206,7 +2206,7 @@ At time 6973:
 At time 6973:
     DISPATCHER_INVOKED
     Process 1 [NORMAL]
-    Selected from 9 threads. Will run for at most 6 ticks.
+    Selected from 9 processes. Will run for at most 6 ticks.
 
 At time 7021:
     PROCESS_DISPATCH_COMPLETED
@@ -2221,7 +2221,7 @@ At time 7027:
 At time 7027:
     DISPATCHER_INVOKED
     Process 2 [NORMAL]
-    Selected from 9 threads. Will run for at most 6 ticks.
+    Selected from 9 processes. Will run for at most 6 ticks.
 
 At time 7075:
     PROCESS_DISPATCH_COMPLETED
@@ -2236,7 +2236,7 @@ At time 7077:
 At time 7077:
     DISPATCHER_INVOKED
     Process 7 [NORMAL]
-    Selected from 8 threads. Will run for at most 6 ticks.
+    Selected from 8 processes. Will run for at most 6 ticks.
 
 At time 7125:
     PROCESS_DISPATCH_COMPLETED
@@ -2251,7 +2251,7 @@ At time 7131:
 At time 7131:
     DISPATCHER_INVOKED
     Process 4 [NORMAL]
-    Selected from 7 threads. Will run for at most 6 ticks.
+    Selected from 7 processes. Will run for at most 6 ticks.
 
 At time 7140:
     IO_BURST_COMPLETED
@@ -2271,7 +2271,7 @@ At time 7181:
 At time 7181:
     DISPATCHER_INVOKED
     Process 11 [BATCH]
-    Selected from 7 threads. Will run for at most 6 ticks.
+    Selected from 7 processes. Will run for at most 6 ticks.
 
 At time 7210:
     IO_BURST_COMPLETED
@@ -2291,7 +2291,7 @@ At time 7235:
 At time 7235:
     DISPATCHER_INVOKED
     Process 10 [BATCH]
-    Selected from 8 threads. Will run for at most 6 ticks.
+    Selected from 8 processes. Will run for at most 6 ticks.
 
 At time 7283:
     PROCESS_DISPATCH_COMPLETED
@@ -2306,7 +2306,7 @@ At time 7289:
 At time 7289:
     DISPATCHER_INVOKED
     Process 6 [NORMAL]
-    Selected from 8 threads. Will run for at most 6 ticks.
+    Selected from 8 processes. Will run for at most 6 ticks.
 
 At time 7337:
     PROCESS_DISPATCH_COMPLETED
@@ -2321,7 +2321,7 @@ At time 7343:
 At time 7343:
     DISPATCHER_INVOKED
     Process 5 [INTERACTIVE]
-    Selected from 8 threads. Will run for at most 6 ticks.
+    Selected from 8 processes. Will run for at most 6 ticks.
 
 At time 7391:
     PROCESS_DISPATCH_COMPLETED
@@ -2336,7 +2336,7 @@ At time 7393:
 At time 7393:
     DISPATCHER_INVOKED
     Process 9 [NORMAL]
-    Selected from 7 threads. Will run for at most 6 ticks.
+    Selected from 7 processes. Will run for at most 6 ticks.
 
 At time 7417:
     IO_BURST_COMPLETED
@@ -2356,7 +2356,7 @@ At time 7447:
 At time 7447:
     DISPATCHER_INVOKED
     Process 1 [NORMAL]
-    Selected from 8 threads. Will run for at most 6 ticks.
+    Selected from 8 processes. Will run for at most 6 ticks.
 
 At time 7495:
     PROCESS_DISPATCH_COMPLETED
@@ -2371,7 +2371,7 @@ At time 7501:
 At time 7501:
     DISPATCHER_INVOKED
     Process 7 [NORMAL]
-    Selected from 8 threads. Will run for at most 6 ticks.
+    Selected from 8 processes. Will run for at most 6 ticks.
 
 At time 7549:
     PROCESS_DISPATCH_COMPLETED
@@ -2386,7 +2386,7 @@ At time 7552:
 At time 7552:
     DISPATCHER_INVOKED
     Process 4 [NORMAL]
-    Selected from 7 threads. Will run for at most 6 ticks.
+    Selected from 7 processes. Will run for at most 6 ticks.
 
 At time 7576:
     IO_BURST_COMPLETED
@@ -2406,7 +2406,7 @@ At time 7606:
 At time 7606:
     DISPATCHER_INVOKED
     Process 11 [BATCH]
-    Selected from 7 threads. Will run for at most 6 ticks.
+    Selected from 7 processes. Will run for at most 6 ticks.
 
 At time 7607:
     IO_BURST_COMPLETED
@@ -2426,7 +2426,7 @@ At time 7660:
 At time 7660:
     DISPATCHER_INVOKED
     Process 10 [BATCH]
-    Selected from 8 threads. Will run for at most 6 ticks.
+    Selected from 8 processes. Will run for at most 6 ticks.
 
 At time 7708:
     PROCESS_DISPATCH_COMPLETED
@@ -2441,7 +2441,7 @@ At time 7711:
 At time 7711:
     DISPATCHER_INVOKED
     Process 6 [NORMAL]
-    Selected from 7 threads. Will run for at most 6 ticks.
+    Selected from 7 processes. Will run for at most 6 ticks.
 
 At time 7719:
     IO_BURST_COMPLETED
@@ -2461,7 +2461,7 @@ At time 7761:
 At time 7761:
     DISPATCHER_INVOKED
     Process 5 [INTERACTIVE]
-    Selected from 7 threads. Will run for at most 6 ticks.
+    Selected from 7 processes. Will run for at most 6 ticks.
 
 At time 7782:
     IO_BURST_COMPLETED
@@ -2481,7 +2481,7 @@ At time 7815:
 At time 7815:
     DISPATCHER_INVOKED
     Process 9 [NORMAL]
-    Selected from 8 threads. Will run for at most 6 ticks.
+    Selected from 8 processes. Will run for at most 6 ticks.
 
 At time 7863:
     PROCESS_DISPATCH_COMPLETED
@@ -2496,7 +2496,7 @@ At time 7866:
 At time 7866:
     DISPATCHER_INVOKED
     Process 1 [NORMAL]
-    Selected from 7 threads. Will run for at most 6 ticks.
+    Selected from 7 processes. Will run for at most 6 ticks.
 
 At time 7875:
     IO_BURST_COMPLETED
@@ -2516,7 +2516,7 @@ At time 7920:
 At time 7920:
     DISPATCHER_INVOKED
     Process 7 [NORMAL]
-    Selected from 8 threads. Will run for at most 6 ticks.
+    Selected from 8 processes. Will run for at most 6 ticks.
 
 At time 7968:
     PROCESS_DISPATCH_COMPLETED
@@ -2531,7 +2531,7 @@ At time 7974:
 At time 7974:
     DISPATCHER_INVOKED
     Process 4 [NORMAL]
-    Selected from 8 threads. Will run for at most 6 ticks.
+    Selected from 8 processes. Will run for at most 6 ticks.
 
 At time 8022:
     PROCESS_DISPATCH_COMPLETED
@@ -2546,7 +2546,7 @@ At time 8028:
 At time 8028:
     DISPATCHER_INVOKED
     Process 11 [BATCH]
-    Selected from 8 threads. Will run for at most 6 ticks.
+    Selected from 8 processes. Will run for at most 6 ticks.
 
 At time 8076:
     PROCESS_DISPATCH_COMPLETED
@@ -2561,7 +2561,7 @@ At time 8078:
 At time 8078:
     DISPATCHER_INVOKED
     Process 10 [BATCH]
-    Selected from 7 threads. Will run for at most 6 ticks.
+    Selected from 7 processes. Will run for at most 6 ticks.
 
 At time 8081:
     IO_BURST_COMPLETED
@@ -2581,7 +2581,7 @@ At time 8132:
 At time 8132:
     DISPATCHER_INVOKED
     Process 6 [NORMAL]
-    Selected from 8 threads. Will run for at most 6 ticks.
+    Selected from 8 processes. Will run for at most 6 ticks.
 
 At time 8180:
     PROCESS_DISPATCH_COMPLETED
@@ -2596,7 +2596,7 @@ At time 8186:
 At time 8186:
     DISPATCHER_INVOKED
     Process 5 [INTERACTIVE]
-    Selected from 7 threads. Will run for at most 6 ticks.
+    Selected from 7 processes. Will run for at most 6 ticks.
 
 At time 8234:
     PROCESS_DISPATCH_COMPLETED
@@ -2611,7 +2611,7 @@ At time 8240:
 At time 8240:
     DISPATCHER_INVOKED
     Process 9 [NORMAL]
-    Selected from 7 threads. Will run for at most 6 ticks.
+    Selected from 7 processes. Will run for at most 6 ticks.
 
 At time 8288:
     PROCESS_DISPATCH_COMPLETED
@@ -2626,7 +2626,7 @@ At time 8294:
 At time 8294:
     DISPATCHER_INVOKED
     Process 1 [NORMAL]
-    Selected from 7 threads. Will run for at most 6 ticks.
+    Selected from 7 processes. Will run for at most 6 ticks.
 
 At time 8342:
     PROCESS_DISPATCH_COMPLETED
@@ -2641,7 +2641,7 @@ At time 8348:
 At time 8348:
     DISPATCHER_INVOKED
     Process 7 [NORMAL]
-    Selected from 7 threads. Will run for at most 6 ticks.
+    Selected from 7 processes. Will run for at most 6 ticks.
 
 At time 8396:
     PROCESS_DISPATCH_COMPLETED
@@ -2656,7 +2656,7 @@ At time 8402:
 At time 8402:
     DISPATCHER_INVOKED
     Process 4 [NORMAL]
-    Selected from 7 threads. Will run for at most 6 ticks.
+    Selected from 7 processes. Will run for at most 6 ticks.
 
 At time 8450:
     PROCESS_DISPATCH_COMPLETED
@@ -2671,7 +2671,7 @@ At time 8454:
 At time 8454:
     DISPATCHER_INVOKED
     Process 11 [BATCH]
-    Selected from 6 threads. Will run for at most 6 ticks.
+    Selected from 6 processes. Will run for at most 6 ticks.
 
 At time 8460:
     IO_BURST_COMPLETED
@@ -2691,7 +2691,7 @@ At time 8508:
 At time 8508:
     DISPATCHER_INVOKED
     Process 10 [BATCH]
-    Selected from 7 threads. Will run for at most 6 ticks.
+    Selected from 7 processes. Will run for at most 6 ticks.
 
 At time 8556:
     PROCESS_DISPATCH_COMPLETED
@@ -2706,7 +2706,7 @@ At time 8562:
 At time 8562:
     DISPATCHER_INVOKED
     Process 5 [INTERACTIVE]
-    Selected from 7 threads. Will run for at most 6 ticks.
+    Selected from 7 processes. Will run for at most 6 ticks.
 
 At time 8610:
     PROCESS_DISPATCH_COMPLETED
@@ -2721,7 +2721,7 @@ At time 8616:
 At time 8616:
     DISPATCHER_INVOKED
     Process 9 [NORMAL]
-    Selected from 7 threads. Will run for at most 6 ticks.
+    Selected from 7 processes. Will run for at most 6 ticks.
 
 At time 8664:
     PROCESS_DISPATCH_COMPLETED
@@ -2736,7 +2736,7 @@ At time 8670:
 At time 8670:
     DISPATCHER_INVOKED
     Process 1 [NORMAL]
-    Selected from 7 threads. Will run for at most 6 ticks.
+    Selected from 7 processes. Will run for at most 6 ticks.
 
 At time 8718:
     PROCESS_DISPATCH_COMPLETED
@@ -2751,7 +2751,7 @@ At time 8724:
 At time 8724:
     DISPATCHER_INVOKED
     Process 7 [NORMAL]
-    Selected from 6 threads. Will run for at most 6 ticks.
+    Selected from 6 processes. Will run for at most 6 ticks.
 
 At time 8728:
     IO_BURST_COMPLETED
@@ -2771,7 +2771,7 @@ At time 8778:
 At time 8778:
     DISPATCHER_INVOKED
     Process 4 [NORMAL]
-    Selected from 7 threads. Will run for at most 6 ticks.
+    Selected from 7 processes. Will run for at most 6 ticks.
 
 At time 8826:
     PROCESS_DISPATCH_COMPLETED
@@ -2786,7 +2786,7 @@ At time 8832:
 At time 8832:
     DISPATCHER_INVOKED
     Process 11 [BATCH]
-    Selected from 7 threads. Will run for at most 6 ticks.
+    Selected from 7 processes. Will run for at most 6 ticks.
 
 At time 8880:
     PROCESS_DISPATCH_COMPLETED
@@ -2801,7 +2801,7 @@ At time 8886:
 At time 8886:
     DISPATCHER_INVOKED
     Process 10 [BATCH]
-    Selected from 7 threads. Will run for at most 6 ticks.
+    Selected from 7 processes. Will run for at most 6 ticks.
 
 At time 8934:
     PROCESS_DISPATCH_COMPLETED
@@ -2816,7 +2816,7 @@ At time 8940:
 At time 8940:
     DISPATCHER_INVOKED
     Process 5 [INTERACTIVE]
-    Selected from 7 threads. Will run for at most 6 ticks.
+    Selected from 7 processes. Will run for at most 6 ticks.
 
 At time 8988:
     PROCESS_DISPATCH_COMPLETED
@@ -2831,7 +2831,7 @@ At time 8994:
 At time 8994:
     DISPATCHER_INVOKED
     Process 9 [NORMAL]
-    Selected from 7 threads. Will run for at most 6 ticks.
+    Selected from 7 processes. Will run for at most 6 ticks.
 
 At time 9042:
     PROCESS_DISPATCH_COMPLETED
@@ -2846,7 +2846,7 @@ At time 9048:
 At time 9048:
     DISPATCHER_INVOKED
     Process 1 [NORMAL]
-    Selected from 7 threads. Will run for at most 6 ticks.
+    Selected from 7 processes. Will run for at most 6 ticks.
 
 At time 9096:
     PROCESS_DISPATCH_COMPLETED
@@ -2861,7 +2861,7 @@ At time 9102:
 At time 9102:
     DISPATCHER_INVOKED
     Process 7 [NORMAL]
-    Selected from 7 threads. Will run for at most 6 ticks.
+    Selected from 7 processes. Will run for at most 6 ticks.
 
 At time 9150:
     PROCESS_DISPATCH_COMPLETED
@@ -2876,7 +2876,7 @@ At time 9156:
 At time 9156:
     DISPATCHER_INVOKED
     Process 4 [NORMAL]
-    Selected from 7 threads. Will run for at most 6 ticks.
+    Selected from 7 processes. Will run for at most 6 ticks.
 
 At time 9204:
     PROCESS_DISPATCH_COMPLETED
@@ -2891,7 +2891,7 @@ At time 9210:
 At time 9210:
     DISPATCHER_INVOKED
     Process 11 [BATCH]
-    Selected from 7 threads. Will run for at most 6 ticks.
+    Selected from 7 processes. Will run for at most 6 ticks.
 
 At time 9258:
     PROCESS_DISPATCH_COMPLETED
@@ -2906,7 +2906,7 @@ At time 9260:
 At time 9260:
     DISPATCHER_INVOKED
     Process 10 [BATCH]
-    Selected from 6 threads. Will run for at most 6 ticks.
+    Selected from 6 processes. Will run for at most 6 ticks.
 
 At time 9308:
     PROCESS_DISPATCH_COMPLETED
@@ -2921,7 +2921,7 @@ At time 9312:
 At time 9312:
     DISPATCHER_INVOKED
     Process 5 [INTERACTIVE]
-    Selected from 5 threads. Will run for at most 6 ticks.
+    Selected from 5 processes. Will run for at most 6 ticks.
 
 At time 9336:
     IO_BURST_COMPLETED
@@ -2941,7 +2941,7 @@ At time 9366:
 At time 9366:
     DISPATCHER_INVOKED
     Process 9 [NORMAL]
-    Selected from 5 threads. Will run for at most 6 ticks.
+    Selected from 5 processes. Will run for at most 6 ticks.
 
 At time 9372:
     IO_BURST_COMPLETED
@@ -2961,7 +2961,7 @@ At time 9415:
 At time 9415:
     DISPATCHER_INVOKED
     Process 1 [NORMAL]
-    Selected from 5 threads. Will run for at most 6 ticks.
+    Selected from 5 processes. Will run for at most 6 ticks.
 
 At time 9417:
     IO_BURST_COMPLETED
@@ -2981,7 +2981,7 @@ At time 9469:
 At time 9469:
     DISPATCHER_INVOKED
     Process 7 [NORMAL]
-    Selected from 6 threads. Will run for at most 6 ticks.
+    Selected from 6 processes. Will run for at most 6 ticks.
 
 At time 9517:
     PROCESS_DISPATCH_COMPLETED
@@ -2996,7 +2996,7 @@ At time 9519:
 At time 9519:
     DISPATCHER_INVOKED
     Process 4 [NORMAL]
-    Selected from 5 threads. Will run for at most 6 ticks.
+    Selected from 5 processes. Will run for at most 6 ticks.
 
 At time 9547:
     IO_BURST_COMPLETED
@@ -3016,7 +3016,7 @@ At time 9573:
 At time 9573:
     DISPATCHER_INVOKED
     Process 10 [BATCH]
-    Selected from 6 threads. Will run for at most 6 ticks.
+    Selected from 6 processes. Will run for at most 6 ticks.
 
 At time 9621:
     PROCESS_DISPATCH_COMPLETED
@@ -3031,7 +3031,7 @@ At time 9627:
 At time 9627:
     DISPATCHER_INVOKED
     Process 5 [INTERACTIVE]
-    Selected from 6 threads. Will run for at most 6 ticks.
+    Selected from 6 processes. Will run for at most 6 ticks.
 
 At time 9675:
     PROCESS_DISPATCH_COMPLETED
@@ -3046,7 +3046,7 @@ At time 9678:
 At time 9678:
     DISPATCHER_INVOKED
     Process 9 [NORMAL]
-    Selected from 5 threads. Will run for at most 6 ticks.
+    Selected from 5 processes. Will run for at most 6 ticks.
 
 At time 9693:
     IO_BURST_COMPLETED
@@ -3066,7 +3066,7 @@ At time 9732:
 At time 9732:
     DISPATCHER_INVOKED
     Process 1 [NORMAL]
-    Selected from 6 threads. Will run for at most 6 ticks.
+    Selected from 6 processes. Will run for at most 6 ticks.
 
 At time 9780:
     PROCESS_DISPATCH_COMPLETED
@@ -3081,7 +3081,7 @@ At time 9786:
 At time 9786:
     DISPATCHER_INVOKED
     Process 7 [NORMAL]
-    Selected from 6 threads. Will run for at most 6 ticks.
+    Selected from 6 processes. Will run for at most 6 ticks.
 
 At time 9834:
     PROCESS_DISPATCH_COMPLETED
@@ -3096,7 +3096,7 @@ At time 9840:
 At time 9840:
     DISPATCHER_INVOKED
     Process 4 [NORMAL]
-    Selected from 6 threads. Will run for at most 6 ticks.
+    Selected from 6 processes. Will run for at most 6 ticks.
 
 At time 9888:
     PROCESS_DISPATCH_COMPLETED
@@ -3111,7 +3111,7 @@ At time 9894:
 At time 9894:
     DISPATCHER_INVOKED
     Process 10 [BATCH]
-    Selected from 6 threads. Will run for at most 6 ticks.
+    Selected from 6 processes. Will run for at most 6 ticks.
 
 At time 9942:
     PROCESS_DISPATCH_COMPLETED
@@ -3126,7 +3126,7 @@ At time 9944:
 At time 9944:
     DISPATCHER_INVOKED
     Process 5 [INTERACTIVE]
-    Selected from 5 threads. Will run for at most 6 ticks.
+    Selected from 5 processes. Will run for at most 6 ticks.
 
 At time 9951:
     IO_BURST_COMPLETED
@@ -3146,7 +3146,7 @@ At time 9998:
 At time 9998:
     DISPATCHER_INVOKED
     Process 9 [NORMAL]
-    Selected from 6 threads. Will run for at most 6 ticks.
+    Selected from 6 processes. Will run for at most 6 ticks.
 
 At time 10046:
     PROCESS_DISPATCH_COMPLETED
@@ -3161,7 +3161,7 @@ At time 10052:
 At time 10052:
     DISPATCHER_INVOKED
     Process 1 [NORMAL]
-    Selected from 6 threads. Will run for at most 6 ticks.
+    Selected from 6 processes. Will run for at most 6 ticks.
 
 At time 10100:
     PROCESS_DISPATCH_COMPLETED
@@ -3176,7 +3176,7 @@ At time 10103:
 At time 10103:
     DISPATCHER_INVOKED
     Process 7 [NORMAL]
-    Selected from 5 threads. Will run for at most 6 ticks.
+    Selected from 5 processes. Will run for at most 6 ticks.
 
 At time 10151:
     PROCESS_DISPATCH_COMPLETED
@@ -3191,7 +3191,7 @@ At time 10157:
 At time 10157:
     DISPATCHER_INVOKED
     Process 4 [NORMAL]
-    Selected from 5 threads. Will run for at most 6 ticks.
+    Selected from 5 processes. Will run for at most 6 ticks.
 
 At time 10205:
     PROCESS_DISPATCH_COMPLETED
@@ -3206,7 +3206,7 @@ At time 10208:
 At time 10208:
     DISPATCHER_INVOKED
     Process 10 [BATCH]
-    Selected from 4 threads. Will run for at most 6 ticks.
+    Selected from 4 processes. Will run for at most 6 ticks.
 
 At time 10227:
     IO_BURST_COMPLETED
@@ -3226,7 +3226,7 @@ At time 10262:
 At time 10262:
     DISPATCHER_INVOKED
     Process 5 [INTERACTIVE]
-    Selected from 5 threads. Will run for at most 6 ticks.
+    Selected from 5 processes. Will run for at most 6 ticks.
 
 At time 10310:
     PROCESS_DISPATCH_COMPLETED
@@ -3241,7 +3241,7 @@ At time 10316:
 At time 10316:
     DISPATCHER_INVOKED
     Process 9 [NORMAL]
-    Selected from 5 threads. Will run for at most 6 ticks.
+    Selected from 5 processes. Will run for at most 6 ticks.
 
 At time 10364:
     PROCESS_DISPATCH_COMPLETED
@@ -3256,7 +3256,7 @@ At time 10370:
 At time 10370:
     DISPATCHER_INVOKED
     Process 7 [NORMAL]
-    Selected from 5 threads. Will run for at most 6 ticks.
+    Selected from 5 processes. Will run for at most 6 ticks.
 
 At time 10418:
     PROCESS_DISPATCH_COMPLETED
@@ -3271,7 +3271,7 @@ At time 10424:
 At time 10424:
     DISPATCHER_INVOKED
     Process 4 [NORMAL]
-    Selected from 5 threads. Will run for at most 6 ticks.
+    Selected from 5 processes. Will run for at most 6 ticks.
 
 At time 10472:
     PROCESS_DISPATCH_COMPLETED
@@ -3286,7 +3286,7 @@ At time 10478:
 At time 10478:
     DISPATCHER_INVOKED
     Process 10 [BATCH]
-    Selected from 5 threads. Will run for at most 6 ticks.
+    Selected from 5 processes. Will run for at most 6 ticks.
 
 At time 10526:
     PROCESS_DISPATCH_COMPLETED
@@ -3301,7 +3301,7 @@ At time 10532:
 At time 10532:
     DISPATCHER_INVOKED
     Process 5 [INTERACTIVE]
-    Selected from 5 threads. Will run for at most 6 ticks.
+    Selected from 5 processes. Will run for at most 6 ticks.
 
 At time 10580:
     PROCESS_DISPATCH_COMPLETED
@@ -3316,7 +3316,7 @@ At time 10586:
 At time 10586:
     DISPATCHER_INVOKED
     Process 9 [NORMAL]
-    Selected from 5 threads. Will run for at most 6 ticks.
+    Selected from 5 processes. Will run for at most 6 ticks.
 
 At time 10634:
     PROCESS_DISPATCH_COMPLETED
@@ -3331,7 +3331,7 @@ At time 10637:
 At time 10637:
     DISPATCHER_INVOKED
     Process 7 [NORMAL]
-    Selected from 4 threads. Will run for at most 6 ticks.
+    Selected from 4 processes. Will run for at most 6 ticks.
 
 At time 10685:
     PROCESS_DISPATCH_COMPLETED
@@ -3346,7 +3346,7 @@ At time 10689:
 At time 10689:
     DISPATCHER_INVOKED
     Process 4 [NORMAL]
-    Selected from 3 threads. Will run for at most 6 ticks.
+    Selected from 3 processes. Will run for at most 6 ticks.
 
 At time 10737:
     PROCESS_DISPATCH_COMPLETED
@@ -3361,7 +3361,7 @@ At time 10743:
 At time 10743:
     DISPATCHER_INVOKED
     Process 10 [BATCH]
-    Selected from 3 threads. Will run for at most 6 ticks.
+    Selected from 3 processes. Will run for at most 6 ticks.
 
 At time 10791:
     PROCESS_DISPATCH_COMPLETED
@@ -3376,7 +3376,7 @@ At time 10797:
 At time 10797:
     DISPATCHER_INVOKED
     Process 5 [INTERACTIVE]
-    Selected from 3 threads. Will run for at most 6 ticks.
+    Selected from 3 processes. Will run for at most 6 ticks.
 
 At time 10845:
     PROCESS_DISPATCH_COMPLETED
@@ -3391,7 +3391,7 @@ At time 10851:
 At time 10851:
     DISPATCHER_INVOKED
     Process 4 [NORMAL]
-    Selected from 3 threads. Will run for at most 6 ticks.
+    Selected from 3 processes. Will run for at most 6 ticks.
 
 At time 10899:
     PROCESS_DISPATCH_COMPLETED
@@ -3406,7 +3406,7 @@ At time 10905:
 At time 10905:
     DISPATCHER_INVOKED
     Process 10 [BATCH]
-    Selected from 3 threads. Will run for at most 6 ticks.
+    Selected from 3 processes. Will run for at most 6 ticks.
 
 At time 10953:
     PROCESS_DISPATCH_COMPLETED
@@ -3421,7 +3421,7 @@ At time 10959:
 At time 10959:
     DISPATCHER_INVOKED
     Process 5 [INTERACTIVE]
-    Selected from 3 threads. Will run for at most 6 ticks.
+    Selected from 3 processes. Will run for at most 6 ticks.
 
 At time 11007:
     PROCESS_DISPATCH_COMPLETED
@@ -3436,7 +3436,7 @@ At time 11008:
 At time 11008:
     DISPATCHER_INVOKED
     Process 4 [NORMAL]
-    Selected from 2 threads. Will run for at most 6 ticks.
+    Selected from 2 processes. Will run for at most 6 ticks.
 
 At time 11056:
     PROCESS_DISPATCH_COMPLETED
@@ -3451,7 +3451,7 @@ At time 11059:
 At time 11059:
     DISPATCHER_INVOKED
     Process 10 [BATCH]
-    Selected from 1 threads. Will run for at most 6 ticks.
+    Selected from 1 processes. Will run for at most 6 ticks.
 
 At time 11107:
     PROCESS_DISPATCH_COMPLETED
@@ -3471,7 +3471,7 @@ At time 11135:
 At time 11135:
     DISPATCHER_INVOKED
     Process 10 [BATCH]
-    Selected from 1 threads. Will run for at most 6 ticks.
+    Selected from 1 processes. Will run for at most 6 ticks.
 
 At time 11154:
     PROCESS_DISPATCH_COMPLETED
@@ -3486,7 +3486,7 @@ At time 11160:
 At time 11160:
     DISPATCHER_INVOKED
     Process 10 [BATCH]
-    Selected from 1 threads. Will run for at most 6 ticks.
+    Selected from 1 processes. Will run for at most 6 ticks.
 
 At time 11179:
     PROCESS_DISPATCH_COMPLETED
@@ -3501,7 +3501,7 @@ At time 11185:
 At time 11185:
     DISPATCHER_INVOKED
     Process 10 [BATCH]
-    Selected from 1 threads. Will run for at most 6 ticks.
+    Selected from 1 processes. Will run for at most 6 ticks.
 
 At time 11204:
     PROCESS_DISPATCH_COMPLETED
@@ -3521,7 +3521,7 @@ At time 11219:
 At time 11219:
     DISPATCHER_INVOKED
     Process 10 [BATCH]
-    Selected from 1 threads. Will run for at most 6 ticks.
+    Selected from 1 processes. Will run for at most 6 ticks.
 
 At time 11238:
     PROCESS_DISPATCH_COMPLETED
@@ -3536,7 +3536,7 @@ At time 11244:
 At time 11244:
     DISPATCHER_INVOKED
     Process 10 [BATCH]
-    Selected from 1 threads. Will run for at most 6 ticks.
+    Selected from 1 processes. Will run for at most 6 ticks.
 
 At time 11263:
     PROCESS_DISPATCH_COMPLETED
@@ -3551,7 +3551,7 @@ At time 11269:
 At time 11269:
     DISPATCHER_INVOKED
     Process 10 [BATCH]
-    Selected from 1 threads. Will run for at most 6 ticks.
+    Selected from 1 processes. Will run for at most 6 ticks.
 
 At time 11288:
     PROCESS_DISPATCH_COMPLETED
@@ -3566,7 +3566,7 @@ At time 11294:
 At time 11294:
     DISPATCHER_INVOKED
     Process 10 [BATCH]
-    Selected from 1 threads. Will run for at most 6 ticks.
+    Selected from 1 processes. Will run for at most 6 ticks.
 
 At time 11313:
     PROCESS_DISPATCH_COMPLETED
@@ -3581,7 +3581,7 @@ At time 11319:
 At time 11319:
     DISPATCHER_INVOKED
     Process 10 [BATCH]
-    Selected from 1 threads. Will run for at most 6 ticks.
+    Selected from 1 processes. Will run for at most 6 ticks.
 
 At time 11338:
     PROCESS_DISPATCH_COMPLETED
@@ -3601,7 +3601,7 @@ At time 11369:
 At time 11369:
     DISPATCHER_INVOKED
     Process 10 [BATCH]
-    Selected from 1 threads. Will run for at most 6 ticks.
+    Selected from 1 processes. Will run for at most 6 ticks.
 
 At time 11388:
     PROCESS_DISPATCH_COMPLETED

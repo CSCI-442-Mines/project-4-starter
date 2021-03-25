@@ -45,7 +45,7 @@ public:
                 The time slice if the algorithm is preemptive.
                 A message explaining the decision.
                     This might be, for the first come, first served algorithm, something like this:
-                        "Selected from 9 threads. Will run to completion of burst."
+                        "Selected from 9 processes. Will run to completion of burst."
                     This message is used when printing the state transitions (see the Logger class).
     */
     virtual std::shared_ptr<SchedulingDecision> get_next_thread() = 0;

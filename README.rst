@@ -278,34 +278,34 @@ When the metrics flag has been passed to your simulation, it should output the f
    
    SIMULATION COMPLETED !
 
-   SYSTEM THREADS :
-      Total Count : 3
-      Avg . response time : 23.33
-      Avg . turnaround time : 94.67
-   
-   INTERACTIVE THREADS :
-      Total Count : 2
-      Avg . response time : 10.00
-      Avg . turnaround time : 73.50
+   SYSTEM PROCESSES:
+       Total Count:                  1
+       Avg. response time:       13.00
+       Avg. turnaround time:     53.00
 
-   NORMAL THREADS :
-      Total Count : 0
-      Avg . response time : 0.00
-      Avg . turnaround time : 0.00
+   INTERACTIVE PROCESSES:
+       Total Count:                  1
+       Avg. response time:        7.00
+       Avg. turnaround time:     49.00
 
-   BATCH THREADS :
-      Total Count : 0
-      Avg . response time : 0.00
-      Avg . turnaround time : 0.00
+   NORMAL PROCESSES:
+       Total Count:                  0
+       Avg. response time:        0.00
+       Avg. turnaround time:      0.00
 
-   Total elapsed time : 130
-   Total service time : 53
-   Total I/O time : 34
-   Total dispatch time : 69
-   Total idle time : 8
+   BATCH PROCESSES:
+       Total Count:                  0
+       Avg. response time:        0.00
+       Avg. turnaround time:      0.00
 
-   CPU utilization : 93.85%
-   CPU efficiency : 40.77%
+   Total elapsed time:             58
+   Total service time:             16
+   Total I/O time:                 14
+   Total dispatch time:            42
+   Total idle time:                 0
+
+   CPU utilization:           100.00%
+   CPU efficiency:             27.59%
 
 9.3 --per thread
 ~~~~~~~~~~~~~~~~
@@ -313,16 +313,13 @@ When the per thread flag has been passed to your simulation, it should output in
 
 .. code-block::
 
-   SIMULATION COMPLETED !
+   SIMULATION COMPLETED!
 
    Process 0 [INTERACTIVE]:
-      Thread   0:    ARR : 0      CPU : 8     I/O: 11     TRT: 88        END: 88
-      Thread   1:    ARR : 1      CPU : 9     I/O: 2      TRT: 59        END: 60
+       Process  0:    ARR: 0      CPU: 8      I/O: 11     TRT: 49     END: 49    
 
    Process 1 [SYSTEM]:
-      Thread   0:    ARR : 5      CPU : 8     I/O: 3      TRT : 92       END: 97
-      Thread   1:    ARR : 6      CPU : 5     I/O: 2      TRT : 69       END: 75
-      Thread   2:    ARR : 7      CPU : 23    I/O: 16     TRT : 123      END: 130
+       Process  1:    ARR: 5      CPU: 8      I/O: 3      TRT: 53     END: 58
    
 9.4 --verbose
 ~~~~~~~~~~~~~
@@ -331,28 +328,28 @@ When the verbose flag has been passed to your simulation, it should output, at e
 .. code-block::
 
    At time 0:
-      THREAD_ARRIVED
-      Thread 0 in process 0 [INTERACTIVE]
-      Transitioned from NEW to READY
+    PROCESS_ARRIVED
+    Process 0 [INTERACTIVE]
+    Transitioned from NEW to READY
 
    At time 0:
-      DISPATCHER_INVOKED
-      Thread 0 in process 0 [INTERACTIVE]
-      Selected from 1 threads . Will run to completion of burst.
+    DISPATCHER_INVOKED
+    Process 0 [INTERACTIVE]
+    Selected from 1 processes. Will run to completion of burst.
       
 This continues until the end of the simulation:
 
 .. code-block::
 
-   At time 127:
-      THREAD_DISPATCH_COMPLETED
-      Thread 2 in process 1 [ SYSTEM ]
-      Transitioned from READY to RUNNING
+   At time 56:
+    PROCESS_DISPATCH_COMPLETED
+    Process 1 [SYSTEM]
+    Transitioned from READY to RUNNING
 
-   At time 130:
-      THREAD_COMPLETED
-      Thread 2 in process 1 [ SYSTEM ]
-      Transitioned from RUNNING to EXIT
+   At time 58:
+    PROCESS_COMPLETED
+    Process 1 [SYSTEM]
+    Transitioned from RUNNING to EXIT
 
    SIMULATION COMPLETED !
 
@@ -419,100 +416,98 @@ For the input above, this was the output:
 
 .. code-block::
 
-   At time 0:
-      THREAD_ARRIVED
-      Thread 0 in process 0 [INTERACTIVE]
-      Transitioned from NEW to READY
+    At time 0:
+        PROCESS_ARRIVED
+        Process 0 [INTERACTIVE]
+        Transitioned from NEW to READY
 
-   At time 0:
-      DISPATCHER_INVOKED
-      Thread 0 in process 0 [INTERACTIVE]
-      Selected from 1 threads. Will run to completion of burst.
+    At time 0:
+        DISPATCHER_INVOKED
+        Process 0 [INTERACTIVE]
+        Selected from 1 processes. Will run to completion of burst.
 
-   At time 7:
-      PROCESS_DISPATCH_COMPLETED
-      Thread 0 in process 0 [INTERACTIVE]
-      Transitioned from READY to RUNNING
+    At time 7:
+        PROCESS_DISPATCH_COMPLETED
+        Process 0 [INTERACTIVE]
+        Transitioned from READY to RUNNING
 
-   At time 11:
-      CPU_BURST_COMPLETED
-      Thread 0 in process 0 [INTERACTIVE]
-      Transitioned from RUNNING to BLOCKED
+    At time 11:
+        CPU_BURST_COMPLETED
+        Process 0 [INTERACTIVE]
+        Transitioned from RUNNING to BLOCKED
 
-   At time 16:
-      IO_BURST_COMPLETED
-      Thread 0 in process 0 [INTERACTIVE]
-      Transitioned from BLOCKED to READY
+    At time 16:
+        IO_BURST_COMPLETED
+        Process 0 [INTERACTIVE]
+        Transitioned from BLOCKED to READY
 
-   At time 16:
-      DISPATCHER_INVOKED
-      Thread 0 in process 0 [INTERACTIVE]
-      Selected from 1 threads. Will run to completion of burst.
+    At time 16:
+        DISPATCHER_INVOKED
+        Process 0 [INTERACTIVE]
+        Selected from 1 processes. Will run to completion of burst.
 
-   At time 19:
-      THREAD_DISPATCH_COMPLETED
-      Thread 0 in process 0 [INTERACTIVE]
-      Transitioned from READY to RUNNING
+    At time 19:
+        PROCESS_DISPATCH_COMPLETED
+        Process 0 [INTERACTIVE]
+        Transitioned from READY to RUNNING
 
-   At time 22:
-      CPU_BURST_COMPLETED
-      Thread 0 in process 0 [INTERACTIVE]
-      Transitioned from RUNNING to BLOCKED
+    At time 22:
+        CPU_BURST_COMPLETED
+        Process 0 [INTERACTIVE]
+        Transitioned from RUNNING to BLOCKED
 
-   At time 28:
-      IO_BURST_COMPLETED
-      Thread 0 in process 0 [INTERACTIVE]
-      Transitioned from BLOCKED to READY
+    At time 28:
+        IO_BURST_COMPLETED
+        Process 0 [INTERACTIVE]
+        Transitioned from BLOCKED to READY
 
-   At time 28:
-      DISPATCHER_INVOKED
-      Thread 0 in process 0 [INTERACTIVE]
-      Selected from 1 threads. Will run to completion of burst.
+    At time 28:
+        DISPATCHER_INVOKED
+        Process 0 [INTERACTIVE]
+        Selected from 1 processes. Will run to completion of burst.
 
-   At time 31:
-      THREAD_DISPATCH_COMPLETED
-      Thread 0 in process 0 [INTERACTIVE]
-      Transitioned from READY to RUNNING
+    At time 31:
+        PROCESS_DISPATCH_COMPLETED
+        Process 0 [INTERACTIVE]
+        Transitioned from READY to RUNNING
 
-   At time 32:
-      THREAD_COMPLETED
-      Thread 0 in process 0 [INTERACTIVE]
-      Transitioned from RUNNING to EXIT
+    At time 32:
+        PROCESS_COMPLETED
+        Process 0 [INTERACTIVE]
+        Transitioned from RUNNING to EXIT
 
-   SIMULATION COMPLETED !
-   
-   Process 0 [INTERACTIVE]:
-      Thread 0:   ARR : 0  CPU : 8   I/O: 11    TRT : 32    END : 32
+    SIMULATION COMPLETED!
 
-   SYSTEM THREADS:
-      Total Count:                0
-      Avg. response time:      0.00
-      Avg. turnaround time:    0.00
+    Process 0 [INTERACTIVE]:
+        Process  0:    ARR: 0      CPU: 8      I/O: 11     TRT: 32     END: 32    
 
-   INTERACTIVE THREADS:
-      Total Count: 1
-      Avg. response time:      7.00
-      Avg. turnaround time:   32.00
+    SYSTEM PROCESSES:
+        Total Count:                  0
+        Avg. response time:        0.00
+        Avg. turnaround time:      0.00
 
-   NORMAL THREADS:
-      Total Count :               0
-      Avg. response time:      0.00
-      Avg. turnaround time:    0.00
+    INTERACTIVE PROCESSES:
+        Total Count:                  1
+        Avg. response time:        7.00
+        Avg. turnaround time:     32.00
 
-   BATCH THREADS:
-      Total Count:                0
-      Avg. response time:      0.00
-      Avg. turnaround time:    0.00
+    NORMAL PROCESSES:
+        Total Count:                  0
+        Avg. response time:        0.00
+        Avg. turnaround time:      0.00
 
-   Total elapsed time:           32
-   Total service time:            8
-   Total I/O time:               11
-   Total dispatch time:          13
+    BATCH PROCESSES:
+        Total Count:                  0
+        Avg. response time:        0.00
+        Avg. turnaround time:      0.00
 
-   Total idle time:              11
+    Total elapsed time:             32
+    Total service time:              8
+    Total I/O time:                 11
+    Total dispatch time:            13
+    Total idle time:                11
 
-   CPU utilization:          65.62%
-   CPU efficiency:           25.00%
-   
+    CPU utilization:            65.62%
+    CPU efficiency:             25.00%
    
 .. [#] https://github.com/fmtlib/fmt
