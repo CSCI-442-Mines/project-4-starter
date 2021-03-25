@@ -7,7 +7,7 @@ CSCI-442 - Fall'20: Project 4 - CPU Scheduling Simulator
 Introduction
 ------------
 
-The goal of this project is to develop a CPU scheduling simulation that will complete the execution of a group of multi-threaded processes.  
+The goal of this project is to develop a CPU scheduling simulation that will complete the execution of a group of processes.  
 It will support several different scheduling algorithms.  The user can then specify which one to use via a command-line flag.  
 At the end of execution, your program will calculate anddisplay several performance criteria obtained by the simulation.
 
@@ -27,7 +27,7 @@ The program will simulate process scheduling on a hypothetical computer system w
 1. There is a single CPU, so only one process can be running at a time.
 2. Processes consist of *exactly one* kernel-level thread 
 
-   - I.e., each process is composed of a single thread of execution
+   - I.e., each process is composed of a single thread of execution, therefore there is no distinction between a process or a thread.
 
 3. Processes can exist in one of five states:
 
@@ -96,7 +96,7 @@ The main loop of the simulation should consist of processing the next event, per
 .. figure:: images/Flow_diagram.png
    :width: 100 %
    
-   Figure 1: A high level illustration of the next-event simulation. In the starter code, all of this functionality is to be implemented within the Simulation class. Rounded rectangles represent functions, while diamonds are decisions that lead to different actions being taken. For example, if the event type is determined to be THREAD ARRIVED, then the handle thread arrived(event) function should be called.
+   Figure 1: A high level illustration of the next-event simulation. In the starter code, all of this functionality is to be implemented within the Simulation class. Rounded rectangles represent functions, while diamonds are decisions that lead to different actions being taken. For example, if the event type is determined to be PROCESS ARRIVED, then the handle_process_arrived(event) function should be called.
 
 3.1 Event Queue
 ~~~~~~~~~~~~~~~
@@ -237,8 +237,8 @@ Your simulation must support invocation in the format specified below, including
    -s, --time_slice [positive integer]
       The time slice for preemptive algorithms.
       
-   -t, --per_thread
-      If set, outputs per-thread metrics at the end of the simulation.
+   -t, --per_process
+      If set, outputs per-process metrics at the end of the simulation.
       
    -v, --verbose
       If set, outputs all state transitions and scheduling choices.
@@ -362,7 +362,7 @@ If multiple flags are input, all should be printed, in this order:
 
 1. The verbose information.
 2. ``SIMULATION COMPLETED!``
-3. Per thread metrics.
+3. Per process metrics.
 4. General simulation metrics.
 
 
