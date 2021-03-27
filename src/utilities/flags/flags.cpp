@@ -15,7 +15,7 @@ void print_usage() {
                "algorithms. Must be greater than zero.\n"
                "\n"
                "   -t, --per_process:\n"
-               "       If set, outputs per-thread metrics at the end of the "
+               "       If set, outputs per-process metrics at the end of the "
                "simulation.\n"
                "\n"
                "   -v, --verbose:\n"
