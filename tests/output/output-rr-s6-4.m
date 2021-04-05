@@ -3,7 +3,7 @@ SIMULATION COMPLETED!
 SYSTEM PROCESSES:
     Total Count:                 13
     Avg. response time:      540.23
-    Avg. turnaround time:  14796.31
+    Avg. turnaround time:  14820.54
 
 INTERACTIVE PROCESSES:
     Total Count:                  0
@@ -20,12 +20,12 @@ BATCH PROCESSES:
     Avg. response time:        0.00
     Avg. turnaround time:      0.00
 
-Total elapsed time:          20559
+Total elapsed time:          20874
 Total service time:           2134
 Total I/O time:               1835
-Total dispatch time:         18360
+Total dispatch time:         18675
 Total idle time:                65
 
-CPU utilization:            99.68%
-CPU efficiency:             10.38%
+CPU utilization:            99.69%
+CPU efficiency:             10.22%
 

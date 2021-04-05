@@ -378,112 +378,52 @@ At time 984:
     Process 0 [INTERACTIVE]
     Selected from 1 processes. Will run for at most 6 ticks.
 
-At time 998:
+At time 1020:
     PROCESS_DISPATCH_COMPLETED
     Process 0 [INTERACTIVE]
     Transitioned from READY to RUNNING
 
-At time 1004:
+At time 1026:
     PROCESS_PREEMPTED
     Process 0 [INTERACTIVE]
     Transitioned from RUNNING to READY
 
-At time 1004:
+At time 1026:
     DISPATCHER_INVOKED
     Process 0 [INTERACTIVE]
     Selected from 1 processes. Will run for at most 6 ticks.
 
-At time 1018:
+At time 1062:
     PROCESS_DISPATCH_COMPLETED
     Process 0 [INTERACTIVE]
     Transitioned from READY to RUNNING
 
-At time 1024:
+At time 1068:
     PROCESS_PREEMPTED
     Process 0 [INTERACTIVE]
     Transitioned from RUNNING to READY
 
-At time 1024:
+At time 1068:
     DISPATCHER_INVOKED
     Process 0 [INTERACTIVE]
     Selected from 1 processes. Will run for at most 6 ticks.
 
-At time 1038:
+At time 1104:
     PROCESS_DISPATCH_COMPLETED
     Process 0 [INTERACTIVE]
     Transitioned from READY to RUNNING
 
-At time 1044:
+At time 1110:
     PROCESS_PREEMPTED
     Process 0 [INTERACTIVE]
     Transitioned from RUNNING to READY
 
-At time 1044:
+At time 1110:
     DISPATCHER_INVOKED
     Process 0 [INTERACTIVE]
     Selected from 1 processes. Will run for at most 6 ticks.
 
-At time 1058:
-    PROCESS_DISPATCH_COMPLETED
-    Process 0 [INTERACTIVE]
-    Transitioned from READY to RUNNING
-
-At time 1059:
-    CPU_BURST_COMPLETED
-    Process 0 [INTERACTIVE]
-    Transitioned from RUNNING to BLOCKED
-
-At time 1065:
-    IO_BURST_COMPLETED
-    Process 0 [INTERACTIVE]
-    Transitioned from BLOCKED to READY
-
-At time 1065:
-    DISPATCHER_INVOKED
-    Process 0 [INTERACTIVE]
-    Selected from 1 processes. Will run for at most 6 ticks.
-
-At time 1079:
-    PROCESS_DISPATCH_COMPLETED
-    Process 0 [INTERACTIVE]
-    Transitioned from READY to RUNNING
-
-At time 1081:
-    CPU_BURST_COMPLETED
-    Process 0 [INTERACTIVE]
-    Transitioned from RUNNING to BLOCKED
-
-At time 1089:
-    IO_BURST_COMPLETED
-    Process 0 [INTERACTIVE]
-    Transitioned from BLOCKED to READY
-
-At time 1089:
-    DISPATCHER_INVOKED
-    Process 0 [INTERACTIVE]
-    Selected from 1 processes. Will run for at most 6 ticks.
-
-At time 1103:
-    PROCESS_DISPATCH_COMPLETED
-    Process 0 [INTERACTIVE]
-    Transitioned from READY to RUNNING
-
-At time 1108:
-    CPU_BURST_COMPLETED
-    Process 0 [INTERACTIVE]
-    Transitioned from RUNNING to BLOCKED
-
-At time 1131:
-    IO_BURST_COMPLETED
-    Process 0 [INTERACTIVE]
-    Transitioned from BLOCKED to READY
-
-At time 1131:
-    DISPATCHER_INVOKED
-    Process 0 [INTERACTIVE]
-    Selected from 1 processes. Will run for at most 6 ticks.
-
-At time 1145:
+At time 1146:
     PROCESS_DISPATCH_COMPLETED
     Process 0 [INTERACTIVE]
     Transitioned from READY to RUNNING
@@ -493,72 +433,132 @@ At time 1147:
     Process 0 [INTERACTIVE]
     Transitioned from RUNNING to BLOCKED
 
-At time 1169:
+At time 1153:
     IO_BURST_COMPLETED
     Process 0 [INTERACTIVE]
     Transitioned from BLOCKED to READY
 
-At time 1169:
+At time 1153:
     DISPATCHER_INVOKED
     Process 0 [INTERACTIVE]
     Selected from 1 processes. Will run for at most 6 ticks.
-
-At time 1183:
-    PROCESS_DISPATCH_COMPLETED
-    Process 0 [INTERACTIVE]
-    Transitioned from READY to RUNNING
 
 At time 1189:
-    PROCESS_PREEMPTED
-    Process 0 [INTERACTIVE]
-    Transitioned from RUNNING to READY
-
-At time 1189:
-    DISPATCHER_INVOKED
-    Process 0 [INTERACTIVE]
-    Selected from 1 processes. Will run for at most 6 ticks.
-
-At time 1203:
     PROCESS_DISPATCH_COMPLETED
     Process 0 [INTERACTIVE]
     Transitioned from READY to RUNNING
 
-At time 1209:
-    PROCESS_PREEMPTED
-    Process 0 [INTERACTIVE]
-    Transitioned from RUNNING to READY
-
-At time 1209:
-    DISPATCHER_INVOKED
-    Process 0 [INTERACTIVE]
-    Selected from 1 processes. Will run for at most 6 ticks.
-
-At time 1223:
-    PROCESS_DISPATCH_COMPLETED
-    Process 0 [INTERACTIVE]
-    Transitioned from READY to RUNNING
-
-At time 1227:
+At time 1191:
     CPU_BURST_COMPLETED
     Process 0 [INTERACTIVE]
     Transitioned from RUNNING to BLOCKED
 
-At time 1252:
+At time 1199:
     IO_BURST_COMPLETED
     Process 0 [INTERACTIVE]
     Transitioned from BLOCKED to READY
 
-At time 1252:
+At time 1199:
     DISPATCHER_INVOKED
     Process 0 [INTERACTIVE]
     Selected from 1 processes. Will run for at most 6 ticks.
 
-At time 1266:
+At time 1235:
     PROCESS_DISPATCH_COMPLETED
     Process 0 [INTERACTIVE]
     Transitioned from READY to RUNNING
 
-At time 1271:
+At time 1240:
+    CPU_BURST_COMPLETED
+    Process 0 [INTERACTIVE]
+    Transitioned from RUNNING to BLOCKED
+
+At time 1263:
+    IO_BURST_COMPLETED
+    Process 0 [INTERACTIVE]
+    Transitioned from BLOCKED to READY
+
+At time 1263:
+    DISPATCHER_INVOKED
+    Process 0 [INTERACTIVE]
+    Selected from 1 processes. Will run for at most 6 ticks.
+
+At time 1299:
+    PROCESS_DISPATCH_COMPLETED
+    Process 0 [INTERACTIVE]
+    Transitioned from READY to RUNNING
+
+At time 1301:
+    CPU_BURST_COMPLETED
+    Process 0 [INTERACTIVE]
+    Transitioned from RUNNING to BLOCKED
+
+At time 1323:
+    IO_BURST_COMPLETED
+    Process 0 [INTERACTIVE]
+    Transitioned from BLOCKED to READY
+
+At time 1323:
+    DISPATCHER_INVOKED
+    Process 0 [INTERACTIVE]
+    Selected from 1 processes. Will run for at most 6 ticks.
+
+At time 1359:
+    PROCESS_DISPATCH_COMPLETED
+    Process 0 [INTERACTIVE]
+    Transitioned from READY to RUNNING
+
+At time 1365:
+    PROCESS_PREEMPTED
+    Process 0 [INTERACTIVE]
+    Transitioned from RUNNING to READY
+
+At time 1365:
+    DISPATCHER_INVOKED
+    Process 0 [INTERACTIVE]
+    Selected from 1 processes. Will run for at most 6 ticks.
+
+At time 1401:
+    PROCESS_DISPATCH_COMPLETED
+    Process 0 [INTERACTIVE]
+    Transitioned from READY to RUNNING
+
+At time 1407:
+    PROCESS_PREEMPTED
+    Process 0 [INTERACTIVE]
+    Transitioned from RUNNING to READY
+
+At time 1407:
+    DISPATCHER_INVOKED
+    Process 0 [INTERACTIVE]
+    Selected from 1 processes. Will run for at most 6 ticks.
+
+At time 1443:
+    PROCESS_DISPATCH_COMPLETED
+    Process 0 [INTERACTIVE]
+    Transitioned from READY to RUNNING
+
+At time 1447:
+    CPU_BURST_COMPLETED
+    Process 0 [INTERACTIVE]
+    Transitioned from RUNNING to BLOCKED
+
+At time 1472:
+    IO_BURST_COMPLETED
+    Process 0 [INTERACTIVE]
+    Transitioned from BLOCKED to READY
+
+At time 1472:
+    DISPATCHER_INVOKED
+    Process 0 [INTERACTIVE]
+    Selected from 1 processes. Will run for at most 6 ticks.
+
+At time 1508:
+    PROCESS_DISPATCH_COMPLETED
+    Process 0 [INTERACTIVE]
+    Transitioned from READY to RUNNING
+
+At time 1513:
     PROCESS_COMPLETED
     Process 0 [INTERACTIVE]
     Transitioned from RUNNING to EXIT

@@ -168,27 +168,7 @@ At time 480:
     Process 0 [INTERACTIVE]
     Selected from 1 processes. Will run to completion of burst.
 
-At time 494:
-    PROCESS_DISPATCH_COMPLETED
-    Process 0 [INTERACTIVE]
-    Transitioned from READY to RUNNING
-
-At time 513:
-    CPU_BURST_COMPLETED
-    Process 0 [INTERACTIVE]
-    Transitioned from RUNNING to BLOCKED
-
-At time 519:
-    IO_BURST_COMPLETED
-    Process 0 [INTERACTIVE]
-    Transitioned from BLOCKED to READY
-
-At time 519:
-    DISPATCHER_INVOKED
-    Process 0 [INTERACTIVE]
-    Selected from 1 processes. Will run to completion of burst.
-
-At time 533:
+At time 516:
     PROCESS_DISPATCH_COMPLETED
     Process 0 [INTERACTIVE]
     Transitioned from READY to RUNNING
@@ -198,82 +178,102 @@ At time 535:
     Process 0 [INTERACTIVE]
     Transitioned from RUNNING to BLOCKED
 
-At time 543:
+At time 541:
     IO_BURST_COMPLETED
     Process 0 [INTERACTIVE]
     Transitioned from BLOCKED to READY
 
-At time 543:
+At time 541:
     DISPATCHER_INVOKED
     Process 0 [INTERACTIVE]
     Selected from 1 processes. Will run to completion of burst.
 
-At time 557:
+At time 577:
     PROCESS_DISPATCH_COMPLETED
     Process 0 [INTERACTIVE]
     Transitioned from READY to RUNNING
 
-At time 562:
+At time 579:
     CPU_BURST_COMPLETED
     Process 0 [INTERACTIVE]
     Transitioned from RUNNING to BLOCKED
 
-At time 585:
+At time 587:
     IO_BURST_COMPLETED
     Process 0 [INTERACTIVE]
     Transitioned from BLOCKED to READY
 
-At time 585:
+At time 587:
     DISPATCHER_INVOKED
     Process 0 [INTERACTIVE]
     Selected from 1 processes. Will run to completion of burst.
-
-At time 599:
-    PROCESS_DISPATCH_COMPLETED
-    Process 0 [INTERACTIVE]
-    Transitioned from READY to RUNNING
-
-At time 601:
-    CPU_BURST_COMPLETED
-    Process 0 [INTERACTIVE]
-    Transitioned from RUNNING to BLOCKED
 
 At time 623:
-    IO_BURST_COMPLETED
-    Process 0 [INTERACTIVE]
-    Transitioned from BLOCKED to READY
-
-At time 623:
-    DISPATCHER_INVOKED
-    Process 0 [INTERACTIVE]
-    Selected from 1 processes. Will run to completion of burst.
-
-At time 637:
     PROCESS_DISPATCH_COMPLETED
     Process 0 [INTERACTIVE]
     Transitioned from READY to RUNNING
 
-At time 653:
+At time 628:
     CPU_BURST_COMPLETED
     Process 0 [INTERACTIVE]
     Transitioned from RUNNING to BLOCKED
 
-At time 678:
+At time 651:
     IO_BURST_COMPLETED
     Process 0 [INTERACTIVE]
     Transitioned from BLOCKED to READY
 
-At time 678:
+At time 651:
     DISPATCHER_INVOKED
     Process 0 [INTERACTIVE]
     Selected from 1 processes. Will run to completion of burst.
 
-At time 692:
+At time 687:
     PROCESS_DISPATCH_COMPLETED
     Process 0 [INTERACTIVE]
     Transitioned from READY to RUNNING
 
-At time 697:
+At time 689:
+    CPU_BURST_COMPLETED
+    Process 0 [INTERACTIVE]
+    Transitioned from RUNNING to BLOCKED
+
+At time 711:
+    IO_BURST_COMPLETED
+    Process 0 [INTERACTIVE]
+    Transitioned from BLOCKED to READY
+
+At time 711:
+    DISPATCHER_INVOKED
+    Process 0 [INTERACTIVE]
+    Selected from 1 processes. Will run to completion of burst.
+
+At time 747:
+    PROCESS_DISPATCH_COMPLETED
+    Process 0 [INTERACTIVE]
+    Transitioned from READY to RUNNING
+
+At time 763:
+    CPU_BURST_COMPLETED
+    Process 0 [INTERACTIVE]
+    Transitioned from RUNNING to BLOCKED
+
+At time 788:
+    IO_BURST_COMPLETED
+    Process 0 [INTERACTIVE]
+    Transitioned from BLOCKED to READY
+
+At time 788:
+    DISPATCHER_INVOKED
+    Process 0 [INTERACTIVE]
+    Selected from 1 processes. Will run to completion of burst.
+
+At time 824:
+    PROCESS_DISPATCH_COMPLETED
+    Process 0 [INTERACTIVE]
+    Transitioned from READY to RUNNING
+
+At time 829:
     PROCESS_COMPLETED
     Process 0 [INTERACTIVE]
     Transitioned from RUNNING to EXIT

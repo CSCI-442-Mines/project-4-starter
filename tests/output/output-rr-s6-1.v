@@ -1773,157 +1773,157 @@ At time 4379:
     Process 5 [INTERACTIVE]
     Selected from 1 processes. Will run for at most 6 ticks.
 
-At time 4382:
+At time 4414:
     PROCESS_DISPATCH_COMPLETED
     Process 5 [INTERACTIVE]
     Transitioned from READY to RUNNING
 
-At time 4388:
+At time 4420:
     PROCESS_PREEMPTED
     Process 5 [INTERACTIVE]
     Transitioned from RUNNING to READY
 
-At time 4388:
+At time 4420:
     DISPATCHER_INVOKED
     Process 5 [INTERACTIVE]
     Selected from 1 processes. Will run for at most 6 ticks.
 
-At time 4391:
+At time 4455:
     PROCESS_DISPATCH_COMPLETED
     Process 5 [INTERACTIVE]
     Transitioned from READY to RUNNING
 
-At time 4394:
+At time 4458:
     CPU_BURST_COMPLETED
     Process 5 [INTERACTIVE]
     Transitioned from RUNNING to BLOCKED
 
-At time 4414:
+At time 4478:
     IO_BURST_COMPLETED
     Process 5 [INTERACTIVE]
     Transitioned from BLOCKED to READY
 
-At time 4414:
+At time 4478:
     DISPATCHER_INVOKED
     Process 5 [INTERACTIVE]
     Selected from 1 processes. Will run for at most 6 ticks.
 
-At time 4417:
+At time 4513:
     PROCESS_DISPATCH_COMPLETED
     Process 5 [INTERACTIVE]
     Transitioned from READY to RUNNING
 
-At time 4423:
+At time 4519:
     PROCESS_PREEMPTED
     Process 5 [INTERACTIVE]
     Transitioned from RUNNING to READY
 
-At time 4423:
+At time 4519:
     DISPATCHER_INVOKED
     Process 5 [INTERACTIVE]
     Selected from 1 processes. Will run for at most 6 ticks.
 
-At time 4426:
+At time 4554:
     PROCESS_DISPATCH_COMPLETED
     Process 5 [INTERACTIVE]
     Transitioned from READY to RUNNING
 
-At time 4432:
+At time 4560:
     PROCESS_PREEMPTED
     Process 5 [INTERACTIVE]
     Transitioned from RUNNING to READY
 
-At time 4432:
+At time 4560:
     DISPATCHER_INVOKED
     Process 5 [INTERACTIVE]
     Selected from 1 processes. Will run for at most 6 ticks.
 
-At time 4435:
+At time 4595:
     PROCESS_DISPATCH_COMPLETED
     Process 5 [INTERACTIVE]
     Transitioned from READY to RUNNING
 
-At time 4441:
+At time 4601:
     PROCESS_PREEMPTED
     Process 5 [INTERACTIVE]
     Transitioned from RUNNING to READY
 
-At time 4441:
+At time 4601:
     DISPATCHER_INVOKED
     Process 5 [INTERACTIVE]
     Selected from 1 processes. Will run for at most 6 ticks.
 
-At time 4444:
+At time 4636:
     PROCESS_DISPATCH_COMPLETED
     Process 5 [INTERACTIVE]
     Transitioned from READY to RUNNING
 
-At time 4447:
+At time 4639:
     CPU_BURST_COMPLETED
     Process 5 [INTERACTIVE]
     Transitioned from RUNNING to BLOCKED
 
-At time 4450:
+At time 4642:
     IO_BURST_COMPLETED
     Process 5 [INTERACTIVE]
     Transitioned from BLOCKED to READY
 
-At time 4450:
+At time 4642:
     DISPATCHER_INVOKED
     Process 5 [INTERACTIVE]
     Selected from 1 processes. Will run for at most 6 ticks.
 
-At time 4453:
+At time 4677:
     PROCESS_DISPATCH_COMPLETED
     Process 5 [INTERACTIVE]
     Transitioned from READY to RUNNING
 
-At time 4459:
+At time 4683:
     PROCESS_PREEMPTED
     Process 5 [INTERACTIVE]
     Transitioned from RUNNING to READY
 
-At time 4459:
+At time 4683:
     DISPATCHER_INVOKED
     Process 5 [INTERACTIVE]
     Selected from 1 processes. Will run for at most 6 ticks.
 
-At time 4462:
+At time 4718:
     PROCESS_DISPATCH_COMPLETED
     Process 5 [INTERACTIVE]
     Transitioned from READY to RUNNING
 
-At time 4468:
+At time 4724:
     PROCESS_PREEMPTED
     Process 5 [INTERACTIVE]
     Transitioned from RUNNING to READY
 
-At time 4468:
+At time 4724:
     DISPATCHER_INVOKED
     Process 5 [INTERACTIVE]
     Selected from 1 processes. Will run for at most 6 ticks.
 
-At time 4471:
+At time 4759:
     PROCESS_DISPATCH_COMPLETED
     Process 5 [INTERACTIVE]
     Transitioned from READY to RUNNING
 
-At time 4477:
+At time 4765:
     PROCESS_PREEMPTED
     Process 5 [INTERACTIVE]
     Transitioned from RUNNING to READY
 
-At time 4477:
+At time 4765:
     DISPATCHER_INVOKED
     Process 5 [INTERACTIVE]
     Selected from 1 processes. Will run for at most 6 ticks.
 
-At time 4480:
+At time 4800:
     PROCESS_DISPATCH_COMPLETED
     Process 5 [INTERACTIVE]
     Transitioned from READY to RUNNING
 
-At time 4484:
+At time 4804:
     PROCESS_COMPLETED
     Process 5 [INTERACTIVE]
     Transitioned from RUNNING to EXIT

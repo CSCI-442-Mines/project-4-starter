@@ -16,7 +16,7 @@ Process 4 [INTERACTIVE]:
     Process  4:    ARR: 50     CPU: 104    I/O: 86     TRT: 3753   END: 3803  
 
 Process 5 [INTERACTIVE]:
-    Process  5:    ARR: 42     CPU: 200    I/O: 148    TRT: 4442   END: 4484  
+    Process  5:    ARR: 42     CPU: 200    I/O: 148    TRT: 4762   END: 4804  
 
 Process 6 [INTERACTIVE]:
     Process  6:    ARR: 57     CPU: 99     I/O: 82     TRT: 3782   END: 3839  

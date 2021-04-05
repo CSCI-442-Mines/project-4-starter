@@ -31,7 +31,7 @@ Process 9 [NORMAL]:
     Process  9:    ARR: 87     CPU: 112    I/O: 68     TRT: 18164  END: 18251 
 
 Process 10 [BATCH]:
-    Process 10:    ARR: 0      CPU: 182    I/O: 153    TRT: 19797  END: 19797 
+    Process 10:    ARR: 0      CPU: 182    I/O: 153    TRT: 20290  END: 20290 
 
 Process 11 [BATCH]:
     Process 11:    ARR: 53     CPU: 96     I/O: 81     TRT: 16669  END: 16722 

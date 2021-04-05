@@ -1368,12 +1368,12 @@ At time 4415:
     Process 10 [BATCH]
     Selected from 1 processes. Will run to completion of burst.
 
-At time 4434:
+At time 4463:
     PROCESS_DISPATCH_COMPLETED
     Process 10 [BATCH]
     Transitioned from READY to RUNNING
 
-At time 4435:
+At time 4464:
     PROCESS_COMPLETED
     Process 10 [BATCH]
     Transitioned from RUNNING to EXIT

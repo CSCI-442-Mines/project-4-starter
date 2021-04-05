@@ -6688,232 +6688,232 @@ At time 20090:
     Process 4 [SYSTEM]
     Selected from 1 processes. Will run for at most 6 ticks.
 
-At time 20114:
+At time 20135:
     PROCESS_DISPATCH_COMPLETED
     Process 4 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 20120:
+At time 20141:
     PROCESS_PREEMPTED
     Process 4 [SYSTEM]
     Transitioned from RUNNING to READY
 
-At time 20120:
+At time 20141:
     DISPATCHER_INVOKED
     Process 4 [SYSTEM]
     Selected from 1 processes. Will run for at most 6 ticks.
 
-At time 20144:
+At time 20186:
     PROCESS_DISPATCH_COMPLETED
     Process 4 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 20150:
+At time 20192:
     PROCESS_PREEMPTED
     Process 4 [SYSTEM]
     Transitioned from RUNNING to READY
 
-At time 20150:
+At time 20192:
     DISPATCHER_INVOKED
     Process 4 [SYSTEM]
     Selected from 1 processes. Will run for at most 6 ticks.
 
-At time 20174:
+At time 20237:
     PROCESS_DISPATCH_COMPLETED
     Process 4 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 20180:
+At time 20243:
     PROCESS_PREEMPTED
     Process 4 [SYSTEM]
     Transitioned from RUNNING to READY
 
-At time 20180:
+At time 20243:
     DISPATCHER_INVOKED
     Process 4 [SYSTEM]
     Selected from 1 processes. Will run for at most 6 ticks.
 
-At time 20204:
+At time 20288:
     PROCESS_DISPATCH_COMPLETED
     Process 4 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 20210:
+At time 20294:
     PROCESS_PREEMPTED
     Process 4 [SYSTEM]
     Transitioned from RUNNING to READY
 
-At time 20210:
+At time 20294:
     DISPATCHER_INVOKED
     Process 4 [SYSTEM]
     Selected from 1 processes. Will run for at most 6 ticks.
 
-At time 20234:
+At time 20339:
     PROCESS_DISPATCH_COMPLETED
     Process 4 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 20235:
+At time 20340:
     CPU_BURST_COMPLETED
     Process 4 [SYSTEM]
     Transitioned from RUNNING to BLOCKED
 
-At time 20258:
+At time 20363:
     IO_BURST_COMPLETED
     Process 4 [SYSTEM]
     Transitioned from BLOCKED to READY
 
-At time 20258:
+At time 20363:
     DISPATCHER_INVOKED
     Process 4 [SYSTEM]
     Selected from 1 processes. Will run for at most 6 ticks.
 
-At time 20282:
+At time 20408:
     PROCESS_DISPATCH_COMPLETED
     Process 4 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 20288:
+At time 20414:
     PROCESS_PREEMPTED
     Process 4 [SYSTEM]
     Transitioned from RUNNING to READY
 
-At time 20288:
+At time 20414:
     DISPATCHER_INVOKED
     Process 4 [SYSTEM]
     Selected from 1 processes. Will run for at most 6 ticks.
 
-At time 20312:
+At time 20459:
     PROCESS_DISPATCH_COMPLETED
     Process 4 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 20318:
+At time 20465:
     PROCESS_PREEMPTED
     Process 4 [SYSTEM]
     Transitioned from RUNNING to READY
 
-At time 20318:
+At time 20465:
     DISPATCHER_INVOKED
     Process 4 [SYSTEM]
     Selected from 1 processes. Will run for at most 6 ticks.
 
-At time 20342:
+At time 20510:
     PROCESS_DISPATCH_COMPLETED
     Process 4 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 20348:
+At time 20516:
     PROCESS_PREEMPTED
     Process 4 [SYSTEM]
     Transitioned from RUNNING to READY
 
-At time 20348:
+At time 20516:
     DISPATCHER_INVOKED
     Process 4 [SYSTEM]
     Selected from 1 processes. Will run for at most 6 ticks.
 
-At time 20372:
+At time 20561:
     PROCESS_DISPATCH_COMPLETED
     Process 4 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 20378:
+At time 20567:
     PROCESS_PREEMPTED
     Process 4 [SYSTEM]
     Transitioned from RUNNING to READY
 
-At time 20378:
+At time 20567:
     DISPATCHER_INVOKED
     Process 4 [SYSTEM]
     Selected from 1 processes. Will run for at most 6 ticks.
 
-At time 20402:
+At time 20612:
     PROCESS_DISPATCH_COMPLETED
     Process 4 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 20406:
+At time 20616:
     CPU_BURST_COMPLETED
     Process 4 [SYSTEM]
     Transitioned from RUNNING to BLOCKED
 
-At time 20410:
+At time 20620:
     IO_BURST_COMPLETED
     Process 4 [SYSTEM]
     Transitioned from BLOCKED to READY
 
-At time 20410:
+At time 20620:
     DISPATCHER_INVOKED
     Process 4 [SYSTEM]
     Selected from 1 processes. Will run for at most 6 ticks.
 
-At time 20434:
+At time 20665:
     PROCESS_DISPATCH_COMPLETED
     Process 4 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 20440:
+At time 20671:
     PROCESS_PREEMPTED
     Process 4 [SYSTEM]
     Transitioned from RUNNING to READY
 
-At time 20440:
+At time 20671:
     DISPATCHER_INVOKED
     Process 4 [SYSTEM]
     Selected from 1 processes. Will run for at most 6 ticks.
 
-At time 20464:
+At time 20716:
     PROCESS_DISPATCH_COMPLETED
     Process 4 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 20470:
+At time 20722:
     PROCESS_PREEMPTED
     Process 4 [SYSTEM]
     Transitioned from RUNNING to READY
 
-At time 20470:
+At time 20722:
     DISPATCHER_INVOKED
     Process 4 [SYSTEM]
     Selected from 1 processes. Will run for at most 6 ticks.
 
-At time 20494:
+At time 20767:
     PROCESS_DISPATCH_COMPLETED
     Process 4 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 20500:
+At time 20773:
     PROCESS_PREEMPTED
     Process 4 [SYSTEM]
     Transitioned from RUNNING to READY
 
-At time 20500:
+At time 20773:
     DISPATCHER_INVOKED
     Process 4 [SYSTEM]
     Selected from 1 processes. Will run for at most 6 ticks.
 
-At time 20524:
+At time 20818:
     PROCESS_DISPATCH_COMPLETED
     Process 4 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 20530:
+At time 20824:
     PROCESS_PREEMPTED
     Process 4 [SYSTEM]
     Transitioned from RUNNING to READY
 
-At time 20530:
+At time 20824:
     DISPATCHER_INVOKED
     Process 4 [SYSTEM]
     Selected from 1 processes. Will run for at most 6 ticks.
 
-At time 20554:
+At time 20869:
     PROCESS_DISPATCH_COMPLETED
     Process 4 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 20559:
+At time 20874:
     PROCESS_COMPLETED
     Process 4 [SYSTEM]
     Transitioned from RUNNING to EXIT

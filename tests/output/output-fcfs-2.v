@@ -248,32 +248,32 @@ At time 800:
     Process 1 [SYSTEM]
     Selected from 1 processes. Will run to completion of burst.
 
-At time 810:
+At time 847:
     PROCESS_DISPATCH_COMPLETED
     Process 1 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 811:
+At time 848:
     CPU_BURST_COMPLETED
     Process 1 [SYSTEM]
     Transitioned from RUNNING to BLOCKED
 
-At time 825:
+At time 862:
     IO_BURST_COMPLETED
     Process 1 [SYSTEM]
     Transitioned from BLOCKED to READY
 
-At time 825:
+At time 862:
     DISPATCHER_INVOKED
     Process 1 [SYSTEM]
     Selected from 1 processes. Will run to completion of burst.
 
-At time 835:
+At time 909:
     PROCESS_DISPATCH_COMPLETED
     Process 1 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 862:
+At time 936:
     PROCESS_COMPLETED
     Process 1 [SYSTEM]
     Transitioned from RUNNING to EXIT

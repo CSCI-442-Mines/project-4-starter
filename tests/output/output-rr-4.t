@@ -13,7 +13,7 @@ Process 3 [SYSTEM]:
     Process  3:    ARR: 79     CPU: 57     I/O: 74     TRT: 22267  END: 22346 
 
 Process 4 [SYSTEM]:
-    Process  4:    ARR: 50     CPU: 239    I/O: 142    TRT: 35653  END: 35703 
+    Process  4:    ARR: 50     CPU: 239    I/O: 142    TRT: 36304  END: 36354 
 
 Process 5 [SYSTEM]:
     Process  5:    ARR: 22     CPU: 64     I/O: 12     TRT: 22466  END: 22488 

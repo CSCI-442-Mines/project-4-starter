@@ -11603,252 +11603,142 @@ At time 34818:
     Process 4 [SYSTEM]
     Selected from 1 processes. Will run for at most 3 ticks.
 
-At time 34842:
+At time 34863:
     PROCESS_DISPATCH_COMPLETED
     Process 4 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 34845:
+At time 34866:
     PROCESS_PREEMPTED
     Process 4 [SYSTEM]
     Transitioned from RUNNING to READY
 
-At time 34845:
+At time 34866:
     DISPATCHER_INVOKED
     Process 4 [SYSTEM]
     Selected from 1 processes. Will run for at most 3 ticks.
 
-At time 34869:
+At time 34911:
     PROCESS_DISPATCH_COMPLETED
     Process 4 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 34870:
+At time 34912:
     CPU_BURST_COMPLETED
     Process 4 [SYSTEM]
     Transitioned from RUNNING to BLOCKED
 
-At time 34898:
+At time 34940:
     IO_BURST_COMPLETED
     Process 4 [SYSTEM]
     Transitioned from BLOCKED to READY
 
-At time 34898:
+At time 34940:
     DISPATCHER_INVOKED
     Process 4 [SYSTEM]
     Selected from 1 processes. Will run for at most 3 ticks.
 
-At time 34922:
+At time 34985:
     PROCESS_DISPATCH_COMPLETED
     Process 4 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 34925:
+At time 34988:
     PROCESS_PREEMPTED
     Process 4 [SYSTEM]
     Transitioned from RUNNING to READY
 
-At time 34925:
+At time 34988:
     DISPATCHER_INVOKED
     Process 4 [SYSTEM]
     Selected from 1 processes. Will run for at most 3 ticks.
-
-At time 34949:
-    PROCESS_DISPATCH_COMPLETED
-    Process 4 [SYSTEM]
-    Transitioned from READY to RUNNING
-
-At time 34952:
-    PROCESS_PREEMPTED
-    Process 4 [SYSTEM]
-    Transitioned from RUNNING to READY
-
-At time 34952:
-    DISPATCHER_INVOKED
-    Process 4 [SYSTEM]
-    Selected from 1 processes. Will run for at most 3 ticks.
-
-At time 34976:
-    PROCESS_DISPATCH_COMPLETED
-    Process 4 [SYSTEM]
-    Transitioned from READY to RUNNING
-
-At time 34979:
-    PROCESS_PREEMPTED
-    Process 4 [SYSTEM]
-    Transitioned from RUNNING to READY
-
-At time 34979:
-    DISPATCHER_INVOKED
-    Process 4 [SYSTEM]
-    Selected from 1 processes. Will run for at most 3 ticks.
-
-At time 35003:
-    PROCESS_DISPATCH_COMPLETED
-    Process 4 [SYSTEM]
-    Transitioned from READY to RUNNING
-
-At time 35006:
-    PROCESS_PREEMPTED
-    Process 4 [SYSTEM]
-    Transitioned from RUNNING to READY
-
-At time 35006:
-    DISPATCHER_INVOKED
-    Process 4 [SYSTEM]
-    Selected from 1 processes. Will run for at most 3 ticks.
-
-At time 35030:
-    PROCESS_DISPATCH_COMPLETED
-    Process 4 [SYSTEM]
-    Transitioned from READY to RUNNING
 
 At time 35033:
-    PROCESS_PREEMPTED
-    Process 4 [SYSTEM]
-    Transitioned from RUNNING to READY
-
-At time 35033:
-    DISPATCHER_INVOKED
-    Process 4 [SYSTEM]
-    Selected from 1 processes. Will run for at most 3 ticks.
-
-At time 35057:
     PROCESS_DISPATCH_COMPLETED
     Process 4 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 35060:
+At time 35036:
     PROCESS_PREEMPTED
     Process 4 [SYSTEM]
     Transitioned from RUNNING to READY
 
-At time 35060:
+At time 35036:
     DISPATCHER_INVOKED
     Process 4 [SYSTEM]
     Selected from 1 processes. Will run for at most 3 ticks.
+
+At time 35081:
+    PROCESS_DISPATCH_COMPLETED
+    Process 4 [SYSTEM]
+    Transitioned from READY to RUNNING
 
 At time 35084:
-    PROCESS_DISPATCH_COMPLETED
-    Process 4 [SYSTEM]
-    Transitioned from READY to RUNNING
-
-At time 35087:
     PROCESS_PREEMPTED
     Process 4 [SYSTEM]
     Transitioned from RUNNING to READY
 
-At time 35087:
+At time 35084:
     DISPATCHER_INVOKED
     Process 4 [SYSTEM]
     Selected from 1 processes. Will run for at most 3 ticks.
 
-At time 35111:
+At time 35129:
     PROCESS_DISPATCH_COMPLETED
     Process 4 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 35114:
+At time 35132:
     PROCESS_PREEMPTED
     Process 4 [SYSTEM]
     Transitioned from RUNNING to READY
 
-At time 35114:
+At time 35132:
     DISPATCHER_INVOKED
     Process 4 [SYSTEM]
     Selected from 1 processes. Will run for at most 3 ticks.
 
-At time 35138:
+At time 35177:
     PROCESS_DISPATCH_COMPLETED
     Process 4 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 35139:
-    CPU_BURST_COMPLETED
-    Process 4 [SYSTEM]
-    Transitioned from RUNNING to BLOCKED
-
-At time 35162:
-    IO_BURST_COMPLETED
-    Process 4 [SYSTEM]
-    Transitioned from BLOCKED to READY
-
-At time 35162:
-    DISPATCHER_INVOKED
-    Process 4 [SYSTEM]
-    Selected from 1 processes. Will run for at most 3 ticks.
-
-At time 35186:
-    PROCESS_DISPATCH_COMPLETED
-    Process 4 [SYSTEM]
-    Transitioned from READY to RUNNING
-
-At time 35189:
+At time 35180:
     PROCESS_PREEMPTED
     Process 4 [SYSTEM]
     Transitioned from RUNNING to READY
 
-At time 35189:
+At time 35180:
     DISPATCHER_INVOKED
     Process 4 [SYSTEM]
     Selected from 1 processes. Will run for at most 3 ticks.
 
-At time 35213:
+At time 35225:
     PROCESS_DISPATCH_COMPLETED
     Process 4 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 35216:
+At time 35228:
     PROCESS_PREEMPTED
     Process 4 [SYSTEM]
     Transitioned from RUNNING to READY
 
-At time 35216:
+At time 35228:
     DISPATCHER_INVOKED
     Process 4 [SYSTEM]
     Selected from 1 processes. Will run for at most 3 ticks.
 
-At time 35240:
+At time 35273:
     PROCESS_DISPATCH_COMPLETED
     Process 4 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 35243:
+At time 35276:
     PROCESS_PREEMPTED
     Process 4 [SYSTEM]
     Transitioned from RUNNING to READY
 
-At time 35243:
-    DISPATCHER_INVOKED
-    Process 4 [SYSTEM]
-    Selected from 1 processes. Will run for at most 3 ticks.
-
-At time 35267:
-    PROCESS_DISPATCH_COMPLETED
-    Process 4 [SYSTEM]
-    Transitioned from READY to RUNNING
-
-At time 35270:
-    PROCESS_PREEMPTED
-    Process 4 [SYSTEM]
-    Transitioned from RUNNING to READY
-
-At time 35270:
-    DISPATCHER_INVOKED
-    Process 4 [SYSTEM]
-    Selected from 1 processes. Will run for at most 3 ticks.
-
-At time 35294:
-    PROCESS_DISPATCH_COMPLETED
-    Process 4 [SYSTEM]
-    Transitioned from READY to RUNNING
-
-At time 35297:
-    PROCESS_PREEMPTED
-    Process 4 [SYSTEM]
-    Transitioned from RUNNING to READY
-
-At time 35297:
+At time 35276:
     DISPATCHER_INVOKED
     Process 4 [SYSTEM]
     Selected from 1 processes. Will run for at most 3 ticks.
@@ -11868,212 +11758,322 @@ At time 35324:
     Process 4 [SYSTEM]
     Selected from 1 processes. Will run for at most 3 ticks.
 
-At time 35348:
+At time 35369:
     PROCESS_DISPATCH_COMPLETED
     Process 4 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 35351:
-    PROCESS_PREEMPTED
-    Process 4 [SYSTEM]
-    Transitioned from RUNNING to READY
-
-At time 35351:
-    DISPATCHER_INVOKED
-    Process 4 [SYSTEM]
-    Selected from 1 processes. Will run for at most 3 ticks.
-
-At time 35375:
-    PROCESS_DISPATCH_COMPLETED
-    Process 4 [SYSTEM]
-    Transitioned from READY to RUNNING
-
-At time 35378:
-    PROCESS_PREEMPTED
-    Process 4 [SYSTEM]
-    Transitioned from RUNNING to READY
-
-At time 35378:
-    DISPATCHER_INVOKED
-    Process 4 [SYSTEM]
-    Selected from 1 processes. Will run for at most 3 ticks.
-
-At time 35402:
-    PROCESS_DISPATCH_COMPLETED
-    Process 4 [SYSTEM]
-    Transitioned from READY to RUNNING
-
-At time 35405:
-    PROCESS_PREEMPTED
-    Process 4 [SYSTEM]
-    Transitioned from RUNNING to READY
-
-At time 35405:
-    DISPATCHER_INVOKED
-    Process 4 [SYSTEM]
-    Selected from 1 processes. Will run for at most 3 ticks.
-
-At time 35429:
-    PROCESS_DISPATCH_COMPLETED
-    Process 4 [SYSTEM]
-    Transitioned from READY to RUNNING
-
-At time 35430:
+At time 35370:
     CPU_BURST_COMPLETED
     Process 4 [SYSTEM]
     Transitioned from RUNNING to BLOCKED
 
-At time 35434:
+At time 35393:
     IO_BURST_COMPLETED
     Process 4 [SYSTEM]
     Transitioned from BLOCKED to READY
 
-At time 35434:
+At time 35393:
     DISPATCHER_INVOKED
     Process 4 [SYSTEM]
     Selected from 1 processes. Will run for at most 3 ticks.
 
-At time 35458:
+At time 35438:
     PROCESS_DISPATCH_COMPLETED
     Process 4 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 35461:
+At time 35441:
     PROCESS_PREEMPTED
     Process 4 [SYSTEM]
     Transitioned from RUNNING to READY
 
-At time 35461:
+At time 35441:
     DISPATCHER_INVOKED
     Process 4 [SYSTEM]
     Selected from 1 processes. Will run for at most 3 ticks.
 
-At time 35485:
+At time 35486:
     PROCESS_DISPATCH_COMPLETED
     Process 4 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 35488:
+At time 35489:
     PROCESS_PREEMPTED
     Process 4 [SYSTEM]
     Transitioned from RUNNING to READY
 
-At time 35488:
+At time 35489:
     DISPATCHER_INVOKED
     Process 4 [SYSTEM]
     Selected from 1 processes. Will run for at most 3 ticks.
 
-At time 35512:
+At time 35534:
     PROCESS_DISPATCH_COMPLETED
     Process 4 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 35515:
+At time 35537:
     PROCESS_PREEMPTED
     Process 4 [SYSTEM]
     Transitioned from RUNNING to READY
 
-At time 35515:
+At time 35537:
     DISPATCHER_INVOKED
     Process 4 [SYSTEM]
     Selected from 1 processes. Will run for at most 3 ticks.
 
-At time 35539:
+At time 35582:
     PROCESS_DISPATCH_COMPLETED
     Process 4 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 35542:
+At time 35585:
     PROCESS_PREEMPTED
     Process 4 [SYSTEM]
     Transitioned from RUNNING to READY
 
-At time 35542:
+At time 35585:
     DISPATCHER_INVOKED
     Process 4 [SYSTEM]
     Selected from 1 processes. Will run for at most 3 ticks.
 
-At time 35566:
+At time 35630:
     PROCESS_DISPATCH_COMPLETED
     Process 4 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 35569:
+At time 35633:
     PROCESS_PREEMPTED
     Process 4 [SYSTEM]
     Transitioned from RUNNING to READY
 
-At time 35569:
+At time 35633:
     DISPATCHER_INVOKED
     Process 4 [SYSTEM]
     Selected from 1 processes. Will run for at most 3 ticks.
 
-At time 35593:
+At time 35678:
     PROCESS_DISPATCH_COMPLETED
     Process 4 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 35596:
+At time 35681:
     PROCESS_PREEMPTED
     Process 4 [SYSTEM]
     Transitioned from RUNNING to READY
 
-At time 35596:
+At time 35681:
     DISPATCHER_INVOKED
     Process 4 [SYSTEM]
     Selected from 1 processes. Will run for at most 3 ticks.
 
-At time 35620:
+At time 35726:
     PROCESS_DISPATCH_COMPLETED
     Process 4 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 35623:
+At time 35729:
     PROCESS_PREEMPTED
     Process 4 [SYSTEM]
     Transitioned from RUNNING to READY
 
-At time 35623:
+At time 35729:
     DISPATCHER_INVOKED
     Process 4 [SYSTEM]
     Selected from 1 processes. Will run for at most 3 ticks.
 
-At time 35647:
+At time 35774:
     PROCESS_DISPATCH_COMPLETED
     Process 4 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 35650:
+At time 35777:
     PROCESS_PREEMPTED
     Process 4 [SYSTEM]
     Transitioned from RUNNING to READY
 
-At time 35650:
+At time 35777:
     DISPATCHER_INVOKED
     Process 4 [SYSTEM]
     Selected from 1 processes. Will run for at most 3 ticks.
 
-At time 35674:
+At time 35822:
     PROCESS_DISPATCH_COMPLETED
     Process 4 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 35677:
+At time 35825:
     PROCESS_PREEMPTED
     Process 4 [SYSTEM]
     Transitioned from RUNNING to READY
 
-At time 35677:
+At time 35825:
     DISPATCHER_INVOKED
     Process 4 [SYSTEM]
     Selected from 1 processes. Will run for at most 3 ticks.
 
-At time 35701:
+At time 35870:
     PROCESS_DISPATCH_COMPLETED
     Process 4 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 35703:
+At time 35871:
+    CPU_BURST_COMPLETED
+    Process 4 [SYSTEM]
+    Transitioned from RUNNING to BLOCKED
+
+At time 35875:
+    IO_BURST_COMPLETED
+    Process 4 [SYSTEM]
+    Transitioned from BLOCKED to READY
+
+At time 35875:
+    DISPATCHER_INVOKED
+    Process 4 [SYSTEM]
+    Selected from 1 processes. Will run for at most 3 ticks.
+
+At time 35920:
+    PROCESS_DISPATCH_COMPLETED
+    Process 4 [SYSTEM]
+    Transitioned from READY to RUNNING
+
+At time 35923:
+    PROCESS_PREEMPTED
+    Process 4 [SYSTEM]
+    Transitioned from RUNNING to READY
+
+At time 35923:
+    DISPATCHER_INVOKED
+    Process 4 [SYSTEM]
+    Selected from 1 processes. Will run for at most 3 ticks.
+
+At time 35968:
+    PROCESS_DISPATCH_COMPLETED
+    Process 4 [SYSTEM]
+    Transitioned from READY to RUNNING
+
+At time 35971:
+    PROCESS_PREEMPTED
+    Process 4 [SYSTEM]
+    Transitioned from RUNNING to READY
+
+At time 35971:
+    DISPATCHER_INVOKED
+    Process 4 [SYSTEM]
+    Selected from 1 processes. Will run for at most 3 ticks.
+
+At time 36016:
+    PROCESS_DISPATCH_COMPLETED
+    Process 4 [SYSTEM]
+    Transitioned from READY to RUNNING
+
+At time 36019:
+    PROCESS_PREEMPTED
+    Process 4 [SYSTEM]
+    Transitioned from RUNNING to READY
+
+At time 36019:
+    DISPATCHER_INVOKED
+    Process 4 [SYSTEM]
+    Selected from 1 processes. Will run for at most 3 ticks.
+
+At time 36064:
+    PROCESS_DISPATCH_COMPLETED
+    Process 4 [SYSTEM]
+    Transitioned from READY to RUNNING
+
+At time 36067:
+    PROCESS_PREEMPTED
+    Process 4 [SYSTEM]
+    Transitioned from RUNNING to READY
+
+At time 36067:
+    DISPATCHER_INVOKED
+    Process 4 [SYSTEM]
+    Selected from 1 processes. Will run for at most 3 ticks.
+
+At time 36112:
+    PROCESS_DISPATCH_COMPLETED
+    Process 4 [SYSTEM]
+    Transitioned from READY to RUNNING
+
+At time 36115:
+    PROCESS_PREEMPTED
+    Process 4 [SYSTEM]
+    Transitioned from RUNNING to READY
+
+At time 36115:
+    DISPATCHER_INVOKED
+    Process 4 [SYSTEM]
+    Selected from 1 processes. Will run for at most 3 ticks.
+
+At time 36160:
+    PROCESS_DISPATCH_COMPLETED
+    Process 4 [SYSTEM]
+    Transitioned from READY to RUNNING
+
+At time 36163:
+    PROCESS_PREEMPTED
+    Process 4 [SYSTEM]
+    Transitioned from RUNNING to READY
+
+At time 36163:
+    DISPATCHER_INVOKED
+    Process 4 [SYSTEM]
+    Selected from 1 processes. Will run for at most 3 ticks.
+
+At time 36208:
+    PROCESS_DISPATCH_COMPLETED
+    Process 4 [SYSTEM]
+    Transitioned from READY to RUNNING
+
+At time 36211:
+    PROCESS_PREEMPTED
+    Process 4 [SYSTEM]
+    Transitioned from RUNNING to READY
+
+At time 36211:
+    DISPATCHER_INVOKED
+    Process 4 [SYSTEM]
+    Selected from 1 processes. Will run for at most 3 ticks.
+
+At time 36256:
+    PROCESS_DISPATCH_COMPLETED
+    Process 4 [SYSTEM]
+    Transitioned from READY to RUNNING
+
+At time 36259:
+    PROCESS_PREEMPTED
+    Process 4 [SYSTEM]
+    Transitioned from RUNNING to READY
+
+At time 36259:
+    DISPATCHER_INVOKED
+    Process 4 [SYSTEM]
+    Selected from 1 processes. Will run for at most 3 ticks.
+
+At time 36304:
+    PROCESS_DISPATCH_COMPLETED
+    Process 4 [SYSTEM]
+    Transitioned from READY to RUNNING
+
+At time 36307:
+    PROCESS_PREEMPTED
+    Process 4 [SYSTEM]
+    Transitioned from RUNNING to READY
+
+At time 36307:
+    DISPATCHER_INVOKED
+    Process 4 [SYSTEM]
+    Selected from 1 processes. Will run for at most 3 ticks.
+
+At time 36352:
+    PROCESS_DISPATCH_COMPLETED
+    Process 4 [SYSTEM]
+    Transitioned from READY to RUNNING
+
+At time 36354:
     PROCESS_COMPLETED
     Process 4 [SYSTEM]
     Transitioned from RUNNING to EXIT

@@ -18,14 +18,14 @@ NORMAL PROCESSES:
 BATCH PROCESSES:
     Total Count:                  4
     Avg. response time:      259.75
-    Avg. turnaround time:   7637.00
+    Avg. turnaround time:   7702.25
 
-Total elapsed time:          11389
+Total elapsed time:          11650
 Total service time:           1127
 Total I/O time:                891
-Total dispatch time:         10203
+Total dispatch time:         10464
 Total idle time:                59
 
-CPU utilization:            99.48%
-CPU efficiency:              9.90%
+CPU utilization:            99.49%
+CPU efficiency:              9.67%
 

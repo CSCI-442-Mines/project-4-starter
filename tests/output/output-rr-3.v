@@ -6053,262 +6053,262 @@ At time 19391:
     Process 10 [BATCH]
     Selected from 1 processes. Will run for at most 3 ticks.
 
-At time 19410:
+At time 19439:
     PROCESS_DISPATCH_COMPLETED
     Process 10 [BATCH]
     Transitioned from READY to RUNNING
 
-At time 19413:
+At time 19442:
     PROCESS_PREEMPTED
     Process 10 [BATCH]
     Transitioned from RUNNING to READY
 
-At time 19413:
+At time 19442:
     DISPATCHER_INVOKED
     Process 10 [BATCH]
     Selected from 1 processes. Will run for at most 3 ticks.
 
-At time 19432:
+At time 19490:
     PROCESS_DISPATCH_COMPLETED
     Process 10 [BATCH]
     Transitioned from READY to RUNNING
 
-At time 19435:
+At time 19493:
     PROCESS_PREEMPTED
     Process 10 [BATCH]
     Transitioned from RUNNING to READY
 
-At time 19435:
+At time 19493:
     DISPATCHER_INVOKED
     Process 10 [BATCH]
     Selected from 1 processes. Will run for at most 3 ticks.
 
-At time 19454:
+At time 19541:
     PROCESS_DISPATCH_COMPLETED
     Process 10 [BATCH]
     Transitioned from READY to RUNNING
 
-At time 19457:
+At time 19544:
     PROCESS_PREEMPTED
     Process 10 [BATCH]
     Transitioned from RUNNING to READY
 
-At time 19457:
+At time 19544:
     DISPATCHER_INVOKED
     Process 10 [BATCH]
     Selected from 1 processes. Will run for at most 3 ticks.
 
-At time 19476:
+At time 19592:
     PROCESS_DISPATCH_COMPLETED
     Process 10 [BATCH]
     Transitioned from READY to RUNNING
-
-At time 19479:
-    PROCESS_PREEMPTED
-    Process 10 [BATCH]
-    Transitioned from RUNNING to READY
-
-At time 19479:
-    DISPATCHER_INVOKED
-    Process 10 [BATCH]
-    Selected from 1 processes. Will run for at most 3 ticks.
-
-At time 19498:
-    PROCESS_DISPATCH_COMPLETED
-    Process 10 [BATCH]
-    Transitioned from READY to RUNNING
-
-At time 19501:
-    PROCESS_PREEMPTED
-    Process 10 [BATCH]
-    Transitioned from RUNNING to READY
-
-At time 19501:
-    DISPATCHER_INVOKED
-    Process 10 [BATCH]
-    Selected from 1 processes. Will run for at most 3 ticks.
-
-At time 19520:
-    PROCESS_DISPATCH_COMPLETED
-    Process 10 [BATCH]
-    Transitioned from READY to RUNNING
-
-At time 19522:
-    CPU_BURST_COMPLETED
-    Process 10 [BATCH]
-    Transitioned from RUNNING to BLOCKED
-
-At time 19532:
-    IO_BURST_COMPLETED
-    Process 10 [BATCH]
-    Transitioned from BLOCKED to READY
-
-At time 19532:
-    DISPATCHER_INVOKED
-    Process 10 [BATCH]
-    Selected from 1 processes. Will run for at most 3 ticks.
-
-At time 19551:
-    PROCESS_DISPATCH_COMPLETED
-    Process 10 [BATCH]
-    Transitioned from READY to RUNNING
-
-At time 19554:
-    PROCESS_PREEMPTED
-    Process 10 [BATCH]
-    Transitioned from RUNNING to READY
-
-At time 19554:
-    DISPATCHER_INVOKED
-    Process 10 [BATCH]
-    Selected from 1 processes. Will run for at most 3 ticks.
-
-At time 19573:
-    PROCESS_DISPATCH_COMPLETED
-    Process 10 [BATCH]
-    Transitioned from READY to RUNNING
-
-At time 19576:
-    PROCESS_PREEMPTED
-    Process 10 [BATCH]
-    Transitioned from RUNNING to READY
-
-At time 19576:
-    DISPATCHER_INVOKED
-    Process 10 [BATCH]
-    Selected from 1 processes. Will run for at most 3 ticks.
 
 At time 19595:
-    PROCESS_DISPATCH_COMPLETED
-    Process 10 [BATCH]
-    Transitioned from READY to RUNNING
-
-At time 19598:
     PROCESS_PREEMPTED
     Process 10 [BATCH]
     Transitioned from RUNNING to READY
 
-At time 19598:
+At time 19595:
     DISPATCHER_INVOKED
     Process 10 [BATCH]
     Selected from 1 processes. Will run for at most 3 ticks.
 
-At time 19617:
+At time 19643:
     PROCESS_DISPATCH_COMPLETED
     Process 10 [BATCH]
     Transitioned from READY to RUNNING
 
-At time 19620:
+At time 19646:
     PROCESS_PREEMPTED
     Process 10 [BATCH]
     Transitioned from RUNNING to READY
 
-At time 19620:
+At time 19646:
     DISPATCHER_INVOKED
     Process 10 [BATCH]
     Selected from 1 processes. Will run for at most 3 ticks.
 
-At time 19639:
+At time 19694:
     PROCESS_DISPATCH_COMPLETED
     Process 10 [BATCH]
     Transitioned from READY to RUNNING
 
-At time 19642:
-    PROCESS_PREEMPTED
-    Process 10 [BATCH]
-    Transitioned from RUNNING to READY
-
-At time 19642:
-    DISPATCHER_INVOKED
-    Process 10 [BATCH]
-    Selected from 1 processes. Will run for at most 3 ticks.
-
-At time 19661:
-    PROCESS_DISPATCH_COMPLETED
-    Process 10 [BATCH]
-    Transitioned from READY to RUNNING
-
-At time 19664:
-    PROCESS_PREEMPTED
-    Process 10 [BATCH]
-    Transitioned from RUNNING to READY
-
-At time 19664:
-    DISPATCHER_INVOKED
-    Process 10 [BATCH]
-    Selected from 1 processes. Will run for at most 3 ticks.
-
-At time 19683:
-    PROCESS_DISPATCH_COMPLETED
-    Process 10 [BATCH]
-    Transitioned from READY to RUNNING
-
-At time 19686:
-    PROCESS_PREEMPTED
-    Process 10 [BATCH]
-    Transitioned from RUNNING to READY
-
-At time 19686:
-    DISPATCHER_INVOKED
-    Process 10 [BATCH]
-    Selected from 1 processes. Will run for at most 3 ticks.
-
-At time 19705:
-    PROCESS_DISPATCH_COMPLETED
-    Process 10 [BATCH]
-    Transitioned from READY to RUNNING
-
-At time 19708:
-    PROCESS_PREEMPTED
-    Process 10 [BATCH]
-    Transitioned from RUNNING to READY
-
-At time 19708:
-    DISPATCHER_INVOKED
-    Process 10 [BATCH]
-    Selected from 1 processes. Will run for at most 3 ticks.
-
-At time 19727:
-    PROCESS_DISPATCH_COMPLETED
-    Process 10 [BATCH]
-    Transitioned from READY to RUNNING
-
-At time 19730:
-    PROCESS_PREEMPTED
-    Process 10 [BATCH]
-    Transitioned from RUNNING to READY
-
-At time 19730:
-    DISPATCHER_INVOKED
-    Process 10 [BATCH]
-    Selected from 1 processes. Will run for at most 3 ticks.
-
-At time 19749:
-    PROCESS_DISPATCH_COMPLETED
-    Process 10 [BATCH]
-    Transitioned from READY to RUNNING
-
-At time 19752:
+At time 19696:
     CPU_BURST_COMPLETED
     Process 10 [BATCH]
     Transitioned from RUNNING to BLOCKED
 
-At time 19777:
+At time 19706:
     IO_BURST_COMPLETED
     Process 10 [BATCH]
     Transitioned from BLOCKED to READY
 
-At time 19777:
+At time 19706:
     DISPATCHER_INVOKED
     Process 10 [BATCH]
     Selected from 1 processes. Will run for at most 3 ticks.
 
-At time 19796:
+At time 19754:
     PROCESS_DISPATCH_COMPLETED
     Process 10 [BATCH]
     Transitioned from READY to RUNNING
 
-At time 19797:
+At time 19757:
+    PROCESS_PREEMPTED
+    Process 10 [BATCH]
+    Transitioned from RUNNING to READY
+
+At time 19757:
+    DISPATCHER_INVOKED
+    Process 10 [BATCH]
+    Selected from 1 processes. Will run for at most 3 ticks.
+
+At time 19805:
+    PROCESS_DISPATCH_COMPLETED
+    Process 10 [BATCH]
+    Transitioned from READY to RUNNING
+
+At time 19808:
+    PROCESS_PREEMPTED
+    Process 10 [BATCH]
+    Transitioned from RUNNING to READY
+
+At time 19808:
+    DISPATCHER_INVOKED
+    Process 10 [BATCH]
+    Selected from 1 processes. Will run for at most 3 ticks.
+
+At time 19856:
+    PROCESS_DISPATCH_COMPLETED
+    Process 10 [BATCH]
+    Transitioned from READY to RUNNING
+
+At time 19859:
+    PROCESS_PREEMPTED
+    Process 10 [BATCH]
+    Transitioned from RUNNING to READY
+
+At time 19859:
+    DISPATCHER_INVOKED
+    Process 10 [BATCH]
+    Selected from 1 processes. Will run for at most 3 ticks.
+
+At time 19907:
+    PROCESS_DISPATCH_COMPLETED
+    Process 10 [BATCH]
+    Transitioned from READY to RUNNING
+
+At time 19910:
+    PROCESS_PREEMPTED
+    Process 10 [BATCH]
+    Transitioned from RUNNING to READY
+
+At time 19910:
+    DISPATCHER_INVOKED
+    Process 10 [BATCH]
+    Selected from 1 processes. Will run for at most 3 ticks.
+
+At time 19958:
+    PROCESS_DISPATCH_COMPLETED
+    Process 10 [BATCH]
+    Transitioned from READY to RUNNING
+
+At time 19961:
+    PROCESS_PREEMPTED
+    Process 10 [BATCH]
+    Transitioned from RUNNING to READY
+
+At time 19961:
+    DISPATCHER_INVOKED
+    Process 10 [BATCH]
+    Selected from 1 processes. Will run for at most 3 ticks.
+
+At time 20009:
+    PROCESS_DISPATCH_COMPLETED
+    Process 10 [BATCH]
+    Transitioned from READY to RUNNING
+
+At time 20012:
+    PROCESS_PREEMPTED
+    Process 10 [BATCH]
+    Transitioned from RUNNING to READY
+
+At time 20012:
+    DISPATCHER_INVOKED
+    Process 10 [BATCH]
+    Selected from 1 processes. Will run for at most 3 ticks.
+
+At time 20060:
+    PROCESS_DISPATCH_COMPLETED
+    Process 10 [BATCH]
+    Transitioned from READY to RUNNING
+
+At time 20063:
+    PROCESS_PREEMPTED
+    Process 10 [BATCH]
+    Transitioned from RUNNING to READY
+
+At time 20063:
+    DISPATCHER_INVOKED
+    Process 10 [BATCH]
+    Selected from 1 processes. Will run for at most 3 ticks.
+
+At time 20111:
+    PROCESS_DISPATCH_COMPLETED
+    Process 10 [BATCH]
+    Transitioned from READY to RUNNING
+
+At time 20114:
+    PROCESS_PREEMPTED
+    Process 10 [BATCH]
+    Transitioned from RUNNING to READY
+
+At time 20114:
+    DISPATCHER_INVOKED
+    Process 10 [BATCH]
+    Selected from 1 processes. Will run for at most 3 ticks.
+
+At time 20162:
+    PROCESS_DISPATCH_COMPLETED
+    Process 10 [BATCH]
+    Transitioned from READY to RUNNING
+
+At time 20165:
+    PROCESS_PREEMPTED
+    Process 10 [BATCH]
+    Transitioned from RUNNING to READY
+
+At time 20165:
+    DISPATCHER_INVOKED
+    Process 10 [BATCH]
+    Selected from 1 processes. Will run for at most 3 ticks.
+
+At time 20213:
+    PROCESS_DISPATCH_COMPLETED
+    Process 10 [BATCH]
+    Transitioned from READY to RUNNING
+
+At time 20216:
+    CPU_BURST_COMPLETED
+    Process 10 [BATCH]
+    Transitioned from RUNNING to BLOCKED
+
+At time 20241:
+    IO_BURST_COMPLETED
+    Process 10 [BATCH]
+    Transitioned from BLOCKED to READY
+
+At time 20241:
+    DISPATCHER_INVOKED
+    Process 10 [BATCH]
+    Selected from 1 processes. Will run for at most 3 ticks.
+
+At time 20289:
+    PROCESS_DISPATCH_COMPLETED
+    Process 10 [BATCH]
+    Transitioned from READY to RUNNING
+
+At time 20290:
     PROCESS_COMPLETED
     Process 10 [BATCH]
     Transitioned from RUNNING to EXIT
