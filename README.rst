@@ -9,7 +9,7 @@ Introduction
 
 The goal of this project is to develop a CPU scheduling simulation that will complete the execution of a group of processes.  
 It will support several different scheduling algorithms.  The user can then specify which one to use via a command-line flag.  
-At the end of execution, your program will calculate anddisplay several performance criteria obtained by the simulation.
+At the end of execution, your program will calculate and display several performance criteria obtained by the simulation.
 
 Learning Objectives
 ~~~~~~~~~~~~~~~~~~~
