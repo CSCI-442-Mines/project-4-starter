@@ -1,5 +1,5 @@
 #!/bin/bash
-for alg in fcfs rr rr-s6
+for alg in fcfs spn rr rr-s6 priority mlfq cfs cfs-s6
 do
 	for i in 1 2 3 4 5
 	do
@@ -8,8 +8,9 @@ do
 
 		alg_param="-a ${alg^^}"
 		alg_param=${alg_param/"RR-S6"/"RR -s 6"}
+		alg_param=${alg_param/"CFS-S6"/"CFS -s 6"}
 
-		for mode_param in m t v
+		for mode_param in v t m
 		do
 			SIM_COMMAND="./cpu-sim -$mode_param $alg_param $inputfilename"
 			echo Executing $SIM_COMMAND 

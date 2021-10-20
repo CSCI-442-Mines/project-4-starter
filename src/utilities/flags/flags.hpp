@@ -17,60 +17,60 @@
 
 class FlagOptions {
 public:
-  //==================================================
-  //  Member variables
-  //==================================================
 
-  /*
-      filename:
-          The filename that the simulation should read from. If it is empty
-     (""), then the simulation should read from stdin.
-  */
-  std::string filename = "";
+    //==================================================
+    //  Member variables
+    //==================================================
 
-  /*
-      verbose:
-          Whether or not the simulation should print verbose, per-state
-     transitions.
+    /*
+        filename:
+            The filename that the simulation should read from. If it is empty (""),
+            then the simulation should read from stdin.
+    */
+    std::string filename = "";
 
-          Set to true with the -v, --verbose flag.
-  */
-  bool verbose = false;
+    /*
+        verbose:
+            Whether or not the simulation should print verbose, per-state transitions.
 
-  /*
-      per_thread:
-          Whether or not the simulation should print per-thread metrics at the
-          end of the simulation.
+            Set to true with the -v, --verbose flag.
+    */
+    bool verbose = false;
 
-          Set to true with the -t, --per_thread flag.
-  */
-  bool per_thread = false;
+    /*
+        per_thread:
+            Whether or not the simulation should print per-thread metrics at the
+            end of the simulation.
 
-  /*
-      metrics:
-          Whether or not the simulation should print general metrics at the
-          end of the simulation.
+            Set to true with the -t, --per_thread flag.
+    */
+    bool per_thread = false;
 
-          Set to true with the -m, --metrics flag.
-  */
-  bool metrics = false;
+    /*
+        metrics:
+            Whether or not the simulation should print general metrics at the
+            end of the simulation.
 
-  /*
-      time_slice:
-          The time slice for preemptive algorithms. Should be positive.
+            Set to true with the -m, --metrics flag.
+    */
+    bool metrics = false;
 
-          Set with the -s, --time_slice flag.
-  */
-  int time_slice = -1;
+    /*
+        time_slice:
+            The time slice for preemptive algorithms. Should be positive.
 
-  /*
-      scheduler:
-          A string representing the scheduling algorithm that the
-          simulation should use.
+            Set with the -s, --time_slice flag.
+    */
+    int time_slice = -1;
 
-          Set with the -a, --algorithm flag.
-  */
-  std::string scheduler = "";
+    /*
+        scheduler:
+            A string representing the scheduling algorithm that the
+            simulation should use.
+
+            Set with the -a, --algorithm flag.
+    */
+    std::string scheduler = "";
 };
 
 /*
@@ -79,12 +79,13 @@ public:
 */
 void print_usage();
 
+
 /*
     parse_flags(arc, argv, flags):
         Parses any provided flags, populating the passed in flags
         object with the required information.
 */
-int parse_flags(int argc, char *const argv[], FlagOptions &flags);
+int parse_flags(int argc, char* const argv[], FlagOptions& flags);
 
 /*
     get_scheduler();

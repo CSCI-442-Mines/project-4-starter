@@ -21,8 +21,7 @@ public:
     //  Member variables
     //==================================================
 
-    // Add any member variables you may need.
-
+    // TODO: Add any member variables you may need.
 
     //==================================================
     //  Member functions

@@ -17,15 +17,15 @@ FCFSScheduler::FCFSScheduler(int slice) {
 }
 
 std::shared_ptr<SchedulingDecision> FCFSScheduler::get_next_thread() {
-    // TODO
-    return nullptr;
+        // TODO: implement me!
+        return nullptr;
 }
 
 void FCFSScheduler::add_to_ready_queue(std::shared_ptr<Thread> thread) {
-    // TODO
+        // TODO: implement me!
 }
 
 size_t FCFSScheduler::size() const {
-    // TODO
-    return 0;
+        // TODO: implement me!
+        return 0;
 }

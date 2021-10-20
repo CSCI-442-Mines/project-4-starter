@@ -1,6922 +1,6921 @@
 At time 10:
-    PROCESS_ARRIVED
-    Process 12 [NORMAL]
+    THREAD_ARRIVED
+    Thread 3 in process 687 [NORMAL]
     Transitioned from NEW to READY
 
 At time 10:
     DISPATCHER_INVOKED
-    Process 12 [NORMAL]
-    Selected from 1 processes. Will run for at most 6 ticks.
+    Thread 3 in process 687 [NORMAL]
+    Selected from 1 threads. Will run for at most 6 ticks.
 
 At time 17:
-    PROCESS_ARRIVED
-    Process 0 [SYSTEM]
+    THREAD_ARRIVED
+    Thread 0 in process 729 [SYSTEM]
     Transitioned from NEW to READY
 
 At time 22:
-    PROCESS_ARRIVED
-    Process 5 [SYSTEM]
+    THREAD_ARRIVED
+    Thread 2 in process 104 [SYSTEM]
     Transitioned from NEW to READY
 
 At time 23:
-    PROCESS_ARRIVED
-    Process 13 [NORMAL]
+    THREAD_ARRIVED
+    Thread 0 in process 320 [NORMAL]
     Transitioned from NEW to READY
 
 At time 25:
-    PROCESS_ARRIVED
-    Process 7 [SYSTEM]
+    THREAD_ARRIVED
+    Thread 0 in process 428 [SYSTEM]
     Transitioned from NEW to READY
 
 At time 39:
-    PROCESS_ARRIVED
-    Process 21 [NORMAL]
+    THREAD_ARRIVED
+    Thread 2 in process 242 [NORMAL]
     Transitioned from NEW to READY
 
 At time 44:
-    PROCESS_ARRIVED
-    Process 16 [SYSTEM]
+    THREAD_ARRIVED
+    Thread 0 in process 461 [SYSTEM]
     Transitioned from NEW to READY
 
 At time 45:
-    PROCESS_ARRIVED
-    Process 9 [NORMAL]
+    THREAD_ARRIVED
+    Thread 0 in process 687 [NORMAL]
     Transitioned from NEW to READY
 
 At time 47:
-    PROCESS_ARRIVED
-    Process 18 [SYSTEM]
+    THREAD_ARRIVED
+    Thread 2 in process 461 [SYSTEM]
     Transitioned from NEW to READY
 
 At time 49:
-    PROCESS_ARRIVED
-    Process 1 [SYSTEM]
+    THREAD_ARRIVED
+    Thread 1 in process 729 [SYSTEM]
     Transitioned from NEW to READY
 
 At time 50:
-    PROCESS_ARRIVED
-    Process 4 [SYSTEM]
+    THREAD_ARRIVED
+    Thread 1 in process 104 [SYSTEM]
     Transitioned from NEW to READY
 
 At time 50:
-    PROCESS_ARRIVED
-    Process 6 [SYSTEM]
+    THREAD_ARRIVED
+    Thread 3 in process 104 [SYSTEM]
     Transitioned from NEW to READY
 
 At time 55:
-    PROCESS_ARRIVED
-    Process 2 [SYSTEM]
+    THREAD_ARRIVED
+    Thread 2 in process 729 [SYSTEM]
     Transitioned from NEW to READY
 
 At time 55:
     PROCESS_DISPATCH_COMPLETED
-    Process 12 [NORMAL]
+    Thread 3 in process 687 [NORMAL]
     Transitioned from READY to RUNNING
 
 At time 59:
-    PROCESS_ARRIVED
-    Process 10 [NORMAL]
+    THREAD_ARRIVED
+    Thread 1 in process 687 [NORMAL]
     Transitioned from NEW to READY
 
 At time 59:
-    PROCESS_ARRIVED
-    Process 19 [NORMAL]
+    THREAD_ARRIVED
+    Thread 0 in process 242 [NORMAL]
     Transitioned from NEW to READY
 
 At time 59:
-    PROCESS_ARRIVED
-    Process 22 [SYSTEM]
+    THREAD_ARRIVED
+    Thread 0 in process 71 [SYSTEM]
     Transitioned from NEW to READY
 
 At time 61:
-    PROCESS_PREEMPTED
-    Process 12 [NORMAL]
+    THREAD_PREEMPTED
+    Thread 3 in process 687 [NORMAL]
     Transitioned from RUNNING to READY
 
 At time 61:
     DISPATCHER_INVOKED
-    Process 0 [SYSTEM]
-    Selected from 16 processes. Will run for at most 6 ticks.
+    Thread 0 in process 729 [SYSTEM]
+    Selected from 16 threads. Will run for at most 6 ticks.
 
 At time 67:
-    PROCESS_ARRIVED
-    Process 17 [SYSTEM]
+    THREAD_ARRIVED
+    Thread 1 in process 461 [SYSTEM]
     Transitioned from NEW to READY
 
 At time 71:
-    PROCESS_ARRIVED
-    Process 15 [NORMAL]
+    THREAD_ARRIVED
+    Thread 2 in process 320 [NORMAL]
     Transitioned from NEW to READY
 
 At time 71:
-    PROCESS_ARRIVED
-    Process 20 [NORMAL]
+    THREAD_ARRIVED
+    Thread 1 in process 242 [NORMAL]
     Transitioned from NEW to READY
 
 At time 76:
-    PROCESS_ARRIVED
-    Process 11 [NORMAL]
+    THREAD_ARRIVED
+    Thread 2 in process 687 [NORMAL]
     Transitioned from NEW to READY
 
 At time 79:
-    PROCESS_ARRIVED
-    Process 3 [SYSTEM]
+    THREAD_ARRIVED
+    Thread 0 in process 104 [SYSTEM]
     Transitioned from NEW to READY
 
 At time 92:
-    PROCESS_ARRIVED
-    Process 14 [NORMAL]
+    THREAD_ARRIVED
+    Thread 1 in process 320 [NORMAL]
     Transitioned from NEW to READY
 
 At time 95:
-    PROCESS_ARRIVED
-    Process 8 [SYSTEM]
+    THREAD_ARRIVED
+    Thread 1 in process 428 [SYSTEM]
     Transitioned from NEW to READY
 
 At time 106:
     PROCESS_DISPATCH_COMPLETED
-    Process 0 [SYSTEM]
+    Thread 0 in process 729 [SYSTEM]
     Transitioned from READY to RUNNING
 
 At time 112:
-    PROCESS_PREEMPTED
-    Process 0 [SYSTEM]
+    THREAD_PREEMPTED
+    Thread 0 in process 729 [SYSTEM]
     Transitioned from RUNNING to READY
 
 At time 112:
     DISPATCHER_INVOKED
-    Process 5 [SYSTEM]
-    Selected from 23 processes. Will run for at most 6 ticks.
+    Thread 2 in process 104 [SYSTEM]
+    Selected from 23 threads. Will run for at most 6 ticks.
 
 At time 157:
     PROCESS_DISPATCH_COMPLETED
-    Process 5 [SYSTEM]
+    Thread 2 in process 104 [SYSTEM]
     Transitioned from READY to RUNNING
 
 At time 163:
-    PROCESS_PREEMPTED
-    Process 5 [SYSTEM]
+    THREAD_PREEMPTED
+    Thread 2 in process 104 [SYSTEM]
     Transitioned from RUNNING to READY
 
 At time 163:
     DISPATCHER_INVOKED
-    Process 13 [NORMAL]
-    Selected from 23 processes. Will run for at most 6 ticks.
+    Thread 0 in process 320 [NORMAL]
+    Selected from 23 threads. Will run for at most 6 ticks.
 
 At time 208:
     PROCESS_DISPATCH_COMPLETED
-    Process 13 [NORMAL]
+    Thread 0 in process 320 [NORMAL]
     Transitioned from READY to RUNNING
 
 At time 210:
     CPU_BURST_COMPLETED
-    Process 13 [NORMAL]
+    Thread 0 in process 320 [NORMAL]
     Transitioned from RUNNING to BLOCKED
 
 At time 210:
     DISPATCHER_INVOKED
-    Process 7 [SYSTEM]
-    Selected from 22 processes. Will run for at most 6 ticks.
+    Thread 0 in process 428 [SYSTEM]
+    Selected from 22 threads. Will run for at most 6 ticks.
 
 At time 225:
     IO_BURST_COMPLETED
-    Process 13 [NORMAL]
+    Thread 0 in process 320 [NORMAL]
     Transitioned from BLOCKED to READY
 
 At time 255:
     PROCESS_DISPATCH_COMPLETED
-    Process 7 [SYSTEM]
+    Thread 0 in process 428 [SYSTEM]
     Transitioned from READY to RUNNING
 
 At time 257:
     CPU_BURST_COMPLETED
-    Process 7 [SYSTEM]
+    Thread 0 in process 428 [SYSTEM]
     Transitioned from RUNNING to BLOCKED
 
 At time 257:
     DISPATCHER_INVOKED
-    Process 21 [NORMAL]
-    Selected from 22 processes. Will run for at most 6 ticks.
+    Thread 2 in process 242 [NORMAL]
+    Selected from 22 threads. Will run for at most 6 ticks.
 
 At time 274:
     IO_BURST_COMPLETED
-    Process 7 [SYSTEM]
+    Thread 0 in process 428 [SYSTEM]
     Transitioned from BLOCKED to READY
 
 At time 302:
     PROCESS_DISPATCH_COMPLETED
-    Process 21 [NORMAL]
+    Thread 2 in process 242 [NORMAL]
     Transitioned from READY to RUNNING
 
 At time 306:
     CPU_BURST_COMPLETED
-    Process 21 [NORMAL]
+    Thread 2 in process 242 [NORMAL]
     Transitioned from RUNNING to BLOCKED
 
 At time 306:
     DISPATCHER_INVOKED
-    Process 16 [SYSTEM]
-    Selected from 22 processes. Will run for at most 6 ticks.
+    Thread 0 in process 461 [SYSTEM]
+    Selected from 22 threads. Will run for at most 6 ticks.
 
 At time 325:
     IO_BURST_COMPLETED
-    Process 21 [NORMAL]
+    Thread 2 in process 242 [NORMAL]
     Transitioned from BLOCKED to READY
 
 At time 351:
     PROCESS_DISPATCH_COMPLETED
-    Process 16 [SYSTEM]
+    Thread 0 in process 461 [SYSTEM]
     Transitioned from READY to RUNNING
 
 At time 357:
-    PROCESS_PREEMPTED
-    Process 16 [SYSTEM]
+    THREAD_PREEMPTED
+    Thread 0 in process 461 [SYSTEM]
     Transitioned from RUNNING to READY
 
 At time 357:
     DISPATCHER_INVOKED
-    Process 9 [NORMAL]
-    Selected from 23 processes. Will run for at most 6 ticks.
+    Thread 0 in process 687 [NORMAL]
+    Selected from 23 threads. Will run for at most 6 ticks.
 
 At time 402:
     PROCESS_DISPATCH_COMPLETED
-    Process 9 [NORMAL]
+    Thread 0 in process 687 [NORMAL]
     Transitioned from READY to RUNNING
 
 At time 408:
-    PROCESS_PREEMPTED
-    Process 9 [NORMAL]
+    THREAD_PREEMPTED
+    Thread 0 in process 687 [NORMAL]
     Transitioned from RUNNING to READY
 
 At time 408:
     DISPATCHER_INVOKED
-    Process 18 [SYSTEM]
-    Selected from 23 processes. Will run for at most 6 ticks.
+    Thread 2 in process 461 [SYSTEM]
+    Selected from 23 threads. Will run for at most 6 ticks.
 
 At time 453:
     PROCESS_DISPATCH_COMPLETED
-    Process 18 [SYSTEM]
+    Thread 2 in process 461 [SYSTEM]
     Transitioned from READY to RUNNING
 
 At time 457:
     CPU_BURST_COMPLETED
-    Process 18 [SYSTEM]
+    Thread 2 in process 461 [SYSTEM]
     Transitioned from RUNNING to BLOCKED
 
 At time 457:
     DISPATCHER_INVOKED
-    Process 1 [SYSTEM]
-    Selected from 22 processes. Will run for at most 6 ticks.
+    Thread 1 in process 729 [SYSTEM]
+    Selected from 22 threads. Will run for at most 6 ticks.
 
 At time 481:
     IO_BURST_COMPLETED
-    Process 18 [SYSTEM]
+    Thread 2 in process 461 [SYSTEM]
     Transitioned from BLOCKED to READY
 
 At time 502:
     PROCESS_DISPATCH_COMPLETED
-    Process 1 [SYSTEM]
+    Thread 1 in process 729 [SYSTEM]
     Transitioned from READY to RUNNING
 
 At time 508:
-    PROCESS_PREEMPTED
-    Process 1 [SYSTEM]
+    THREAD_PREEMPTED
+    Thread 1 in process 729 [SYSTEM]
     Transitioned from RUNNING to READY
 
 At time 508:
     DISPATCHER_INVOKED
-    Process 4 [SYSTEM]
-    Selected from 23 processes. Will run for at most 6 ticks.
+    Thread 1 in process 104 [SYSTEM]
+    Selected from 23 threads. Will run for at most 6 ticks.
 
 At time 553:
     PROCESS_DISPATCH_COMPLETED
-    Process 4 [SYSTEM]
+    Thread 1 in process 104 [SYSTEM]
     Transitioned from READY to RUNNING
 
 At time 559:
-    PROCESS_PREEMPTED
-    Process 4 [SYSTEM]
+    THREAD_PREEMPTED
+    Thread 1 in process 104 [SYSTEM]
     Transitioned from RUNNING to READY
 
 At time 559:
     DISPATCHER_INVOKED
-    Process 6 [SYSTEM]
-    Selected from 23 processes. Will run for at most 6 ticks.
+    Thread 3 in process 104 [SYSTEM]
+    Selected from 23 threads. Will run for at most 6 ticks.
 
-At time 604:
-    PROCESS_DISPATCH_COMPLETED
-    Process 6 [SYSTEM]
+At time 583:
+    THREAD_DISPATCH_COMPLETED
+    Thread 3 in process 104 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 610:
-    PROCESS_PREEMPTED
-    Process 6 [SYSTEM]
+At time 589:
+    THREAD_PREEMPTED
+    Thread 3 in process 104 [SYSTEM]
     Transitioned from RUNNING to READY
 
-At time 610:
+At time 589:
     DISPATCHER_INVOKED
-    Process 2 [SYSTEM]
-    Selected from 23 processes. Will run for at most 6 ticks.
+    Thread 2 in process 729 [SYSTEM]
+    Selected from 23 threads. Will run for at most 6 ticks.
 
-At time 655:
+At time 634:
     PROCESS_DISPATCH_COMPLETED
-    Process 2 [SYSTEM]
+    Thread 2 in process 729 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 661:
-    PROCESS_PREEMPTED
-    Process 2 [SYSTEM]
+At time 640:
+    THREAD_PREEMPTED
+    Thread 2 in process 729 [SYSTEM]
     Transitioned from RUNNING to READY
 
-At time 661:
+At time 640:
     DISPATCHER_INVOKED
-    Process 10 [NORMAL]
-    Selected from 23 processes. Will run for at most 6 ticks.
+    Thread 1 in process 687 [NORMAL]
+    Selected from 23 threads. Will run for at most 6 ticks.
 
-At time 706:
+At time 685:
     PROCESS_DISPATCH_COMPLETED
-    Process 10 [NORMAL]
+    Thread 1 in process 687 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 712:
-    PROCESS_PREEMPTED
-    Process 10 [NORMAL]
+At time 691:
+    THREAD_PREEMPTED
+    Thread 1 in process 687 [NORMAL]
     Transitioned from RUNNING to READY
 
-At time 712:
+At time 691:
     DISPATCHER_INVOKED
-    Process 19 [NORMAL]
-    Selected from 23 processes. Will run for at most 6 ticks.
+    Thread 0 in process 242 [NORMAL]
+    Selected from 23 threads. Will run for at most 6 ticks.
 
-At time 757:
+At time 736:
     PROCESS_DISPATCH_COMPLETED
-    Process 19 [NORMAL]
+    Thread 0 in process 242 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 763:
-    PROCESS_PREEMPTED
-    Process 19 [NORMAL]
+At time 742:
+    THREAD_PREEMPTED
+    Thread 0 in process 242 [NORMAL]
     Transitioned from RUNNING to READY
 
-At time 763:
+At time 742:
     DISPATCHER_INVOKED
-    Process 22 [SYSTEM]
-    Selected from 23 processes. Will run for at most 6 ticks.
+    Thread 0 in process 71 [SYSTEM]
+    Selected from 23 threads. Will run for at most 6 ticks.
 
-At time 808:
+At time 787:
     PROCESS_DISPATCH_COMPLETED
-    Process 22 [SYSTEM]
+    Thread 0 in process 71 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 814:
-    PROCESS_PREEMPTED
-    Process 22 [SYSTEM]
+At time 793:
+    THREAD_PREEMPTED
+    Thread 0 in process 71 [SYSTEM]
     Transitioned from RUNNING to READY
 
-At time 814:
+At time 793:
     DISPATCHER_INVOKED
-    Process 12 [NORMAL]
-    Selected from 23 processes. Will run for at most 6 ticks.
+    Thread 3 in process 687 [NORMAL]
+    Selected from 23 threads. Will run for at most 6 ticks.
 
-At time 859:
+At time 838:
     PROCESS_DISPATCH_COMPLETED
-    Process 12 [NORMAL]
+    Thread 3 in process 687 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 865:
-    PROCESS_PREEMPTED
-    Process 12 [NORMAL]
+At time 844:
+    THREAD_PREEMPTED
+    Thread 3 in process 687 [NORMAL]
     Transitioned from RUNNING to READY
 
-At time 865:
+At time 844:
     DISPATCHER_INVOKED
-    Process 17 [SYSTEM]
-    Selected from 23 processes. Will run for at most 6 ticks.
+    Thread 1 in process 461 [SYSTEM]
+    Selected from 23 threads. Will run for at most 6 ticks.
 
-At time 910:
+At time 889:
     PROCESS_DISPATCH_COMPLETED
-    Process 17 [SYSTEM]
+    Thread 1 in process 461 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 916:
-    PROCESS_PREEMPTED
-    Process 17 [SYSTEM]
+At time 895:
+    THREAD_PREEMPTED
+    Thread 1 in process 461 [SYSTEM]
     Transitioned from RUNNING to READY
 
-At time 916:
+At time 895:
     DISPATCHER_INVOKED
-    Process 15 [NORMAL]
-    Selected from 23 processes. Will run for at most 6 ticks.
+    Thread 2 in process 320 [NORMAL]
+    Selected from 23 threads. Will run for at most 6 ticks.
 
-At time 961:
+At time 940:
     PROCESS_DISPATCH_COMPLETED
-    Process 15 [NORMAL]
+    Thread 2 in process 320 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 967:
-    PROCESS_PREEMPTED
-    Process 15 [NORMAL]
+At time 946:
+    THREAD_PREEMPTED
+    Thread 2 in process 320 [NORMAL]
     Transitioned from RUNNING to READY
 
-At time 967:
+At time 946:
     DISPATCHER_INVOKED
-    Process 20 [NORMAL]
-    Selected from 23 processes. Will run for at most 6 ticks.
+    Thread 1 in process 242 [NORMAL]
+    Selected from 23 threads. Will run for at most 6 ticks.
 
-At time 1012:
+At time 991:
     PROCESS_DISPATCH_COMPLETED
-    Process 20 [NORMAL]
+    Thread 1 in process 242 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 1018:
-    PROCESS_PREEMPTED
-    Process 20 [NORMAL]
+At time 997:
+    THREAD_PREEMPTED
+    Thread 1 in process 242 [NORMAL]
     Transitioned from RUNNING to READY
 
-At time 1018:
+At time 997:
     DISPATCHER_INVOKED
-    Process 11 [NORMAL]
-    Selected from 23 processes. Will run for at most 6 ticks.
+    Thread 2 in process 687 [NORMAL]
+    Selected from 23 threads. Will run for at most 6 ticks.
 
-At time 1063:
+At time 1042:
     PROCESS_DISPATCH_COMPLETED
-    Process 11 [NORMAL]
+    Thread 2 in process 687 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 1069:
-    PROCESS_PREEMPTED
-    Process 11 [NORMAL]
+At time 1048:
+    THREAD_PREEMPTED
+    Thread 2 in process 687 [NORMAL]
     Transitioned from RUNNING to READY
 
-At time 1069:
+At time 1048:
     DISPATCHER_INVOKED
-    Process 3 [SYSTEM]
-    Selected from 23 processes. Will run for at most 6 ticks.
+    Thread 0 in process 104 [SYSTEM]
+    Selected from 23 threads. Will run for at most 6 ticks.
 
-At time 1114:
+At time 1093:
     PROCESS_DISPATCH_COMPLETED
-    Process 3 [SYSTEM]
+    Thread 0 in process 104 [SYSTEM]
     Transitioned from READY to RUNNING
+
+At time 1097:
+    CPU_BURST_COMPLETED
+    Thread 0 in process 104 [SYSTEM]
+    Transitioned from RUNNING to BLOCKED
+
+At time 1097:
+    DISPATCHER_INVOKED
+    Thread 1 in process 320 [NORMAL]
+    Selected from 22 threads. Will run for at most 6 ticks.
 
 At time 1118:
-    CPU_BURST_COMPLETED
-    Process 3 [SYSTEM]
-    Transitioned from RUNNING to BLOCKED
-
-At time 1118:
-    DISPATCHER_INVOKED
-    Process 14 [NORMAL]
-    Selected from 22 processes. Will run for at most 6 ticks.
-
-At time 1139:
     IO_BURST_COMPLETED
-    Process 3 [SYSTEM]
+    Thread 0 in process 104 [SYSTEM]
     Transitioned from BLOCKED to READY
 
-At time 1163:
+At time 1142:
     PROCESS_DISPATCH_COMPLETED
-    Process 14 [NORMAL]
+    Thread 1 in process 320 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 1169:
-    PROCESS_PREEMPTED
-    Process 14 [NORMAL]
+At time 1148:
+    THREAD_PREEMPTED
+    Thread 1 in process 320 [NORMAL]
     Transitioned from RUNNING to READY
 
-At time 1169:
+At time 1148:
     DISPATCHER_INVOKED
-    Process 8 [SYSTEM]
-    Selected from 23 processes. Will run for at most 6 ticks.
+    Thread 1 in process 428 [SYSTEM]
+    Selected from 23 threads. Will run for at most 6 ticks.
 
-At time 1214:
+At time 1193:
     PROCESS_DISPATCH_COMPLETED
-    Process 8 [SYSTEM]
+    Thread 1 in process 428 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 1220:
-    PROCESS_PREEMPTED
-    Process 8 [SYSTEM]
+At time 1199:
+    THREAD_PREEMPTED
+    Thread 1 in process 428 [SYSTEM]
     Transitioned from RUNNING to READY
 
-At time 1220:
+At time 1199:
     DISPATCHER_INVOKED
-    Process 0 [SYSTEM]
-    Selected from 23 processes. Will run for at most 6 ticks.
+    Thread 0 in process 729 [SYSTEM]
+    Selected from 23 threads. Will run for at most 6 ticks.
 
-At time 1265:
+At time 1244:
     PROCESS_DISPATCH_COMPLETED
-    Process 0 [SYSTEM]
+    Thread 0 in process 729 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 1271:
-    PROCESS_PREEMPTED
-    Process 0 [SYSTEM]
+At time 1250:
+    THREAD_PREEMPTED
+    Thread 0 in process 729 [SYSTEM]
     Transitioned from RUNNING to READY
 
-At time 1271:
+At time 1250:
     DISPATCHER_INVOKED
-    Process 5 [SYSTEM]
-    Selected from 23 processes. Will run for at most 6 ticks.
+    Thread 2 in process 104 [SYSTEM]
+    Selected from 23 threads. Will run for at most 6 ticks.
 
-At time 1316:
+At time 1295:
     PROCESS_DISPATCH_COMPLETED
-    Process 5 [SYSTEM]
+    Thread 2 in process 104 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 1322:
+At time 1301:
     CPU_BURST_COMPLETED
-    Process 5 [SYSTEM]
+    Thread 2 in process 104 [SYSTEM]
     Transitioned from RUNNING to BLOCKED
 
-At time 1322:
+At time 1301:
     DISPATCHER_INVOKED
-    Process 13 [NORMAL]
-    Selected from 22 processes. Will run for at most 6 ticks.
+    Thread 0 in process 320 [NORMAL]
+    Selected from 22 threads. Will run for at most 6 ticks.
 
-At time 1325:
+At time 1304:
     IO_BURST_COMPLETED
-    Process 5 [SYSTEM]
+    Thread 2 in process 104 [SYSTEM]
     Transitioned from BLOCKED to READY
 
-At time 1367:
+At time 1346:
     PROCESS_DISPATCH_COMPLETED
-    Process 13 [NORMAL]
+    Thread 0 in process 320 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 1373:
-    PROCESS_PREEMPTED
-    Process 13 [NORMAL]
+At time 1352:
+    THREAD_PREEMPTED
+    Thread 0 in process 320 [NORMAL]
     Transitioned from RUNNING to READY
 
-At time 1373:
+At time 1352:
     DISPATCHER_INVOKED
-    Process 7 [SYSTEM]
-    Selected from 23 processes. Will run for at most 6 ticks.
+    Thread 0 in process 428 [SYSTEM]
+    Selected from 23 threads. Will run for at most 6 ticks.
 
-At time 1418:
+At time 1397:
     PROCESS_DISPATCH_COMPLETED
-    Process 7 [SYSTEM]
+    Thread 0 in process 428 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 1420:
+At time 1399:
     CPU_BURST_COMPLETED
-    Process 7 [SYSTEM]
+    Thread 0 in process 428 [SYSTEM]
     Transitioned from RUNNING to BLOCKED
 
-At time 1420:
+At time 1399:
     DISPATCHER_INVOKED
-    Process 21 [NORMAL]
-    Selected from 22 processes. Will run for at most 6 ticks.
+    Thread 2 in process 242 [NORMAL]
+    Selected from 22 threads. Will run for at most 6 ticks.
 
-At time 1427:
+At time 1406:
     IO_BURST_COMPLETED
-    Process 7 [SYSTEM]
+    Thread 0 in process 428 [SYSTEM]
     Transitioned from BLOCKED to READY
 
-At time 1465:
+At time 1444:
     PROCESS_DISPATCH_COMPLETED
-    Process 21 [NORMAL]
+    Thread 2 in process 242 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 1471:
-    PROCESS_PREEMPTED
-    Process 21 [NORMAL]
+At time 1450:
+    THREAD_PREEMPTED
+    Thread 2 in process 242 [NORMAL]
     Transitioned from RUNNING to READY
 
-At time 1471:
+At time 1450:
     DISPATCHER_INVOKED
-    Process 16 [SYSTEM]
-    Selected from 23 processes. Will run for at most 6 ticks.
+    Thread 0 in process 461 [SYSTEM]
+    Selected from 23 threads. Will run for at most 6 ticks.
 
-At time 1516:
+At time 1495:
     PROCESS_DISPATCH_COMPLETED
-    Process 16 [SYSTEM]
+    Thread 0 in process 461 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 1522:
-    PROCESS_PREEMPTED
-    Process 16 [SYSTEM]
+At time 1501:
+    THREAD_PREEMPTED
+    Thread 0 in process 461 [SYSTEM]
     Transitioned from RUNNING to READY
 
-At time 1522:
+At time 1501:
     DISPATCHER_INVOKED
-    Process 9 [NORMAL]
-    Selected from 23 processes. Will run for at most 6 ticks.
+    Thread 0 in process 687 [NORMAL]
+    Selected from 23 threads. Will run for at most 6 ticks.
 
-At time 1567:
+At time 1546:
     PROCESS_DISPATCH_COMPLETED
-    Process 9 [NORMAL]
+    Thread 0 in process 687 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 1569:
+At time 1548:
     CPU_BURST_COMPLETED
-    Process 9 [NORMAL]
+    Thread 0 in process 687 [NORMAL]
     Transitioned from RUNNING to BLOCKED
 
-At time 1569:
+At time 1548:
     DISPATCHER_INVOKED
-    Process 18 [SYSTEM]
-    Selected from 22 processes. Will run for at most 6 ticks.
+    Thread 2 in process 461 [SYSTEM]
+    Selected from 22 threads. Will run for at most 6 ticks.
+
+At time 1572:
+    IO_BURST_COMPLETED
+    Thread 0 in process 687 [NORMAL]
+    Transitioned from BLOCKED to READY
 
 At time 1593:
-    IO_BURST_COMPLETED
-    Process 9 [NORMAL]
-    Transitioned from BLOCKED to READY
-
-At time 1614:
     PROCESS_DISPATCH_COMPLETED
-    Process 18 [SYSTEM]
+    Thread 2 in process 461 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 1620:
-    PROCESS_PREEMPTED
-    Process 18 [SYSTEM]
+At time 1599:
+    THREAD_PREEMPTED
+    Thread 2 in process 461 [SYSTEM]
     Transitioned from RUNNING to READY
 
-At time 1620:
+At time 1599:
     DISPATCHER_INVOKED
-    Process 1 [SYSTEM]
-    Selected from 23 processes. Will run for at most 6 ticks.
+    Thread 1 in process 729 [SYSTEM]
+    Selected from 23 threads. Will run for at most 6 ticks.
 
-At time 1665:
+At time 1644:
     PROCESS_DISPATCH_COMPLETED
-    Process 1 [SYSTEM]
+    Thread 1 in process 729 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 1671:
+At time 1650:
     CPU_BURST_COMPLETED
-    Process 1 [SYSTEM]
+    Thread 1 in process 729 [SYSTEM]
     Transitioned from RUNNING to BLOCKED
 
-At time 1671:
+At time 1650:
     DISPATCHER_INVOKED
-    Process 4 [SYSTEM]
-    Selected from 22 processes. Will run for at most 6 ticks.
+    Thread 1 in process 104 [SYSTEM]
+    Selected from 22 threads. Will run for at most 6 ticks.
 
-At time 1700:
+At time 1679:
     IO_BURST_COMPLETED
-    Process 1 [SYSTEM]
+    Thread 1 in process 729 [SYSTEM]
     Transitioned from BLOCKED to READY
 
-At time 1716:
+At time 1695:
     PROCESS_DISPATCH_COMPLETED
-    Process 4 [SYSTEM]
+    Thread 1 in process 104 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 1722:
-    PROCESS_PREEMPTED
-    Process 4 [SYSTEM]
+At time 1701:
+    THREAD_PREEMPTED
+    Thread 1 in process 104 [SYSTEM]
     Transitioned from RUNNING to READY
 
-At time 1722:
+At time 1701:
     DISPATCHER_INVOKED
-    Process 6 [SYSTEM]
-    Selected from 23 processes. Will run for at most 6 ticks.
+    Thread 3 in process 104 [SYSTEM]
+    Selected from 23 threads. Will run for at most 6 ticks.
 
-At time 1767:
-    PROCESS_DISPATCH_COMPLETED
-    Process 6 [SYSTEM]
+At time 1725:
+    THREAD_DISPATCH_COMPLETED
+    Thread 3 in process 104 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 1769:
+At time 1727:
     CPU_BURST_COMPLETED
-    Process 6 [SYSTEM]
+    Thread 3 in process 104 [SYSTEM]
     Transitioned from RUNNING to BLOCKED
 
-At time 1769:
+At time 1727:
     DISPATCHER_INVOKED
-    Process 2 [SYSTEM]
-    Selected from 22 processes. Will run for at most 6 ticks.
+    Thread 2 in process 729 [SYSTEM]
+    Selected from 22 threads. Will run for at most 6 ticks.
 
-At time 1789:
+At time 1747:
     IO_BURST_COMPLETED
-    Process 6 [SYSTEM]
+    Thread 3 in process 104 [SYSTEM]
     Transitioned from BLOCKED to READY
 
-At time 1814:
+At time 1772:
     PROCESS_DISPATCH_COMPLETED
-    Process 2 [SYSTEM]
+    Thread 2 in process 729 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 1820:
-    PROCESS_PREEMPTED
-    Process 2 [SYSTEM]
+At time 1778:
+    THREAD_PREEMPTED
+    Thread 2 in process 729 [SYSTEM]
     Transitioned from RUNNING to READY
 
-At time 1820:
+At time 1778:
     DISPATCHER_INVOKED
-    Process 10 [NORMAL]
-    Selected from 23 processes. Will run for at most 6 ticks.
+    Thread 1 in process 687 [NORMAL]
+    Selected from 23 threads. Will run for at most 6 ticks.
 
-At time 1865:
+At time 1823:
     PROCESS_DISPATCH_COMPLETED
-    Process 10 [NORMAL]
+    Thread 1 in process 687 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 1868:
+At time 1826:
     CPU_BURST_COMPLETED
-    Process 10 [NORMAL]
+    Thread 1 in process 687 [NORMAL]
     Transitioned from RUNNING to BLOCKED
 
-At time 1868:
+At time 1826:
     DISPATCHER_INVOKED
-    Process 19 [NORMAL]
-    Selected from 22 processes. Will run for at most 6 ticks.
+    Thread 0 in process 242 [NORMAL]
+    Selected from 22 threads. Will run for at most 6 ticks.
 
-At time 1893:
+At time 1851:
     IO_BURST_COMPLETED
-    Process 10 [NORMAL]
+    Thread 1 in process 687 [NORMAL]
     Transitioned from BLOCKED to READY
 
-At time 1913:
+At time 1871:
     PROCESS_DISPATCH_COMPLETED
-    Process 19 [NORMAL]
+    Thread 0 in process 242 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 1919:
-    PROCESS_PREEMPTED
-    Process 19 [NORMAL]
+At time 1877:
+    THREAD_PREEMPTED
+    Thread 0 in process 242 [NORMAL]
     Transitioned from RUNNING to READY
 
-At time 1919:
+At time 1877:
     DISPATCHER_INVOKED
-    Process 22 [SYSTEM]
-    Selected from 23 processes. Will run for at most 6 ticks.
+    Thread 0 in process 71 [SYSTEM]
+    Selected from 23 threads. Will run for at most 6 ticks.
 
-At time 1964:
+At time 1922:
     PROCESS_DISPATCH_COMPLETED
-    Process 22 [SYSTEM]
+    Thread 0 in process 71 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 1970:
-    PROCESS_PREEMPTED
-    Process 22 [SYSTEM]
+At time 1928:
+    THREAD_PREEMPTED
+    Thread 0 in process 71 [SYSTEM]
     Transitioned from RUNNING to READY
 
-At time 1970:
+At time 1928:
     DISPATCHER_INVOKED
-    Process 12 [NORMAL]
-    Selected from 23 processes. Will run for at most 6 ticks.
+    Thread 3 in process 687 [NORMAL]
+    Selected from 23 threads. Will run for at most 6 ticks.
 
-At time 2015:
+At time 1973:
     PROCESS_DISPATCH_COMPLETED
-    Process 12 [NORMAL]
+    Thread 3 in process 687 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 2017:
+At time 1975:
     CPU_BURST_COMPLETED
-    Process 12 [NORMAL]
+    Thread 3 in process 687 [NORMAL]
     Transitioned from RUNNING to BLOCKED
 
-At time 2017:
+At time 1975:
     DISPATCHER_INVOKED
-    Process 17 [SYSTEM]
-    Selected from 22 processes. Will run for at most 6 ticks.
+    Thread 1 in process 461 [SYSTEM]
+    Selected from 22 threads. Will run for at most 6 ticks.
 
-At time 2029:
+At time 1987:
     IO_BURST_COMPLETED
-    Process 12 [NORMAL]
+    Thread 3 in process 687 [NORMAL]
     Transitioned from BLOCKED to READY
 
-At time 2062:
+At time 2020:
     PROCESS_DISPATCH_COMPLETED
-    Process 17 [SYSTEM]
+    Thread 1 in process 461 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 2068:
-    PROCESS_PREEMPTED
-    Process 17 [SYSTEM]
+At time 2026:
+    THREAD_PREEMPTED
+    Thread 1 in process 461 [SYSTEM]
     Transitioned from RUNNING to READY
 
-At time 2068:
+At time 2026:
     DISPATCHER_INVOKED
-    Process 15 [NORMAL]
-    Selected from 23 processes. Will run for at most 6 ticks.
+    Thread 2 in process 320 [NORMAL]
+    Selected from 23 threads. Will run for at most 6 ticks.
 
-At time 2113:
+At time 2071:
     PROCESS_DISPATCH_COMPLETED
-    Process 15 [NORMAL]
+    Thread 2 in process 320 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 2119:
-    PROCESS_PREEMPTED
-    Process 15 [NORMAL]
+At time 2077:
+    THREAD_PREEMPTED
+    Thread 2 in process 320 [NORMAL]
     Transitioned from RUNNING to READY
 
-At time 2119:
+At time 2077:
     DISPATCHER_INVOKED
-    Process 20 [NORMAL]
-    Selected from 23 processes. Will run for at most 6 ticks.
+    Thread 1 in process 242 [NORMAL]
+    Selected from 23 threads. Will run for at most 6 ticks.
 
-At time 2164:
+At time 2122:
     PROCESS_DISPATCH_COMPLETED
-    Process 20 [NORMAL]
+    Thread 1 in process 242 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 2170:
-    PROCESS_PREEMPTED
-    Process 20 [NORMAL]
+At time 2128:
+    THREAD_PREEMPTED
+    Thread 1 in process 242 [NORMAL]
     Transitioned from RUNNING to READY
 
-At time 2170:
+At time 2128:
     DISPATCHER_INVOKED
-    Process 11 [NORMAL]
-    Selected from 23 processes. Will run for at most 6 ticks.
+    Thread 2 in process 687 [NORMAL]
+    Selected from 23 threads. Will run for at most 6 ticks.
 
-At time 2215:
+At time 2173:
     PROCESS_DISPATCH_COMPLETED
-    Process 11 [NORMAL]
+    Thread 2 in process 687 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 2217:
+At time 2175:
     CPU_BURST_COMPLETED
-    Process 11 [NORMAL]
+    Thread 2 in process 687 [NORMAL]
     Transitioned from RUNNING to BLOCKED
 
-At time 2217:
+At time 2175:
     DISPATCHER_INVOKED
-    Process 3 [SYSTEM]
-    Selected from 22 processes. Will run for at most 6 ticks.
+    Thread 0 in process 104 [SYSTEM]
+    Selected from 22 threads. Will run for at most 6 ticks.
 
-At time 2237:
+At time 2195:
     IO_BURST_COMPLETED
-    Process 11 [NORMAL]
+    Thread 2 in process 687 [NORMAL]
     Transitioned from BLOCKED to READY
 
-At time 2262:
+At time 2220:
     PROCESS_DISPATCH_COMPLETED
-    Process 3 [SYSTEM]
+    Thread 0 in process 104 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 2268:
-    PROCESS_PREEMPTED
-    Process 3 [SYSTEM]
+At time 2226:
+    THREAD_PREEMPTED
+    Thread 0 in process 104 [SYSTEM]
     Transitioned from RUNNING to READY
 
-At time 2268:
+At time 2226:
     DISPATCHER_INVOKED
-    Process 14 [NORMAL]
-    Selected from 23 processes. Will run for at most 6 ticks.
+    Thread 1 in process 320 [NORMAL]
+    Selected from 23 threads. Will run for at most 6 ticks.
 
-At time 2313:
+At time 2271:
     PROCESS_DISPATCH_COMPLETED
-    Process 14 [NORMAL]
+    Thread 1 in process 320 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 2319:
-    PROCESS_PREEMPTED
-    Process 14 [NORMAL]
+At time 2277:
+    THREAD_PREEMPTED
+    Thread 1 in process 320 [NORMAL]
     Transitioned from RUNNING to READY
 
-At time 2319:
+At time 2277:
     DISPATCHER_INVOKED
-    Process 8 [SYSTEM]
-    Selected from 23 processes. Will run for at most 6 ticks.
+    Thread 1 in process 428 [SYSTEM]
+    Selected from 23 threads. Will run for at most 6 ticks.
 
-At time 2364:
+At time 2322:
     PROCESS_DISPATCH_COMPLETED
-    Process 8 [SYSTEM]
+    Thread 1 in process 428 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 2370:
-    PROCESS_PREEMPTED
-    Process 8 [SYSTEM]
+At time 2328:
+    THREAD_PREEMPTED
+    Thread 1 in process 428 [SYSTEM]
     Transitioned from RUNNING to READY
 
-At time 2370:
+At time 2328:
     DISPATCHER_INVOKED
-    Process 0 [SYSTEM]
-    Selected from 23 processes. Will run for at most 6 ticks.
+    Thread 0 in process 729 [SYSTEM]
+    Selected from 23 threads. Will run for at most 6 ticks.
 
-At time 2415:
+At time 2373:
     PROCESS_DISPATCH_COMPLETED
-    Process 0 [SYSTEM]
+    Thread 0 in process 729 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 2416:
+At time 2374:
     CPU_BURST_COMPLETED
-    Process 0 [SYSTEM]
+    Thread 0 in process 729 [SYSTEM]
     Transitioned from RUNNING to BLOCKED
 
-At time 2416:
+At time 2374:
     DISPATCHER_INVOKED
-    Process 5 [SYSTEM]
-    Selected from 22 processes. Will run for at most 6 ticks.
+    Thread 2 in process 104 [SYSTEM]
+    Selected from 22 threads. Will run for at most 6 ticks.
 
-At time 2426:
+At time 2384:
     IO_BURST_COMPLETED
-    Process 0 [SYSTEM]
+    Thread 0 in process 729 [SYSTEM]
     Transitioned from BLOCKED to READY
 
-At time 2461:
+At time 2419:
     PROCESS_DISPATCH_COMPLETED
-    Process 5 [SYSTEM]
+    Thread 2 in process 104 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 2467:
-    PROCESS_PREEMPTED
-    Process 5 [SYSTEM]
+At time 2425:
+    THREAD_PREEMPTED
+    Thread 2 in process 104 [SYSTEM]
     Transitioned from RUNNING to READY
 
-At time 2467:
+At time 2425:
     DISPATCHER_INVOKED
-    Process 13 [NORMAL]
-    Selected from 23 processes. Will run for at most 6 ticks.
+    Thread 0 in process 320 [NORMAL]
+    Selected from 23 threads. Will run for at most 6 ticks.
 
-At time 2512:
+At time 2470:
     PROCESS_DISPATCH_COMPLETED
-    Process 13 [NORMAL]
+    Thread 0 in process 320 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 2518:
-    PROCESS_PREEMPTED
-    Process 13 [NORMAL]
+At time 2476:
+    THREAD_PREEMPTED
+    Thread 0 in process 320 [NORMAL]
     Transitioned from RUNNING to READY
 
-At time 2518:
+At time 2476:
     DISPATCHER_INVOKED
-    Process 7 [SYSTEM]
-    Selected from 23 processes. Will run for at most 6 ticks.
+    Thread 0 in process 428 [SYSTEM]
+    Selected from 23 threads. Will run for at most 6 ticks.
 
-At time 2563:
+At time 2521:
     PROCESS_DISPATCH_COMPLETED
-    Process 7 [SYSTEM]
+    Thread 0 in process 428 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 2569:
-    PROCESS_PREEMPTED
-    Process 7 [SYSTEM]
+At time 2527:
+    THREAD_PREEMPTED
+    Thread 0 in process 428 [SYSTEM]
     Transitioned from RUNNING to READY
 
-At time 2569:
+At time 2527:
     DISPATCHER_INVOKED
-    Process 21 [NORMAL]
-    Selected from 23 processes. Will run for at most 6 ticks.
+    Thread 2 in process 242 [NORMAL]
+    Selected from 23 threads. Will run for at most 6 ticks.
 
-At time 2614:
+At time 2572:
     PROCESS_DISPATCH_COMPLETED
-    Process 21 [NORMAL]
+    Thread 2 in process 242 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 2620:
-    PROCESS_PREEMPTED
-    Process 21 [NORMAL]
+At time 2578:
+    THREAD_PREEMPTED
+    Thread 2 in process 242 [NORMAL]
     Transitioned from RUNNING to READY
 
-At time 2620:
+At time 2578:
     DISPATCHER_INVOKED
-    Process 16 [SYSTEM]
-    Selected from 23 processes. Will run for at most 6 ticks.
+    Thread 0 in process 461 [SYSTEM]
+    Selected from 23 threads. Will run for at most 6 ticks.
 
-At time 2665:
+At time 2623:
     PROCESS_DISPATCH_COMPLETED
-    Process 16 [SYSTEM]
+    Thread 0 in process 461 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 2671:
-    PROCESS_PREEMPTED
-    Process 16 [SYSTEM]
+At time 2629:
+    THREAD_PREEMPTED
+    Thread 0 in process 461 [SYSTEM]
     Transitioned from RUNNING to READY
 
-At time 2671:
+At time 2629:
     DISPATCHER_INVOKED
-    Process 9 [NORMAL]
-    Selected from 23 processes. Will run for at most 6 ticks.
+    Thread 0 in process 687 [NORMAL]
+    Selected from 23 threads. Will run for at most 6 ticks.
 
-At time 2716:
+At time 2674:
     PROCESS_DISPATCH_COMPLETED
-    Process 9 [NORMAL]
+    Thread 0 in process 687 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 2722:
-    PROCESS_PREEMPTED
-    Process 9 [NORMAL]
+At time 2680:
+    THREAD_PREEMPTED
+    Thread 0 in process 687 [NORMAL]
     Transitioned from RUNNING to READY
 
-At time 2722:
+At time 2680:
     DISPATCHER_INVOKED
-    Process 18 [SYSTEM]
-    Selected from 23 processes. Will run for at most 6 ticks.
+    Thread 2 in process 461 [SYSTEM]
+    Selected from 23 threads. Will run for at most 6 ticks.
 
-At time 2767:
+At time 2725:
     PROCESS_DISPATCH_COMPLETED
-    Process 18 [SYSTEM]
+    Thread 2 in process 461 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 2773:
+At time 2731:
     CPU_BURST_COMPLETED
-    Process 18 [SYSTEM]
+    Thread 2 in process 461 [SYSTEM]
     Transitioned from RUNNING to BLOCKED
 
-At time 2773:
+At time 2731:
     DISPATCHER_INVOKED
-    Process 1 [SYSTEM]
-    Selected from 22 processes. Will run for at most 6 ticks.
+    Thread 1 in process 729 [SYSTEM]
+    Selected from 22 threads. Will run for at most 6 ticks.
 
-At time 2803:
+At time 2761:
     IO_BURST_COMPLETED
-    Process 18 [SYSTEM]
+    Thread 2 in process 461 [SYSTEM]
     Transitioned from BLOCKED to READY
 
-At time 2818:
+At time 2776:
     PROCESS_DISPATCH_COMPLETED
-    Process 1 [SYSTEM]
+    Thread 1 in process 729 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 2824:
-    PROCESS_PREEMPTED
-    Process 1 [SYSTEM]
+At time 2782:
+    THREAD_PREEMPTED
+    Thread 1 in process 729 [SYSTEM]
     Transitioned from RUNNING to READY
 
-At time 2824:
+At time 2782:
     DISPATCHER_INVOKED
-    Process 4 [SYSTEM]
-    Selected from 23 processes. Will run for at most 6 ticks.
+    Thread 1 in process 104 [SYSTEM]
+    Selected from 23 threads. Will run for at most 6 ticks.
 
-At time 2869:
+At time 2827:
     PROCESS_DISPATCH_COMPLETED
-    Process 4 [SYSTEM]
+    Thread 1 in process 104 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 2875:
-    PROCESS_PREEMPTED
-    Process 4 [SYSTEM]
+At time 2833:
+    THREAD_PREEMPTED
+    Thread 1 in process 104 [SYSTEM]
     Transitioned from RUNNING to READY
 
-At time 2875:
+At time 2833:
     DISPATCHER_INVOKED
-    Process 6 [SYSTEM]
-    Selected from 23 processes. Will run for at most 6 ticks.
+    Thread 3 in process 104 [SYSTEM]
+    Selected from 23 threads. Will run for at most 6 ticks.
 
-At time 2920:
-    PROCESS_DISPATCH_COMPLETED
-    Process 6 [SYSTEM]
+At time 2857:
+    THREAD_DISPATCH_COMPLETED
+    Thread 3 in process 104 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 2926:
+At time 2863:
     CPU_BURST_COMPLETED
-    Process 6 [SYSTEM]
+    Thread 3 in process 104 [SYSTEM]
     Transitioned from RUNNING to BLOCKED
 
-At time 2926:
+At time 2863:
     DISPATCHER_INVOKED
-    Process 2 [SYSTEM]
-    Selected from 22 processes. Will run for at most 6 ticks.
+    Thread 2 in process 729 [SYSTEM]
+    Selected from 22 threads. Will run for at most 6 ticks.
 
-At time 2937:
+At time 2874:
     IO_BURST_COMPLETED
-    Process 6 [SYSTEM]
+    Thread 3 in process 104 [SYSTEM]
     Transitioned from BLOCKED to READY
 
-At time 2971:
+At time 2908:
     PROCESS_DISPATCH_COMPLETED
-    Process 2 [SYSTEM]
+    Thread 2 in process 729 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 2977:
-    PROCESS_PREEMPTED
-    Process 2 [SYSTEM]
+At time 2914:
+    THREAD_PREEMPTED
+    Thread 2 in process 729 [SYSTEM]
     Transitioned from RUNNING to READY
 
-At time 2977:
+At time 2914:
     DISPATCHER_INVOKED
-    Process 10 [NORMAL]
-    Selected from 23 processes. Will run for at most 6 ticks.
+    Thread 1 in process 687 [NORMAL]
+    Selected from 23 threads. Will run for at most 6 ticks.
 
-At time 3022:
+At time 2959:
     PROCESS_DISPATCH_COMPLETED
-    Process 10 [NORMAL]
+    Thread 1 in process 687 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 3028:
-    PROCESS_PREEMPTED
-    Process 10 [NORMAL]
+At time 2965:
+    THREAD_PREEMPTED
+    Thread 1 in process 687 [NORMAL]
     Transitioned from RUNNING to READY
 
-At time 3028:
+At time 2965:
     DISPATCHER_INVOKED
-    Process 19 [NORMAL]
-    Selected from 23 processes. Will run for at most 6 ticks.
+    Thread 0 in process 242 [NORMAL]
+    Selected from 23 threads. Will run for at most 6 ticks.
 
-At time 3073:
+At time 3010:
     PROCESS_DISPATCH_COMPLETED
-    Process 19 [NORMAL]
+    Thread 0 in process 242 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 3079:
-    PROCESS_PREEMPTED
-    Process 19 [NORMAL]
+At time 3016:
+    THREAD_PREEMPTED
+    Thread 0 in process 242 [NORMAL]
     Transitioned from RUNNING to READY
 
-At time 3079:
+At time 3016:
     DISPATCHER_INVOKED
-    Process 22 [SYSTEM]
-    Selected from 23 processes. Will run for at most 6 ticks.
+    Thread 0 in process 71 [SYSTEM]
+    Selected from 23 threads. Will run for at most 6 ticks.
 
-At time 3124:
+At time 3061:
     PROCESS_DISPATCH_COMPLETED
-    Process 22 [SYSTEM]
+    Thread 0 in process 71 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 3130:
+At time 3067:
     CPU_BURST_COMPLETED
-    Process 22 [SYSTEM]
+    Thread 0 in process 71 [SYSTEM]
     Transitioned from RUNNING to BLOCKED
 
-At time 3130:
+At time 3067:
     DISPATCHER_INVOKED
-    Process 12 [NORMAL]
-    Selected from 22 processes. Will run for at most 6 ticks.
+    Thread 3 in process 687 [NORMAL]
+    Selected from 22 threads. Will run for at most 6 ticks.
 
-At time 3137:
+At time 3074:
     IO_BURST_COMPLETED
-    Process 22 [SYSTEM]
+    Thread 0 in process 71 [SYSTEM]
     Transitioned from BLOCKED to READY
 
-At time 3175:
+At time 3112:
     PROCESS_DISPATCH_COMPLETED
-    Process 12 [NORMAL]
+    Thread 3 in process 687 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 3179:
+At time 3116:
     CPU_BURST_COMPLETED
-    Process 12 [NORMAL]
+    Thread 3 in process 687 [NORMAL]
     Transitioned from RUNNING to BLOCKED
 
-At time 3179:
+At time 3116:
     DISPATCHER_INVOKED
-    Process 17 [SYSTEM]
-    Selected from 22 processes. Will run for at most 6 ticks.
+    Thread 1 in process 461 [SYSTEM]
+    Selected from 22 threads. Will run for at most 6 ticks.
 
-At time 3194:
+At time 3131:
     IO_BURST_COMPLETED
-    Process 12 [NORMAL]
+    Thread 3 in process 687 [NORMAL]
     Transitioned from BLOCKED to READY
 
-At time 3224:
+At time 3161:
     PROCESS_DISPATCH_COMPLETED
-    Process 17 [SYSTEM]
+    Thread 1 in process 461 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 3230:
-    PROCESS_PREEMPTED
-    Process 17 [SYSTEM]
+At time 3167:
+    THREAD_PREEMPTED
+    Thread 1 in process 461 [SYSTEM]
     Transitioned from RUNNING to READY
 
-At time 3230:
+At time 3167:
     DISPATCHER_INVOKED
-    Process 15 [NORMAL]
-    Selected from 23 processes. Will run for at most 6 ticks.
+    Thread 2 in process 320 [NORMAL]
+    Selected from 23 threads. Will run for at most 6 ticks.
 
-At time 3275:
+At time 3212:
     PROCESS_DISPATCH_COMPLETED
-    Process 15 [NORMAL]
+    Thread 2 in process 320 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 3281:
-    PROCESS_PREEMPTED
-    Process 15 [NORMAL]
+At time 3218:
+    THREAD_PREEMPTED
+    Thread 2 in process 320 [NORMAL]
     Transitioned from RUNNING to READY
 
-At time 3281:
+At time 3218:
     DISPATCHER_INVOKED
-    Process 20 [NORMAL]
-    Selected from 23 processes. Will run for at most 6 ticks.
+    Thread 1 in process 242 [NORMAL]
+    Selected from 23 threads. Will run for at most 6 ticks.
 
-At time 3326:
+At time 3263:
     PROCESS_DISPATCH_COMPLETED
-    Process 20 [NORMAL]
+    Thread 1 in process 242 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 3332:
+At time 3269:
     CPU_BURST_COMPLETED
-    Process 20 [NORMAL]
+    Thread 1 in process 242 [NORMAL]
     Transitioned from RUNNING to BLOCKED
 
-At time 3332:
+At time 3269:
     DISPATCHER_INVOKED
-    Process 11 [NORMAL]
-    Selected from 22 processes. Will run for at most 6 ticks.
+    Thread 2 in process 687 [NORMAL]
+    Selected from 22 threads. Will run for at most 6 ticks.
 
-At time 3337:
+At time 3274:
     IO_BURST_COMPLETED
-    Process 20 [NORMAL]
+    Thread 1 in process 242 [NORMAL]
     Transitioned from BLOCKED to READY
 
-At time 3377:
+At time 3314:
     PROCESS_DISPATCH_COMPLETED
-    Process 11 [NORMAL]
+    Thread 2 in process 687 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 3383:
-    PROCESS_PREEMPTED
-    Process 11 [NORMAL]
+At time 3320:
+    THREAD_PREEMPTED
+    Thread 2 in process 687 [NORMAL]
     Transitioned from RUNNING to READY
 
-At time 3383:
+At time 3320:
     DISPATCHER_INVOKED
-    Process 3 [SYSTEM]
-    Selected from 23 processes. Will run for at most 6 ticks.
+    Thread 0 in process 104 [SYSTEM]
+    Selected from 23 threads. Will run for at most 6 ticks.
 
-At time 3428:
+At time 3365:
     PROCESS_DISPATCH_COMPLETED
-    Process 3 [SYSTEM]
+    Thread 0 in process 104 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 3430:
+At time 3367:
     CPU_BURST_COMPLETED
-    Process 3 [SYSTEM]
+    Thread 0 in process 104 [SYSTEM]
     Transitioned from RUNNING to BLOCKED
 
-At time 3430:
+At time 3367:
     DISPATCHER_INVOKED
-    Process 14 [NORMAL]
-    Selected from 22 processes. Will run for at most 6 ticks.
+    Thread 1 in process 320 [NORMAL]
+    Selected from 22 threads. Will run for at most 6 ticks.
 
-At time 3434:
+At time 3371:
     IO_BURST_COMPLETED
-    Process 3 [SYSTEM]
+    Thread 0 in process 104 [SYSTEM]
     Transitioned from BLOCKED to READY
 
-At time 3475:
+At time 3412:
     PROCESS_DISPATCH_COMPLETED
-    Process 14 [NORMAL]
+    Thread 1 in process 320 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 3481:
+At time 3418:
     CPU_BURST_COMPLETED
-    Process 14 [NORMAL]
+    Thread 1 in process 320 [NORMAL]
     Transitioned from RUNNING to BLOCKED
 
-At time 3481:
+At time 3418:
     DISPATCHER_INVOKED
-    Process 8 [SYSTEM]
-    Selected from 22 processes. Will run for at most 6 ticks.
+    Thread 1 in process 428 [SYSTEM]
+    Selected from 22 threads. Will run for at most 6 ticks.
 
-At time 3507:
+At time 3444:
     IO_BURST_COMPLETED
-    Process 14 [NORMAL]
+    Thread 1 in process 320 [NORMAL]
     Transitioned from BLOCKED to READY
 
-At time 3526:
+At time 3463:
     PROCESS_DISPATCH_COMPLETED
-    Process 8 [SYSTEM]
+    Thread 1 in process 428 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 3532:
-    PROCESS_PREEMPTED
-    Process 8 [SYSTEM]
+At time 3469:
+    THREAD_PREEMPTED
+    Thread 1 in process 428 [SYSTEM]
     Transitioned from RUNNING to READY
 
-At time 3532:
+At time 3469:
     DISPATCHER_INVOKED
-    Process 0 [SYSTEM]
-    Selected from 23 processes. Will run for at most 6 ticks.
+    Thread 0 in process 729 [SYSTEM]
+    Selected from 23 threads. Will run for at most 6 ticks.
 
-At time 3577:
+At time 3514:
     PROCESS_DISPATCH_COMPLETED
-    Process 0 [SYSTEM]
+    Thread 0 in process 729 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 3583:
-    PROCESS_PREEMPTED
-    Process 0 [SYSTEM]
+At time 3520:
+    THREAD_PREEMPTED
+    Thread 0 in process 729 [SYSTEM]
     Transitioned from RUNNING to READY
 
-At time 3583:
+At time 3520:
     DISPATCHER_INVOKED
-    Process 5 [SYSTEM]
-    Selected from 23 processes. Will run for at most 6 ticks.
+    Thread 2 in process 104 [SYSTEM]
+    Selected from 23 threads. Will run for at most 6 ticks.
 
-At time 3628:
+At time 3565:
     PROCESS_DISPATCH_COMPLETED
-    Process 5 [SYSTEM]
+    Thread 2 in process 104 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 3634:
-    PROCESS_PREEMPTED
-    Process 5 [SYSTEM]
+At time 3571:
+    THREAD_PREEMPTED
+    Thread 2 in process 104 [SYSTEM]
     Transitioned from RUNNING to READY
 
-At time 3634:
+At time 3571:
     DISPATCHER_INVOKED
-    Process 13 [NORMAL]
-    Selected from 23 processes. Will run for at most 6 ticks.
+    Thread 0 in process 320 [NORMAL]
+    Selected from 23 threads. Will run for at most 6 ticks.
 
-At time 3679:
+At time 3616:
     PROCESS_DISPATCH_COMPLETED
-    Process 13 [NORMAL]
+    Thread 0 in process 320 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 3682:
+At time 3619:
     CPU_BURST_COMPLETED
-    Process 13 [NORMAL]
+    Thread 0 in process 320 [NORMAL]
     Transitioned from RUNNING to BLOCKED
 
-At time 3682:
+At time 3619:
     DISPATCHER_INVOKED
-    Process 7 [SYSTEM]
-    Selected from 22 processes. Will run for at most 6 ticks.
+    Thread 0 in process 428 [SYSTEM]
+    Selected from 22 threads. Will run for at most 6 ticks.
 
-At time 3690:
+At time 3627:
     IO_BURST_COMPLETED
-    Process 13 [NORMAL]
+    Thread 0 in process 320 [NORMAL]
     Transitioned from BLOCKED to READY
 
-At time 3727:
+At time 3664:
     PROCESS_DISPATCH_COMPLETED
-    Process 7 [SYSTEM]
+    Thread 0 in process 428 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 3733:
-    PROCESS_PREEMPTED
-    Process 7 [SYSTEM]
+At time 3670:
+    THREAD_PREEMPTED
+    Thread 0 in process 428 [SYSTEM]
     Transitioned from RUNNING to READY
 
-At time 3733:
+At time 3670:
     DISPATCHER_INVOKED
-    Process 21 [NORMAL]
-    Selected from 23 processes. Will run for at most 6 ticks.
+    Thread 2 in process 242 [NORMAL]
+    Selected from 23 threads. Will run for at most 6 ticks.
+
+At time 3715:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 2 in process 242 [NORMAL]
+    Transitioned from READY to RUNNING
+
+At time 3721:
+    THREAD_PREEMPTED
+    Thread 2 in process 242 [NORMAL]
+    Transitioned from RUNNING to READY
+
+At time 3721:
+    DISPATCHER_INVOKED
+    Thread 0 in process 461 [SYSTEM]
+    Selected from 23 threads. Will run for at most 6 ticks.
+
+At time 3766:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 461 [SYSTEM]
+    Transitioned from READY to RUNNING
+
+At time 3771:
+    CPU_BURST_COMPLETED
+    Thread 0 in process 461 [SYSTEM]
+    Transitioned from RUNNING to BLOCKED
+
+At time 3771:
+    DISPATCHER_INVOKED
+    Thread 0 in process 687 [NORMAL]
+    Selected from 22 threads. Will run for at most 6 ticks.
 
 At time 3778:
-    PROCESS_DISPATCH_COMPLETED
-    Process 21 [NORMAL]
-    Transitioned from READY to RUNNING
-
-At time 3784:
-    PROCESS_PREEMPTED
-    Process 21 [NORMAL]
-    Transitioned from RUNNING to READY
-
-At time 3784:
-    DISPATCHER_INVOKED
-    Process 16 [SYSTEM]
-    Selected from 23 processes. Will run for at most 6 ticks.
-
-At time 3829:
-    PROCESS_DISPATCH_COMPLETED
-    Process 16 [SYSTEM]
-    Transitioned from READY to RUNNING
-
-At time 3834:
-    CPU_BURST_COMPLETED
-    Process 16 [SYSTEM]
-    Transitioned from RUNNING to BLOCKED
-
-At time 3834:
-    DISPATCHER_INVOKED
-    Process 9 [NORMAL]
-    Selected from 22 processes. Will run for at most 6 ticks.
-
-At time 3841:
     IO_BURST_COMPLETED
-    Process 16 [SYSTEM]
+    Thread 0 in process 461 [SYSTEM]
     Transitioned from BLOCKED to READY
 
-At time 3879:
+At time 3816:
     PROCESS_DISPATCH_COMPLETED
-    Process 9 [NORMAL]
+    Thread 0 in process 687 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 3885:
-    PROCESS_PREEMPTED
-    Process 9 [NORMAL]
+At time 3822:
+    THREAD_PREEMPTED
+    Thread 0 in process 687 [NORMAL]
     Transitioned from RUNNING to READY
 
-At time 3885:
+At time 3822:
     DISPATCHER_INVOKED
-    Process 18 [SYSTEM]
-    Selected from 23 processes. Will run for at most 6 ticks.
+    Thread 2 in process 461 [SYSTEM]
+    Selected from 23 threads. Will run for at most 6 ticks.
 
-At time 3930:
+At time 3867:
     PROCESS_DISPATCH_COMPLETED
-    Process 18 [SYSTEM]
+    Thread 2 in process 461 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 3936:
-    PROCESS_PREEMPTED
-    Process 18 [SYSTEM]
+At time 3873:
+    THREAD_PREEMPTED
+    Thread 2 in process 461 [SYSTEM]
     Transitioned from RUNNING to READY
 
-At time 3936:
+At time 3873:
     DISPATCHER_INVOKED
-    Process 1 [SYSTEM]
-    Selected from 23 processes. Will run for at most 6 ticks.
+    Thread 1 in process 729 [SYSTEM]
+    Selected from 23 threads. Will run for at most 6 ticks.
 
-At time 3981:
+At time 3918:
     PROCESS_DISPATCH_COMPLETED
-    Process 1 [SYSTEM]
+    Thread 1 in process 729 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 3987:
-    PROCESS_PREEMPTED
-    Process 1 [SYSTEM]
+At time 3924:
+    THREAD_PREEMPTED
+    Thread 1 in process 729 [SYSTEM]
     Transitioned from RUNNING to READY
 
-At time 3987:
+At time 3924:
     DISPATCHER_INVOKED
-    Process 4 [SYSTEM]
-    Selected from 23 processes. Will run for at most 6 ticks.
+    Thread 1 in process 104 [SYSTEM]
+    Selected from 23 threads. Will run for at most 6 ticks.
 
-At time 4032:
+At time 3969:
     PROCESS_DISPATCH_COMPLETED
-    Process 4 [SYSTEM]
+    Thread 1 in process 104 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 4038:
-    PROCESS_PREEMPTED
-    Process 4 [SYSTEM]
+At time 3975:
+    THREAD_PREEMPTED
+    Thread 1 in process 104 [SYSTEM]
     Transitioned from RUNNING to READY
 
-At time 4038:
+At time 3975:
     DISPATCHER_INVOKED
-    Process 6 [SYSTEM]
-    Selected from 23 processes. Will run for at most 6 ticks.
+    Thread 3 in process 104 [SYSTEM]
+    Selected from 23 threads. Will run for at most 6 ticks.
 
-At time 4083:
-    PROCESS_DISPATCH_COMPLETED
-    Process 6 [SYSTEM]
+At time 3999:
+    THREAD_DISPATCH_COMPLETED
+    Thread 3 in process 104 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 4089:
-    PROCESS_PREEMPTED
-    Process 6 [SYSTEM]
+At time 4005:
+    THREAD_PREEMPTED
+    Thread 3 in process 104 [SYSTEM]
     Transitioned from RUNNING to READY
 
-At time 4089:
+At time 4005:
     DISPATCHER_INVOKED
-    Process 2 [SYSTEM]
-    Selected from 23 processes. Will run for at most 6 ticks.
+    Thread 2 in process 729 [SYSTEM]
+    Selected from 23 threads. Will run for at most 6 ticks.
 
-At time 4134:
+At time 4050:
     PROCESS_DISPATCH_COMPLETED
-    Process 2 [SYSTEM]
+    Thread 2 in process 729 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 4138:
+At time 4054:
     CPU_BURST_COMPLETED
-    Process 2 [SYSTEM]
+    Thread 2 in process 729 [SYSTEM]
     Transitioned from RUNNING to BLOCKED
 
-At time 4138:
+At time 4054:
     DISPATCHER_INVOKED
-    Process 10 [NORMAL]
-    Selected from 22 processes. Will run for at most 6 ticks.
+    Thread 1 in process 687 [NORMAL]
+    Selected from 22 threads. Will run for at most 6 ticks.
 
-At time 4168:
+At time 4084:
     IO_BURST_COMPLETED
-    Process 2 [SYSTEM]
+    Thread 2 in process 729 [SYSTEM]
     Transitioned from BLOCKED to READY
 
-At time 4183:
+At time 4099:
     PROCESS_DISPATCH_COMPLETED
-    Process 10 [NORMAL]
+    Thread 1 in process 687 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 4189:
-    PROCESS_PREEMPTED
-    Process 10 [NORMAL]
+At time 4105:
+    THREAD_PREEMPTED
+    Thread 1 in process 687 [NORMAL]
     Transitioned from RUNNING to READY
 
-At time 4189:
+At time 4105:
     DISPATCHER_INVOKED
-    Process 19 [NORMAL]
-    Selected from 23 processes. Will run for at most 6 ticks.
+    Thread 0 in process 242 [NORMAL]
+    Selected from 23 threads. Will run for at most 6 ticks.
 
-At time 4234:
+At time 4150:
     PROCESS_DISPATCH_COMPLETED
-    Process 19 [NORMAL]
+    Thread 0 in process 242 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 4240:
-    PROCESS_PREEMPTED
-    Process 19 [NORMAL]
+At time 4156:
+    THREAD_PREEMPTED
+    Thread 0 in process 242 [NORMAL]
     Transitioned from RUNNING to READY
 
-At time 4240:
+At time 4156:
     DISPATCHER_INVOKED
-    Process 22 [SYSTEM]
-    Selected from 23 processes. Will run for at most 6 ticks.
+    Thread 0 in process 71 [SYSTEM]
+    Selected from 23 threads. Will run for at most 6 ticks.
 
-At time 4285:
+At time 4201:
     PROCESS_DISPATCH_COMPLETED
-    Process 22 [SYSTEM]
+    Thread 0 in process 71 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 4291:
-    PROCESS_PREEMPTED
-    Process 22 [SYSTEM]
+At time 4207:
+    THREAD_PREEMPTED
+    Thread 0 in process 71 [SYSTEM]
     Transitioned from RUNNING to READY
 
-At time 4291:
+At time 4207:
     DISPATCHER_INVOKED
-    Process 12 [NORMAL]
-    Selected from 23 processes. Will run for at most 6 ticks.
+    Thread 3 in process 687 [NORMAL]
+    Selected from 23 threads. Will run for at most 6 ticks.
 
-At time 4336:
+At time 4252:
     PROCESS_DISPATCH_COMPLETED
-    Process 12 [NORMAL]
+    Thread 3 in process 687 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 4342:
-    PROCESS_PREEMPTED
-    Process 12 [NORMAL]
+At time 4258:
+    THREAD_PREEMPTED
+    Thread 3 in process 687 [NORMAL]
     Transitioned from RUNNING to READY
 
-At time 4342:
+At time 4258:
     DISPATCHER_INVOKED
-    Process 17 [SYSTEM]
-    Selected from 23 processes. Will run for at most 6 ticks.
+    Thread 1 in process 461 [SYSTEM]
+    Selected from 23 threads. Will run for at most 6 ticks.
 
-At time 4387:
+At time 4303:
     PROCESS_DISPATCH_COMPLETED
-    Process 17 [SYSTEM]
+    Thread 1 in process 461 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 4393:
-    PROCESS_PREEMPTED
-    Process 17 [SYSTEM]
+At time 4309:
+    THREAD_PREEMPTED
+    Thread 1 in process 461 [SYSTEM]
     Transitioned from RUNNING to READY
 
-At time 4393:
+At time 4309:
     DISPATCHER_INVOKED
-    Process 15 [NORMAL]
-    Selected from 23 processes. Will run for at most 6 ticks.
+    Thread 2 in process 320 [NORMAL]
+    Selected from 23 threads. Will run for at most 6 ticks.
 
-At time 4438:
+At time 4354:
     PROCESS_DISPATCH_COMPLETED
-    Process 15 [NORMAL]
+    Thread 2 in process 320 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 4440:
+At time 4356:
     CPU_BURST_COMPLETED
-    Process 15 [NORMAL]
+    Thread 2 in process 320 [NORMAL]
     Transitioned from RUNNING to BLOCKED
 
-At time 4440:
+At time 4356:
     DISPATCHER_INVOKED
-    Process 20 [NORMAL]
-    Selected from 22 processes. Will run for at most 6 ticks.
+    Thread 1 in process 242 [NORMAL]
+    Selected from 22 threads. Will run for at most 6 ticks.
+
+At time 4368:
+    IO_BURST_COMPLETED
+    Thread 2 in process 320 [NORMAL]
+    Transitioned from BLOCKED to READY
+
+At time 4401:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 1 in process 242 [NORMAL]
+    Transitioned from READY to RUNNING
+
+At time 4407:
+    THREAD_PREEMPTED
+    Thread 1 in process 242 [NORMAL]
+    Transitioned from RUNNING to READY
+
+At time 4407:
+    DISPATCHER_INVOKED
+    Thread 2 in process 687 [NORMAL]
+    Selected from 23 threads. Will run for at most 6 ticks.
 
 At time 4452:
-    IO_BURST_COMPLETED
-    Process 15 [NORMAL]
-    Transitioned from BLOCKED to READY
-
-At time 4485:
     PROCESS_DISPATCH_COMPLETED
-    Process 20 [NORMAL]
+    Thread 2 in process 687 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 4491:
-    PROCESS_PREEMPTED
-    Process 20 [NORMAL]
+At time 4458:
+    THREAD_PREEMPTED
+    Thread 2 in process 687 [NORMAL]
     Transitioned from RUNNING to READY
 
-At time 4491:
+At time 4458:
     DISPATCHER_INVOKED
-    Process 11 [NORMAL]
-    Selected from 23 processes. Will run for at most 6 ticks.
+    Thread 0 in process 104 [SYSTEM]
+    Selected from 23 threads. Will run for at most 6 ticks.
 
-At time 4536:
+At time 4503:
     PROCESS_DISPATCH_COMPLETED
-    Process 11 [NORMAL]
+    Thread 0 in process 104 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 4542:
-    PROCESS_PREEMPTED
-    Process 11 [NORMAL]
-    Transitioned from RUNNING to READY
-
-At time 4542:
-    DISPATCHER_INVOKED
-    Process 3 [SYSTEM]
-    Selected from 23 processes. Will run for at most 6 ticks.
-
-At time 4587:
-    PROCESS_DISPATCH_COMPLETED
-    Process 3 [SYSTEM]
-    Transitioned from READY to RUNNING
-
-At time 4590:
+At time 4506:
     CPU_BURST_COMPLETED
-    Process 3 [SYSTEM]
+    Thread 0 in process 104 [SYSTEM]
     Transitioned from RUNNING to BLOCKED
 
-At time 4590:
+At time 4506:
     DISPATCHER_INVOKED
-    Process 14 [NORMAL]
-    Selected from 22 processes. Will run for at most 6 ticks.
+    Thread 1 in process 320 [NORMAL]
+    Selected from 22 threads. Will run for at most 6 ticks.
 
-At time 4617:
+At time 4533:
     IO_BURST_COMPLETED
-    Process 3 [SYSTEM]
+    Thread 0 in process 104 [SYSTEM]
     Transitioned from BLOCKED to READY
 
-At time 4635:
+At time 4551:
     PROCESS_DISPATCH_COMPLETED
-    Process 14 [NORMAL]
+    Thread 1 in process 320 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 4641:
-    PROCESS_PREEMPTED
-    Process 14 [NORMAL]
+At time 4557:
+    THREAD_PREEMPTED
+    Thread 1 in process 320 [NORMAL]
     Transitioned from RUNNING to READY
 
-At time 4641:
+At time 4557:
     DISPATCHER_INVOKED
-    Process 8 [SYSTEM]
-    Selected from 23 processes. Will run for at most 6 ticks.
+    Thread 1 in process 428 [SYSTEM]
+    Selected from 23 threads. Will run for at most 6 ticks.
 
-At time 4686:
+At time 4602:
     PROCESS_DISPATCH_COMPLETED
-    Process 8 [SYSTEM]
+    Thread 1 in process 428 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 4691:
+At time 4607:
     CPU_BURST_COMPLETED
-    Process 8 [SYSTEM]
+    Thread 1 in process 428 [SYSTEM]
     Transitioned from RUNNING to BLOCKED
 
-At time 4691:
+At time 4607:
     DISPATCHER_INVOKED
-    Process 0 [SYSTEM]
-    Selected from 22 processes. Will run for at most 6 ticks.
+    Thread 0 in process 729 [SYSTEM]
+    Selected from 22 threads. Will run for at most 6 ticks.
 
-At time 4694:
+At time 4610:
     IO_BURST_COMPLETED
-    Process 8 [SYSTEM]
+    Thread 1 in process 428 [SYSTEM]
     Transitioned from BLOCKED to READY
 
-At time 4736:
+At time 4652:
     PROCESS_DISPATCH_COMPLETED
-    Process 0 [SYSTEM]
+    Thread 0 in process 729 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 4742:
-    PROCESS_PREEMPTED
-    Process 0 [SYSTEM]
+At time 4658:
+    THREAD_PREEMPTED
+    Thread 0 in process 729 [SYSTEM]
     Transitioned from RUNNING to READY
 
-At time 4742:
+At time 4658:
     DISPATCHER_INVOKED
-    Process 5 [SYSTEM]
-    Selected from 23 processes. Will run for at most 6 ticks.
+    Thread 2 in process 104 [SYSTEM]
+    Selected from 23 threads. Will run for at most 6 ticks.
 
-At time 4787:
+At time 4703:
     PROCESS_DISPATCH_COMPLETED
-    Process 5 [SYSTEM]
+    Thread 2 in process 104 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 4793:
+At time 4709:
     CPU_BURST_COMPLETED
-    Process 5 [SYSTEM]
+    Thread 2 in process 104 [SYSTEM]
     Transitioned from RUNNING to BLOCKED
 
-At time 4793:
+At time 4709:
     DISPATCHER_INVOKED
-    Process 13 [NORMAL]
-    Selected from 22 processes. Will run for at most 6 ticks.
+    Thread 0 in process 320 [NORMAL]
+    Selected from 22 threads. Will run for at most 6 ticks.
 
-At time 4795:
+At time 4711:
     IO_BURST_COMPLETED
-    Process 5 [SYSTEM]
+    Thread 2 in process 104 [SYSTEM]
     Transitioned from BLOCKED to READY
 
-At time 4838:
+At time 4754:
     PROCESS_DISPATCH_COMPLETED
-    Process 13 [NORMAL]
+    Thread 0 in process 320 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 4844:
-    PROCESS_PREEMPTED
-    Process 13 [NORMAL]
+At time 4760:
+    THREAD_PREEMPTED
+    Thread 0 in process 320 [NORMAL]
     Transitioned from RUNNING to READY
 
-At time 4844:
+At time 4760:
     DISPATCHER_INVOKED
-    Process 7 [SYSTEM]
-    Selected from 23 processes. Will run for at most 6 ticks.
+    Thread 0 in process 428 [SYSTEM]
+    Selected from 23 threads. Will run for at most 6 ticks.
 
-At time 4889:
+At time 4805:
     PROCESS_DISPATCH_COMPLETED
-    Process 7 [SYSTEM]
+    Thread 0 in process 428 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 4894:
+At time 4810:
     CPU_BURST_COMPLETED
-    Process 7 [SYSTEM]
+    Thread 0 in process 428 [SYSTEM]
     Transitioned from RUNNING to BLOCKED
 
-At time 4894:
+At time 4810:
     DISPATCHER_INVOKED
-    Process 21 [NORMAL]
-    Selected from 22 processes. Will run for at most 6 ticks.
+    Thread 2 in process 242 [NORMAL]
+    Selected from 22 threads. Will run for at most 6 ticks.
 
-At time 4919:
+At time 4835:
     IO_BURST_COMPLETED
-    Process 7 [SYSTEM]
+    Thread 0 in process 428 [SYSTEM]
     Transitioned from BLOCKED to READY
 
-At time 4939:
+At time 4855:
     PROCESS_DISPATCH_COMPLETED
-    Process 21 [NORMAL]
+    Thread 2 in process 242 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 4940:
+At time 4856:
     CPU_BURST_COMPLETED
-    Process 21 [NORMAL]
+    Thread 2 in process 242 [NORMAL]
     Transitioned from RUNNING to BLOCKED
 
-At time 4940:
+At time 4856:
     DISPATCHER_INVOKED
-    Process 16 [SYSTEM]
-    Selected from 22 processes. Will run for at most 6 ticks.
+    Thread 0 in process 461 [SYSTEM]
+    Selected from 22 threads. Will run for at most 6 ticks.
 
-At time 4964:
+At time 4880:
     IO_BURST_COMPLETED
-    Process 21 [NORMAL]
+    Thread 2 in process 242 [NORMAL]
     Transitioned from BLOCKED to READY
 
-At time 4985:
+At time 4901:
     PROCESS_DISPATCH_COMPLETED
-    Process 16 [SYSTEM]
+    Thread 0 in process 461 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 4991:
-    PROCESS_PREEMPTED
-    Process 16 [SYSTEM]
+At time 4907:
+    THREAD_PREEMPTED
+    Thread 0 in process 461 [SYSTEM]
     Transitioned from RUNNING to READY
 
-At time 4991:
+At time 4907:
     DISPATCHER_INVOKED
-    Process 9 [NORMAL]
-    Selected from 23 processes. Will run for at most 6 ticks.
+    Thread 0 in process 687 [NORMAL]
+    Selected from 23 threads. Will run for at most 6 ticks.
 
-At time 5036:
+At time 4952:
     PROCESS_DISPATCH_COMPLETED
-    Process 9 [NORMAL]
+    Thread 0 in process 687 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 5042:
-    PROCESS_PREEMPTED
-    Process 9 [NORMAL]
+At time 4958:
+    THREAD_PREEMPTED
+    Thread 0 in process 687 [NORMAL]
     Transitioned from RUNNING to READY
 
-At time 5042:
+At time 4958:
     DISPATCHER_INVOKED
-    Process 18 [SYSTEM]
-    Selected from 23 processes. Will run for at most 6 ticks.
+    Thread 2 in process 461 [SYSTEM]
+    Selected from 23 threads. Will run for at most 6 ticks.
 
-At time 5087:
+At time 5003:
     PROCESS_DISPATCH_COMPLETED
-    Process 18 [SYSTEM]
+    Thread 2 in process 461 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 5093:
-    PROCESS_PREEMPTED
-    Process 18 [SYSTEM]
+At time 5009:
+    THREAD_PREEMPTED
+    Thread 2 in process 461 [SYSTEM]
     Transitioned from RUNNING to READY
 
-At time 5093:
+At time 5009:
     DISPATCHER_INVOKED
-    Process 1 [SYSTEM]
-    Selected from 23 processes. Will run for at most 6 ticks.
+    Thread 1 in process 729 [SYSTEM]
+    Selected from 23 threads. Will run for at most 6 ticks.
 
-At time 5138:
+At time 5054:
     PROCESS_DISPATCH_COMPLETED
-    Process 1 [SYSTEM]
+    Thread 1 in process 729 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 5144:
-    PROCESS_PREEMPTED
-    Process 1 [SYSTEM]
+At time 5060:
+    THREAD_PREEMPTED
+    Thread 1 in process 729 [SYSTEM]
     Transitioned from RUNNING to READY
 
-At time 5144:
+At time 5060:
     DISPATCHER_INVOKED
-    Process 4 [SYSTEM]
-    Selected from 23 processes. Will run for at most 6 ticks.
+    Thread 1 in process 104 [SYSTEM]
+    Selected from 23 threads. Will run for at most 6 ticks.
 
-At time 5189:
+At time 5105:
     PROCESS_DISPATCH_COMPLETED
-    Process 4 [SYSTEM]
+    Thread 1 in process 104 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 5193:
+At time 5109:
     CPU_BURST_COMPLETED
-    Process 4 [SYSTEM]
+    Thread 1 in process 104 [SYSTEM]
     Transitioned from RUNNING to BLOCKED
 
-At time 5193:
+At time 5109:
     DISPATCHER_INVOKED
-    Process 6 [SYSTEM]
-    Selected from 22 processes. Will run for at most 6 ticks.
+    Thread 3 in process 104 [SYSTEM]
+    Selected from 22 threads. Will run for at most 6 ticks.
 
-At time 5198:
+At time 5114:
     IO_BURST_COMPLETED
-    Process 4 [SYSTEM]
+    Thread 1 in process 104 [SYSTEM]
     Transitioned from BLOCKED to READY
 
-At time 5238:
-    PROCESS_DISPATCH_COMPLETED
-    Process 6 [SYSTEM]
+At time 5133:
+    THREAD_DISPATCH_COMPLETED
+    Thread 3 in process 104 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 5244:
-    PROCESS_PREEMPTED
-    Process 6 [SYSTEM]
+At time 5139:
+    THREAD_PREEMPTED
+    Thread 3 in process 104 [SYSTEM]
     Transitioned from RUNNING to READY
 
-At time 5244:
+At time 5139:
     DISPATCHER_INVOKED
-    Process 2 [SYSTEM]
-    Selected from 23 processes. Will run for at most 6 ticks.
+    Thread 2 in process 729 [SYSTEM]
+    Selected from 23 threads. Will run for at most 6 ticks.
 
-At time 5289:
+At time 5184:
     PROCESS_DISPATCH_COMPLETED
-    Process 2 [SYSTEM]
+    Thread 2 in process 729 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 5293:
+At time 5188:
     CPU_BURST_COMPLETED
-    Process 2 [SYSTEM]
+    Thread 2 in process 729 [SYSTEM]
     Transitioned from RUNNING to BLOCKED
 
-At time 5293:
+At time 5188:
     DISPATCHER_INVOKED
-    Process 10 [NORMAL]
-    Selected from 22 processes. Will run for at most 6 ticks.
+    Thread 1 in process 687 [NORMAL]
+    Selected from 22 threads. Will run for at most 6 ticks.
 
-At time 5320:
+At time 5215:
     IO_BURST_COMPLETED
-    Process 2 [SYSTEM]
+    Thread 2 in process 729 [SYSTEM]
     Transitioned from BLOCKED to READY
 
-At time 5338:
+At time 5233:
     PROCESS_DISPATCH_COMPLETED
-    Process 10 [NORMAL]
+    Thread 1 in process 687 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 5344:
-    PROCESS_PREEMPTED
-    Process 10 [NORMAL]
+At time 5239:
+    THREAD_PREEMPTED
+    Thread 1 in process 687 [NORMAL]
     Transitioned from RUNNING to READY
 
-At time 5344:
+At time 5239:
     DISPATCHER_INVOKED
-    Process 19 [NORMAL]
-    Selected from 23 processes. Will run for at most 6 ticks.
+    Thread 0 in process 242 [NORMAL]
+    Selected from 23 threads. Will run for at most 6 ticks.
 
-At time 5389:
+At time 5284:
     PROCESS_DISPATCH_COMPLETED
-    Process 19 [NORMAL]
+    Thread 0 in process 242 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 5395:
+At time 5290:
     CPU_BURST_COMPLETED
-    Process 19 [NORMAL]
+    Thread 0 in process 242 [NORMAL]
     Transitioned from RUNNING to BLOCKED
 
-At time 5395:
+At time 5290:
     DISPATCHER_INVOKED
-    Process 22 [SYSTEM]
-    Selected from 22 processes. Will run for at most 6 ticks.
+    Thread 0 in process 71 [SYSTEM]
+    Selected from 22 threads. Will run for at most 6 ticks.
 
-At time 5410:
+At time 5305:
     IO_BURST_COMPLETED
-    Process 19 [NORMAL]
+    Thread 0 in process 242 [NORMAL]
     Transitioned from BLOCKED to READY
 
-At time 5440:
+At time 5335:
     PROCESS_DISPATCH_COMPLETED
-    Process 22 [SYSTEM]
+    Thread 0 in process 71 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 5446:
-    PROCESS_PREEMPTED
-    Process 22 [SYSTEM]
+At time 5341:
+    THREAD_PREEMPTED
+    Thread 0 in process 71 [SYSTEM]
     Transitioned from RUNNING to READY
 
-At time 5446:
+At time 5341:
     DISPATCHER_INVOKED
-    Process 12 [NORMAL]
-    Selected from 23 processes. Will run for at most 6 ticks.
+    Thread 3 in process 687 [NORMAL]
+    Selected from 23 threads. Will run for at most 6 ticks.
 
-At time 5491:
+At time 5386:
     PROCESS_DISPATCH_COMPLETED
-    Process 12 [NORMAL]
+    Thread 3 in process 687 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 5497:
-    PROCESS_PREEMPTED
-    Process 12 [NORMAL]
+At time 5392:
+    THREAD_PREEMPTED
+    Thread 3 in process 687 [NORMAL]
     Transitioned from RUNNING to READY
 
-At time 5497:
+At time 5392:
     DISPATCHER_INVOKED
-    Process 17 [SYSTEM]
-    Selected from 23 processes. Will run for at most 6 ticks.
+    Thread 1 in process 461 [SYSTEM]
+    Selected from 23 threads. Will run for at most 6 ticks.
 
-At time 5542:
+At time 5437:
     PROCESS_DISPATCH_COMPLETED
-    Process 17 [SYSTEM]
+    Thread 1 in process 461 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 5544:
+At time 5439:
     CPU_BURST_COMPLETED
-    Process 17 [SYSTEM]
+    Thread 1 in process 461 [SYSTEM]
     Transitioned from RUNNING to BLOCKED
 
-At time 5544:
+At time 5439:
     DISPATCHER_INVOKED
-    Process 15 [NORMAL]
-    Selected from 22 processes. Will run for at most 6 ticks.
+    Thread 2 in process 320 [NORMAL]
+    Selected from 22 threads. Will run for at most 6 ticks.
 
-At time 5570:
+At time 5465:
     IO_BURST_COMPLETED
-    Process 17 [SYSTEM]
+    Thread 1 in process 461 [SYSTEM]
     Transitioned from BLOCKED to READY
+
+At time 5484:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 2 in process 320 [NORMAL]
+    Transitioned from READY to RUNNING
+
+At time 5490:
+    THREAD_PREEMPTED
+    Thread 2 in process 320 [NORMAL]
+    Transitioned from RUNNING to READY
+
+At time 5490:
+    DISPATCHER_INVOKED
+    Thread 1 in process 242 [NORMAL]
+    Selected from 23 threads. Will run for at most 6 ticks.
+
+At time 5535:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 1 in process 242 [NORMAL]
+    Transitioned from READY to RUNNING
+
+At time 5538:
+    CPU_BURST_COMPLETED
+    Thread 1 in process 242 [NORMAL]
+    Transitioned from RUNNING to BLOCKED
+
+At time 5538:
+    DISPATCHER_INVOKED
+    Thread 2 in process 687 [NORMAL]
+    Selected from 22 threads. Will run for at most 6 ticks.
+
+At time 5552:
+    IO_BURST_COMPLETED
+    Thread 1 in process 242 [NORMAL]
+    Transitioned from BLOCKED to READY
+
+At time 5583:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 2 in process 687 [NORMAL]
+    Transitioned from READY to RUNNING
 
 At time 5589:
-    PROCESS_DISPATCH_COMPLETED
-    Process 15 [NORMAL]
-    Transitioned from READY to RUNNING
-
-At time 5595:
-    PROCESS_PREEMPTED
-    Process 15 [NORMAL]
+    THREAD_PREEMPTED
+    Thread 2 in process 687 [NORMAL]
     Transitioned from RUNNING to READY
 
-At time 5595:
+At time 5589:
     DISPATCHER_INVOKED
-    Process 20 [NORMAL]
-    Selected from 23 processes. Will run for at most 6 ticks.
+    Thread 0 in process 104 [SYSTEM]
+    Selected from 23 threads. Will run for at most 6 ticks.
+
+At time 5634:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 104 [SYSTEM]
+    Transitioned from READY to RUNNING
 
 At time 5640:
+    THREAD_PREEMPTED
+    Thread 0 in process 104 [SYSTEM]
+    Transitioned from RUNNING to READY
+
+At time 5640:
+    DISPATCHER_INVOKED
+    Thread 1 in process 320 [NORMAL]
+    Selected from 23 threads. Will run for at most 6 ticks.
+
+At time 5685:
     PROCESS_DISPATCH_COMPLETED
-    Process 20 [NORMAL]
+    Thread 1 in process 320 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 5643:
+At time 5691:
+    THREAD_PREEMPTED
+    Thread 1 in process 320 [NORMAL]
+    Transitioned from RUNNING to READY
+
+At time 5691:
+    DISPATCHER_INVOKED
+    Thread 1 in process 428 [SYSTEM]
+    Selected from 23 threads. Will run for at most 6 ticks.
+
+At time 5736:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 1 in process 428 [SYSTEM]
+    Transitioned from READY to RUNNING
+
+At time 5742:
+    THREAD_PREEMPTED
+    Thread 1 in process 428 [SYSTEM]
+    Transitioned from RUNNING to READY
+
+At time 5742:
+    DISPATCHER_INVOKED
+    Thread 0 in process 729 [SYSTEM]
+    Selected from 23 threads. Will run for at most 6 ticks.
+
+At time 5787:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 729 [SYSTEM]
+    Transitioned from READY to RUNNING
+
+At time 5793:
+    THREAD_PREEMPTED
+    Thread 0 in process 729 [SYSTEM]
+    Transitioned from RUNNING to READY
+
+At time 5793:
+    DISPATCHER_INVOKED
+    Thread 2 in process 104 [SYSTEM]
+    Selected from 23 threads. Will run for at most 6 ticks.
+
+At time 5838:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 2 in process 104 [SYSTEM]
+    Transitioned from READY to RUNNING
+
+At time 5844:
+    THREAD_PREEMPTED
+    Thread 2 in process 104 [SYSTEM]
+    Transitioned from RUNNING to READY
+
+At time 5844:
+    DISPATCHER_INVOKED
+    Thread 0 in process 320 [NORMAL]
+    Selected from 23 threads. Will run for at most 6 ticks.
+
+At time 5889:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 320 [NORMAL]
+    Transitioned from READY to RUNNING
+
+At time 5895:
+    THREAD_PREEMPTED
+    Thread 0 in process 320 [NORMAL]
+    Transitioned from RUNNING to READY
+
+At time 5895:
+    DISPATCHER_INVOKED
+    Thread 0 in process 428 [SYSTEM]
+    Selected from 23 threads. Will run for at most 6 ticks.
+
+At time 5940:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 428 [SYSTEM]
+    Transitioned from READY to RUNNING
+
+At time 5946:
     CPU_BURST_COMPLETED
-    Process 20 [NORMAL]
+    Thread 0 in process 428 [SYSTEM]
     Transitioned from RUNNING to BLOCKED
 
-At time 5643:
+At time 5946:
     DISPATCHER_INVOKED
-    Process 11 [NORMAL]
-    Selected from 22 processes. Will run for at most 6 ticks.
+    Thread 2 in process 242 [NORMAL]
+    Selected from 22 threads. Will run for at most 6 ticks.
 
-At time 5657:
+At time 5959:
     IO_BURST_COMPLETED
-    Process 20 [NORMAL]
+    Thread 0 in process 428 [SYSTEM]
     Transitioned from BLOCKED to READY
 
-At time 5688:
+At time 5991:
     PROCESS_DISPATCH_COMPLETED
-    Process 11 [NORMAL]
+    Thread 2 in process 242 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 5694:
-    PROCESS_PREEMPTED
-    Process 11 [NORMAL]
+At time 5997:
+    THREAD_PREEMPTED
+    Thread 2 in process 242 [NORMAL]
     Transitioned from RUNNING to READY
 
-At time 5694:
+At time 5997:
     DISPATCHER_INVOKED
-    Process 3 [SYSTEM]
-    Selected from 23 processes. Will run for at most 6 ticks.
+    Thread 0 in process 461 [SYSTEM]
+    Selected from 23 threads. Will run for at most 6 ticks.
 
-At time 5739:
+At time 6042:
     PROCESS_DISPATCH_COMPLETED
-    Process 3 [SYSTEM]
+    Thread 0 in process 461 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 5745:
-    PROCESS_PREEMPTED
-    Process 3 [SYSTEM]
-    Transitioned from RUNNING to READY
-
-At time 5745:
-    DISPATCHER_INVOKED
-    Process 14 [NORMAL]
-    Selected from 23 processes. Will run for at most 6 ticks.
-
-At time 5790:
-    PROCESS_DISPATCH_COMPLETED
-    Process 14 [NORMAL]
-    Transitioned from READY to RUNNING
-
-At time 5796:
-    PROCESS_PREEMPTED
-    Process 14 [NORMAL]
-    Transitioned from RUNNING to READY
-
-At time 5796:
-    DISPATCHER_INVOKED
-    Process 8 [SYSTEM]
-    Selected from 23 processes. Will run for at most 6 ticks.
-
-At time 5841:
-    PROCESS_DISPATCH_COMPLETED
-    Process 8 [SYSTEM]
-    Transitioned from READY to RUNNING
-
-At time 5847:
-    PROCESS_PREEMPTED
-    Process 8 [SYSTEM]
-    Transitioned from RUNNING to READY
-
-At time 5847:
-    DISPATCHER_INVOKED
-    Process 0 [SYSTEM]
-    Selected from 23 processes. Will run for at most 6 ticks.
-
-At time 5892:
-    PROCESS_DISPATCH_COMPLETED
-    Process 0 [SYSTEM]
-    Transitioned from READY to RUNNING
-
-At time 5898:
-    PROCESS_PREEMPTED
-    Process 0 [SYSTEM]
-    Transitioned from RUNNING to READY
-
-At time 5898:
-    DISPATCHER_INVOKED
-    Process 5 [SYSTEM]
-    Selected from 23 processes. Will run for at most 6 ticks.
-
-At time 5943:
-    PROCESS_DISPATCH_COMPLETED
-    Process 5 [SYSTEM]
-    Transitioned from READY to RUNNING
-
-At time 5949:
-    PROCESS_PREEMPTED
-    Process 5 [SYSTEM]
-    Transitioned from RUNNING to READY
-
-At time 5949:
-    DISPATCHER_INVOKED
-    Process 13 [NORMAL]
-    Selected from 23 processes. Will run for at most 6 ticks.
-
-At time 5994:
-    PROCESS_DISPATCH_COMPLETED
-    Process 13 [NORMAL]
-    Transitioned from READY to RUNNING
-
-At time 6000:
-    PROCESS_PREEMPTED
-    Process 13 [NORMAL]
-    Transitioned from RUNNING to READY
-
-At time 6000:
-    DISPATCHER_INVOKED
-    Process 7 [SYSTEM]
-    Selected from 23 processes. Will run for at most 6 ticks.
-
-At time 6045:
-    PROCESS_DISPATCH_COMPLETED
-    Process 7 [SYSTEM]
-    Transitioned from READY to RUNNING
-
-At time 6051:
+At time 6046:
     CPU_BURST_COMPLETED
-    Process 7 [SYSTEM]
+    Thread 0 in process 461 [SYSTEM]
     Transitioned from RUNNING to BLOCKED
 
-At time 6051:
+At time 6046:
     DISPATCHER_INVOKED
-    Process 21 [NORMAL]
-    Selected from 22 processes. Will run for at most 6 ticks.
+    Thread 0 in process 687 [NORMAL]
+    Selected from 22 threads. Will run for at most 6 ticks.
 
-At time 6064:
+At time 6053:
     IO_BURST_COMPLETED
-    Process 7 [SYSTEM]
+    Thread 0 in process 461 [SYSTEM]
     Transitioned from BLOCKED to READY
 
-At time 6096:
+At time 6091:
     PROCESS_DISPATCH_COMPLETED
-    Process 21 [NORMAL]
+    Thread 0 in process 687 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 6102:
-    PROCESS_PREEMPTED
-    Process 21 [NORMAL]
+At time 6097:
+    THREAD_PREEMPTED
+    Thread 0 in process 687 [NORMAL]
     Transitioned from RUNNING to READY
 
-At time 6102:
+At time 6097:
     DISPATCHER_INVOKED
-    Process 16 [SYSTEM]
-    Selected from 23 processes. Will run for at most 6 ticks.
+    Thread 2 in process 461 [SYSTEM]
+    Selected from 23 threads. Will run for at most 6 ticks.
 
-At time 6147:
+At time 6142:
     PROCESS_DISPATCH_COMPLETED
-    Process 16 [SYSTEM]
+    Thread 2 in process 461 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 6151:
+At time 6148:
+    THREAD_PREEMPTED
+    Thread 2 in process 461 [SYSTEM]
+    Transitioned from RUNNING to READY
+
+At time 6148:
+    DISPATCHER_INVOKED
+    Thread 1 in process 729 [SYSTEM]
+    Selected from 23 threads. Will run for at most 6 ticks.
+
+At time 6193:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 1 in process 729 [SYSTEM]
+    Transitioned from READY to RUNNING
+
+At time 6199:
+    THREAD_PREEMPTED
+    Thread 1 in process 729 [SYSTEM]
+    Transitioned from RUNNING to READY
+
+At time 6199:
+    DISPATCHER_INVOKED
+    Thread 1 in process 104 [SYSTEM]
+    Selected from 23 threads. Will run for at most 6 ticks.
+
+At time 6244:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 1 in process 104 [SYSTEM]
+    Transitioned from READY to RUNNING
+
+At time 6250:
+    THREAD_PREEMPTED
+    Thread 1 in process 104 [SYSTEM]
+    Transitioned from RUNNING to READY
+
+At time 6250:
+    DISPATCHER_INVOKED
+    Thread 3 in process 104 [SYSTEM]
+    Selected from 23 threads. Will run for at most 6 ticks.
+
+At time 6274:
+    THREAD_DISPATCH_COMPLETED
+    Thread 3 in process 104 [SYSTEM]
+    Transitioned from READY to RUNNING
+
+At time 6280:
+    THREAD_PREEMPTED
+    Thread 3 in process 104 [SYSTEM]
+    Transitioned from RUNNING to READY
+
+At time 6280:
+    DISPATCHER_INVOKED
+    Thread 2 in process 729 [SYSTEM]
+    Selected from 23 threads. Will run for at most 6 ticks.
+
+At time 6325:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 2 in process 729 [SYSTEM]
+    Transitioned from READY to RUNNING
+
+At time 6331:
+    THREAD_PREEMPTED
+    Thread 2 in process 729 [SYSTEM]
+    Transitioned from RUNNING to READY
+
+At time 6331:
+    DISPATCHER_INVOKED
+    Thread 1 in process 687 [NORMAL]
+    Selected from 23 threads. Will run for at most 6 ticks.
+
+At time 6376:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 1 in process 687 [NORMAL]
+    Transitioned from READY to RUNNING
+
+At time 6380:
     CPU_BURST_COMPLETED
-    Process 16 [SYSTEM]
+    Thread 1 in process 687 [NORMAL]
     Transitioned from RUNNING to BLOCKED
 
-At time 6151:
+At time 6380:
     DISPATCHER_INVOKED
-    Process 9 [NORMAL]
-    Selected from 22 processes. Will run for at most 6 ticks.
+    Thread 0 in process 242 [NORMAL]
+    Selected from 22 threads. Will run for at most 6 ticks.
 
-At time 6158:
+At time 6408:
     IO_BURST_COMPLETED
-    Process 16 [SYSTEM]
+    Thread 1 in process 687 [NORMAL]
     Transitioned from BLOCKED to READY
 
-At time 6196:
+At time 6425:
     PROCESS_DISPATCH_COMPLETED
-    Process 9 [NORMAL]
+    Thread 0 in process 242 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 6202:
-    PROCESS_PREEMPTED
-    Process 9 [NORMAL]
+At time 6431:
+    THREAD_PREEMPTED
+    Thread 0 in process 242 [NORMAL]
     Transitioned from RUNNING to READY
 
-At time 6202:
+At time 6431:
     DISPATCHER_INVOKED
-    Process 18 [SYSTEM]
-    Selected from 23 processes. Will run for at most 6 ticks.
+    Thread 0 in process 71 [SYSTEM]
+    Selected from 23 threads. Will run for at most 6 ticks.
 
-At time 6247:
+At time 6476:
     PROCESS_DISPATCH_COMPLETED
-    Process 18 [SYSTEM]
+    Thread 0 in process 71 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 6253:
-    PROCESS_PREEMPTED
-    Process 18 [SYSTEM]
-    Transitioned from RUNNING to READY
-
-At time 6253:
-    DISPATCHER_INVOKED
-    Process 1 [SYSTEM]
-    Selected from 23 processes. Will run for at most 6 ticks.
-
-At time 6298:
-    PROCESS_DISPATCH_COMPLETED
-    Process 1 [SYSTEM]
-    Transitioned from READY to RUNNING
-
-At time 6304:
-    PROCESS_PREEMPTED
-    Process 1 [SYSTEM]
-    Transitioned from RUNNING to READY
-
-At time 6304:
-    DISPATCHER_INVOKED
-    Process 4 [SYSTEM]
-    Selected from 23 processes. Will run for at most 6 ticks.
-
-At time 6349:
-    PROCESS_DISPATCH_COMPLETED
-    Process 4 [SYSTEM]
-    Transitioned from READY to RUNNING
-
-At time 6355:
-    PROCESS_PREEMPTED
-    Process 4 [SYSTEM]
-    Transitioned from RUNNING to READY
-
-At time 6355:
-    DISPATCHER_INVOKED
-    Process 6 [SYSTEM]
-    Selected from 23 processes. Will run for at most 6 ticks.
-
-At time 6400:
-    PROCESS_DISPATCH_COMPLETED
-    Process 6 [SYSTEM]
-    Transitioned from READY to RUNNING
-
-At time 6406:
-    PROCESS_PREEMPTED
-    Process 6 [SYSTEM]
-    Transitioned from RUNNING to READY
-
-At time 6406:
-    DISPATCHER_INVOKED
-    Process 2 [SYSTEM]
-    Selected from 23 processes. Will run for at most 6 ticks.
-
-At time 6451:
-    PROCESS_DISPATCH_COMPLETED
-    Process 2 [SYSTEM]
-    Transitioned from READY to RUNNING
-
-At time 6457:
-    PROCESS_PREEMPTED
-    Process 2 [SYSTEM]
-    Transitioned from RUNNING to READY
-
-At time 6457:
-    DISPATCHER_INVOKED
-    Process 10 [NORMAL]
-    Selected from 23 processes. Will run for at most 6 ticks.
-
-At time 6502:
-    PROCESS_DISPATCH_COMPLETED
-    Process 10 [NORMAL]
-    Transitioned from READY to RUNNING
-
-At time 6506:
+At time 6477:
     CPU_BURST_COMPLETED
-    Process 10 [NORMAL]
+    Thread 0 in process 71 [SYSTEM]
     Transitioned from RUNNING to BLOCKED
 
-At time 6506:
+At time 6477:
     DISPATCHER_INVOKED
-    Process 19 [NORMAL]
-    Selected from 22 processes. Will run for at most 6 ticks.
+    Thread 3 in process 687 [NORMAL]
+    Selected from 22 threads. Will run for at most 6 ticks.
 
-At time 6534:
+At time 6504:
     IO_BURST_COMPLETED
-    Process 10 [NORMAL]
+    Thread 0 in process 71 [SYSTEM]
     Transitioned from BLOCKED to READY
 
-At time 6551:
+At time 6522:
     PROCESS_DISPATCH_COMPLETED
-    Process 19 [NORMAL]
+    Thread 3 in process 687 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 6557:
-    PROCESS_PREEMPTED
-    Process 19 [NORMAL]
+At time 6528:
+    THREAD_PREEMPTED
+    Thread 3 in process 687 [NORMAL]
     Transitioned from RUNNING to READY
 
-At time 6557:
+At time 6528:
     DISPATCHER_INVOKED
-    Process 22 [SYSTEM]
-    Selected from 23 processes. Will run for at most 6 ticks.
+    Thread 1 in process 461 [SYSTEM]
+    Selected from 23 threads. Will run for at most 6 ticks.
 
-At time 6602:
+At time 6573:
     PROCESS_DISPATCH_COMPLETED
-    Process 22 [SYSTEM]
+    Thread 1 in process 461 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 6603:
-    CPU_BURST_COMPLETED
-    Process 22 [SYSTEM]
-    Transitioned from RUNNING to BLOCKED
+At time 6579:
+    THREAD_PREEMPTED
+    Thread 1 in process 461 [SYSTEM]
+    Transitioned from RUNNING to READY
 
-At time 6603:
+At time 6579:
     DISPATCHER_INVOKED
-    Process 12 [NORMAL]
-    Selected from 22 processes. Will run for at most 6 ticks.
+    Thread 2 in process 320 [NORMAL]
+    Selected from 23 threads. Will run for at most 6 ticks.
+
+At time 6624:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 2 in process 320 [NORMAL]
+    Transitioned from READY to RUNNING
 
 At time 6630:
-    IO_BURST_COMPLETED
-    Process 22 [SYSTEM]
-    Transitioned from BLOCKED to READY
-
-At time 6648:
-    PROCESS_DISPATCH_COMPLETED
-    Process 12 [NORMAL]
-    Transitioned from READY to RUNNING
-
-At time 6654:
-    PROCESS_PREEMPTED
-    Process 12 [NORMAL]
+    THREAD_PREEMPTED
+    Thread 2 in process 320 [NORMAL]
     Transitioned from RUNNING to READY
 
-At time 6654:
+At time 6630:
     DISPATCHER_INVOKED
-    Process 17 [SYSTEM]
-    Selected from 23 processes. Will run for at most 6 ticks.
+    Thread 1 in process 242 [NORMAL]
+    Selected from 23 threads. Will run for at most 6 ticks.
 
-At time 6699:
+At time 6675:
     PROCESS_DISPATCH_COMPLETED
-    Process 17 [SYSTEM]
+    Thread 1 in process 242 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 6705:
-    PROCESS_PREEMPTED
-    Process 17 [SYSTEM]
+At time 6681:
+    THREAD_PREEMPTED
+    Thread 1 in process 242 [NORMAL]
     Transitioned from RUNNING to READY
 
-At time 6705:
+At time 6681:
     DISPATCHER_INVOKED
-    Process 15 [NORMAL]
-    Selected from 23 processes. Will run for at most 6 ticks.
+    Thread 2 in process 687 [NORMAL]
+    Selected from 23 threads. Will run for at most 6 ticks.
 
-At time 6750:
+At time 6726:
     PROCESS_DISPATCH_COMPLETED
-    Process 15 [NORMAL]
+    Thread 2 in process 687 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 6756:
-    PROCESS_PREEMPTED
-    Process 15 [NORMAL]
-    Transitioned from RUNNING to READY
-
-At time 6756:
-    DISPATCHER_INVOKED
-    Process 20 [NORMAL]
-    Selected from 23 processes. Will run for at most 6 ticks.
-
-At time 6801:
-    PROCESS_DISPATCH_COMPLETED
-    Process 20 [NORMAL]
-    Transitioned from READY to RUNNING
-
-At time 6807:
-    PROCESS_PREEMPTED
-    Process 20 [NORMAL]
-    Transitioned from RUNNING to READY
-
-At time 6807:
-    DISPATCHER_INVOKED
-    Process 11 [NORMAL]
-    Selected from 23 processes. Will run for at most 6 ticks.
-
-At time 6852:
-    PROCESS_DISPATCH_COMPLETED
-    Process 11 [NORMAL]
-    Transitioned from READY to RUNNING
-
-At time 6858:
+At time 6732:
     CPU_BURST_COMPLETED
-    Process 11 [NORMAL]
+    Thread 2 in process 687 [NORMAL]
     Transitioned from RUNNING to BLOCKED
 
-At time 6858:
+At time 6732:
     DISPATCHER_INVOKED
-    Process 3 [SYSTEM]
-    Selected from 22 processes. Will run for at most 6 ticks.
+    Thread 0 in process 104 [SYSTEM]
+    Selected from 22 threads. Will run for at most 6 ticks.
 
-At time 6886:
+At time 6760:
     IO_BURST_COMPLETED
-    Process 11 [NORMAL]
+    Thread 2 in process 687 [NORMAL]
     Transitioned from BLOCKED to READY
 
-At time 6903:
+At time 6777:
     PROCESS_DISPATCH_COMPLETED
-    Process 3 [SYSTEM]
+    Thread 0 in process 104 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 6909:
-    PROCESS_PREEMPTED
-    Process 3 [SYSTEM]
+At time 6783:
+    THREAD_PREEMPTED
+    Thread 0 in process 104 [SYSTEM]
     Transitioned from RUNNING to READY
 
-At time 6909:
+At time 6783:
     DISPATCHER_INVOKED
-    Process 14 [NORMAL]
-    Selected from 23 processes. Will run for at most 6 ticks.
+    Thread 1 in process 320 [NORMAL]
+    Selected from 23 threads. Will run for at most 6 ticks.
 
-At time 6954:
+At time 6828:
     PROCESS_DISPATCH_COMPLETED
-    Process 14 [NORMAL]
+    Thread 1 in process 320 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 6960:
-    PROCESS_PREEMPTED
-    Process 14 [NORMAL]
+At time 6834:
+    THREAD_PREEMPTED
+    Thread 1 in process 320 [NORMAL]
     Transitioned from RUNNING to READY
 
-At time 6960:
+At time 6834:
     DISPATCHER_INVOKED
-    Process 8 [SYSTEM]
-    Selected from 23 processes. Will run for at most 6 ticks.
+    Thread 1 in process 428 [SYSTEM]
+    Selected from 23 threads. Will run for at most 6 ticks.
 
-At time 7005:
+At time 6879:
     PROCESS_DISPATCH_COMPLETED
-    Process 8 [SYSTEM]
+    Thread 1 in process 428 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 7011:
-    PROCESS_PREEMPTED
-    Process 8 [SYSTEM]
+At time 6885:
+    THREAD_PREEMPTED
+    Thread 1 in process 428 [SYSTEM]
     Transitioned from RUNNING to READY
 
-At time 7011:
+At time 6885:
     DISPATCHER_INVOKED
-    Process 0 [SYSTEM]
-    Selected from 23 processes. Will run for at most 6 ticks.
+    Thread 0 in process 729 [SYSTEM]
+    Selected from 23 threads. Will run for at most 6 ticks.
 
-At time 7056:
+At time 6930:
     PROCESS_DISPATCH_COMPLETED
-    Process 0 [SYSTEM]
+    Thread 0 in process 729 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 7062:
-    PROCESS_COMPLETED
-    Process 0 [SYSTEM]
+At time 6936:
+    THREAD_COMPLETED
+    Thread 0 in process 729 [SYSTEM]
     Transitioned from RUNNING to EXIT
 
-At time 7062:
+At time 6936:
     DISPATCHER_INVOKED
-    Process 5 [SYSTEM]
-    Selected from 22 processes. Will run for at most 6 ticks.
+    Thread 2 in process 104 [SYSTEM]
+    Selected from 22 threads. Will run for at most 6 ticks.
 
-At time 7107:
+At time 6981:
     PROCESS_DISPATCH_COMPLETED
-    Process 5 [SYSTEM]
+    Thread 2 in process 104 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 7113:
-    PROCESS_PREEMPTED
-    Process 5 [SYSTEM]
+At time 6987:
+    THREAD_PREEMPTED
+    Thread 2 in process 104 [SYSTEM]
     Transitioned from RUNNING to READY
 
-At time 7113:
+At time 6987:
     DISPATCHER_INVOKED
-    Process 13 [NORMAL]
-    Selected from 22 processes. Will run for at most 6 ticks.
+    Thread 0 in process 320 [NORMAL]
+    Selected from 22 threads. Will run for at most 6 ticks.
 
-At time 7158:
+At time 7032:
     PROCESS_DISPATCH_COMPLETED
-    Process 13 [NORMAL]
+    Thread 0 in process 320 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 7164:
-    PROCESS_PREEMPTED
-    Process 13 [NORMAL]
+At time 7038:
+    THREAD_PREEMPTED
+    Thread 0 in process 320 [NORMAL]
     Transitioned from RUNNING to READY
 
-At time 7164:
+At time 7038:
     DISPATCHER_INVOKED
-    Process 7 [SYSTEM]
-    Selected from 22 processes. Will run for at most 6 ticks.
+    Thread 0 in process 428 [SYSTEM]
+    Selected from 22 threads. Will run for at most 6 ticks.
 
-At time 7209:
+At time 7083:
     PROCESS_DISPATCH_COMPLETED
-    Process 7 [SYSTEM]
+    Thread 0 in process 428 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 7215:
-    PROCESS_PREEMPTED
-    Process 7 [SYSTEM]
+At time 7089:
+    THREAD_PREEMPTED
+    Thread 0 in process 428 [SYSTEM]
     Transitioned from RUNNING to READY
 
-At time 7215:
+At time 7089:
     DISPATCHER_INVOKED
-    Process 21 [NORMAL]
-    Selected from 22 processes. Will run for at most 6 ticks.
+    Thread 2 in process 242 [NORMAL]
+    Selected from 22 threads. Will run for at most 6 ticks.
 
-At time 7260:
+At time 7134:
     PROCESS_DISPATCH_COMPLETED
-    Process 21 [NORMAL]
+    Thread 2 in process 242 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 7266:
-    PROCESS_PREEMPTED
-    Process 21 [NORMAL]
+At time 7140:
+    THREAD_PREEMPTED
+    Thread 2 in process 242 [NORMAL]
     Transitioned from RUNNING to READY
 
-At time 7266:
+At time 7140:
     DISPATCHER_INVOKED
-    Process 16 [SYSTEM]
-    Selected from 22 processes. Will run for at most 6 ticks.
+    Thread 0 in process 461 [SYSTEM]
+    Selected from 22 threads. Will run for at most 6 ticks.
 
-At time 7311:
+At time 7185:
     PROCESS_DISPATCH_COMPLETED
-    Process 16 [SYSTEM]
+    Thread 0 in process 461 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 7317:
-    PROCESS_PREEMPTED
-    Process 16 [SYSTEM]
+At time 7191:
+    THREAD_PREEMPTED
+    Thread 0 in process 461 [SYSTEM]
     Transitioned from RUNNING to READY
 
-At time 7317:
+At time 7191:
     DISPATCHER_INVOKED
-    Process 9 [NORMAL]
-    Selected from 22 processes. Will run for at most 6 ticks.
+    Thread 0 in process 687 [NORMAL]
+    Selected from 22 threads. Will run for at most 6 ticks.
 
-At time 7362:
+At time 7236:
     PROCESS_DISPATCH_COMPLETED
-    Process 9 [NORMAL]
+    Thread 0 in process 687 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 7367:
+At time 7241:
     CPU_BURST_COMPLETED
-    Process 9 [NORMAL]
+    Thread 0 in process 687 [NORMAL]
     Transitioned from RUNNING to BLOCKED
 
-At time 7367:
+At time 7241:
     DISPATCHER_INVOKED
-    Process 18 [SYSTEM]
-    Selected from 21 processes. Will run for at most 6 ticks.
+    Thread 2 in process 461 [SYSTEM]
+    Selected from 21 threads. Will run for at most 6 ticks.
 
-At time 7390:
+At time 7264:
     IO_BURST_COMPLETED
-    Process 9 [NORMAL]
+    Thread 0 in process 687 [NORMAL]
     Transitioned from BLOCKED to READY
 
-At time 7412:
+At time 7286:
     PROCESS_DISPATCH_COMPLETED
-    Process 18 [SYSTEM]
+    Thread 2 in process 461 [SYSTEM]
+    Transitioned from READY to RUNNING
+
+At time 7292:
+    THREAD_PREEMPTED
+    Thread 2 in process 461 [SYSTEM]
+    Transitioned from RUNNING to READY
+
+At time 7292:
+    DISPATCHER_INVOKED
+    Thread 1 in process 729 [SYSTEM]
+    Selected from 22 threads. Will run for at most 6 ticks.
+
+At time 7337:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 1 in process 729 [SYSTEM]
+    Transitioned from READY to RUNNING
+
+At time 7339:
+    CPU_BURST_COMPLETED
+    Thread 1 in process 729 [SYSTEM]
+    Transitioned from RUNNING to BLOCKED
+
+At time 7339:
+    DISPATCHER_INVOKED
+    Thread 1 in process 104 [SYSTEM]
+    Selected from 21 threads. Will run for at most 6 ticks.
+
+At time 7340:
+    IO_BURST_COMPLETED
+    Thread 1 in process 729 [SYSTEM]
+    Transitioned from BLOCKED to READY
+
+At time 7384:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 1 in process 104 [SYSTEM]
+    Transitioned from READY to RUNNING
+
+At time 7390:
+    THREAD_PREEMPTED
+    Thread 1 in process 104 [SYSTEM]
+    Transitioned from RUNNING to READY
+
+At time 7390:
+    DISPATCHER_INVOKED
+    Thread 3 in process 104 [SYSTEM]
+    Selected from 22 threads. Will run for at most 6 ticks.
+
+At time 7414:
+    THREAD_DISPATCH_COMPLETED
+    Thread 3 in process 104 [SYSTEM]
     Transitioned from READY to RUNNING
 
 At time 7418:
-    PROCESS_PREEMPTED
-    Process 18 [SYSTEM]
-    Transitioned from RUNNING to READY
+    CPU_BURST_COMPLETED
+    Thread 3 in process 104 [SYSTEM]
+    Transitioned from RUNNING to BLOCKED
 
 At time 7418:
     DISPATCHER_INVOKED
-    Process 1 [SYSTEM]
-    Selected from 22 processes. Will run for at most 6 ticks.
+    Thread 2 in process 729 [SYSTEM]
+    Selected from 21 threads. Will run for at most 6 ticks.
+
+At time 7448:
+    IO_BURST_COMPLETED
+    Thread 3 in process 104 [SYSTEM]
+    Transitioned from BLOCKED to READY
 
 At time 7463:
     PROCESS_DISPATCH_COMPLETED
-    Process 1 [SYSTEM]
+    Thread 2 in process 729 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 7465:
-    CPU_BURST_COMPLETED
-    Process 1 [SYSTEM]
-    Transitioned from RUNNING to BLOCKED
-
-At time 7465:
-    DISPATCHER_INVOKED
-    Process 4 [SYSTEM]
-    Selected from 21 processes. Will run for at most 6 ticks.
-
-At time 7466:
-    IO_BURST_COMPLETED
-    Process 1 [SYSTEM]
-    Transitioned from BLOCKED to READY
-
-At time 7510:
-    PROCESS_DISPATCH_COMPLETED
-    Process 4 [SYSTEM]
-    Transitioned from READY to RUNNING
-
-At time 7516:
-    PROCESS_PREEMPTED
-    Process 4 [SYSTEM]
+At time 7469:
+    THREAD_PREEMPTED
+    Thread 2 in process 729 [SYSTEM]
     Transitioned from RUNNING to READY
 
-At time 7516:
+At time 7469:
     DISPATCHER_INVOKED
-    Process 6 [SYSTEM]
-    Selected from 22 processes. Will run for at most 6 ticks.
+    Thread 1 in process 687 [NORMAL]
+    Selected from 22 threads. Will run for at most 6 ticks.
 
-At time 7561:
+At time 7514:
     PROCESS_DISPATCH_COMPLETED
-    Process 6 [SYSTEM]
+    Thread 1 in process 687 [NORMAL]
     Transitioned from READY to RUNNING
+
+At time 7520:
+    THREAD_PREEMPTED
+    Thread 1 in process 687 [NORMAL]
+    Transitioned from RUNNING to READY
+
+At time 7520:
+    DISPATCHER_INVOKED
+    Thread 0 in process 242 [NORMAL]
+    Selected from 22 threads. Will run for at most 6 ticks.
 
 At time 7565:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 242 [NORMAL]
+    Transitioned from READY to RUNNING
+
+At time 7571:
+    THREAD_PREEMPTED
+    Thread 0 in process 242 [NORMAL]
+    Transitioned from RUNNING to READY
+
+At time 7571:
+    DISPATCHER_INVOKED
+    Thread 0 in process 71 [SYSTEM]
+    Selected from 22 threads. Will run for at most 6 ticks.
+
+At time 7616:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 71 [SYSTEM]
+    Transitioned from READY to RUNNING
+
+At time 7619:
     CPU_BURST_COMPLETED
-    Process 6 [SYSTEM]
+    Thread 0 in process 71 [SYSTEM]
     Transitioned from RUNNING to BLOCKED
 
-At time 7565:
+At time 7619:
     DISPATCHER_INVOKED
-    Process 2 [SYSTEM]
-    Selected from 21 processes. Will run for at most 6 ticks.
+    Thread 3 in process 687 [NORMAL]
+    Selected from 21 threads. Will run for at most 6 ticks.
 
-At time 7595:
+At time 7634:
     IO_BURST_COMPLETED
-    Process 6 [SYSTEM]
+    Thread 0 in process 71 [SYSTEM]
     Transitioned from BLOCKED to READY
 
-At time 7610:
+At time 7664:
     PROCESS_DISPATCH_COMPLETED
-    Process 2 [SYSTEM]
+    Thread 3 in process 687 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 7616:
-    PROCESS_PREEMPTED
-    Process 2 [SYSTEM]
-    Transitioned from RUNNING to READY
+At time 7665:
+    CPU_BURST_COMPLETED
+    Thread 3 in process 687 [NORMAL]
+    Transitioned from RUNNING to BLOCKED
 
-At time 7616:
+At time 7665:
     DISPATCHER_INVOKED
-    Process 10 [NORMAL]
-    Selected from 22 processes. Will run for at most 6 ticks.
+    Thread 1 in process 461 [SYSTEM]
+    Selected from 21 threads. Will run for at most 6 ticks.
 
-At time 7661:
+At time 7670:
+    IO_BURST_COMPLETED
+    Thread 3 in process 687 [NORMAL]
+    Transitioned from BLOCKED to READY
+
+At time 7710:
     PROCESS_DISPATCH_COMPLETED
-    Process 10 [NORMAL]
+    Thread 1 in process 461 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 7667:
-    PROCESS_PREEMPTED
-    Process 10 [NORMAL]
-    Transitioned from RUNNING to READY
+At time 7716:
+    CPU_BURST_COMPLETED
+    Thread 1 in process 461 [SYSTEM]
+    Transitioned from RUNNING to BLOCKED
 
-At time 7667:
+At time 7716:
     DISPATCHER_INVOKED
-    Process 19 [NORMAL]
-    Selected from 22 processes. Will run for at most 6 ticks.
+    Thread 2 in process 320 [NORMAL]
+    Selected from 21 threads. Will run for at most 6 ticks.
 
-At time 7712:
+At time 7745:
+    IO_BURST_COMPLETED
+    Thread 1 in process 461 [SYSTEM]
+    Transitioned from BLOCKED to READY
+
+At time 7761:
     PROCESS_DISPATCH_COMPLETED
-    Process 19 [NORMAL]
-    Transitioned from READY to RUNNING
-
-At time 7718:
-    PROCESS_PREEMPTED
-    Process 19 [NORMAL]
-    Transitioned from RUNNING to READY
-
-At time 7718:
-    DISPATCHER_INVOKED
-    Process 22 [SYSTEM]
-    Selected from 22 processes. Will run for at most 6 ticks.
-
-At time 7763:
-    PROCESS_DISPATCH_COMPLETED
-    Process 22 [SYSTEM]
+    Thread 2 in process 320 [NORMAL]
     Transitioned from READY to RUNNING
 
 At time 7766:
     CPU_BURST_COMPLETED
-    Process 22 [SYSTEM]
+    Thread 2 in process 320 [NORMAL]
     Transitioned from RUNNING to BLOCKED
 
 At time 7766:
     DISPATCHER_INVOKED
-    Process 12 [NORMAL]
-    Selected from 21 processes. Will run for at most 6 ticks.
+    Thread 1 in process 242 [NORMAL]
+    Selected from 21 threads. Will run for at most 6 ticks.
 
 At time 7781:
     IO_BURST_COMPLETED
-    Process 22 [SYSTEM]
+    Thread 2 in process 320 [NORMAL]
     Transitioned from BLOCKED to READY
 
 At time 7811:
     PROCESS_DISPATCH_COMPLETED
-    Process 12 [NORMAL]
+    Thread 1 in process 242 [NORMAL]
     Transitioned from READY to RUNNING
 
 At time 7812:
     CPU_BURST_COMPLETED
-    Process 12 [NORMAL]
+    Thread 1 in process 242 [NORMAL]
     Transitioned from RUNNING to BLOCKED
 
 At time 7812:
     DISPATCHER_INVOKED
-    Process 17 [SYSTEM]
-    Selected from 21 processes. Will run for at most 6 ticks.
+    Thread 2 in process 687 [NORMAL]
+    Selected from 21 threads. Will run for at most 6 ticks.
 
-At time 7817:
+At time 7835:
     IO_BURST_COMPLETED
-    Process 12 [NORMAL]
+    Thread 1 in process 242 [NORMAL]
     Transitioned from BLOCKED to READY
 
 At time 7857:
     PROCESS_DISPATCH_COMPLETED
-    Process 17 [SYSTEM]
+    Thread 2 in process 687 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 7863:
+At time 7858:
     CPU_BURST_COMPLETED
-    Process 17 [SYSTEM]
+    Thread 2 in process 687 [NORMAL]
     Transitioned from RUNNING to BLOCKED
 
-At time 7863:
+At time 7858:
     DISPATCHER_INVOKED
-    Process 15 [NORMAL]
-    Selected from 21 processes. Will run for at most 6 ticks.
+    Thread 0 in process 104 [SYSTEM]
+    Selected from 21 threads. Will run for at most 6 ticks.
 
-At time 7892:
+At time 7878:
     IO_BURST_COMPLETED
-    Process 17 [SYSTEM]
+    Thread 2 in process 687 [NORMAL]
     Transitioned from BLOCKED to READY
 
-At time 7908:
+At time 7903:
     PROCESS_DISPATCH_COMPLETED
-    Process 15 [NORMAL]
+    Thread 0 in process 104 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 7913:
-    CPU_BURST_COMPLETED
-    Process 15 [NORMAL]
-    Transitioned from RUNNING to BLOCKED
+At time 7909:
+    THREAD_PREEMPTED
+    Thread 0 in process 104 [SYSTEM]
+    Transitioned from RUNNING to READY
 
-At time 7913:
+At time 7909:
     DISPATCHER_INVOKED
-    Process 20 [NORMAL]
-    Selected from 21 processes. Will run for at most 6 ticks.
+    Thread 1 in process 320 [NORMAL]
+    Selected from 22 threads. Will run for at most 6 ticks.
 
-At time 7928:
-    IO_BURST_COMPLETED
-    Process 15 [NORMAL]
-    Transitioned from BLOCKED to READY
-
-At time 7958:
+At time 7954:
     PROCESS_DISPATCH_COMPLETED
-    Process 20 [NORMAL]
+    Thread 1 in process 320 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 7959:
-    CPU_BURST_COMPLETED
-    Process 20 [NORMAL]
-    Transitioned from RUNNING to BLOCKED
+At time 7960:
+    THREAD_PREEMPTED
+    Thread 1 in process 320 [NORMAL]
+    Transitioned from RUNNING to READY
 
-At time 7959:
+At time 7960:
     DISPATCHER_INVOKED
-    Process 11 [NORMAL]
-    Selected from 21 processes. Will run for at most 6 ticks.
-
-At time 7982:
-    IO_BURST_COMPLETED
-    Process 20 [NORMAL]
-    Transitioned from BLOCKED to READY
-
-At time 8004:
-    PROCESS_DISPATCH_COMPLETED
-    Process 11 [NORMAL]
-    Transitioned from READY to RUNNING
+    Thread 1 in process 428 [SYSTEM]
+    Selected from 22 threads. Will run for at most 6 ticks.
 
 At time 8005:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 1 in process 428 [SYSTEM]
+    Transitioned from READY to RUNNING
+
+At time 8006:
     CPU_BURST_COMPLETED
-    Process 11 [NORMAL]
+    Thread 1 in process 428 [SYSTEM]
     Transitioned from RUNNING to BLOCKED
 
-At time 8005:
+At time 8006:
     DISPATCHER_INVOKED
-    Process 3 [SYSTEM]
-    Selected from 21 processes. Will run for at most 6 ticks.
+    Thread 2 in process 104 [SYSTEM]
+    Selected from 21 threads. Will run for at most 6 ticks.
 
-At time 8025:
+At time 8020:
     IO_BURST_COMPLETED
-    Process 11 [NORMAL]
+    Thread 1 in process 428 [SYSTEM]
     Transitioned from BLOCKED to READY
 
-At time 8050:
+At time 8051:
     PROCESS_DISPATCH_COMPLETED
-    Process 3 [SYSTEM]
+    Thread 2 in process 104 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 8056:
-    PROCESS_PREEMPTED
-    Process 3 [SYSTEM]
+At time 8057:
+    THREAD_PREEMPTED
+    Thread 2 in process 104 [SYSTEM]
     Transitioned from RUNNING to READY
 
-At time 8056:
+At time 8057:
     DISPATCHER_INVOKED
-    Process 14 [NORMAL]
-    Selected from 22 processes. Will run for at most 6 ticks.
+    Thread 0 in process 320 [NORMAL]
+    Selected from 22 threads. Will run for at most 6 ticks.
 
-At time 8101:
+At time 8102:
     PROCESS_DISPATCH_COMPLETED
-    Process 14 [NORMAL]
+    Thread 0 in process 320 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 8107:
-    PROCESS_PREEMPTED
-    Process 14 [NORMAL]
-    Transitioned from RUNNING to READY
-
-At time 8107:
-    DISPATCHER_INVOKED
-    Process 8 [SYSTEM]
-    Selected from 22 processes. Will run for at most 6 ticks.
-
-At time 8152:
-    PROCESS_DISPATCH_COMPLETED
-    Process 8 [SYSTEM]
-    Transitioned from READY to RUNNING
-
-At time 8153:
+At time 8103:
     CPU_BURST_COMPLETED
-    Process 8 [SYSTEM]
+    Thread 0 in process 320 [NORMAL]
     Transitioned from RUNNING to BLOCKED
 
-At time 8153:
+At time 8103:
     DISPATCHER_INVOKED
-    Process 5 [SYSTEM]
-    Selected from 21 processes. Will run for at most 6 ticks.
+    Thread 0 in process 428 [SYSTEM]
+    Selected from 21 threads. Will run for at most 6 ticks.
 
-At time 8167:
+At time 8108:
     IO_BURST_COMPLETED
-    Process 8 [SYSTEM]
+    Thread 0 in process 320 [NORMAL]
     Transitioned from BLOCKED to READY
 
-At time 8198:
+At time 8148:
     PROCESS_DISPATCH_COMPLETED
-    Process 5 [SYSTEM]
+    Thread 0 in process 428 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 8204:
-    PROCESS_PREEMPTED
-    Process 5 [SYSTEM]
-    Transitioned from RUNNING to READY
+At time 8150:
+    CPU_BURST_COMPLETED
+    Thread 0 in process 428 [SYSTEM]
+    Transitioned from RUNNING to BLOCKED
 
-At time 8204:
+At time 8150:
     DISPATCHER_INVOKED
-    Process 13 [NORMAL]
-    Selected from 22 processes. Will run for at most 6 ticks.
+    Thread 2 in process 242 [NORMAL]
+    Selected from 21 threads. Will run for at most 6 ticks.
 
-At time 8249:
+At time 8180:
+    IO_BURST_COMPLETED
+    Thread 0 in process 428 [SYSTEM]
+    Transitioned from BLOCKED to READY
+
+At time 8195:
     PROCESS_DISPATCH_COMPLETED
-    Process 13 [NORMAL]
+    Thread 2 in process 242 [NORMAL]
+    Transitioned from READY to RUNNING
+
+At time 8199:
+    CPU_BURST_COMPLETED
+    Thread 2 in process 242 [NORMAL]
+    Transitioned from RUNNING to BLOCKED
+
+At time 8199:
+    DISPATCHER_INVOKED
+    Thread 0 in process 461 [SYSTEM]
+    Selected from 21 threads. Will run for at most 6 ticks.
+
+At time 8209:
+    IO_BURST_COMPLETED
+    Thread 2 in process 242 [NORMAL]
+    Transitioned from BLOCKED to READY
+
+At time 8244:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 461 [SYSTEM]
     Transitioned from READY to RUNNING
 
 At time 8250:
-    CPU_BURST_COMPLETED
-    Process 13 [NORMAL]
-    Transitioned from RUNNING to BLOCKED
+    THREAD_PREEMPTED
+    Thread 0 in process 461 [SYSTEM]
+    Transitioned from RUNNING to READY
 
 At time 8250:
     DISPATCHER_INVOKED
-    Process 7 [SYSTEM]
-    Selected from 21 processes. Will run for at most 6 ticks.
-
-At time 8255:
-    IO_BURST_COMPLETED
-    Process 13 [NORMAL]
-    Transitioned from BLOCKED to READY
+    Thread 0 in process 687 [NORMAL]
+    Selected from 22 threads. Will run for at most 6 ticks.
 
 At time 8295:
     PROCESS_DISPATCH_COMPLETED
-    Process 7 [SYSTEM]
+    Thread 0 in process 687 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 8297:
-    CPU_BURST_COMPLETED
-    Process 7 [SYSTEM]
-    Transitioned from RUNNING to BLOCKED
-
-At time 8297:
-    DISPATCHER_INVOKED
-    Process 21 [NORMAL]
-    Selected from 21 processes. Will run for at most 6 ticks.
-
-At time 8327:
-    IO_BURST_COMPLETED
-    Process 7 [SYSTEM]
-    Transitioned from BLOCKED to READY
-
-At time 8342:
-    PROCESS_DISPATCH_COMPLETED
-    Process 21 [NORMAL]
-    Transitioned from READY to RUNNING
-
-At time 8346:
-    CPU_BURST_COMPLETED
-    Process 21 [NORMAL]
-    Transitioned from RUNNING to BLOCKED
-
-At time 8346:
-    DISPATCHER_INVOKED
-    Process 16 [SYSTEM]
-    Selected from 21 processes. Will run for at most 6 ticks.
-
-At time 8356:
-    IO_BURST_COMPLETED
-    Process 21 [NORMAL]
-    Transitioned from BLOCKED to READY
-
-At time 8391:
-    PROCESS_DISPATCH_COMPLETED
-    Process 16 [SYSTEM]
-    Transitioned from READY to RUNNING
-
-At time 8397:
-    PROCESS_PREEMPTED
-    Process 16 [SYSTEM]
+At time 8301:
+    THREAD_PREEMPTED
+    Thread 0 in process 687 [NORMAL]
     Transitioned from RUNNING to READY
 
-At time 8397:
+At time 8301:
     DISPATCHER_INVOKED
-    Process 9 [NORMAL]
-    Selected from 22 processes. Will run for at most 6 ticks.
+    Thread 2 in process 461 [SYSTEM]
+    Selected from 22 threads. Will run for at most 6 ticks.
 
-At time 8442:
+At time 8346:
     PROCESS_DISPATCH_COMPLETED
-    Process 9 [NORMAL]
+    Thread 2 in process 461 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 8448:
-    PROCESS_PREEMPTED
-    Process 9 [NORMAL]
-    Transitioned from RUNNING to READY
-
-At time 8448:
-    DISPATCHER_INVOKED
-    Process 18 [SYSTEM]
-    Selected from 22 processes. Will run for at most 6 ticks.
-
-At time 8493:
-    PROCESS_DISPATCH_COMPLETED
-    Process 18 [SYSTEM]
-    Transitioned from READY to RUNNING
-
-At time 8496:
-    PROCESS_COMPLETED
-    Process 18 [SYSTEM]
+At time 8349:
+    THREAD_COMPLETED
+    Thread 2 in process 461 [SYSTEM]
     Transitioned from RUNNING to EXIT
 
-At time 8496:
+At time 8349:
     DISPATCHER_INVOKED
-    Process 1 [SYSTEM]
-    Selected from 21 processes. Will run for at most 6 ticks.
+    Thread 1 in process 729 [SYSTEM]
+    Selected from 21 threads. Will run for at most 6 ticks.
 
-At time 8541:
+At time 8394:
     PROCESS_DISPATCH_COMPLETED
-    Process 1 [SYSTEM]
+    Thread 1 in process 729 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 8547:
-    PROCESS_PREEMPTED
-    Process 1 [SYSTEM]
+At time 8400:
+    THREAD_PREEMPTED
+    Thread 1 in process 729 [SYSTEM]
     Transitioned from RUNNING to READY
 
-At time 8547:
+At time 8400:
     DISPATCHER_INVOKED
-    Process 4 [SYSTEM]
-    Selected from 21 processes. Will run for at most 6 ticks.
+    Thread 1 in process 104 [SYSTEM]
+    Selected from 21 threads. Will run for at most 6 ticks.
 
-At time 8592:
+At time 8445:
     PROCESS_DISPATCH_COMPLETED
-    Process 4 [SYSTEM]
+    Thread 1 in process 104 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 8598:
-    PROCESS_PREEMPTED
-    Process 4 [SYSTEM]
+At time 8451:
+    THREAD_PREEMPTED
+    Thread 1 in process 104 [SYSTEM]
     Transitioned from RUNNING to READY
 
-At time 8598:
+At time 8451:
     DISPATCHER_INVOKED
-    Process 6 [SYSTEM]
-    Selected from 21 processes. Will run for at most 6 ticks.
+    Thread 3 in process 104 [SYSTEM]
+    Selected from 21 threads. Will run for at most 6 ticks.
 
-At time 8643:
-    PROCESS_DISPATCH_COMPLETED
-    Process 6 [SYSTEM]
+At time 8475:
+    THREAD_DISPATCH_COMPLETED
+    Thread 3 in process 104 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 8649:
-    PROCESS_PREEMPTED
-    Process 6 [SYSTEM]
+At time 8481:
+    THREAD_PREEMPTED
+    Thread 3 in process 104 [SYSTEM]
     Transitioned from RUNNING to READY
 
-At time 8649:
+At time 8481:
     DISPATCHER_INVOKED
-    Process 2 [SYSTEM]
-    Selected from 21 processes. Will run for at most 6 ticks.
+    Thread 2 in process 729 [SYSTEM]
+    Selected from 21 threads. Will run for at most 6 ticks.
 
-At time 8694:
+At time 8526:
     PROCESS_DISPATCH_COMPLETED
-    Process 2 [SYSTEM]
+    Thread 2 in process 729 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 8700:
-    PROCESS_PREEMPTED
-    Process 2 [SYSTEM]
+At time 8532:
+    THREAD_PREEMPTED
+    Thread 2 in process 729 [SYSTEM]
     Transitioned from RUNNING to READY
 
-At time 8700:
+At time 8532:
     DISPATCHER_INVOKED
-    Process 10 [NORMAL]
-    Selected from 21 processes. Will run for at most 6 ticks.
+    Thread 1 in process 687 [NORMAL]
+    Selected from 21 threads. Will run for at most 6 ticks.
 
-At time 8745:
+At time 8577:
     PROCESS_DISPATCH_COMPLETED
-    Process 10 [NORMAL]
+    Thread 1 in process 687 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 8751:
-    PROCESS_PREEMPTED
-    Process 10 [NORMAL]
+At time 8583:
+    THREAD_PREEMPTED
+    Thread 1 in process 687 [NORMAL]
     Transitioned from RUNNING to READY
 
-At time 8751:
+At time 8583:
     DISPATCHER_INVOKED
-    Process 19 [NORMAL]
-    Selected from 21 processes. Will run for at most 6 ticks.
+    Thread 0 in process 242 [NORMAL]
+    Selected from 21 threads. Will run for at most 6 ticks.
 
-At time 8796:
+At time 8628:
     PROCESS_DISPATCH_COMPLETED
-    Process 19 [NORMAL]
+    Thread 0 in process 242 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 8802:
-    PROCESS_PREEMPTED
-    Process 19 [NORMAL]
+At time 8634:
+    THREAD_PREEMPTED
+    Thread 0 in process 242 [NORMAL]
     Transitioned from RUNNING to READY
 
-At time 8802:
+At time 8634:
     DISPATCHER_INVOKED
-    Process 22 [SYSTEM]
-    Selected from 21 processes. Will run for at most 6 ticks.
+    Thread 0 in process 71 [SYSTEM]
+    Selected from 21 threads. Will run for at most 6 ticks.
 
-At time 8847:
+At time 8679:
     PROCESS_DISPATCH_COMPLETED
-    Process 22 [SYSTEM]
+    Thread 0 in process 71 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 8853:
+At time 8685:
     CPU_BURST_COMPLETED
-    Process 22 [SYSTEM]
+    Thread 0 in process 71 [SYSTEM]
     Transitioned from RUNNING to BLOCKED
 
-At time 8853:
+At time 8685:
     DISPATCHER_INVOKED
-    Process 12 [NORMAL]
-    Selected from 20 processes. Will run for at most 6 ticks.
+    Thread 3 in process 687 [NORMAL]
+    Selected from 20 threads. Will run for at most 6 ticks.
 
-At time 8866:
+At time 8698:
     IO_BURST_COMPLETED
-    Process 22 [SYSTEM]
+    Thread 0 in process 71 [SYSTEM]
     Transitioned from BLOCKED to READY
 
-At time 8898:
+At time 8730:
     PROCESS_DISPATCH_COMPLETED
-    Process 12 [NORMAL]
+    Thread 3 in process 687 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 8904:
-    PROCESS_PREEMPTED
-    Process 12 [NORMAL]
+At time 8736:
+    THREAD_PREEMPTED
+    Thread 3 in process 687 [NORMAL]
     Transitioned from RUNNING to READY
 
-At time 8904:
+At time 8736:
     DISPATCHER_INVOKED
-    Process 17 [SYSTEM]
-    Selected from 21 processes. Will run for at most 6 ticks.
+    Thread 1 in process 461 [SYSTEM]
+    Selected from 21 threads. Will run for at most 6 ticks.
 
-At time 8949:
+At time 8781:
     PROCESS_DISPATCH_COMPLETED
-    Process 17 [SYSTEM]
+    Thread 1 in process 461 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 8955:
-    PROCESS_PREEMPTED
-    Process 17 [SYSTEM]
+At time 8787:
+    THREAD_PREEMPTED
+    Thread 1 in process 461 [SYSTEM]
     Transitioned from RUNNING to READY
 
-At time 8955:
+At time 8787:
     DISPATCHER_INVOKED
-    Process 15 [NORMAL]
-    Selected from 21 processes. Will run for at most 6 ticks.
+    Thread 2 in process 320 [NORMAL]
+    Selected from 21 threads. Will run for at most 6 ticks.
 
-At time 9000:
+At time 8832:
     PROCESS_DISPATCH_COMPLETED
-    Process 15 [NORMAL]
+    Thread 2 in process 320 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 9006:
-    PROCESS_PREEMPTED
-    Process 15 [NORMAL]
+At time 8838:
+    THREAD_PREEMPTED
+    Thread 2 in process 320 [NORMAL]
     Transitioned from RUNNING to READY
 
-At time 9006:
+At time 8838:
     DISPATCHER_INVOKED
-    Process 20 [NORMAL]
-    Selected from 21 processes. Will run for at most 6 ticks.
+    Thread 1 in process 242 [NORMAL]
+    Selected from 21 threads. Will run for at most 6 ticks.
 
-At time 9051:
+At time 8883:
     PROCESS_DISPATCH_COMPLETED
-    Process 20 [NORMAL]
+    Thread 1 in process 242 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 9057:
-    PROCESS_PREEMPTED
-    Process 20 [NORMAL]
+At time 8889:
+    THREAD_PREEMPTED
+    Thread 1 in process 242 [NORMAL]
     Transitioned from RUNNING to READY
 
-At time 9057:
+At time 8889:
     DISPATCHER_INVOKED
-    Process 11 [NORMAL]
-    Selected from 21 processes. Will run for at most 6 ticks.
+    Thread 2 in process 687 [NORMAL]
+    Selected from 21 threads. Will run for at most 6 ticks.
 
-At time 9102:
+At time 8934:
     PROCESS_DISPATCH_COMPLETED
-    Process 11 [NORMAL]
+    Thread 2 in process 687 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 9108:
-    PROCESS_PREEMPTED
-    Process 11 [NORMAL]
+At time 8940:
+    THREAD_PREEMPTED
+    Thread 2 in process 687 [NORMAL]
     Transitioned from RUNNING to READY
 
-At time 9108:
+At time 8940:
     DISPATCHER_INVOKED
-    Process 3 [SYSTEM]
-    Selected from 21 processes. Will run for at most 6 ticks.
+    Thread 0 in process 104 [SYSTEM]
+    Selected from 21 threads. Will run for at most 6 ticks.
 
-At time 9153:
+At time 8985:
     PROCESS_DISPATCH_COMPLETED
-    Process 3 [SYSTEM]
+    Thread 0 in process 104 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 9159:
-    PROCESS_PREEMPTED
-    Process 3 [SYSTEM]
+At time 8991:
+    THREAD_PREEMPTED
+    Thread 0 in process 104 [SYSTEM]
     Transitioned from RUNNING to READY
 
-At time 9159:
+At time 8991:
     DISPATCHER_INVOKED
-    Process 14 [NORMAL]
-    Selected from 21 processes. Will run for at most 6 ticks.
+    Thread 1 in process 320 [NORMAL]
+    Selected from 21 threads. Will run for at most 6 ticks.
 
-At time 9204:
+At time 9036:
     PROCESS_DISPATCH_COMPLETED
-    Process 14 [NORMAL]
+    Thread 1 in process 320 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 9207:
+At time 9039:
     CPU_BURST_COMPLETED
-    Process 14 [NORMAL]
+    Thread 1 in process 320 [NORMAL]
     Transitioned from RUNNING to BLOCKED
 
-At time 9207:
+At time 9039:
     DISPATCHER_INVOKED
-    Process 8 [SYSTEM]
-    Selected from 20 processes. Will run for at most 6 ticks.
+    Thread 1 in process 428 [SYSTEM]
+    Selected from 20 threads. Will run for at most 6 ticks.
 
-At time 9221:
+At time 9053:
     IO_BURST_COMPLETED
-    Process 14 [NORMAL]
+    Thread 1 in process 320 [NORMAL]
     Transitioned from BLOCKED to READY
 
-At time 9252:
+At time 9084:
     PROCESS_DISPATCH_COMPLETED
-    Process 8 [SYSTEM]
+    Thread 1 in process 428 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 9258:
-    PROCESS_PREEMPTED
-    Process 8 [SYSTEM]
+At time 9090:
+    THREAD_PREEMPTED
+    Thread 1 in process 428 [SYSTEM]
     Transitioned from RUNNING to READY
 
-At time 9258:
+At time 9090:
     DISPATCHER_INVOKED
-    Process 5 [SYSTEM]
-    Selected from 21 processes. Will run for at most 6 ticks.
+    Thread 2 in process 104 [SYSTEM]
+    Selected from 21 threads. Will run for at most 6 ticks.
 
-At time 9303:
+At time 9135:
     PROCESS_DISPATCH_COMPLETED
-    Process 5 [SYSTEM]
+    Thread 2 in process 104 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 9306:
+At time 9138:
     CPU_BURST_COMPLETED
-    Process 5 [SYSTEM]
+    Thread 2 in process 104 [SYSTEM]
     Transitioned from RUNNING to BLOCKED
 
-At time 9306:
+At time 9138:
     DISPATCHER_INVOKED
-    Process 13 [NORMAL]
-    Selected from 20 processes. Will run for at most 6 ticks.
+    Thread 0 in process 320 [NORMAL]
+    Selected from 20 threads. Will run for at most 6 ticks.
 
-At time 9313:
+At time 9145:
     IO_BURST_COMPLETED
-    Process 5 [SYSTEM]
+    Thread 2 in process 104 [SYSTEM]
     Transitioned from BLOCKED to READY
 
-At time 9351:
+At time 9183:
     PROCESS_DISPATCH_COMPLETED
-    Process 13 [NORMAL]
+    Thread 0 in process 320 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 9357:
-    PROCESS_PREEMPTED
-    Process 13 [NORMAL]
+At time 9189:
+    THREAD_PREEMPTED
+    Thread 0 in process 320 [NORMAL]
     Transitioned from RUNNING to READY
 
-At time 9357:
+At time 9189:
     DISPATCHER_INVOKED
-    Process 7 [SYSTEM]
-    Selected from 21 processes. Will run for at most 6 ticks.
+    Thread 0 in process 428 [SYSTEM]
+    Selected from 21 threads. Will run for at most 6 ticks.
 
-At time 9402:
+At time 9234:
     PROCESS_DISPATCH_COMPLETED
-    Process 7 [SYSTEM]
+    Thread 0 in process 428 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 9408:
-    PROCESS_PREEMPTED
-    Process 7 [SYSTEM]
+At time 9240:
+    THREAD_PREEMPTED
+    Thread 0 in process 428 [SYSTEM]
     Transitioned from RUNNING to READY
 
-At time 9408:
+At time 9240:
     DISPATCHER_INVOKED
-    Process 21 [NORMAL]
-    Selected from 21 processes. Will run for at most 6 ticks.
+    Thread 2 in process 242 [NORMAL]
+    Selected from 21 threads. Will run for at most 6 ticks.
 
-At time 9453:
+At time 9285:
     PROCESS_DISPATCH_COMPLETED
-    Process 21 [NORMAL]
+    Thread 2 in process 242 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 9459:
-    PROCESS_PREEMPTED
-    Process 21 [NORMAL]
+At time 9291:
+    THREAD_PREEMPTED
+    Thread 2 in process 242 [NORMAL]
     Transitioned from RUNNING to READY
 
-At time 9459:
+At time 9291:
     DISPATCHER_INVOKED
-    Process 16 [SYSTEM]
-    Selected from 21 processes. Will run for at most 6 ticks.
+    Thread 0 in process 461 [SYSTEM]
+    Selected from 21 threads. Will run for at most 6 ticks.
 
-At time 9504:
+At time 9336:
     PROCESS_DISPATCH_COMPLETED
-    Process 16 [SYSTEM]
+    Thread 0 in process 461 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 9510:
-    PROCESS_PREEMPTED
-    Process 16 [SYSTEM]
+At time 9342:
+    THREAD_PREEMPTED
+    Thread 0 in process 461 [SYSTEM]
     Transitioned from RUNNING to READY
 
-At time 9510:
+At time 9342:
     DISPATCHER_INVOKED
-    Process 9 [NORMAL]
-    Selected from 21 processes. Will run for at most 6 ticks.
+    Thread 0 in process 687 [NORMAL]
+    Selected from 21 threads. Will run for at most 6 ticks.
 
-At time 9555:
+At time 9387:
     PROCESS_DISPATCH_COMPLETED
-    Process 9 [NORMAL]
+    Thread 0 in process 687 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 9556:
+At time 9388:
     CPU_BURST_COMPLETED
-    Process 9 [NORMAL]
+    Thread 0 in process 687 [NORMAL]
     Transitioned from RUNNING to BLOCKED
 
-At time 9556:
+At time 9388:
     DISPATCHER_INVOKED
-    Process 1 [SYSTEM]
-    Selected from 20 processes. Will run for at most 6 ticks.
+    Thread 1 in process 729 [SYSTEM]
+    Selected from 20 threads. Will run for at most 6 ticks.
+
+At time 9401:
+    IO_BURST_COMPLETED
+    Thread 0 in process 687 [NORMAL]
+    Transitioned from BLOCKED to READY
+
+At time 9433:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 1 in process 729 [SYSTEM]
+    Transitioned from READY to RUNNING
+
+At time 9439:
+    CPU_BURST_COMPLETED
+    Thread 1 in process 729 [SYSTEM]
+    Transitioned from RUNNING to BLOCKED
+
+At time 9439:
+    DISPATCHER_INVOKED
+    Thread 1 in process 104 [SYSTEM]
+    Selected from 20 threads. Will run for at most 6 ticks.
+
+At time 9446:
+    IO_BURST_COMPLETED
+    Thread 1 in process 729 [SYSTEM]
+    Transitioned from BLOCKED to READY
+
+At time 9484:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 1 in process 104 [SYSTEM]
+    Transitioned from READY to RUNNING
+
+At time 9488:
+    CPU_BURST_COMPLETED
+    Thread 1 in process 104 [SYSTEM]
+    Transitioned from RUNNING to BLOCKED
+
+At time 9488:
+    DISPATCHER_INVOKED
+    Thread 3 in process 104 [SYSTEM]
+    Selected from 20 threads. Will run for at most 6 ticks.
+
+At time 9509:
+    IO_BURST_COMPLETED
+    Thread 1 in process 104 [SYSTEM]
+    Transitioned from BLOCKED to READY
+
+At time 9512:
+    THREAD_DISPATCH_COMPLETED
+    Thread 3 in process 104 [SYSTEM]
+    Transitioned from READY to RUNNING
+
+At time 9518:
+    THREAD_PREEMPTED
+    Thread 3 in process 104 [SYSTEM]
+    Transitioned from RUNNING to READY
+
+At time 9518:
+    DISPATCHER_INVOKED
+    Thread 2 in process 729 [SYSTEM]
+    Selected from 21 threads. Will run for at most 6 ticks.
+
+At time 9563:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 2 in process 729 [SYSTEM]
+    Transitioned from READY to RUNNING
 
 At time 9569:
-    IO_BURST_COMPLETED
-    Process 9 [NORMAL]
-    Transitioned from BLOCKED to READY
+    THREAD_PREEMPTED
+    Thread 2 in process 729 [SYSTEM]
+    Transitioned from RUNNING to READY
 
-At time 9601:
-    PROCESS_DISPATCH_COMPLETED
-    Process 1 [SYSTEM]
-    Transitioned from READY to RUNNING
-
-At time 9607:
-    CPU_BURST_COMPLETED
-    Process 1 [SYSTEM]
-    Transitioned from RUNNING to BLOCKED
-
-At time 9607:
+At time 9569:
     DISPATCHER_INVOKED
-    Process 4 [SYSTEM]
-    Selected from 20 processes. Will run for at most 6 ticks.
+    Thread 1 in process 687 [NORMAL]
+    Selected from 21 threads. Will run for at most 6 ticks.
 
 At time 9614:
-    IO_BURST_COMPLETED
-    Process 1 [SYSTEM]
-    Transitioned from BLOCKED to READY
-
-At time 9652:
     PROCESS_DISPATCH_COMPLETED
-    Process 4 [SYSTEM]
+    Thread 1 in process 687 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 9656:
+At time 9620:
+    THREAD_PREEMPTED
+    Thread 1 in process 687 [NORMAL]
+    Transitioned from RUNNING to READY
+
+At time 9620:
+    DISPATCHER_INVOKED
+    Thread 0 in process 242 [NORMAL]
+    Selected from 21 threads. Will run for at most 6 ticks.
+
+At time 9665:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 242 [NORMAL]
+    Transitioned from READY to RUNNING
+
+At time 9669:
     CPU_BURST_COMPLETED
-    Process 4 [SYSTEM]
+    Thread 0 in process 242 [NORMAL]
     Transitioned from RUNNING to BLOCKED
 
-At time 9656:
+At time 9669:
     DISPATCHER_INVOKED
-    Process 6 [SYSTEM]
-    Selected from 20 processes. Will run for at most 6 ticks.
+    Thread 0 in process 71 [SYSTEM]
+    Selected from 20 threads. Will run for at most 6 ticks.
 
-At time 9677:
+At time 9685:
     IO_BURST_COMPLETED
-    Process 4 [SYSTEM]
+    Thread 0 in process 242 [NORMAL]
     Transitioned from BLOCKED to READY
 
-At time 9701:
+At time 9714:
     PROCESS_DISPATCH_COMPLETED
-    Process 6 [SYSTEM]
+    Thread 0 in process 71 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 9707:
-    PROCESS_PREEMPTED
-    Process 6 [SYSTEM]
+At time 9720:
+    THREAD_PREEMPTED
+    Thread 0 in process 71 [SYSTEM]
     Transitioned from RUNNING to READY
 
-At time 9707:
+At time 9720:
     DISPATCHER_INVOKED
-    Process 2 [SYSTEM]
-    Selected from 21 processes. Will run for at most 6 ticks.
+    Thread 3 in process 687 [NORMAL]
+    Selected from 21 threads. Will run for at most 6 ticks.
 
-At time 9752:
+At time 9765:
     PROCESS_DISPATCH_COMPLETED
-    Process 2 [SYSTEM]
+    Thread 3 in process 687 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 9758:
-    PROCESS_PREEMPTED
-    Process 2 [SYSTEM]
+At time 9771:
+    THREAD_PREEMPTED
+    Thread 3 in process 687 [NORMAL]
     Transitioned from RUNNING to READY
 
-At time 9758:
+At time 9771:
     DISPATCHER_INVOKED
-    Process 10 [NORMAL]
-    Selected from 21 processes. Will run for at most 6 ticks.
+    Thread 1 in process 461 [SYSTEM]
+    Selected from 21 threads. Will run for at most 6 ticks.
 
-At time 9803:
+At time 9816:
     PROCESS_DISPATCH_COMPLETED
-    Process 10 [NORMAL]
+    Thread 1 in process 461 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 9809:
-    PROCESS_PREEMPTED
-    Process 10 [NORMAL]
+At time 9822:
+    THREAD_PREEMPTED
+    Thread 1 in process 461 [SYSTEM]
     Transitioned from RUNNING to READY
 
-At time 9809:
+At time 9822:
     DISPATCHER_INVOKED
-    Process 19 [NORMAL]
-    Selected from 21 processes. Will run for at most 6 ticks.
+    Thread 2 in process 320 [NORMAL]
+    Selected from 21 threads. Will run for at most 6 ticks.
 
-At time 9854:
+At time 9867:
     PROCESS_DISPATCH_COMPLETED
-    Process 19 [NORMAL]
+    Thread 2 in process 320 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 9858:
+At time 9873:
+    THREAD_PREEMPTED
+    Thread 2 in process 320 [NORMAL]
+    Transitioned from RUNNING to READY
+
+At time 9873:
+    DISPATCHER_INVOKED
+    Thread 1 in process 242 [NORMAL]
+    Selected from 21 threads. Will run for at most 6 ticks.
+
+At time 9918:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 1 in process 242 [NORMAL]
+    Transitioned from READY to RUNNING
+
+At time 9924:
+    THREAD_PREEMPTED
+    Thread 1 in process 242 [NORMAL]
+    Transitioned from RUNNING to READY
+
+At time 9924:
+    DISPATCHER_INVOKED
+    Thread 2 in process 687 [NORMAL]
+    Selected from 21 threads. Will run for at most 6 ticks.
+
+At time 9969:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 2 in process 687 [NORMAL]
+    Transitioned from READY to RUNNING
+
+At time 9975:
+    THREAD_PREEMPTED
+    Thread 2 in process 687 [NORMAL]
+    Transitioned from RUNNING to READY
+
+At time 9975:
+    DISPATCHER_INVOKED
+    Thread 0 in process 104 [SYSTEM]
+    Selected from 21 threads. Will run for at most 6 ticks.
+
+At time 10020:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 104 [SYSTEM]
+    Transitioned from READY to RUNNING
+
+At time 10025:
     CPU_BURST_COMPLETED
-    Process 19 [NORMAL]
+    Thread 0 in process 104 [SYSTEM]
     Transitioned from RUNNING to BLOCKED
 
-At time 9858:
+At time 10025:
     DISPATCHER_INVOKED
-    Process 22 [SYSTEM]
-    Selected from 20 processes. Will run for at most 6 ticks.
+    Thread 1 in process 320 [NORMAL]
+    Selected from 20 threads. Will run for at most 6 ticks.
 
-At time 9874:
+At time 10047:
     IO_BURST_COMPLETED
-    Process 19 [NORMAL]
+    Thread 0 in process 104 [SYSTEM]
     Transitioned from BLOCKED to READY
 
-At time 9903:
+At time 10070:
     PROCESS_DISPATCH_COMPLETED
-    Process 22 [SYSTEM]
+    Thread 1 in process 320 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 9909:
-    PROCESS_PREEMPTED
-    Process 22 [SYSTEM]
+At time 10076:
+    THREAD_PREEMPTED
+    Thread 1 in process 320 [NORMAL]
     Transitioned from RUNNING to READY
 
-At time 9909:
+At time 10076:
     DISPATCHER_INVOKED
-    Process 12 [NORMAL]
-    Selected from 21 processes. Will run for at most 6 ticks.
+    Thread 1 in process 428 [SYSTEM]
+    Selected from 21 threads. Will run for at most 6 ticks.
 
-At time 9954:
+At time 10121:
     PROCESS_DISPATCH_COMPLETED
-    Process 12 [NORMAL]
+    Thread 1 in process 428 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 9960:
-    PROCESS_PREEMPTED
-    Process 12 [NORMAL]
+At time 10127:
+    THREAD_PREEMPTED
+    Thread 1 in process 428 [SYSTEM]
     Transitioned from RUNNING to READY
 
-At time 9960:
+At time 10127:
     DISPATCHER_INVOKED
-    Process 17 [SYSTEM]
-    Selected from 21 processes. Will run for at most 6 ticks.
+    Thread 2 in process 104 [SYSTEM]
+    Selected from 21 threads. Will run for at most 6 ticks.
 
-At time 10005:
+At time 10172:
     PROCESS_DISPATCH_COMPLETED
-    Process 17 [SYSTEM]
+    Thread 2 in process 104 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 10011:
-    PROCESS_PREEMPTED
-    Process 17 [SYSTEM]
+At time 10178:
+    THREAD_PREEMPTED
+    Thread 2 in process 104 [SYSTEM]
     Transitioned from RUNNING to READY
 
-At time 10011:
+At time 10178:
     DISPATCHER_INVOKED
-    Process 15 [NORMAL]
-    Selected from 21 processes. Will run for at most 6 ticks.
+    Thread 0 in process 320 [NORMAL]
+    Selected from 21 threads. Will run for at most 6 ticks.
 
-At time 10056:
+At time 10223:
     PROCESS_DISPATCH_COMPLETED
-    Process 15 [NORMAL]
+    Thread 0 in process 320 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 10062:
-    PROCESS_PREEMPTED
-    Process 15 [NORMAL]
-    Transitioned from RUNNING to READY
-
-At time 10062:
-    DISPATCHER_INVOKED
-    Process 20 [NORMAL]
-    Selected from 21 processes. Will run for at most 6 ticks.
-
-At time 10107:
-    PROCESS_DISPATCH_COMPLETED
-    Process 20 [NORMAL]
-    Transitioned from READY to RUNNING
-
-At time 10113:
-    PROCESS_PREEMPTED
-    Process 20 [NORMAL]
-    Transitioned from RUNNING to READY
-
-At time 10113:
-    DISPATCHER_INVOKED
-    Process 11 [NORMAL]
-    Selected from 21 processes. Will run for at most 6 ticks.
-
-At time 10158:
-    PROCESS_DISPATCH_COMPLETED
-    Process 11 [NORMAL]
-    Transitioned from READY to RUNNING
-
-At time 10164:
-    PROCESS_PREEMPTED
-    Process 11 [NORMAL]
-    Transitioned from RUNNING to READY
-
-At time 10164:
-    DISPATCHER_INVOKED
-    Process 3 [SYSTEM]
-    Selected from 21 processes. Will run for at most 6 ticks.
-
-At time 10209:
-    PROCESS_DISPATCH_COMPLETED
-    Process 3 [SYSTEM]
-    Transitioned from READY to RUNNING
-
-At time 10214:
+At time 10228:
     CPU_BURST_COMPLETED
-    Process 3 [SYSTEM]
+    Thread 0 in process 320 [NORMAL]
     Transitioned from RUNNING to BLOCKED
 
-At time 10214:
+At time 10228:
     DISPATCHER_INVOKED
-    Process 14 [NORMAL]
-    Selected from 20 processes. Will run for at most 6 ticks.
+    Thread 0 in process 428 [SYSTEM]
+    Selected from 20 threads. Will run for at most 6 ticks.
 
-At time 10236:
+At time 10248:
     IO_BURST_COMPLETED
-    Process 3 [SYSTEM]
+    Thread 0 in process 320 [NORMAL]
     Transitioned from BLOCKED to READY
 
-At time 10259:
+At time 10273:
     PROCESS_DISPATCH_COMPLETED
-    Process 14 [NORMAL]
+    Thread 0 in process 428 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 10265:
-    PROCESS_PREEMPTED
-    Process 14 [NORMAL]
+At time 10279:
+    CPU_BURST_COMPLETED
+    Thread 0 in process 428 [SYSTEM]
+    Transitioned from RUNNING to BLOCKED
+
+At time 10279:
+    DISPATCHER_INVOKED
+    Thread 2 in process 242 [NORMAL]
+    Selected from 20 threads. Will run for at most 6 ticks.
+
+At time 10282:
+    IO_BURST_COMPLETED
+    Thread 0 in process 428 [SYSTEM]
+    Transitioned from BLOCKED to READY
+
+At time 10324:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 2 in process 242 [NORMAL]
+    Transitioned from READY to RUNNING
+
+At time 10327:
+    CPU_BURST_COMPLETED
+    Thread 2 in process 242 [NORMAL]
+    Transitioned from RUNNING to BLOCKED
+
+At time 10327:
+    DISPATCHER_INVOKED
+    Thread 0 in process 461 [SYSTEM]
+    Selected from 20 threads. Will run for at most 6 ticks.
+
+At time 10337:
+    IO_BURST_COMPLETED
+    Thread 2 in process 242 [NORMAL]
+    Transitioned from BLOCKED to READY
+
+At time 10372:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 461 [SYSTEM]
+    Transitioned from READY to RUNNING
+
+At time 10373:
+    CPU_BURST_COMPLETED
+    Thread 0 in process 461 [SYSTEM]
+    Transitioned from RUNNING to BLOCKED
+
+At time 10373:
+    DISPATCHER_INVOKED
+    Thread 0 in process 687 [NORMAL]
+    Selected from 20 threads. Will run for at most 6 ticks.
+
+At time 10382:
+    IO_BURST_COMPLETED
+    Thread 0 in process 461 [SYSTEM]
+    Transitioned from BLOCKED to READY
+
+At time 10418:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 687 [NORMAL]
+    Transitioned from READY to RUNNING
+
+At time 10421:
+    CPU_BURST_COMPLETED
+    Thread 0 in process 687 [NORMAL]
+    Transitioned from RUNNING to BLOCKED
+
+At time 10421:
+    DISPATCHER_INVOKED
+    Thread 1 in process 729 [SYSTEM]
+    Selected from 20 threads. Will run for at most 6 ticks.
+
+At time 10433:
+    IO_BURST_COMPLETED
+    Thread 0 in process 687 [NORMAL]
+    Transitioned from BLOCKED to READY
+
+At time 10466:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 1 in process 729 [SYSTEM]
+    Transitioned from READY to RUNNING
+
+At time 10472:
+    THREAD_PREEMPTED
+    Thread 1 in process 729 [SYSTEM]
     Transitioned from RUNNING to READY
 
-At time 10265:
+At time 10472:
     DISPATCHER_INVOKED
-    Process 8 [SYSTEM]
-    Selected from 21 processes. Will run for at most 6 ticks.
+    Thread 1 in process 104 [SYSTEM]
+    Selected from 21 threads. Will run for at most 6 ticks.
 
-At time 10310:
+At time 10517:
     PROCESS_DISPATCH_COMPLETED
-    Process 8 [SYSTEM]
+    Thread 1 in process 104 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 10316:
-    PROCESS_PREEMPTED
-    Process 8 [SYSTEM]
+At time 10523:
+    THREAD_PREEMPTED
+    Thread 1 in process 104 [SYSTEM]
     Transitioned from RUNNING to READY
 
-At time 10316:
+At time 10523:
     DISPATCHER_INVOKED
-    Process 5 [SYSTEM]
-    Selected from 21 processes. Will run for at most 6 ticks.
+    Thread 3 in process 104 [SYSTEM]
+    Selected from 21 threads. Will run for at most 6 ticks.
 
-At time 10361:
-    PROCESS_DISPATCH_COMPLETED
-    Process 5 [SYSTEM]
+At time 10547:
+    THREAD_DISPATCH_COMPLETED
+    Thread 3 in process 104 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 10367:
-    PROCESS_PREEMPTED
-    Process 5 [SYSTEM]
+At time 10552:
+    CPU_BURST_COMPLETED
+    Thread 3 in process 104 [SYSTEM]
+    Transitioned from RUNNING to BLOCKED
+
+At time 10552:
+    DISPATCHER_INVOKED
+    Thread 2 in process 729 [SYSTEM]
+    Selected from 20 threads. Will run for at most 6 ticks.
+
+At time 10563:
+    IO_BURST_COMPLETED
+    Thread 3 in process 104 [SYSTEM]
+    Transitioned from BLOCKED to READY
+
+At time 10597:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 2 in process 729 [SYSTEM]
+    Transitioned from READY to RUNNING
+
+At time 10599:
+    CPU_BURST_COMPLETED
+    Thread 2 in process 729 [SYSTEM]
+    Transitioned from RUNNING to BLOCKED
+
+At time 10599:
+    DISPATCHER_INVOKED
+    Thread 1 in process 687 [NORMAL]
+    Selected from 20 threads. Will run for at most 6 ticks.
+
+At time 10604:
+    IO_BURST_COMPLETED
+    Thread 2 in process 729 [SYSTEM]
+    Transitioned from BLOCKED to READY
+
+At time 10644:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 1 in process 687 [NORMAL]
+    Transitioned from READY to RUNNING
+
+At time 10650:
+    THREAD_PREEMPTED
+    Thread 1 in process 687 [NORMAL]
     Transitioned from RUNNING to READY
 
-At time 10367:
+At time 10650:
     DISPATCHER_INVOKED
-    Process 13 [NORMAL]
-    Selected from 21 processes. Will run for at most 6 ticks.
+    Thread 0 in process 242 [NORMAL]
+    Selected from 21 threads. Will run for at most 6 ticks.
 
-At time 10412:
+At time 10695:
     PROCESS_DISPATCH_COMPLETED
-    Process 13 [NORMAL]
+    Thread 0 in process 242 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 10417:
+At time 10697:
     CPU_BURST_COMPLETED
-    Process 13 [NORMAL]
+    Thread 0 in process 242 [NORMAL]
     Transitioned from RUNNING to BLOCKED
 
-At time 10417:
+At time 10697:
     DISPATCHER_INVOKED
-    Process 7 [SYSTEM]
-    Selected from 20 processes. Will run for at most 6 ticks.
+    Thread 0 in process 71 [SYSTEM]
+    Selected from 20 threads. Will run for at most 6 ticks.
 
-At time 10437:
+At time 10716:
     IO_BURST_COMPLETED
-    Process 13 [NORMAL]
+    Thread 0 in process 242 [NORMAL]
     Transitioned from BLOCKED to READY
 
-At time 10462:
+At time 10742:
     PROCESS_DISPATCH_COMPLETED
-    Process 7 [SYSTEM]
+    Thread 0 in process 71 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 10468:
-    CPU_BURST_COMPLETED
-    Process 7 [SYSTEM]
-    Transitioned from RUNNING to BLOCKED
-
-At time 10468:
-    DISPATCHER_INVOKED
-    Process 21 [NORMAL]
-    Selected from 20 processes. Will run for at most 6 ticks.
-
-At time 10471:
-    IO_BURST_COMPLETED
-    Process 7 [SYSTEM]
-    Transitioned from BLOCKED to READY
-
-At time 10513:
-    PROCESS_DISPATCH_COMPLETED
-    Process 21 [NORMAL]
-    Transitioned from READY to RUNNING
-
-At time 10516:
-    CPU_BURST_COMPLETED
-    Process 21 [NORMAL]
-    Transitioned from RUNNING to BLOCKED
-
-At time 10516:
-    DISPATCHER_INVOKED
-    Process 16 [SYSTEM]
-    Selected from 20 processes. Will run for at most 6 ticks.
-
-At time 10526:
-    IO_BURST_COMPLETED
-    Process 21 [NORMAL]
-    Transitioned from BLOCKED to READY
-
-At time 10561:
-    PROCESS_DISPATCH_COMPLETED
-    Process 16 [SYSTEM]
-    Transitioned from READY to RUNNING
-
-At time 10562:
-    CPU_BURST_COMPLETED
-    Process 16 [SYSTEM]
-    Transitioned from RUNNING to BLOCKED
-
-At time 10562:
-    DISPATCHER_INVOKED
-    Process 9 [NORMAL]
-    Selected from 20 processes. Will run for at most 6 ticks.
-
-At time 10571:
-    IO_BURST_COMPLETED
-    Process 16 [SYSTEM]
-    Transitioned from BLOCKED to READY
-
-At time 10607:
-    PROCESS_DISPATCH_COMPLETED
-    Process 9 [NORMAL]
-    Transitioned from READY to RUNNING
-
-At time 10610:
-    CPU_BURST_COMPLETED
-    Process 9 [NORMAL]
-    Transitioned from RUNNING to BLOCKED
-
-At time 10610:
-    DISPATCHER_INVOKED
-    Process 1 [SYSTEM]
-    Selected from 20 processes. Will run for at most 6 ticks.
-
-At time 10622:
-    IO_BURST_COMPLETED
-    Process 9 [NORMAL]
-    Transitioned from BLOCKED to READY
-
-At time 10655:
-    PROCESS_DISPATCH_COMPLETED
-    Process 1 [SYSTEM]
-    Transitioned from READY to RUNNING
-
-At time 10661:
-    PROCESS_PREEMPTED
-    Process 1 [SYSTEM]
+At time 10748:
+    THREAD_PREEMPTED
+    Thread 0 in process 71 [SYSTEM]
     Transitioned from RUNNING to READY
 
-At time 10661:
+At time 10748:
     DISPATCHER_INVOKED
-    Process 4 [SYSTEM]
-    Selected from 21 processes. Will run for at most 6 ticks.
+    Thread 3 in process 687 [NORMAL]
+    Selected from 21 threads. Will run for at most 6 ticks.
 
-At time 10706:
+At time 10793:
     PROCESS_DISPATCH_COMPLETED
-    Process 4 [SYSTEM]
+    Thread 3 in process 687 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 10712:
-    PROCESS_PREEMPTED
-    Process 4 [SYSTEM]
+At time 10798:
+    CPU_BURST_COMPLETED
+    Thread 3 in process 687 [NORMAL]
+    Transitioned from RUNNING to BLOCKED
+
+At time 10798:
+    DISPATCHER_INVOKED
+    Thread 1 in process 461 [SYSTEM]
+    Selected from 20 threads. Will run for at most 6 ticks.
+
+At time 10799:
+    IO_BURST_COMPLETED
+    Thread 3 in process 687 [NORMAL]
+    Transitioned from BLOCKED to READY
+
+At time 10843:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 1 in process 461 [SYSTEM]
+    Transitioned from READY to RUNNING
+
+At time 10849:
+    THREAD_PREEMPTED
+    Thread 1 in process 461 [SYSTEM]
     Transitioned from RUNNING to READY
 
-At time 10712:
+At time 10849:
     DISPATCHER_INVOKED
-    Process 6 [SYSTEM]
-    Selected from 21 processes. Will run for at most 6 ticks.
+    Thread 2 in process 320 [NORMAL]
+    Selected from 21 threads. Will run for at most 6 ticks.
 
-At time 10757:
+At time 10894:
     PROCESS_DISPATCH_COMPLETED
-    Process 6 [SYSTEM]
+    Thread 2 in process 320 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 10762:
-    CPU_BURST_COMPLETED
-    Process 6 [SYSTEM]
-    Transitioned from RUNNING to BLOCKED
-
-At time 10762:
-    DISPATCHER_INVOKED
-    Process 2 [SYSTEM]
-    Selected from 20 processes. Will run for at most 6 ticks.
-
-At time 10773:
-    IO_BURST_COMPLETED
-    Process 6 [SYSTEM]
-    Transitioned from BLOCKED to READY
-
-At time 10807:
-    PROCESS_DISPATCH_COMPLETED
-    Process 2 [SYSTEM]
-    Transitioned from READY to RUNNING
-
-At time 10809:
-    CPU_BURST_COMPLETED
-    Process 2 [SYSTEM]
-    Transitioned from RUNNING to BLOCKED
-
-At time 10809:
-    DISPATCHER_INVOKED
-    Process 10 [NORMAL]
-    Selected from 20 processes. Will run for at most 6 ticks.
-
-At time 10814:
-    IO_BURST_COMPLETED
-    Process 2 [SYSTEM]
-    Transitioned from BLOCKED to READY
-
-At time 10854:
-    PROCESS_DISPATCH_COMPLETED
-    Process 10 [NORMAL]
-    Transitioned from READY to RUNNING
-
-At time 10860:
-    PROCESS_PREEMPTED
-    Process 10 [NORMAL]
+At time 10900:
+    THREAD_PREEMPTED
+    Thread 2 in process 320 [NORMAL]
     Transitioned from RUNNING to READY
 
-At time 10860:
+At time 10900:
     DISPATCHER_INVOKED
-    Process 19 [NORMAL]
-    Selected from 21 processes. Will run for at most 6 ticks.
+    Thread 1 in process 242 [NORMAL]
+    Selected from 21 threads. Will run for at most 6 ticks.
 
-At time 10905:
+At time 10945:
     PROCESS_DISPATCH_COMPLETED
-    Process 19 [NORMAL]
+    Thread 1 in process 242 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 10907:
-    CPU_BURST_COMPLETED
-    Process 19 [NORMAL]
-    Transitioned from RUNNING to BLOCKED
-
-At time 10907:
-    DISPATCHER_INVOKED
-    Process 22 [SYSTEM]
-    Selected from 20 processes. Will run for at most 6 ticks.
-
-At time 10926:
-    IO_BURST_COMPLETED
-    Process 19 [NORMAL]
-    Transitioned from BLOCKED to READY
-
-At time 10952:
-    PROCESS_DISPATCH_COMPLETED
-    Process 22 [SYSTEM]
-    Transitioned from READY to RUNNING
-
-At time 10958:
-    PROCESS_PREEMPTED
-    Process 22 [SYSTEM]
+At time 10951:
+    THREAD_PREEMPTED
+    Thread 1 in process 242 [NORMAL]
     Transitioned from RUNNING to READY
 
-At time 10958:
+At time 10951:
     DISPATCHER_INVOKED
-    Process 12 [NORMAL]
-    Selected from 21 processes. Will run for at most 6 ticks.
+    Thread 2 in process 687 [NORMAL]
+    Selected from 21 threads. Will run for at most 6 ticks.
 
-At time 11003:
+At time 10996:
     PROCESS_DISPATCH_COMPLETED
-    Process 12 [NORMAL]
+    Thread 2 in process 687 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 11008:
-    CPU_BURST_COMPLETED
-    Process 12 [NORMAL]
-    Transitioned from RUNNING to BLOCKED
+At time 11002:
+    THREAD_PREEMPTED
+    Thread 2 in process 687 [NORMAL]
+    Transitioned from RUNNING to READY
 
-At time 11008:
+At time 11002:
     DISPATCHER_INVOKED
-    Process 17 [SYSTEM]
-    Selected from 20 processes. Will run for at most 6 ticks.
+    Thread 0 in process 104 [SYSTEM]
+    Selected from 21 threads. Will run for at most 6 ticks.
 
-At time 11009:
-    IO_BURST_COMPLETED
-    Process 12 [NORMAL]
-    Transitioned from BLOCKED to READY
+At time 11047:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 104 [SYSTEM]
+    Transitioned from READY to RUNNING
 
 At time 11053:
-    PROCESS_DISPATCH_COMPLETED
-    Process 17 [SYSTEM]
-    Transitioned from READY to RUNNING
-
-At time 11059:
-    PROCESS_PREEMPTED
-    Process 17 [SYSTEM]
+    THREAD_PREEMPTED
+    Thread 0 in process 104 [SYSTEM]
     Transitioned from RUNNING to READY
 
-At time 11059:
+At time 11053:
     DISPATCHER_INVOKED
-    Process 15 [NORMAL]
-    Selected from 21 processes. Will run for at most 6 ticks.
+    Thread 1 in process 320 [NORMAL]
+    Selected from 21 threads. Will run for at most 6 ticks.
+
+At time 11098:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 1 in process 320 [NORMAL]
+    Transitioned from READY to RUNNING
 
 At time 11104:
-    PROCESS_DISPATCH_COMPLETED
-    Process 15 [NORMAL]
-    Transitioned from READY to RUNNING
-
-At time 11110:
-    PROCESS_PREEMPTED
-    Process 15 [NORMAL]
+    THREAD_PREEMPTED
+    Thread 1 in process 320 [NORMAL]
     Transitioned from RUNNING to READY
 
-At time 11110:
+At time 11104:
     DISPATCHER_INVOKED
-    Process 20 [NORMAL]
-    Selected from 21 processes. Will run for at most 6 ticks.
+    Thread 1 in process 428 [SYSTEM]
+    Selected from 21 threads. Will run for at most 6 ticks.
 
-At time 11155:
+At time 11149:
     PROCESS_DISPATCH_COMPLETED
-    Process 20 [NORMAL]
+    Thread 1 in process 428 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 11161:
-    PROCESS_PREEMPTED
-    Process 20 [NORMAL]
-    Transitioned from RUNNING to READY
-
-At time 11161:
-    DISPATCHER_INVOKED
-    Process 11 [NORMAL]
-    Selected from 21 processes. Will run for at most 6 ticks.
-
-At time 11206:
-    PROCESS_DISPATCH_COMPLETED
-    Process 11 [NORMAL]
-    Transitioned from READY to RUNNING
-
-At time 11212:
-    PROCESS_PREEMPTED
-    Process 11 [NORMAL]
-    Transitioned from RUNNING to READY
-
-At time 11212:
-    DISPATCHER_INVOKED
-    Process 3 [SYSTEM]
-    Selected from 21 processes. Will run for at most 6 ticks.
-
-At time 11257:
-    PROCESS_DISPATCH_COMPLETED
-    Process 3 [SYSTEM]
-    Transitioned from READY to RUNNING
-
-At time 11263:
-    PROCESS_PREEMPTED
-    Process 3 [SYSTEM]
-    Transitioned from RUNNING to READY
-
-At time 11263:
-    DISPATCHER_INVOKED
-    Process 14 [NORMAL]
-    Selected from 21 processes. Will run for at most 6 ticks.
-
-At time 11308:
-    PROCESS_DISPATCH_COMPLETED
-    Process 14 [NORMAL]
-    Transitioned from READY to RUNNING
-
-At time 11314:
-    PROCESS_PREEMPTED
-    Process 14 [NORMAL]
-    Transitioned from RUNNING to READY
-
-At time 11314:
-    DISPATCHER_INVOKED
-    Process 8 [SYSTEM]
-    Selected from 21 processes. Will run for at most 6 ticks.
-
-At time 11359:
-    PROCESS_DISPATCH_COMPLETED
-    Process 8 [SYSTEM]
-    Transitioned from READY to RUNNING
-
-At time 11361:
+At time 11151:
     CPU_BURST_COMPLETED
-    Process 8 [SYSTEM]
+    Thread 1 in process 428 [SYSTEM]
     Transitioned from RUNNING to BLOCKED
 
-At time 11361:
+At time 11151:
     DISPATCHER_INVOKED
-    Process 5 [SYSTEM]
-    Selected from 20 processes. Will run for at most 6 ticks.
+    Thread 2 in process 104 [SYSTEM]
+    Selected from 20 threads. Will run for at most 6 ticks.
 
-At time 11367:
+At time 11157:
     IO_BURST_COMPLETED
-    Process 8 [SYSTEM]
+    Thread 1 in process 428 [SYSTEM]
     Transitioned from BLOCKED to READY
 
-At time 11406:
+At time 11196:
     PROCESS_DISPATCH_COMPLETED
-    Process 5 [SYSTEM]
+    Thread 2 in process 104 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 11412:
-    PROCESS_PREEMPTED
-    Process 5 [SYSTEM]
+At time 11202:
+    THREAD_PREEMPTED
+    Thread 2 in process 104 [SYSTEM]
     Transitioned from RUNNING to READY
 
-At time 11412:
+At time 11202:
     DISPATCHER_INVOKED
-    Process 13 [NORMAL]
-    Selected from 21 processes. Will run for at most 6 ticks.
+    Thread 0 in process 320 [NORMAL]
+    Selected from 21 threads. Will run for at most 6 ticks.
 
-At time 11457:
+At time 11247:
     PROCESS_DISPATCH_COMPLETED
-    Process 13 [NORMAL]
+    Thread 0 in process 320 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 11463:
-    PROCESS_PREEMPTED
-    Process 13 [NORMAL]
+At time 11253:
+    THREAD_PREEMPTED
+    Thread 0 in process 320 [NORMAL]
     Transitioned from RUNNING to READY
 
-At time 11463:
+At time 11253:
     DISPATCHER_INVOKED
-    Process 7 [SYSTEM]
-    Selected from 21 processes. Will run for at most 6 ticks.
+    Thread 0 in process 428 [SYSTEM]
+    Selected from 21 threads. Will run for at most 6 ticks.
 
-At time 11508:
+At time 11298:
     PROCESS_DISPATCH_COMPLETED
-    Process 7 [SYSTEM]
+    Thread 0 in process 428 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 11514:
-    PROCESS_PREEMPTED
-    Process 7 [SYSTEM]
+At time 11304:
+    THREAD_PREEMPTED
+    Thread 0 in process 428 [SYSTEM]
     Transitioned from RUNNING to READY
 
-At time 11514:
+At time 11304:
     DISPATCHER_INVOKED
-    Process 21 [NORMAL]
-    Selected from 21 processes. Will run for at most 6 ticks.
+    Thread 2 in process 242 [NORMAL]
+    Selected from 21 threads. Will run for at most 6 ticks.
 
-At time 11559:
+At time 11349:
     PROCESS_DISPATCH_COMPLETED
-    Process 21 [NORMAL]
+    Thread 2 in process 242 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 11564:
+At time 11354:
     CPU_BURST_COMPLETED
-    Process 21 [NORMAL]
+    Thread 2 in process 242 [NORMAL]
     Transitioned from RUNNING to BLOCKED
 
-At time 11564:
+At time 11354:
     DISPATCHER_INVOKED
-    Process 16 [SYSTEM]
-    Selected from 20 processes. Will run for at most 6 ticks.
+    Thread 0 in process 461 [SYSTEM]
+    Selected from 20 threads. Will run for at most 6 ticks.
 
-At time 11566:
+At time 11356:
     IO_BURST_COMPLETED
-    Process 21 [NORMAL]
+    Thread 2 in process 242 [NORMAL]
     Transitioned from BLOCKED to READY
 
-At time 11609:
+At time 11399:
     PROCESS_DISPATCH_COMPLETED
-    Process 16 [SYSTEM]
+    Thread 0 in process 461 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 11615:
-    PROCESS_PREEMPTED
-    Process 16 [SYSTEM]
+At time 11405:
+    THREAD_PREEMPTED
+    Thread 0 in process 461 [SYSTEM]
     Transitioned from RUNNING to READY
 
-At time 11615:
+At time 11405:
     DISPATCHER_INVOKED
-    Process 9 [NORMAL]
-    Selected from 21 processes. Will run for at most 6 ticks.
+    Thread 0 in process 687 [NORMAL]
+    Selected from 21 threads. Will run for at most 6 ticks.
 
-At time 11660:
+At time 11450:
     PROCESS_DISPATCH_COMPLETED
-    Process 9 [NORMAL]
+    Thread 0 in process 687 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 11666:
-    PROCESS_PREEMPTED
-    Process 9 [NORMAL]
+At time 11456:
+    THREAD_PREEMPTED
+    Thread 0 in process 687 [NORMAL]
     Transitioned from RUNNING to READY
 
-At time 11666:
+At time 11456:
     DISPATCHER_INVOKED
-    Process 1 [SYSTEM]
-    Selected from 21 processes. Will run for at most 6 ticks.
+    Thread 1 in process 729 [SYSTEM]
+    Selected from 21 threads. Will run for at most 6 ticks.
 
-At time 11711:
+At time 11501:
     PROCESS_DISPATCH_COMPLETED
-    Process 1 [SYSTEM]
+    Thread 1 in process 729 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 11717:
-    PROCESS_PREEMPTED
-    Process 1 [SYSTEM]
+At time 11507:
+    THREAD_PREEMPTED
+    Thread 1 in process 729 [SYSTEM]
     Transitioned from RUNNING to READY
 
-At time 11717:
+At time 11507:
     DISPATCHER_INVOKED
-    Process 4 [SYSTEM]
-    Selected from 21 processes. Will run for at most 6 ticks.
+    Thread 1 in process 104 [SYSTEM]
+    Selected from 21 threads. Will run for at most 6 ticks.
 
-At time 11762:
+At time 11552:
     PROCESS_DISPATCH_COMPLETED
-    Process 4 [SYSTEM]
+    Thread 1 in process 104 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 11768:
-    PROCESS_PREEMPTED
-    Process 4 [SYSTEM]
+At time 11558:
+    THREAD_PREEMPTED
+    Thread 1 in process 104 [SYSTEM]
     Transitioned from RUNNING to READY
 
-At time 11768:
+At time 11558:
     DISPATCHER_INVOKED
-    Process 6 [SYSTEM]
-    Selected from 21 processes. Will run for at most 6 ticks.
+    Thread 3 in process 104 [SYSTEM]
+    Selected from 21 threads. Will run for at most 6 ticks.
 
-At time 11813:
-    PROCESS_DISPATCH_COMPLETED
-    Process 6 [SYSTEM]
+At time 11582:
+    THREAD_DISPATCH_COMPLETED
+    Thread 3 in process 104 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 11819:
-    PROCESS_PREEMPTED
-    Process 6 [SYSTEM]
+At time 11588:
+    THREAD_PREEMPTED
+    Thread 3 in process 104 [SYSTEM]
     Transitioned from RUNNING to READY
 
-At time 11819:
+At time 11588:
     DISPATCHER_INVOKED
-    Process 2 [SYSTEM]
-    Selected from 21 processes. Will run for at most 6 ticks.
+    Thread 2 in process 729 [SYSTEM]
+    Selected from 21 threads. Will run for at most 6 ticks.
 
-At time 11864:
+At time 11633:
     PROCESS_DISPATCH_COMPLETED
-    Process 2 [SYSTEM]
+    Thread 2 in process 729 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 11870:
-    PROCESS_PREEMPTED
-    Process 2 [SYSTEM]
+At time 11639:
+    THREAD_PREEMPTED
+    Thread 2 in process 729 [SYSTEM]
     Transitioned from RUNNING to READY
 
-At time 11870:
+At time 11639:
     DISPATCHER_INVOKED
-    Process 10 [NORMAL]
-    Selected from 21 processes. Will run for at most 6 ticks.
+    Thread 1 in process 687 [NORMAL]
+    Selected from 21 threads. Will run for at most 6 ticks.
 
-At time 11915:
+At time 11684:
     PROCESS_DISPATCH_COMPLETED
-    Process 10 [NORMAL]
+    Thread 1 in process 687 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 11917:
-    PROCESS_COMPLETED
-    Process 10 [NORMAL]
+At time 11686:
+    THREAD_COMPLETED
+    Thread 1 in process 687 [NORMAL]
     Transitioned from RUNNING to EXIT
 
-At time 11917:
+At time 11686:
     DISPATCHER_INVOKED
-    Process 19 [NORMAL]
-    Selected from 20 processes. Will run for at most 6 ticks.
+    Thread 0 in process 242 [NORMAL]
+    Selected from 20 threads. Will run for at most 6 ticks.
 
-At time 11962:
+At time 11731:
     PROCESS_DISPATCH_COMPLETED
-    Process 19 [NORMAL]
+    Thread 0 in process 242 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 11968:
+At time 11737:
     CPU_BURST_COMPLETED
-    Process 19 [NORMAL]
+    Thread 0 in process 242 [NORMAL]
     Transitioned from RUNNING to BLOCKED
 
-At time 11968:
+At time 11737:
     DISPATCHER_INVOKED
-    Process 22 [SYSTEM]
-    Selected from 19 processes. Will run for at most 6 ticks.
+    Thread 0 in process 71 [SYSTEM]
+    Selected from 19 threads. Will run for at most 6 ticks.
 
-At time 11990:
+At time 11759:
     IO_BURST_COMPLETED
-    Process 19 [NORMAL]
+    Thread 0 in process 242 [NORMAL]
     Transitioned from BLOCKED to READY
 
-At time 12013:
+At time 11782:
     PROCESS_DISPATCH_COMPLETED
-    Process 22 [SYSTEM]
+    Thread 0 in process 71 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 12019:
-    PROCESS_PREEMPTED
-    Process 22 [SYSTEM]
+At time 11788:
+    THREAD_PREEMPTED
+    Thread 0 in process 71 [SYSTEM]
     Transitioned from RUNNING to READY
 
-At time 12019:
+At time 11788:
     DISPATCHER_INVOKED
-    Process 12 [NORMAL]
-    Selected from 20 processes. Will run for at most 6 ticks.
+    Thread 3 in process 687 [NORMAL]
+    Selected from 20 threads. Will run for at most 6 ticks.
 
-At time 12064:
+At time 11833:
     PROCESS_DISPATCH_COMPLETED
-    Process 12 [NORMAL]
+    Thread 3 in process 687 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 12070:
-    PROCESS_PREEMPTED
-    Process 12 [NORMAL]
+At time 11839:
+    THREAD_PREEMPTED
+    Thread 3 in process 687 [NORMAL]
     Transitioned from RUNNING to READY
 
-At time 12070:
+At time 11839:
     DISPATCHER_INVOKED
-    Process 17 [SYSTEM]
-    Selected from 20 processes. Will run for at most 6 ticks.
+    Thread 1 in process 461 [SYSTEM]
+    Selected from 20 threads. Will run for at most 6 ticks.
 
-At time 12115:
+At time 11884:
     PROCESS_DISPATCH_COMPLETED
-    Process 17 [SYSTEM]
+    Thread 1 in process 461 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 12118:
+At time 11887:
     CPU_BURST_COMPLETED
-    Process 17 [SYSTEM]
+    Thread 1 in process 461 [SYSTEM]
     Transitioned from RUNNING to BLOCKED
 
-At time 12118:
+At time 11887:
     DISPATCHER_INVOKED
-    Process 15 [NORMAL]
-    Selected from 19 processes. Will run for at most 6 ticks.
+    Thread 2 in process 320 [NORMAL]
+    Selected from 19 threads. Will run for at most 6 ticks.
 
-At time 12144:
+At time 11913:
     IO_BURST_COMPLETED
-    Process 17 [SYSTEM]
+    Thread 1 in process 461 [SYSTEM]
     Transitioned from BLOCKED to READY
 
-At time 12163:
+At time 11932:
     PROCESS_DISPATCH_COMPLETED
-    Process 15 [NORMAL]
+    Thread 2 in process 320 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 12169:
-    PROCESS_PREEMPTED
-    Process 15 [NORMAL]
+At time 11938:
+    THREAD_PREEMPTED
+    Thread 2 in process 320 [NORMAL]
     Transitioned from RUNNING to READY
 
-At time 12169:
+At time 11938:
     DISPATCHER_INVOKED
-    Process 20 [NORMAL]
-    Selected from 20 processes. Will run for at most 6 ticks.
+    Thread 1 in process 242 [NORMAL]
+    Selected from 20 threads. Will run for at most 6 ticks.
 
-At time 12214:
+At time 11983:
     PROCESS_DISPATCH_COMPLETED
-    Process 20 [NORMAL]
+    Thread 1 in process 242 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 12220:
-    PROCESS_PREEMPTED
-    Process 20 [NORMAL]
+At time 11989:
+    THREAD_PREEMPTED
+    Thread 1 in process 242 [NORMAL]
     Transitioned from RUNNING to READY
 
-At time 12220:
+At time 11989:
     DISPATCHER_INVOKED
-    Process 11 [NORMAL]
-    Selected from 20 processes. Will run for at most 6 ticks.
+    Thread 2 in process 687 [NORMAL]
+    Selected from 20 threads. Will run for at most 6 ticks.
 
-At time 12265:
+At time 12034:
     PROCESS_DISPATCH_COMPLETED
-    Process 11 [NORMAL]
+    Thread 2 in process 687 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 12270:
+At time 12039:
     CPU_BURST_COMPLETED
-    Process 11 [NORMAL]
+    Thread 2 in process 687 [NORMAL]
     Transitioned from RUNNING to BLOCKED
 
-At time 12270:
+At time 12039:
     DISPATCHER_INVOKED
-    Process 3 [SYSTEM]
-    Selected from 19 processes. Will run for at most 6 ticks.
+    Thread 0 in process 104 [SYSTEM]
+    Selected from 19 threads. Will run for at most 6 ticks.
 
-At time 12277:
+At time 12046:
     IO_BURST_COMPLETED
-    Process 11 [NORMAL]
+    Thread 2 in process 687 [NORMAL]
     Transitioned from BLOCKED to READY
 
-At time 12315:
+At time 12084:
     PROCESS_DISPATCH_COMPLETED
-    Process 3 [SYSTEM]
+    Thread 0 in process 104 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 12321:
-    PROCESS_PREEMPTED
-    Process 3 [SYSTEM]
+At time 12090:
+    THREAD_PREEMPTED
+    Thread 0 in process 104 [SYSTEM]
     Transitioned from RUNNING to READY
 
-At time 12321:
+At time 12090:
     DISPATCHER_INVOKED
-    Process 14 [NORMAL]
-    Selected from 20 processes. Will run for at most 6 ticks.
+    Thread 1 in process 320 [NORMAL]
+    Selected from 20 threads. Will run for at most 6 ticks.
 
-At time 12366:
+At time 12135:
     PROCESS_DISPATCH_COMPLETED
-    Process 14 [NORMAL]
+    Thread 1 in process 320 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 12367:
+At time 12136:
     CPU_BURST_COMPLETED
-    Process 14 [NORMAL]
+    Thread 1 in process 320 [NORMAL]
     Transitioned from RUNNING to BLOCKED
 
-At time 12367:
+At time 12136:
     DISPATCHER_INVOKED
-    Process 8 [SYSTEM]
-    Selected from 19 processes. Will run for at most 6 ticks.
+    Thread 1 in process 428 [SYSTEM]
+    Selected from 19 threads. Will run for at most 6 ticks.
 
-At time 12368:
+At time 12137:
     IO_BURST_COMPLETED
-    Process 14 [NORMAL]
+    Thread 1 in process 320 [NORMAL]
     Transitioned from BLOCKED to READY
 
-At time 12412:
+At time 12181:
     PROCESS_DISPATCH_COMPLETED
-    Process 8 [SYSTEM]
+    Thread 1 in process 428 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 12418:
-    PROCESS_PREEMPTED
-    Process 8 [SYSTEM]
+At time 12187:
+    THREAD_PREEMPTED
+    Thread 1 in process 428 [SYSTEM]
     Transitioned from RUNNING to READY
 
-At time 12418:
+At time 12187:
     DISPATCHER_INVOKED
-    Process 5 [SYSTEM]
-    Selected from 20 processes. Will run for at most 6 ticks.
+    Thread 2 in process 104 [SYSTEM]
+    Selected from 20 threads. Will run for at most 6 ticks.
 
-At time 12463:
+At time 12232:
     PROCESS_DISPATCH_COMPLETED
-    Process 5 [SYSTEM]
+    Thread 2 in process 104 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 12464:
-    PROCESS_COMPLETED
-    Process 5 [SYSTEM]
+At time 12233:
+    THREAD_COMPLETED
+    Thread 2 in process 104 [SYSTEM]
     Transitioned from RUNNING to EXIT
 
-At time 12464:
+At time 12233:
     DISPATCHER_INVOKED
-    Process 13 [NORMAL]
-    Selected from 19 processes. Will run for at most 6 ticks.
+    Thread 0 in process 320 [NORMAL]
+    Selected from 19 threads. Will run for at most 6 ticks.
 
-At time 12509:
+At time 12278:
     PROCESS_DISPATCH_COMPLETED
-    Process 13 [NORMAL]
+    Thread 0 in process 320 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 12515:
-    PROCESS_PREEMPTED
-    Process 13 [NORMAL]
+At time 12284:
+    THREAD_PREEMPTED
+    Thread 0 in process 320 [NORMAL]
     Transitioned from RUNNING to READY
 
-At time 12515:
+At time 12284:
     DISPATCHER_INVOKED
-    Process 7 [SYSTEM]
-    Selected from 19 processes. Will run for at most 6 ticks.
+    Thread 0 in process 428 [SYSTEM]
+    Selected from 19 threads. Will run for at most 6 ticks.
 
-At time 12560:
+At time 12329:
     PROCESS_DISPATCH_COMPLETED
-    Process 7 [SYSTEM]
+    Thread 0 in process 428 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 12566:
-    PROCESS_PREEMPTED
-    Process 7 [SYSTEM]
+At time 12335:
+    THREAD_PREEMPTED
+    Thread 0 in process 428 [SYSTEM]
     Transitioned from RUNNING to READY
 
-At time 12566:
+At time 12335:
     DISPATCHER_INVOKED
-    Process 21 [NORMAL]
-    Selected from 19 processes. Will run for at most 6 ticks.
+    Thread 2 in process 242 [NORMAL]
+    Selected from 19 threads. Will run for at most 6 ticks.
 
-At time 12611:
+At time 12380:
     PROCESS_DISPATCH_COMPLETED
-    Process 21 [NORMAL]
+    Thread 2 in process 242 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 12617:
-    PROCESS_PREEMPTED
-    Process 21 [NORMAL]
+At time 12386:
+    THREAD_PREEMPTED
+    Thread 2 in process 242 [NORMAL]
     Transitioned from RUNNING to READY
 
-At time 12617:
+At time 12386:
     DISPATCHER_INVOKED
-    Process 16 [SYSTEM]
-    Selected from 19 processes. Will run for at most 6 ticks.
+    Thread 0 in process 461 [SYSTEM]
+    Selected from 19 threads. Will run for at most 6 ticks.
 
-At time 12662:
+At time 12431:
     PROCESS_DISPATCH_COMPLETED
-    Process 16 [SYSTEM]
+    Thread 0 in process 461 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 12668:
-    PROCESS_PREEMPTED
-    Process 16 [SYSTEM]
+At time 12437:
+    THREAD_PREEMPTED
+    Thread 0 in process 461 [SYSTEM]
     Transitioned from RUNNING to READY
 
-At time 12668:
+At time 12437:
     DISPATCHER_INVOKED
-    Process 9 [NORMAL]
-    Selected from 19 processes. Will run for at most 6 ticks.
+    Thread 0 in process 687 [NORMAL]
+    Selected from 19 threads. Will run for at most 6 ticks.
 
-At time 12713:
+At time 12482:
     PROCESS_DISPATCH_COMPLETED
-    Process 9 [NORMAL]
+    Thread 0 in process 687 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 12715:
+At time 12484:
     CPU_BURST_COMPLETED
-    Process 9 [NORMAL]
+    Thread 0 in process 687 [NORMAL]
     Transitioned from RUNNING to BLOCKED
 
-At time 12715:
+At time 12484:
     DISPATCHER_INVOKED
-    Process 1 [SYSTEM]
-    Selected from 18 processes. Will run for at most 6 ticks.
+    Thread 1 in process 729 [SYSTEM]
+    Selected from 18 threads. Will run for at most 6 ticks.
 
-At time 12719:
+At time 12488:
     IO_BURST_COMPLETED
-    Process 9 [NORMAL]
+    Thread 0 in process 687 [NORMAL]
     Transitioned from BLOCKED to READY
 
-At time 12760:
+At time 12529:
     PROCESS_DISPATCH_COMPLETED
-    Process 1 [SYSTEM]
+    Thread 1 in process 729 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 12766:
-    PROCESS_PREEMPTED
-    Process 1 [SYSTEM]
+At time 12535:
+    THREAD_PREEMPTED
+    Thread 1 in process 729 [SYSTEM]
     Transitioned from RUNNING to READY
 
-At time 12766:
+At time 12535:
     DISPATCHER_INVOKED
-    Process 4 [SYSTEM]
-    Selected from 19 processes. Will run for at most 6 ticks.
+    Thread 1 in process 104 [SYSTEM]
+    Selected from 19 threads. Will run for at most 6 ticks.
 
-At time 12811:
+At time 12580:
     PROCESS_DISPATCH_COMPLETED
-    Process 4 [SYSTEM]
+    Thread 1 in process 104 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 12813:
+At time 12582:
     CPU_BURST_COMPLETED
-    Process 4 [SYSTEM]
+    Thread 1 in process 104 [SYSTEM]
     Transitioned from RUNNING to BLOCKED
 
-At time 12813:
+At time 12582:
     DISPATCHER_INVOKED
-    Process 6 [SYSTEM]
-    Selected from 18 processes. Will run for at most 6 ticks.
+    Thread 3 in process 104 [SYSTEM]
+    Selected from 18 threads. Will run for at most 6 ticks.
 
-At time 12826:
+At time 12595:
     IO_BURST_COMPLETED
-    Process 4 [SYSTEM]
+    Thread 1 in process 104 [SYSTEM]
     Transitioned from BLOCKED to READY
 
-At time 12858:
-    PROCESS_DISPATCH_COMPLETED
-    Process 6 [SYSTEM]
+At time 12606:
+    THREAD_DISPATCH_COMPLETED
+    Thread 3 in process 104 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 12864:
-    PROCESS_PREEMPTED
-    Process 6 [SYSTEM]
+At time 12612:
+    THREAD_PREEMPTED
+    Thread 3 in process 104 [SYSTEM]
     Transitioned from RUNNING to READY
 
-At time 12864:
+At time 12612:
     DISPATCHER_INVOKED
-    Process 2 [SYSTEM]
-    Selected from 19 processes. Will run for at most 6 ticks.
+    Thread 2 in process 729 [SYSTEM]
+    Selected from 19 threads. Will run for at most 6 ticks.
 
-At time 12909:
+At time 12657:
     PROCESS_DISPATCH_COMPLETED
-    Process 2 [SYSTEM]
+    Thread 2 in process 729 [SYSTEM]
+    Transitioned from READY to RUNNING
+
+At time 12663:
+    THREAD_PREEMPTED
+    Thread 2 in process 729 [SYSTEM]
+    Transitioned from RUNNING to READY
+
+At time 12663:
+    DISPATCHER_INVOKED
+    Thread 0 in process 242 [NORMAL]
+    Selected from 19 threads. Will run for at most 6 ticks.
+
+At time 12708:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 242 [NORMAL]
+    Transitioned from READY to RUNNING
+
+At time 12714:
+    THREAD_PREEMPTED
+    Thread 0 in process 242 [NORMAL]
+    Transitioned from RUNNING to READY
+
+At time 12714:
+    DISPATCHER_INVOKED
+    Thread 0 in process 71 [SYSTEM]
+    Selected from 19 threads. Will run for at most 6 ticks.
+
+At time 12759:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 71 [SYSTEM]
+    Transitioned from READY to RUNNING
+
+At time 12765:
+    THREAD_PREEMPTED
+    Thread 0 in process 71 [SYSTEM]
+    Transitioned from RUNNING to READY
+
+At time 12765:
+    DISPATCHER_INVOKED
+    Thread 3 in process 687 [NORMAL]
+    Selected from 19 threads. Will run for at most 6 ticks.
+
+At time 12810:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 3 in process 687 [NORMAL]
+    Transitioned from READY to RUNNING
+
+At time 12816:
+    THREAD_PREEMPTED
+    Thread 3 in process 687 [NORMAL]
+    Transitioned from RUNNING to READY
+
+At time 12816:
+    DISPATCHER_INVOKED
+    Thread 1 in process 461 [SYSTEM]
+    Selected from 19 threads. Will run for at most 6 ticks.
+
+At time 12861:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 1 in process 461 [SYSTEM]
+    Transitioned from READY to RUNNING
+
+At time 12865:
+    THREAD_COMPLETED
+    Thread 1 in process 461 [SYSTEM]
+    Transitioned from RUNNING to EXIT
+
+At time 12865:
+    DISPATCHER_INVOKED
+    Thread 2 in process 320 [NORMAL]
+    Selected from 18 threads. Will run for at most 6 ticks.
+
+At time 12910:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 2 in process 320 [NORMAL]
     Transitioned from READY to RUNNING
 
 At time 12915:
-    PROCESS_PREEMPTED
-    Process 2 [SYSTEM]
-    Transitioned from RUNNING to READY
+    CPU_BURST_COMPLETED
+    Thread 2 in process 320 [NORMAL]
+    Transitioned from RUNNING to BLOCKED
 
 At time 12915:
     DISPATCHER_INVOKED
-    Process 19 [NORMAL]
-    Selected from 19 processes. Will run for at most 6 ticks.
+    Thread 1 in process 242 [NORMAL]
+    Selected from 17 threads. Will run for at most 6 ticks.
+
+At time 12928:
+    IO_BURST_COMPLETED
+    Thread 2 in process 320 [NORMAL]
+    Transitioned from BLOCKED to READY
 
 At time 12960:
     PROCESS_DISPATCH_COMPLETED
-    Process 19 [NORMAL]
+    Thread 1 in process 242 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 12966:
-    PROCESS_PREEMPTED
-    Process 19 [NORMAL]
+At time 12961:
+    CPU_BURST_COMPLETED
+    Thread 1 in process 242 [NORMAL]
+    Transitioned from RUNNING to BLOCKED
+
+At time 12961:
+    DISPATCHER_INVOKED
+    Thread 2 in process 687 [NORMAL]
+    Selected from 17 threads. Will run for at most 6 ticks.
+
+At time 12990:
+    IO_BURST_COMPLETED
+    Thread 1 in process 242 [NORMAL]
+    Transitioned from BLOCKED to READY
+
+At time 13006:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 2 in process 687 [NORMAL]
+    Transitioned from READY to RUNNING
+
+At time 13012:
+    THREAD_PREEMPTED
+    Thread 2 in process 687 [NORMAL]
     Transitioned from RUNNING to READY
 
-At time 12966:
+At time 13012:
     DISPATCHER_INVOKED
-    Process 22 [SYSTEM]
-    Selected from 19 processes. Will run for at most 6 ticks.
+    Thread 0 in process 104 [SYSTEM]
+    Selected from 18 threads. Will run for at most 6 ticks.
 
-At time 13011:
+At time 13057:
     PROCESS_DISPATCH_COMPLETED
-    Process 22 [SYSTEM]
+    Thread 0 in process 104 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 13017:
-    PROCESS_PREEMPTED
-    Process 22 [SYSTEM]
-    Transitioned from RUNNING to READY
-
-At time 13017:
-    DISPATCHER_INVOKED
-    Process 12 [NORMAL]
-    Selected from 19 processes. Will run for at most 6 ticks.
-
-At time 13062:
-    PROCESS_DISPATCH_COMPLETED
-    Process 12 [NORMAL]
-    Transitioned from READY to RUNNING
-
-At time 13068:
-    PROCESS_PREEMPTED
-    Process 12 [NORMAL]
-    Transitioned from RUNNING to READY
-
-At time 13068:
-    DISPATCHER_INVOKED
-    Process 17 [SYSTEM]
-    Selected from 19 processes. Will run for at most 6 ticks.
-
-At time 13113:
-    PROCESS_DISPATCH_COMPLETED
-    Process 17 [SYSTEM]
-    Transitioned from READY to RUNNING
-
-At time 13117:
-    PROCESS_COMPLETED
-    Process 17 [SYSTEM]
+At time 13058:
+    THREAD_COMPLETED
+    Thread 0 in process 104 [SYSTEM]
     Transitioned from RUNNING to EXIT
 
-At time 13117:
+At time 13058:
     DISPATCHER_INVOKED
-    Process 15 [NORMAL]
-    Selected from 18 processes. Will run for at most 6 ticks.
+    Thread 1 in process 320 [NORMAL]
+    Selected from 17 threads. Will run for at most 6 ticks.
 
-At time 13162:
+At time 13103:
     PROCESS_DISPATCH_COMPLETED
-    Process 15 [NORMAL]
+    Thread 1 in process 320 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 13167:
-    CPU_BURST_COMPLETED
-    Process 15 [NORMAL]
-    Transitioned from RUNNING to BLOCKED
-
-At time 13167:
-    DISPATCHER_INVOKED
-    Process 20 [NORMAL]
-    Selected from 17 processes. Will run for at most 6 ticks.
-
-At time 13180:
-    IO_BURST_COMPLETED
-    Process 15 [NORMAL]
-    Transitioned from BLOCKED to READY
-
-At time 13212:
-    PROCESS_DISPATCH_COMPLETED
-    Process 20 [NORMAL]
-    Transitioned from READY to RUNNING
-
-At time 13213:
-    CPU_BURST_COMPLETED
-    Process 20 [NORMAL]
-    Transitioned from RUNNING to BLOCKED
-
-At time 13213:
-    DISPATCHER_INVOKED
-    Process 11 [NORMAL]
-    Selected from 17 processes. Will run for at most 6 ticks.
-
-At time 13242:
-    IO_BURST_COMPLETED
-    Process 20 [NORMAL]
-    Transitioned from BLOCKED to READY
-
-At time 13258:
-    PROCESS_DISPATCH_COMPLETED
-    Process 11 [NORMAL]
-    Transitioned from READY to RUNNING
-
-At time 13264:
-    PROCESS_PREEMPTED
-    Process 11 [NORMAL]
+At time 13109:
+    THREAD_PREEMPTED
+    Thread 1 in process 320 [NORMAL]
     Transitioned from RUNNING to READY
 
-At time 13264:
+At time 13109:
     DISPATCHER_INVOKED
-    Process 3 [SYSTEM]
-    Selected from 18 processes. Will run for at most 6 ticks.
+    Thread 1 in process 428 [SYSTEM]
+    Selected from 17 threads. Will run for at most 6 ticks.
 
-At time 13309:
+At time 13154:
     PROCESS_DISPATCH_COMPLETED
-    Process 3 [SYSTEM]
+    Thread 1 in process 428 [SYSTEM]
+    Transitioned from READY to RUNNING
+
+At time 13160:
+    THREAD_PREEMPTED
+    Thread 1 in process 428 [SYSTEM]
+    Transitioned from RUNNING to READY
+
+At time 13160:
+    DISPATCHER_INVOKED
+    Thread 0 in process 320 [NORMAL]
+    Selected from 17 threads. Will run for at most 6 ticks.
+
+At time 13205:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 320 [NORMAL]
+    Transitioned from READY to RUNNING
+
+At time 13211:
+    THREAD_PREEMPTED
+    Thread 0 in process 320 [NORMAL]
+    Transitioned from RUNNING to READY
+
+At time 13211:
+    DISPATCHER_INVOKED
+    Thread 0 in process 428 [SYSTEM]
+    Selected from 17 threads. Will run for at most 6 ticks.
+
+At time 13256:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 428 [SYSTEM]
+    Transitioned from READY to RUNNING
+
+At time 13259:
+    CPU_BURST_COMPLETED
+    Thread 0 in process 428 [SYSTEM]
+    Transitioned from RUNNING to BLOCKED
+
+At time 13259:
+    DISPATCHER_INVOKED
+    Thread 2 in process 242 [NORMAL]
+    Selected from 16 threads. Will run for at most 6 ticks.
+
+At time 13284:
+    IO_BURST_COMPLETED
+    Thread 0 in process 428 [SYSTEM]
+    Transitioned from BLOCKED to READY
+
+At time 13304:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 2 in process 242 [NORMAL]
     Transitioned from READY to RUNNING
 
 At time 13310:
-    PROCESS_COMPLETED
-    Process 3 [SYSTEM]
-    Transitioned from RUNNING to EXIT
+    THREAD_PREEMPTED
+    Thread 2 in process 242 [NORMAL]
+    Transitioned from RUNNING to READY
 
 At time 13310:
     DISPATCHER_INVOKED
-    Process 14 [NORMAL]
-    Selected from 17 processes. Will run for at most 6 ticks.
+    Thread 0 in process 461 [SYSTEM]
+    Selected from 17 threads. Will run for at most 6 ticks.
 
 At time 13355:
     PROCESS_DISPATCH_COMPLETED
-    Process 14 [NORMAL]
+    Thread 0 in process 461 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 13361:
-    PROCESS_PREEMPTED
-    Process 14 [NORMAL]
-    Transitioned from RUNNING to READY
+At time 13356:
+    CPU_BURST_COMPLETED
+    Thread 0 in process 461 [SYSTEM]
+    Transitioned from RUNNING to BLOCKED
 
-At time 13361:
+At time 13356:
     DISPATCHER_INVOKED
-    Process 8 [SYSTEM]
-    Selected from 17 processes. Will run for at most 6 ticks.
+    Thread 0 in process 687 [NORMAL]
+    Selected from 16 threads. Will run for at most 6 ticks.
 
-At time 13406:
+At time 13380:
+    IO_BURST_COMPLETED
+    Thread 0 in process 461 [SYSTEM]
+    Transitioned from BLOCKED to READY
+
+At time 13401:
     PROCESS_DISPATCH_COMPLETED
-    Process 8 [SYSTEM]
+    Thread 0 in process 687 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 13412:
-    PROCESS_PREEMPTED
-    Process 8 [SYSTEM]
+At time 13407:
+    THREAD_PREEMPTED
+    Thread 0 in process 687 [NORMAL]
     Transitioned from RUNNING to READY
 
-At time 13412:
+At time 13407:
     DISPATCHER_INVOKED
-    Process 13 [NORMAL]
-    Selected from 17 processes. Will run for at most 6 ticks.
+    Thread 1 in process 729 [SYSTEM]
+    Selected from 17 threads. Will run for at most 6 ticks.
+
+At time 13452:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 1 in process 729 [SYSTEM]
+    Transitioned from READY to RUNNING
 
 At time 13457:
-    PROCESS_DISPATCH_COMPLETED
-    Process 13 [NORMAL]
-    Transitioned from READY to RUNNING
+    CPU_BURST_COMPLETED
+    Thread 1 in process 729 [SYSTEM]
+    Transitioned from RUNNING to BLOCKED
 
-At time 13463:
-    PROCESS_PREEMPTED
-    Process 13 [NORMAL]
-    Transitioned from RUNNING to READY
-
-At time 13463:
+At time 13457:
     DISPATCHER_INVOKED
-    Process 7 [SYSTEM]
-    Selected from 17 processes. Will run for at most 6 ticks.
+    Thread 1 in process 104 [SYSTEM]
+    Selected from 16 threads. Will run for at most 6 ticks.
+
+At time 13459:
+    IO_BURST_COMPLETED
+    Thread 1 in process 729 [SYSTEM]
+    Transitioned from BLOCKED to READY
+
+At time 13502:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 1 in process 104 [SYSTEM]
+    Transitioned from READY to RUNNING
 
 At time 13508:
-    PROCESS_DISPATCH_COMPLETED
-    Process 7 [SYSTEM]
+    THREAD_PREEMPTED
+    Thread 1 in process 104 [SYSTEM]
+    Transitioned from RUNNING to READY
+
+At time 13508:
+    DISPATCHER_INVOKED
+    Thread 3 in process 104 [SYSTEM]
+    Selected from 17 threads. Will run for at most 6 ticks.
+
+At time 13532:
+    THREAD_DISPATCH_COMPLETED
+    Thread 3 in process 104 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 13511:
+At time 13537:
     CPU_BURST_COMPLETED
-    Process 7 [SYSTEM]
+    Thread 3 in process 104 [SYSTEM]
     Transitioned from RUNNING to BLOCKED
 
-At time 13511:
+At time 13537:
     DISPATCHER_INVOKED
-    Process 21 [NORMAL]
-    Selected from 16 processes. Will run for at most 6 ticks.
-
-At time 13536:
-    IO_BURST_COMPLETED
-    Process 7 [SYSTEM]
-    Transitioned from BLOCKED to READY
-
-At time 13556:
-    PROCESS_DISPATCH_COMPLETED
-    Process 21 [NORMAL]
-    Transitioned from READY to RUNNING
+    Thread 2 in process 729 [SYSTEM]
+    Selected from 16 threads. Will run for at most 6 ticks.
 
 At time 13562:
-    PROCESS_PREEMPTED
-    Process 21 [NORMAL]
-    Transitioned from RUNNING to READY
-
-At time 13562:
-    DISPATCHER_INVOKED
-    Process 16 [SYSTEM]
-    Selected from 17 processes. Will run for at most 6 ticks.
-
-At time 13607:
-    PROCESS_DISPATCH_COMPLETED
-    Process 16 [SYSTEM]
-    Transitioned from READY to RUNNING
-
-At time 13608:
-    CPU_BURST_COMPLETED
-    Process 16 [SYSTEM]
-    Transitioned from RUNNING to BLOCKED
-
-At time 13608:
-    DISPATCHER_INVOKED
-    Process 9 [NORMAL]
-    Selected from 16 processes. Will run for at most 6 ticks.
-
-At time 13632:
     IO_BURST_COMPLETED
-    Process 16 [SYSTEM]
+    Thread 3 in process 104 [SYSTEM]
     Transitioned from BLOCKED to READY
 
-At time 13653:
+At time 13582:
     PROCESS_DISPATCH_COMPLETED
-    Process 9 [NORMAL]
+    Thread 2 in process 729 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 13659:
-    PROCESS_PREEMPTED
-    Process 9 [NORMAL]
+At time 13588:
+    THREAD_PREEMPTED
+    Thread 2 in process 729 [SYSTEM]
     Transitioned from RUNNING to READY
 
-At time 13659:
+At time 13588:
     DISPATCHER_INVOKED
-    Process 1 [SYSTEM]
-    Selected from 17 processes. Will run for at most 6 ticks.
+    Thread 0 in process 242 [NORMAL]
+    Selected from 17 threads. Will run for at most 6 ticks.
 
-At time 13704:
+At time 13633:
     PROCESS_DISPATCH_COMPLETED
-    Process 1 [SYSTEM]
+    Thread 0 in process 242 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 13709:
+At time 13637:
     CPU_BURST_COMPLETED
-    Process 1 [SYSTEM]
+    Thread 0 in process 242 [NORMAL]
     Transitioned from RUNNING to BLOCKED
 
-At time 13709:
+At time 13637:
     DISPATCHER_INVOKED
-    Process 4 [SYSTEM]
-    Selected from 16 processes. Will run for at most 6 ticks.
+    Thread 0 in process 71 [SYSTEM]
+    Selected from 16 threads. Will run for at most 6 ticks.
 
-At time 13711:
+At time 13649:
     IO_BURST_COMPLETED
-    Process 1 [SYSTEM]
+    Thread 0 in process 242 [NORMAL]
     Transitioned from BLOCKED to READY
 
-At time 13754:
+At time 13682:
     PROCESS_DISPATCH_COMPLETED
-    Process 4 [SYSTEM]
+    Thread 0 in process 71 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 13760:
-    PROCESS_PREEMPTED
-    Process 4 [SYSTEM]
+At time 13687:
+    CPU_BURST_COMPLETED
+    Thread 0 in process 71 [SYSTEM]
+    Transitioned from RUNNING to BLOCKED
+
+At time 13687:
+    DISPATCHER_INVOKED
+    Thread 3 in process 687 [NORMAL]
+    Selected from 16 threads. Will run for at most 6 ticks.
+
+At time 13705:
+    IO_BURST_COMPLETED
+    Thread 0 in process 71 [SYSTEM]
+    Transitioned from BLOCKED to READY
+
+At time 13732:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 3 in process 687 [NORMAL]
+    Transitioned from READY to RUNNING
+
+At time 13734:
+    CPU_BURST_COMPLETED
+    Thread 3 in process 687 [NORMAL]
+    Transitioned from RUNNING to BLOCKED
+
+At time 13734:
+    DISPATCHER_INVOKED
+    Thread 2 in process 320 [NORMAL]
+    Selected from 16 threads. Will run for at most 6 ticks.
+
+At time 13759:
+    IO_BURST_COMPLETED
+    Thread 3 in process 687 [NORMAL]
+    Transitioned from BLOCKED to READY
+
+At time 13779:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 2 in process 320 [NORMAL]
+    Transitioned from READY to RUNNING
+
+At time 13785:
+    THREAD_PREEMPTED
+    Thread 2 in process 320 [NORMAL]
     Transitioned from RUNNING to READY
 
-At time 13760:
+At time 13785:
     DISPATCHER_INVOKED
-    Process 6 [SYSTEM]
-    Selected from 17 processes. Will run for at most 6 ticks.
+    Thread 1 in process 242 [NORMAL]
+    Selected from 17 threads. Will run for at most 6 ticks.
 
-At time 13805:
+At time 13830:
     PROCESS_DISPATCH_COMPLETED
-    Process 6 [SYSTEM]
+    Thread 1 in process 242 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 13810:
-    CPU_BURST_COMPLETED
-    Process 6 [SYSTEM]
-    Transitioned from RUNNING to BLOCKED
-
-At time 13810:
-    DISPATCHER_INVOKED
-    Process 2 [SYSTEM]
-    Selected from 16 processes. Will run for at most 6 ticks.
-
-At time 13835:
-    IO_BURST_COMPLETED
-    Process 6 [SYSTEM]
-    Transitioned from BLOCKED to READY
-
-At time 13855:
-    PROCESS_DISPATCH_COMPLETED
-    Process 2 [SYSTEM]
-    Transitioned from READY to RUNNING
-
-At time 13861:
-    PROCESS_PREEMPTED
-    Process 2 [SYSTEM]
+At time 13836:
+    THREAD_PREEMPTED
+    Thread 1 in process 242 [NORMAL]
     Transitioned from RUNNING to READY
 
-At time 13861:
+At time 13836:
     DISPATCHER_INVOKED
-    Process 19 [NORMAL]
-    Selected from 17 processes. Will run for at most 6 ticks.
+    Thread 2 in process 687 [NORMAL]
+    Selected from 17 threads. Will run for at most 6 ticks.
 
-At time 13906:
+At time 13881:
     PROCESS_DISPATCH_COMPLETED
-    Process 19 [NORMAL]
+    Thread 2 in process 687 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 13910:
+At time 13882:
     CPU_BURST_COMPLETED
-    Process 19 [NORMAL]
+    Thread 2 in process 687 [NORMAL]
     Transitioned from RUNNING to BLOCKED
 
-At time 13910:
+At time 13882:
     DISPATCHER_INVOKED
-    Process 22 [SYSTEM]
-    Selected from 16 processes. Will run for at most 6 ticks.
+    Thread 1 in process 320 [NORMAL]
+    Selected from 16 threads. Will run for at most 6 ticks.
 
-At time 13922:
+At time 13907:
     IO_BURST_COMPLETED
-    Process 19 [NORMAL]
+    Thread 2 in process 687 [NORMAL]
     Transitioned from BLOCKED to READY
 
-At time 13955:
+At time 13927:
     PROCESS_DISPATCH_COMPLETED
-    Process 22 [SYSTEM]
+    Thread 1 in process 320 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 13960:
-    CPU_BURST_COMPLETED
-    Process 22 [SYSTEM]
-    Transitioned from RUNNING to BLOCKED
+At time 13933:
+    THREAD_PREEMPTED
+    Thread 1 in process 320 [NORMAL]
+    Transitioned from RUNNING to READY
 
-At time 13960:
+At time 13933:
     DISPATCHER_INVOKED
-    Process 12 [NORMAL]
-    Selected from 16 processes. Will run for at most 6 ticks.
+    Thread 1 in process 428 [SYSTEM]
+    Selected from 17 threads. Will run for at most 6 ticks.
 
 At time 13978:
-    IO_BURST_COMPLETED
-    Process 22 [SYSTEM]
-    Transitioned from BLOCKED to READY
-
-At time 14005:
     PROCESS_DISPATCH_COMPLETED
-    Process 12 [NORMAL]
+    Thread 1 in process 428 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 14007:
+At time 13984:
+    THREAD_PREEMPTED
+    Thread 1 in process 428 [SYSTEM]
+    Transitioned from RUNNING to READY
+
+At time 13984:
+    DISPATCHER_INVOKED
+    Thread 0 in process 320 [NORMAL]
+    Selected from 17 threads. Will run for at most 6 ticks.
+
+At time 14029:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 320 [NORMAL]
+    Transitioned from READY to RUNNING
+
+At time 14030:
     CPU_BURST_COMPLETED
-    Process 12 [NORMAL]
+    Thread 0 in process 320 [NORMAL]
     Transitioned from RUNNING to BLOCKED
 
-At time 14007:
+At time 14030:
     DISPATCHER_INVOKED
-    Process 15 [NORMAL]
-    Selected from 16 processes. Will run for at most 6 ticks.
+    Thread 0 in process 428 [SYSTEM]
+    Selected from 16 threads. Will run for at most 6 ticks.
 
-At time 14032:
+At time 14038:
     IO_BURST_COMPLETED
-    Process 12 [NORMAL]
+    Thread 0 in process 320 [NORMAL]
     Transitioned from BLOCKED to READY
 
-At time 14052:
+At time 14075:
     PROCESS_DISPATCH_COMPLETED
-    Process 15 [NORMAL]
+    Thread 0 in process 428 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 14058:
-    PROCESS_PREEMPTED
-    Process 15 [NORMAL]
-    Transitioned from RUNNING to READY
-
-At time 14058:
-    DISPATCHER_INVOKED
-    Process 20 [NORMAL]
-    Selected from 17 processes. Will run for at most 6 ticks.
-
-At time 14103:
-    PROCESS_DISPATCH_COMPLETED
-    Process 20 [NORMAL]
-    Transitioned from READY to RUNNING
-
-At time 14109:
-    PROCESS_PREEMPTED
-    Process 20 [NORMAL]
-    Transitioned from RUNNING to READY
-
-At time 14109:
-    DISPATCHER_INVOKED
-    Process 11 [NORMAL]
-    Selected from 17 processes. Will run for at most 6 ticks.
-
-At time 14154:
-    PROCESS_DISPATCH_COMPLETED
-    Process 11 [NORMAL]
-    Transitioned from READY to RUNNING
-
-At time 14155:
-    CPU_BURST_COMPLETED
-    Process 11 [NORMAL]
-    Transitioned from RUNNING to BLOCKED
-
-At time 14155:
-    DISPATCHER_INVOKED
-    Process 14 [NORMAL]
-    Selected from 16 processes. Will run for at most 6 ticks.
-
-At time 14180:
-    IO_BURST_COMPLETED
-    Process 11 [NORMAL]
-    Transitioned from BLOCKED to READY
-
-At time 14200:
-    PROCESS_DISPATCH_COMPLETED
-    Process 14 [NORMAL]
-    Transitioned from READY to RUNNING
-
-At time 14206:
-    PROCESS_PREEMPTED
-    Process 14 [NORMAL]
-    Transitioned from RUNNING to READY
-
-At time 14206:
-    DISPATCHER_INVOKED
-    Process 8 [SYSTEM]
-    Selected from 17 processes. Will run for at most 6 ticks.
-
-At time 14251:
-    PROCESS_DISPATCH_COMPLETED
-    Process 8 [SYSTEM]
-    Transitioned from READY to RUNNING
-
-At time 14257:
-    PROCESS_PREEMPTED
-    Process 8 [SYSTEM]
-    Transitioned from RUNNING to READY
-
-At time 14257:
-    DISPATCHER_INVOKED
-    Process 13 [NORMAL]
-    Selected from 17 processes. Will run for at most 6 ticks.
-
-At time 14302:
-    PROCESS_DISPATCH_COMPLETED
-    Process 13 [NORMAL]
-    Transitioned from READY to RUNNING
-
-At time 14303:
-    CPU_BURST_COMPLETED
-    Process 13 [NORMAL]
-    Transitioned from RUNNING to BLOCKED
-
-At time 14303:
-    DISPATCHER_INVOKED
-    Process 7 [SYSTEM]
-    Selected from 16 processes. Will run for at most 6 ticks.
-
-At time 14311:
-    IO_BURST_COMPLETED
-    Process 13 [NORMAL]
-    Transitioned from BLOCKED to READY
-
-At time 14348:
-    PROCESS_DISPATCH_COMPLETED
-    Process 7 [SYSTEM]
-    Transitioned from READY to RUNNING
-
-At time 14349:
-    PROCESS_COMPLETED
-    Process 7 [SYSTEM]
+At time 14076:
+    THREAD_COMPLETED
+    Thread 0 in process 428 [SYSTEM]
     Transitioned from RUNNING to EXIT
 
-At time 14349:
+At time 14076:
     DISPATCHER_INVOKED
-    Process 21 [NORMAL]
-    Selected from 16 processes. Will run for at most 6 ticks.
+    Thread 2 in process 242 [NORMAL]
+    Selected from 16 threads. Will run for at most 6 ticks.
 
-At time 14394:
+At time 14121:
     PROCESS_DISPATCH_COMPLETED
-    Process 21 [NORMAL]
+    Thread 2 in process 242 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 14398:
+At time 14125:
     CPU_BURST_COMPLETED
-    Process 21 [NORMAL]
+    Thread 2 in process 242 [NORMAL]
     Transitioned from RUNNING to BLOCKED
 
-At time 14398:
+At time 14125:
     DISPATCHER_INVOKED
-    Process 16 [SYSTEM]
-    Selected from 15 processes. Will run for at most 6 ticks.
+    Thread 0 in process 461 [SYSTEM]
+    Selected from 15 threads. Will run for at most 6 ticks.
 
-At time 14421:
+At time 14148:
     IO_BURST_COMPLETED
-    Process 21 [NORMAL]
+    Thread 2 in process 242 [NORMAL]
     Transitioned from BLOCKED to READY
 
-At time 14443:
+At time 14170:
     PROCESS_DISPATCH_COMPLETED
-    Process 16 [SYSTEM]
+    Thread 0 in process 461 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 14449:
+At time 14176:
     CPU_BURST_COMPLETED
-    Process 16 [SYSTEM]
+    Thread 0 in process 461 [SYSTEM]
     Transitioned from RUNNING to BLOCKED
 
-At time 14449:
+At time 14176:
     DISPATCHER_INVOKED
-    Process 9 [NORMAL]
-    Selected from 15 processes. Will run for at most 6 ticks.
+    Thread 0 in process 687 [NORMAL]
+    Selected from 15 threads. Will run for at most 6 ticks.
 
-At time 14477:
+At time 14204:
     IO_BURST_COMPLETED
-    Process 16 [SYSTEM]
+    Thread 0 in process 461 [SYSTEM]
     Transitioned from BLOCKED to READY
 
-At time 14494:
+At time 14221:
     PROCESS_DISPATCH_COMPLETED
-    Process 9 [NORMAL]
+    Thread 0 in process 687 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 14500:
-    PROCESS_PREEMPTED
-    Process 9 [NORMAL]
+At time 14227:
+    THREAD_PREEMPTED
+    Thread 0 in process 687 [NORMAL]
     Transitioned from RUNNING to READY
 
-At time 14500:
+At time 14227:
     DISPATCHER_INVOKED
-    Process 1 [SYSTEM]
-    Selected from 16 processes. Will run for at most 6 ticks.
+    Thread 1 in process 729 [SYSTEM]
+    Selected from 16 threads. Will run for at most 6 ticks.
 
-At time 14545:
+At time 14272:
     PROCESS_DISPATCH_COMPLETED
-    Process 1 [SYSTEM]
+    Thread 1 in process 729 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 14551:
-    PROCESS_PREEMPTED
-    Process 1 [SYSTEM]
+At time 14278:
+    THREAD_PREEMPTED
+    Thread 1 in process 729 [SYSTEM]
     Transitioned from RUNNING to READY
 
-At time 14551:
+At time 14278:
     DISPATCHER_INVOKED
-    Process 4 [SYSTEM]
-    Selected from 16 processes. Will run for at most 6 ticks.
+    Thread 1 in process 104 [SYSTEM]
+    Selected from 16 threads. Will run for at most 6 ticks.
 
-At time 14596:
+At time 14323:
     PROCESS_DISPATCH_COMPLETED
-    Process 4 [SYSTEM]
+    Thread 1 in process 104 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 14602:
-    PROCESS_PREEMPTED
-    Process 4 [SYSTEM]
+At time 14329:
+    THREAD_PREEMPTED
+    Thread 1 in process 104 [SYSTEM]
     Transitioned from RUNNING to READY
 
-At time 14602:
+At time 14329:
     DISPATCHER_INVOKED
-    Process 6 [SYSTEM]
-    Selected from 16 processes. Will run for at most 6 ticks.
+    Thread 3 in process 104 [SYSTEM]
+    Selected from 16 threads. Will run for at most 6 ticks.
 
-At time 14647:
-    PROCESS_DISPATCH_COMPLETED
-    Process 6 [SYSTEM]
+At time 14353:
+    THREAD_DISPATCH_COMPLETED
+    Thread 3 in process 104 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 14653:
-    PROCESS_PREEMPTED
-    Process 6 [SYSTEM]
+At time 14359:
+    THREAD_PREEMPTED
+    Thread 3 in process 104 [SYSTEM]
     Transitioned from RUNNING to READY
 
-At time 14653:
+At time 14359:
     DISPATCHER_INVOKED
-    Process 2 [SYSTEM]
-    Selected from 16 processes. Will run for at most 6 ticks.
+    Thread 2 in process 729 [SYSTEM]
+    Selected from 16 threads. Will run for at most 6 ticks.
 
-At time 14698:
+At time 14404:
     PROCESS_DISPATCH_COMPLETED
-    Process 2 [SYSTEM]
+    Thread 2 in process 729 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 14704:
-    PROCESS_COMPLETED
-    Process 2 [SYSTEM]
+At time 14410:
+    THREAD_COMPLETED
+    Thread 2 in process 729 [SYSTEM]
     Transitioned from RUNNING to EXIT
 
-At time 14704:
+At time 14410:
     DISPATCHER_INVOKED
-    Process 19 [NORMAL]
-    Selected from 15 processes. Will run for at most 6 ticks.
+    Thread 0 in process 242 [NORMAL]
+    Selected from 15 threads. Will run for at most 6 ticks.
 
-At time 14749:
+At time 14455:
     PROCESS_DISPATCH_COMPLETED
-    Process 19 [NORMAL]
+    Thread 0 in process 242 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 14755:
-    PROCESS_PREEMPTED
-    Process 19 [NORMAL]
+At time 14461:
+    THREAD_PREEMPTED
+    Thread 0 in process 242 [NORMAL]
     Transitioned from RUNNING to READY
 
-At time 14755:
+At time 14461:
     DISPATCHER_INVOKED
-    Process 22 [SYSTEM]
-    Selected from 15 processes. Will run for at most 6 ticks.
+    Thread 0 in process 71 [SYSTEM]
+    Selected from 15 threads. Will run for at most 6 ticks.
 
-At time 14800:
+At time 14506:
     PROCESS_DISPATCH_COMPLETED
-    Process 22 [SYSTEM]
+    Thread 0 in process 71 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 14806:
+At time 14512:
     CPU_BURST_COMPLETED
-    Process 22 [SYSTEM]
+    Thread 0 in process 71 [SYSTEM]
     Transitioned from RUNNING to BLOCKED
 
-At time 14806:
+At time 14512:
     DISPATCHER_INVOKED
-    Process 12 [NORMAL]
-    Selected from 14 processes. Will run for at most 6 ticks.
+    Thread 3 in process 687 [NORMAL]
+    Selected from 14 threads. Will run for at most 6 ticks.
 
-At time 14815:
+At time 14521:
     IO_BURST_COMPLETED
-    Process 22 [SYSTEM]
+    Thread 0 in process 71 [SYSTEM]
     Transitioned from BLOCKED to READY
 
-At time 14851:
+At time 14557:
     PROCESS_DISPATCH_COMPLETED
-    Process 12 [NORMAL]
+    Thread 3 in process 687 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 14857:
-    PROCESS_PREEMPTED
-    Process 12 [NORMAL]
+At time 14563:
+    THREAD_PREEMPTED
+    Thread 3 in process 687 [NORMAL]
     Transitioned from RUNNING to READY
 
-At time 14857:
+At time 14563:
     DISPATCHER_INVOKED
-    Process 15 [NORMAL]
-    Selected from 15 processes. Will run for at most 6 ticks.
+    Thread 2 in process 320 [NORMAL]
+    Selected from 15 threads. Will run for at most 6 ticks.
 
-At time 14902:
+At time 14608:
     PROCESS_DISPATCH_COMPLETED
-    Process 15 [NORMAL]
+    Thread 2 in process 320 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 14908:
-    PROCESS_PREEMPTED
-    Process 15 [NORMAL]
+At time 14614:
+    THREAD_PREEMPTED
+    Thread 2 in process 320 [NORMAL]
     Transitioned from RUNNING to READY
 
-At time 14908:
+At time 14614:
     DISPATCHER_INVOKED
-    Process 20 [NORMAL]
-    Selected from 15 processes. Will run for at most 6 ticks.
+    Thread 1 in process 242 [NORMAL]
+    Selected from 15 threads. Will run for at most 6 ticks.
 
-At time 14953:
+At time 14659:
     PROCESS_DISPATCH_COMPLETED
-    Process 20 [NORMAL]
+    Thread 1 in process 242 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 14959:
-    PROCESS_PREEMPTED
-    Process 20 [NORMAL]
+At time 14665:
+    THREAD_PREEMPTED
+    Thread 1 in process 242 [NORMAL]
     Transitioned from RUNNING to READY
 
-At time 14959:
+At time 14665:
     DISPATCHER_INVOKED
-    Process 11 [NORMAL]
-    Selected from 15 processes. Will run for at most 6 ticks.
+    Thread 2 in process 687 [NORMAL]
+    Selected from 15 threads. Will run for at most 6 ticks.
 
-At time 15004:
+At time 14710:
     PROCESS_DISPATCH_COMPLETED
-    Process 11 [NORMAL]
+    Thread 2 in process 687 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 15010:
-    PROCESS_PREEMPTED
-    Process 11 [NORMAL]
+At time 14716:
+    THREAD_PREEMPTED
+    Thread 2 in process 687 [NORMAL]
     Transitioned from RUNNING to READY
 
-At time 15010:
+At time 14716:
     DISPATCHER_INVOKED
-    Process 14 [NORMAL]
-    Selected from 15 processes. Will run for at most 6 ticks.
+    Thread 1 in process 320 [NORMAL]
+    Selected from 15 threads. Will run for at most 6 ticks.
 
-At time 15055:
+At time 14761:
     PROCESS_DISPATCH_COMPLETED
-    Process 14 [NORMAL]
+    Thread 1 in process 320 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 15061:
-    PROCESS_PREEMPTED
-    Process 14 [NORMAL]
+At time 14767:
+    THREAD_PREEMPTED
+    Thread 1 in process 320 [NORMAL]
     Transitioned from RUNNING to READY
 
-At time 15061:
+At time 14767:
     DISPATCHER_INVOKED
-    Process 8 [SYSTEM]
-    Selected from 15 processes. Will run for at most 6 ticks.
+    Thread 1 in process 428 [SYSTEM]
+    Selected from 15 threads. Will run for at most 6 ticks.
 
-At time 15106:
+At time 14812:
     PROCESS_DISPATCH_COMPLETED
-    Process 8 [SYSTEM]
+    Thread 1 in process 428 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 15112:
-    PROCESS_PREEMPTED
-    Process 8 [SYSTEM]
+At time 14818:
+    THREAD_PREEMPTED
+    Thread 1 in process 428 [SYSTEM]
     Transitioned from RUNNING to READY
 
-At time 15112:
+At time 14818:
     DISPATCHER_INVOKED
-    Process 13 [NORMAL]
-    Selected from 15 processes. Will run for at most 6 ticks.
+    Thread 0 in process 320 [NORMAL]
+    Selected from 15 threads. Will run for at most 6 ticks.
 
-At time 15157:
+At time 14863:
     PROCESS_DISPATCH_COMPLETED
-    Process 13 [NORMAL]
+    Thread 0 in process 320 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 15163:
-    PROCESS_PREEMPTED
-    Process 13 [NORMAL]
+At time 14869:
+    THREAD_PREEMPTED
+    Thread 0 in process 320 [NORMAL]
     Transitioned from RUNNING to READY
 
-At time 15163:
+At time 14869:
     DISPATCHER_INVOKED
-    Process 21 [NORMAL]
-    Selected from 15 processes. Will run for at most 6 ticks.
+    Thread 2 in process 242 [NORMAL]
+    Selected from 15 threads. Will run for at most 6 ticks.
 
-At time 15208:
+At time 14914:
     PROCESS_DISPATCH_COMPLETED
-    Process 21 [NORMAL]
+    Thread 2 in process 242 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 15214:
-    PROCESS_PREEMPTED
-    Process 21 [NORMAL]
+At time 14920:
+    THREAD_PREEMPTED
+    Thread 2 in process 242 [NORMAL]
     Transitioned from RUNNING to READY
 
-At time 15214:
+At time 14920:
     DISPATCHER_INVOKED
-    Process 16 [SYSTEM]
-    Selected from 15 processes. Will run for at most 6 ticks.
+    Thread 0 in process 461 [SYSTEM]
+    Selected from 15 threads. Will run for at most 6 ticks.
 
-At time 15259:
+At time 14965:
     PROCESS_DISPATCH_COMPLETED
-    Process 16 [SYSTEM]
+    Thread 0 in process 461 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 15265:
-    PROCESS_PREEMPTED
-    Process 16 [SYSTEM]
+At time 14971:
+    THREAD_PREEMPTED
+    Thread 0 in process 461 [SYSTEM]
     Transitioned from RUNNING to READY
 
-At time 15265:
+At time 14971:
     DISPATCHER_INVOKED
-    Process 9 [NORMAL]
-    Selected from 15 processes. Will run for at most 6 ticks.
+    Thread 0 in process 687 [NORMAL]
+    Selected from 15 threads. Will run for at most 6 ticks.
 
-At time 15310:
+At time 15016:
     PROCESS_DISPATCH_COMPLETED
-    Process 9 [NORMAL]
+    Thread 0 in process 687 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 15316:
-    PROCESS_PREEMPTED
-    Process 9 [NORMAL]
+At time 15022:
+    THREAD_PREEMPTED
+    Thread 0 in process 687 [NORMAL]
     Transitioned from RUNNING to READY
 
-At time 15316:
+At time 15022:
     DISPATCHER_INVOKED
-    Process 1 [SYSTEM]
-    Selected from 15 processes. Will run for at most 6 ticks.
+    Thread 1 in process 729 [SYSTEM]
+    Selected from 15 threads. Will run for at most 6 ticks.
 
-At time 15361:
+At time 15067:
     PROCESS_DISPATCH_COMPLETED
-    Process 1 [SYSTEM]
+    Thread 1 in process 729 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 15364:
+At time 15070:
     CPU_BURST_COMPLETED
-    Process 1 [SYSTEM]
+    Thread 1 in process 729 [SYSTEM]
     Transitioned from RUNNING to BLOCKED
 
-At time 15364:
+At time 15070:
     DISPATCHER_INVOKED
-    Process 4 [SYSTEM]
-    Selected from 14 processes. Will run for at most 6 ticks.
+    Thread 1 in process 104 [SYSTEM]
+    Selected from 14 threads. Will run for at most 6 ticks.
 
-At time 15370:
+At time 15076:
     IO_BURST_COMPLETED
-    Process 1 [SYSTEM]
+    Thread 1 in process 729 [SYSTEM]
     Transitioned from BLOCKED to READY
 
-At time 15409:
+At time 15115:
     PROCESS_DISPATCH_COMPLETED
-    Process 4 [SYSTEM]
+    Thread 1 in process 104 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 15415:
-    PROCESS_PREEMPTED
-    Process 4 [SYSTEM]
+At time 15121:
+    THREAD_PREEMPTED
+    Thread 1 in process 104 [SYSTEM]
     Transitioned from RUNNING to READY
 
-At time 15415:
+At time 15121:
     DISPATCHER_INVOKED
-    Process 6 [SYSTEM]
-    Selected from 15 processes. Will run for at most 6 ticks.
+    Thread 3 in process 104 [SYSTEM]
+    Selected from 15 threads. Will run for at most 6 ticks.
 
-At time 15460:
-    PROCESS_DISPATCH_COMPLETED
-    Process 6 [SYSTEM]
+At time 15145:
+    THREAD_DISPATCH_COMPLETED
+    Thread 3 in process 104 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 15466:
-    PROCESS_PREEMPTED
-    Process 6 [SYSTEM]
+At time 15151:
+    THREAD_PREEMPTED
+    Thread 3 in process 104 [SYSTEM]
     Transitioned from RUNNING to READY
 
-At time 15466:
+At time 15151:
     DISPATCHER_INVOKED
-    Process 19 [NORMAL]
-    Selected from 15 processes. Will run for at most 6 ticks.
+    Thread 0 in process 242 [NORMAL]
+    Selected from 15 threads. Will run for at most 6 ticks.
 
-At time 15511:
+At time 15196:
     PROCESS_DISPATCH_COMPLETED
-    Process 19 [NORMAL]
+    Thread 0 in process 242 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 15517:
-    PROCESS_PREEMPTED
-    Process 19 [NORMAL]
+At time 15202:
+    THREAD_PREEMPTED
+    Thread 0 in process 242 [NORMAL]
     Transitioned from RUNNING to READY
 
-At time 15517:
+At time 15202:
     DISPATCHER_INVOKED
-    Process 22 [SYSTEM]
-    Selected from 15 processes. Will run for at most 6 ticks.
+    Thread 0 in process 71 [SYSTEM]
+    Selected from 15 threads. Will run for at most 6 ticks.
 
-At time 15562:
+At time 15247:
     PROCESS_DISPATCH_COMPLETED
-    Process 22 [SYSTEM]
+    Thread 0 in process 71 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 15568:
-    PROCESS_PREEMPTED
-    Process 22 [SYSTEM]
+At time 15253:
+    THREAD_PREEMPTED
+    Thread 0 in process 71 [SYSTEM]
     Transitioned from RUNNING to READY
 
-At time 15568:
+At time 15253:
     DISPATCHER_INVOKED
-    Process 12 [NORMAL]
-    Selected from 15 processes. Will run for at most 6 ticks.
+    Thread 3 in process 687 [NORMAL]
+    Selected from 15 threads. Will run for at most 6 ticks.
 
-At time 15613:
+At time 15298:
     PROCESS_DISPATCH_COMPLETED
-    Process 12 [NORMAL]
+    Thread 3 in process 687 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 15619:
-    PROCESS_PREEMPTED
-    Process 12 [NORMAL]
+At time 15304:
+    THREAD_PREEMPTED
+    Thread 3 in process 687 [NORMAL]
     Transitioned from RUNNING to READY
 
-At time 15619:
+At time 15304:
     DISPATCHER_INVOKED
-    Process 15 [NORMAL]
-    Selected from 15 processes. Will run for at most 6 ticks.
+    Thread 2 in process 320 [NORMAL]
+    Selected from 15 threads. Will run for at most 6 ticks.
 
-At time 15664:
+At time 15349:
     PROCESS_DISPATCH_COMPLETED
-    Process 15 [NORMAL]
+    Thread 2 in process 320 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 15665:
-    PROCESS_COMPLETED
-    Process 15 [NORMAL]
+At time 15350:
+    THREAD_COMPLETED
+    Thread 2 in process 320 [NORMAL]
     Transitioned from RUNNING to EXIT
 
-At time 15665:
+At time 15350:
     DISPATCHER_INVOKED
-    Process 20 [NORMAL]
-    Selected from 14 processes. Will run for at most 6 ticks.
+    Thread 1 in process 242 [NORMAL]
+    Selected from 14 threads. Will run for at most 6 ticks.
 
-At time 15710:
+At time 15395:
     PROCESS_DISPATCH_COMPLETED
-    Process 20 [NORMAL]
+    Thread 1 in process 242 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 15716:
-    PROCESS_PREEMPTED
-    Process 20 [NORMAL]
+At time 15401:
+    THREAD_PREEMPTED
+    Thread 1 in process 242 [NORMAL]
     Transitioned from RUNNING to READY
 
-At time 15716:
+At time 15401:
     DISPATCHER_INVOKED
-    Process 11 [NORMAL]
-    Selected from 14 processes. Will run for at most 6 ticks.
+    Thread 2 in process 687 [NORMAL]
+    Selected from 14 threads. Will run for at most 6 ticks.
 
-At time 15761:
+At time 15446:
     PROCESS_DISPATCH_COMPLETED
-    Process 11 [NORMAL]
+    Thread 2 in process 687 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 15766:
-    PROCESS_COMPLETED
-    Process 11 [NORMAL]
+At time 15451:
+    THREAD_COMPLETED
+    Thread 2 in process 687 [NORMAL]
     Transitioned from RUNNING to EXIT
 
-At time 15766:
+At time 15451:
     DISPATCHER_INVOKED
-    Process 14 [NORMAL]
-    Selected from 13 processes. Will run for at most 6 ticks.
+    Thread 1 in process 320 [NORMAL]
+    Selected from 13 threads. Will run for at most 6 ticks.
 
-At time 15811:
+At time 15496:
     PROCESS_DISPATCH_COMPLETED
-    Process 14 [NORMAL]
+    Thread 1 in process 320 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 15814:
+At time 15499:
     CPU_BURST_COMPLETED
-    Process 14 [NORMAL]
+    Thread 1 in process 320 [NORMAL]
     Transitioned from RUNNING to BLOCKED
 
-At time 15814:
+At time 15499:
     DISPATCHER_INVOKED
-    Process 8 [SYSTEM]
-    Selected from 12 processes. Will run for at most 6 ticks.
+    Thread 1 in process 428 [SYSTEM]
+    Selected from 12 threads. Will run for at most 6 ticks.
 
-At time 15821:
+At time 15506:
     IO_BURST_COMPLETED
-    Process 14 [NORMAL]
+    Thread 1 in process 320 [NORMAL]
     Transitioned from BLOCKED to READY
 
-At time 15859:
+At time 15544:
     PROCESS_DISPATCH_COMPLETED
-    Process 8 [SYSTEM]
+    Thread 1 in process 428 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 15863:
+At time 15548:
     CPU_BURST_COMPLETED
-    Process 8 [SYSTEM]
+    Thread 1 in process 428 [SYSTEM]
     Transitioned from RUNNING to BLOCKED
 
-At time 15863:
+At time 15548:
     DISPATCHER_INVOKED
-    Process 13 [NORMAL]
-    Selected from 12 processes. Will run for at most 6 ticks.
+    Thread 0 in process 320 [NORMAL]
+    Selected from 12 threads. Will run for at most 6 ticks.
 
-At time 15876:
+At time 15561:
     IO_BURST_COMPLETED
-    Process 8 [SYSTEM]
+    Thread 1 in process 428 [SYSTEM]
     Transitioned from BLOCKED to READY
 
-At time 15908:
+At time 15593:
     PROCESS_DISPATCH_COMPLETED
-    Process 13 [NORMAL]
+    Thread 0 in process 320 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 15909:
-    PROCESS_COMPLETED
-    Process 13 [NORMAL]
+At time 15594:
+    THREAD_COMPLETED
+    Thread 0 in process 320 [NORMAL]
     Transitioned from RUNNING to EXIT
 
-At time 15909:
+At time 15594:
     DISPATCHER_INVOKED
-    Process 21 [NORMAL]
-    Selected from 12 processes. Will run for at most 6 ticks.
+    Thread 2 in process 242 [NORMAL]
+    Selected from 12 threads. Will run for at most 6 ticks.
 
-At time 15954:
+At time 15639:
     PROCESS_DISPATCH_COMPLETED
-    Process 21 [NORMAL]
+    Thread 2 in process 242 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 15960:
-    PROCESS_PREEMPTED
-    Process 21 [NORMAL]
+At time 15645:
+    THREAD_PREEMPTED
+    Thread 2 in process 242 [NORMAL]
     Transitioned from RUNNING to READY
 
-At time 15960:
+At time 15645:
     DISPATCHER_INVOKED
-    Process 16 [SYSTEM]
-    Selected from 12 processes. Will run for at most 6 ticks.
+    Thread 0 in process 461 [SYSTEM]
+    Selected from 12 threads. Will run for at most 6 ticks.
 
-At time 16005:
+At time 15690:
     PROCESS_DISPATCH_COMPLETED
-    Process 16 [SYSTEM]
+    Thread 0 in process 461 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 16011:
-    PROCESS_PREEMPTED
-    Process 16 [SYSTEM]
+At time 15696:
+    THREAD_PREEMPTED
+    Thread 0 in process 461 [SYSTEM]
     Transitioned from RUNNING to READY
 
-At time 16011:
+At time 15696:
     DISPATCHER_INVOKED
-    Process 9 [NORMAL]
-    Selected from 12 processes. Will run for at most 6 ticks.
+    Thread 0 in process 687 [NORMAL]
+    Selected from 12 threads. Will run for at most 6 ticks.
 
-At time 16056:
+At time 15741:
     PROCESS_DISPATCH_COMPLETED
-    Process 9 [NORMAL]
+    Thread 0 in process 687 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 16062:
-    PROCESS_PREEMPTED
-    Process 9 [NORMAL]
+At time 15747:
+    THREAD_PREEMPTED
+    Thread 0 in process 687 [NORMAL]
     Transitioned from RUNNING to READY
 
-At time 16062:
+At time 15747:
     DISPATCHER_INVOKED
-    Process 1 [SYSTEM]
-    Selected from 12 processes. Will run for at most 6 ticks.
+    Thread 1 in process 729 [SYSTEM]
+    Selected from 12 threads. Will run for at most 6 ticks.
 
-At time 16107:
+At time 15792:
     PROCESS_DISPATCH_COMPLETED
-    Process 1 [SYSTEM]
+    Thread 1 in process 729 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 16112:
-    PROCESS_COMPLETED
-    Process 1 [SYSTEM]
+At time 15797:
+    THREAD_COMPLETED
+    Thread 1 in process 729 [SYSTEM]
     Transitioned from RUNNING to EXIT
 
-At time 16112:
+At time 15797:
     DISPATCHER_INVOKED
-    Process 4 [SYSTEM]
-    Selected from 11 processes. Will run for at most 6 ticks.
+    Thread 1 in process 104 [SYSTEM]
+    Selected from 11 threads. Will run for at most 6 ticks.
 
-At time 16157:
+At time 15842:
     PROCESS_DISPATCH_COMPLETED
-    Process 4 [SYSTEM]
+    Thread 1 in process 104 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 16158:
+At time 15843:
     CPU_BURST_COMPLETED
-    Process 4 [SYSTEM]
+    Thread 1 in process 104 [SYSTEM]
     Transitioned from RUNNING to BLOCKED
 
-At time 16158:
+At time 15843:
     DISPATCHER_INVOKED
-    Process 6 [SYSTEM]
-    Selected from 10 processes. Will run for at most 6 ticks.
+    Thread 3 in process 104 [SYSTEM]
+    Selected from 10 threads. Will run for at most 6 ticks.
 
-At time 16161:
+At time 15846:
     IO_BURST_COMPLETED
-    Process 4 [SYSTEM]
+    Thread 1 in process 104 [SYSTEM]
     Transitioned from BLOCKED to READY
 
-At time 16203:
-    PROCESS_DISPATCH_COMPLETED
-    Process 6 [SYSTEM]
+At time 15867:
+    THREAD_DISPATCH_COMPLETED
+    Thread 3 in process 104 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 16209:
-    PROCESS_PREEMPTED
-    Process 6 [SYSTEM]
+At time 15873:
+    THREAD_PREEMPTED
+    Thread 3 in process 104 [SYSTEM]
     Transitioned from RUNNING to READY
 
-At time 16209:
+At time 15873:
     DISPATCHER_INVOKED
-    Process 19 [NORMAL]
-    Selected from 11 processes. Will run for at most 6 ticks.
+    Thread 0 in process 242 [NORMAL]
+    Selected from 11 threads. Will run for at most 6 ticks.
 
-At time 16254:
+At time 15918:
     PROCESS_DISPATCH_COMPLETED
-    Process 19 [NORMAL]
+    Thread 0 in process 242 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 16260:
-    PROCESS_PREEMPTED
-    Process 19 [NORMAL]
+At time 15924:
+    THREAD_PREEMPTED
+    Thread 0 in process 242 [NORMAL]
     Transitioned from RUNNING to READY
 
-At time 16260:
+At time 15924:
     DISPATCHER_INVOKED
-    Process 22 [SYSTEM]
-    Selected from 11 processes. Will run for at most 6 ticks.
+    Thread 0 in process 71 [SYSTEM]
+    Selected from 11 threads. Will run for at most 6 ticks.
 
-At time 16305:
+At time 15969:
     PROCESS_DISPATCH_COMPLETED
-    Process 22 [SYSTEM]
+    Thread 0 in process 71 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 16311:
-    PROCESS_PREEMPTED
-    Process 22 [SYSTEM]
+At time 15975:
+    THREAD_PREEMPTED
+    Thread 0 in process 71 [SYSTEM]
     Transitioned from RUNNING to READY
 
-At time 16311:
+At time 15975:
     DISPATCHER_INVOKED
-    Process 12 [NORMAL]
-    Selected from 11 processes. Will run for at most 6 ticks.
+    Thread 3 in process 687 [NORMAL]
+    Selected from 11 threads. Will run for at most 6 ticks.
 
-At time 16356:
+At time 16020:
     PROCESS_DISPATCH_COMPLETED
-    Process 12 [NORMAL]
+    Thread 3 in process 687 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 16357:
+At time 16021:
     CPU_BURST_COMPLETED
-    Process 12 [NORMAL]
+    Thread 3 in process 687 [NORMAL]
     Transitioned from RUNNING to BLOCKED
 
-At time 16357:
+At time 16021:
     DISPATCHER_INVOKED
-    Process 20 [NORMAL]
-    Selected from 10 processes. Will run for at most 6 ticks.
+    Thread 1 in process 242 [NORMAL]
+    Selected from 10 threads. Will run for at most 6 ticks.
 
-At time 16372:
+At time 16036:
     IO_BURST_COMPLETED
-    Process 12 [NORMAL]
+    Thread 3 in process 687 [NORMAL]
     Transitioned from BLOCKED to READY
 
-At time 16402:
+At time 16066:
     PROCESS_DISPATCH_COMPLETED
-    Process 20 [NORMAL]
+    Thread 1 in process 242 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 16405:
+At time 16069:
     CPU_BURST_COMPLETED
-    Process 20 [NORMAL]
+    Thread 1 in process 242 [NORMAL]
     Transitioned from RUNNING to BLOCKED
 
-At time 16405:
+At time 16069:
     DISPATCHER_INVOKED
-    Process 14 [NORMAL]
-    Selected from 10 processes. Will run for at most 6 ticks.
+    Thread 1 in process 320 [NORMAL]
+    Selected from 10 threads. Will run for at most 6 ticks.
 
-At time 16419:
+At time 16083:
     IO_BURST_COMPLETED
-    Process 20 [NORMAL]
+    Thread 1 in process 242 [NORMAL]
     Transitioned from BLOCKED to READY
 
-At time 16450:
+At time 16114:
     PROCESS_DISPATCH_COMPLETED
-    Process 14 [NORMAL]
+    Thread 1 in process 320 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 16456:
-    PROCESS_PREEMPTED
-    Process 14 [NORMAL]
+At time 16120:
+    THREAD_PREEMPTED
+    Thread 1 in process 320 [NORMAL]
     Transitioned from RUNNING to READY
 
-At time 16456:
+At time 16120:
     DISPATCHER_INVOKED
-    Process 8 [SYSTEM]
-    Selected from 11 processes. Will run for at most 6 ticks.
+    Thread 1 in process 428 [SYSTEM]
+    Selected from 11 threads. Will run for at most 6 ticks.
 
-At time 16501:
+At time 16165:
     PROCESS_DISPATCH_COMPLETED
-    Process 8 [SYSTEM]
+    Thread 1 in process 428 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 16507:
-    PROCESS_PREEMPTED
-    Process 8 [SYSTEM]
+At time 16171:
+    THREAD_PREEMPTED
+    Thread 1 in process 428 [SYSTEM]
     Transitioned from RUNNING to READY
 
-At time 16507:
+At time 16171:
     DISPATCHER_INVOKED
-    Process 21 [NORMAL]
-    Selected from 11 processes. Will run for at most 6 ticks.
+    Thread 2 in process 242 [NORMAL]
+    Selected from 11 threads. Will run for at most 6 ticks.
 
-At time 16552:
+At time 16216:
     PROCESS_DISPATCH_COMPLETED
-    Process 21 [NORMAL]
+    Thread 2 in process 242 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 16558:
-    PROCESS_COMPLETED
-    Process 21 [NORMAL]
+At time 16222:
+    THREAD_COMPLETED
+    Thread 2 in process 242 [NORMAL]
     Transitioned from RUNNING to EXIT
 
-At time 16558:
+At time 16222:
     DISPATCHER_INVOKED
-    Process 16 [SYSTEM]
-    Selected from 10 processes. Will run for at most 6 ticks.
+    Thread 0 in process 461 [SYSTEM]
+    Selected from 10 threads. Will run for at most 6 ticks.
 
-At time 16603:
+At time 16267:
     PROCESS_DISPATCH_COMPLETED
-    Process 16 [SYSTEM]
+    Thread 0 in process 461 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 16609:
-    PROCESS_PREEMPTED
-    Process 16 [SYSTEM]
+At time 16273:
+    THREAD_PREEMPTED
+    Thread 0 in process 461 [SYSTEM]
     Transitioned from RUNNING to READY
 
-At time 16609:
+At time 16273:
     DISPATCHER_INVOKED
-    Process 9 [NORMAL]
-    Selected from 10 processes. Will run for at most 6 ticks.
+    Thread 0 in process 687 [NORMAL]
+    Selected from 10 threads. Will run for at most 6 ticks.
 
-At time 16654:
+At time 16318:
     PROCESS_DISPATCH_COMPLETED
-    Process 9 [NORMAL]
+    Thread 0 in process 687 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 16655:
-    PROCESS_COMPLETED
-    Process 9 [NORMAL]
+At time 16319:
+    THREAD_COMPLETED
+    Thread 0 in process 687 [NORMAL]
     Transitioned from RUNNING to EXIT
 
-At time 16655:
+At time 16319:
     DISPATCHER_INVOKED
-    Process 4 [SYSTEM]
-    Selected from 9 processes. Will run for at most 6 ticks.
+    Thread 1 in process 104 [SYSTEM]
+    Selected from 9 threads. Will run for at most 6 ticks.
 
-At time 16700:
+At time 16364:
     PROCESS_DISPATCH_COMPLETED
-    Process 4 [SYSTEM]
+    Thread 1 in process 104 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 16706:
-    PROCESS_PREEMPTED
-    Process 4 [SYSTEM]
+At time 16370:
+    THREAD_PREEMPTED
+    Thread 1 in process 104 [SYSTEM]
     Transitioned from RUNNING to READY
 
-At time 16706:
+At time 16370:
     DISPATCHER_INVOKED
-    Process 6 [SYSTEM]
-    Selected from 9 processes. Will run for at most 6 ticks.
+    Thread 3 in process 104 [SYSTEM]
+    Selected from 9 threads. Will run for at most 6 ticks.
 
-At time 16751:
-    PROCESS_DISPATCH_COMPLETED
-    Process 6 [SYSTEM]
+At time 16394:
+    THREAD_DISPATCH_COMPLETED
+    Thread 3 in process 104 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 16752:
-    PROCESS_COMPLETED
-    Process 6 [SYSTEM]
+At time 16395:
+    THREAD_COMPLETED
+    Thread 3 in process 104 [SYSTEM]
     Transitioned from RUNNING to EXIT
 
-At time 16752:
+At time 16395:
     DISPATCHER_INVOKED
-    Process 19 [NORMAL]
-    Selected from 8 processes. Will run for at most 6 ticks.
+    Thread 0 in process 242 [NORMAL]
+    Selected from 8 threads. Will run for at most 6 ticks.
+
+At time 16440:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 242 [NORMAL]
+    Transitioned from READY to RUNNING
+
+At time 16441:
+    THREAD_COMPLETED
+    Thread 0 in process 242 [NORMAL]
+    Transitioned from RUNNING to EXIT
+
+At time 16441:
+    DISPATCHER_INVOKED
+    Thread 0 in process 71 [SYSTEM]
+    Selected from 7 threads. Will run for at most 6 ticks.
+
+At time 16486:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 71 [SYSTEM]
+    Transitioned from READY to RUNNING
+
+At time 16492:
+    THREAD_PREEMPTED
+    Thread 0 in process 71 [SYSTEM]
+    Transitioned from RUNNING to READY
+
+At time 16492:
+    DISPATCHER_INVOKED
+    Thread 3 in process 687 [NORMAL]
+    Selected from 7 threads. Will run for at most 6 ticks.
+
+At time 16537:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 3 in process 687 [NORMAL]
+    Transitioned from READY to RUNNING
+
+At time 16543:
+    THREAD_PREEMPTED
+    Thread 3 in process 687 [NORMAL]
+    Transitioned from RUNNING to READY
+
+At time 16543:
+    DISPATCHER_INVOKED
+    Thread 1 in process 242 [NORMAL]
+    Selected from 7 threads. Will run for at most 6 ticks.
+
+At time 16588:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 1 in process 242 [NORMAL]
+    Transitioned from READY to RUNNING
+
+At time 16594:
+    THREAD_PREEMPTED
+    Thread 1 in process 242 [NORMAL]
+    Transitioned from RUNNING to READY
+
+At time 16594:
+    DISPATCHER_INVOKED
+    Thread 1 in process 320 [NORMAL]
+    Selected from 7 threads. Will run for at most 6 ticks.
+
+At time 16639:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 1 in process 320 [NORMAL]
+    Transitioned from READY to RUNNING
+
+At time 16645:
+    THREAD_PREEMPTED
+    Thread 1 in process 320 [NORMAL]
+    Transitioned from RUNNING to READY
+
+At time 16645:
+    DISPATCHER_INVOKED
+    Thread 1 in process 428 [SYSTEM]
+    Selected from 7 threads. Will run for at most 6 ticks.
+
+At time 16690:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 1 in process 428 [SYSTEM]
+    Transitioned from READY to RUNNING
+
+At time 16696:
+    THREAD_PREEMPTED
+    Thread 1 in process 428 [SYSTEM]
+    Transitioned from RUNNING to READY
+
+At time 16696:
+    DISPATCHER_INVOKED
+    Thread 0 in process 461 [SYSTEM]
+    Selected from 7 threads. Will run for at most 6 ticks.
+
+At time 16741:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 461 [SYSTEM]
+    Transitioned from READY to RUNNING
+
+At time 16746:
+    CPU_BURST_COMPLETED
+    Thread 0 in process 461 [SYSTEM]
+    Transitioned from RUNNING to BLOCKED
+
+At time 16746:
+    DISPATCHER_INVOKED
+    Thread 1 in process 104 [SYSTEM]
+    Selected from 6 threads. Will run for at most 6 ticks.
+
+At time 16754:
+    IO_BURST_COMPLETED
+    Thread 0 in process 461 [SYSTEM]
+    Transitioned from BLOCKED to READY
+
+At time 16791:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 1 in process 104 [SYSTEM]
+    Transitioned from READY to RUNNING
 
 At time 16797:
+    THREAD_PREEMPTED
+    Thread 1 in process 104 [SYSTEM]
+    Transitioned from RUNNING to READY
+
+At time 16797:
+    DISPATCHER_INVOKED
+    Thread 0 in process 71 [SYSTEM]
+    Selected from 7 threads. Will run for at most 6 ticks.
+
+At time 16842:
     PROCESS_DISPATCH_COMPLETED
-    Process 19 [NORMAL]
+    Thread 0 in process 71 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 16798:
-    PROCESS_COMPLETED
-    Process 19 [NORMAL]
+At time 16848:
+    THREAD_COMPLETED
+    Thread 0 in process 71 [SYSTEM]
     Transitioned from RUNNING to EXIT
 
-At time 16798:
+At time 16848:
     DISPATCHER_INVOKED
-    Process 22 [SYSTEM]
-    Selected from 7 processes. Will run for at most 6 ticks.
+    Thread 3 in process 687 [NORMAL]
+    Selected from 6 threads. Will run for at most 6 ticks.
 
-At time 16843:
+At time 16893:
     PROCESS_DISPATCH_COMPLETED
-    Process 22 [SYSTEM]
+    Thread 3 in process 687 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 16849:
-    PROCESS_PREEMPTED
-    Process 22 [SYSTEM]
+At time 16899:
+    THREAD_PREEMPTED
+    Thread 3 in process 687 [NORMAL]
     Transitioned from RUNNING to READY
 
-At time 16849:
+At time 16899:
     DISPATCHER_INVOKED
-    Process 12 [NORMAL]
-    Selected from 7 processes. Will run for at most 6 ticks.
+    Thread 1 in process 242 [NORMAL]
+    Selected from 6 threads. Will run for at most 6 ticks.
 
-At time 16894:
+At time 16944:
     PROCESS_DISPATCH_COMPLETED
-    Process 12 [NORMAL]
+    Thread 1 in process 242 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 16900:
-    PROCESS_PREEMPTED
-    Process 12 [NORMAL]
+At time 16950:
+    THREAD_PREEMPTED
+    Thread 1 in process 242 [NORMAL]
     Transitioned from RUNNING to READY
 
-At time 16900:
+At time 16950:
     DISPATCHER_INVOKED
-    Process 20 [NORMAL]
-    Selected from 7 processes. Will run for at most 6 ticks.
+    Thread 1 in process 320 [NORMAL]
+    Selected from 6 threads. Will run for at most 6 ticks.
 
-At time 16945:
+At time 16995:
     PROCESS_DISPATCH_COMPLETED
-    Process 20 [NORMAL]
+    Thread 1 in process 320 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 16951:
-    PROCESS_PREEMPTED
-    Process 20 [NORMAL]
+At time 17001:
+    THREAD_PREEMPTED
+    Thread 1 in process 320 [NORMAL]
     Transitioned from RUNNING to READY
 
-At time 16951:
+At time 17001:
     DISPATCHER_INVOKED
-    Process 14 [NORMAL]
-    Selected from 7 processes. Will run for at most 6 ticks.
+    Thread 1 in process 428 [SYSTEM]
+    Selected from 6 threads. Will run for at most 6 ticks.
 
-At time 16996:
+At time 17046:
     PROCESS_DISPATCH_COMPLETED
-    Process 14 [NORMAL]
+    Thread 1 in process 428 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 17002:
-    PROCESS_PREEMPTED
-    Process 14 [NORMAL]
-    Transitioned from RUNNING to READY
-
-At time 17002:
-    DISPATCHER_INVOKED
-    Process 8 [SYSTEM]
-    Selected from 7 processes. Will run for at most 6 ticks.
-
-At time 17047:
-    PROCESS_DISPATCH_COMPLETED
-    Process 8 [SYSTEM]
-    Transitioned from READY to RUNNING
-
-At time 17053:
-    PROCESS_PREEMPTED
-    Process 8 [SYSTEM]
-    Transitioned from RUNNING to READY
-
-At time 17053:
-    DISPATCHER_INVOKED
-    Process 16 [SYSTEM]
-    Selected from 7 processes. Will run for at most 6 ticks.
-
-At time 17098:
-    PROCESS_DISPATCH_COMPLETED
-    Process 16 [SYSTEM]
-    Transitioned from READY to RUNNING
-
-At time 17103:
+At time 17052:
     CPU_BURST_COMPLETED
-    Process 16 [SYSTEM]
+    Thread 1 in process 428 [SYSTEM]
     Transitioned from RUNNING to BLOCKED
 
+At time 17052:
+    DISPATCHER_INVOKED
+    Thread 0 in process 461 [SYSTEM]
+    Selected from 5 threads. Will run for at most 6 ticks.
+
+At time 17082:
+    IO_BURST_COMPLETED
+    Thread 1 in process 428 [SYSTEM]
+    Transitioned from BLOCKED to READY
+
+At time 17097:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 461 [SYSTEM]
+    Transitioned from READY to RUNNING
+
+At time 17103:
+    THREAD_PREEMPTED
+    Thread 0 in process 461 [SYSTEM]
+    Transitioned from RUNNING to READY
+
 At time 17103:
     DISPATCHER_INVOKED
-    Process 4 [SYSTEM]
-    Selected from 6 processes. Will run for at most 6 ticks.
-
-At time 17111:
-    IO_BURST_COMPLETED
-    Process 16 [SYSTEM]
-    Transitioned from BLOCKED to READY
+    Thread 1 in process 104 [SYSTEM]
+    Selected from 6 threads. Will run for at most 6 ticks.
 
 At time 17148:
     PROCESS_DISPATCH_COMPLETED
-    Process 4 [SYSTEM]
+    Thread 1 in process 104 [SYSTEM]
     Transitioned from READY to RUNNING
 
 At time 17154:
-    PROCESS_PREEMPTED
-    Process 4 [SYSTEM]
+    THREAD_PREEMPTED
+    Thread 1 in process 104 [SYSTEM]
     Transitioned from RUNNING to READY
 
 At time 17154:
     DISPATCHER_INVOKED
-    Process 22 [SYSTEM]
-    Selected from 7 processes. Will run for at most 6 ticks.
+    Thread 3 in process 687 [NORMAL]
+    Selected from 6 threads. Will run for at most 6 ticks.
 
 At time 17199:
     PROCESS_DISPATCH_COMPLETED
-    Process 22 [SYSTEM]
+    Thread 3 in process 687 [NORMAL]
     Transitioned from READY to RUNNING
 
 At time 17205:
-    PROCESS_COMPLETED
-    Process 22 [SYSTEM]
-    Transitioned from RUNNING to EXIT
+    THREAD_PREEMPTED
+    Thread 3 in process 687 [NORMAL]
+    Transitioned from RUNNING to READY
 
 At time 17205:
     DISPATCHER_INVOKED
-    Process 12 [NORMAL]
-    Selected from 6 processes. Will run for at most 6 ticks.
+    Thread 1 in process 242 [NORMAL]
+    Selected from 6 threads. Will run for at most 6 ticks.
 
 At time 17250:
     PROCESS_DISPATCH_COMPLETED
-    Process 12 [NORMAL]
+    Thread 1 in process 242 [NORMAL]
     Transitioned from READY to RUNNING
 
 At time 17256:
-    PROCESS_PREEMPTED
-    Process 12 [NORMAL]
+    THREAD_PREEMPTED
+    Thread 1 in process 242 [NORMAL]
     Transitioned from RUNNING to READY
 
 At time 17256:
     DISPATCHER_INVOKED
-    Process 20 [NORMAL]
-    Selected from 6 processes. Will run for at most 6 ticks.
+    Thread 1 in process 320 [NORMAL]
+    Selected from 6 threads. Will run for at most 6 ticks.
 
 At time 17301:
     PROCESS_DISPATCH_COMPLETED
-    Process 20 [NORMAL]
+    Thread 1 in process 320 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 17307:
-    PROCESS_PREEMPTED
-    Process 20 [NORMAL]
-    Transitioned from RUNNING to READY
-
-At time 17307:
-    DISPATCHER_INVOKED
-    Process 14 [NORMAL]
-    Selected from 6 processes. Will run for at most 6 ticks.
-
-At time 17352:
-    PROCESS_DISPATCH_COMPLETED
-    Process 14 [NORMAL]
-    Transitioned from READY to RUNNING
-
-At time 17358:
-    PROCESS_PREEMPTED
-    Process 14 [NORMAL]
-    Transitioned from RUNNING to READY
-
-At time 17358:
-    DISPATCHER_INVOKED
-    Process 8 [SYSTEM]
-    Selected from 6 processes. Will run for at most 6 ticks.
-
-At time 17403:
-    PROCESS_DISPATCH_COMPLETED
-    Process 8 [SYSTEM]
-    Transitioned from READY to RUNNING
-
-At time 17409:
+At time 17302:
     CPU_BURST_COMPLETED
-    Process 8 [SYSTEM]
+    Thread 1 in process 320 [NORMAL]
     Transitioned from RUNNING to BLOCKED
 
-At time 17409:
+At time 17302:
     DISPATCHER_INVOKED
-    Process 16 [SYSTEM]
-    Selected from 5 processes. Will run for at most 6 ticks.
+    Thread 1 in process 428 [SYSTEM]
+    Selected from 5 threads. Will run for at most 6 ticks.
 
-At time 17439:
+At time 17329:
     IO_BURST_COMPLETED
-    Process 8 [SYSTEM]
+    Thread 1 in process 320 [NORMAL]
     Transitioned from BLOCKED to READY
 
-At time 17454:
+At time 17347:
     PROCESS_DISPATCH_COMPLETED
-    Process 16 [SYSTEM]
+    Thread 1 in process 428 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 17460:
-    PROCESS_PREEMPTED
-    Process 16 [SYSTEM]
+At time 17353:
+    THREAD_PREEMPTED
+    Thread 1 in process 428 [SYSTEM]
     Transitioned from RUNNING to READY
 
-At time 17460:
+At time 17353:
     DISPATCHER_INVOKED
-    Process 4 [SYSTEM]
-    Selected from 6 processes. Will run for at most 6 ticks.
+    Thread 0 in process 461 [SYSTEM]
+    Selected from 6 threads. Will run for at most 6 ticks.
+
+At time 17398:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 461 [SYSTEM]
+    Transitioned from READY to RUNNING
+
+At time 17404:
+    THREAD_PREEMPTED
+    Thread 0 in process 461 [SYSTEM]
+    Transitioned from RUNNING to READY
+
+At time 17404:
+    DISPATCHER_INVOKED
+    Thread 1 in process 104 [SYSTEM]
+    Selected from 6 threads. Will run for at most 6 ticks.
+
+At time 17449:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 1 in process 104 [SYSTEM]
+    Transitioned from READY to RUNNING
+
+At time 17455:
+    THREAD_PREEMPTED
+    Thread 1 in process 104 [SYSTEM]
+    Transitioned from RUNNING to READY
+
+At time 17455:
+    DISPATCHER_INVOKED
+    Thread 3 in process 687 [NORMAL]
+    Selected from 6 threads. Will run for at most 6 ticks.
+
+At time 17500:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 3 in process 687 [NORMAL]
+    Transitioned from READY to RUNNING
 
 At time 17505:
-    PROCESS_DISPATCH_COMPLETED
-    Process 4 [SYSTEM]
-    Transitioned from READY to RUNNING
-
-At time 17511:
-    PROCESS_PREEMPTED
-    Process 4 [SYSTEM]
-    Transitioned from RUNNING to READY
-
-At time 17511:
-    DISPATCHER_INVOKED
-    Process 12 [NORMAL]
-    Selected from 6 processes. Will run for at most 6 ticks.
-
-At time 17556:
-    PROCESS_DISPATCH_COMPLETED
-    Process 12 [NORMAL]
-    Transitioned from READY to RUNNING
-
-At time 17562:
-    PROCESS_PREEMPTED
-    Process 12 [NORMAL]
-    Transitioned from RUNNING to READY
-
-At time 17562:
-    DISPATCHER_INVOKED
-    Process 20 [NORMAL]
-    Selected from 6 processes. Will run for at most 6 ticks.
-
-At time 17607:
-    PROCESS_DISPATCH_COMPLETED
-    Process 20 [NORMAL]
-    Transitioned from READY to RUNNING
-
-At time 17613:
-    PROCESS_PREEMPTED
-    Process 20 [NORMAL]
-    Transitioned from RUNNING to READY
-
-At time 17613:
-    DISPATCHER_INVOKED
-    Process 14 [NORMAL]
-    Selected from 6 processes. Will run for at most 6 ticks.
-
-At time 17658:
-    PROCESS_DISPATCH_COMPLETED
-    Process 14 [NORMAL]
-    Transitioned from READY to RUNNING
-
-At time 17659:
     CPU_BURST_COMPLETED
-    Process 14 [NORMAL]
+    Thread 3 in process 687 [NORMAL]
     Transitioned from RUNNING to BLOCKED
 
-At time 17659:
+At time 17505:
     DISPATCHER_INVOKED
-    Process 8 [SYSTEM]
-    Selected from 5 processes. Will run for at most 6 ticks.
+    Thread 1 in process 242 [NORMAL]
+    Selected from 5 threads. Will run for at most 6 ticks.
 
-At time 17686:
+At time 17530:
     IO_BURST_COMPLETED
-    Process 14 [NORMAL]
+    Thread 3 in process 687 [NORMAL]
     Transitioned from BLOCKED to READY
 
-At time 17704:
+At time 17550:
     PROCESS_DISPATCH_COMPLETED
-    Process 8 [SYSTEM]
+    Thread 1 in process 242 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 17710:
-    PROCESS_PREEMPTED
-    Process 8 [SYSTEM]
-    Transitioned from RUNNING to READY
-
-At time 17710:
-    DISPATCHER_INVOKED
-    Process 16 [SYSTEM]
-    Selected from 6 processes. Will run for at most 6 ticks.
-
-At time 17755:
-    PROCESS_DISPATCH_COMPLETED
-    Process 16 [SYSTEM]
-    Transitioned from READY to RUNNING
-
-At time 17761:
-    PROCESS_PREEMPTED
-    Process 16 [SYSTEM]
-    Transitioned from RUNNING to READY
-
-At time 17761:
-    DISPATCHER_INVOKED
-    Process 4 [SYSTEM]
-    Selected from 6 processes. Will run for at most 6 ticks.
-
-At time 17806:
-    PROCESS_DISPATCH_COMPLETED
-    Process 4 [SYSTEM]
-    Transitioned from READY to RUNNING
-
-At time 17812:
-    PROCESS_PREEMPTED
-    Process 4 [SYSTEM]
-    Transitioned from RUNNING to READY
-
-At time 17812:
-    DISPATCHER_INVOKED
-    Process 12 [NORMAL]
-    Selected from 6 processes. Will run for at most 6 ticks.
-
-At time 17857:
-    PROCESS_DISPATCH_COMPLETED
-    Process 12 [NORMAL]
-    Transitioned from READY to RUNNING
-
-At time 17862:
+At time 17554:
     CPU_BURST_COMPLETED
-    Process 12 [NORMAL]
+    Thread 1 in process 242 [NORMAL]
     Transitioned from RUNNING to BLOCKED
 
-At time 17862:
+At time 17554:
     DISPATCHER_INVOKED
-    Process 20 [NORMAL]
-    Selected from 5 processes. Will run for at most 6 ticks.
+    Thread 1 in process 320 [NORMAL]
+    Selected from 5 threads. Will run for at most 6 ticks.
 
-At time 17887:
+At time 17567:
     IO_BURST_COMPLETED
-    Process 12 [NORMAL]
+    Thread 1 in process 242 [NORMAL]
     Transitioned from BLOCKED to READY
 
-At time 17907:
+At time 17599:
     PROCESS_DISPATCH_COMPLETED
-    Process 20 [NORMAL]
+    Thread 1 in process 320 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 17911:
+At time 17601:
     CPU_BURST_COMPLETED
-    Process 20 [NORMAL]
+    Thread 1 in process 320 [NORMAL]
     Transitioned from RUNNING to BLOCKED
 
-At time 17911:
+At time 17601:
     DISPATCHER_INVOKED
-    Process 14 [NORMAL]
-    Selected from 5 processes. Will run for at most 6 ticks.
+    Thread 1 in process 428 [SYSTEM]
+    Selected from 5 threads. Will run for at most 6 ticks.
 
-At time 17924:
+At time 17617:
     IO_BURST_COMPLETED
-    Process 20 [NORMAL]
+    Thread 1 in process 320 [NORMAL]
     Transitioned from BLOCKED to READY
 
-At time 17956:
+At time 17646:
     PROCESS_DISPATCH_COMPLETED
-    Process 14 [NORMAL]
+    Thread 1 in process 428 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 17958:
+At time 17652:
+    THREAD_PREEMPTED
+    Thread 1 in process 428 [SYSTEM]
+    Transitioned from RUNNING to READY
+
+At time 17652:
+    DISPATCHER_INVOKED
+    Thread 0 in process 461 [SYSTEM]
+    Selected from 6 threads. Will run for at most 6 ticks.
+
+At time 17697:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 461 [SYSTEM]
+    Transitioned from READY to RUNNING
+
+At time 17702:
     CPU_BURST_COMPLETED
-    Process 14 [NORMAL]
+    Thread 0 in process 461 [SYSTEM]
     Transitioned from RUNNING to BLOCKED
 
-At time 17958:
+At time 17702:
     DISPATCHER_INVOKED
-    Process 8 [SYSTEM]
-    Selected from 5 processes. Will run for at most 6 ticks.
+    Thread 1 in process 104 [SYSTEM]
+    Selected from 5 threads. Will run for at most 6 ticks.
 
-At time 17974:
+At time 17721:
     IO_BURST_COMPLETED
-    Process 14 [NORMAL]
+    Thread 0 in process 461 [SYSTEM]
     Transitioned from BLOCKED to READY
 
-At time 18003:
+At time 17747:
     PROCESS_DISPATCH_COMPLETED
-    Process 8 [SYSTEM]
+    Thread 1 in process 104 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 18009:
-    PROCESS_PREEMPTED
-    Process 8 [SYSTEM]
-    Transitioned from RUNNING to READY
-
-At time 18009:
-    DISPATCHER_INVOKED
-    Process 16 [SYSTEM]
-    Selected from 6 processes. Will run for at most 6 ticks.
-
-At time 18054:
-    PROCESS_DISPATCH_COMPLETED
-    Process 16 [SYSTEM]
-    Transitioned from READY to RUNNING
-
-At time 18059:
+At time 17749:
     CPU_BURST_COMPLETED
-    Process 16 [SYSTEM]
+    Thread 1 in process 104 [SYSTEM]
     Transitioned from RUNNING to BLOCKED
 
-At time 18059:
+At time 17749:
     DISPATCHER_INVOKED
-    Process 4 [SYSTEM]
-    Selected from 5 processes. Will run for at most 6 ticks.
+    Thread 3 in process 687 [NORMAL]
+    Selected from 5 threads. Will run for at most 6 ticks.
 
-At time 18078:
+At time 17766:
     IO_BURST_COMPLETED
-    Process 16 [SYSTEM]
+    Thread 1 in process 104 [SYSTEM]
     Transitioned from BLOCKED to READY
 
-At time 18104:
+At time 17794:
     PROCESS_DISPATCH_COMPLETED
-    Process 4 [SYSTEM]
+    Thread 3 in process 687 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 18106:
+At time 17800:
+    THREAD_PREEMPTED
+    Thread 3 in process 687 [NORMAL]
+    Transitioned from RUNNING to READY
+
+At time 17800:
+    DISPATCHER_INVOKED
+    Thread 1 in process 242 [NORMAL]
+    Selected from 6 threads. Will run for at most 6 ticks.
+
+At time 17845:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 1 in process 242 [NORMAL]
+    Transitioned from READY to RUNNING
+
+At time 17851:
+    THREAD_PREEMPTED
+    Thread 1 in process 242 [NORMAL]
+    Transitioned from RUNNING to READY
+
+At time 17851:
+    DISPATCHER_INVOKED
+    Thread 1 in process 320 [NORMAL]
+    Selected from 6 threads. Will run for at most 6 ticks.
+
+At time 17896:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 1 in process 320 [NORMAL]
+    Transitioned from READY to RUNNING
+
+At time 17902:
+    THREAD_PREEMPTED
+    Thread 1 in process 320 [NORMAL]
+    Transitioned from RUNNING to READY
+
+At time 17902:
+    DISPATCHER_INVOKED
+    Thread 1 in process 428 [SYSTEM]
+    Selected from 6 threads. Will run for at most 6 ticks.
+
+At time 17947:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 1 in process 428 [SYSTEM]
+    Transitioned from READY to RUNNING
+
+At time 17953:
+    THREAD_PREEMPTED
+    Thread 1 in process 428 [SYSTEM]
+    Transitioned from RUNNING to READY
+
+At time 17953:
+    DISPATCHER_INVOKED
+    Thread 0 in process 461 [SYSTEM]
+    Selected from 6 threads. Will run for at most 6 ticks.
+
+At time 17998:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 461 [SYSTEM]
+    Transitioned from READY to RUNNING
+
+At time 18004:
+    THREAD_PREEMPTED
+    Thread 0 in process 461 [SYSTEM]
+    Transitioned from RUNNING to READY
+
+At time 18004:
+    DISPATCHER_INVOKED
+    Thread 1 in process 104 [SYSTEM]
+    Selected from 6 threads. Will run for at most 6 ticks.
+
+At time 18049:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 1 in process 104 [SYSTEM]
+    Transitioned from READY to RUNNING
+
+At time 18055:
+    THREAD_PREEMPTED
+    Thread 1 in process 104 [SYSTEM]
+    Transitioned from RUNNING to READY
+
+At time 18055:
+    DISPATCHER_INVOKED
+    Thread 3 in process 687 [NORMAL]
+    Selected from 6 threads. Will run for at most 6 ticks.
+
+At time 18100:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 3 in process 687 [NORMAL]
+    Transitioned from READY to RUNNING
+
+At time 18102:
     CPU_BURST_COMPLETED
-    Process 4 [SYSTEM]
+    Thread 3 in process 687 [NORMAL]
     Transitioned from RUNNING to BLOCKED
 
-At time 18106:
+At time 18102:
     DISPATCHER_INVOKED
-    Process 12 [NORMAL]
-    Selected from 5 processes. Will run for at most 6 ticks.
+    Thread 1 in process 242 [NORMAL]
+    Selected from 5 threads. Will run for at most 6 ticks.
 
-At time 18123:
+At time 18103:
     IO_BURST_COMPLETED
-    Process 4 [SYSTEM]
+    Thread 3 in process 687 [NORMAL]
     Transitioned from BLOCKED to READY
 
-At time 18151:
+At time 18147:
     PROCESS_DISPATCH_COMPLETED
-    Process 12 [NORMAL]
+    Thread 1 in process 242 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 18157:
-    PROCESS_PREEMPTED
-    Process 12 [NORMAL]
+At time 18153:
+    THREAD_PREEMPTED
+    Thread 1 in process 242 [NORMAL]
     Transitioned from RUNNING to READY
 
-At time 18157:
+At time 18153:
     DISPATCHER_INVOKED
-    Process 20 [NORMAL]
-    Selected from 6 processes. Will run for at most 6 ticks.
+    Thread 1 in process 320 [NORMAL]
+    Selected from 6 threads. Will run for at most 6 ticks.
 
-At time 18202:
+At time 18198:
     PROCESS_DISPATCH_COMPLETED
-    Process 20 [NORMAL]
+    Thread 1 in process 320 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 18208:
-    PROCESS_PREEMPTED
-    Process 20 [NORMAL]
+At time 18204:
+    THREAD_PREEMPTED
+    Thread 1 in process 320 [NORMAL]
     Transitioned from RUNNING to READY
 
-At time 18208:
+At time 18204:
     DISPATCHER_INVOKED
-    Process 14 [NORMAL]
-    Selected from 6 processes. Will run for at most 6 ticks.
+    Thread 1 in process 428 [SYSTEM]
+    Selected from 6 threads. Will run for at most 6 ticks.
 
-At time 18253:
+At time 18249:
     PROCESS_DISPATCH_COMPLETED
-    Process 14 [NORMAL]
+    Thread 1 in process 428 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 18259:
-    PROCESS_PREEMPTED
-    Process 14 [NORMAL]
+At time 18255:
+    THREAD_PREEMPTED
+    Thread 1 in process 428 [SYSTEM]
     Transitioned from RUNNING to READY
 
-At time 18259:
+At time 18255:
     DISPATCHER_INVOKED
-    Process 8 [SYSTEM]
-    Selected from 6 processes. Will run for at most 6 ticks.
+    Thread 0 in process 461 [SYSTEM]
+    Selected from 6 threads. Will run for at most 6 ticks.
 
-At time 18304:
+At time 18300:
     PROCESS_DISPATCH_COMPLETED
-    Process 8 [SYSTEM]
+    Thread 0 in process 461 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 18310:
-    PROCESS_PREEMPTED
-    Process 8 [SYSTEM]
-    Transitioned from RUNNING to READY
+At time 18306:
+    CPU_BURST_COMPLETED
+    Thread 0 in process 461 [SYSTEM]
+    Transitioned from RUNNING to BLOCKED
 
-At time 18310:
+At time 18306:
     DISPATCHER_INVOKED
-    Process 16 [SYSTEM]
-    Selected from 6 processes. Will run for at most 6 ticks.
+    Thread 1 in process 104 [SYSTEM]
+    Selected from 5 threads. Will run for at most 6 ticks.
 
-At time 18355:
+At time 18323:
+    IO_BURST_COMPLETED
+    Thread 0 in process 461 [SYSTEM]
+    Transitioned from BLOCKED to READY
+
+At time 18351:
     PROCESS_DISPATCH_COMPLETED
-    Process 16 [SYSTEM]
+    Thread 1 in process 104 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 18361:
-    PROCESS_PREEMPTED
-    Process 16 [SYSTEM]
+At time 18357:
+    THREAD_PREEMPTED
+    Thread 1 in process 104 [SYSTEM]
     Transitioned from RUNNING to READY
 
-At time 18361:
+At time 18357:
     DISPATCHER_INVOKED
-    Process 4 [SYSTEM]
-    Selected from 6 processes. Will run for at most 6 ticks.
+    Thread 3 in process 687 [NORMAL]
+    Selected from 6 threads. Will run for at most 6 ticks.
 
-At time 18406:
+At time 18402:
     PROCESS_DISPATCH_COMPLETED
-    Process 4 [SYSTEM]
+    Thread 3 in process 687 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 18412:
-    PROCESS_PREEMPTED
-    Process 4 [SYSTEM]
+At time 18408:
+    THREAD_PREEMPTED
+    Thread 3 in process 687 [NORMAL]
     Transitioned from RUNNING to READY
 
-At time 18412:
+At time 18408:
     DISPATCHER_INVOKED
-    Process 12 [NORMAL]
-    Selected from 6 processes. Will run for at most 6 ticks.
+    Thread 1 in process 242 [NORMAL]
+    Selected from 6 threads. Will run for at most 6 ticks.
 
-At time 18457:
+At time 18453:
     PROCESS_DISPATCH_COMPLETED
-    Process 12 [NORMAL]
+    Thread 1 in process 242 [NORMAL]
     Transitioned from READY to RUNNING
 
 At time 18459:
-    CPU_BURST_COMPLETED
-    Process 12 [NORMAL]
-    Transitioned from RUNNING to BLOCKED
+    THREAD_PREEMPTED
+    Thread 1 in process 242 [NORMAL]
+    Transitioned from RUNNING to READY
 
 At time 18459:
     DISPATCHER_INVOKED
-    Process 20 [NORMAL]
-    Selected from 5 processes. Will run for at most 6 ticks.
-
-At time 18460:
-    IO_BURST_COMPLETED
-    Process 12 [NORMAL]
-    Transitioned from BLOCKED to READY
+    Thread 1 in process 320 [NORMAL]
+    Selected from 6 threads. Will run for at most 6 ticks.
 
 At time 18504:
     PROCESS_DISPATCH_COMPLETED
-    Process 20 [NORMAL]
+    Thread 1 in process 320 [NORMAL]
     Transitioned from READY to RUNNING
 
 At time 18510:
-    PROCESS_PREEMPTED
-    Process 20 [NORMAL]
+    THREAD_PREEMPTED
+    Thread 1 in process 320 [NORMAL]
     Transitioned from RUNNING to READY
 
 At time 18510:
     DISPATCHER_INVOKED
-    Process 14 [NORMAL]
-    Selected from 6 processes. Will run for at most 6 ticks.
+    Thread 1 in process 428 [SYSTEM]
+    Selected from 6 threads. Will run for at most 6 ticks.
 
 At time 18555:
     PROCESS_DISPATCH_COMPLETED
-    Process 14 [NORMAL]
+    Thread 1 in process 428 [SYSTEM]
     Transitioned from READY to RUNNING
 
 At time 18561:
-    PROCESS_PREEMPTED
-    Process 14 [NORMAL]
-    Transitioned from RUNNING to READY
+    CPU_BURST_COMPLETED
+    Thread 1 in process 428 [SYSTEM]
+    Transitioned from RUNNING to BLOCKED
 
 At time 18561:
     DISPATCHER_INVOKED
-    Process 8 [SYSTEM]
-    Selected from 6 processes. Will run for at most 6 ticks.
+    Thread 0 in process 461 [SYSTEM]
+    Selected from 5 threads. Will run for at most 6 ticks.
+
+At time 18571:
+    IO_BURST_COMPLETED
+    Thread 1 in process 428 [SYSTEM]
+    Transitioned from BLOCKED to READY
 
 At time 18606:
     PROCESS_DISPATCH_COMPLETED
-    Process 8 [SYSTEM]
+    Thread 0 in process 461 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 18612:
-    PROCESS_PREEMPTED
-    Process 8 [SYSTEM]
+At time 18609:
+    THREAD_COMPLETED
+    Thread 0 in process 461 [SYSTEM]
+    Transitioned from RUNNING to EXIT
+
+At time 18609:
+    DISPATCHER_INVOKED
+    Thread 1 in process 104 [SYSTEM]
+    Selected from 5 threads. Will run for at most 6 ticks.
+
+At time 18654:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 1 in process 104 [SYSTEM]
+    Transitioned from READY to RUNNING
+
+At time 18660:
+    THREAD_PREEMPTED
+    Thread 1 in process 104 [SYSTEM]
     Transitioned from RUNNING to READY
 
-At time 18612:
+At time 18660:
     DISPATCHER_INVOKED
-    Process 16 [SYSTEM]
-    Selected from 6 processes. Will run for at most 6 ticks.
+    Thread 3 in process 687 [NORMAL]
+    Selected from 5 threads. Will run for at most 6 ticks.
 
-At time 18657:
+At time 18705:
     PROCESS_DISPATCH_COMPLETED
-    Process 16 [SYSTEM]
+    Thread 3 in process 687 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 18663:
-    CPU_BURST_COMPLETED
-    Process 16 [SYSTEM]
-    Transitioned from RUNNING to BLOCKED
-
-At time 18663:
-    DISPATCHER_INVOKED
-    Process 4 [SYSTEM]
-    Selected from 5 processes. Will run for at most 6 ticks.
-
-At time 18680:
-    IO_BURST_COMPLETED
-    Process 16 [SYSTEM]
-    Transitioned from BLOCKED to READY
-
-At time 18708:
-    PROCESS_DISPATCH_COMPLETED
-    Process 4 [SYSTEM]
-    Transitioned from READY to RUNNING
-
-At time 18714:
-    PROCESS_PREEMPTED
-    Process 4 [SYSTEM]
+At time 18711:
+    THREAD_PREEMPTED
+    Thread 3 in process 687 [NORMAL]
     Transitioned from RUNNING to READY
 
-At time 18714:
+At time 18711:
     DISPATCHER_INVOKED
-    Process 12 [NORMAL]
-    Selected from 6 processes. Will run for at most 6 ticks.
+    Thread 1 in process 242 [NORMAL]
+    Selected from 5 threads. Will run for at most 6 ticks.
 
-At time 18759:
+At time 18756:
     PROCESS_DISPATCH_COMPLETED
-    Process 12 [NORMAL]
+    Thread 1 in process 242 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 18765:
-    PROCESS_PREEMPTED
-    Process 12 [NORMAL]
+At time 18762:
+    THREAD_PREEMPTED
+    Thread 1 in process 242 [NORMAL]
     Transitioned from RUNNING to READY
 
-At time 18765:
+At time 18762:
     DISPATCHER_INVOKED
-    Process 20 [NORMAL]
-    Selected from 6 processes. Will run for at most 6 ticks.
+    Thread 1 in process 320 [NORMAL]
+    Selected from 5 threads. Will run for at most 6 ticks.
 
-At time 18810:
+At time 18807:
     PROCESS_DISPATCH_COMPLETED
-    Process 20 [NORMAL]
+    Thread 1 in process 320 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 18816:
-    PROCESS_PREEMPTED
-    Process 20 [NORMAL]
+At time 18813:
+    THREAD_COMPLETED
+    Thread 1 in process 320 [NORMAL]
+    Transitioned from RUNNING to EXIT
+
+At time 18813:
+    DISPATCHER_INVOKED
+    Thread 1 in process 428 [SYSTEM]
+    Selected from 4 threads. Will run for at most 6 ticks.
+
+At time 18858:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 1 in process 428 [SYSTEM]
+    Transitioned from READY to RUNNING
+
+At time 18864:
+    THREAD_PREEMPTED
+    Thread 1 in process 428 [SYSTEM]
     Transitioned from RUNNING to READY
 
-At time 18816:
+At time 18864:
     DISPATCHER_INVOKED
-    Process 14 [NORMAL]
-    Selected from 6 processes. Will run for at most 6 ticks.
+    Thread 1 in process 104 [SYSTEM]
+    Selected from 4 threads. Will run for at most 6 ticks.
 
-At time 18861:
+At time 18909:
     PROCESS_DISPATCH_COMPLETED
-    Process 14 [NORMAL]
+    Thread 1 in process 104 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 18867:
-    PROCESS_PREEMPTED
-    Process 14 [NORMAL]
+At time 18915:
+    THREAD_PREEMPTED
+    Thread 1 in process 104 [SYSTEM]
     Transitioned from RUNNING to READY
 
-At time 18867:
+At time 18915:
     DISPATCHER_INVOKED
-    Process 8 [SYSTEM]
-    Selected from 6 processes. Will run for at most 6 ticks.
+    Thread 3 in process 687 [NORMAL]
+    Selected from 4 threads. Will run for at most 6 ticks.
 
-At time 18912:
+At time 18960:
     PROCESS_DISPATCH_COMPLETED
-    Process 8 [SYSTEM]
+    Thread 3 in process 687 [NORMAL]
     Transitioned from READY to RUNNING
-
-At time 18918:
-    CPU_BURST_COMPLETED
-    Process 8 [SYSTEM]
-    Transitioned from RUNNING to BLOCKED
-
-At time 18918:
-    DISPATCHER_INVOKED
-    Process 16 [SYSTEM]
-    Selected from 5 processes. Will run for at most 6 ticks.
-
-At time 18928:
-    IO_BURST_COMPLETED
-    Process 8 [SYSTEM]
-    Transitioned from BLOCKED to READY
 
 At time 18963:
-    PROCESS_DISPATCH_COMPLETED
-    Process 16 [SYSTEM]
-    Transitioned from READY to RUNNING
+    CPU_BURST_COMPLETED
+    Thread 3 in process 687 [NORMAL]
+    Transitioned from RUNNING to BLOCKED
 
-At time 18966:
-    PROCESS_COMPLETED
-    Process 16 [SYSTEM]
-    Transitioned from RUNNING to EXIT
-
-At time 18966:
+At time 18963:
     DISPATCHER_INVOKED
-    Process 4 [SYSTEM]
-    Selected from 5 processes. Will run for at most 6 ticks.
+    Thread 1 in process 242 [NORMAL]
+    Selected from 3 threads. Will run for at most 6 ticks.
+
+At time 18976:
+    IO_BURST_COMPLETED
+    Thread 3 in process 687 [NORMAL]
+    Transitioned from BLOCKED to READY
+
+At time 19008:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 1 in process 242 [NORMAL]
+    Transitioned from READY to RUNNING
 
 At time 19011:
-    PROCESS_DISPATCH_COMPLETED
-    Process 4 [SYSTEM]
-    Transitioned from READY to RUNNING
+    CPU_BURST_COMPLETED
+    Thread 1 in process 242 [NORMAL]
+    Transitioned from RUNNING to BLOCKED
 
-At time 19017:
-    PROCESS_PREEMPTED
-    Process 4 [SYSTEM]
-    Transitioned from RUNNING to READY
-
-At time 19017:
+At time 19011:
     DISPATCHER_INVOKED
-    Process 12 [NORMAL]
-    Selected from 5 processes. Will run for at most 6 ticks.
+    Thread 1 in process 428 [SYSTEM]
+    Selected from 3 threads. Will run for at most 6 ticks.
+
+At time 19039:
+    IO_BURST_COMPLETED
+    Thread 1 in process 242 [NORMAL]
+    Transitioned from BLOCKED to READY
+
+At time 19056:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 1 in process 428 [SYSTEM]
+    Transitioned from READY to RUNNING
 
 At time 19062:
-    PROCESS_DISPATCH_COMPLETED
-    Process 12 [NORMAL]
-    Transitioned from READY to RUNNING
-
-At time 19068:
-    PROCESS_PREEMPTED
-    Process 12 [NORMAL]
+    THREAD_PREEMPTED
+    Thread 1 in process 428 [SYSTEM]
     Transitioned from RUNNING to READY
 
-At time 19068:
+At time 19062:
     DISPATCHER_INVOKED
-    Process 20 [NORMAL]
-    Selected from 5 processes. Will run for at most 6 ticks.
+    Thread 1 in process 104 [SYSTEM]
+    Selected from 4 threads. Will run for at most 6 ticks.
 
-At time 19113:
+At time 19107:
     PROCESS_DISPATCH_COMPLETED
-    Process 20 [NORMAL]
+    Thread 1 in process 104 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 19119:
-    PROCESS_PREEMPTED
-    Process 20 [NORMAL]
+At time 19109:
+    CPU_BURST_COMPLETED
+    Thread 1 in process 104 [SYSTEM]
+    Transitioned from RUNNING to BLOCKED
+
+At time 19109:
+    DISPATCHER_INVOKED
+    Thread 3 in process 687 [NORMAL]
+    Selected from 3 threads. Will run for at most 6 ticks.
+
+At time 19137:
+    IO_BURST_COMPLETED
+    Thread 1 in process 104 [SYSTEM]
+    Transitioned from BLOCKED to READY
+
+At time 19154:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 3 in process 687 [NORMAL]
+    Transitioned from READY to RUNNING
+
+At time 19160:
+    THREAD_PREEMPTED
+    Thread 3 in process 687 [NORMAL]
     Transitioned from RUNNING to READY
 
-At time 19119:
+At time 19160:
     DISPATCHER_INVOKED
-    Process 14 [NORMAL]
-    Selected from 5 processes. Will run for at most 6 ticks.
+    Thread 1 in process 242 [NORMAL]
+    Selected from 4 threads. Will run for at most 6 ticks.
 
-At time 19164:
+At time 19205:
     PROCESS_DISPATCH_COMPLETED
-    Process 14 [NORMAL]
+    Thread 1 in process 242 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 19170:
-    PROCESS_COMPLETED
-    Process 14 [NORMAL]
+At time 19208:
+    THREAD_COMPLETED
+    Thread 1 in process 242 [NORMAL]
     Transitioned from RUNNING to EXIT
 
-At time 19170:
+At time 19208:
     DISPATCHER_INVOKED
-    Process 8 [SYSTEM]
-    Selected from 4 processes. Will run for at most 6 ticks.
+    Thread 1 in process 428 [SYSTEM]
+    Selected from 3 threads. Will run for at most 6 ticks.
 
-At time 19215:
+At time 19253:
     PROCESS_DISPATCH_COMPLETED
-    Process 8 [SYSTEM]
+    Thread 1 in process 428 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 19221:
-    PROCESS_PREEMPTED
-    Process 8 [SYSTEM]
+At time 19259:
+    THREAD_PREEMPTED
+    Thread 1 in process 428 [SYSTEM]
     Transitioned from RUNNING to READY
 
-At time 19221:
+At time 19259:
     DISPATCHER_INVOKED
-    Process 4 [SYSTEM]
-    Selected from 4 processes. Will run for at most 6 ticks.
+    Thread 1 in process 104 [SYSTEM]
+    Selected from 3 threads. Will run for at most 6 ticks.
 
-At time 19266:
+At time 19304:
     PROCESS_DISPATCH_COMPLETED
-    Process 4 [SYSTEM]
+    Thread 1 in process 104 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 19272:
-    PROCESS_PREEMPTED
-    Process 4 [SYSTEM]
+At time 19310:
+    THREAD_PREEMPTED
+    Thread 1 in process 104 [SYSTEM]
     Transitioned from RUNNING to READY
 
-At time 19272:
+At time 19310:
     DISPATCHER_INVOKED
-    Process 12 [NORMAL]
-    Selected from 4 processes. Will run for at most 6 ticks.
+    Thread 3 in process 687 [NORMAL]
+    Selected from 3 threads. Will run for at most 6 ticks.
 
-At time 19317:
+At time 19355:
     PROCESS_DISPATCH_COMPLETED
-    Process 12 [NORMAL]
+    Thread 3 in process 687 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 19320:
+At time 19361:
+    THREAD_PREEMPTED
+    Thread 3 in process 687 [NORMAL]
+    Transitioned from RUNNING to READY
+
+At time 19361:
+    DISPATCHER_INVOKED
+    Thread 1 in process 428 [SYSTEM]
+    Selected from 3 threads. Will run for at most 6 ticks.
+
+At time 19406:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 1 in process 428 [SYSTEM]
+    Transitioned from READY to RUNNING
+
+At time 19410:
     CPU_BURST_COMPLETED
-    Process 12 [NORMAL]
+    Thread 1 in process 428 [SYSTEM]
     Transitioned from RUNNING to BLOCKED
 
-At time 19320:
+At time 19410:
     DISPATCHER_INVOKED
-    Process 20 [NORMAL]
-    Selected from 3 processes. Will run for at most 6 ticks.
+    Thread 1 in process 104 [SYSTEM]
+    Selected from 2 threads. Will run for at most 6 ticks.
 
-At time 19333:
+At time 19438:
     IO_BURST_COMPLETED
-    Process 12 [NORMAL]
+    Thread 1 in process 428 [SYSTEM]
     Transitioned from BLOCKED to READY
 
-At time 19365:
+At time 19455:
     PROCESS_DISPATCH_COMPLETED
-    Process 20 [NORMAL]
+    Thread 1 in process 104 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 19368:
-    CPU_BURST_COMPLETED
-    Process 20 [NORMAL]
-    Transitioned from RUNNING to BLOCKED
-
-At time 19368:
-    DISPATCHER_INVOKED
-    Process 8 [SYSTEM]
-    Selected from 3 processes. Will run for at most 6 ticks.
-
-At time 19396:
-    IO_BURST_COMPLETED
-    Process 20 [NORMAL]
-    Transitioned from BLOCKED to READY
-
-At time 19413:
-    PROCESS_DISPATCH_COMPLETED
-    Process 8 [SYSTEM]
-    Transitioned from READY to RUNNING
-
-At time 19419:
-    PROCESS_PREEMPTED
-    Process 8 [SYSTEM]
+At time 19461:
+    THREAD_PREEMPTED
+    Thread 1 in process 104 [SYSTEM]
     Transitioned from RUNNING to READY
 
-At time 19419:
+At time 19461:
     DISPATCHER_INVOKED
-    Process 4 [SYSTEM]
-    Selected from 4 processes. Will run for at most 6 ticks.
+    Thread 3 in process 687 [NORMAL]
+    Selected from 3 threads. Will run for at most 6 ticks.
 
-At time 19464:
+At time 19506:
     PROCESS_DISPATCH_COMPLETED
-    Process 4 [SYSTEM]
+    Thread 3 in process 687 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 19466:
-    CPU_BURST_COMPLETED
-    Process 4 [SYSTEM]
-    Transitioned from RUNNING to BLOCKED
-
-At time 19466:
-    DISPATCHER_INVOKED
-    Process 12 [NORMAL]
-    Selected from 3 processes. Will run for at most 6 ticks.
-
-At time 19494:
-    IO_BURST_COMPLETED
-    Process 4 [SYSTEM]
-    Transitioned from BLOCKED to READY
-
-At time 19511:
-    PROCESS_DISPATCH_COMPLETED
-    Process 12 [NORMAL]
-    Transitioned from READY to RUNNING
-
-At time 19517:
-    PROCESS_PREEMPTED
-    Process 12 [NORMAL]
+At time 19512:
+    THREAD_PREEMPTED
+    Thread 3 in process 687 [NORMAL]
     Transitioned from RUNNING to READY
 
-At time 19517:
+At time 19512:
     DISPATCHER_INVOKED
-    Process 20 [NORMAL]
-    Selected from 4 processes. Will run for at most 6 ticks.
+    Thread 1 in process 428 [SYSTEM]
+    Selected from 3 threads. Will run for at most 6 ticks.
 
-At time 19562:
+At time 19557:
     PROCESS_DISPATCH_COMPLETED
-    Process 20 [NORMAL]
+    Thread 1 in process 428 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 19565:
-    PROCESS_COMPLETED
-    Process 20 [NORMAL]
+At time 19558:
+    THREAD_COMPLETED
+    Thread 1 in process 428 [SYSTEM]
     Transitioned from RUNNING to EXIT
 
-At time 19565:
+At time 19558:
     DISPATCHER_INVOKED
-    Process 8 [SYSTEM]
-    Selected from 3 processes. Will run for at most 6 ticks.
+    Thread 1 in process 104 [SYSTEM]
+    Selected from 2 threads. Will run for at most 6 ticks.
 
-At time 19610:
+At time 19603:
     PROCESS_DISPATCH_COMPLETED
-    Process 8 [SYSTEM]
+    Thread 1 in process 104 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 19616:
-    PROCESS_PREEMPTED
-    Process 8 [SYSTEM]
+At time 19609:
+    THREAD_PREEMPTED
+    Thread 1 in process 104 [SYSTEM]
     Transitioned from RUNNING to READY
 
-At time 19616:
+At time 19609:
     DISPATCHER_INVOKED
-    Process 4 [SYSTEM]
-    Selected from 3 processes. Will run for at most 6 ticks.
+    Thread 3 in process 687 [NORMAL]
+    Selected from 2 threads. Will run for at most 6 ticks.
 
-At time 19661:
+At time 19654:
     PROCESS_DISPATCH_COMPLETED
-    Process 4 [SYSTEM]
+    Thread 3 in process 687 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 19667:
-    PROCESS_PREEMPTED
-    Process 4 [SYSTEM]
-    Transitioned from RUNNING to READY
+At time 19656:
+    THREAD_COMPLETED
+    Thread 3 in process 687 [NORMAL]
+    Transitioned from RUNNING to EXIT
 
-At time 19667:
+At time 19656:
     DISPATCHER_INVOKED
-    Process 12 [NORMAL]
-    Selected from 3 processes. Will run for at most 6 ticks.
+    Thread 1 in process 104 [SYSTEM]
+    Selected from 1 threads. Will run for at most 6 ticks.
 
-At time 19712:
+At time 19701:
     PROCESS_DISPATCH_COMPLETED
-    Process 12 [NORMAL]
+    Thread 1 in process 104 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 19718:
-    PROCESS_PREEMPTED
-    Process 12 [NORMAL]
-    Transitioned from RUNNING to READY
+At time 19705:
+    CPU_BURST_COMPLETED
+    Thread 1 in process 104 [SYSTEM]
+    Transitioned from RUNNING to BLOCKED
 
-At time 19718:
+At time 19733:
+    IO_BURST_COMPLETED
+    Thread 1 in process 104 [SYSTEM]
+    Transitioned from BLOCKED to READY
+
+At time 19733:
     DISPATCHER_INVOKED
-    Process 8 [SYSTEM]
-    Selected from 3 processes. Will run for at most 6 ticks.
+    Thread 1 in process 104 [SYSTEM]
+    Selected from 1 threads. Will run for at most 6 ticks.
+
+At time 19757:
+    THREAD_DISPATCH_COMPLETED
+    Thread 1 in process 104 [SYSTEM]
+    Transitioned from READY to RUNNING
 
 At time 19763:
-    PROCESS_DISPATCH_COMPLETED
-    Process 8 [SYSTEM]
+    THREAD_PREEMPTED
+    Thread 1 in process 104 [SYSTEM]
+    Transitioned from RUNNING to READY
+
+At time 19763:
+    DISPATCHER_INVOKED
+    Thread 1 in process 104 [SYSTEM]
+    Selected from 1 threads. Will run for at most 6 ticks.
+
+At time 19787:
+    THREAD_DISPATCH_COMPLETED
+    Thread 1 in process 104 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 19767:
+At time 19793:
+    THREAD_PREEMPTED
+    Thread 1 in process 104 [SYSTEM]
+    Transitioned from RUNNING to READY
+
+At time 19793:
+    DISPATCHER_INVOKED
+    Thread 1 in process 104 [SYSTEM]
+    Selected from 1 threads. Will run for at most 6 ticks.
+
+At time 19817:
+    THREAD_DISPATCH_COMPLETED
+    Thread 1 in process 104 [SYSTEM]
+    Transitioned from READY to RUNNING
+
+At time 19823:
+    THREAD_PREEMPTED
+    Thread 1 in process 104 [SYSTEM]
+    Transitioned from RUNNING to READY
+
+At time 19823:
+    DISPATCHER_INVOKED
+    Thread 1 in process 104 [SYSTEM]
+    Selected from 1 threads. Will run for at most 6 ticks.
+
+At time 19847:
+    THREAD_DISPATCH_COMPLETED
+    Thread 1 in process 104 [SYSTEM]
+    Transitioned from READY to RUNNING
+
+At time 19853:
+    THREAD_PREEMPTED
+    Thread 1 in process 104 [SYSTEM]
+    Transitioned from RUNNING to READY
+
+At time 19853:
+    DISPATCHER_INVOKED
+    Thread 1 in process 104 [SYSTEM]
+    Selected from 1 threads. Will run for at most 6 ticks.
+
+At time 19877:
+    THREAD_DISPATCH_COMPLETED
+    Thread 1 in process 104 [SYSTEM]
+    Transitioned from READY to RUNNING
+
+At time 19878:
     CPU_BURST_COMPLETED
-    Process 8 [SYSTEM]
+    Thread 1 in process 104 [SYSTEM]
     Transitioned from RUNNING to BLOCKED
 
-At time 19767:
-    DISPATCHER_INVOKED
-    Process 4 [SYSTEM]
-    Selected from 2 processes. Will run for at most 6 ticks.
-
-At time 19795:
+At time 19901:
     IO_BURST_COMPLETED
-    Process 8 [SYSTEM]
+    Thread 1 in process 104 [SYSTEM]
     Transitioned from BLOCKED to READY
 
-At time 19812:
-    PROCESS_DISPATCH_COMPLETED
-    Process 4 [SYSTEM]
+At time 19901:
+    DISPATCHER_INVOKED
+    Thread 1 in process 104 [SYSTEM]
+    Selected from 1 threads. Will run for at most 6 ticks.
+
+At time 19925:
+    THREAD_DISPATCH_COMPLETED
+    Thread 1 in process 104 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 19818:
-    PROCESS_PREEMPTED
-    Process 4 [SYSTEM]
+At time 19931:
+    THREAD_PREEMPTED
+    Thread 1 in process 104 [SYSTEM]
     Transitioned from RUNNING to READY
 
-At time 19818:
+At time 19931:
     DISPATCHER_INVOKED
-    Process 12 [NORMAL]
-    Selected from 3 processes. Will run for at most 6 ticks.
+    Thread 1 in process 104 [SYSTEM]
+    Selected from 1 threads. Will run for at most 6 ticks.
 
-At time 19863:
-    PROCESS_DISPATCH_COMPLETED
-    Process 12 [NORMAL]
+At time 19955:
+    THREAD_DISPATCH_COMPLETED
+    Thread 1 in process 104 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 19869:
-    PROCESS_PREEMPTED
-    Process 12 [NORMAL]
+At time 19961:
+    THREAD_PREEMPTED
+    Thread 1 in process 104 [SYSTEM]
     Transitioned from RUNNING to READY
 
-At time 19869:
+At time 19961:
     DISPATCHER_INVOKED
-    Process 8 [SYSTEM]
-    Selected from 3 processes. Will run for at most 6 ticks.
+    Thread 1 in process 104 [SYSTEM]
+    Selected from 1 threads. Will run for at most 6 ticks.
 
-At time 19914:
-    PROCESS_DISPATCH_COMPLETED
-    Process 8 [SYSTEM]
+At time 19985:
+    THREAD_DISPATCH_COMPLETED
+    Thread 1 in process 104 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 19915:
-    PROCESS_COMPLETED
-    Process 8 [SYSTEM]
-    Transitioned from RUNNING to EXIT
-
-At time 19915:
-    DISPATCHER_INVOKED
-    Process 4 [SYSTEM]
-    Selected from 2 processes. Will run for at most 6 ticks.
-
-At time 19960:
-    PROCESS_DISPATCH_COMPLETED
-    Process 4 [SYSTEM]
-    Transitioned from READY to RUNNING
-
-At time 19966:
-    PROCESS_PREEMPTED
-    Process 4 [SYSTEM]
+At time 19991:
+    THREAD_PREEMPTED
+    Thread 1 in process 104 [SYSTEM]
     Transitioned from RUNNING to READY
 
-At time 19966:
+At time 19991:
     DISPATCHER_INVOKED
-    Process 12 [NORMAL]
-    Selected from 2 processes. Will run for at most 6 ticks.
+    Thread 1 in process 104 [SYSTEM]
+    Selected from 1 threads. Will run for at most 6 ticks.
 
-At time 20011:
-    PROCESS_DISPATCH_COMPLETED
-    Process 12 [NORMAL]
+At time 20015:
+    THREAD_DISPATCH_COMPLETED
+    Thread 1 in process 104 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 20013:
-    PROCESS_COMPLETED
-    Process 12 [NORMAL]
-    Transitioned from RUNNING to EXIT
+At time 20021:
+    THREAD_PREEMPTED
+    Thread 1 in process 104 [SYSTEM]
+    Transitioned from RUNNING to READY
 
-At time 20013:
+At time 20021:
     DISPATCHER_INVOKED
-    Process 4 [SYSTEM]
-    Selected from 1 processes. Will run for at most 6 ticks.
+    Thread 1 in process 104 [SYSTEM]
+    Selected from 1 threads. Will run for at most 6 ticks.
 
-At time 20058:
-    PROCESS_DISPATCH_COMPLETED
-    Process 4 [SYSTEM]
+At time 20045:
+    THREAD_DISPATCH_COMPLETED
+    Thread 1 in process 104 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 20062:
+At time 20049:
     CPU_BURST_COMPLETED
-    Process 4 [SYSTEM]
+    Thread 1 in process 104 [SYSTEM]
     Transitioned from RUNNING to BLOCKED
 
-At time 20090:
+At time 20053:
     IO_BURST_COMPLETED
-    Process 4 [SYSTEM]
+    Thread 1 in process 104 [SYSTEM]
     Transitioned from BLOCKED to READY
 
-At time 20090:
+At time 20053:
     DISPATCHER_INVOKED
-    Process 4 [SYSTEM]
-    Selected from 1 processes. Will run for at most 6 ticks.
+    Thread 1 in process 104 [SYSTEM]
+    Selected from 1 threads. Will run for at most 6 ticks.
 
-At time 20135:
-    PROCESS_DISPATCH_COMPLETED
-    Process 4 [SYSTEM]
+At time 20077:
+    THREAD_DISPATCH_COMPLETED
+    Thread 1 in process 104 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 20141:
-    PROCESS_PREEMPTED
-    Process 4 [SYSTEM]
+At time 20083:
+    THREAD_PREEMPTED
+    Thread 1 in process 104 [SYSTEM]
     Transitioned from RUNNING to READY
 
-At time 20141:
+At time 20083:
     DISPATCHER_INVOKED
-    Process 4 [SYSTEM]
-    Selected from 1 processes. Will run for at most 6 ticks.
+    Thread 1 in process 104 [SYSTEM]
+    Selected from 1 threads. Will run for at most 6 ticks.
 
-At time 20186:
-    PROCESS_DISPATCH_COMPLETED
-    Process 4 [SYSTEM]
+At time 20107:
+    THREAD_DISPATCH_COMPLETED
+    Thread 1 in process 104 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 20192:
-    PROCESS_PREEMPTED
-    Process 4 [SYSTEM]
+At time 20113:
+    THREAD_PREEMPTED
+    Thread 1 in process 104 [SYSTEM]
     Transitioned from RUNNING to READY
 
-At time 20192:
+At time 20113:
     DISPATCHER_INVOKED
-    Process 4 [SYSTEM]
-    Selected from 1 processes. Will run for at most 6 ticks.
+    Thread 1 in process 104 [SYSTEM]
+    Selected from 1 threads. Will run for at most 6 ticks.
 
-At time 20237:
-    PROCESS_DISPATCH_COMPLETED
-    Process 4 [SYSTEM]
+At time 20137:
+    THREAD_DISPATCH_COMPLETED
+    Thread 1 in process 104 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 20243:
-    PROCESS_PREEMPTED
-    Process 4 [SYSTEM]
+At time 20143:
+    THREAD_PREEMPTED
+    Thread 1 in process 104 [SYSTEM]
     Transitioned from RUNNING to READY
 
-At time 20243:
+At time 20143:
     DISPATCHER_INVOKED
-    Process 4 [SYSTEM]
-    Selected from 1 processes. Will run for at most 6 ticks.
+    Thread 1 in process 104 [SYSTEM]
+    Selected from 1 threads. Will run for at most 6 ticks.
 
-At time 20288:
-    PROCESS_DISPATCH_COMPLETED
-    Process 4 [SYSTEM]
+At time 20167:
+    THREAD_DISPATCH_COMPLETED
+    Thread 1 in process 104 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 20294:
-    PROCESS_PREEMPTED
-    Process 4 [SYSTEM]
+At time 20173:
+    THREAD_PREEMPTED
+    Thread 1 in process 104 [SYSTEM]
     Transitioned from RUNNING to READY
 
-At time 20294:
+At time 20173:
     DISPATCHER_INVOKED
-    Process 4 [SYSTEM]
-    Selected from 1 processes. Will run for at most 6 ticks.
+    Thread 1 in process 104 [SYSTEM]
+    Selected from 1 threads. Will run for at most 6 ticks.
 
-At time 20339:
-    PROCESS_DISPATCH_COMPLETED
-    Process 4 [SYSTEM]
+At time 20197:
+    THREAD_DISPATCH_COMPLETED
+    Thread 1 in process 104 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 20340:
-    CPU_BURST_COMPLETED
-    Process 4 [SYSTEM]
-    Transitioned from RUNNING to BLOCKED
-
-At time 20363:
-    IO_BURST_COMPLETED
-    Process 4 [SYSTEM]
-    Transitioned from BLOCKED to READY
-
-At time 20363:
-    DISPATCHER_INVOKED
-    Process 4 [SYSTEM]
-    Selected from 1 processes. Will run for at most 6 ticks.
-
-At time 20408:
-    PROCESS_DISPATCH_COMPLETED
-    Process 4 [SYSTEM]
-    Transitioned from READY to RUNNING
-
-At time 20414:
-    PROCESS_PREEMPTED
-    Process 4 [SYSTEM]
-    Transitioned from RUNNING to READY
-
-At time 20414:
-    DISPATCHER_INVOKED
-    Process 4 [SYSTEM]
-    Selected from 1 processes. Will run for at most 6 ticks.
-
-At time 20459:
-    PROCESS_DISPATCH_COMPLETED
-    Process 4 [SYSTEM]
-    Transitioned from READY to RUNNING
-
-At time 20465:
-    PROCESS_PREEMPTED
-    Process 4 [SYSTEM]
-    Transitioned from RUNNING to READY
-
-At time 20465:
-    DISPATCHER_INVOKED
-    Process 4 [SYSTEM]
-    Selected from 1 processes. Will run for at most 6 ticks.
-
-At time 20510:
-    PROCESS_DISPATCH_COMPLETED
-    Process 4 [SYSTEM]
-    Transitioned from READY to RUNNING
-
-At time 20516:
-    PROCESS_PREEMPTED
-    Process 4 [SYSTEM]
-    Transitioned from RUNNING to READY
-
-At time 20516:
-    DISPATCHER_INVOKED
-    Process 4 [SYSTEM]
-    Selected from 1 processes. Will run for at most 6 ticks.
-
-At time 20561:
-    PROCESS_DISPATCH_COMPLETED
-    Process 4 [SYSTEM]
-    Transitioned from READY to RUNNING
-
-At time 20567:
-    PROCESS_PREEMPTED
-    Process 4 [SYSTEM]
-    Transitioned from RUNNING to READY
-
-At time 20567:
-    DISPATCHER_INVOKED
-    Process 4 [SYSTEM]
-    Selected from 1 processes. Will run for at most 6 ticks.
-
-At time 20612:
-    PROCESS_DISPATCH_COMPLETED
-    Process 4 [SYSTEM]
-    Transitioned from READY to RUNNING
-
-At time 20616:
-    CPU_BURST_COMPLETED
-    Process 4 [SYSTEM]
-    Transitioned from RUNNING to BLOCKED
-
-At time 20620:
-    IO_BURST_COMPLETED
-    Process 4 [SYSTEM]
-    Transitioned from BLOCKED to READY
-
-At time 20620:
-    DISPATCHER_INVOKED
-    Process 4 [SYSTEM]
-    Selected from 1 processes. Will run for at most 6 ticks.
-
-At time 20665:
-    PROCESS_DISPATCH_COMPLETED
-    Process 4 [SYSTEM]
-    Transitioned from READY to RUNNING
-
-At time 20671:
-    PROCESS_PREEMPTED
-    Process 4 [SYSTEM]
-    Transitioned from RUNNING to READY
-
-At time 20671:
-    DISPATCHER_INVOKED
-    Process 4 [SYSTEM]
-    Selected from 1 processes. Will run for at most 6 ticks.
-
-At time 20716:
-    PROCESS_DISPATCH_COMPLETED
-    Process 4 [SYSTEM]
-    Transitioned from READY to RUNNING
-
-At time 20722:
-    PROCESS_PREEMPTED
-    Process 4 [SYSTEM]
-    Transitioned from RUNNING to READY
-
-At time 20722:
-    DISPATCHER_INVOKED
-    Process 4 [SYSTEM]
-    Selected from 1 processes. Will run for at most 6 ticks.
-
-At time 20767:
-    PROCESS_DISPATCH_COMPLETED
-    Process 4 [SYSTEM]
-    Transitioned from READY to RUNNING
-
-At time 20773:
-    PROCESS_PREEMPTED
-    Process 4 [SYSTEM]
-    Transitioned from RUNNING to READY
-
-At time 20773:
-    DISPATCHER_INVOKED
-    Process 4 [SYSTEM]
-    Selected from 1 processes. Will run for at most 6 ticks.
-
-At time 20818:
-    PROCESS_DISPATCH_COMPLETED
-    Process 4 [SYSTEM]
-    Transitioned from READY to RUNNING
-
-At time 20824:
-    PROCESS_PREEMPTED
-    Process 4 [SYSTEM]
-    Transitioned from RUNNING to READY
-
-At time 20824:
-    DISPATCHER_INVOKED
-    Process 4 [SYSTEM]
-    Selected from 1 processes. Will run for at most 6 ticks.
-
-At time 20869:
-    PROCESS_DISPATCH_COMPLETED
-    Process 4 [SYSTEM]
-    Transitioned from READY to RUNNING
-
-At time 20874:
-    PROCESS_COMPLETED
-    Process 4 [SYSTEM]
+At time 20202:
+    THREAD_COMPLETED
+    Thread 1 in process 104 [SYSTEM]
     Transitioned from RUNNING to EXIT
 
 SIMULATION COMPLETED!
-

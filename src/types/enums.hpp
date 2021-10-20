@@ -20,14 +20,22 @@ enum BurstType {
 };
 
 enum EventType {
-    PROCESS_ARRIVED,
+    THREAD_ARRIVED,
     THREAD_DISPATCH_COMPLETED,
     PROCESS_DISPATCH_COMPLETED,
     CPU_BURST_COMPLETED,
     IO_BURST_COMPLETED,
-    PROCESS_COMPLETED,
-    PROCESS_PREEMPTED,
+    THREAD_COMPLETED,
+    THREAD_PREEMPTED,
     DISPATCHER_INVOKED
+};
+
+enum ThreadState {
+    NEW,
+    READY,
+    RUNNING,
+    BLOCKED,
+    EXIT
 };
 
 enum ProcessPriority {
@@ -37,12 +45,33 @@ enum ProcessPriority {
     BATCH
 };
 
-enum ThreadState {
-    NEW,
-    READY,
-    RUNNING,
-    BLOCKED,
-    EXIT
+// Read the documentation on enumerated types in C++ if you are confused as to the purpose
+// of these maps.
+// Hint: it's to help with not having *lots* of duplicate when printing
+inline const char* STATE_MAP[5] = {
+    "NEW",
+    "READY",
+    "RUNNING",
+    "BLOCKED",
+    "EXIT"
+};
+
+inline const char* EVENT_MAP[8] = {
+    "THREAD_ARRIVED",
+    "THREAD_DISPATCH_COMPLETED",
+    "PROCESS_DISPATCH_COMPLETED",
+    "CPU_BURST_COMPLETED",
+    "IO_BURST_COMPLETED",
+    "THREAD_COMPLETED",
+    "THREAD_PREEMPTED",
+    "DISPATCHER_INVOKED"
+};
+
+inline const char* PROCESS_PRIORITY_MAP[4] = {
+    "SYSTEM",
+    "INTERACTIVE",
+    "NORMAL",
+    "BATCH"
 };
 
 #endif

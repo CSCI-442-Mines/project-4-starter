@@ -15,13 +15,8 @@ int main(int argc, char** argv) {
         return 1;
     }
 
-    try {
-        Simulation simulation(flags);
-        simulation.run();
-     } catch (...) {
-        print_usage();
-        return 1;
-    }
+    Simulation simulation(flags);
+    simulation.run();
 
     return error;
 }

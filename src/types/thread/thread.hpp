@@ -19,6 +19,13 @@
 
 class Thread {
 public:
+    /*
+        Thread(arrival, thread_id, process_id, priority):
+            A constuctor for a thread object. We give it an arrival time, thread ID,
+            process ID, and priority, and a thread with those variables is constructed.
+    */
+    Thread(int arrival, int thread_id, int process_id, ProcessPriority priority):
+        thread_id(thread_id), process_id(process_id), arrival_time(arrival), priority(priority) {}
 
     //==================================================
     //  Member variables
@@ -74,6 +81,7 @@ public:
     */
     int state_change_time = -1;
 
+
     /*
         priority:
             The priority of the parent process (and thus the priority of the thread).
@@ -99,17 +107,13 @@ public:
     */
     std::queue<std::shared_ptr<Burst>> bursts;
 
+
+    // TODO: Add any other variables you may find useful to have, especially for the MLFQ and CFS algorithms!
+
     //==================================================
     //  Member functions
     //==================================================
 
-    /*
-        Thread(arrival, thread_id, process_id, priority):
-            A constuctor for a thread object. We give it an arrival time, thread ID,
-            process ID, and priority, and a thread with those variables is constructed.
-    */
-    Thread(int arrival, int thread_id, int process_id, ProcessPriority priority):
-        arrival_time(arrival), thread_id(thread_id), process_id(process_id), priority(priority) {}
 
     /*
         set_*:

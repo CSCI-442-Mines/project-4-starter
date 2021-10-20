@@ -1,282 +1,281 @@
 At time 19:
-    PROCESS_ARRIVED
-    Process 2 [NORMAL]
+    THREAD_ARRIVED
+    Thread 0 in process 189 [NORMAL]
     Transitioned from NEW to READY
 
 At time 19:
     DISPATCHER_INVOKED
-    Process 2 [NORMAL]
-    Selected from 1 processes. Will run to completion of burst.
+    Thread 0 in process 189 [NORMAL]
+    Selected from 1 threads. Will run to completion of burst.
 
 At time 29:
-    PROCESS_ARRIVED
-    Process 1 [SYSTEM]
+    THREAD_ARRIVED
+    Thread 1 in process 59 [SYSTEM]
     Transitioned from NEW to READY
 
 At time 33:
-    PROCESS_ARRIVED
-    Process 0 [SYSTEM]
+    THREAD_ARRIVED
+    Thread 0 in process 59 [SYSTEM]
     Transitioned from NEW to READY
 
 At time 66:
     PROCESS_DISPATCH_COMPLETED
-    Process 2 [NORMAL]
+    Thread 0 in process 189 [NORMAL]
     Transitioned from READY to RUNNING
 
 At time 91:
     CPU_BURST_COMPLETED
-    Process 2 [NORMAL]
+    Thread 0 in process 189 [NORMAL]
     Transitioned from RUNNING to BLOCKED
 
 At time 91:
     DISPATCHER_INVOKED
-    Process 1 [SYSTEM]
-    Selected from 2 processes. Will run to completion of burst.
+    Thread 1 in process 59 [SYSTEM]
+    Selected from 2 threads. Will run to completion of burst.
 
 At time 105:
     IO_BURST_COMPLETED
-    Process 2 [NORMAL]
+    Thread 0 in process 189 [NORMAL]
     Transitioned from BLOCKED to READY
 
 At time 138:
     PROCESS_DISPATCH_COMPLETED
-    Process 1 [SYSTEM]
+    Thread 1 in process 59 [SYSTEM]
     Transitioned from READY to RUNNING
 
 At time 161:
     CPU_BURST_COMPLETED
-    Process 1 [SYSTEM]
+    Thread 1 in process 59 [SYSTEM]
     Transitioned from RUNNING to BLOCKED
 
 At time 161:
     DISPATCHER_INVOKED
-    Process 0 [SYSTEM]
-    Selected from 2 processes. Will run to completion of burst.
+    Thread 0 in process 59 [SYSTEM]
+    Selected from 2 threads. Will run to completion of burst.
 
 At time 169:
     IO_BURST_COMPLETED
-    Process 1 [SYSTEM]
+    Thread 1 in process 59 [SYSTEM]
     Transitioned from BLOCKED to READY
 
-At time 208:
-    PROCESS_DISPATCH_COMPLETED
-    Process 0 [SYSTEM]
+At time 171:
+    THREAD_DISPATCH_COMPLETED
+    Thread 0 in process 59 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 216:
+At time 179:
     CPU_BURST_COMPLETED
-    Process 0 [SYSTEM]
+    Thread 0 in process 59 [SYSTEM]
     Transitioned from RUNNING to BLOCKED
 
-At time 216:
+At time 179:
     DISPATCHER_INVOKED
-    Process 2 [NORMAL]
-    Selected from 2 processes. Will run to completion of burst.
+    Thread 0 in process 189 [NORMAL]
+    Selected from 2 threads. Will run to completion of burst.
 
-At time 223:
+At time 186:
     IO_BURST_COMPLETED
-    Process 0 [SYSTEM]
+    Thread 0 in process 59 [SYSTEM]
     Transitioned from BLOCKED to READY
 
-At time 263:
+At time 226:
     PROCESS_DISPATCH_COMPLETED
-    Process 2 [NORMAL]
+    Thread 0 in process 189 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 268:
+At time 231:
     CPU_BURST_COMPLETED
-    Process 2 [NORMAL]
+    Thread 0 in process 189 [NORMAL]
     Transitioned from RUNNING to BLOCKED
 
-At time 268:
+At time 231:
     DISPATCHER_INVOKED
-    Process 1 [SYSTEM]
-    Selected from 2 processes. Will run to completion of burst.
+    Thread 1 in process 59 [SYSTEM]
+    Selected from 2 threads. Will run to completion of burst.
 
-At time 288:
+At time 251:
     IO_BURST_COMPLETED
-    Process 2 [NORMAL]
+    Thread 0 in process 189 [NORMAL]
     Transitioned from BLOCKED to READY
 
-At time 315:
+At time 278:
     PROCESS_DISPATCH_COMPLETED
-    Process 1 [SYSTEM]
+    Thread 1 in process 59 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 322:
+At time 285:
     CPU_BURST_COMPLETED
-    Process 1 [SYSTEM]
+    Thread 1 in process 59 [SYSTEM]
     Transitioned from RUNNING to BLOCKED
 
-At time 322:
+At time 285:
     DISPATCHER_INVOKED
-    Process 0 [SYSTEM]
-    Selected from 2 processes. Will run to completion of burst.
+    Thread 0 in process 59 [SYSTEM]
+    Selected from 2 threads. Will run to completion of burst.
+
+At time 287:
+    IO_BURST_COMPLETED
+    Thread 1 in process 59 [SYSTEM]
+    Transitioned from BLOCKED to READY
+
+At time 295:
+    THREAD_DISPATCH_COMPLETED
+    Thread 0 in process 59 [SYSTEM]
+    Transitioned from READY to RUNNING
+
+At time 301:
+    CPU_BURST_COMPLETED
+    Thread 0 in process 59 [SYSTEM]
+    Transitioned from RUNNING to BLOCKED
+
+At time 301:
+    DISPATCHER_INVOKED
+    Thread 0 in process 189 [NORMAL]
+    Selected from 2 threads. Will run to completion of burst.
 
 At time 324:
     IO_BURST_COMPLETED
-    Process 1 [SYSTEM]
+    Thread 0 in process 59 [SYSTEM]
     Transitioned from BLOCKED to READY
 
-At time 369:
+At time 348:
     PROCESS_DISPATCH_COMPLETED
-    Process 0 [SYSTEM]
+    Thread 0 in process 189 [NORMAL]
     Transitioned from READY to RUNNING
 
-At time 375:
-    CPU_BURST_COMPLETED
-    Process 0 [SYSTEM]
-    Transitioned from RUNNING to BLOCKED
-
-At time 375:
-    DISPATCHER_INVOKED
-    Process 2 [NORMAL]
-    Selected from 2 processes. Will run to completion of burst.
-
-At time 398:
-    IO_BURST_COMPLETED
-    Process 0 [SYSTEM]
-    Transitioned from BLOCKED to READY
-
-At time 422:
-    PROCESS_DISPATCH_COMPLETED
-    Process 2 [NORMAL]
-    Transitioned from READY to RUNNING
-
-At time 438:
-    PROCESS_COMPLETED
-    Process 2 [NORMAL]
+At time 364:
+    THREAD_COMPLETED
+    Thread 0 in process 189 [NORMAL]
     Transitioned from RUNNING to EXIT
 
-At time 438:
+At time 364:
     DISPATCHER_INVOKED
-    Process 1 [SYSTEM]
-    Selected from 2 processes. Will run to completion of burst.
+    Thread 1 in process 59 [SYSTEM]
+    Selected from 2 threads. Will run to completion of burst.
 
-At time 485:
+At time 411:
     PROCESS_DISPATCH_COMPLETED
-    Process 1 [SYSTEM]
+    Thread 1 in process 59 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 499:
+At time 425:
     CPU_BURST_COMPLETED
-    Process 1 [SYSTEM]
+    Thread 1 in process 59 [SYSTEM]
     Transitioned from RUNNING to BLOCKED
 
-At time 499:
+At time 425:
     DISPATCHER_INVOKED
-    Process 0 [SYSTEM]
-    Selected from 1 processes. Will run to completion of burst.
+    Thread 0 in process 59 [SYSTEM]
+    Selected from 1 threads. Will run to completion of burst.
 
-At time 525:
-    IO_BURST_COMPLETED
-    Process 1 [SYSTEM]
-    Transitioned from BLOCKED to READY
-
-At time 546:
-    PROCESS_DISPATCH_COMPLETED
-    Process 0 [SYSTEM]
+At time 435:
+    THREAD_DISPATCH_COMPLETED
+    Thread 0 in process 59 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 569:
+At time 451:
+    IO_BURST_COMPLETED
+    Thread 1 in process 59 [SYSTEM]
+    Transitioned from BLOCKED to READY
+
+At time 458:
     CPU_BURST_COMPLETED
-    Process 0 [SYSTEM]
+    Thread 0 in process 59 [SYSTEM]
     Transitioned from RUNNING to BLOCKED
 
-At time 569:
+At time 458:
     DISPATCHER_INVOKED
-    Process 1 [SYSTEM]
-    Selected from 1 processes. Will run to completion of burst.
+    Thread 1 in process 59 [SYSTEM]
+    Selected from 1 threads. Will run to completion of burst.
 
-At time 599:
-    IO_BURST_COMPLETED
-    Process 0 [SYSTEM]
-    Transitioned from BLOCKED to READY
-
-At time 616:
-    PROCESS_DISPATCH_COMPLETED
-    Process 1 [SYSTEM]
+At time 468:
+    THREAD_DISPATCH_COMPLETED
+    Thread 1 in process 59 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 643:
+At time 488:
+    IO_BURST_COMPLETED
+    Thread 0 in process 59 [SYSTEM]
+    Transitioned from BLOCKED to READY
+
+At time 495:
     CPU_BURST_COMPLETED
-    Process 1 [SYSTEM]
+    Thread 1 in process 59 [SYSTEM]
     Transitioned from RUNNING to BLOCKED
 
-At time 643:
+At time 495:
     DISPATCHER_INVOKED
-    Process 0 [SYSTEM]
-    Selected from 1 processes. Will run to completion of burst.
+    Thread 0 in process 59 [SYSTEM]
+    Selected from 1 threads. Will run to completion of burst.
 
-At time 668:
-    IO_BURST_COMPLETED
-    Process 1 [SYSTEM]
-    Transitioned from BLOCKED to READY
-
-At time 690:
-    PROCESS_DISPATCH_COMPLETED
-    Process 0 [SYSTEM]
+At time 505:
+    THREAD_DISPATCH_COMPLETED
+    Thread 0 in process 59 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 707:
-    PROCESS_COMPLETED
-    Process 0 [SYSTEM]
+At time 520:
+    IO_BURST_COMPLETED
+    Thread 1 in process 59 [SYSTEM]
+    Transitioned from BLOCKED to READY
+
+At time 522:
+    THREAD_COMPLETED
+    Thread 0 in process 59 [SYSTEM]
     Transitioned from RUNNING to EXIT
 
-At time 707:
+At time 522:
     DISPATCHER_INVOKED
-    Process 1 [SYSTEM]
-    Selected from 1 processes. Will run to completion of burst.
+    Thread 1 in process 59 [SYSTEM]
+    Selected from 1 threads. Will run to completion of burst.
 
-At time 754:
-    PROCESS_DISPATCH_COMPLETED
-    Process 1 [SYSTEM]
+At time 532:
+    THREAD_DISPATCH_COMPLETED
+    Thread 1 in process 59 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 778:
+At time 556:
     CPU_BURST_COMPLETED
-    Process 1 [SYSTEM]
+    Thread 1 in process 59 [SYSTEM]
     Transitioned from RUNNING to BLOCKED
 
-At time 800:
+At time 578:
     IO_BURST_COMPLETED
-    Process 1 [SYSTEM]
+    Thread 1 in process 59 [SYSTEM]
     Transitioned from BLOCKED to READY
 
-At time 800:
+At time 578:
     DISPATCHER_INVOKED
-    Process 1 [SYSTEM]
-    Selected from 1 processes. Will run to completion of burst.
+    Thread 1 in process 59 [SYSTEM]
+    Selected from 1 threads. Will run to completion of burst.
 
-At time 847:
-    PROCESS_DISPATCH_COMPLETED
-    Process 1 [SYSTEM]
+At time 588:
+    THREAD_DISPATCH_COMPLETED
+    Thread 1 in process 59 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 848:
+At time 589:
     CPU_BURST_COMPLETED
-    Process 1 [SYSTEM]
+    Thread 1 in process 59 [SYSTEM]
     Transitioned from RUNNING to BLOCKED
 
-At time 862:
+At time 603:
     IO_BURST_COMPLETED
-    Process 1 [SYSTEM]
+    Thread 1 in process 59 [SYSTEM]
     Transitioned from BLOCKED to READY
 
-At time 862:
+At time 603:
     DISPATCHER_INVOKED
-    Process 1 [SYSTEM]
-    Selected from 1 processes. Will run to completion of burst.
+    Thread 1 in process 59 [SYSTEM]
+    Selected from 1 threads. Will run to completion of burst.
 
-At time 909:
-    PROCESS_DISPATCH_COMPLETED
-    Process 1 [SYSTEM]
+At time 613:
+    THREAD_DISPATCH_COMPLETED
+    Thread 1 in process 59 [SYSTEM]
     Transitioned from READY to RUNNING
 
-At time 936:
-    PROCESS_COMPLETED
-    Process 1 [SYSTEM]
+At time 640:
+    THREAD_COMPLETED
+    Thread 1 in process 59 [SYSTEM]
     Transitioned from RUNNING to EXIT
 
 SIMULATION COMPLETED!
-

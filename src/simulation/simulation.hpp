@@ -62,6 +62,20 @@ public:
     std::shared_ptr<Thread> prev_thread = nullptr;
 
     /*
+     * Set to true if we've added a dispatcher_invoked thread into the queue
+     * but it has *NOT* yet been removed.
+     *
+     * Otherwise, we could run DISPATCHER_INVOKED multiple times if threads arrive at the same time.
+     */
+    bool running_dispatcher_invoked = false; 
+
+    /*
+        thread_switch_overhead:
+            An integer for the thread switch overhead, as specified in the simulation file.
+    */
+    int thread_switch_overhead;
+
+    /*
         process_switch_overhead:
             An integer for the process switch overhead, as specified in the simulation file.
     */
@@ -131,8 +145,8 @@ public:
             These functions are handler functions that are called for each
             event type.
 
-            For example, within handle_process_arrived, you would want to
-            perform the appropriate actions for the PROCESS_ARRIVED event. You should
+            For example, within handle_thread_arrived, you would want to
+            perform the appropriate actions for the THREAD_ARRIVED event. You should
             look at the Project Description for an example of what this function should
             do.
 
@@ -140,7 +154,7 @@ public:
             Deliverable 1 of this project, and then for Deliverable 2 you will have to implement
             them.
     */
-    void handle_process_arrived(const std::shared_ptr<Event> event);
+    void handle_thread_arrived(const std::shared_ptr<Event> event);
 
     void handle_dispatch_completed(const std::shared_ptr<Event> event);
 
@@ -148,9 +162,9 @@ public:
 
     void handle_io_burst_completed(const std::shared_ptr<Event> event);
 
-    void handle_process_completed(const std::shared_ptr<Event> event);
+    void handle_thread_completed(const std::shared_ptr<Event> event);
 
-    void handle_process_preempted(const std::shared_ptr<Event> event);
+    void handle_thread_preempted(const std::shared_ptr<Event> event);
 
     void handle_dispatcher_invoked(const std::shared_ptr<Event> event);
 
