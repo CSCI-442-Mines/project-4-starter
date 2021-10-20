@@ -289,10 +289,8 @@ A new one! This is to have you gain experience with handling process priorities 
 Finally! On to D2, and the *interesting* (complicated) algorithms!
 
 * There are ``n`` queues, numbered ``0 ... n-1``
-  
-        - ``n`` is a user-specified parameter that can change between simulations
-
-        - ...this means having ``array[n]`` *anywhere* in your code is BAD!
+        
+        - For this project, ``n = 10``  
 
 * The priority of a queue is given by: ``n - <queue number>``
 

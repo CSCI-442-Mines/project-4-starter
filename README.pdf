@@ -1498,7 +1498,7 @@ endobj
 endobj
 35 0 obj
 <<
-/Author () /CreationDate (D:20211020131249+07'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20211020131249+07'00') /Producer (ReportLab PDF Library - www.reportlab.com) 
+/Author () /CreationDate (D:20211020133703+07'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20211020133703+07'00') /Producer (ReportLab PDF Library - www.reportlab.com) 
   /Subject (\(unspecified\)) /Title (CSCI-442 Project 4: CPU Scheduling Simulator) /Trapped /False
 >>
 endobj
@@ -4290,7 +4290,7 @@ endstream
 endobj
 77 0 obj
 <<
-/Length 10074
+/Length 9667
 >>
 stream
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
@@ -4686,25 +4686,25 @@ q
 1 0 0 1 62.69291 375.0236 cm
 Q
 q
-1 0 0 1 62.69291 321.0236 cm
+1 0 0 1 62.69291 339.0236 cm
 q
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
-1 0 0 1 6 39 cm
+1 0 0 1 6 21 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
 Q
 Q
 q
-1 0 0 1 23 39 cm
+1 0 0 1 23 21 cm
 q
 BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (There are ) Tj /F5 10 Tf (n) Tj /F1 10 Tf ( queues, numbered ) Tj /F5 10 Tf (0) Tj ( ) Tj (...) Tj ( ) Tj (n-1) Tj T* ET
 Q
 Q
 q
-1 0 0 1 23 33 cm
+1 0 0 1 23 15 cm
 Q
 q
 1 0 0 1 23 -3 cm
@@ -4713,32 +4713,7 @@ q
 BT /F1 10 Tf 12 TL ET
 BT 1 0 0 1 0 2 Tm  T* ET
 q
-1 0 0 1 20 30 cm
-Q
-q
-1 0 0 1 20 30 cm
-Q
-q
-1 0 0 1 20 18 cm
-q
-0 0 0 rg
-BT /F1 10 Tf 12 TL ET
-q
-1 0 0 1 6 -3 cm
-q
-0 0 0 rg
-BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
-Q
-Q
-q
-1 0 0 1 23 -3 cm
-q
-BT 1 0 0 1 0 2 Tm 12 TL /F5 10 Tf 0 0 0 rg (n) Tj /F1 10 Tf ( is a user-specified parameter that can change between simulations) Tj T* ET
-Q
-Q
-q
-Q
-Q
+1 0 0 1 20 12 cm
 Q
 q
 1 0 0 1 20 12 cm
@@ -4758,7 +4733,7 @@ Q
 q
 1 0 0 1 23 -3 cm
 q
-BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (...this means having ) Tj /F5 10 Tf (array[n]) Tj /F1 10 Tf ( ) Tj /F4 10 Tf (anywhere) Tj /F1 10 Tf ( in your code is BAD!) Tj T* ET
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (For this project, ) Tj /F5 10 Tf (n) Tj ( ) Tj (=) Tj ( ) Tj (10) Tj T* ET
 Q
 Q
 q
@@ -4780,10 +4755,10 @@ Q
 Q
 Q
 q
-1 0 0 1 62.69291 315.0236 cm
+1 0 0 1 62.69291 333.0236 cm
 Q
 q
-1 0 0 1 62.69291 261.0236 cm
+1 0 0 1 62.69291 279.0236 cm
 q
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
@@ -4878,10 +4853,10 @@ Q
 Q
 Q
 q
-1 0 0 1 62.69291 255.0236 cm
+1 0 0 1 62.69291 273.0236 cm
 Q
 q
-1 0 0 1 62.69291 207.0236 cm
+1 0 0 1 62.69291 225.0236 cm
 q
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
@@ -4951,10 +4926,10 @@ Q
 Q
 Q
 q
-1 0 0 1 62.69291 201.0236 cm
+1 0 0 1 62.69291 219.0236 cm
 Q
 q
-1 0 0 1 62.69291 189.0236 cm
+1 0 0 1 62.69291 207.0236 cm
 q
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
@@ -4976,10 +4951,10 @@ Q
 Q
 Q
 q
-1 0 0 1 62.69291 189.0236 cm
+1 0 0 1 62.69291 207.0236 cm
 Q
 q
-1 0 0 1 62.69291 189.0236 cm
+1 0 0 1 62.69291 207.0236 cm
 Q
  
 endstream
@@ -9282,40 +9257,40 @@ xref
 0000239200 00000 n 
 0000250948 00000 n 
 0000260352 00000 n 
-0000270479 00000 n 
-0000283427 00000 n 
-0000299439 00000 n 
-0000304543 00000 n 
-0000314686 00000 n 
-0000317436 00000 n 
-0000323356 00000 n 
-0000329074 00000 n 
-0000334256 00000 n 
-0000338652 00000 n 
-0000342315 00000 n 
-0000345659 00000 n 
-0000348085 00000 n 
-0000348294 00000 n 
-0000348328 00000 n 
-0000348362 00000 n 
-0000348396 00000 n 
-0000348430 00000 n 
-0000348464 00000 n 
-0000348498 00000 n 
-0000348532 00000 n 
-0000348566 00000 n 
-0000348600 00000 n 
-0000348636 00000 n 
-0000348672 00000 n 
-0000348708 00000 n 
-0000348744 00000 n 
-0000348780 00000 n 
-0000348816 00000 n 
-0000348852 00000 n 
+0000270071 00000 n 
+0000283019 00000 n 
+0000299031 00000 n 
+0000304135 00000 n 
+0000314278 00000 n 
+0000317028 00000 n 
+0000322948 00000 n 
+0000328666 00000 n 
+0000333848 00000 n 
+0000338244 00000 n 
+0000341907 00000 n 
+0000345251 00000 n 
+0000347677 00000 n 
+0000347886 00000 n 
+0000347920 00000 n 
+0000347954 00000 n 
+0000347988 00000 n 
+0000348022 00000 n 
+0000348056 00000 n 
+0000348090 00000 n 
+0000348124 00000 n 
+0000348158 00000 n 
+0000348192 00000 n 
+0000348228 00000 n 
+0000348264 00000 n 
+0000348300 00000 n 
+0000348336 00000 n 
+0000348372 00000 n 
+0000348408 00000 n 
+0000348444 00000 n 
 trailer
 <<
 /ID 
-[<7f3c4afef23f1ef0df4c967fd8fcebd7><7f3c4afef23f1ef0df4c967fd8fcebd7>]
+[<49be70c890ee59d67a1025a06a50983f><49be70c890ee59d67a1025a06a50983f>]
 % ReportLab generated PDF document -- digest (http://www.reportlab.com)
 
 /Info 35 0 R
@@ -9323,5 +9298,5 @@ trailer
 /Size 108
 >>
 startxref
-348888
+348480
 %%EOF
