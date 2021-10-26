@@ -10,3 +10,4 @@ Process 740 [NORMAL]:
     Thread  1:    ARR: 60     CPU: 25     I/O: 15     TRT: 814    END: 874   
     Thread  2:    ARR: 73     CPU: 48     I/O: 48     TRT: 854    END: 927   
     Thread  3:    ARR: 50     CPU: 26     I/O: 19     TRT: 800    END: 850   
+

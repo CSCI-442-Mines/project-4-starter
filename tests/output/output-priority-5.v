@@ -6,7 +6,7 @@ At time 62:
 At time 62:
     DISPATCHER_INVOKED
     Thread 0 in process 140 [NORMAL]
-    Selected from NORMAL queue. [S: 0 I: 0 N: 1 B: 0] -> [S: 0 I: 0 N: 0 B: 0]
+     [S: 0 I: 0 N: 1 B: 0] -> [S: 0 I: 0 N: 0 B: 0]. Will run to completion of burst.
 
 At time 80:
     THREAD_ARRIVED
@@ -26,7 +26,7 @@ At time 103:
 At time 103:
     DISPATCHER_INVOKED
     Thread 0 in process 35 [INTERACTIVE]
-    Selected from INTERACTIVE queue. [S: 0 I: 1 N: 0 B: 0] -> [S: 0 I: 0 N: 0 B: 0]
+     [S: 0 I: 1 N: 0 B: 0] -> [S: 0 I: 0 N: 0 B: 0]. Will run to completion of burst.
 
 At time 110:
     IO_BURST_COMPLETED
@@ -46,7 +46,7 @@ At time 145:
 At time 145:
     DISPATCHER_INVOKED
     Thread 0 in process 140 [NORMAL]
-    Selected from NORMAL queue. [S: 0 I: 0 N: 1 B: 0] -> [S: 0 I: 0 N: 0 B: 0]
+     [S: 0 I: 0 N: 1 B: 0] -> [S: 0 I: 0 N: 0 B: 0]. Will run to completion of burst.
 
 At time 173:
     IO_BURST_COMPLETED
@@ -66,7 +66,7 @@ At time 202:
 At time 202:
     DISPATCHER_INVOKED
     Thread 0 in process 35 [INTERACTIVE]
-    Selected from INTERACTIVE queue. [S: 0 I: 1 N: 0 B: 0] -> [S: 0 I: 0 N: 0 B: 0]
+     [S: 0 I: 1 N: 0 B: 0] -> [S: 0 I: 0 N: 0 B: 0]. Will run to completion of burst.
 
 At time 218:
     IO_BURST_COMPLETED
@@ -86,7 +86,7 @@ At time 267:
 At time 267:
     DISPATCHER_INVOKED
     Thread 0 in process 140 [NORMAL]
-    Selected from NORMAL queue. [S: 0 I: 0 N: 1 B: 0] -> [S: 0 I: 0 N: 0 B: 0]
+     [S: 0 I: 0 N: 1 B: 0] -> [S: 0 I: 0 N: 0 B: 0]. Will run to completion of burst.
 
 At time 276:
     IO_BURST_COMPLETED
@@ -106,7 +106,7 @@ At time 326:
 At time 326:
     DISPATCHER_INVOKED
     Thread 0 in process 35 [INTERACTIVE]
-    Selected from INTERACTIVE queue. [S: 0 I: 1 N: 0 B: 0] -> [S: 0 I: 0 N: 0 B: 0]
+     [S: 0 I: 1 N: 0 B: 0] -> [S: 0 I: 0 N: 0 B: 0]. Will run to completion of burst.
 
 At time 337:
     IO_BURST_COMPLETED
@@ -126,7 +126,7 @@ At time 369:
 At time 369:
     DISPATCHER_INVOKED
     Thread 0 in process 140 [NORMAL]
-    Selected from NORMAL queue. [S: 0 I: 0 N: 1 B: 0] -> [S: 0 I: 0 N: 0 B: 0]
+     [S: 0 I: 0 N: 1 B: 0] -> [S: 0 I: 0 N: 0 B: 0]. Will run to completion of burst.
 
 At time 390:
     IO_BURST_COMPLETED
@@ -146,7 +146,7 @@ At time 417:
 At time 417:
     DISPATCHER_INVOKED
     Thread 0 in process 35 [INTERACTIVE]
-    Selected from INTERACTIVE queue. [S: 0 I: 1 N: 0 B: 0] -> [S: 0 I: 0 N: 0 B: 0]
+     [S: 0 I: 1 N: 0 B: 0] -> [S: 0 I: 0 N: 0 B: 0]. Will run to completion of burst.
 
 At time 453:
     PROCESS_DISPATCH_COMPLETED
@@ -166,7 +166,7 @@ At time 480:
 At time 480:
     DISPATCHER_INVOKED
     Thread 0 in process 35 [INTERACTIVE]
-    Selected from INTERACTIVE queue. [S: 0 I: 1 N: 0 B: 0] -> [S: 0 I: 0 N: 0 B: 0]
+     [S: 0 I: 1 N: 0 B: 0] -> [S: 0 I: 0 N: 0 B: 0]. Will run to completion of burst.
 
 At time 494:
     THREAD_DISPATCH_COMPLETED
@@ -186,7 +186,7 @@ At time 519:
 At time 519:
     DISPATCHER_INVOKED
     Thread 0 in process 35 [INTERACTIVE]
-    Selected from INTERACTIVE queue. [S: 0 I: 1 N: 0 B: 0] -> [S: 0 I: 0 N: 0 B: 0]
+     [S: 0 I: 1 N: 0 B: 0] -> [S: 0 I: 0 N: 0 B: 0]. Will run to completion of burst.
 
 At time 533:
     THREAD_DISPATCH_COMPLETED
@@ -206,7 +206,7 @@ At time 543:
 At time 543:
     DISPATCHER_INVOKED
     Thread 0 in process 35 [INTERACTIVE]
-    Selected from INTERACTIVE queue. [S: 0 I: 1 N: 0 B: 0] -> [S: 0 I: 0 N: 0 B: 0]
+     [S: 0 I: 1 N: 0 B: 0] -> [S: 0 I: 0 N: 0 B: 0]. Will run to completion of burst.
 
 At time 557:
     THREAD_DISPATCH_COMPLETED
@@ -226,7 +226,7 @@ At time 585:
 At time 585:
     DISPATCHER_INVOKED
     Thread 0 in process 35 [INTERACTIVE]
-    Selected from INTERACTIVE queue. [S: 0 I: 1 N: 0 B: 0] -> [S: 0 I: 0 N: 0 B: 0]
+     [S: 0 I: 1 N: 0 B: 0] -> [S: 0 I: 0 N: 0 B: 0]. Will run to completion of burst.
 
 At time 599:
     THREAD_DISPATCH_COMPLETED
@@ -246,7 +246,7 @@ At time 623:
 At time 623:
     DISPATCHER_INVOKED
     Thread 0 in process 35 [INTERACTIVE]
-    Selected from INTERACTIVE queue. [S: 0 I: 1 N: 0 B: 0] -> [S: 0 I: 0 N: 0 B: 0]
+     [S: 0 I: 1 N: 0 B: 0] -> [S: 0 I: 0 N: 0 B: 0]. Will run to completion of burst.
 
 At time 637:
     THREAD_DISPATCH_COMPLETED
@@ -266,7 +266,7 @@ At time 678:
 At time 678:
     DISPATCHER_INVOKED
     Thread 0 in process 35 [INTERACTIVE]
-    Selected from INTERACTIVE queue. [S: 0 I: 1 N: 0 B: 0] -> [S: 0 I: 0 N: 0 B: 0]
+     [S: 0 I: 1 N: 0 B: 0] -> [S: 0 I: 0 N: 0 B: 0]. Will run to completion of burst.
 
 At time 692:
     THREAD_DISPATCH_COMPLETED
@@ -279,3 +279,4 @@ At time 697:
     Transitioned from RUNNING to EXIT
 
 SIMULATION COMPLETED!
+

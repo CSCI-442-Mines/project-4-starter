@@ -24,3 +24,4 @@ Process 613 [NORMAL]:
     Thread  1:    ARR: 47     CPU: 119    I/O: 102    TRT: 2612   END: 2659  
     Thread  2:    ARR: 39     CPU: 14     I/O: 0      TRT: 352    END: 391   
     Thread  3:    ARR: 87     CPU: 112    I/O: 68     TRT: 2424   END: 2511  
+

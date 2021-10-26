@@ -28,3 +28,4 @@ Total idle time:                59
 
 CPU utilization:            98.47%
 CPU efficiency:             29.20%
+

@@ -6,7 +6,7 @@ At time 0:
 At time 0:
     DISPATCHER_INVOKED
     Thread 0 in process 404 [BATCH]
-    Selected from BATCH queue. [S: 0 I: 0 N: 0 B: 1] -> [S: 0 I: 0 N: 0 B: 0]
+     [S: 0 I: 0 N: 0 B: 1] -> [S: 0 I: 0 N: 0 B: 0]. Will run to completion of burst.
 
 At time 10:
     THREAD_ARRIVED
@@ -66,7 +66,7 @@ At time 67:
 At time 67:
     DISPATCHER_INVOKED
     Thread 1 in process 395 [NORMAL]
-    Selected from NORMAL queue. [S: 0 I: 0 N: 6 B: 3] -> [S: 0 I: 0 N: 5 B: 3]
+     [S: 0 I: 0 N: 6 B: 3] -> [S: 0 I: 0 N: 5 B: 3]. Will run to completion of burst.
 
 At time 70:
     THREAD_ARRIVED
@@ -101,7 +101,7 @@ At time 121:
 At time 121:
     DISPATCHER_INVOKED
     Thread 0 in process 341 [INTERACTIVE]
-    Selected from INTERACTIVE queue. [S: 0 I: 1 N: 7 B: 4] -> [S: 0 I: 0 N: 7 B: 4]
+     [S: 0 I: 1 N: 7 B: 4] -> [S: 0 I: 0 N: 7 B: 4]. Will run to completion of burst.
 
 At time 144:
     IO_BURST_COMPLETED
@@ -121,7 +121,7 @@ At time 190:
 At time 190:
     DISPATCHER_INVOKED
     Thread 2 in process 395 [NORMAL]
-    Selected from NORMAL queue. [S: 0 I: 0 N: 8 B: 4] -> [S: 0 I: 0 N: 7 B: 4]
+     [S: 0 I: 0 N: 8 B: 4] -> [S: 0 I: 0 N: 7 B: 4]. Will run to completion of burst.
 
 At time 193:
     IO_BURST_COMPLETED
@@ -141,7 +141,7 @@ At time 268:
 At time 268:
     DISPATCHER_INVOKED
     Thread 0 in process 341 [INTERACTIVE]
-    Selected from INTERACTIVE queue. [S: 0 I: 1 N: 7 B: 4] -> [S: 0 I: 0 N: 7 B: 4]
+     [S: 0 I: 1 N: 7 B: 4] -> [S: 0 I: 0 N: 7 B: 4]. Will run to completion of burst.
 
 At time 288:
     IO_BURST_COMPLETED
@@ -161,7 +161,7 @@ At time 329:
 At time 329:
     DISPATCHER_INVOKED
     Thread 2 in process 613 [NORMAL]
-    Selected from NORMAL queue. [S: 0 I: 0 N: 8 B: 4] -> [S: 0 I: 0 N: 7 B: 4]
+     [S: 0 I: 0 N: 8 B: 4] -> [S: 0 I: 0 N: 7 B: 4]. Will run to completion of burst.
 
 At time 336:
     IO_BURST_COMPLETED
@@ -181,7 +181,7 @@ At time 391:
 At time 391:
     DISPATCHER_INVOKED
     Thread 0 in process 341 [INTERACTIVE]
-    Selected from INTERACTIVE queue. [S: 0 I: 1 N: 7 B: 4] -> [S: 0 I: 0 N: 7 B: 4]
+     [S: 0 I: 1 N: 7 B: 4] -> [S: 0 I: 0 N: 7 B: 4]. Will run to completion of burst.
 
 At time 439:
     PROCESS_DISPATCH_COMPLETED
@@ -196,7 +196,7 @@ At time 466:
 At time 466:
     DISPATCHER_INVOKED
     Thread 1 in process 613 [NORMAL]
-    Selected from NORMAL queue. [S: 0 I: 0 N: 7 B: 4] -> [S: 0 I: 0 N: 6 B: 4]
+     [S: 0 I: 0 N: 7 B: 4] -> [S: 0 I: 0 N: 6 B: 4]. Will run to completion of burst.
 
 At time 469:
     IO_BURST_COMPLETED
@@ -216,7 +216,7 @@ At time 542:
 At time 542:
     DISPATCHER_INVOKED
     Thread 0 in process 341 [INTERACTIVE]
-    Selected from INTERACTIVE queue. [S: 0 I: 1 N: 6 B: 4] -> [S: 0 I: 0 N: 6 B: 4]
+     [S: 0 I: 1 N: 6 B: 4] -> [S: 0 I: 0 N: 6 B: 4]. Will run to completion of burst.
 
 At time 560:
     IO_BURST_COMPLETED
@@ -236,7 +236,7 @@ At time 592:
 At time 592:
     DISPATCHER_INVOKED
     Thread 0 in process 203 [NORMAL]
-    Selected from NORMAL queue. [S: 0 I: 0 N: 7 B: 4] -> [S: 0 I: 0 N: 6 B: 4]
+     [S: 0 I: 0 N: 7 B: 4] -> [S: 0 I: 0 N: 6 B: 4]. Will run to completion of burst.
 
 At time 616:
     IO_BURST_COMPLETED
@@ -256,7 +256,7 @@ At time 669:
 At time 669:
     DISPATCHER_INVOKED
     Thread 0 in process 341 [INTERACTIVE]
-    Selected from INTERACTIVE queue. [S: 0 I: 1 N: 6 B: 4] -> [S: 0 I: 0 N: 6 B: 4]
+     [S: 0 I: 1 N: 6 B: 4] -> [S: 0 I: 0 N: 6 B: 4]. Will run to completion of burst.
 
 At time 699:
     IO_BURST_COMPLETED
@@ -276,7 +276,7 @@ At time 747:
 At time 747:
     DISPATCHER_INVOKED
     Thread 0 in process 395 [NORMAL]
-    Selected from NORMAL queue. [S: 0 I: 0 N: 7 B: 4] -> [S: 0 I: 0 N: 6 B: 4]
+     [S: 0 I: 0 N: 7 B: 4] -> [S: 0 I: 0 N: 6 B: 4]. Will run to completion of burst.
 
 At time 753:
     IO_BURST_COMPLETED
@@ -296,7 +296,7 @@ At time 797:
 At time 797:
     DISPATCHER_INVOKED
     Thread 0 in process 341 [INTERACTIVE]
-    Selected from INTERACTIVE queue. [S: 0 I: 1 N: 6 B: 4] -> [S: 0 I: 0 N: 6 B: 4]
+     [S: 0 I: 1 N: 6 B: 4] -> [S: 0 I: 0 N: 6 B: 4]. Will run to completion of burst.
 
 At time 845:
     PROCESS_DISPATCH_COMPLETED
@@ -311,7 +311,7 @@ At time 848:
 At time 848:
     DISPATCHER_INVOKED
     Thread 0 in process 613 [NORMAL]
-    Selected from NORMAL queue. [S: 0 I: 0 N: 6 B: 4] -> [S: 0 I: 0 N: 5 B: 4]
+     [S: 0 I: 0 N: 6 B: 4] -> [S: 0 I: 0 N: 5 B: 4]. Will run to completion of burst.
 
 At time 863:
     IO_BURST_COMPLETED
@@ -331,7 +331,7 @@ At time 907:
 At time 907:
     DISPATCHER_INVOKED
     Thread 0 in process 341 [INTERACTIVE]
-    Selected from INTERACTIVE queue. [S: 0 I: 1 N: 5 B: 4] -> [S: 0 I: 0 N: 5 B: 4]
+     [S: 0 I: 1 N: 5 B: 4] -> [S: 0 I: 0 N: 5 B: 4]. Will run to completion of burst.
 
 At time 915:
     IO_BURST_COMPLETED
@@ -351,7 +351,7 @@ At time 980:
 At time 980:
     DISPATCHER_INVOKED
     Thread 3 in process 613 [NORMAL]
-    Selected from NORMAL queue. [S: 0 I: 0 N: 6 B: 4] -> [S: 0 I: 0 N: 5 B: 4]
+     [S: 0 I: 0 N: 6 B: 4] -> [S: 0 I: 0 N: 5 B: 4]. Will run to completion of burst.
 
 At time 1028:
     PROCESS_DISPATCH_COMPLETED
@@ -366,7 +366,7 @@ At time 1058:
 At time 1058:
     DISPATCHER_INVOKED
     Thread 1 in process 395 [NORMAL]
-    Selected from NORMAL queue. [S: 0 I: 0 N: 5 B: 4] -> [S: 0 I: 0 N: 4 B: 4]
+     [S: 0 I: 0 N: 5 B: 4] -> [S: 0 I: 0 N: 4 B: 4]. Will run to completion of burst.
 
 At time 1061:
     IO_BURST_COMPLETED
@@ -386,7 +386,7 @@ At time 1115:
 At time 1115:
     DISPATCHER_INVOKED
     Thread 2 in process 395 [NORMAL]
-    Selected from NORMAL queue. [S: 0 I: 0 N: 5 B: 4] -> [S: 0 I: 0 N: 4 B: 4]
+     [S: 0 I: 0 N: 5 B: 4] -> [S: 0 I: 0 N: 4 B: 4]. Will run to completion of burst.
 
 At time 1132:
     IO_BURST_COMPLETED
@@ -406,7 +406,7 @@ At time 1160:
 At time 1160:
     DISPATCHER_INVOKED
     Thread 1 in process 613 [NORMAL]
-    Selected from NORMAL queue. [S: 0 I: 0 N: 5 B: 4] -> [S: 0 I: 0 N: 4 B: 4]
+     [S: 0 I: 0 N: 5 B: 4] -> [S: 0 I: 0 N: 4 B: 4]. Will run to completion of burst.
 
 At time 1168:
     IO_BURST_COMPLETED
@@ -426,7 +426,7 @@ At time 1227:
 At time 1227:
     DISPATCHER_INVOKED
     Thread 0 in process 203 [NORMAL]
-    Selected from NORMAL queue. [S: 0 I: 0 N: 5 B: 4] -> [S: 0 I: 0 N: 4 B: 4]
+     [S: 0 I: 0 N: 5 B: 4] -> [S: 0 I: 0 N: 4 B: 4]. Will run to completion of burst.
 
 At time 1235:
     IO_BURST_COMPLETED
@@ -446,7 +446,7 @@ At time 1279:
 At time 1279:
     DISPATCHER_INVOKED
     Thread 0 in process 613 [NORMAL]
-    Selected from NORMAL queue. [S: 0 I: 0 N: 5 B: 4] -> [S: 0 I: 0 N: 4 B: 4]
+     [S: 0 I: 0 N: 5 B: 4] -> [S: 0 I: 0 N: 4 B: 4]. Will run to completion of burst.
 
 At time 1308:
     IO_BURST_COMPLETED
@@ -466,7 +466,7 @@ At time 1355:
 At time 1355:
     DISPATCHER_INVOKED
     Thread 3 in process 613 [NORMAL]
-    Selected from NORMAL queue. [S: 0 I: 0 N: 5 B: 4] -> [S: 0 I: 0 N: 4 B: 4]
+     [S: 0 I: 0 N: 5 B: 4] -> [S: 0 I: 0 N: 4 B: 4]. Will run to completion of burst.
 
 At time 1374:
     THREAD_DISPATCH_COMPLETED
@@ -486,7 +486,7 @@ At time 1399:
 At time 1399:
     DISPATCHER_INVOKED
     Thread 1 in process 395 [NORMAL]
-    Selected from NORMAL queue. [S: 0 I: 0 N: 5 B: 4] -> [S: 0 I: 0 N: 4 B: 4]
+     [S: 0 I: 0 N: 5 B: 4] -> [S: 0 I: 0 N: 4 B: 4]. Will run to completion of burst.
 
 At time 1427:
     IO_BURST_COMPLETED
@@ -506,7 +506,7 @@ At time 1472:
 At time 1472:
     DISPATCHER_INVOKED
     Thread 2 in process 395 [NORMAL]
-    Selected from NORMAL queue. [S: 0 I: 0 N: 5 B: 4] -> [S: 0 I: 0 N: 4 B: 4]
+     [S: 0 I: 0 N: 5 B: 4] -> [S: 0 I: 0 N: 4 B: 4]. Will run to completion of burst.
 
 At time 1488:
     IO_BURST_COMPLETED
@@ -526,7 +526,7 @@ At time 1505:
 At time 1505:
     DISPATCHER_INVOKED
     Thread 1 in process 613 [NORMAL]
-    Selected from NORMAL queue. [S: 0 I: 0 N: 5 B: 4] -> [S: 0 I: 0 N: 4 B: 4]
+     [S: 0 I: 0 N: 5 B: 4] -> [S: 0 I: 0 N: 4 B: 4]. Will run to completion of burst.
 
 At time 1553:
     PROCESS_DISPATCH_COMPLETED
@@ -541,7 +541,7 @@ At time 1568:
 At time 1568:
     DISPATCHER_INVOKED
     Thread 0 in process 203 [NORMAL]
-    Selected from NORMAL queue. [S: 0 I: 0 N: 4 B: 4] -> [S: 0 I: 0 N: 3 B: 4]
+     [S: 0 I: 0 N: 4 B: 4] -> [S: 0 I: 0 N: 3 B: 4]. Will run to completion of burst.
 
 At time 1583:
     IO_BURST_COMPLETED
@@ -561,7 +561,7 @@ At time 1640:
 At time 1640:
     DISPATCHER_INVOKED
     Thread 0 in process 613 [NORMAL]
-    Selected from NORMAL queue. [S: 0 I: 0 N: 4 B: 4] -> [S: 0 I: 0 N: 3 B: 4]
+     [S: 0 I: 0 N: 4 B: 4] -> [S: 0 I: 0 N: 3 B: 4]. Will run to completion of burst.
 
 At time 1641:
     IO_BURST_COMPLETED
@@ -581,7 +581,7 @@ At time 1689:
 At time 1689:
     DISPATCHER_INVOKED
     Thread 3 in process 613 [NORMAL]
-    Selected from NORMAL queue. [S: 0 I: 0 N: 4 B: 4] -> [S: 0 I: 0 N: 3 B: 4]
+     [S: 0 I: 0 N: 4 B: 4] -> [S: 0 I: 0 N: 3 B: 4]. Will run to completion of burst.
 
 At time 1699:
     IO_BURST_COMPLETED
@@ -601,7 +601,7 @@ At time 1716:
 At time 1716:
     DISPATCHER_INVOKED
     Thread 1 in process 395 [NORMAL]
-    Selected from NORMAL queue. [S: 0 I: 0 N: 4 B: 4] -> [S: 0 I: 0 N: 3 B: 4]
+     [S: 0 I: 0 N: 4 B: 4] -> [S: 0 I: 0 N: 3 B: 4]. Will run to completion of burst.
 
 At time 1742:
     IO_BURST_COMPLETED
@@ -621,7 +621,7 @@ At time 1765:
 At time 1765:
     DISPATCHER_INVOKED
     Thread 1 in process 613 [NORMAL]
-    Selected from NORMAL queue. [S: 0 I: 0 N: 4 B: 4] -> [S: 0 I: 0 N: 3 B: 4]
+     [S: 0 I: 0 N: 4 B: 4] -> [S: 0 I: 0 N: 3 B: 4]. Will run to completion of burst.
 
 At time 1789:
     IO_BURST_COMPLETED
@@ -641,7 +641,7 @@ At time 1819:
 At time 1819:
     DISPATCHER_INVOKED
     Thread 0 in process 203 [NORMAL]
-    Selected from NORMAL queue. [S: 0 I: 0 N: 4 B: 4] -> [S: 0 I: 0 N: 3 B: 4]
+     [S: 0 I: 0 N: 4 B: 4] -> [S: 0 I: 0 N: 3 B: 4]. Will run to completion of burst.
 
 At time 1828:
     IO_BURST_COMPLETED
@@ -661,7 +661,7 @@ At time 1881:
 At time 1881:
     DISPATCHER_INVOKED
     Thread 0 in process 613 [NORMAL]
-    Selected from NORMAL queue. [S: 0 I: 0 N: 4 B: 4] -> [S: 0 I: 0 N: 3 B: 4]
+     [S: 0 I: 0 N: 4 B: 4] -> [S: 0 I: 0 N: 3 B: 4]. Will run to completion of burst.
 
 At time 1910:
     IO_BURST_COMPLETED
@@ -681,7 +681,7 @@ At time 1943:
 At time 1943:
     DISPATCHER_INVOKED
     Thread 3 in process 613 [NORMAL]
-    Selected from NORMAL queue. [S: 0 I: 0 N: 4 B: 4] -> [S: 0 I: 0 N: 3 B: 4]
+     [S: 0 I: 0 N: 4 B: 4] -> [S: 0 I: 0 N: 3 B: 4]. Will run to completion of burst.
 
 At time 1962:
     THREAD_DISPATCH_COMPLETED
@@ -701,7 +701,7 @@ At time 1971:
 At time 1971:
     DISPATCHER_INVOKED
     Thread 1 in process 395 [NORMAL]
-    Selected from NORMAL queue. [S: 0 I: 0 N: 4 B: 4] -> [S: 0 I: 0 N: 3 B: 4]
+     [S: 0 I: 0 N: 4 B: 4] -> [S: 0 I: 0 N: 3 B: 4]. Will run to completion of burst.
 
 At time 1980:
     IO_BURST_COMPLETED
@@ -721,7 +721,7 @@ At time 2031:
 At time 2031:
     DISPATCHER_INVOKED
     Thread 1 in process 613 [NORMAL]
-    Selected from NORMAL queue. [S: 0 I: 0 N: 4 B: 4] -> [S: 0 I: 0 N: 3 B: 4]
+     [S: 0 I: 0 N: 4 B: 4] -> [S: 0 I: 0 N: 3 B: 4]. Will run to completion of burst.
 
 At time 2060:
     IO_BURST_COMPLETED
@@ -741,7 +741,7 @@ At time 2082:
 At time 2082:
     DISPATCHER_INVOKED
     Thread 0 in process 203 [NORMAL]
-    Selected from NORMAL queue. [S: 0 I: 0 N: 4 B: 4] -> [S: 0 I: 0 N: 3 B: 4]
+     [S: 0 I: 0 N: 4 B: 4] -> [S: 0 I: 0 N: 3 B: 4]. Will run to completion of burst.
 
 At time 2106:
     IO_BURST_COMPLETED
@@ -761,7 +761,7 @@ At time 2136:
 At time 2136:
     DISPATCHER_INVOKED
     Thread 0 in process 613 [NORMAL]
-    Selected from NORMAL queue. [S: 0 I: 0 N: 4 B: 4] -> [S: 0 I: 0 N: 3 B: 4]
+     [S: 0 I: 0 N: 4 B: 4] -> [S: 0 I: 0 N: 3 B: 4]. Will run to completion of burst.
 
 At time 2137:
     IO_BURST_COMPLETED
@@ -781,7 +781,7 @@ At time 2198:
 At time 2198:
     DISPATCHER_INVOKED
     Thread 3 in process 613 [NORMAL]
-    Selected from NORMAL queue. [S: 0 I: 0 N: 4 B: 4] -> [S: 0 I: 0 N: 3 B: 4]
+     [S: 0 I: 0 N: 4 B: 4] -> [S: 0 I: 0 N: 3 B: 4]. Will run to completion of burst.
 
 At time 2217:
     THREAD_DISPATCH_COMPLETED
@@ -801,7 +801,7 @@ At time 2236:
 At time 2236:
     DISPATCHER_INVOKED
     Thread 1 in process 395 [NORMAL]
-    Selected from NORMAL queue. [S: 0 I: 0 N: 4 B: 4] -> [S: 0 I: 0 N: 3 B: 4]
+     [S: 0 I: 0 N: 4 B: 4] -> [S: 0 I: 0 N: 3 B: 4]. Will run to completion of burst.
 
 At time 2238:
     IO_BURST_COMPLETED
@@ -821,7 +821,7 @@ At time 2285:
 At time 2285:
     DISPATCHER_INVOKED
     Thread 1 in process 613 [NORMAL]
-    Selected from NORMAL queue. [S: 0 I: 0 N: 4 B: 4] -> [S: 0 I: 0 N: 3 B: 4]
+     [S: 0 I: 0 N: 4 B: 4] -> [S: 0 I: 0 N: 3 B: 4]. Will run to completion of burst.
 
 At time 2291:
     IO_BURST_COMPLETED
@@ -841,7 +841,7 @@ At time 2359:
 At time 2359:
     DISPATCHER_INVOKED
     Thread 0 in process 203 [NORMAL]
-    Selected from NORMAL queue. [S: 0 I: 0 N: 4 B: 4] -> [S: 0 I: 0 N: 3 B: 4]
+     [S: 0 I: 0 N: 4 B: 4] -> [S: 0 I: 0 N: 3 B: 4]. Will run to completion of burst.
 
 At time 2387:
     IO_BURST_COMPLETED
@@ -861,7 +861,7 @@ At time 2417:
 At time 2417:
     DISPATCHER_INVOKED
     Thread 0 in process 613 [NORMAL]
-    Selected from NORMAL queue. [S: 0 I: 0 N: 4 B: 4] -> [S: 0 I: 0 N: 3 B: 4]
+     [S: 0 I: 0 N: 4 B: 4] -> [S: 0 I: 0 N: 3 B: 4]. Will run to completion of burst.
 
 At time 2423:
     IO_BURST_COMPLETED
@@ -881,7 +881,7 @@ At time 2471:
 At time 2471:
     DISPATCHER_INVOKED
     Thread 3 in process 613 [NORMAL]
-    Selected from NORMAL queue. [S: 0 I: 0 N: 4 B: 4] -> [S: 0 I: 0 N: 3 B: 4]
+     [S: 0 I: 0 N: 4 B: 4] -> [S: 0 I: 0 N: 3 B: 4]. Will run to completion of burst.
 
 At time 2490:
     THREAD_DISPATCH_COMPLETED
@@ -896,7 +896,7 @@ At time 2511:
 At time 2511:
     DISPATCHER_INVOKED
     Thread 1 in process 395 [NORMAL]
-    Selected from NORMAL queue. [S: 0 I: 0 N: 3 B: 4] -> [S: 0 I: 0 N: 2 B: 4]
+     [S: 0 I: 0 N: 3 B: 4] -> [S: 0 I: 0 N: 2 B: 4]. Will run to completion of burst.
 
 At time 2559:
     PROCESS_DISPATCH_COMPLETED
@@ -911,7 +911,7 @@ At time 2589:
 At time 2589:
     DISPATCHER_INVOKED
     Thread 1 in process 613 [NORMAL]
-    Selected from NORMAL queue. [S: 0 I: 0 N: 2 B: 4] -> [S: 0 I: 0 N: 1 B: 4]
+     [S: 0 I: 0 N: 2 B: 4] -> [S: 0 I: 0 N: 1 B: 4]. Will run to completion of burst.
 
 At time 2593:
     IO_BURST_COMPLETED
@@ -931,7 +931,7 @@ At time 2659:
 At time 2659:
     DISPATCHER_INVOKED
     Thread 0 in process 203 [NORMAL]
-    Selected from NORMAL queue. [S: 0 I: 0 N: 2 B: 4] -> [S: 0 I: 0 N: 1 B: 4]
+     [S: 0 I: 0 N: 2 B: 4] -> [S: 0 I: 0 N: 1 B: 4]. Will run to completion of burst.
 
 At time 2707:
     PROCESS_DISPATCH_COMPLETED
@@ -946,7 +946,7 @@ At time 2734:
 At time 2734:
     DISPATCHER_INVOKED
     Thread 1 in process 395 [NORMAL]
-    Selected from NORMAL queue. [S: 0 I: 0 N: 1 B: 4] -> [S: 0 I: 0 N: 0 B: 4]
+     [S: 0 I: 0 N: 1 B: 4] -> [S: 0 I: 0 N: 0 B: 4]. Will run to completion of burst.
 
 At time 2753:
     IO_BURST_COMPLETED
@@ -966,7 +966,7 @@ At time 2803:
 At time 2803:
     DISPATCHER_INVOKED
     Thread 0 in process 203 [NORMAL]
-    Selected from NORMAL queue. [S: 0 I: 0 N: 1 B: 4] -> [S: 0 I: 0 N: 0 B: 4]
+     [S: 0 I: 0 N: 1 B: 4] -> [S: 0 I: 0 N: 0 B: 4]. Will run to completion of burst.
 
 At time 2851:
     PROCESS_DISPATCH_COMPLETED
@@ -981,7 +981,7 @@ At time 2872:
 At time 2872:
     DISPATCHER_INVOKED
     Thread 0 in process 297 [BATCH]
-    Selected from BATCH queue. [S: 0 I: 0 N: 0 B: 4] -> [S: 0 I: 0 N: 0 B: 3]
+     [S: 0 I: 0 N: 0 B: 4] -> [S: 0 I: 0 N: 0 B: 3]. Will run to completion of burst.
 
 At time 2920:
     PROCESS_DISPATCH_COMPLETED
@@ -996,7 +996,7 @@ At time 2947:
 At time 2947:
     DISPATCHER_INVOKED
     Thread 1 in process 404 [BATCH]
-    Selected from BATCH queue. [S: 0 I: 0 N: 0 B: 3] -> [S: 0 I: 0 N: 0 B: 2]
+     [S: 0 I: 0 N: 0 B: 3] -> [S: 0 I: 0 N: 0 B: 2]. Will run to completion of burst.
 
 At time 2963:
     IO_BURST_COMPLETED
@@ -1016,7 +1016,7 @@ At time 3006:
 At time 3006:
     DISPATCHER_INVOKED
     Thread 2 in process 404 [BATCH]
-    Selected from BATCH queue. [S: 0 I: 0 N: 0 B: 3] -> [S: 0 I: 0 N: 0 B: 2]
+     [S: 0 I: 0 N: 0 B: 3] -> [S: 0 I: 0 N: 0 B: 2]. Will run to completion of burst.
 
 At time 3019:
     IO_BURST_COMPLETED
@@ -1036,7 +1036,7 @@ At time 3037:
 At time 3037:
     DISPATCHER_INVOKED
     Thread 0 in process 404 [BATCH]
-    Selected from BATCH queue. [S: 0 I: 0 N: 0 B: 3] -> [S: 0 I: 0 N: 0 B: 2]
+     [S: 0 I: 0 N: 0 B: 3] -> [S: 0 I: 0 N: 0 B: 2]. Will run to completion of burst.
 
 At time 3050:
     IO_BURST_COMPLETED
@@ -1056,7 +1056,7 @@ At time 3084:
 At time 3084:
     DISPATCHER_INVOKED
     Thread 0 in process 297 [BATCH]
-    Selected from BATCH queue. [S: 0 I: 0 N: 0 B: 3] -> [S: 0 I: 0 N: 0 B: 2]
+     [S: 0 I: 0 N: 0 B: 3] -> [S: 0 I: 0 N: 0 B: 2]. Will run to completion of burst.
 
 At time 3104:
     IO_BURST_COMPLETED
@@ -1076,7 +1076,7 @@ At time 3160:
 At time 3160:
     DISPATCHER_INVOKED
     Thread 1 in process 404 [BATCH]
-    Selected from BATCH queue. [S: 0 I: 0 N: 0 B: 3] -> [S: 0 I: 0 N: 0 B: 2]
+     [S: 0 I: 0 N: 0 B: 3] -> [S: 0 I: 0 N: 0 B: 2]. Will run to completion of burst.
 
 At time 3188:
     IO_BURST_COMPLETED
@@ -1096,7 +1096,7 @@ At time 3230:
 At time 3230:
     DISPATCHER_INVOKED
     Thread 2 in process 404 [BATCH]
-    Selected from BATCH queue. [S: 0 I: 0 N: 0 B: 3] -> [S: 0 I: 0 N: 0 B: 2]
+     [S: 0 I: 0 N: 0 B: 3] -> [S: 0 I: 0 N: 0 B: 2]. Will run to completion of burst.
 
 At time 3243:
     IO_BURST_COMPLETED
@@ -1116,7 +1116,7 @@ At time 3253:
 At time 3253:
     DISPATCHER_INVOKED
     Thread 0 in process 404 [BATCH]
-    Selected from BATCH queue. [S: 0 I: 0 N: 0 B: 3] -> [S: 0 I: 0 N: 0 B: 2]
+     [S: 0 I: 0 N: 0 B: 3] -> [S: 0 I: 0 N: 0 B: 2]. Will run to completion of burst.
 
 At time 3272:
     THREAD_DISPATCH_COMPLETED
@@ -1136,7 +1136,7 @@ At time 3292:
 At time 3292:
     DISPATCHER_INVOKED
     Thread 0 in process 297 [BATCH]
-    Selected from BATCH queue. [S: 0 I: 0 N: 0 B: 3] -> [S: 0 I: 0 N: 0 B: 2]
+     [S: 0 I: 0 N: 0 B: 3] -> [S: 0 I: 0 N: 0 B: 2]. Will run to completion of burst.
 
 At time 3305:
     IO_BURST_COMPLETED
@@ -1156,7 +1156,7 @@ At time 3356:
 At time 3356:
     DISPATCHER_INVOKED
     Thread 1 in process 404 [BATCH]
-    Selected from BATCH queue. [S: 0 I: 0 N: 0 B: 3] -> [S: 0 I: 0 N: 0 B: 2]
+     [S: 0 I: 0 N: 0 B: 3] -> [S: 0 I: 0 N: 0 B: 2]. Will run to completion of burst.
 
 At time 3404:
     PROCESS_DISPATCH_COMPLETED
@@ -1171,7 +1171,7 @@ At time 3409:
 At time 3409:
     DISPATCHER_INVOKED
     Thread 2 in process 404 [BATCH]
-    Selected from BATCH queue. [S: 0 I: 0 N: 0 B: 2] -> [S: 0 I: 0 N: 0 B: 1]
+     [S: 0 I: 0 N: 0 B: 2] -> [S: 0 I: 0 N: 0 B: 1]. Will run to completion of burst.
 
 At time 3428:
     THREAD_DISPATCH_COMPLETED
@@ -1191,7 +1191,7 @@ At time 3438:
 At time 3438:
     DISPATCHER_INVOKED
     Thread 0 in process 404 [BATCH]
-    Selected from BATCH queue. [S: 0 I: 0 N: 0 B: 2] -> [S: 0 I: 0 N: 0 B: 1]
+     [S: 0 I: 0 N: 0 B: 2] -> [S: 0 I: 0 N: 0 B: 1]. Will run to completion of burst.
 
 At time 3457:
     THREAD_DISPATCH_COMPLETED
@@ -1206,7 +1206,7 @@ At time 3466:
 At time 3466:
     DISPATCHER_INVOKED
     Thread 1 in process 404 [BATCH]
-    Selected from BATCH queue. [S: 0 I: 0 N: 0 B: 1] -> [S: 0 I: 0 N: 0 B: 0]
+     [S: 0 I: 0 N: 0 B: 1] -> [S: 0 I: 0 N: 0 B: 0]. Will run to completion of burst.
 
 At time 3474:
     IO_BURST_COMPLETED
@@ -1226,7 +1226,7 @@ At time 3515:
 At time 3515:
     DISPATCHER_INVOKED
     Thread 0 in process 404 [BATCH]
-    Selected from BATCH queue. [S: 0 I: 0 N: 0 B: 1] -> [S: 0 I: 0 N: 0 B: 0]
+     [S: 0 I: 0 N: 0 B: 1] -> [S: 0 I: 0 N: 0 B: 0]. Will run to completion of burst.
 
 At time 3534:
     THREAD_DISPATCH_COMPLETED
@@ -1246,7 +1246,7 @@ At time 3556:
 At time 3556:
     DISPATCHER_INVOKED
     Thread 1 in process 404 [BATCH]
-    Selected from BATCH queue. [S: 0 I: 0 N: 0 B: 1] -> [S: 0 I: 0 N: 0 B: 0]
+     [S: 0 I: 0 N: 0 B: 1] -> [S: 0 I: 0 N: 0 B: 0]. Will run to completion of burst.
 
 At time 3575:
     THREAD_DISPATCH_COMPLETED
@@ -1266,7 +1266,7 @@ At time 3589:
 At time 3589:
     DISPATCHER_INVOKED
     Thread 0 in process 404 [BATCH]
-    Selected from BATCH queue. [S: 0 I: 0 N: 0 B: 1] -> [S: 0 I: 0 N: 0 B: 0]
+     [S: 0 I: 0 N: 0 B: 1] -> [S: 0 I: 0 N: 0 B: 0]. Will run to completion of burst.
 
 At time 3592:
     IO_BURST_COMPLETED
@@ -1286,7 +1286,7 @@ At time 3616:
 At time 3616:
     DISPATCHER_INVOKED
     Thread 1 in process 404 [BATCH]
-    Selected from BATCH queue. [S: 0 I: 0 N: 0 B: 1] -> [S: 0 I: 0 N: 0 B: 0]
+     [S: 0 I: 0 N: 0 B: 1] -> [S: 0 I: 0 N: 0 B: 0]. Will run to completion of burst.
 
 At time 3623:
     IO_BURST_COMPLETED
@@ -1306,7 +1306,7 @@ At time 3649:
 At time 3649:
     DISPATCHER_INVOKED
     Thread 0 in process 404 [BATCH]
-    Selected from BATCH queue. [S: 0 I: 0 N: 0 B: 1] -> [S: 0 I: 0 N: 0 B: 0]
+     [S: 0 I: 0 N: 0 B: 1] -> [S: 0 I: 0 N: 0 B: 0]. Will run to completion of burst.
 
 At time 3668:
     THREAD_DISPATCH_COMPLETED
@@ -1326,7 +1326,7 @@ At time 3720:
 At time 3720:
     DISPATCHER_INVOKED
     Thread 0 in process 404 [BATCH]
-    Selected from BATCH queue. [S: 0 I: 0 N: 0 B: 1] -> [S: 0 I: 0 N: 0 B: 0]
+     [S: 0 I: 0 N: 0 B: 1] -> [S: 0 I: 0 N: 0 B: 0]. Will run to completion of burst.
 
 At time 3739:
     THREAD_DISPATCH_COMPLETED
@@ -1346,7 +1346,7 @@ At time 3766:
 At time 3766:
     DISPATCHER_INVOKED
     Thread 0 in process 404 [BATCH]
-    Selected from BATCH queue. [S: 0 I: 0 N: 0 B: 1] -> [S: 0 I: 0 N: 0 B: 0]
+     [S: 0 I: 0 N: 0 B: 1] -> [S: 0 I: 0 N: 0 B: 0]. Will run to completion of burst.
 
 At time 3785:
     THREAD_DISPATCH_COMPLETED
@@ -1366,7 +1366,7 @@ At time 3840:
 At time 3840:
     DISPATCHER_INVOKED
     Thread 0 in process 404 [BATCH]
-    Selected from BATCH queue. [S: 0 I: 0 N: 0 B: 1] -> [S: 0 I: 0 N: 0 B: 0]
+     [S: 0 I: 0 N: 0 B: 1] -> [S: 0 I: 0 N: 0 B: 0]. Will run to completion of burst.
 
 At time 3859:
     THREAD_DISPATCH_COMPLETED
@@ -1379,3 +1379,4 @@ At time 3860:
     Transitioned from RUNNING to EXIT
 
 SIMULATION COMPLETED!
+
