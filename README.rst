@@ -306,8 +306,6 @@ Whew, that was a lot. This is a complicated algorithm, eh?
 (5) Priority
 ~~~~~~~~~~~~
 
-A new one! This is to have you gain experience with handling process priorities before Deliverable 2.
-
 * Tasks priorities have the following order:
 
         a. ``SYSTEM`` (highest)
@@ -335,7 +333,7 @@ A new one! This is to have you gain experience with handling process priorities 
 
 - ...you should really use a priority queue. Yes, they're complicated. Yes, you *technically*
   could use *four* 'easy' ``std::queue``'s instead. But learning how to use one now will save
-  you a **TON** of time on D2. Your future self will thank you for it, trust us.
+  you a **TON** of time on MLFQ. Your future self will thank you for it, trust us.
 
 
 - ...and again, you should use the one given in ``src/utilities/stable_priority_queue`` to
