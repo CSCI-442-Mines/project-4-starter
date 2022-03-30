@@ -79,9 +79,8 @@ Deliverable 2
 
 2. The following additional scheduling algorithms:
 
-        * MLFQ
-
         * PRIORITY
+        * MLFQ
 
 .. warning::
 
