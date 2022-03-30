@@ -822,3 +822,6 @@ If multiple flags are input, all should be printed, in this order:
 ~~~~~~~~~~~~~~~~~~~
 Again, it is highly recommended that you take advantage of the existing logger functionality!
 
+5 Grading
+-------------------
+JESUS: FIX ME
