@@ -71,8 +71,6 @@ The following is required for deliverable 1:
         * SPN
 
         * RR
-        
-        * PRIORITY
 
 Deliverable 2
 -------------
@@ -83,7 +81,7 @@ Deliverable 2
 
         * MLFQ
 
-        * CFS
+        * PRIORITY
 
 .. warning::
 
@@ -245,45 +243,8 @@ a handful of exceptions to make implementation easier.
 
 *Implementation Hint:* None given. This one is simple enough you should know the appropriate data structure.
 
-(4) Priority
-~~~~~~~~~~~~
 
-A new one! This is to have you gain experience with handling process priorities before Deliverable 2.
-
-* Tasks priorities have the following order:
-
-        a. ``SYSTEM`` (highest)
-
-        b. ``INTERACTIVE``
-
-        c. ``NORMAL``
-
-        d. ``BATCH``  (lowest)
-
-* Tasks *of the same priority* are scheduled in the order they are added to the ready queue
-
-* Tasks *of different* priorities should follow the order given above (i.e., *all* ``SYSTEM`` 
-  tasks in the ready queue should be executed before *ANY* ``INTERACTIVE`` tasks, and so forth)
-
-* Tasks run until their CPU burst is completed.
-
-...which implies:
-
-1. There is no preemption in this algorithm 
-
-2. Process priorities are NOT to be ignored.
-
-*Implementation Hint:*
-
-- ...you should really use a priority queue. Yes, they're complicated. Yes, you *technically*
-  could use *four* 'easy' ``std::queue``'s instead. But learning how to use one now will save
-  you a **TON** of time on D2. Your future self will thank you for it, trust us.
-
-
-- ...and again, you should use the one given in ``src/utilities/stable_priority_queue`` to
-  save yourself a lot of headache when you go to test.
-
-(5) Multi-Level Feedback Queues (MLFQ)
+(4) Multi-Level Feedback Queues (MLFQ)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Finally! On to D2, and the *interesting* (complicated) algorithms!
@@ -342,70 +303,44 @@ Whew, that was a lot. This is a complicated algorithm, eh?
 - This is a place where learning how to use priority queues in D1 with the ``PRIORITY`` algorithm will come
   in handy. Otherwise you have to have **four** FIFO-queues *per* the word "queue" in the above description.
 
-(6) Linux's Completely-Fair Scheduler (CFS)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+(5) Priority
+~~~~~~~~~~~~
 
-...not actually the full Linux algorithm. That would be hard. Instead, just this subset is required:
+A new one! This is to have you gain experience with handling process priorities before Deliverable 2.
 
-* Tasks have a ``weight`` based on their priority
+* Tasks priorities have the following order:
 
-        - ``SYSTEM --> 88,761``
+        a. ``SYSTEM`` (highest)
 
-        - ``INTERACTIVE --> 29,154``
+        b. ``INTERACTIVE``
 
-        - ``NORMAL --> 1,024``
+        c. ``NORMAL``
 
-        - ``BATCH --> 15``
+        d. ``BATCH``  (lowest)
 
-* Tasks accumulate "virtual runtime", ``vruntime`` based on their time on the CPU.
+* Tasks *of the same priority* are scheduled in the order they are added to the ready queue
 
-        - ``vruntime`` is accumulated whenever a task is ran on the CPU according to the following formula:
+* Tasks *of different* priorities should follow the order given above (i.e., *all* ``SYSTEM`` 
+  tasks in the ready queue should be executed before *ANY* ``INTERACTIVE`` tasks, and so forth)
 
-|
+* Tasks run until their CPU burst is completed.
 
-.. math::
-        
-       vruntime_{task\ i} = \frac{1,024}{weight_{task\ i}} \cdot runtime_{task\ i}
+...which implies:
 
-|
+1. There is no preemption in this algorithm 
 
-.. raw:: pdf
+2. Process priorities are NOT to be ignored.
 
-        PageBreak
+*Implementation Hint:*
 
-* The ``sched_latency`` parameter is given by the following formula:
-
-|
-
-.. math::
-
-        sched\_latency = \frac{48}{\#\ tasks\ in\ ready\ queue}
-
-|
+- ...you should really use a priority queue. Yes, they're complicated. Yes, you *technically*
+  could use *four* 'easy' ``std::queue``'s instead. But learning how to use one now will save
+  you a **TON** of time on D2. Your future self will thank you for it, trust us.
 
 
-* The time slice a task has is given by the following formula:
+- ...and again, you should use the one given in ``src/utilities/stable_priority_queue`` to
+  save yourself a lot of headache when you go to test.
 
-|
-
-.. math::
-
-        time\_slice_{task\ k} = \frac{weight_{task\ k}}{\Sigma_{i=0}^{t - 1} weight_{task\ i}} \cdot sched\_latency
-
-|
-
-        * Where ``t`` is the number of tasks in the ready queue
-
-
-* ``min_granularity`` for CFS is given as the "time slice" parameter (see Appendix)
-
-        * If not specified by an input flag, should default to ``3``
-
-        * ``time_slice`` is not to go below ``min_granularity``
-
-* The task with the *lowest* ``vruntime`` is selected for scheduling
-
-*Implementation hint:* Priority queue, anyone?
 
 Required Logging
 ----------------
@@ -442,10 +377,6 @@ with one of the following messages, based on the algorithm:
 
                 Selected from queue Z (priority = P, runtime = R). Will run for at most Y ticks. 
 
-        f. CFS::
-
-                Selected from X threads (vruntime = V). Will run for at most Y ticks.
-
 * ``X`` is the *total* number of ``Ready`` threads
 
 * ``Y`` is the length of the time slice
@@ -462,11 +393,6 @@ with one of the following messages, based on the algorithm:
 
 * ``v`` is the number of threads of that priority (``S = SYSTEM``, etc.) AFTER the chosen thread is removed.
 
-.. warning::
-        We will be using ``diff`` to verify your program produces the correct output. This means
-        you will *not* get partial credit on a within-test basis (i.e., you will either pass, or fail,
-        each individual test. There is no in-between)
-
 Lastly, you may find ``utilities/fmt/`` to be useful in making these messages.
 
 .. raw:: pdf
@@ -478,25 +404,25 @@ Performance Metrics
 
 You need to calculate the following performance metrics:
 
-0. Number of threads per process priority
+1. Number of threads per process priority
 
-1. Average turnaround time per process priority 
+2. Average turnaround time per process priority 
 
-2. Average response time per process priority
+3. Average response time per process priority
 
-3. Total elapsed time
+4. Total elapsed time
 
-4. Total service time
+5. Total service time
 
-5. Total I/O time
+6. Total I/O time
 
-6. Total time spent running the scheduler
+7. Total time spent running the scheduler
 
-7. Total idle time
+8. Total idle time
 
-8. CPU utilization
+9. CPU utilization
 
-9. CPU efficiency
+10. CPU efficiency
 
 
 See the ``SystemStatistics`` class and ``Simulation::calculate_statistics()`` for more information.
@@ -606,7 +532,7 @@ course.  This will keep the project fun for future students!
 Submitting Your Project
 -----------------------
 
-Submission of your project will be handled via **Gradescope**.
+Submission and grading of your project will be handled via **Gradescope**.
 
 1. Create the submission file using the provided ``make-submission`` script::
 
