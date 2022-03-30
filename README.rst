@@ -192,7 +192,6 @@ a handful of exceptions to make implementation easier.
 
 2. All process priorities are treated as equal.
 
-*Implementation Hint:* None given. This one is simple enough you should know the appropriate data structure.
 
 (2) Shortest Process Next (SPN)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -212,9 +211,7 @@ a handful of exceptions to make implementation easier.
 
 2. All process priorities are treated as equal.
 
-*Implementation Hint:* Priority queue, anyone? 
-
-* Priority queues in C++'s STL are not very great. A much better one has been provided for you in 
+* (FIX ME) Priority queues in C++'s STL are not very great. A much better one has been provided for you in 
   ``src/utilities/stable_priority_queue/``, which is highly recommended for you to use.
   
 
@@ -241,13 +238,46 @@ a handful of exceptions to make implementation easier.
 
 2. All process priorities are treated as equal.
 
-*Implementation Hint:* None given. This one is simple enough you should know the appropriate data structure.
+
+(4) Priority
+~~~~~~~~~~~~
+
+* Tasks priorities have the following order:
+
+        a. ``SYSTEM`` (highest)
+
+        b. ``INTERACTIVE``
+
+        c. ``NORMAL``
+
+        d. ``BATCH``  (lowest)
+
+* Tasks *of the same priority* are scheduled in the order they are added to the ready queue
+
+* Tasks *of different* priorities should follow the order given above (i.e., *all* ``SYSTEM`` 
+  tasks in the ready queue should be executed before *ANY* ``INTERACTIVE`` tasks, and so forth)
+
+* Tasks run until their CPU burst is completed.
+
+...which implies:
+
+1. There is no preemption in this algorithm 
+
+2. Process priorities are NOT to be ignored.
+
+*Implementation Hint:* (FIX ME)
+
+- ...you should really use a priority queue. Yes, they're complicated. Yes, you *technically*
+  could use *four* 'easy' ``std::queue``'s instead. But learning how to use one now will save
+  you a **TON** of time on MLFQ. Your future self will thank you for it, trust us.
 
 
-(4) Multi-Level Feedback Queues (MLFQ)
+- ...and again, you should use the one given in ``src/utilities/stable_priority_queue`` to
+  save yourself a lot of headache when you go to test.
+
+
+(5) Multi-Level Feedback Queues (MLFQ)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Finally! On to D2, and the *interesting* (complicated) algorithms!
 
 * There are ``n`` queues, numbered ``0 ... n-1``
         
@@ -294,50 +324,13 @@ Finally! On to D2, and the *interesting* (complicated) algorithms!
 
         - This is the only place process priorities matter in this algorithm. 
 
-Whew, that was a lot. This is a complicated algorithm, eh?
+*Implementation Hint*: (FIX ME)
 
-*Implementation Hint*:
+- You should use array of priorities queues
 
-- Array of priorities queues, anyone?
-
-- This is a place where learning how to use priority queues in D1 with the ``PRIORITY`` algorithm will come
+- This is a place where learning how to use priority queues in D2 with the ``PRIORITY`` algorithm will come
   in handy. Otherwise you have to have **four** FIFO-queues *per* the word "queue" in the above description.
 
-(5) Priority
-~~~~~~~~~~~~
-
-* Tasks priorities have the following order:
-
-        a. ``SYSTEM`` (highest)
-
-        b. ``INTERACTIVE``
-
-        c. ``NORMAL``
-
-        d. ``BATCH``  (lowest)
-
-* Tasks *of the same priority* are scheduled in the order they are added to the ready queue
-
-* Tasks *of different* priorities should follow the order given above (i.e., *all* ``SYSTEM`` 
-  tasks in the ready queue should be executed before *ANY* ``INTERACTIVE`` tasks, and so forth)
-
-* Tasks run until their CPU burst is completed.
-
-...which implies:
-
-1. There is no preemption in this algorithm 
-
-2. Process priorities are NOT to be ignored.
-
-*Implementation Hint:*
-
-- ...you should really use a priority queue. Yes, they're complicated. Yes, you *technically*
-  could use *four* 'easy' ``std::queue``'s instead. But learning how to use one now will save
-  you a **TON** of time on MLFQ. Your future self will thank you for it, trust us.
-
-
-- ...and again, you should use the one given in ``src/utilities/stable_priority_queue`` to
-  save yourself a lot of headache when you go to test.
 
 
 Required Logging
@@ -618,9 +611,9 @@ Since the simulation state only changes at an event, the ”clock” can be adva
 - **THREAD PREEMPTED**: A thread has been preempted during execution of one of its CPU bursts.
 - **DISPATCHER INVOKED**: The OS dispatcher routine has been invoked to determine the next thread to be run on the CPU
 
-The main loop of the simulation should consist of processing the next event, perhaps adding more future events in the queue as a result, advancing the clock (by taking the next scheduled event from the front of the event queue), and so on until all threads have terminated. See Figure 1 for an illustration of the event simulation. Rounded rectangles indicate functions that you will need to implement to handle the associated event types.
+The main loop of the simulation consists of processing the next event, perhaps adding more future events in the queue as a result, advancing the clock (by taking the next scheduled event from the front of the event queue), and so on until all threads have terminated. See Figure 1 for an illustration of the event simulation. Rounded rectangles indicate functions that you will need to implement to handle the associated event types.
 
-.. figure:: images/des-diagram.jpg
+.. figure:: images/flow_diagram.png
    :width: 100 %
    
    Figure 1: A high level illustration of the next-event simulation. In the starter code, all of this functionality is to be implemented within the Simulation class. Rounded rectangles represent functions, while diamonds are decisions that lead to different actions being taken. For example, if the event type is determined to be THREAD ARRIVED, then the handle thread arrived(event) function should be called.
