@@ -1,5 +1,7 @@
 #!/bin/bash
-for alg in fcfs spn rr rr-s6 priority mlfq cfs cfs-s6
+#Switch these for loops (commented and uncommented) to enable CFS testing
+#for alg in fcfs spn rr rr-s6 priority mlfq cfs cfs-s6
+for alg in fcfs spn rr rr-s6 priority mlfq
 do
 	for i in 1 2 3 4 5
 	do
@@ -8,7 +10,8 @@ do
 
 		alg_param="-a ${alg^^}"
 		alg_param=${alg_param/"RR-S6"/"RR -s 6"}
-		alg_param=${alg_param/"CFS-S6"/"CFS -s 6"}
+		#Uncomment the statement below to enable CFS testing
+    #alg_param=${alg_param/"CFS-S6"/"CFS -s 6"}
 
 		for mode_param in v t m
 		do

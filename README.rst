@@ -173,13 +173,11 @@ The simulation is over a computer with the following attributes:
 Scheduling Algorithms
 ---------------------
 
-All scheduling algorithms required are listed below. Note that these *mostly* follow what OSTEP specifies, with
-a handful of exceptions to make implementation easier.
+All scheduling algorithms required are listed below. The algoritms below (FCFS, RR, SPN, PRIORITY, and MLFQ) are described on the slides shown
+in class.
 
 (1) First Come, First Served (FCFS)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-...identical to OSTEP.
 
 * Tasks are scheduled in the order they are added to the ready queue
 
@@ -195,8 +193,6 @@ a handful of exceptions to make implementation easier.
 (2) Shortest Process Next (SPN)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-...identical to the OSTEP algorithm "Shortest Job First"
-
 * Tasks are scheduled in order (from smallest to largest) of their next CPU burst.
 
         * While this requires future knowledge and thus is impossible to implement in the "RealWorld",
@@ -210,14 +206,14 @@ a handful of exceptions to make implementation easier.
 
 2. All process priorities are treated as equal.
 
-* (FIX ME) Priority queues in C++'s STL are not very great. A much better one has been provided for you in 
+* Priority queues in C++'s STL (Standard Library) are not always accurate. A Priority queue sorts it's entries
+  based on a given priority. If this priority is the same, the order of these matching entries can't be guarenteed. 
+  To solve this we provide a much better implementation for you in 
   ``src/utilities/stable_priority_queue/``, which is highly recommended for you to use.
   
 
 (3) Round Robin (RR)
 ~~~~~~~~~~~~~~~~~~~~
-
-...identical to OSTEP definition.
 
 * Tasks are scheduled in the order they are added to the ready queue
 
@@ -264,19 +260,17 @@ a handful of exceptions to make implementation easier.
 
 2. Process priorities are NOT to be ignored.
 
-*Implementation Hint:* (FIX ME)
+*Implementation Hint:*
 
-- ...you should really use a priority queue. Yes, they're complicated. Yes, you *technically*
-  could use *four* 'easy' ``std::queue``'s instead. But learning how to use one now will save
-  you a **TON** of time on MLFQ. Your future self will thank you for it, trust us.
-
-
-- ...and again, you should use the one given in ``src/utilities/stable_priority_queue`` to
-  save yourself a lot of headache when you go to test.
-
+- ...As mentioned before, the standard library priority queue is not deterministic when multiple entries share the same priority.
+  We highly recommend using the provided stable_priority_queue in ``src/utilities/stable_priority_queue`` as it will also be useful
+  for MLFQ.
+  
 
 (5) Multi-Level Feedback Queues (MLFQ)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+...called Feedback in the slides
 
 * There are ``n`` queues, numbered ``0 ... n-1``
         
@@ -323,13 +317,11 @@ a handful of exceptions to make implementation easier.
 
         - This is the only place process priorities matter in this algorithm. 
 
-*Implementation Hint*: (FIX ME)
+*Implementation Hint*: 
 
-- You should use array of priorities queues
+- You should use an array of priorities queues
 
-- This is a place where learning how to use priority queues in D2 with the ``PRIORITY`` algorithm will come
-  in handy. Otherwise you have to have **four** FIFO-queues *per* the word "queue" in the above description.
-
+- Doing the Priority algorithm before MLFQ would be helpful for understanding priority queues.
 
 
 Required Logging
@@ -822,5 +814,9 @@ If multiple flags are input, all should be printed, in this order:
 Again, it is highly recommended that you take advantage of the existing logger functionality!
 
 5 Grading
--------------------
-JESUS: FIX ME
+~~~~~~~~~~~~~~~~~~~
+
+Grading for this project is handled differently than the projects thus far. Due to the output being much longer than for other projects,
+the tests are ran using sdiff rather than just diff. This means there **IS** partial credit on tests that compare to expected output.
+The grade for a given test is the number of lines matched divided by the total number of lines in the expected file. This does mean
+matching our syntax on input is required but it gives more room for errors. 
