@@ -816,7 +816,8 @@ Again, it is highly recommended that you take advantage of the existing logger f
 5 Grading
 ~~~~~~~~~~~~~~~~~~~
 
-Grading for this project is handled differently than the projects thus far. Due to the output being much longer than for other projects,
-the tests are ran using sdiff rather than just diff. This means there **IS** partial credit on tests that compare to expected output.
+The output of your program will be compared line by line to the expected output using sdiff.
+
+Unlike previous projects, there is partial credit on tests for this project due to the length of the output. 
 The grade for a given test is the number of lines matched divided by the total number of lines in the expected file. This does mean
 matching our syntax on input is required but it gives more room for errors. 
