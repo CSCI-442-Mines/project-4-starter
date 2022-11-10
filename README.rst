@@ -504,7 +504,7 @@ Collaboration Policy
 
 Please see the syllabus for the course plagarism policies.
 
-This is an **individual project**.  Plagarism cases will be punished
+This is an **team project**.  Plagarism cases will be punished
 harshly according to school policies.
 
 Please do keep any Git repos private, even after you finish this
