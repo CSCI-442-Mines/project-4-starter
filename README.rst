@@ -6,35 +6,34 @@ CSCI-442 Project 4: CPU Scheduling Simulator
 
 .. important::
 
-   * You'll want to read this **entire document** before beginning the project.  Please ask any questions you have on Piazza, but only if this README does not answer your question.
+   * You'll want to read this **entire document** before beginning the project.  Please ask any questions you have on the discussion board, but only if this README does not answer your question.
    * Finally, be sure to start early.  If you wait until a few days before the due date, you are unlikely to finish in time.
 
-1. Introduction
+1) Introduction
 ===============
 
-The goal of this project is to implement many of the scheduling algorithms discussed in class in a discrete-
-event simulator. Additionally, at the end of execution, your program will calculate and display several
+The goal of this project is to implement many of the scheduling algorithms discussed in class in a discrete-event 
+simulator. Additionally, at the end of execution, your program will calculate and display several
 performance criteria from the simulation.
 
 Since this is a large project, you should note the following:
 
-1. You are given a **LOT** of starter code, which implements the simulation for you and nicely sets up 
-   what you are required to implement.
+* You are given a **LOT** of starter code, which implements the simulation for you and nicely sets up what you are required to implement.
 
-        - You will gain familarity with working on a large, existing code base using modern C++ principles.
+    * You will gain familarity with working on a large, existing code base 
+      using modern C++ principles.
 
-        - Part of the project is simply being comfortable with understanding how to work with large
-          amounts of code you did not write.
+    * Part of the project is simply being comfortable with understanding 
+      how to work with large amounts of code you did not write.
 
-        - However, if you prefer reinventing the wheel and overall making your life more difficult,
-          you do *not* have to use the starter provided.
-          But note that you are adding a good 20+ hours of work to yourself by not using it, and only limited
-          TA support will be available for this.
+    * However, if you prefer reinventing the wheel and overall making your life more difficult, you do *not* have 
+      to use the starter provided. But note that you are adding a good 20+ hours of work to yourself by 
+      not using it, and only limited TA support will be available for this.
 
-2. This project is split into two deliverables to discourage procrastination. 
+* This project is split into two deliverables to discourage procrastination. 
 
 
-2. Project Requirements
+2) Project Requirements
 =======================
 
 You will create a program called ``cpu-sim``, which simulates a variety of possibly multi-threaded processes
@@ -50,21 +49,23 @@ See **the Appendix** for the full list of options. Note that the starter code pa
 
         PageBreak
 
-Deliverable 1
--------------
+2.1) Deliverable 1
+------------------
 
 The following is required for deliverable 1:
 
-1. All functionality present in the starter code
+2.1.1) All functionality present in the starter code
 
         * While technically optional, it is highly recommended you use the starter code.
 
         * Expect to spend 20+ hours of *additional work* to implement this functionality along with
           limited TA support should you choose this route.
 
-2. Calculation of the necessary performance metrics
+2.1.2) Calculation of the necessary performance metrics
 
-3. The following scheduling algorithms implemented:
+        * You should perform all calculations in ``src/simulation/simulation.cpp`` in ``calculate_statistics()``
+
+2.1.3) Implement the following scheduling algorithms:
 
         * FCFS
 
@@ -72,32 +73,31 @@ The following is required for deliverable 1:
 
         * RR
 
-Deliverable 2
--------------
+2.2) Deliverable 2
+------------------
 
-1. All functionality required in Deliverable 1
+2.2.1) All functionality required in Deliverable 1
 
-2. The following additional scheduling algorithms:
+2.2.2) The following additional scheduling algorithms:
 
         * PRIORITY
         * MLFQ
 
-.. warning::
-
-        The algorithms required in Deliverable 2 are **MUCH** more complicated than those in Deliverable 1. 
-        Expect to spend more time on Deliverable 2 than Deliverable 1.
-
+.. warning:: 
+          The algorithms required in Deliverable 2 are **MUCH** more complicated than those in Deliverable 1. 
+          Expect to spend more time on Deliverable 2 than Deliverable 1.
 
 
-3. Various Project Specifications
-==================================
+
+3) Various Project Specifications
+=================================
 
 The following sections contain all the information you need to complete this project. 
 
 - If you have a question about what to do, you can likely find it in this (massive) section
 
-Simulation Information
-----------------------
+3.1) Simulation Information
+---------------------------
 
 (This is implemented for you in the starter code **BUT** you should still read it,
 or the other sections may not make sense)
@@ -130,9 +130,9 @@ The simulation is over a computer with the following attributes:
 
         - Running the scheduler (dispatcher) also requires a certain amount of overhead.
 
-6. Threads, processes, and dispatch overhead are specified via the input file
+6) Threads, processes, and dispatch overhead are specified via the input file
 
-7. Each thread requires a sequence of CPU and I/O bursts of varying lengths as specified by the input file.
+7) Each thread requires a sequence of CPU and I/O bursts of varying lengths as specified by the input file.
 
         - You can think of "bursts" as an observation of the task's behavior: a task wanting needing to use
           the CPU for 10 ms, then read a file (which takes 500 ms), then use the CPU for another 10 ms;
@@ -146,38 +146,38 @@ The simulation is over a computer with the following attributes:
 
         - Note that all tasks will end with a CPU burst.
 
-8. Processes have an associated priority, specified as part of the file. Each thread in a process has the same priority as its parent process.
+8) Processes have an associated priority, specified as part of the file. Each thread in a process has the same priority as its parent process.
 
         - 0: SYSTEM (highest priority)
         - 1: INTERACTIVE
         - 2: NORMAL
         - 3: BATCH (lowest priority)
 
-9. All processes have a distinct process ID, specified as part of the file. Thread IDs are unique only within the context of their owning process (so the first thread in every process has an ID of 0).
+9) All processes have a distinct process ID, specified as part of the file. Thread IDs are unique only within the context of their owning process (so the first thread in every process has an ID of 0).
 
-10. Overhead is incurred only when dispatching a thread (transitioning it from READY to RUNNING); all other OS actions require zero OS overhead. For example, adding a thread to a ready queue or initiating I/O are both ”free”.
+10) Overhead is incurred only when dispatching a thread (transitioning it from READY to RUNNING); all other OS actions require zero OS overhead. For example, adding a thread to a ready queue or initiating I/O are both ”free”.
 
-11. Threads for a given process can arrive at any time, even if some other process is currently running (i.e., some external entity—not the CPU—is responsible for creating threads).
+11) Threads for a given process can arrive at any time, even if some other process is currently running (i.e., some external entity—not the CPU—is responsible for creating threads).
 
-12. Tasks are executed on the CPU. For our purposes, a task is either:
+12) Tasks are executed on the CPU. For our purposes, a task is either:
 
        a. A single-threaded process
 
        b. A single thread of a multi-threaded process.
 
-       - Note this means a "task" is synonymous with a "thread" in this project,
-         since we do not care about kernel workers.
-         Thus, the two are used interchangably throughout this writeup.
+          - Note this means a "task" is synonymous with a "thread" in this project,
+            since we do not care about kernel workers.
+            Thus, the two are used interchangably throughout this writeup.
 
 
-Scheduling Algorithms
----------------------
+3.2) Scheduling Algorithms
+--------------------------
 
 All scheduling algorithms required are listed below. The algoritms below (FCFS, RR, SPN, PRIORITY, and MLFQ) are described on the slides shown
 in class.
 
-(1) First Come, First Served (FCFS)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. First Come, First Served (FCFS)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 * Tasks are scheduled in the order they are added to the ready queue
 
@@ -190,8 +190,8 @@ in class.
 2. All process priorities are treated as equal.
 
 
-(2) Shortest Process Next (SPN)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2. Shortest Process Next (SPN)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 * Tasks are scheduled in order (from smallest to largest) of their next CPU burst.
 
@@ -212,8 +212,8 @@ in class.
   ``src/utilities/stable_priority_queue/``, which is highly recommended for you to use.
   
 
-(3) Round Robin (RR)
-~~~~~~~~~~~~~~~~~~~~
+3. Round Robin (RR)
+~~~~~~~~~~~~~~~~~~~
 
 * Tasks are scheduled in the order they are added to the ready queue
 
@@ -234,8 +234,8 @@ in class.
 2. All process priorities are treated as equal.
 
 
-(4) Priority
-~~~~~~~~~~~~
+4. Priority
+~~~~~~~~~~~
 
 * Tasks priorities have the following order:
 
@@ -267,8 +267,8 @@ in class.
   for MLFQ.
   
 
-(5) Multi-Level Feedback Queues (MLFQ)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+5. Multi-Level Feedback Queues (MLFQ)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 ...called Feedback in the slides
 
@@ -324,8 +324,8 @@ in class.
 - Doing the Priority algorithm before MLFQ would be helpful for understanding priority queues.
 
 
-Required Logging
-----------------
+3.3) Required Logging
+---------------------
 
 To aid in debugging (and grading!), you are **required** to log certain pieces of information
 about your algorithm. Specifically, you **must** fill the ``SchedulingDecision::explanation`` field
@@ -353,7 +353,7 @@ with one of the following messages, based on the algorithm:
 
         d. Priority::
 
-                [S: u I: u N: u B: u] -> [S: v I: v N: v B: v]. Will to completion of burst.        
+                [S: u I: u N: u B: u] -> [S: v I: v N: v B: v]. Will run to completion of burst.        
 
         e. MLFQ::
 
@@ -381,39 +381,39 @@ Lastly, you may find ``utilities/fmt/`` to be useful in making these messages.
 
         PageBreak
 
-Performance Metrics
--------------------
+3.4) Performance Metrics
+------------------------
 
 You need to calculate the following performance metrics:
 
-1. Number of threads per process priority
+  #. Number of Threads per Process Priority
 
-2. Average turnaround time per process priority 
+  #. Average Turnaround Time per Process Priority 
 
-3. Average response time per process priority
+  #. Average Response Time per Process Priority
 
-4. Total elapsed time
+  #. Total Service Time
 
-5. Total service time
+  #. Total I/O Time
 
-6. Total I/O time
+  #. Total Idle Time
 
-7. Total time spent running the scheduler
+  #. CPU Utilization
+  
+    - CPU Utilization = [(Total Time - Total Idle Time) / (Total Time)] * 100
 
-8. Total idle time
-
-9. CPU utilization
-
-10. CPU efficiency
+  #. CPU Efficiency
+    
+    - CPU Efficiency = [(Total Service Time) / (Total Time)] * 100
 
 
 See the ``SystemStatistics`` class and ``Simulation::calculate_statistics()`` for more information.
 
-Tips
-----
+3.5) Tips
+---------
 
-1: Start small, and get things working incrementally
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+3.5.1) Start small, and get things working incrementally
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 You are given a *ton* of starter code. While it may be tempting to "dive right in and start hacking",
 you are likely to end up with broken code that you don't understand. Instead, follow these guidelines:
@@ -454,7 +454,7 @@ you are likely to end up with broken code that you don't understand. Instead, fo
 This is a large project, if you do it all at once you will likely end up with minor bugs that are 
 nearly impossible to fix. Start small and plan before you code.
 
-2: Test often
+3.5.2) Test often
 ~~~~~~~~~~~~~
 
 To help you test your project, we have provided a script ``test-my-work.sh`` to run your
@@ -471,7 +471,7 @@ and then::
 If your output does not match the expected for a specific input/output/parameter combination,
 the script will stop and give your more details. Otherwise, it will print a ``Test passed!`` message.
 
-3: Keep old versions around
+3.5.3) Keep old versions around
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Keep copies of old versions of your program around, as you may introduce bugs and not be
@@ -484,11 +484,11 @@ able to easily undo them.
 
         PageBreak
 
-5. Logistics 
+4) Logistics 
 ============
 
-General Requirements
---------------------
+4.1) General Requirements
+-------------------------
 
 - Your code must be written in C++ and compile using ``make`` on Isengard.
 
@@ -499,20 +499,20 @@ General Requirements
 - Your project must not execute external programs or use network resources. 
 
 
-Collaboration Policy
---------------------
+4.2) Collaboration Policy
+-------------------------
 
 Please see the syllabus for the course plagarism policies.
 
-This is an **team project**.  Plagarism cases will be punished
+This is an **individual project**.  Plagarism cases will be punished
 harshly according to school policies.
 
 Please do keep any Git repos private, even after you finish this
 course.  This will keep the project fun for future students!
 
 
-Submitting Your Project
------------------------
+4.3) Submitting Your Project
+----------------------------
 
 Submission and grading of your project will be handled via **Gradescope**.
 
@@ -528,24 +528,24 @@ You can re-submit as many times as you want before the due date, but note the pr
 a few days after the due date, **NOT** on-submission (similar to Canvas).
 
 .. warning::
-        You are **REQUIRED** to use ``make-submission`` to form the ``.zip`` file. Failure to do so
-        may cause your program to not compile on Gradescope. A penalty to your grade will be applied
-        if you need to resubmit due to compilation issues stemming from not using this script.
+          You are **REQUIRED** to use ``make-submission`` to form the ``.zip`` file. Failure to do so
+          may cause your program to not compile on Gradescope. A penalty to your grade will be applied
+          if you need to resubmit due to compilation issues stemming from not using this script.
 
 .. raw:: pdf
 
         PageBreak
 
-Appendices
-==========
+5) Appendices
+=============
 
 Everything listed in these appendices **is handled for you in the starter code**. But incase you need
 more information about some feature of the project, this information is given. 
 
-Warning: Here Be Dragons.
+Warning: Only the brave shall pass.
 
-1 Command Line Parsing
-----------------------
+1. Command Line Parsing
+-----------------------
 
 Your simulation must support invocation in the format specified below, including the following command line flags:
 
@@ -586,8 +586,8 @@ Any improper command line input should cause your program to print the help mess
 You are strongly encouraged to use the getopt family of functions to perform the command line parsing. Information on getopt can be found here: http://man7.org/linux/man-pages/man3/getopt.3.html
 
 
-2 Next-Event Simulation
------------------------
+2. Next-Event Simulation
+------------------------
 
 This simulation follows the next-event pattern. At any given time, the simulation is in a single state. The simulation state can only change at event times, where an event is defined as an occurrence that may change the state of the system.
 
@@ -609,7 +609,7 @@ The main loop of the simulation consists of processing the next event, perhaps a
    
    Figure 1: A high level illustration of the next-event simulation. In the starter code, all of this functionality is to be implemented within the Simulation class. Rounded rectangles represent functions, while diamonds are decisions that lead to different actions being taken. For example, if the event type is determined to be THREAD ARRIVED, then the handle thread arrived(event) function should be called.
 
-3.1 Event Queue
+2.1. Event Queue
 ~~~~~~~~~~~~~~~
 
 Events are scheduled via an event queue. The event queue is a priority queue that contains future events; the priority of each item in the queue corresponds to its scheduled time, where the event with the highest ”priority” (at the front of the queue) is the one that will happen next.
@@ -622,7 +622,7 @@ To determine the next event to handle, a priority queue is used to sort the even
 
 
 
-3 Simulation File Format
+3. Simulation File Format
 ------------------------
 The simulation file specifies a complete specification of scheduling scenario. It’s format is as follows:
 
@@ -697,19 +697,19 @@ Here is a commented example. The comments will not be in an actual simulation fi
    3        // The last CPU burst has a length of 3
 
 
-4 Output Formatting
+4. Output Formatting
 -------------------
 
 For efficient and fair grading, it is vital that your simulation outputs information in a well-defined way. The starter code provides functionality for printing information, and it is strongly encouraged that you use it. The information that your simulation prints is dependent on the flags that the user has input, and in the following sections we describe what should be printed for each flag.
 
-4.1 No flags input
+4.1. No flags input
 ~~~~~~~~~~~~~~~~~~
 
 If the user has not input any flags to your program, you should only output the following:
 
 ``SIMULATION COMPLETED!``
 
-4.2 --metrics
+4.2. --metrics
 ~~~~~~~~~~~~~
 
 When the metrics flag has been passed to your simulation, it should output the following information:
@@ -747,7 +747,7 @@ When the metrics flag has been passed to your simulation, it should output the f
    CPU utilization : 93.85%
    CPU efficiency : 40.77%
 
-4.3 --per thread
+4.3. --per thread
 ~~~~~~~~~~~~~~~~
 
 When the per thread flag has been passed to your simulation, it should output information about each of the threads.
@@ -765,7 +765,7 @@ When the per thread flag has been passed to your simulation, it should output in
       Thread   1:    ARR : 6      CPU : 5     I/O: 2      TRT : 69       END: 75
       Thread   2:    ARR : 7      CPU : 23    I/O: 16     TRT : 123      END: 130
    
-4.4 --verbose
+4.4. --verbose
 ~~~~~~~~~~~~~
 
 When the verbose flag has been passed to your simulation, it should output, at each state transition, information about the state transition that is occurring. It should be outputting this information ”on the fly”.
@@ -798,7 +798,7 @@ This continues until the end of the simulation:
 
    SIMULATION COMPLETED !
 
-4.5 Multiple Flags
+4.5. Multiple Flags
 ~~~~~~~~~~~~~~~~~~
 
 If multiple flags are input, all should be printed, in this order:
@@ -809,15 +809,6 @@ If multiple flags are input, all should be printed, in this order:
 4. General simulation metrics.
 
 
-4.6 Recommendations
+4.6. Recommendations
 ~~~~~~~~~~~~~~~~~~~
 Again, it is highly recommended that you take advantage of the existing logger functionality!
-
-5 Grading
-~~~~~~~~~~~~~~~~~~~
-
-The output of your program will be compared line by line to the expected output using sdiff.
-
-Unlike previous projects, there is partial credit on tests for this project due to the length of the output. 
-The grade for a given test is the number of lines matched divided by the total number of lines in the expected file. This does mean
-that matching our syntax on output is still required but it gives more room for errors. 
