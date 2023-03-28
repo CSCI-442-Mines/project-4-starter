@@ -21,34 +21,28 @@ public:
     size_t total_time = 0;
 
     /*
-        total_idle_time:
-            The amount of time that the processor has been idle.
-    */
-    size_t total_idle_time = 0;
-
-    /*
         dispatch_time:
             The amount of time that the processor has spent dispatching (overhead).
     */
     size_t dispatch_time = 0;
 
     /*
-        service_time:
+        total_idle_time:
+            The amount of time that the processor has been idle.
+    */
+    size_t total_idle_time = 0;
+
+    /*
+        total_service_time:
             The amount of time that the processor has spent executing threads.
     */
-    size_t service_time = 0;
+    size_t total_service_time = 0;
 
     /*
         io_time:
             The cumulative amount of time that all threads have spent doing IO.
     */
-    size_t io_time = 0;
-
-    /*
-        total_cpu_time:
-            The amount of time that the processor was in use.
-    */
-    size_t total_cpu_time = 0;
+    size_t total_io_time = 0;
 
     /*
         cpu_utilization:

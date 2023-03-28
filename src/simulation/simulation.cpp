@@ -205,7 +205,18 @@ void Simulation::handle_dispatcher_invoked(const std::shared_ptr<Event> event) {
 //==============================================================================
 
 SystemStats Simulation::calculate_statistics() {
-    // TODO: Calculate the system statistics
+    /*
+        TODO: Calculate the following system statistics:
+            - thread_counts[4]
+            - avg_thread_response_times[4]
+            - avg_thread_turnaround_times[4]
+            - total_service_time
+            - total_io_time
+            - total_idle_time
+            - cpu_utilization
+            - cpu_efficiency
+            
+    */
     return this->system_stats;
 }
 

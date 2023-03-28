@@ -129,9 +129,9 @@ void Logger::print_simulation_metrics(SystemStats stats) const {
     std::string summary_message;
 
     summary_message = fmt::format("{:<22}{:>12}\n", "Total elapsed time:", stats.total_time);
-    summary_message += fmt::format("{:<22}{:>12}\n", "Total service time:", stats.service_time);
+    summary_message += fmt::format("{:<22}{:>12}\n", "Total service time:", stats.total_service_time);
 
-    summary_message += fmt::format("{:<22}{:>12}\n", "Total I/O time:", stats.io_time);
+    summary_message += fmt::format("{:<22}{:>12}\n", "Total I/O time:", stats.total_io_time);
     summary_message += fmt::format("{:<22}{:>12}\n", "Total dispatch time:", stats.dispatch_time);
 
     summary_message += fmt::format("{:<22}{:>12}\n\n", "Total idle time:", stats.total_idle_time);

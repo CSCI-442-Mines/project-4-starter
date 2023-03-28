@@ -25,7 +25,7 @@ do
 				echo "   The output does not match $outputfilename.$mode_param Please check my_output and my_output.diff for details."
 				exit
 			else
-				echo "   Test passed!"
+				echo -e "\e[32mTest passed!\e[0m"
 			fi
 		done
 	done
