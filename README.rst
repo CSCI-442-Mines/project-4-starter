@@ -455,7 +455,7 @@ This is a large project, if you do it all at once you will likely end up with mi
 nearly impossible to fix. Start small and plan before you code.
 
 3.5.2) Test often
-~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~
 
 To help you test your project, we have provided a script ``test-my-work.sh`` to run your
 code on the provided input/output files. 
@@ -472,7 +472,7 @@ If your output does not match the expected for a specific input/output/parameter
 the script will stop and give your more details. Otherwise, it will print a ``Test passed!`` message.
 
 3.5.3) Keep old versions around
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Keep copies of old versions of your program around, as you may introduce bugs and not be
 able to easily undo them. 
@@ -610,7 +610,7 @@ The main loop of the simulation consists of processing the next event, perhaps a
    Figure 1: A high level illustration of the next-event simulation. In the starter code, all of this functionality is to be implemented within the Simulation class. Rounded rectangles represent functions, while diamonds are decisions that lead to different actions being taken. For example, if the event type is determined to be THREAD ARRIVED, then the handle thread arrived(event) function should be called.
 
 2.1. Event Queue
-~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~
 
 Events are scheduled via an event queue. The event queue is a priority queue that contains future events; the priority of each item in the queue corresponds to its scheduled time, where the event with the highest ”priority” (at the front of the queue) is the one that will happen next.
 
@@ -623,7 +623,7 @@ To determine the next event to handle, a priority queue is used to sort the even
 
 
 3. Simulation File Format
-------------------------
+-------------------------
 The simulation file specifies a complete specification of scheduling scenario. It’s format is as follows:
 
 .. code-block::
@@ -698,19 +698,19 @@ Here is a commented example. The comments will not be in an actual simulation fi
 
 
 4. Output Formatting
--------------------
+--------------------
 
 For efficient and fair grading, it is vital that your simulation outputs information in a well-defined way. The starter code provides functionality for printing information, and it is strongly encouraged that you use it. The information that your simulation prints is dependent on the flags that the user has input, and in the following sections we describe what should be printed for each flag.
 
 4.1. No flags input
-~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~
 
 If the user has not input any flags to your program, you should only output the following:
 
 ``SIMULATION COMPLETED!``
 
 4.2. --metrics
-~~~~~~~~~~~~~
+~~~~~~~~~~~~~~
 
 When the metrics flag has been passed to your simulation, it should output the following information:
 
@@ -748,7 +748,7 @@ When the metrics flag has been passed to your simulation, it should output the f
    CPU efficiency : 40.77%
 
 4.3. --per thread
-~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~
 
 When the per thread flag has been passed to your simulation, it should output information about each of the threads.
 
@@ -766,7 +766,7 @@ When the per thread flag has been passed to your simulation, it should output in
       Thread   2:    ARR : 7      CPU : 23    I/O: 16     TRT : 123      END: 130
    
 4.4. --verbose
-~~~~~~~~~~~~~
+~~~~~~~~~~~~~~
 
 When the verbose flag has been passed to your simulation, it should output, at each state transition, information about the state transition that is occurring. It should be outputting this information ”on the fly”.
 
@@ -799,7 +799,7 @@ This continues until the end of the simulation:
    SIMULATION COMPLETED !
 
 4.5. Multiple Flags
-~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~
 
 If multiple flags are input, all should be printed, in this order:
 
@@ -810,5 +810,5 @@ If multiple flags are input, all should be printed, in this order:
 
 
 4.6. Recommendations
-~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~
 Again, it is highly recommended that you take advantage of the existing logger functionality!

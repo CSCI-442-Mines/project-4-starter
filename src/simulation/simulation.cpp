@@ -214,8 +214,7 @@ SystemStats Simulation::calculate_statistics() {
             - total_io_time
             - total_idle_time
             - cpu_utilization
-            - cpu_efficiency
-            
+            - cpu_efficiency  
     */
     return this->system_stats;
 }
