@@ -23,8 +23,8 @@ if [[ $? -ne 0 ]]; then
     exit 1
 fi
 
-zip -r $USER-submission -r Makefile src/ 
+zip -r USER-submission reverse.c Makefile
 echo -e "${GREEN}Zip file successfully created"
-echo -e "${GREEN}Submit $USER-submission to gradescope for the coresponding deliverable"
+echo -e "${GREEN}Rename USER-submission with your username (for example, lukebeukelman-submission), then submit to gradescope for the coresponding deliverable"
 echo -e "${NC}"
 exit 0
