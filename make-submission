@@ -1,4 +1,4 @@
-#!/bin/bash
+d#!/bin/bash
 
 
 RED='\033[0;31m'
@@ -23,7 +23,7 @@ if [[ $? -ne 0 ]]; then
     exit 1
 fi
 
-zip -r USER-submission -r Makefile src/
+zip -r USER-submission -r Makefile src/ override.token
 echo -e "${GREEN}Zip file successfully created"
 echo -e "${GREEN}Rename USER-submission with your username (for example, lukebeukelman-submission), then submit to gradescope for the coresponding deliverable"
 echo -e "${NC}"
