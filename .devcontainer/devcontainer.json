@@ -1,0 +1,42 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/devcontainers/templates/tree/main/src/docker-existing-dockerfile
+{
+    "name": "CSCI 442 Environment",
+    "build": {
+        // Update the 'dockerFile' property if you aren't using the standard 'Dockerfile' filename.
+        "dockerfile": "Dockerfile"
+    },
+
+    // Features to add to the dev container. More info: https://containers.dev/features.
+    "features": {
+        // Added to make debugging optionally easier, to invoke just run "gdbgui"
+        "ghcr.io/devcontainers-contrib/features/gdbgui": {}
+    },
+
+    // Use 'forwardPorts' to make a list of ports inside the container available locally.
+    // "forwardPorts": [],
+
+    // Uncomment the next line to run commands after the container is created.
+    // "postCreateCommand": "cat /etc/os-release",
+
+    // Configure tool-specific properties.
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                // Needed for C/C++ in vscode
+                "ms-vscode.cpptools",
+                // Helps view raw contents of a hex file, useful especially in project 3
+                "ms-vscode.hexeditor",
+                // Additional tool for viewing git history and diffs between commits
+                "donjayamanne.githistory",
+                // Added to enable students to share their code when need debugging help,
+                // live share is essentialy google docs for vscode in how it enables
+                // collaboration
+				"ms-vsliveshare.vsliveshare"
+            ]
+        }
+    }
+
+    // Uncomment to connect as an existing user other than the container default. More info: https://aka.ms/dev-containers-non-root.
+    // "remoteUser": "devcontainer"
+}
