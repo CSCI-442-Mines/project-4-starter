@@ -56,11 +56,6 @@ The following is required for deliverable 1:
 
 2.1.1) All functionality present in the starter code
 
-        * While technically optional, it is highly recommended you use the starter code.
-
-        * Expect to spend 20+ hours of *additional work* to implement this functionality along with
-          limited TA support should you choose this route.
-
 2.1.2) Calculation of the necessary performance metrics
 
         * You should perform all calculations in ``src/simulation/simulation.cpp`` in ``calculate_statistics()``
@@ -490,7 +485,7 @@ able to easily undo them.
 4.1) General Requirements
 -------------------------
 
-- Your code must be written in C++ and compile using ``make`` on Isengard.
+- Your code must be written in C++ and compile using ``make`` on the docker image.
 
 - Your simulation should be able to be executed by typing ``./cpu-sim`` in the root directory of your repository.
 
