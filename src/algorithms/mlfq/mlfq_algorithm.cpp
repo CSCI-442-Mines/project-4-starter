@@ -10,22 +10,22 @@
     Here is where you should define the logic for the MLFQ algorithm.
 */
 
-MFLQScheduler::MFLQScheduler(int slice) {
+MLFQScheduler::MLFQScheduler(int slice) {
     if (slice != -1) {
         throw("MLFQ does NOT take a customizable time slice");
     }
 }
 
-std::shared_ptr<SchedulingDecision> MFLQScheduler::get_next_thread() {
+std::shared_ptr<SchedulingDecision> MLFQScheduler::get_next_thread() {
         // TODO: implement me!
         return nullptr;
 }
 
-void MFLQScheduler::add_to_ready_queue(std::shared_ptr<Thread> thread) {
+void MLFQScheduler::add_to_ready_queue(std::shared_ptr<Thread> thread) {
         // TODO: implement me!
 }
 
-size_t MFLQScheduler::size() const {
+size_t MLFQScheduler::size() const {
         // TODO: implement me!
         return 0;
 }

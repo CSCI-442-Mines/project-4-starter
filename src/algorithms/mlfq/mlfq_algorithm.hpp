@@ -7,7 +7,7 @@
 #include "utilities/stable_priority_queue/stable_priority_queue.hpp"
 
 /*
-    MFLQScheduler:
+    MLFQScheduler:
         A representation of a multi-level feedback queue scheduling algorithm.
 
         You are free to add any member functions or member variables that you
@@ -17,7 +17,7 @@
 
 using MLFQQueue = Stable_Priority_Queue<std::shared_ptr<Thread>>;
 
-class MFLQScheduler : public Scheduler {
+class MLFQScheduler : public Scheduler {
 public:
     
     //==================================================
@@ -30,7 +30,7 @@ public:
     //  Member functions
     //==================================================
 
-    MFLQScheduler(int slice = -1);
+    MLFQScheduler(int slice = -1);
 
     std::shared_ptr<SchedulingDecision> get_next_thread();
 
