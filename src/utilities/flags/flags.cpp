@@ -48,7 +48,7 @@ int parse_flags(int argc, char* const argv[], FlagOptions& flags) {
     };
 
     int option_index;
-    char flag_char;
+    int flag_char;
 
     // Parse flags entered by the user.
     while (true) {
