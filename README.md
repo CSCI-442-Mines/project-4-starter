@@ -89,6 +89,17 @@ this project.
 - If you have a question about what to do, you can likely find it in
   this (massive) section
 
+### General Requirements
+
+- Your code must be written in C++ and compile using `make` on the
+  docker image.
+- Your simulation should be able to be executed by typing `./cpu-sim`
+  in the root directory of your repository.
+- Your project must be memory safe, and have a zero exit status if no
+  errors are encountered.
+- Your project must not execute external programs or use network
+  resources.
+
 ### Simulation Information
 
 (This is implemented for you in the starter code **BUT** you should
@@ -381,7 +392,7 @@ No threads available for scheduling.
 Lastly, you may find `utilities/fmt/` to be useful in making these
 messages.
 
-### 3.4) Performance Metrics
+### Performance Metrics
 
 You need to calculate the following performance metrics:
 
@@ -401,9 +412,18 @@ You need to calculate the following performance metrics:
 
 See the `SystemStatistics` class and `Simulation::calculate_statistics()` for more information.
 
-### Tips
+## Tips
 
-#### Start small, and get things working incrementally
+### 1: Use the VS Code workspace
+
+If you're using VS Code (which we recommend), you can open the
+[`project-4.code-workspace`](project-4.code-workspace) file and click
+the `Open Workspace` button. This will open the project in a new window
+with the recommended settings. We've also included a debug configuration,
+allowing you to debug your program - all you need to do is go to the
+debug tab and click the green play button.
+
+### 2: Start small, and get things working incrementally
 
 You are given a _ton_ of starter code. While it may be tempting to
 \"dive right in and start hacking\", you are likely to end up with
@@ -448,7 +468,7 @@ This is a large project, if you do it all at once you will likely end up
 with minor bugs that are nearly impossible to fix. Start small and plan
 before you code.
 
-#### Test often
+### 3: Test often
 
 To help you test your project, we have provided a script
 `test-my-work.sh` to run your code on the provided input/output files.
@@ -469,7 +489,7 @@ If your output does not match the expected for a specific
 input/output/parameter combination, the script will stop and give your
 more details. Otherwise, it will print a `Test passed!` message.
 
-#### Keep old versions around
+### 4: Keep old versions around
 
 Keep copies of old versions of your program around, as you may introduce
 bugs and not be able to easily undo them.
@@ -477,30 +497,21 @@ bugs and not be able to easily undo them.
 - Use **git** for this. This project is already a Git repository, so
   take advantage of all the version control features git provides!
 
-## Logistics
+## Collaboration Policy
 
-### General Requirements
+This is an **individual project**. All code you submit should be written
+by yourself. You should not share your code with others.
 
-- Your code must be written in C++ and compile using `make` on the
-  docker image.
-- Your simulation should be able to be executed by typing `./cpu-sim`
-  in the root directory of your repository.
-- Your project must be memory safe, and have a zero exit status if no
-  errors are encountered.
-- Your project must not execute external programs or use network
-  resources.
+Please see the syllabus for the full collaboration policy.
 
-### Collaboration Policy
-
-Please see the syllabus for the course plagarism policies.
-
-This is an **individual project**. Plagarism cases will be punished
-harshly according to school policies.
+> [!WARNING]
+>
+> **Plagarism will be punished harshly!**
 
 Please do keep any Git repos private, even after you finish this course.
 This will keep the project fun for future students!
 
-### Submitting Your Project
+## Submitting Your Project
 
 Submission and grading of your project will be handled via
 **Gradescope**.
@@ -581,7 +592,8 @@ that:
 
 Any improper command line input should cause your program to print the
 help message and then immediately exit. Information on proper output
-formatting can be found in Section 9.
+formatting can be found in the [Output Formatting](#output-formatting)
+section.
 
 You are strongly encouraged to use the getopt family of functions to
 perform the command line parsing. Information on getopt can be found

@@ -1,35 +1,59 @@
-bin/
-mem-sim
-cpu-sim
-cpu-sim-tests
-.vscode
-*.dSYM
+# Build
+/bin
+/cpu-sim
 
-.DS_Store
-.AppleDouble
-.LSOverride
+# Submission
+*.zip
 
-Desktop.ini
-
-._*
-
-*.o
+# Prerequisites
 *.d
 
-Thumbs.db
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
 
-.DocumentRevisions-V100
-.fseventsd
-.Spotlight-V100
-.TemporaryItems
-.Trashes
-.VolumeIcon.icns
-.com.apple.timemachine.donotpresent
+# Linker output
+*.ilk
+*.map
+*.exp
 
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
+# Precompiled Headers
+*.gch
+*.pch
 
-__MACOSX/
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Kernel Module Compile Results
+*.mod*
+*.cmd
+.tmp_versions/
+modules.order
+Module.symvers
+Mkfile.old
+dkms.conf

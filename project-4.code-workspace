@@ -1,6 +1,7 @@
 {
   "extensions": {
     "recommendations": [
+      "EditorConfig.EditorConfig",
       "ms-vscode.cpptools-extension-pack"
     ]
   },
