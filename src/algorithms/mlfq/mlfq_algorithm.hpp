@@ -1,5 +1,5 @@
-#ifndef MFLQ_ALGORITHM_HPP
-#define MFLQ_ALGORITHM_HPP
+#ifndef MLFQ_ALGORITHM_HPP
+#define MLFQ_ALGORITHM_HPP
 
 #include <map>
 #include <memory>
