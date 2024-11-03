@@ -22,12 +22,12 @@ void print_usage() {
         "\n"
         "   -a, --algorithm <algorithm>:\n"
         "       The scheduling algorithm to use. Valid values are:\n"
+        "           CFS: completely-fair scheduling\n"
         "           FCFS: first-come, first-served (default)\n"
-        "           SPN: shortest process next\n"
-        "           RR: round-robin scheduling\n"
-        "           PRIORITY: priority scheduling\n"
         "           MLFQ: multilevel feedback queue\n"
-        "           CFS: completely-fair scheduling\n";
+        "           PRIORITY: priority scheduling\n"
+        "           RR: round-robin scheduling\n"
+        "           SPN: shortest process next\n";
 }
 
 

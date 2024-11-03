@@ -1,0 +1,122 @@
+At time 0:
+    THREAD_ARRIVED
+    Thread 0 in process 0 [SYSTEM]
+    Transitioned from NEW to READY
+
+At time 0:
+    DISPATCHER_INVOKED
+    Thread 0 in process 0 [SYSTEM]
+    Selected from 1 threads (vruntime = 0). Will run for at most 48 ticks.
+
+At time 0:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 0 [SYSTEM]
+    Transitioned from READY to RUNNING
+
+At time 10:
+    THREAD_ARRIVED
+    Thread 1 in process 0 [SYSTEM]
+    Transitioned from NEW to READY
+
+At time 10:
+    THREAD_ARRIVED
+    Thread 2 in process 0 [SYSTEM]
+    Transitioned from NEW to READY
+
+At time 48:
+    THREAD_PREEMPTED
+    Thread 0 in process 0 [SYSTEM]
+    Transitioned from RUNNING to READY
+
+At time 48:
+    DISPATCHER_INVOKED
+    Thread 1 in process 0 [SYSTEM]
+    Selected from 3 threads (vruntime = 0). Will run for at most 6 ticks.
+
+At time 48:
+    THREAD_DISPATCH_COMPLETED
+    Thread 1 in process 0 [SYSTEM]
+    Transitioned from READY to RUNNING
+
+At time 54:
+    THREAD_PREEMPTED
+    Thread 1 in process 0 [SYSTEM]
+    Transitioned from RUNNING to READY
+
+At time 54:
+    DISPATCHER_INVOKED
+    Thread 2 in process 0 [SYSTEM]
+    Selected from 3 threads (vruntime = 0). Will run for at most 6 ticks.
+
+At time 54:
+    THREAD_DISPATCH_COMPLETED
+    Thread 2 in process 0 [SYSTEM]
+    Transitioned from READY to RUNNING
+
+At time 60:
+    THREAD_PREEMPTED
+    Thread 2 in process 0 [SYSTEM]
+    Transitioned from RUNNING to READY
+
+At time 60:
+    DISPATCHER_INVOKED
+    Thread 0 in process 0 [SYSTEM]
+    Selected from 3 threads (vruntime = 0). Will run for at most 6 ticks.
+
+At time 60:
+    THREAD_DISPATCH_COMPLETED
+    Thread 0 in process 0 [SYSTEM]
+    Transitioned from READY to RUNNING
+
+At time 66:
+    THREAD_PREEMPTED
+    Thread 0 in process 0 [SYSTEM]
+    Transitioned from RUNNING to READY
+
+At time 66:
+    DISPATCHER_INVOKED
+    Thread 1 in process 0 [SYSTEM]
+    Selected from 3 threads (vruntime = 0). Will run for at most 6 ticks.
+
+At time 66:
+    THREAD_DISPATCH_COMPLETED
+    Thread 1 in process 0 [SYSTEM]
+    Transitioned from READY to RUNNING
+
+At time 70:
+    THREAD_COMPLETED
+    Thread 1 in process 0 [SYSTEM]
+    Transitioned from RUNNING to EXIT
+
+At time 70:
+    DISPATCHER_INVOKED
+    Thread 2 in process 0 [SYSTEM]
+    Selected from 2 threads (vruntime = 0). Will run for at most 12 ticks.
+
+At time 70:
+    THREAD_DISPATCH_COMPLETED
+    Thread 2 in process 0 [SYSTEM]
+    Transitioned from READY to RUNNING
+
+At time 74:
+    THREAD_COMPLETED
+    Thread 2 in process 0 [SYSTEM]
+    Transitioned from RUNNING to EXIT
+
+At time 74:
+    DISPATCHER_INVOKED
+    Thread 0 in process 0 [SYSTEM]
+    Selected from 1 threads (vruntime = 0). Will run for at most 48 ticks.
+
+At time 74:
+    THREAD_DISPATCH_COMPLETED
+    Thread 0 in process 0 [SYSTEM]
+    Transitioned from READY to RUNNING
+
+At time 120:
+    THREAD_COMPLETED
+    Thread 0 in process 0 [SYSTEM]
+    Transitioned from RUNNING to EXIT
+
+SIMULATION COMPLETED!
+

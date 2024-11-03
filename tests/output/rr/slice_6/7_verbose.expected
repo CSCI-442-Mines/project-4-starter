@@ -1,0 +1,332 @@
+At time 0:
+    THREAD_ARRIVED
+    Thread 0 in process 0 [SYSTEM]
+    Transitioned from NEW to READY
+
+At time 0:
+    DISPATCHER_INVOKED
+    Thread 0 in process 0 [SYSTEM]
+    Selected from 1 threads. Will run for at most 6 ticks.
+
+At time 0:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 0 [SYSTEM]
+    Transitioned from READY to RUNNING
+
+At time 6:
+    THREAD_PREEMPTED
+    Thread 0 in process 0 [SYSTEM]
+    Transitioned from RUNNING to READY
+
+At time 6:
+    DISPATCHER_INVOKED
+    Thread 0 in process 0 [SYSTEM]
+    Selected from 1 threads. Will run for at most 6 ticks.
+
+At time 6:
+    THREAD_DISPATCH_COMPLETED
+    Thread 0 in process 0 [SYSTEM]
+    Transitioned from READY to RUNNING
+
+At time 10:
+    THREAD_ARRIVED
+    Thread 1 in process 0 [SYSTEM]
+    Transitioned from NEW to READY
+
+At time 10:
+    THREAD_ARRIVED
+    Thread 2 in process 0 [SYSTEM]
+    Transitioned from NEW to READY
+
+At time 12:
+    THREAD_PREEMPTED
+    Thread 0 in process 0 [SYSTEM]
+    Transitioned from RUNNING to READY
+
+At time 12:
+    DISPATCHER_INVOKED
+    Thread 1 in process 0 [SYSTEM]
+    Selected from 3 threads. Will run for at most 6 ticks.
+
+At time 12:
+    THREAD_DISPATCH_COMPLETED
+    Thread 1 in process 0 [SYSTEM]
+    Transitioned from READY to RUNNING
+
+At time 18:
+    THREAD_PREEMPTED
+    Thread 1 in process 0 [SYSTEM]
+    Transitioned from RUNNING to READY
+
+At time 18:
+    DISPATCHER_INVOKED
+    Thread 2 in process 0 [SYSTEM]
+    Selected from 3 threads. Will run for at most 6 ticks.
+
+At time 18:
+    THREAD_DISPATCH_COMPLETED
+    Thread 2 in process 0 [SYSTEM]
+    Transitioned from READY to RUNNING
+
+At time 24:
+    THREAD_PREEMPTED
+    Thread 2 in process 0 [SYSTEM]
+    Transitioned from RUNNING to READY
+
+At time 24:
+    DISPATCHER_INVOKED
+    Thread 0 in process 0 [SYSTEM]
+    Selected from 3 threads. Will run for at most 6 ticks.
+
+At time 24:
+    THREAD_DISPATCH_COMPLETED
+    Thread 0 in process 0 [SYSTEM]
+    Transitioned from READY to RUNNING
+
+At time 30:
+    THREAD_PREEMPTED
+    Thread 0 in process 0 [SYSTEM]
+    Transitioned from RUNNING to READY
+
+At time 30:
+    DISPATCHER_INVOKED
+    Thread 1 in process 0 [SYSTEM]
+    Selected from 3 threads. Will run for at most 6 ticks.
+
+At time 30:
+    THREAD_DISPATCH_COMPLETED
+    Thread 1 in process 0 [SYSTEM]
+    Transitioned from READY to RUNNING
+
+At time 34:
+    THREAD_COMPLETED
+    Thread 1 in process 0 [SYSTEM]
+    Transitioned from RUNNING to EXIT
+
+At time 34:
+    DISPATCHER_INVOKED
+    Thread 2 in process 0 [SYSTEM]
+    Selected from 2 threads. Will run for at most 6 ticks.
+
+At time 34:
+    THREAD_DISPATCH_COMPLETED
+    Thread 2 in process 0 [SYSTEM]
+    Transitioned from READY to RUNNING
+
+At time 38:
+    THREAD_COMPLETED
+    Thread 2 in process 0 [SYSTEM]
+    Transitioned from RUNNING to EXIT
+
+At time 38:
+    DISPATCHER_INVOKED
+    Thread 0 in process 0 [SYSTEM]
+    Selected from 1 threads. Will run for at most 6 ticks.
+
+At time 38:
+    THREAD_DISPATCH_COMPLETED
+    Thread 0 in process 0 [SYSTEM]
+    Transitioned from READY to RUNNING
+
+At time 44:
+    THREAD_PREEMPTED
+    Thread 0 in process 0 [SYSTEM]
+    Transitioned from RUNNING to READY
+
+At time 44:
+    DISPATCHER_INVOKED
+    Thread 0 in process 0 [SYSTEM]
+    Selected from 1 threads. Will run for at most 6 ticks.
+
+At time 44:
+    THREAD_DISPATCH_COMPLETED
+    Thread 0 in process 0 [SYSTEM]
+    Transitioned from READY to RUNNING
+
+At time 50:
+    THREAD_PREEMPTED
+    Thread 0 in process 0 [SYSTEM]
+    Transitioned from RUNNING to READY
+
+At time 50:
+    DISPATCHER_INVOKED
+    Thread 0 in process 0 [SYSTEM]
+    Selected from 1 threads. Will run for at most 6 ticks.
+
+At time 50:
+    THREAD_DISPATCH_COMPLETED
+    Thread 0 in process 0 [SYSTEM]
+    Transitioned from READY to RUNNING
+
+At time 56:
+    THREAD_PREEMPTED
+    Thread 0 in process 0 [SYSTEM]
+    Transitioned from RUNNING to READY
+
+At time 56:
+    DISPATCHER_INVOKED
+    Thread 0 in process 0 [SYSTEM]
+    Selected from 1 threads. Will run for at most 6 ticks.
+
+At time 56:
+    THREAD_DISPATCH_COMPLETED
+    Thread 0 in process 0 [SYSTEM]
+    Transitioned from READY to RUNNING
+
+At time 62:
+    THREAD_PREEMPTED
+    Thread 0 in process 0 [SYSTEM]
+    Transitioned from RUNNING to READY
+
+At time 62:
+    DISPATCHER_INVOKED
+    Thread 0 in process 0 [SYSTEM]
+    Selected from 1 threads. Will run for at most 6 ticks.
+
+At time 62:
+    THREAD_DISPATCH_COMPLETED
+    Thread 0 in process 0 [SYSTEM]
+    Transitioned from READY to RUNNING
+
+At time 68:
+    THREAD_PREEMPTED
+    Thread 0 in process 0 [SYSTEM]
+    Transitioned from RUNNING to READY
+
+At time 68:
+    DISPATCHER_INVOKED
+    Thread 0 in process 0 [SYSTEM]
+    Selected from 1 threads. Will run for at most 6 ticks.
+
+At time 68:
+    THREAD_DISPATCH_COMPLETED
+    Thread 0 in process 0 [SYSTEM]
+    Transitioned from READY to RUNNING
+
+At time 74:
+    THREAD_PREEMPTED
+    Thread 0 in process 0 [SYSTEM]
+    Transitioned from RUNNING to READY
+
+At time 74:
+    DISPATCHER_INVOKED
+    Thread 0 in process 0 [SYSTEM]
+    Selected from 1 threads. Will run for at most 6 ticks.
+
+At time 74:
+    THREAD_DISPATCH_COMPLETED
+    Thread 0 in process 0 [SYSTEM]
+    Transitioned from READY to RUNNING
+
+At time 80:
+    THREAD_PREEMPTED
+    Thread 0 in process 0 [SYSTEM]
+    Transitioned from RUNNING to READY
+
+At time 80:
+    DISPATCHER_INVOKED
+    Thread 0 in process 0 [SYSTEM]
+    Selected from 1 threads. Will run for at most 6 ticks.
+
+At time 80:
+    THREAD_DISPATCH_COMPLETED
+    Thread 0 in process 0 [SYSTEM]
+    Transitioned from READY to RUNNING
+
+At time 86:
+    THREAD_PREEMPTED
+    Thread 0 in process 0 [SYSTEM]
+    Transitioned from RUNNING to READY
+
+At time 86:
+    DISPATCHER_INVOKED
+    Thread 0 in process 0 [SYSTEM]
+    Selected from 1 threads. Will run for at most 6 ticks.
+
+At time 86:
+    THREAD_DISPATCH_COMPLETED
+    Thread 0 in process 0 [SYSTEM]
+    Transitioned from READY to RUNNING
+
+At time 92:
+    THREAD_PREEMPTED
+    Thread 0 in process 0 [SYSTEM]
+    Transitioned from RUNNING to READY
+
+At time 92:
+    DISPATCHER_INVOKED
+    Thread 0 in process 0 [SYSTEM]
+    Selected from 1 threads. Will run for at most 6 ticks.
+
+At time 92:
+    THREAD_DISPATCH_COMPLETED
+    Thread 0 in process 0 [SYSTEM]
+    Transitioned from READY to RUNNING
+
+At time 98:
+    THREAD_PREEMPTED
+    Thread 0 in process 0 [SYSTEM]
+    Transitioned from RUNNING to READY
+
+At time 98:
+    DISPATCHER_INVOKED
+    Thread 0 in process 0 [SYSTEM]
+    Selected from 1 threads. Will run for at most 6 ticks.
+
+At time 98:
+    THREAD_DISPATCH_COMPLETED
+    Thread 0 in process 0 [SYSTEM]
+    Transitioned from READY to RUNNING
+
+At time 104:
+    THREAD_PREEMPTED
+    Thread 0 in process 0 [SYSTEM]
+    Transitioned from RUNNING to READY
+
+At time 104:
+    DISPATCHER_INVOKED
+    Thread 0 in process 0 [SYSTEM]
+    Selected from 1 threads. Will run for at most 6 ticks.
+
+At time 104:
+    THREAD_DISPATCH_COMPLETED
+    Thread 0 in process 0 [SYSTEM]
+    Transitioned from READY to RUNNING
+
+At time 110:
+    THREAD_PREEMPTED
+    Thread 0 in process 0 [SYSTEM]
+    Transitioned from RUNNING to READY
+
+At time 110:
+    DISPATCHER_INVOKED
+    Thread 0 in process 0 [SYSTEM]
+    Selected from 1 threads. Will run for at most 6 ticks.
+
+At time 110:
+    THREAD_DISPATCH_COMPLETED
+    Thread 0 in process 0 [SYSTEM]
+    Transitioned from READY to RUNNING
+
+At time 116:
+    THREAD_PREEMPTED
+    Thread 0 in process 0 [SYSTEM]
+    Transitioned from RUNNING to READY
+
+At time 116:
+    DISPATCHER_INVOKED
+    Thread 0 in process 0 [SYSTEM]
+    Selected from 1 threads. Will run for at most 6 ticks.
+
+At time 116:
+    THREAD_DISPATCH_COMPLETED
+    Thread 0 in process 0 [SYSTEM]
+    Transitioned from READY to RUNNING
+
+At time 120:
+    THREAD_COMPLETED
+    Thread 0 in process 0 [SYSTEM]
+    Transitioned from RUNNING to EXIT
+
+SIMULATION COMPLETED!
+

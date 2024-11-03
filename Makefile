@@ -33,7 +33,7 @@ $(NAME): bin/main.o $(IMPL_OBJS)
 	g++ $(CPPFLAGS) $^ -o $(NAME)
 
 clean:
-	rm -rf $(NAME) bin/
+	rm -rf $(NAME) bin/ tests/output/{*,*/*}/*.{actual,diff}
 
 $(SRCS): | bin
 

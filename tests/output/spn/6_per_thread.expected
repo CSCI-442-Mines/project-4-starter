@@ -1,0 +1,7 @@
+SIMULATION COMPLETED!
+
+Process 0 [SYSTEM]:
+    Thread  0:    ARR: 0      CPU: 100    I/O: 0      TRT: 120    END: 120   
+    Thread  1:    ARR: 0      CPU: 10     I/O: 0      TRT: 10     END: 10    
+    Thread  2:    ARR: 0      CPU: 10     I/O: 0      TRT: 20     END: 20    
+

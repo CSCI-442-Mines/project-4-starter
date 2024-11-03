@@ -46,10 +46,10 @@ possibly multi-threaded processes using a specified scheduling
 algorithm. For instance:
 
 ```shell
-./cpu-sim -a FCFS tests/input/input-1
+./cpu-sim --algorithm FCFS ./tests/input/1
 ```
 
-...would simulate the processes given in `tests/input/input-1` using
+...would simulate the processes given in `./tests/input/1` using
 the FCFS scheduling algorithm. See **the Appendix** for the full list of
 options. Note that the starter code parses these for you.
 
@@ -406,7 +406,7 @@ You need to calculate the following performance metrics:
 
 - $\text{CPU Utilization} = \frac{\text{Total Time} - \text{Total Idle Time}}{\text{Total Time}} \cdot 100$
 
-1.  CPU Efficiency
+8.  CPU Efficiency
 
 - $\text{CPU Efficiency} = \frac{\text{Total Service Time}}{\text{Total Time}} \cdot 100$
 
@@ -572,8 +572,12 @@ including the following command line flags:
 
 -a, --algorithm <algorithm>
    The scheduling algorithm to use. Valid values are:
-      FCFS: first come, first served (default)
-      RR: round robin scheduling
+      CFS: completely-fair scheduling
+      FCFS: first-come, first-served (default)
+      MLFQ: multilevel feedback queue
+      PRIORITY: priority scheduling
+      RR: round-robin scheduling
+      SPN: shortest process next
 ```
 
 Users should be able to pass any flags together, in any order, provided

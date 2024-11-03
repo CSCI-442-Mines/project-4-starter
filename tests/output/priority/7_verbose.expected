@@ -1,0 +1,62 @@
+At time 0:
+    THREAD_ARRIVED
+    Thread 0 in process 0 [SYSTEM]
+    Transitioned from NEW to READY
+
+At time 0:
+    DISPATCHER_INVOKED
+    Thread 0 in process 0 [SYSTEM]
+    [S: 1 I: 0 N: 0 B: 0] -> [S: 0 I: 0 N: 0 B: 0]. Will run to completion of burst.
+
+At time 0:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 0 [SYSTEM]
+    Transitioned from READY to RUNNING
+
+At time 10:
+    THREAD_ARRIVED
+    Thread 1 in process 0 [SYSTEM]
+    Transitioned from NEW to READY
+
+At time 10:
+    THREAD_ARRIVED
+    Thread 2 in process 0 [SYSTEM]
+    Transitioned from NEW to READY
+
+At time 100:
+    THREAD_COMPLETED
+    Thread 0 in process 0 [SYSTEM]
+    Transitioned from RUNNING to EXIT
+
+At time 100:
+    DISPATCHER_INVOKED
+    Thread 1 in process 0 [SYSTEM]
+    [S: 2 I: 0 N: 0 B: 0] -> [S: 1 I: 0 N: 0 B: 0]. Will run to completion of burst.
+
+At time 100:
+    THREAD_DISPATCH_COMPLETED
+    Thread 1 in process 0 [SYSTEM]
+    Transitioned from READY to RUNNING
+
+At time 110:
+    THREAD_COMPLETED
+    Thread 1 in process 0 [SYSTEM]
+    Transitioned from RUNNING to EXIT
+
+At time 110:
+    DISPATCHER_INVOKED
+    Thread 2 in process 0 [SYSTEM]
+    [S: 1 I: 0 N: 0 B: 0] -> [S: 0 I: 0 N: 0 B: 0]. Will run to completion of burst.
+
+At time 110:
+    THREAD_DISPATCH_COMPLETED
+    Thread 2 in process 0 [SYSTEM]
+    Transitioned from READY to RUNNING
+
+At time 120:
+    THREAD_COMPLETED
+    Thread 2 in process 0 [SYSTEM]
+    Transitioned from RUNNING to EXIT
+
+SIMULATION COMPLETED!
+

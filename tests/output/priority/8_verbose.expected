@@ -1,0 +1,102 @@
+At time 0:
+    THREAD_ARRIVED
+    Thread 0 in process 0 [SYSTEM]
+    Transitioned from NEW to READY
+
+At time 0:
+    DISPATCHER_INVOKED
+    Thread 0 in process 0 [SYSTEM]
+    [S: 1 I: 0 N: 0 B: 0] -> [S: 0 I: 0 N: 0 B: 0]. Will run to completion of burst.
+
+At time 0:
+    PROCESS_DISPATCH_COMPLETED
+    Thread 0 in process 0 [SYSTEM]
+    Transitioned from READY to RUNNING
+
+At time 2:
+    THREAD_ARRIVED
+    Thread 1 in process 0 [SYSTEM]
+    Transitioned from NEW to READY
+
+At time 4:
+    THREAD_ARRIVED
+    Thread 2 in process 0 [SYSTEM]
+    Transitioned from NEW to READY
+
+At time 4:
+    THREAD_COMPLETED
+    Thread 0 in process 0 [SYSTEM]
+    Transitioned from RUNNING to EXIT
+
+At time 4:
+    DISPATCHER_INVOKED
+    Thread 1 in process 0 [SYSTEM]
+    [S: 2 I: 0 N: 0 B: 0] -> [S: 1 I: 0 N: 0 B: 0]. Will run to completion of burst.
+
+At time 4:
+    THREAD_DISPATCH_COMPLETED
+    Thread 1 in process 0 [SYSTEM]
+    Transitioned from READY to RUNNING
+
+At time 6:
+    THREAD_ARRIVED
+    Thread 3 in process 0 [SYSTEM]
+    Transitioned from NEW to READY
+
+At time 6:
+    THREAD_COMPLETED
+    Thread 1 in process 0 [SYSTEM]
+    Transitioned from RUNNING to EXIT
+
+At time 6:
+    DISPATCHER_INVOKED
+    Thread 2 in process 0 [SYSTEM]
+    [S: 2 I: 0 N: 0 B: 0] -> [S: 1 I: 0 N: 0 B: 0]. Will run to completion of burst.
+
+At time 6:
+    THREAD_DISPATCH_COMPLETED
+    Thread 2 in process 0 [SYSTEM]
+    Transitioned from READY to RUNNING
+
+At time 8:
+    THREAD_ARRIVED
+    Thread 4 in process 0 [SYSTEM]
+    Transitioned from NEW to READY
+
+At time 8:
+    THREAD_COMPLETED
+    Thread 2 in process 0 [SYSTEM]
+    Transitioned from RUNNING to EXIT
+
+At time 8:
+    DISPATCHER_INVOKED
+    Thread 3 in process 0 [SYSTEM]
+    [S: 2 I: 0 N: 0 B: 0] -> [S: 1 I: 0 N: 0 B: 0]. Will run to completion of burst.
+
+At time 8:
+    THREAD_DISPATCH_COMPLETED
+    Thread 3 in process 0 [SYSTEM]
+    Transitioned from READY to RUNNING
+
+At time 10:
+    THREAD_COMPLETED
+    Thread 3 in process 0 [SYSTEM]
+    Transitioned from RUNNING to EXIT
+
+At time 10:
+    DISPATCHER_INVOKED
+    Thread 4 in process 0 [SYSTEM]
+    [S: 1 I: 0 N: 0 B: 0] -> [S: 0 I: 0 N: 0 B: 0]. Will run to completion of burst.
+
+At time 10:
+    THREAD_DISPATCH_COMPLETED
+    Thread 4 in process 0 [SYSTEM]
+    Transitioned from READY to RUNNING
+
+At time 12:
+    THREAD_COMPLETED
+    Thread 4 in process 0 [SYSTEM]
+    Transitioned from RUNNING to EXIT
+
+SIMULATION COMPLETED!
+
