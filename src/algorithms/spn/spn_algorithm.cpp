@@ -4,7 +4,7 @@
 #include <stdexcept>
 
 #define FMT_HEADER_ONLY
-#include "utilities/fmt/format.h"
+#include <fmt/format.h>
 
 /*
     Here is where you should define the logic for the SPN algorithm.

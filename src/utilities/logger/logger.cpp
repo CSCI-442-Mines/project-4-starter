@@ -10,7 +10,8 @@
 #include "types/process/process.hpp"
 #include "types/system_stats/system_stats.hpp"
 
-#include "utilities/fmt/format.h"
+#define FMT_HEADER_ONLY
+#include <fmt/format.h>
 
 
 void Logger::print_state_transition(const std::shared_ptr<Event> event, ThreadState before_state, ThreadState after_state) const {
@@ -47,9 +48,9 @@ void Logger::print_per_thread_metrics(std::shared_ptr<Process> process) const {
     This prints something like this:
 
     Process 1 [SYSTEM]:
-        Thread  0:    ARR: 5      CPU: 8      I/O: 3      TRT: 92     END: 97    
-        Thread  1:    ARR: 6      CPU: 5      I/O: 2      TRT: 69     END: 75    
-        Thread  2:    ARR: 7      CPU: 23     I/O: 16     TRT: 123    END: 130  
+        Thread  0:    ARR: 5      CPU: 8      I/O: 3      TRT: 92     END: 97
+        Thread  1:    ARR: 6      CPU: 5      I/O: 2      TRT: 69     END: 75
+        Thread  2:    ARR: 7      CPU: 23     I/O: 16     TRT: 123    END: 130
     */
 
     if (!this->per_thread) {

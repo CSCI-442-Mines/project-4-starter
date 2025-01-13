@@ -113,11 +113,9 @@ function run_test {
 	return 0
 }
 
-# Check if the binary exists
-if [ ! -f "${BINARY}" ]; then
-	echo -e "${ERROR} No binary found at ${BINARY}! (Did you remember to run 'make'?)"
-	exit 1
-fi
+# Build everything
+echo -e "${DEBUG} Building everything..."
+make cpu-sim
 
 # Run tests
 ALL_TESTS_PASSED=true

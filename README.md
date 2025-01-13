@@ -389,8 +389,7 @@ No threads available for scheduling.
 - `v` is the number of threads of that priority (`S = SYSTEM`, etc.)
   AFTER the chosen thread is removed.
 
-Lastly, you may find `utilities/fmt/` to be useful in making these
-messages.
+Lastly, you may find the [`fmt` library](https://fmt.dev) to be useful in making these messages.
 
 ### Performance Metrics
 
