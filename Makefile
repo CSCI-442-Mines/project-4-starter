@@ -40,7 +40,7 @@ clean:
 	rm -rf $(NAME) bin/ tests/output/{*,*/*}/*.{actual,diff}
 
 # Make the submission archive.
-submission: e2e-tests
+submission: $(NAME)
 	@read -p "Enter your Mines multipass username: " USERNAME && \
 	zip -r "$${USERNAME}-submission.zip" ./src ./Makefile ./override.token
 
