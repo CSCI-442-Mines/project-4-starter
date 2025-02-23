@@ -1,6 +1,8 @@
 # CSCI-442 Project 4: CPU Scheduling Simulator
 
-> [!WARNING] Please see the assignment on Canvas for dates.
+> [!WARNING]
+>
+> Please see the assignment on Canvas for dates.
 
 > [!IMPORTANT]
 >
@@ -66,7 +68,9 @@ The following is required for deliverable 2:
   - PRIORITY
   - MLFQ
 
-> [!WARNING] The algorithms required in Deliverable 2 are **MUCH** more complicated than those in
+> [!WARNING]
+>
+> The algorithms required in Deliverable 2 are **MUCH** more complicated than those in
 > Deliverable 1. Expect to spend more time on Deliverable 2 than Deliverable 1.
 
 ## Various Project Specifications
@@ -468,7 +472,9 @@ make submission
 You can re-submit as many times as you want before the due date, but note the project will not be
 graded until a few days after the due date, **NOT** on-submission (similar to Canvas).
 
-> [!WARNING] You are **REQUIRED** to use `make submission` to form the `.zip` file. Failure to do so
+> [!WARNING]
+>
+> You are **REQUIRED** to use `make submission` to form the `.zip` file. Failure to do so
 > may cause your program to not compile on Gradescope. A penalty to your grade will be applied if
 > you need to resubmit due to compilation issues stemming from not using this script.
 
