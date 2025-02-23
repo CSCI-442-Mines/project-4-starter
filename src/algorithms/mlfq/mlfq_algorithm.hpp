@@ -19,7 +19,7 @@ using MLFQQueue = Stable_Priority_Queue<std::shared_ptr<Thread>>;
 
 class MLFQScheduler : public Scheduler {
 public:
-    
+
     //==================================================
     //  Member variables
     //==================================================

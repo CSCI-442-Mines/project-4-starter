@@ -20,7 +20,7 @@
 */
 
 // "typedef" this type
-using PriorityQueue = Stable_Priority_Queue<std::shared_ptr<Thread>>; 
+using PriorityQueue = Stable_Priority_Queue<std::shared_ptr<Thread>>;
 
 class PRIORITYScheduler : public Scheduler {
 private:

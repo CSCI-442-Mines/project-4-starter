@@ -32,8 +32,17 @@ DEPS = $(SRCS:src/%.cpp=bin/%.d)
 $(NAME): bin/main.o $(IMPL_OBJS)
 	g++ $(CPPFLAGS) $^ -o $(NAME)
 
+# Run the end to end (e2e) tests.
+e2e-tests: $(NAME)
+	@./utils/e2e-tests.sh
+
 clean:
 	rm -rf $(NAME) bin/ tests/output/{*,*/*}/*.{actual,diff}
+
+# Make the submission archive.
+submission: e2e-tests
+	@read -p "Enter your Mines multipass username: " USERNAME && \
+	zip -r "$${USERNAME}-submission.zip" ./src ./Makefile ./override.token
 
 $(SRCS): | bin
 

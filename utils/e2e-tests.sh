@@ -1,6 +1,7 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
-# Test your work using the provided test cases
+# End to end (e2e) tests
+# Run this via make e2e-tests
 
 ################################################################################
 #                                   Settings                                   #
@@ -23,6 +24,9 @@ MODES=("metrics" "per_thread" "verbose")
 #                                  Internals                                   #
 ################################################################################
 
+# Exit on undefined variables and pipe failures
+set -uo pipefail
+
 # ANSI color codes
 GRAY="\033[0;37m"
 RED="\033[0;31m"
@@ -39,11 +43,11 @@ ERROR="${RED}[ERROR]${RESET}"
 # Preemptive algorithms
 PREEMPTIVE_ALGORITHMS=("cfs" "rr")
 
-# Get the directory of the script
-SCRIPT_DIR="$(dirname "$(readlink -f "${0}")")"
+# Get the directory of the project root
+ROOT_DIR="$(dirname "$(dirname "$(readlink -f "${0}")")")"
 
 # Get the path to the binary
-BINARY="${SCRIPT_DIR}/cpu-sim"
+BINARY="${ROOT_DIR}/cpu-sim"
 
 # Run a test
 # Parameters:
@@ -53,27 +57,28 @@ BINARY="${SCRIPT_DIR}/cpu-sim"
 # - $4: The time slice (only for preemptive algorithms)
 # Globals:
 # - BINARY: The path to the binary
-# - SCRIPT_DIR: The directory of the script
+# - ROOT_DIR: The directory of the project root
 function run_test {
 	# Generate the input and output file names
 
 	# Non-preemptive algorithm
 	if [ "${#}" -eq 3 ]; then
-		local OUTPUT_BASE_NAME="${SCRIPT_DIR}/tests/output/${1}/${2}_${3}"
+		local OUTPUT_BASE_NAME="${ROOT_DIR}/tests/output/${1}/${2}_${3}"
 		local COMMAND="${BINARY} --${3} --algorithm ${1}"
 	# Preemptive algorithm
 	elif [ "${#}" -eq 4 ]; then
-		local OUTPUT_BASE_NAME="${SCRIPT_DIR}/tests/output/${1}/slice_${4}/${2}_${3}"
+		local OUTPUT_BASE_NAME="${ROOT_DIR}/tests/output/${1}/slice_${4}/${2}_${3}"
 		local COMMAND="${BINARY} --${3} --algorithm ${1} --time_slice ${4}"
 	else
 		echo -e "${ERROR} Invalid number of arguments!"
 		return 1
 	fi
 
-	local INPUT_NAME="${SCRIPT_DIR}/tests/input/${2}"
+	local INPUT_NAME="${ROOT_DIR}/tests/input/${2}"
 	local OUTPUT_EXEPECTED_NAME="${OUTPUT_BASE_NAME}.expected"
 	local OUTPUT_ACTUAL_NAME="${OUTPUT_BASE_NAME}.actual"
-	local DIFF_NAME="${OUTPUT_BASE_NAME}.diff"
+	local OUTPUT_DIFF_NAME="${OUTPUT_BASE_NAME}.diff"
+
 	local COMMAND="${COMMAND} ${INPUT_NAME}"
 
 	# Ensure the input file exists
@@ -89,7 +94,7 @@ function run_test {
 	fi
 
 	# Delete old output files
-	rm -f "${OUTPUT_ACTUAL_NAME}" "${DIFF_NAME}"
+	rm -f ${OUTPUT_BASE_NAME}.{actual,diff}
 
 	# Run the command
 	echo -e "${DEBUG} Running: ${COMMAND} > ${OUTPUT_ACTUAL_NAME}"
@@ -100,26 +105,27 @@ function run_test {
 	fi
 
 	# Compare the output
-	DIFF=$(diff --ignore-space-change --ignore-blank-lines "${OUTPUT_ACTUAL_NAME}" "${OUTPUT_EXEPECTED_NAME}")
+	local DIFF=$(diff --label "Expected output" --label "Actual output" --unified --ignore-space-change --ignore-blank-lines "${OUTPUT_EXEPECTED_NAME}" "${OUTPUT_ACTUAL_NAME}")
 
-	if [ "${DIFF}" == "" ]; then
-		echo -e "${SUCCESS} Test passed! (Algorithm: ${1}, case: ${2}, mode: ${3}, time slice: ${4:-N/A}, output: ${OUTPUT_ACTUAL_NAME})"
-	else
-		echo "${DIFF}" > "${DIFF_NAME}"
-		echo -e "${ERROR} Test failed! (Algorithm: ${1}, case: ${2}, mode: ${3}, time slice: ${4:-N/A}, diff: ${DIFF_NAME})"
+	if [ "${DIFF}" != "" ]; then
+		echo "${DIFF}" > "${OUTPUT_DIFF_NAME}"
+		echo -e "${ERROR} Test failed! (Algorithm: ${1}, case: ${2}, mode: ${3}, time slice: ${4:-N/A}, diff: ${OUTPUT_DIFF_NAME})"
 		return 1
 	fi
+
+  echo -e "${SUCCESS} Test passed! (Algorithm: ${1}, case: ${2}, mode: ${3}, time slice: ${4:-N/A}, output: ${OUTPUT_ACTUAL_NAME})"
 
 	return 0
 }
 
-# Build everything
-echo -e "${DEBUG} Building everything..."
-make cpu-sim
+# Check if invoked by Make
+if [ "${MAKELEVEL:-0}" -ne 1 ]; then
+  echo -e "${ERROR} This script should be run via make e2e-tests!"
+  exit 1
+fi
 
-# Run tests
+# Run end to end tests
 ALL_TESTS_PASSED=true
-
 for ALGORITHM in "${ALGORITHMS[@]}"; do
 	for CASE in "${CASES[@]}"; do
 		for MODE in "${MODES[@]}"; do
@@ -158,6 +164,6 @@ if [ "${ALL_TESTS_PASSED}" == false ]; then
 	echo -e "${ERROR} Some tests failed!"
 	exit 1
 else
-	echo -e "${SUCCESS} All configured tests passed!"
+	echo -e "${SUCCESS} All configured end to end tests passed!"
 	exit 0
 fi

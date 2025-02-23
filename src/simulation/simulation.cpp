@@ -17,7 +17,7 @@ Simulation::Simulation(FlagOptions flags) {
 
     // TODO: Add your other algorithms as you make them
     } else {
-        throw("No scheduler found for " + flags.scheduler);        
+        throw("No scheduler found for " + flags.scheduler);
     }
     this->flags = flags;
     this->logger = Logger(flags.verbose, flags.per_thread, flags.metrics);
@@ -25,7 +25,7 @@ Simulation::Simulation(FlagOptions flags) {
 
 void Simulation::run() {
     this->read_file(this->flags.filename);
-    
+
     while (!this->events.empty()) {
         auto event = this->events.top();
         this->events.pop();
@@ -102,12 +102,12 @@ void Simulation::handle_thread_arrived(const std::shared_ptr<Event> event) {
 void Simulation::handle_dispatch_completed(const std::shared_ptr<Event> event) {
     event->thread->set_running(event->time);
 
-    /* 
+    /*
     Determine the appropriate next even and generate it as adequate
         - If the next CPU burst is > than the quantum generate a thread Premted event
         - Otherwise pop the CPU burst from the queue and determine if there is an I/O burst avaliable
             - If yes next event is an CPU Burst Complete
-            - If no next event is a Thread Complete 
+            - If no next event is a Thread Complete
     */
     std::shared_ptr<Event> new_event = nullptr;
     if (scheduler->time_slice == -1 || event->thread->get_next_burst(CPU)->length <= scheduler->time_slice) {
@@ -151,7 +151,7 @@ void Simulation::handle_io_burst_completed(const std::shared_ptr<Event> event) {
 
 void Simulation::handle_thread_completed(const std::shared_ptr<Event> event) {
     event->thread->set_finished(event->time);
-        
+
     // Just finished using the CPU, run the scheduler!
     auto new_event = Event(DISPATCHER_INVOKED, event->time, event_num++, nullptr, nullptr);
     add_event(std::make_shared<Event>(new_event));
@@ -193,7 +193,7 @@ void Simulation::handle_dispatcher_invoked(const std::shared_ptr<Event> event) {
     } else {
 
         // No threads in the ready queue ==> no threads to be scheduled
-        // Thus, the CPU will become _idle_ 
+        // Thus, the CPU will become _idle_
         active_thread = nullptr;
         return;
     }
@@ -214,7 +214,7 @@ SystemStats Simulation::calculate_statistics() {
             - total_io_time
             - total_idle_time
             - cpu_utilization
-            - cpu_efficiency  
+            - cpu_efficiency
     */
     return this->system_stats;
 }

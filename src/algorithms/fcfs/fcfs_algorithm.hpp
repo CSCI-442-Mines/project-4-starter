@@ -7,7 +7,7 @@
 /*
     FCFSScheduler:
         A representation of a scheduling queue that uses first-come, first-served logic.
-        
+
         This is a derived class from the base scheduling algorithm class.
 
         You are free to add any member functions or member variables that you
