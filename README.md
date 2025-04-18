@@ -41,32 +41,31 @@ processes using a specified scheduling algorithm. For instance:
 ./cpu-sim --algorithm FCFS ./tests/input/1
 ```
 
-...would simulate the processes given in `./tests/input/1` using the FCFS scheduling algorithm. See
-**the Appendix** for the full list of options. Note that the starter code parses these for you.
+...would simulate the processes given in `./tests/input/1` using the FCFS scheduling algorithm. See the
+[Command-Line Flags](#command-line-flags) section for more information on the command line
+arguments. Note that the starter code parses these for you.
 
 ### Deliverable 1
 
 The following is required for deliverable 1:
 
-- All functionality present in the starter code
-- Calculation of the necessary performance metrics
-
+- All functionality present in the starter code.
+- Calculation of the necessary performance metrics.
   - You should perform all calculations in `src/simulation/simulation.cpp` in
-    `calculate_statistics()`
-
-- Implement the following scheduling algorithms:
-  - FCFS
-  - SPN
-  - RR
+    `calculate_statistics()`.
+- Implement the following scheduling algorithms: FCFS, SPN, RR.
+  - These can be tested with `make e2e-tests`.
 
 ### Deliverable 2
 
 The following is required for deliverable 2:
 
-- All functionality required in Deliverable 1
-- Implement the following scheduling algorithms:
-  - PRIORITY
-  - MLFQ
+- All functionality required in deliverable 1
+- Implement the following **additional** scheduling algorithms: PRIORITY, MLFQ
+  - These can be tested with `make e2e-tests`.
+  - Please **comment** out the `ALGORITHMS=("fcfs" "rr" "spn") # Deliverable 1` line and
+    **uncomment** the `# ALGORITHMS=("fcfs" "mlfq" "priority" "rr" "spn") # Deliverable 2` line in
+    [`utils/e2e-tests.sh`](utils/e2e-tests.sh) to run the appropriate tests.
 
 > [!WARNING]
 >
@@ -485,7 +484,7 @@ need more information about some feature of the project, this information is giv
 
 Warning: Only the brave shall pass.
 
-### Command Line Parsing
+### Command-Line Flags
 
 Your simulation must support invocation in the format specified below, including the following
 command line flags:
