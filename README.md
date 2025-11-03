@@ -7,7 +7,7 @@
 > [!IMPORTANT]
 >
 > - You'll want to read this **entire document** before beginning the project. Please ask any
->   questions you have on Piazza, but only if this README does not answer your question.
+>   questions you have on Ed, but only if this README does not answer your question.
 > - Finally, this is a **large project**. Be sure to start early. If you wait until a few days
 >   before the due date, you are unlikely to finish in time.
 
