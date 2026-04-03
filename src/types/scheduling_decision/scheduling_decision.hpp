@@ -30,13 +30,6 @@ public:
             the Scheduler class for an example of what this should be.
     */
     std::string explanation;
-
-    /*
-        time_slice:
-            The time slice for preemptive algorithms. -1 if the thread
-            should not be preempted.
-    */
-    int time_slice = -1;
     
 };
 
